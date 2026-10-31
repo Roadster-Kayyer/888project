@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001206",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - To report illegal mining in forest areas of Tamil Nadu, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit the nearest forest range office.\"\n}",
+      "input_tokens": 832,
+      "output_tokens": 123,
+      "seconds": 9.620283300002484,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

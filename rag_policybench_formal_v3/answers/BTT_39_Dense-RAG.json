@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_39",
+  "doc_id": "PB_7f4c71e9895fc3caf31f",
+  "query_type": "BTT",
+  "query": "What must drivers do when driving in a tunnel to ensure they can handle ERP payments?",
+  "reference_answer": "Drivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "corpus_query_index": 33,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 2]\nPeople should head for the tunnel entrance or exit, whichever is safer.\n\n[Document 3]\nYou will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.\n\n[Document 4]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 5]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_e12438e446c271b6f34f",
+    "PB_0ef2de268e8e14db8c6f",
+    "PB_2858faae83bda4331fb6",
+    "PB_e29140d6b3a201be99ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7cb04ba4275a3f9b5cbb0c0263a21f2a7abd40aaabe6d18d11f79ce47d289082",
+  "answer": "When driving in tunnels, drivers must pre-insert their cash cards for ERP payments [Document 1]. Additionally, they should slow down, keep left, and be cautious of oncoming traffic [Document 4].",
+  "input_tokens": 384,
+  "output_tokens": 43,
+  "seconds": 487.4145677999986,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

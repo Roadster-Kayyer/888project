@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002956",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about emergency response procedures in Tamil Nadu.\",\n}",
+      "input_tokens": 1036,
+      "output_tokens": 67,
+      "seconds": 5.493416399996931,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\"}",
+      "input_tokens": 1076,
+      "output_tokens": 40,
+      "seconds": 3.4003995999992185,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

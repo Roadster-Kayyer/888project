@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006489",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The answer incorrectly directs to the FTC instead of local law enforcement or cyber crime helpline, which is not supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The answer incorrectly directs to the FTC instead of local law enforcement or cyber crime helpline, which is not supported by the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe reference specifies local law enforcement and cyber crime helpline as the correct channels for reporting online fraud, which is not reflected in the candidate's answer. The FTC is a federal agency and not the primary resource for local complaints about online scams. The evidence provided does not support the candidate's answer, hence the faithfulness score is null.",
+      "input_tokens": 407,
+      "output_tokens": 160,
+      "seconds": 12.548674600002414,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

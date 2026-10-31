@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006333",
+  "doc_id": "257",
+  "query_type": "casual",
+  "query": "How do I check on the status of my lost person report?",
+  "corpus_query_index": 6332,
+  "system": "BM25-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 4]\nFIR Status Search:\nTo search for FIR status online, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and click on the \"FIR Status\" or \"Citizen Services\" section. Enter your FIR number and other required details to check the status.\n\n[Document 5]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.",
+  "retrieved_doc_ids": [
+    "849",
+    "255",
+    "799",
+    "312",
+    "867"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4ac5a3cf94b90c6226d55528d697d554c3b3fe74b43cf22611e324b3a07040e2",
+  "answer": "To check the status of a lost person report, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in). Use the FIR Status Search section, enter your FIR number, and provide other details to check the status. [Document 4]",
+  "input_tokens": 446,
+  "output_tokens": 53,
+  "seconds": 6.805669800000032,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

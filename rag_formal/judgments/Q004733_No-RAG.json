@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004733",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks specific details on drafting the petition and the prescribed fee; evidence is absent."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct but lacks specific details on drafting the petition and the prescribed fee; evidence is absent.\",\n  \"evidence\": null\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it outlines the general steps for filing a writ petition in the Madras High Court. However, it does not fully cover the main reference facts, such as the need for a lawyer to prepare the petition, the importance of stating the grounds for the writ, and the relief sought. The faithfulness score is 1 because the candidate's answer is partially supported by the reference, which mentions the need for a lawyer and submission to the Registry but lacks details on the prescribed fee and",
+      "input_tokens": 427,
+      "output_tokens": 192,
+      "seconds": 14.611739300002228,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

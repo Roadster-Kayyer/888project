@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_20",
+  "doc_id": "PB_5c3115538294339c3ac4",
+  "query_type": "BTT",
+  "query": "Where must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+  "reference_answer": "They must travel along the left-hand lane of the expressway.",
+  "corpus_query_index": 13,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\n40 km/h\n\n[Document 2]\nThey must travel along the left-hand lane of the expressway.\n\n[Document 3]\nYou may refer to the table below for an infographic (available in English, Chinese, Malay and Tamil) and a video (with audio) which elaborate on the benefits of MRSS.To access these resources, you can click on the links below:InfographicVideoEnglishEnglishChinese (华文)Chinese (华文)Malay (Bahasa Melayu)Malay (Bahasa Melayu)Tamil (தமிழ்)Tamil (தமிழ்)\n\n[Document 4]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 5]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.",
+  "retrieved_doc_ids": [
+    "PB_5f8d1c2144f099bd0476",
+    "PB_5c3115538294339c3ac4",
+    "PB_303ff0b75e4d01bbe9c4",
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_8a851d564b8b1c6da3af"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "434f36980501608ea37c74f962ad54d0fe7b6353fe05f12a16945c0568dfa2b9",
+  "answer": "Vehicles with speed limits of 60 km/h and below must travel on the left-hand lane of the expressway [Document 2].",
+  "input_tokens": 319,
+  "output_tokens": 30,
+  "seconds": 4.083482399997592,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000833",
+  "doc_id": "1147",
+  "query_type": "casual",
+  "query": "So how do I get a no-due note from the judge?",
+  "corpus_query_index": 832,
+  "system": "Dense-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 2]\nFiling a Recusal Application:\nTo file a recusal application against a judge, you must submit a written petition to the court, stating the reasons for recusal. The petition should be filed through your lawyer, if you have one. The court will then consider your application and make a decision.\n\n[Document 3]\nFiling a Caveat Petition:\nTo file a caveat petition, submit a petition to the court, stating that you should be heard before any order is passed in a case. Pay the required fee and provide necessary documents. The court will then consider your petition and may grant or reject it.\n\n[Document 4]\nComplaint against a Judge:\nTo file a complaint against a judge, you can contact the High Court of Judicature at Madras or the Supreme Court of India. You can also file a complaint with the National Judicial Accountability Commission or the Tamil Nadu State Judicial Academy. Please note that the process may vary, and it's recommended to consult the official websites or seek guidance from a legal expert.\n\n[Document 5]\nObtaining a No Objection Certificate (NOC)\nTo obtain an NOC, visit your local police station with required documents (ID proof, address proof, etc.). Fill out the application form, submit documents, and pay the prescribed fee. The police will verify the details and issue the NOC.",
+  "retrieved_doc_ids": [
+    "1147",
+    "1144",
+    "1113",
+    "1122",
+    "820"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4cf15a47a60f417c82dc304ec3bd122f8e73855381e3d81cb513bbf73c9fe9fd",
+  "answer": "To get a No Due Note from the judge, file a petition with the court that issued the original order. Provide case details and ID proof. The court verifies and issues the certificate if no dues are outstanding [Document 1].",
+  "input_tokens": 460,
+  "output_tokens": 47,
+  "seconds": 6.029495699999643,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

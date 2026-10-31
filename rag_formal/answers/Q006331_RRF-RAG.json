@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006331",
+  "doc_id": "257",
+  "query_type": "original",
+  "query": "How can I track my missing person complaint status?",
+  "corpus_query_index": 6330,
+  "system": "RRF-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.\n\n[Document 2]\nOnline Complaint Status Tracking Portal:\nThe Tamil Nadu Police Department has an online portal called \"Citizen Portal\" where you can track the status of your complaint using a complaint number.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nMissing Person Report:\nTo file a missing person report, you need to provide:\n- Name and age of the missing person\n- Address and contact details\n- Description of the missing person\n- Last seen location and time\n- Any relevant identification documents\n\n[Document 5]\nReporting a Missing Person Online:\nYes, you can report a missing person online through the Tamil Nadu Police Department's website or the National Police Portal. You can also visit the nearest police station to file a report in person.",
+  "retrieved_doc_ids": [
+    "257",
+    "1354",
+    "255",
+    "274",
+    "265"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eed873796d48428af70c5b6a74691c78c459812c567e6644a4b61374093d50ed",
+  "answer": "Visit the Tamil Nadu Police Department’s website or use the Citizen Portal to track your missing person complaint status using the complaint number. [Document 1, Document 2]",
+  "input_tokens": 370,
+  "output_tokens": 35,
+  "seconds": 4.550016900000628,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

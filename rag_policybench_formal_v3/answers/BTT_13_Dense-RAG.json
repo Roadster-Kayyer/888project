@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_13",
+  "doc_id": "PB_f93c36f8738a815fe887",
+  "query_type": "BTT",
+  "query": "What is the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement?",
+  "reference_answer": "Three yellow reflective markings.",
+  "corpus_query_index": 5,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThree yellow reflective markings.\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 4]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_f93c36f8738a815fe887",
+    "PB_33b32af818c8c4223f8f",
+    "PB_89b7e5350f270a309ba9",
+    "PB_c41b88860662185c50b1",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80d9150eefaf0481db06783e014f962077166cb09ddd2d8b9dfdbefe13449f18",
+  "answer": "Based on Document 1, the minimum number of yellow reflective markings required on each side of a long vehicle (like a lorry or bus) for visibility enhancement is 3.",
+  "input_tokens": 355,
+  "output_tokens": 37,
+  "seconds": 4.5384817000012845,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

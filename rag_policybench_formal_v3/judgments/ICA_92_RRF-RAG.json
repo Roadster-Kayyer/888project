@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_92",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly distinguishes between visa and visit pass, addressing entry requirements and validity, supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly distinguishes between visa and visit pass, addressing entry requirements and validity, supported by Document 1 and Document 4.\"\n}\n\n\nDocument 1 explains that a visa is a pre-entry requirement, while a visit pass is granted upon arrival. Document 4 clarifies that the e-Pass is issued upon arrival and is for short-term visits. The candidate answer accurately reflects these points, making it correct and relevant. The evidence directly supports the factual claims made in the candidate answer, thus the faithfulness score is 2.",
+      "input_tokens": 1533,
+      "output_tokens": 161,
+      "seconds": 12.542507999998634,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

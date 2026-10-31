@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003588",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 2 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses cops' training and equipment for safety, and procedures for witnessing brutality and post-accident actions, supported by Document 2 and Document 4.\",\n}",
+      "input_tokens": 756,
+      "output_tokens": 79,
+      "seconds": 6.224273499999981,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 2 and Document 4.\"}",
+      "input_tokens": 796,
+      "output_tokens": 49,
+      "seconds": 4.075943100000586,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

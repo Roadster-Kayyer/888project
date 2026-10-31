@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007120",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines steps for reporting, includes relevant details, and is supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps for reporting, includes relevant details, and is supported by Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps to report the incident, which is relevant to the reference provided. The answer includes the necessary details such as visiting the police station, providing specific information about the incident, and contacting the Tamil Nadu Medical Council, which aligns with the reference's instructions. The evidence from Document 3 supports the factual claims made in the candidate answer, confirming its faithfulness to the supplied evidence. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to",
+      "input_tokens": 819,
+      "output_tokens": 192,
+      "seconds": 14.965835799994238,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_7",
+  "doc_id": "PB_bffdf08b037b0b8dbbbe",
+  "query_type": "BTT",
+  "query": "What is the time frame during which free parking is available on Sundays and public holidays in short-term parking lots?",
+  "reference_answer": "Free parking is available from 7am to 10.30pm.",
+  "corpus_query_index": 52,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nFree parking is available from 7am to 10.30pm.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.\n\n[Document 4]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 5]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.",
+  "retrieved_doc_ids": [
+    "PB_bffdf08b037b0b8dbbbe",
+    "PB_776de7439758761e5c43",
+    "PB_3de6df26cfd351caa37e",
+    "PB_f69aa5d536523684f1ff",
+    "PB_efc8a8e9bd021e1f3ab7"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "152931843245bfee5ea0ac02a85aab01be68e7fb3f812c43132090c478a056f9",
+  "answer": "Based on [Document 1] and [Document 2], free parking is available from 7am to 10:30pm on Sundays and public holidays. However, [Document 4] specifies that applications for short-term visit passes can only be submitted online and are processed excluding these days. Therefore, free parking is available but applications cannot be made on Sundays and public holidays.",
+  "input_tokens": 343,
+  "output_tokens": 80,
+  "seconds": 10.789239299992914,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

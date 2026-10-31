@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008908",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the legal consequences of double registration and accurately references the relevant documents and sections of law."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the legal consequences of double registration and accurately cites the relevant law and penalties, aligning with the evidence provided in Document 2.\",\n}",
+      "input_tokens": 849,
+      "output_tokens": 192,
+      "seconds": 15.028709500002151,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the legal consequences of double registration and accurately references the relevant documents and sections of law.\"}\n**Note:** The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is relevant to the question, correctly cites the legal consequences (faithfulness), and is directly related to the question about penalties for double registration (correctness). The reason is a concise summary of the evaluation.",
+      "input_tokens": 889,
+      "output_tokens": 119,
+      "seconds": 9.58913990000292,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

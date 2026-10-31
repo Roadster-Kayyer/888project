@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001071",
+  "doc_id": "1190",
+  "query_type": "original",
+  "query": "How do I check authenticity of a court order?",
+  "corpus_query_index": 1070,
+  "system": "BM25-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nVerifying Police Officer Authenticity:\nTo verify the authenticity of a police officer in plainclothes, ask for their:\n* ID card\n* Badge number\n* Contact the local police station to confirm their identity\n* Do not hesitate to ask for verification to ensure your safety\n\n[Document 5]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "retrieved_doc_ids": [
+    "1190",
+    "849",
+    "255",
+    "1900",
+    "2032"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4d6904f1d60c66fefe1831c2daf6099d21bd042b82379c63c75973bfecd4dc9f",
+  "answer": "To check the authenticity of a court order, visit the Tamil Nadu judiciary website or contact the court directly. Verify by checking the order's seal, signature, and stamp [Document 1].",
+  "input_tokens": 401,
+  "output_tokens": 39,
+  "seconds": 5.07025319999957,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008684",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the legal consequences of violence during strikes and property damage, supported by evidence from Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states legal consequences of violence during strikes and property damage, supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 749,
+      "output_tokens": 192,
+      "seconds": 14.802872000000207,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the legal consequences of violence during strikes and property damage, supported by evidence from Document 1 and Document 5.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and fully supported by the evidence provided in the documents. The reason given is a concise explanation of the scores.",
+      "input_tokens": 789,
+      "output_tokens": 95,
+      "seconds": 7.6188899999979185,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

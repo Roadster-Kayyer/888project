@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_18",
+  "doc_id": "PB_018edecf2d72972f45b3",
+  "query_type": "ICA_134",
+  "query": "What should I select if my passport is issued at an overseas mission instead of a Country/Place?",
+  "reference_answer": "If your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.",
+  "corpus_query_index": 212,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.\n\n[Document 2]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 3]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 4]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 5]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.",
+  "retrieved_doc_ids": [
+    "PB_018edecf2d72972f45b3",
+    "PB_cf24a4bb229a845e92d4",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_2e64264f3a3803434cab",
+    "PB_4263bcdcbe5d7206c780"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c11dfa9cd8a34b380119b6daef3fdadcd265862c3af7cbd843da4bfe6bfeccd2",
+  "answer": "If your passport is issued at an overseas mission, enter the location of that mission as the country/place of issue in your visa application. [Document 1]",
+  "input_tokens": 490,
+  "output_tokens": 33,
+  "seconds": 4.385037200001534,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

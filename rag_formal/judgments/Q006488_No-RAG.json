@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006488",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer provides relevant advice but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer provides relevant advice but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it directly addresses the question by offering tips on identifying fake content and actions to take. However, it does not directly cite or reference the specific instructions provided in the reference material, which would be necessary for a higher faithfulness score. The reason for the given scores is the absence of direct evidence from the reference in the candidate's answer.",
+      "input_tokens": 412,
+      "output_tokens": 143,
+      "seconds": 10.964585699999589,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

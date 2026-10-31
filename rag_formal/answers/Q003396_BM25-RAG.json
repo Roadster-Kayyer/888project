@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003396",
+  "doc_id": "161",
+  "query_type": "original",
+  "query": "What documents should I carry while driving in Tamil Nadu?",
+  "corpus_query_index": 3395,
+  "system": "BM25-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 2]\nFine for Not Carrying Driving License:\nIn Tamil Nadu, the fine for not carrying a driving license is ₹1,000 for the first offense and ₹2,000 for subsequent offenses, as per the Motor Vehicles Act. Always carry your driving license while driving to avoid penalties.\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nPepper Sprays:\nYes, pepper sprays are legal for women to carry in Tamil Nadu, but they should be used responsibly and only in self-defense situations.\n\n[Document 5]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority",
+  "retrieved_doc_ids": [
+    "161",
+    "870",
+    "35",
+    "1872",
+    "253"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "826577af0f3a716ca9142365bb85d542dceccfe7374549de00536130c0e3e5d8",
+  "answer": "While driving in Tamil Nadu, carry: \n- Valid driving license [Document 1]\n- Vehicle registration certificate [Document 1]\n- Insurance certificate [Document 1]\n- Pollution under control certificate [Document 1]\n- Vehicle fitness certificate (if applicable) [Document 1]",
+  "input_tokens": 391,
+  "output_tokens": 59,
+  "seconds": 7.515003700000307,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

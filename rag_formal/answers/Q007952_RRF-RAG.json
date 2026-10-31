@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007952",
+  "doc_id": "549",
+  "query_type": "formal",
+  "query": "What legal consequences arise from issuing death threats?",
+  "corpus_query_index": 7951,
+  "system": "RRF-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nMaking Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.\n\n[Document 2]\nCharacter Assassination:\nLegal consequences under IPC sections 499, 500. Imprisonment up to 2 years and/or fine.\n\n[Document 3]\nMaking Bomb Threats:\nMaking bomb threats can be considered a form of criminal intimidation under the IPC Section 506. The punishment can range from 1 to 7 years of imprisonment and a fine. Additionally, it can also be considered a terrorist act under the Unlawful Activities (Prevention) Act, 1967, with punishment ranging from 5 years to life imprisonment.\n\n[Document 4]\nCriminal Intimidation (Section 506 IPC):\nThe penalty for criminal intimidation under Section 506 IPC can include imprisonment for up to 7 years and a fine, or both. This applies to threats to cause death, injury, or harm to a person or their property.\n\n[Document 5]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.",
+  "retrieved_doc_ids": [
+    "549",
+    "554",
+    "570",
+    "576",
+    "713"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "27667d50972e853ea12dc43f69b62ed9d7d5f751ac9c88c76842b3347ec35fcd",
+  "answer": "Issuing death threats can lead to penalties ranging from 2 to 7 years in prison and a fine, according to Section 506 of the Indian Penal Code [Document 1]. Other forms of threats like character assassination and making bomb threats can result in up to 2 years in prison and a fine [Documents 2 & 3]. Criminal intimidation under Section 506 IPC can also lead to up to 7 years in prison and a fine [Document 4]. Additionally, property damage during disputes can involve fines and punishments under the IPC [Document 5].",
+  "input_tokens": 387,
+  "output_tokens": 119,
+  "seconds": 15.523516299999756,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

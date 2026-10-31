@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003516",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly lists the reforms, and is supported by evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly lists the reforms, and is supported by evidence from Documents 1 and 4.\",\n  \"evidence\": \"Documents 1 and 4 directly support the candidate's factual claims about the establishment of all-women police stations, the creation of a dedicated women's helpline, and the increase in female police personnel.\"\n}",
+      "input_tokens": 811,
+      "output_tokens": 192,
+      "seconds": 15.305547099997057,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

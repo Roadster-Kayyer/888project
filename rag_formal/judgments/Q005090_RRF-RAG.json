@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005090",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, and 3.\",\n}",
+      "input_tokens": 748,
+      "output_tokens": 67,
+      "seconds": 5.308509200000117,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes the types of crimes the Cyber Crime Wing handles (hacking, phishing, cyber fraud, and cyber stalking) and mentions their investigative and prosecutorial roles, which aligns with the information provided in the reference documents.\n- Relevance: The answer is directly relevant to the question as it specifically discusses the means by which the Cyber Crime Wing intervenes in cyber crimes.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in the documents, which all mention the types of crimes the Cyber Crime Wing handles and their roles in investigating and",
+      "input_tokens": 788,
+      "output_tokens": 192,
+      "seconds": 14.917316999999457,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

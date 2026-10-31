@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_17",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence from Documents 1 and 2, correctly identifying the self-employed status and associated MediSave contributions.\",\n}",
+      "input_tokens": 1278,
+      "output_tokens": 75,
+      "seconds": 6.093171299988171,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2.\"}",
+      "input_tokens": 1318,
+      "output_tokens": 46,
+      "seconds": 3.9243006000033347,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

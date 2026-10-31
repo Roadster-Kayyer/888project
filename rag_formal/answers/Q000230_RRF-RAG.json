@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000230",
+  "doc_id": "1038",
+  "query_type": "hard",
+  "query": "Which official records are necessary to commence a civil dispute?",
+  "corpus_query_index": 229,
+  "system": "RRF-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nFiling a Property Dispute Case in Tamil Nadu:\nTo file a property dispute case, approach the Civil Court in your district with documents like property deeds, sale agreements, and proof of ownership. You can hire a lawyer to help with the process, and the court will hear the case and deliver a verdict based on evidence presented.\n\n[Document 2]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 3]\nFiling a Labor Dispute Case:\nContact the Labor Department or the nearest Labor Court. Provide details of the dispute, employment records, and supporting documents. The Labor Court will guide you through the process and help resolve the dispute.\n\n[Document 4]\nFiling a Land Dispute Case in Tamil Nadu:\nTo file a land dispute case in Tamil Nadu:\n1. Gather documents (title deeds, property records).\n2. Approach the Sub-Court or District Court in your area.\n3. File a suit with the court, stating your claim and supporting documents.\n4. Follow court proceedings to resolve the dispute.\n\n[Document 5]\nApproaching Lok Adalat for Dispute Resolution:\nTo approach Lok Adalat, contact your local District Legal Services Authority or a nearby court. Provide details of your dispute, and a committee will assess your case for suitability. If accepted, a Lok Adalat hearing will be scheduled, where a panel will attempt to mediate a settlement between parties.",
+  "retrieved_doc_ids": [
+    "1071",
+    "78",
+    "1092",
+    "1077",
+    "1062"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "fc7a2acc9226b654d5b3f2cd73d7ef562c0ee9569bf56b9e67da3fd04baaf620",
+  "answer": "For a civil dispute, necessary documents include property deeds, sale agreements, and proof of ownership. For a labor dispute, provide employment records and supporting documents. [Document 1] [Document 2] [Document 4]",
+  "input_tokens": 458,
+  "output_tokens": 47,
+  "seconds": 6.134858200000053,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.43017578125
+}

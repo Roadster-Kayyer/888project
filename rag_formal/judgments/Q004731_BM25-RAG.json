@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004731",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process, is relevant to the question, and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process, is relevant to the question, and is supported by evidence from Documents 1 and 2.\"\n}",
+      "input_tokens": 887,
+      "output_tokens": 69,
+      "seconds": 5.47614479999902,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

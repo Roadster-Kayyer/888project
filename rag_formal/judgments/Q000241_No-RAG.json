@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000241",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits the police investigation and chargesheet filing steps; it partially supports the reference facts with a mention of filing a complaint and petition."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant but omits the police investigation and chargesheet filing steps; it partially supports the reference facts with a mention of filing a complaint and petition.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it correctly identifies the need to file a complaint with the police and mentions a formal petition in the district court, which aligns with the reference's steps. However, it lacks the detail about the police investigation and the chargesheet filing, which are crucial steps in the process according to the reference. The faithfulness score is 1 because the candidate's answer includes a substantive factual claim about filing a complaint and petition",
+      "input_tokens": 408,
+      "output_tokens": 192,
+      "seconds": 14.831058499999926,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

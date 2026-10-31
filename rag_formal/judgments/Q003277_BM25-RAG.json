@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003277",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate correctly identifies the showcasing of historical items but lacks detail on preservation methods; evidence partially supports this claim."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate correctly identifies the showcasing of historical items but lacks detail on preservation methods; evidence partially supports this claim.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}",
+      "input_tokens": 722,
+      "output_tokens": 192,
+      "seconds": 15.00556510000024,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

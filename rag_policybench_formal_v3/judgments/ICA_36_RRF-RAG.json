@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_36",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct and directly addresses the question, with evidence supporting the need to bring the e-Visa for verification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the recommendation but omits the method of retrieval, which is supported by Document 1.\",\n  \"evidence\": \"[Document 1]\n}",
+      "input_tokens": 1171,
+      "output_tokens": 192,
+      "seconds": 14.63381099999242,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":1,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct and directly addresses the question, with evidence supporting the need to bring the e-Visa for verification.\"}\n\nExplanation:\n- Correctness: The candidate answer is partly correct as it acknowledges that the e-Visa does not necessarily need to be printed but is recommended for verification, which aligns with the reference that suggests bringing the e-Visa to avoid inconvenience.\n- Relevance: The answer directly addresses the question about the necessity of the e-Visa for travel, which is the main point of inquiry.\n- Faithfulness: The evidence provided in Document 1 supports the candidate's claim that the e-Visa should be brought along for verification purposes, making the answer factually consistent with the supplied evidence.",
+      "input_tokens": 1211,
+      "output_tokens": 192,
+      "seconds": 15.022451900003944,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

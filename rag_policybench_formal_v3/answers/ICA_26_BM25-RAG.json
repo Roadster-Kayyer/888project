@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_26",
+  "doc_id": "PB_6cdb1150c49584cda270",
+  "query_type": "ICA_134",
+  "query": "There is a spelling mistake in my visa application. Can the visa application information be amended after the application has been submitted or approved?",
+  "reference_answer": "You must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "corpus_query_index": 221,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 2]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.\n\n[Document 3]\nA business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.\n\n[Document 4]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 5]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.",
+  "retrieved_doc_ids": [
+    "PB_6cdb1150c49584cda270",
+    "PB_98e41a7d780bc8508f25",
+    "PB_197ecc94e6c4cbcb96e9",
+    "PB_73589fc4535bd159b21d",
+    "PB_86ecb50c3ba0c8242aab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80eed434746258f53e593cd5b11ee4c2e185adcf09c4f3b7443b8f9192273e49",
+  "answer": "After submitting a visa application, you cannot amend the information. You need to submit a new visa application with the correct details instead. [Document 1]",
+  "input_tokens": 521,
+  "output_tokens": 32,
+  "seconds": 4.448495600008755,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

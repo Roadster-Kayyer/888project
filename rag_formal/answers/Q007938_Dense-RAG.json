@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007938",
+  "doc_id": "546",
+  "query_type": "casual",
+  "query": "How much do you get in trouble for sending scary texts?",
+  "corpus_query_index": 7937,
+  "system": "Dense-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.\n\n[Document 3]\nThreatening to Expose Private Information:\nUnder the IT Act, threatening to expose private information can lead to imprisonment up to 3 years and/or a fine up to ₹10,000.\n\n[Document 4]\nCyber Intimidation:\nPunishment for cyber intimidation can range from 3 to 7 years imprisonment and/or fine, under the IT Act and IPC sections.\n\n[Document 5]\nThreatening Journalists:\nThreatening journalists can attract 2-7 years imprisonment and/or fine, under IPC sections and the Journalists' Protection Act (if applicable).",
+  "retrieved_doc_ids": [
+    "546",
+    "545",
+    "571",
+    "565",
+    "567"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c1fcc715d9c84570fa4d52c8c2d9cf34f2eb3699e16edf72e3482a9d2933b1c3",
+  "answer": "Sending scary texts, like threatening messages, can result in up to 3 years imprisonment and/or a fine, under Section 506 of the IPC and the IT Act, [Document 1].",
+  "input_tokens": 334,
+  "output_tokens": 42,
+  "seconds": 5.298308699999325,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

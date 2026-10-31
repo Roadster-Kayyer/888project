@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_70",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states processing times for IC and passport applications as per Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states processing times for IC and passport applications as per Document 1 and Document 2.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. The answer directly addresses the question by stating the processing times for both IC and passport applications, which are supported by the information in Document 1 and Document 2. The evidence provided is sufficient and directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 834,
+      "output_tokens": 152,
+      "seconds": 12.193677500006743,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

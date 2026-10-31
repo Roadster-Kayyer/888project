@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_77",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks evidence, incorrectly states rescheduling is not possible without proof."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer lacks evidence, incorrectly states rescheduling is not possible without proof.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is not correct (0) because it inaccurately asserts that rescheduling is not possible without evidence, which contradicts the reference that suggests a form for requesting rescheduling. The relevance is rated as 1 because the answer addresses the question of rescheduling, but it fails to be fully correct due to the lack of evidence and incorrect assertion. Faithfulness is rated as 0 because the candidate's answer contains a major claim that is not supported by the evidence provided in the reference. The reason succinctly",
+      "input_tokens": 338,
+      "output_tokens": 192,
+      "seconds": 14.601790800006711,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

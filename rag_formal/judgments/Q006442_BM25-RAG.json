@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006442",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the methods for reporting domestic violence, supported by evidence from Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists reporting methods and includes additional support from AWPS, consistent with evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 806,
+      "output_tokens": 69,
+      "seconds": 5.719352500003879,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the methods for reporting domestic violence, supported by evidence from Documents 1, 2, and 5.\"}",
+      "input_tokens": 846,
+      "output_tokens": 55,
+      "seconds": 4.36694620000344,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

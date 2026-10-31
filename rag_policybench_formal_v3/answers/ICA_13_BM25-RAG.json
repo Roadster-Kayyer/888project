@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_13",
+  "doc_id": "PB_a34cf1b414679ac85035",
+  "query_type": "ICA_134",
+  "query": "What are the accepted COVID-19 vaccinations for entry into Singapore?",
+  "reference_answer": "Travellers are strongly encouraged to be vaccinated with COVID-19 WHO EUL vaccines. There are currently no requirements related to COVID-19 vaccines for entry to Singapore You may refer to the Entering Singapore page for full details on entry requirements.",
+  "corpus_query_index": 202,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTravellers are strongly encouraged to be vaccinated with COVID-19 WHO EUL vaccines. There are currently no requirements related to COVID-19 vaccines for entry to Singapore You may refer to the Entering Singapore page for full details on entry requirements.\n\n[Document 2]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 3]\nYou must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.\n\n[Document 4]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 5]\nThe 96-hour Visa Free Transit Facility (VFTF) may be available to nationals of the Commonwealth of Independent States (CIS)[1], Georgia, India, Turkmenistan and Ukraine; as well as selected[2] Nationals of the People's Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports.Transit travellers who satisfy the criteria for VFTF will have to meet the prevailing entry requirements before they are allowed entry into Singapore. Assessment for entry is determined by the ICA officers at the point of entry. Extension of stay for transit travellers under VFTF is strictly not allowed.Please refer to ICA websites for more information on the following:Visa Free Transit FacilityCheck if You Need an Entry Visa[1] CIS refers to: Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan.[2] These include holder of the PRC Travel Document, Hong Kong Special Administrative Region (SAR) Document of Identity (DOI) and Macau SAR Travel Permit. Holder of ordinary, diplomatic, public affairs and service PRC passports are excluded.",
+  "retrieved_doc_ids": [
+    "PB_a34cf1b414679ac85035",
+    "PB_ee19c47e62eb004069ad",
+    "PB_9b3d1195e8f4641e640b",
+    "PB_b9f29dbf832927f97985",
+    "PB_743c2b7ca9ad487e0937"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2f9484d042bc45661942cd0a0d9b940a694e863e78173861429d7d023a202389",
+  "answer": "According to the documents, Singapore encourages but does not require COVID-19 vaccinations for entry. No specific COVID-19 vaccine requirements are mentioned. [Document 1]",
+  "input_tokens": 843,
+  "output_tokens": 36,
+  "seconds": 4.793785400004708,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

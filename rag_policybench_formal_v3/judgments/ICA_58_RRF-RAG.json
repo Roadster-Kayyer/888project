@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_58",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the method to change address via ICA e-Service, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the method to change address via ICA e-Service, supported by Document 1.\",\n  \"evidence\": \"[Document 1] This service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.\"\n}\n\n\nIn the provided candidate answer, the correctness score is 2 because the answer is correct and covers the main reference fact that the service to change the address is no longer available at the police posts and ICA Services Centre, and the user should use the ICA e-Service instead. The relevance score is 2 because the answer directly addresses the question about changing the address at a police post/centre or ICA Services Centre",
+      "input_tokens": 705,
+      "output_tokens": 192,
+      "seconds": 14.786019100007252,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

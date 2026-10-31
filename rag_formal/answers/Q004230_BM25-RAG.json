@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004230",
+  "doc_id": "176",
+  "query_type": "hard",
+  "query": "Steps to take after my vehicle has been picked up by authorities.",
+  "corpus_query_index": 4229,
+  "system": "BM25-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 2]\nAdding Details to FIR:\nYes, you can add more details to your FIR after it has been registered. You can visit the police station where the FIR was filed and provide additional information to the investigating officer.\n\n[Document 3]\nTransferring Vehicle Ownership:\nTo transfer vehicle ownership in Tamil Nadu, follow these steps:\n1. Obtain a NOC from the previous owner.\n2. Fill Form 29 and 30.\n3. Submit documents to the RTO office.\n4. Pay the required fees.\n5. Get the vehicle inspected.\n\n[Document 4]\nModernization of Rural Police Stations:\nThe Tamil Nadu Police has taken steps to modernize rural police stations by:\n* Upgrading infrastructure and technology\n* Providing internet and computer facilities\n* Implementing online complaint registration systems\n\n[Document 5]\nRetrieving Impounded Vehicles:\nTo retrieve a vehicle impounded by police in Tamil Nadu, follow these steps:\n1. Contact the police station where the vehicle was impounded.\n2. Produce required documents (RC, insurance, driving license).\n3. Pay any pending fines or penalties.\n4. Obtain a release order from the police.",
+  "retrieved_doc_ids": [
+    "867",
+    "72",
+    "2053",
+    "1620",
+    "2051"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "dc4c40c7a8e6ddcaece602caa24ca80c6f60971ecd194c6ccaee0334e16bd49b",
+  "answer": "After your vehicle is impounded, contact the police station where it was impounded. Produce necessary documents like RC, insurance, and driving license. Pay any fines or penalties. An order for release will be issued by the police. [Document 5]",
+  "input_tokens": 428,
+  "output_tokens": 52,
+  "seconds": 6.922238799999832,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

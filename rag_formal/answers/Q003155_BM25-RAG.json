@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003155",
+  "doc_id": "1566",
+  "query_type": "hard",
+  "query": "How can the State Crime Records Bureau assist in uncovering criminal activities?",
+  "corpus_query_index": 3154,
+  "system": "BM25-RAG",
+  "reference_answer": "State Crime Records Bureau:\nThe State Crime Records Bureau collects, analyzes, and maintains crime data to aid in investigations. They provide intelligence and support to police units, helping to identify patterns and solve crimes.",
+  "context": "[Document 1]\nQuestion 3: Function of State Crime Records Bureau\nThe State Crime Records Bureau in Tamil Nadu collects, analyzes, and maintains crime data to aid in investigations, crime prevention, and policy-making, and also provides fingerprint and forensic services.\n\n[Document 2]\nState Crime Records Bureau:\nThe State Crime Records Bureau collects, analyzes, and maintains crime data to aid in investigations. They provide intelligence and support to police units, helping to identify patterns and solve crimes.\n\n[Document 3]\n1. State Crime Records Bureau (SCRB) Cases:\nThe SCRB handles cases related to crime records, statistics, and analysis. This includes maintaining records of crimes, providing crime data to police units, and assisting in investigations.\n\n[Document 4]\nVehicle Theft Records:\nThe website for checking vehicle theft records is the Tamil Nadu Police Department's official website (tnpolice.gov.in) or the National Crime Records Bureau (NCRB) website (ncrb.gov.in).\n\n[Document 5]\nTamil Nadu Crime Statistics Portal:\nTo access the Tamil Nadu crime statistics portal, visit the official Tamil Nadu Police Department website (tnpolice.gov.in) and click on the \"Crime Statistics\" or \"Citizen Services\" section. You can also visit the National Crime Records Bureau (NCRB) website for state-wise crime data.",
+  "retrieved_doc_ids": [
+    "1918",
+    "1566",
+    "222",
+    "313",
+    "326"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5931ffd057238db51cbbef19efc6dea11b31359070fc43721853b30c16fab21a",
+  "answer": "The State Crime Records Bureau assists in uncovering criminal activities by collecting, analyzing, and maintaining crime data to aid investigations, provide intelligence to police units, and maintain crime records. [Document 1]",
+  "input_tokens": 391,
+  "output_tokens": 41,
+  "seconds": 5.303555700000288,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

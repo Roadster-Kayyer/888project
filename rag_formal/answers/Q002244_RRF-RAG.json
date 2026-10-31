@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002244",
+  "doc_id": "1401",
+  "query_type": "search",
+  "query": "Can you tell me about the methods used by authorities to combat exploitation of tribal artisans?",
+  "corpus_query_index": 2243,
+  "system": "RRF-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 3]\nReporting Labor Exploitation:\nMigrant women workers can report labor exploitation by contacting the Labor Department or the police. They can also call the National Helpline for Women (181) or the Tamil Nadu Helpline (1091) for assistance.\n\n[Document 4]\nMigration-related Issues in Tribal Areas:\nThe police handle migration-related issues by:\n* Conducting regular checks and verification\n* Collaborating with local authorities and tribal leaders\n* Providing assistance and support to migrants\n* Ensuring compliance with labor laws and regulations\n\n[Document 5]\nDisputes related to traditional tribal customs:\nThe Tamil Nadu Police handles disputes related to traditional tribal customs by:\n* Respecting tribal laws and customs\n* Collaborating with tribal leaders and community elders\n* Providing mediation and counseling services\n* Ensuring protection of tribal rights and interests",
+  "retrieved_doc_ids": [
+    "1401",
+    "1381",
+    "466",
+    "1389",
+    "1375"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7d1f98b74716bb2bf8fb69d67af6a8957ae06e674620b089389f915f9b890b7",
+  "answer": "Authorities combat exploitation of tribal artisans through:\n- Police registration and investigation of cheating, fraud, or coercion [Doc 1]\n- Collaboration with forest departments for encroachment issues [Doc 2]\n- Reporting mechanisms for labor exploitation [Doc 3]\n- Dispute resolution for traditional customs [Doc 5] [Doc 1-5]",
+  "input_tokens": 425,
+  "output_tokens": 71,
+  "seconds": 9.135881800000789,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

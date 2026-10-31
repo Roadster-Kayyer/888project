@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001523",
+  "doc_id": "1272",
+  "query_type": "casual",
+  "query": "So how do I tell the PWD if there's a hole in the canal?",
+  "corpus_query_index": 1522,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nReporting Drainage Issues to PWD:\nTo report drainage issues, contact the local PWD office or the Chennai Corporation (if in Chennai). You can also call the PWD helpline or file a complaint online through the Tamil Nadu Government's portal. Provide details of the location and issue for prompt action.\n\n[Document 3]\nReporting Encroachment on PWD Land:\nTo report encroachment, contact your local PWD office or the Tamil Nadu PWD helpline. Provide details of the location and nature of the encroachment. You can also submit a complaint online through the Tamil Nadu Government's grievance portal.\n\n[Document 4]\nReporting Traffic Signal Issues to PWD:\nTo report traffic signal issues, contact the Tamil Nadu Public Works Department (PWD) through their helpline or website. You can also submit a complaint at the nearest PWD office or through the Tamil Nadu Government's online complaint portal.\n\n[Document 5]\nReporting Road Damage:\nTo report road damage, contact the PWD helpline or visit the nearest PWD office. You can also submit a complaint through the Tamil Nadu Government's online grievance portal or use the PWD's mobile app to report the issue.",
+  "retrieved_doc_ids": [
+    "1272",
+    "1284",
+    "1276",
+    "1288",
+    "1268"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a1cd6fc145d41f88ffa685f631633dc1b0faa2128736b8bbaaa32635e07ab58e",
+  "answer": "Contact the nearest PWD office or call the PWD helpline immediately. Provide details of the hole's location and your contact information. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 33,
+  "seconds": 4.373888300000544,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

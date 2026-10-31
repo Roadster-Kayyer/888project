@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_17",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer is relevant and correct, but lacks detail on the importance of signaling."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly mentions signaling before passing, which is supported by Document 1, though it doesn't directly address the specific context of passing another vehicle.\",\n  \"evidence\": \"[Document 1]Motorists should slow down and watch out for buses pulling out of the bus bay. (implied signaling importance)\n\n[Document 5]It is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. (related to ensuring accurate communication, analogous to signaling for passing).\"\n}\n\n\nNote: The faithfulness score is 1 because the candidate answer contains a substantive factual claim that is supported by the evidence provided in Document 1",
+      "input_tokens": 803,
+      "output_tokens": 192,
+      "seconds": 14.76760479999939,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    },
+    {
+      "answer": "{\"correctness\":1, \"relevance\":1, \"faithfulness\":1, \"reason\":\"Candidate answer is relevant and correct, but lacks detail on the importance of signaling.\"}\n\n(Note: The \"faithfulness\" score of 1 is given because the candidate answer is correct and relevant to the question, as it mentions signaling which is related to the reference's implication of giving a clear signal before passing. However, the candidate answer could be improved by directly linking the importance of signaling to the safety and clarity for other road users, which would be more faithful to the reference's emphasis on clear communication for safe passing.)",
+      "input_tokens": 843,
+      "output_tokens": 145,
+      "seconds": 11.380972600003588,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

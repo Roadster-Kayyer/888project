@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_99",
+  "doc_id": "PB_1e36bd59d862bbf04f33",
+  "query_type": "ICA_134",
+  "query": "Why is it necessary for all arriving travellers to submit SG Arrival Card with health declaration?",
+  "reference_answer": "The electronic health declaration is in place for purposes of disease control, specifically to guard against importing diseases of concern, to protect the health of Singapore residents. Those who make false declarations may be prosecuted under the Infectious Diseases Act.",
+  "corpus_query_index": 301,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 2]\nA holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.\n\n[Document 3]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 4]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.\n\n[Document 5]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "retrieved_doc_ids": [
+    "PB_6f67feecf50543bb14eb",
+    "PB_5155cca92728746c93bf",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_60d3d79cc6579587cc62",
+    "PB_9b29b1a6d1890e3f7dca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2a9d4b77230108e514880056b04ba2fc30020e1cb71103c328220e6a11dec724",
+  "answer": "It's necessary for all arriving travellers to submit the SG Arrival Card with a health declaration to streamline immigration processes. Those who don't submit beforehand might face delays at immigration. The card is mandatory for all foreign visitors entering Singapore, ensuring compliance with entry requirements. [Document 1]",
+  "input_tokens": 642,
+  "output_tokens": 57,
+  "seconds": 7.593400700003258,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

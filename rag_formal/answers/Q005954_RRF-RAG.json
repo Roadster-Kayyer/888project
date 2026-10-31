@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005954",
+  "doc_id": "207",
+  "query_type": "search",
+  "query": "Can you tell me about the verification method for domestic helpers?",
+  "corpus_query_index": 5953,
+  "system": "RRF-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nDigital Police Verification System:\nThe digital police verification system for passport applications is called 'Police Verification Online'. It allows applicants to submit verification requests online, reducing processing time. Applicants can track the status of their verification through the website or mobile app.\n\n[Document 4]\nPolice Verification for Tenant Verification in Tamil Nadu:\nTo obtain police verification for tenant verification, submit a request to the local police station with required documents (tenant's ID proof, address proof, rental agreement). The police will verify the tenant's details and provide a clearance certificate. You can also use the Tamil Nadu Police's online portal for tenant verification.\n\n[Document 5]\nPolice Verification in Remote Areas:\nFor police verification in remote areas, applicants can submit their requests through the local police station or the Tamil Nadu Police website. The police will then conduct the verification process, which may involve door-to-door checks or online verification, and provide the necessary clearance.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "1326",
+    "2082",
+    "1394"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6fa7951e50ab1e9544b042dac46ed9a55892ced0478947566e4c88e6e388627f",
+  "answer": "Verification of domestic workers involves submitting an application to the local police station with required documents like ID proof, address proof, and a declaration form. The police conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 411,
+  "output_tokens": 46,
+  "seconds": 5.815869000000021,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

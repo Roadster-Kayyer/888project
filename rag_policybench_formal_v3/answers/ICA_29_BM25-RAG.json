@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_29",
+  "doc_id": "PB_2ebeefd2f2bd36471481",
+  "query_type": "ICA_134",
+  "query": "How can I apply for or renew APEC Business Travel Card (ABTC)?",
+  "reference_answer": "All APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.",
+  "corpus_query_index": 224,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAll APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 4]\nFor CPF Investment Scheme-Ordinary Account (CPFIS-OA)Please apply for the bonds and T-bills through your CPFIS-OA agent bank. Application is restricted to your CPFIS-OA agent bank to facilitate the settlement process for bonds and T-bills purchased under CPFIS-OA.DBS/POSB: Apply through DBS/POSB's internet banking portal or digibank mobile.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply for SGS bonds in person at any UOB branch. Apply for T-bills through UOB’s internet banking portalFor step-by-step guide on how to submit your application through your CPFIS-OA agent bank’s electronic portal, you may visit their website,DBS(scroll to dropdown menu “How to apply?”),OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”) andUOB(scroll to section \"Things you should know\").After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be\n\n[Document 5]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.",
+  "retrieved_doc_ids": [
+    "PB_2ebeefd2f2bd36471481",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_42402669fab955f6129f",
+    "PB_8b8122292438794b78bb"
+  ],
+  "trimmed_doc_ids": [
+    "PB_42402669fab955f6129f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3e83c9c2df610261f9020cd658c850e37fa598b6a78d22f0be462883f1b71ce6",
+  "answer": "To apply for or renew an APEC Business Travel Card (ABTC), go to the e-Service online. Applications must include a valid passport and proof of purpose (individual or business user). The card is valid for 5 years or until your passport expires, whichever is shorter. After collecting a new passport, apply for a replacement ABTC. Collect documents for the ABTC at separate appointments. [Document 1]",
+  "input_tokens": 619,
+  "output_tokens": 86,
+  "seconds": 11.256450300003053,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

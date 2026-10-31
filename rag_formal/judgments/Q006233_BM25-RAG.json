@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006233",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the role and functioning of the Social Justice and Human Rights Wing, aligns with the reference documents, and includes specific examples and legal frameworks supporting the claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the role and functioning of the Social Justice and Human Rights Wing, aligns with the reference documents, and includes specific examples and legal frameworks supporting the claims.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe provided JSON object evaluates the candidate answer based on the criteria given. The correctness score of 2 indicates that the answer is correct and covers the main points from the reference. The relevance score of 2 shows that the answer directly addresses the question about the use of the Social Justice and Human Rights Wing. The faithfulness score of 2 confirms that the answer is fully supported",
+      "input_tokens": 824,
+      "output_tokens": 192,
+      "seconds": 14.925712199998088,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

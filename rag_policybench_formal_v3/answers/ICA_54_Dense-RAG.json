@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_54",
+  "doc_id": "PB_f8ef7d9186905c0df18a",
+  "query_type": "ICA_134",
+  "query": "Will my current ABTC card be affected due to the change in the validity of passport?",
+  "reference_answer": "The validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.",
+  "corpus_query_index": 252,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 2]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 3]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 4]\nAll APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.\n\n[Document 5]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.",
+  "retrieved_doc_ids": [
+    "PB_f8ef7d9186905c0df18a",
+    "PB_0c264676a8242018a9a0",
+    "PB_09222d548a5f63af648a",
+    "PB_2ebeefd2f2bd36471481",
+    "PB_6a37eec904475577f862"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9ccce05a353da508089993296a7f884944887e414d4a43fb97f6744bb53e0bd3",
+  "answer": "Your current ABTC card will not be affected if your passport's validity changes. However, if your passport number changes, you need to apply for a replacement ABTC under 'replacement due to change of particulars'. [Document 1]",
+  "input_tokens": 472,
+  "output_tokens": 48,
+  "seconds": 6.3233084000094095,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

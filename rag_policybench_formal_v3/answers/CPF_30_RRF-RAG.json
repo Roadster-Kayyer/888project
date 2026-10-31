@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_30",
+  "doc_id": "PB_7b930eae03f82435afed",
+  "query_type": "CPF_111",
+  "query": "What can members do if the funds in which they have already invested do not meet the new standards set by the Board following re-evaluation?",
+  "reference_answer": "Members who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.",
+  "corpus_query_index": 91,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMembers who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.\n\n[Document 2]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 3]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 4]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 5]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.",
+  "retrieved_doc_ids": [
+    "PB_7b930eae03f82435afed",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_8b587c7ab32751210874"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0cc69a3b53117148c43270d698fe7944c600dd30e4db9c61060f48947edc3ddc",
+  "answer": "Members can either stay invested, switch to other funds, or sell their current investments if funds no longer meet their objectives after re-evaluation. New funds must meet stricter criteria, including a higher benchmark and expense ratio, and may face limitations on accepting new contributions. Members have time to switch to compliant funds or manage their investments accordingly. [Document 1]",
+  "input_tokens": 611,
+  "output_tokens": 72,
+  "seconds": 9.071353399995132,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

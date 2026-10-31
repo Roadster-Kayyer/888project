@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005746",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and provides relevant steps for verification, supported by the reference's guidelines."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and provides relevant steps for verification, supported by the reference's guidelines.\",\n  \"evidence\": \"Document 1 provides official guidelines.\"\n}\n\n\nNote: The \"evidence\" key in the JSON object refers to the evidence provided in the candidate answer, which in this case is the mention of \"Document 1\" that supposedly contains official guidelines. In a real-world scenario, the actual evidence would be the content of the document itself, but since the instruction specifies to use only the supplied evidence and not the reference or personal knowledge, the mention of \"Document 1\" is the best representation of the evidence available in the candidate answer.",
+      "input_tokens": 421,
+      "output_tokens": 189,
+      "seconds": 14.450717199997598,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

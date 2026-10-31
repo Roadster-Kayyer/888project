@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000832",
+  "doc_id": "1147",
+  "query_type": "formal",
+  "query": "How can one acquire a No Objection Certificate through the judicial process?",
+  "corpus_query_index": 831,
+  "system": "RRF-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 2]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 3]\nObtaining a No Objection Certificate (NOC)\nTo obtain an NOC, visit your local police station with required documents (ID proof, address proof, etc.). Fill out the application form, submit documents, and pay the prescribed fee. The police will verify the details and issue the NOC.\n\n[Document 4]\nNOC Application Portal:\nThe portal for applying for NOC (No Objection Certificate) from the police department is the Tamil Nadu Police Citizen Services portal (https://www.tnpolice.gov.in/citizen).\n\n[Document 5]\nObtaining Permission for Events in PWD Grounds:\nTo obtain permission, apply to the concerned PWD Divisional Office or the District Collector's office. Submit required documents, including event details and safety measures. Pay the prescribed fee and obtain a no-objection certificate from the PWD department.",
+  "retrieved_doc_ids": [
+    "2038",
+    "1147",
+    "820",
+    "343",
+    "1283"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4108c3372d324cfdaacbbc4ddbf863b48c7c492a0e40dba8cb972de5db562241",
+  "answer": "To acquire a No Objection Certificate (NOC), visit your local police station with required documents like ID proof and address proof. Fill out an application form, submit documents, and pay a fee. The police will verify the details and issue the NOC if all conditions are met. [Document 1] & [Document 3]",
+  "input_tokens": 441,
+  "output_tokens": 69,
+  "seconds": 8.748880099999951,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

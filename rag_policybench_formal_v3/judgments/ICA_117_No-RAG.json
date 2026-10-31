@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_117",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer partially correct but omits the need for a valid REP for traveling abroad."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer partially correct but omits the need for a valid REP for traveling abroad.\",\n  \"evidence\": \"null\"\n}\n\nExplanation: The candidate answer correctly states that the Singapore PR status does not expire under normal circumstances, which aligns with the reference. However, it fails to mention the requirement of a valid REP for traveling abroad, which is a critical piece of information from the reference. Therefore, the correctness score is 1, and relevance is 1 as it addresses the question but not completely. Faithfulness is null due to the lack of substantive factual claims supported by the supplied evidence.",
+      "input_tokens": 425,
+      "output_tokens": 173,
+      "seconds": 13.171063599991612,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

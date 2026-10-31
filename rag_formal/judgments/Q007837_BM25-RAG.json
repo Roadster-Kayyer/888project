@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007837",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the sanctions for unauthorized street performances and related activities as stated in the documents, with direct evidence from Documents 1 and 3. It also indirectly references the role of community and police partnerships and women's groups in promoting safety, as mentioned in Documents 4 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the sanctions for unauthorized street performances and related activities as stated in the documents, with direct evidence from Documents 1 and 3. It also indirectly references the role of community and police partnerships and women's groups in promoting safety, as mentioned in Documents 4 and 5.\"\n}",
+      "input_tokens": 893,
+      "output_tokens": 113,
+      "seconds": 8.949400599994988,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

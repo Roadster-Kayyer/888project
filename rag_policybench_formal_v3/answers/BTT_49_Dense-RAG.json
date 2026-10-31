@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_49",
+  "doc_id": "PB_492ee6967a595605ddf6",
+  "query_type": "BTT",
+  "query": "What must a driver do before moving off to ensure safety and comply with regulations?",
+  "reference_answer": "Fasten the seat belt and look in the mirrors.",
+  "corpus_query_index": 44,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_2858faae83bda4331fb6",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_619765030c2c1f6e27b8",
+    "PB_1bd233e28127cfee0c86",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "10874b6caa719d8c690757808e711b7b2091d5cb2a56a867cbb9c5a45cd628ba",
+  "answer": "Before moving off, a driver must slow down, keep left, and be aware of oncoming traffic [Document 1]. Additionally, they should maintain a safe stopping distance and allow for a two-second gap behind the vehicle in front [Document 3]. Drivers also need to clear the junction and provide enough space to stop safely [Document 4 and 5].",
+  "input_tokens": 216,
+  "output_tokens": 74,
+  "seconds": 9.394948000001023,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

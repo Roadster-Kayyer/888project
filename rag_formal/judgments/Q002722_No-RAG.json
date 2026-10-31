@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002722",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant steps but omits specific eligibility criteria and the role of TNUSRB."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer includes relevant steps but omits specific eligibility criteria and the role of TNUSRB.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it mentions the need to pass written and physical tests, undergo a background check, and attend an interview, which are steps in the application process. However, it is not completely correct because it fails to mention the specific eligibility criteria and the importance of visiting the TNUSRB website for notifications, which are crucial steps according to the reference. The faithfulness score is null because the evidence provided (the candidate's answer) does not directly support or contradict the substantive factual claims made; it only partially addresses the question. There",
+      "input_tokens": 406,
+      "output_tokens": 192,
+      "seconds": 14.837174200001755,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

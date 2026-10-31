@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_9",
+  "doc_id": "PB_92b9ca8b9a7a3195d282",
+  "query_type": "CPF_111",
+  "query": "Can I take a policy loan on my Academic Staff Provident Fund Approved Investment Scheme (ASPFAIS) Part V insurance policy?",
+  "reference_answer": "Policy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+  "corpus_query_index": 156,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.\n\n[Document 2]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 3]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 4]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 5]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_92b9ca8b9a7a3195d282",
+    "PB_b530c3042e7202136bc5",
+    "PB_55387403dc004065b043",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_dc08990660488c2ed4e8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "814ac4ebbfe9db5844ed973b090e6cb7340f8e71643771d822399b7751a97c3b",
+  "answer": "No, you cannot take a policy loan on your ASPFAIS Part V insurance policy. According to [Document 1], policy loans are not allowed for Part V policies under the CPF Investment Scheme. [Document 1] states: \"Policy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.\"",
+  "input_tokens": 778,
+  "output_tokens": 65,
+  "seconds": 8.873707599996123,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

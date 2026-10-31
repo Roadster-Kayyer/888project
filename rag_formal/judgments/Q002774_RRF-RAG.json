@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002774",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the hiring procedure for high-ranking officers and regular police officers, supported by evidence from Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the hiring process for high-ranking officers and regular police officers, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 766,
+      "output_tokens": 73,
+      "seconds": 5.957997099998465,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the hiring procedure for high-ranking officers and regular police officers, supported by evidence from Documents 1 and 3.\"}\n**Note:** The scores are based on the assumption that the candidate's answer is accurate and fully supported by the provided documents. The reason given is a concise summary of the evaluation.",
+      "input_tokens": 806,
+      "output_tokens": 96,
+      "seconds": 7.699154199999612,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

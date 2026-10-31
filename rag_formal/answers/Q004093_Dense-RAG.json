@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004093",
+  "doc_id": "1735",
+  "query_type": "casual",
+  "query": "So, what's the deal with the 'innocent until proven guilty' rule?",
+  "corpus_query_index": 4092,
+  "system": "Dense-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nDouble Jeopardy:\nDouble jeopardy refers to being tried twice for the same offense. In India, Article 20(2) of the Constitution protects individuals from double jeopardy. If a person is acquitted or convicted of an offense, they cannot be tried again for the same offense.\n\n[Document 3]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 4]\nPreserving Evidence:\nBefore reporting a crime, preserve any relevant evidence, such as:\n- Screenshots of online transactions or messages\n- Emails or chat logs\n- Bank statements or transaction records\n- Any other relevant documents or records\n\n[Document 5]\nSentencing Procedure:\nAfter conviction, the court hears arguments on sentencing from both the prosecution and defense. The judge considers factors like the severity of the crime, the accused's background, and mitigating circumstances. The sentence is then pronounced, and the accused is informed of their rights to appeal.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1733",
+    "579",
+    "61",
+    "757"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "374c60e9852c97aca0582832420bda99bf816f0cadb20a576b2f5c1bd4068b08",
+  "answer": "The 'innocent until proven guilty' rule, also known as the presumption of innocence, ensures that accused persons are presumed innocent until proven guilty by the prosecution. This principle is legally protected in India under the Constitution and CrPC, where the burden of proof lies with the prosecution to prove guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 422,
+  "output_tokens": 69,
+  "seconds": 8.781224000000293,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002244",
+  "doc_id": "1401",
+  "query_type": "search",
+  "query": "Can you tell me about the methods used by authorities to combat exploitation of tribal artisans?",
+  "corpus_query_index": 2243,
+  "system": "BM25-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 3]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department. Submit required documents, including proof of tribal identity, residence, and ancestry. The application will be verified and certified by the concerned authorities.\n\n[Document 4]\nAnti-Trafficking Unit:\nThe Anti-Trafficking Unit works to combat human trafficking by:\n* Identifying and rescuing victims\n* Investigating and prosecuting traffickers\n* Collaborating with NGOs and other agencies\n* Raising awareness about human trafficking\n\n[Document 5]\nMigration-related Issues in Tribal Areas:\nThe police handle migration-related issues by:\n* Conducting regular checks and verification\n* Collaborating with local authorities and tribal leaders\n* Providing assistance and support to migrants\n* Ensuring compliance with labor laws and regulations",
+  "retrieved_doc_ids": [
+    "1401",
+    "1381",
+    "1257",
+    "1567",
+    "1389"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dcf9ff8069b02a13b194bc9c4432dacc851b9d6b303e2f9febb233f025f3a629",
+  "answer": "Authorities combat exploitation of tribal artisans through:\n- Police registration and investigation of cheating, fraud, or coercion.\n- Collaboration with tribal welfare departments and NGOs.\n- Specific actions include registering complaints, collaborating with forest departments, and ensuring tribal rights under the Forest Rights Act. [Document 1, Document 2]",
+  "input_tokens": 421,
+  "output_tokens": 62,
+  "seconds": 7.914304300000367,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

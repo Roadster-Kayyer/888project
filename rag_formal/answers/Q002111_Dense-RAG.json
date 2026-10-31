@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002111",
+  "doc_id": "1379",
+  "query_type": "original",
+  "query": "How does Tamil Nadu Police coordinate with village administrative officers?",
+  "corpus_query_index": 2110,
+  "system": "Dense-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 2]\nTamil Nadu Police Coordination with Schools:\nThe Tamil Nadu Police coordinates with schools through the District Child Protection Unit. Schools are required to report suspected child abuse to the police, who then investigate and provide support to the child.\n\n[Document 3]\nTamil Nadu Police and NGOs:\nTamil Nadu Police collaborates with NGOs on social issues by:\n* Partnering on awareness campaigns\n* Supporting community outreach programs\n* Referring victims to NGO services for support and counseling\n\n[Document 4]\nRural Land Disputes:\nThe Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.\n\n[Document 5]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.",
+  "retrieved_doc_ids": [
+    "1379",
+    "490",
+    "1701",
+    "1366",
+    "1413"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f506adb3f1bf40c44575aae8efa457e960376cf3aabd26fb1c21c617b8b8f363",
+  "answer": "Tamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs offer local insights, and police share security concerns, fostering a collaborative approach to law and order maintenance. [Document 1]",
+  "input_tokens": 391,
+  "output_tokens": 49,
+  "seconds": 6.31546200000048,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

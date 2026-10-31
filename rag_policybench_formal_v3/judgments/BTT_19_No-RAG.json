@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_19",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and correct, but lacks direct evidence; however, it does not contradict the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is relevant and correct, but lacks direct evidence; however, it does not contradict the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: The \"evidence\" key is included to indicate that in a real-world scenario, the evidence would be a citation or reference to a specific document. Since the instruction specifies not to use the reference or own knowledge, the evidence is represented as a placeholder here.)",
+      "input_tokens": 389,
+      "output_tokens": 136,
+      "seconds": 10.678678199998103,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

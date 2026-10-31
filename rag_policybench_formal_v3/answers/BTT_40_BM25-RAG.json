@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_40",
+  "doc_id": "PB_776de7439758761e5c43",
+  "query_type": "BTT",
+  "query": "What information is indicated by the car park signboard located at the entrance of each car park or along the public road?",
+  "reference_answer": "The car park signboard indicates the different parking schemes, operating hours, and parking rates available.",
+  "corpus_query_index": 35,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_776de7439758761e5c43",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_8d18fc446288ee1e6348",
+    "PB_28996cba71bdbe7d5436",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dfaf64fe03230ed6bdbaaa834300b1085fdf87033bf7b53ae65bb920eb37de51",
+  "answer": "Car park signboards indicate parking schemes, hours, and rates. No other information is indicated there based on the provided documents. [Document 1]",
+  "input_tokens": 547,
+  "output_tokens": 31,
+  "seconds": 575.415654700002,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

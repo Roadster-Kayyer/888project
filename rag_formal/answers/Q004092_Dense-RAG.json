@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004092",
+  "doc_id": "1735",
+  "query_type": "formal",
+  "query": "Under what circumstances is the presumption of innocence applied in legal proceedings?",
+  "corpus_query_index": 4091,
+  "system": "Dense-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nRights of an Accused:\nDuring police interrogation, an accused has the right to:\n- Remain silent\n- Consult a lawyer\n- Be informed of the grounds of arrest\n- Be produced before a magistrate within 24 hours\n\n[Document 3]\nArticle 21 and Police Procedures:\nArticle 21 protects the right to life and personal liberty. It affects police procedures by:\n* Requiring arrest warrants or reasonable grounds for arrest\n* Ensuring prompt production of arrested persons before a magistrate\n* Prohibiting torture and cruel treatment\n\n[Document 4]\nSuspect Rights During Questioning:\nSuspects have the right to remain silent, consult a lawyer, and be informed of their rights. They must be treated with dignity and respect, and not be subjected to physical or mental abuse.\n\n[Document 5]\nWitness Summons Process:\nThe witness summons process involves the court or police issuing a summons to a witness, requiring them to appear and testify. The summons will specify the date, time, and location of the testimony.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1848",
+    "1715",
+    "1421",
+    "761"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c619f593776b2e8973e7733ee0dcb6a3c578fe013120903bc3a5a1063524819d",
+  "answer": "The presumption of innocence applies when an accused is presumed innocent until proven guilty, as stated in [Document 1]. This principle is upheld by the Constitution and Criminal Procedure Code in India, where the prosecution bears the burden of proving guilt beyond reasonable doubt.",
+  "input_tokens": 401,
+  "output_tokens": 51,
+  "seconds": 6.442637899999681,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_66",
+  "doc_id": "PB_dd26aa147490be0c459d",
+  "query_type": "ICA_134",
+  "query": "Which mobile app can travellers use to generate the QR code?",
+  "reference_answer": "The QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).",
+  "corpus_query_index": 265,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 2]\nThe QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).\n\n[Document 3]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 4]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 5]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.",
+  "retrieved_doc_ids": [
+    "PB_bf4db8945d407eacbe6a",
+    "PB_dd26aa147490be0c459d",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_09222d548a5f63af648a",
+    "PB_b5339301e0857337a248"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e98c77719c6a309ecd2af2b5a1c6ca9bd578c6099c372cd97031404a319f33bf",
+  "answer": "The MyICA mobile app can be used to generate the QR code. [Document 2]",
+  "input_tokens": 504,
+  "output_tokens": 20,
+  "seconds": 2.637862600007793,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_108",
+  "doc_id": "PB_c4f12e1a849b705fc8a2",
+  "query_type": "CPF_111",
+  "query": "I am a self-employed person. Can I contribute to my MediSave together with my employees' CPF using the CPF Payment Form (CPF 91)?",
+  "reference_answer": "You’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.",
+  "corpus_query_index": 66,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 2]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 5]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_dc08990660488c2ed4e8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c142b7abcab61d7bec2792087ec179b1fc27773b3235c20abba1de1bd6c7b476",
+  "answer": "Yes, as a self-employed person, you can contribute to your MediSave separately from your employees' CPF using the CPF Payment Form (CPF 91). However, these contributions will be treated as employer contributions and won't be recognized as self-employed payments. [Document 1]",
+  "input_tokens": 687,
+  "output_tokens": 58,
+  "seconds": 7.738476799990167,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

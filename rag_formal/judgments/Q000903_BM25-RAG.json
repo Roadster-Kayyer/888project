@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000903",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate correctly identifies age range from Document 1 but omits specifics about heinous crimes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate correctly identifies age range from Document 1 but omits specifics about heinous crimes.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is partly correct as it correctly identifies the age range for criminal responsibility from Document 1 but fails to mention the distinction for heinous crimes, which is an important omission. The relevance score is 1 because the answer directly addresses the question about the age to get in trouble for crimes in India. The faithfulness score is 1 because the candidate's answer is supported by the evidence provided in Document 1, although it could be more comprehensive. The reason succinctly explains the scores.",
+      "input_tokens": 771,
+      "output_tokens": 189,
+      "seconds": 14.550252799999726,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

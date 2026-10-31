@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007119",
+  "doc_id": "399",
+  "query_type": "search",
+  "query": "How can I file a complaint about a government hospital worker demanding bribes?",
+  "corpus_query_index": 7118,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\nReporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nFiling a Complaint about a Fraudulent Chit Fund:\nTo file a complaint about a fraudulent chit fund, contact the Registrar of Chits in Tamil Nadu or the local police station. You can also call the police helpline at 100 or file a complaint online through the Tamil Nadu Police website.\n\n[Document 5]\nFiling a Complaint about Investor Fraud:\nTo file a complaint about investor fraud, contact your local police station or the CB-CID Economic Offences Wing directly. Provide detailed information about the fraud, including documents and evidence. You can also file a complaint online through the Tamil Nadu Police website.",
+  "retrieved_doc_ids": [
+    "399",
+    "255",
+    "35",
+    "891",
+    "196"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "71ecf4afa77a609574d804af1cd09f167974c103e9dde4dcb46e9ebb05cbe192",
+  "answer": "To file a complaint about a government hospital worker demanding bribes, contact the Vigilance and Anti-Corruption Department (DVAC), local police station, or use the TN Government's online complaint system. [Document 1]",
+  "input_tokens": 445,
+  "output_tokens": 48,
+  "seconds": 6.27791409999918,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

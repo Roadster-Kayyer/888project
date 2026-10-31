@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_75",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2-5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the timeframe for viewing the letter online and aligns with documents for the ceremony timing, supported by evidence from Documents 1 and 2-5.\",\n}\n\n\nThe reason is succinct: The candidate's answer is correct, relevant, and fully supported by the evidence provided in the documents.",
+      "input_tokens": 686,
+      "output_tokens": 109,
+      "seconds": 8.93692779999401,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2-5.\"}",
+      "input_tokens": 726,
+      "output_tokens": 49,
+      "seconds": 3.9398922999971546,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

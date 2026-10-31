@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_42",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the speed limit as per the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the speed limit as per the reference.\",\n  \"evidence\": \"[Document 1] and [Document 5] do not contradict the candidate's answer, as they are unrelated to the speed limit question.\"\n}",
+      "input_tokens": 1111,
+      "output_tokens": 192,
+      "seconds": 15.21277729999565,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_10",
+  "doc_id": "PB_ad0bcfeb32e6e7edb2c7",
+  "query_type": "ICA_134",
+  "query": "After making payment, how do I print my receipt?",
+  "reference_answer": "Once payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.",
+  "corpus_query_index": 169,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nOnce payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.\n\n[Document 2]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 3]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 4]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 5]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.",
+  "retrieved_doc_ids": [
+    "PB_ad0bcfeb32e6e7edb2c7",
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_e625576111e2a18d5ef0",
+    "PB_73589fc4535bd159b21d",
+    "PB_cb078a82de94eaac8bfe"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a27f47a8d1ecbabd08dc2d66b3babc708b6006852aa300b2838ff03a82b33010",
+  "answer": "After making payment, a pop-up window shows the receipt. Click the print function on your web browser to print it. [Document 1]",
+  "input_tokens": 443,
+  "output_tokens": 30,
+  "seconds": 4.0794879000022775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_83",
+  "doc_id": "PB_609ae61f9bc5d0baf92e",
+  "query_type": "CPF_111",
+  "query": "Can I still receive top-ups if I have started my monthly retirement payouts?",
+  "reference_answer": "Yes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.",
+  "corpus_query_index": 149,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 2]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.\n\n[Document 3]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 4]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_ffdb8da43be014161737",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_5970b9dd48a067a0363d",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7ead6eb3def4df2ab50a857c506b6f7b228ffd59f279a290ca7601cc737d844f",
+  "answer": "Yes, you can still receive top-ups as long as you haven't reached the current Enhanced Retirement Sum (ERS). However, there are limits and conditions such as tax relief eligibility based on your age and whether you've met your Full Retirement Sum. [Document 3]",
+  "input_tokens": 886,
+  "output_tokens": 55,
+  "seconds": 7.35793709999416,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

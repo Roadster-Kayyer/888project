@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_121",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately differentiates between Individual User and Business User visa applications, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately differentiates between Individual User and Business User visa applications, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] You can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User.\"\n}",
+      "input_tokens": 1157,
+      "output_tokens": 135,
+      "seconds": 10.685919000010472,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

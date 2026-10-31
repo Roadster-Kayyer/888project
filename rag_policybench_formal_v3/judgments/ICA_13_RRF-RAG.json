@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_13",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states no COVID-19 vaccination requirements and references the encouragement for WHO EUL vaccines, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states no COVID-19 vaccination requirements and references the encouragement for WHO EUL vaccines, supported by Document 1.\"\n}",
+      "input_tokens": 1306,
+      "output_tokens": 192,
+      "seconds": 15.029168499997468,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

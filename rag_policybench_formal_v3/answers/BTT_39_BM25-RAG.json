@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_39",
+  "doc_id": "PB_7f4c71e9895fc3caf31f",
+  "query_type": "BTT",
+  "query": "What must drivers do when driving in a tunnel to ensure they can handle ERP payments?",
+  "reference_answer": "Drivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "corpus_query_index": 33,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nPayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.\n\n[Document 4]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.\n\n[Document 5]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the",
+  "retrieved_doc_ids": [
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_619765030c2c1f6e27b8",
+    "PB_4dcd99c8330400f4101b",
+    "PB_f36114baa5e370122326",
+    "PB_0b2919dbf107215d276f"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "70a6a6e5554d6f96857fc2b33e57a8c2498f3828bfe17b11ba053df9169bf5c6",
+  "answer": "Drivers must insert the cash card in advance for ERP payments when driving in tunnels [Document 1]. However, the provided evidence does not address how to handle ERP payments in tunnels. [Document 2] discusses safety rules, and [Document 3] and others focus on digital payments and CPF contributions, not tunnel ERP payments.",
+  "input_tokens": 605,
+  "output_tokens": 67,
+  "seconds": 997.9973863999985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

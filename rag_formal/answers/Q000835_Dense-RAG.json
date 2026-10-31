@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000835",
+  "doc_id": "1147",
+  "query_type": "hard",
+  "query": "What's the method to secure a clearance slip issued by a legal authority?",
+  "corpus_query_index": 834,
+  "system": "Dense-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nPolice Clearance for Foreign Employment:\nTo get police clearance for foreign employment, apply online or in person at your local police station. Submit required documents (passport, ID proof, etc.) and pay the prescribed fee. The police will verify your background and issue a clearance certificate.\n\n[Document 2]\nPolice Clearance for Visa Applications:\nTo get police clearance, visit your local police station with required documents (ID proof, address proof, and passport). Fill out the application form, and submit it along with the necessary fees. The police will verify your details and issue a clearance certificate.\n\n[Document 3]\nProperty Attachment:\nDuring trials, property attachment is done through a court order. The police can seize properties under Section 102 of the CrPC. The process involves:\n* Court order issuance\n* Police seizure of property\n* Property documentation and storage\n\n[Document 4]\nPolice Clearance for Foreign Employment:\nFor police clearance for foreign employment, apply online or at the local police station with required documents, including passport, ID proof, and employment offer letter. The police will issue a clearance certificate after verifying your background.\n\n[Document 5]\nPolice Clearance Certificate for Vehicle:\nTo get a police clearance certificate for your vehicle, visit the local Traffic Police station or the Regional Transport Office (RTO) with your vehicle's registration documents and a valid ID proof.",
+  "retrieved_doc_ids": [
+    "873",
+    "210",
+    "763",
+    "206",
+    "175"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ea2f8c92f02e4bab36cbf921ece2812ffeae2e95ad54b89bba78372d37dae3f7",
+  "answer": "To secure a clearance slip, follow these steps:\n- Apply online or in person at your local police station.\n- Submit required documents like ID proof and payment.\n- The police verify your background and issue a clearance certificate. [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 50,
+  "seconds": 6.228585400000156,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

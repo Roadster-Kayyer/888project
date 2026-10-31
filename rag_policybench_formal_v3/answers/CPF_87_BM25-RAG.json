@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_87",
+  "doc_id": "PB_43972d7faa0ccf029be3",
+  "query_type": "CPF_111",
+  "query": "Can I use my excess Contribute As You Earn (CAYE) contributions to offset my outstanding MediSave payable?",
+  "reference_answer": "CAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.",
+  "corpus_query_index": 153,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 2]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 3]\nNo, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.\n\n[Document 4]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 5]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_43972d7faa0ccf029be3",
+    "PB_bb4198b52a9a38049310",
+    "PB_25b3bc98a8dc2f9afd1c",
+    "PB_dc08990660488c2ed4e8",
+    "PB_e29140d6b3a201be99ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fb6a3ab2ee53770b11a44e75ad13c3000c64f030ad895b0ecead38d53d3d1d2d",
+  "answer": "Yes, you can use your excess CAYE contributions to offset your outstanding MediSave payable from previous years. However, any excess CAYE contributions after offsetting previous years' debts will be refunded to your bank account. You can also choose to retain them in your MediSave Account to earn up to 5% interest per annum and offset future MediSave payable. [Document 1]",
+  "input_tokens": 629,
+  "output_tokens": 80,
+  "seconds": 10.78562549999333,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

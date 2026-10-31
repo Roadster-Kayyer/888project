@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007484",
+  "doc_id": "464",
+  "query_type": "search",
+  "query": "What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?",
+  "corpus_query_index": 7483,
+  "system": "RRF-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nEthical Standards in Witness Protection Programs:\nThe Tamil Nadu Police Department applies ethical standards to witness protection programs by ensuring confidentiality, safety, and dignity of witnesses. Witnesses are protected from intimidation and harm, and their identities are kept confidential to ensure their security and well-being.\n\n[Document 3]\nReporting Illegal Activities Anonymously:\nCall the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.\n\n[Document 4]\nPolice Accountability in Tamil Nadu:\nThe Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.\n\n[Document 5]\nReporting Sexual Abuse of Children with Disabilities:\nIn Tamil Nadu, the Tamil Nadu State Commission for Protection of Child Rights and the District Child Protection Units have special provisions to report sexual abuse of children with disabilities. You can contact the Childline (1098) or the State Commission's helpline to report such cases.",
+  "retrieved_doc_ids": [
+    "464",
+    "1434",
+    "2088",
+    "1419",
+    "483"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "511fa4234f42fee9b0f406c2eb47854e5fcbed9b45cb2dc2fd9f3d5accf9079e",
+  "answer": "The Tamil Nadu Police ensures confidentiality for sexual abuse survivors by maintaining anonymity, using coded names, and following Supreme Court guidelines. They protect complainants' identities and safety throughout investigations. [Document 1] Additionally, they maintain confidentiality for all witnesses and provide options to report crimes anonymously. [Document 3]",
+  "input_tokens": 456,
+  "output_tokens": 62,
+  "seconds": 7.546192499999961,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

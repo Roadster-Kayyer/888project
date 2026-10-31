@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_35",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process and includes all necessary documents, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process and includes all necessary documents, supported by evidence from Document 1.\"\n}",
+      "input_tokens": 1642,
+      "output_tokens": 192,
+      "seconds": 15.07400019999477,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_4",
+  "doc_id": "PB_552a298a8583e182f7ef",
+  "query_type": "ICA_134",
+  "query": "What is the difference between a Dependant's Pass (DP) and a Long-Term Visit Pass (LTVP)?",
+  "reference_answer": "Dependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.",
+  "corpus_query_index": 236,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 2]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 3]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 4]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 5]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.",
+  "retrieved_doc_ids": [
+    "PB_552a298a8583e182f7ef",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_8171046f23dbdf9c0430",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_d36aa50f901554971814"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0826eb16ff334abe8fcdbfc1985bb6853c8e01da0545faf7c34f178612f16757",
+  "answer": "A Dependant's Pass (DP) is issued by the Ministry of Manpower, while a Long-Term Visit Pass (LTVP) is issued by Immigration & Checkpoints Authority (ICA). The DP is for dependants of work pass holders, whereas LTVP is for dependants of Singapore citizens/residents. [Document 1] Additionally, LTVP holders can study in religious schools without needing a Student's Pass, unlike DP holders. [Document 2]",
+  "input_tokens": 729,
+  "output_tokens": 95,
+  "seconds": 12.478302300005453,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_70",
+  "doc_id": "PB_bd9e1d99b2ef0d938c8a",
+  "query_type": "ICA_134",
+  "query": "What is the expected processing time for an IC application?",
+  "reference_answer": "The expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.",
+  "corpus_query_index": 270,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 2]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 3]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 4]\nPlease refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.\n\n[Document 5]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days",
+  "retrieved_doc_ids": [
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_14d73bad1d062f8a0a27",
+    "PB_4db518930267429b7a6f",
+    "PB_c258c2cbaf7491b2d9b3",
+    "PB_2c2c8f4f1646ae7f07d7"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "87b286d7a3d40c791ef1d696f93bba08840f6337c7323034ad64be4bd853854b",
+  "answer": "According to [Document 1], the expected processing time for an IC application is 7 working days. [Document 2] and [Document 3] do not specifically address IC applications. [Document 5] states that for Self-Employed Scheme applications, the normal processing time is 12 working days online or 15 working days manual. [Document 4] does not pertain to IC applications. [Document 5] provides the most specific information relevant to IC applications. [Missing] indicates that the processing time for IC applications is 7 working days based on [Document 1].",
+  "input_tokens": 555,
+  "output_tokens": 125,
+  "seconds": 15.95265130000189,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

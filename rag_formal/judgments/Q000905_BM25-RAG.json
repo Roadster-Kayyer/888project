@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000905",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the age of criminal responsibility and references the IPC, which is relevant and factually supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the IPC as the relevant statute and correctly states the accountability begins upon committing a crime, supported by Document 3.\",\n}",
+      "input_tokens": 768,
+      "output_tokens": 74,
+      "seconds": 6.021738999999798,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":1, \"relevance\":2, \"faithfulness\":2, \"reason\":\"Candidate answer correctly identifies the age of criminal responsibility and references the IPC, which is relevant and factually supported by Document 3.\"}\n\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question asked. The \"correctness\" score of 1 indicates that the answer is partly correct but may lack some details about the age of criminal responsibility for adults and heinous crimes. The \"relevance\" score of 2 indicates that the answer directly addresses the question about criminal accountability. The \"faithfulness\" score of 2 indicates that the candidate's answer is fully supported by the evidence provided in Document 3, which directly relates to the punishment for threatening to damage property, a form of criminal",
+      "input_tokens": 808,
+      "output_tokens": 192,
+      "seconds": 15.182834800001729,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

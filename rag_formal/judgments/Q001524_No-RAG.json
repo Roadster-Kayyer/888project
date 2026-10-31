@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001524",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly instructs on reporting to PWD but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly instructs on reporting to PWD but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided candidate answer, the correctness score is 2 because the answer is correct and covers the main reference facts about reporting a canal break to PWD. The relevance score is 2 as the answer directly addresses the question by instructing on how to inform PWD about a canal break. However, the faithfulness score is 1 because the answer does not include specific evidence from the reference, such as the mention of the PWD helpline, website, or the need to provide details of the breach, location, and contact information. The reason succinctly explains the",
+      "input_tokens": 402,
+      "output_tokens": 192,
+      "seconds": 14.911570299998857,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

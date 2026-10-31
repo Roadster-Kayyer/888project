@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_53",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference documents, providing a specific action (keying in an indicative departure date 30 days from arrival) for non-departing travelers, which is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference documents, providing a specific action (keying in an indicative departure date 30 days from arrival) for non-departing travelers, which is supported by Document 1.\",\n  \"evidence\": \"Document 1 states, 'If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date...' and the candidate answer directly addresses this fact.\"\n}",
+      "input_tokens": 1208,
+      "output_tokens": 148,
+      "seconds": 11.526994200001354,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

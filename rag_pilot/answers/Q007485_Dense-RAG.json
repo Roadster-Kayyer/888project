@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007485",
+  "doc_id": "464",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?",
+  "corpus_query_index": 7484,
+  "system": "Dense-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nReporting Discrimination against Transgender Women:\nTo report discrimination, contact the Tamil Nadu Police's dedicated helpline or visit the nearest police station. You can also file a complaint online through the Tamil Nadu Police website. Provide details of the incident, and the police will take necessary action.\n\n[Document 3]\nReporting Sexual Harassment:\nTo report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 4]\nVoyeurism and Privacy Violations:\nThe Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.\n\n[Document 5]\nEthical Framework for Informers:\nThe Tamil Nadu Police follows a confidential and protected framework for dealing with informers. Informers' identities are kept secret, and their information is verified before action is taken. The police ensure that informers are not coerced or exploited.",
+  "retrieved_doc_ids": [
+    "464",
+    "462",
+    "827",
+    "450",
+    "1441"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f400ed3f3c146b0600e1a4d8826e73ed02a83bca51e54b73bc6e46841e0c74c7",
+  "answer": "Tamil Nadu Police ensures the anonymity of sexual harassment complainants by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines. [Document 1]",
+  "input_tokens": 439,
+  "output_tokens": 42,
+  "seconds": 5.23957960000007,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_3",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states refund amount equals voluntary housing refund, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly states refund amount equals voluntary housing refund, but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is correct in stating that the refund amount should equal the voluntary housing refund made, which aligns with the reference's explanation of full and partial voluntary housing refunds. However, the answer lacks direct evidence from the provided reference text, which would have been necessary to fully support the claim. The reason for the score is that while the answer is relevant and correct, it does not cite the specific evidence from the reference, which is required for full faithfulness.",
+      "input_tokens": 639,
+      "output_tokens": 176,
+      "seconds": 13.529871299993829,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

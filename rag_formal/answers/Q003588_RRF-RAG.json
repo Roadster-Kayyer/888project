@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003588",
+  "doc_id": "1644",
+  "query_type": "casual",
+  "query": "What cool stuff do cops get now for staying safe?",
+  "corpus_query_index": 3587,
+  "system": "RRF-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nGetting Police Protection:\nTo get police protection, visit your local police station and file a complaint. Provide evidence of threats, and the police will assess the situation and provide necessary protection. You can also call 100 for emergency assistance.\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nVerifying Police Officer Authenticity:\nTo verify the authenticity of a police officer in plainclothes, ask for their:\n* ID card\n* Badge number\n* Contact the local police station to confirm their identity\n* Do not hesitate to ask for verification to ensure your safety\n\n[Document 4]\nPolice Clearance for New SIM Card:\nTo get police clearance for a new SIM card, visit your local police station with a valid ID proof, address proof, and a filled-in application form. The police will verify your details and provide a clearance certificate, which you can then submit to your telecom service provider.\n\n[Document 5]\nPolice Escort for Valuables Transportation:\nTo get a police escort, submit an application to the local police station with details of the valuables, transportation route, and timing. The police will assess the request and provide an escort if deemed necessary, subject to availability and security considerations.",
+  "retrieved_doc_ids": [
+    "828",
+    "35",
+    "1900",
+    "218",
+    "855"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "aee685340258c1c4008f5d6a30fb061847686a7bc49215e0aefed7f91478ca80",
+  "answer": "Cops can get police escort for valuable transportation, police clearance for new SIM cards, and protection against threats. They can also verify police officers' authenticity by checking IDs and badges. [Document 4] [Document 1]",
+  "input_tokens": 421,
+  "output_tokens": 47,
+  "seconds": 6.1586395000013,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

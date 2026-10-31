@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_69",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the entry permit date as the starting point for SPR status determination for CPF contributions, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the entry permit date as the starting point for SPR status determination for CPF contributions, supported by Document 1.\"\n}",
+      "input_tokens": 1447,
+      "output_tokens": 72,
+      "seconds": 5.9215116999985185,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

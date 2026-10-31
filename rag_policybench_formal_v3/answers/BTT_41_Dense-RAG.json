@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_41",
+  "doc_id": "PB_5b5856d1886897cce5a3",
+  "query_type": "BTT",
+  "query": "What is the minimum age requirement to qualify for a driving licence in Singapore?",
+  "reference_answer": "The minimum age requirement to qualify for a driving licence in Singapore is 18 years old.",
+  "corpus_query_index": 36,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 2]\nUnder the Singapore Constitution, minors who are Singapore Citizens by descent or registration must take the Oath of Renunciation, Allegiance and Loyalty (ORAL) upon attaining 21 years of age and before attaining 22 years of age. Minor is required to take the ORAL on or after 21st birthday date and no later than 22nd birthday.Once the minor has completed his/her oath taking formalities, he/she may apply for Singapore passport. Nonetheless, should the minor require to extend the validity of his/her Singapore Passport before taking the Oath, and in need to travel, he/she may apply for a new passport with a validity one day before his/her 22nd birthday. The passport can only be extended to its full 10-year after the minor has taken the ORAL.You may contact us via the enquiry form if you require further clarifications on passport renewal.\n\n[Document 3]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.",
+  "retrieved_doc_ids": [
+    "PB_5b5856d1886897cce5a3",
+    "PB_9f4c61a84436b24e8a5d",
+    "PB_19512072066023768385",
+    "PB_d98d322f2936df748ef1",
+    "PB_86ecb50c3ba0c8242aab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dd890594fee70ed11746962f26b2e6681eb8abb72badde2f11330ce2856100d3",
+  "answer": "The minimum age requirement to qualify for a driving licence in Singapore is 18 years old. [Document 1]",
+  "input_tokens": 541,
+  "output_tokens": 25,
+  "seconds": 592.6520350000064,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

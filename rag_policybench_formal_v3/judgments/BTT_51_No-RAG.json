@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_51",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it provides scenarios where a driver should not cross the center line, which is related to the question. However, it does not directly cite the provided reference, which specifies crossing the center line at bends or near the crest of a rise as prohibited. The faithfulness score is null due to the absence of evidence directly linking the candidate's answer to the specific facts in the reference. The reason succinctly explains the scores.",
+      "input_tokens": 378,
+      "output_tokens": 168,
+      "seconds": 13.138616600001114,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

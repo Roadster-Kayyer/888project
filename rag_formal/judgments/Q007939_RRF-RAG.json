@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007939",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question with correct information from all documents and provides evidence for the legal consequences."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the legal consequences of threatening text messages and calls as stated in the documents, with direct references to the relevant sections of law.\",\n}",
+      "input_tokens": 824,
+      "output_tokens": 192,
+      "seconds": 15.128218699996069,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question with correct information from all documents and provides evidence for the legal consequences.\"}",
+      "input_tokens": 864,
+      "output_tokens": 46,
+      "seconds": 3.733976800001983,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

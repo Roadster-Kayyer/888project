@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000010",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate information from the documents about submitting electronic evidence and filing an e-FIR in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific steps for submitting electronic evidence and filing an e-FIR, supported by evidence from Document 1 and Document 2-5.\",\n}",
+      "input_tokens": 831,
+      "output_tokens": 192,
+      "seconds": 14.654347899999266,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2630.98876953125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate information from the documents about submitting electronic evidence and filing an e-FIR in Tamil Nadu.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question asked. The candidate's answer appears to be well-informed, directly relevant, and supported by the evidence provided in the documents. Therefore, all keys receive a score of 2. The reason is a concise summary of the evaluation.",
+      "input_tokens": 871,
+      "output_tokens": 134,
+      "seconds": 10.398586300001625,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

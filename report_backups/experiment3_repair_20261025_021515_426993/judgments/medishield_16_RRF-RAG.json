@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_16",
+  "system": "RRF-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Document 1.\",\n}",
+      "input_tokens": 679,
+      "output_tokens": 192,
+      "seconds": 14.834754899988184,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"fa",
+      "input_tokens": 719,
+      "output_tokens": 192,
+      "seconds": 14.531372900004499,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 148)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

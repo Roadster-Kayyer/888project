@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_120",
+  "doc_id": "PB_2fa0c09e016af1fec874",
+  "query_type": "ICA_134",
+  "query": "Why is my Long-Term Visit Pass (LTVP) application pending still after six weeks?",
+  "reference_answer": "All applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "corpus_query_index": 192,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.\n\n[Document 2]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 3]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 4]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 5]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.",
+  "retrieved_doc_ids": [
+    "PB_b57a1848f1c7ce667389",
+    "PB_2fa0c09e016af1fec874",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_d36aa50f901554971814",
+    "PB_492d1cc19d42b1bac512"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6e5321ea74f8fdc50d39ba74cabc2b47ef90f4a6525e1c3cc137a297b6ef8faf",
+  "answer": "Your LTVP application is being processed due to the current interim arrangement. It takes up to six weeks to process, but some applications may take longer. Additionally, if you're renewing and need to submit a PMLA, it could extend the processing time. [Document 1] [Document 2]",
+  "input_tokens": 595,
+  "output_tokens": 64,
+  "seconds": 8.382751299999654,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

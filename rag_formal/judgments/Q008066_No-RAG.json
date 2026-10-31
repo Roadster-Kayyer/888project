@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008066",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by the reference.\",\n  \"evidence\": \"The reference clearly states that the police cannot force you to sign any document, which is consistent with the candidate answer.\"\n}",
+      "input_tokens": 353,
+      "output_tokens": 89,
+      "seconds": 7.043511200005014,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

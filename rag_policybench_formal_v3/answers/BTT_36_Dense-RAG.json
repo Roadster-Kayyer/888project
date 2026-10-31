@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_36",
+  "doc_id": "PB_e57446a6e3d763a70f04",
+  "query_type": "BTT",
+  "query": "Which category of traffic signs must be followed without exception?",
+  "reference_answer": "Mandatory signs are compulsory signs.",
+  "corpus_query_index": 30,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMandatory signs are compulsory signs.\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 5]\nIt indicates that a motorist can drive on ahead.",
+  "retrieved_doc_ids": [
+    "PB_e57446a6e3d763a70f04",
+    "PB_2858faae83bda4331fb6",
+    "PB_619765030c2c1f6e27b8",
+    "PB_4479f84c1b73422f7e24",
+    "PB_a6f8d6ad745a1e028eb1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bcd5c9b9952b4bf2f713db1ce204618309064a82fbfb2d146d5b7419eb2c8849",
+  "answer": "Mandatory signs must be followed without exception [Document 1].",
+  "input_tokens": 232,
+  "output_tokens": 14,
+  "seconds": 180.9480635,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

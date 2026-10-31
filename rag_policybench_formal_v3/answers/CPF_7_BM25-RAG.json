@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_7",
+  "doc_id": "PB_5524a72cc3bbbca92a03",
+  "query_type": "CPF_111",
+  "query": "Why are my discounted Singtel shares not reflected in my Central Depository (CDP) statement?",
+  "reference_answer": "Your discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.",
+  "corpus_query_index": 134,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 4]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_5524a72cc3bbbca92a03",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_10b7557459105ffc6c3e",
+    "PB_09f08389f279dd1828ad",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b17cddc85430972b160bf400d3c892b51d243db0f6e8a482a4322cfdbe9c50f2",
+  "answer": "Your discounted Singtel shares are held by the Board and should be reflected in your CPF Statement of Account. However, they need to be set aside in your Retirement Account (RA) with the Full Retirement Sum (FRS) before you can withdraw them. Check your past top-up applications and ensure you meet the Full Retirement Sum requirement to withdraw your shares. [Document 1] [Document 2]",
+  "input_tokens": 824,
+  "output_tokens": 82,
+  "seconds": 10.44345059999614,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

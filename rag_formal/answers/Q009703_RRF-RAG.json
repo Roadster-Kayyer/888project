@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009703",
+  "doc_id": "864",
+  "query_type": "casual",
+  "query": "Can you tell me about the pink police patrol and how to reach them?",
+  "corpus_query_index": 9702,
+  "system": "RRF-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nPolice Patrol Request:\nYes, you can request police patrol in your locality by:\n- Contacting your local police station\n- Calling the police control room (100)\n- Filing a request through the Tamil Nadu Police website or mobile app\n\n[Document 4]\nContacting Highway Patrol:\nTo contact Highway Patrol units in Tamil Nadu, dial the toll-free number 103 or 108. You can also contact the nearest police station or the Tamil Nadu Police Department's helpline for assistance.\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "864",
+    "253",
+    "276",
+    "1924",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9b3530827834f7a40ece9fae534096bbd756d3003f9af43b02b31fbb9f4484b1",
+  "answer": "The Pink Police Patrol is a women's safety unit in Tamil Nadu. Call 94981 95555 or 100 to contact them. For general police help, call 100 or visit local police stations. [Document 1]",
+  "input_tokens": 411,
+  "output_tokens": 58,
+  "seconds": 7.690744999999879,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

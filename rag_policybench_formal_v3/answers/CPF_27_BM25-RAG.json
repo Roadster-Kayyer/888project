@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_27",
+  "doc_id": "PB_15679d0d69b1e1e17f1d",
+  "query_type": "CPF_111",
+  "query": "What happens to my unused CPF transfers and cash top-ups to my recipient upon his demise or if he closes his CPF account upon leaving Singapore?",
+  "reference_answer": "Cash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.",
+  "corpus_query_index": 87,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nCash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.\n\n[Document 4]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_15679d0d69b1e1e17f1d",
+    "PB_cc60baad4cbf9560588b",
+    "PB_283925c4e94ab32680ac",
+    "PB_09f08389f279dd1828ad",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fe8cc9353cc7f321c42ea72d4669c1af7092c2ae670f7db63df434dc1ffc9436",
+  "answer": "Unused CPF transfers and cash top-ups to a deceased recipient or one who closed their CPF account will be paid to the recipient's beneficiaries or themselves, respectively. Safeguards prevent premature withdrawals. [Document 1]",
+  "input_tokens": 793,
+  "output_tokens": 44,
+  "seconds": 5.909378900003503,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

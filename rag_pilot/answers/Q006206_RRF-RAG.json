@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006206",
+  "doc_id": "234",
+  "query_type": "original",
+  "query": "How does the Prohibition Enforcement Wing operate?",
+  "corpus_query_index": 6205,
+  "system": "RRF-RAG",
+  "reference_answer": "Prohibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales",
+  "context": "[Document 1]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 2]\nProhibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales\n\n[Document 3]\nCB-CID Economic Offences Wing:\nThe CB-CID Economic Offences Wing is a specialized unit of the Tamil Nadu Police that investigates economic crimes, including fraud, cheating, and other financial offenses.\n\n[Document 4]\nMotor Transport Wing:\nThe Motor Transport Wing is responsible for managing the police department's vehicles, including maintenance, allocation, and logistics, to ensure efficient transportation for police personnel and operations.\n\n[Document 5]\n2. Police Intelligence Wing:\nThe Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.",
+  "retrieved_doc_ids": [
+    "1926",
+    "234",
+    "195",
+    "238",
+    "1613"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c2e956e5b5b8e5e3f22f1bbf3cf6dbaf41b0537f042f9f9275df3eeafda0de97",
+  "answer": "The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales, and gathering strategic information. [Document 1]",
+  "input_tokens": 348,
+  "output_tokens": 39,
+  "seconds": 4.765673400001106,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

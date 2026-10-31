@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005081",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate mentions EOW in Tamil Nadu but lacks specific details about its jurisdiction."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions EOW in Tamil Nadu but lacks specific details about its jurisdiction.\",\n  \"evidence\": null\n}\n\nIn this evaluation, the candidate's answer is partly correct as it identifies the Economic Offences Wing in Tamil Nadu but fails to provide the specific details about its jurisdiction as outlined in the reference. The correctness score is 1 because the answer is related to the question but lacks completeness. The relevance score is 1 because the answer is related to the jurisdiction of the Economic Offences Wing in Tamil Nadu. Faithfulness is null because there is no substantive factual claim in the candidate's answer that can be directly supported or contrad",
+      "input_tokens": 389,
+      "output_tokens": 192,
+      "seconds": 15.215580600000976,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

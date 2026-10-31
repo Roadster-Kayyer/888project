@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_100",
+  "doc_id": "PB_2a66fea5f046058537db",
+  "query_type": "CPF_111",
+  "query": "I have invested in a company using CPF. How can I get the latest financial statement or annual report of this company, if the company has been delisted? And what should I do if the company does not respond to my request?",
+  "reference_answer": "You may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.",
+  "corpus_query_index": 58,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 2]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 3]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 4]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 5]\nYou can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.",
+  "retrieved_doc_ids": [
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_28af97b74168a5b5beb0",
+    "PB_aa985d2195d6653bfb7f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "73b72d56f02a037d8d14c3d58bfb807aa77cbb6697d6bc8517ffb16e9a1bdf04",
+  "answer": "If the company is delisted, contact all stockbrokers to inform them of your new CPF Investment Account number. If they don't respond, consider contacting the CPF Board directly for assistance. [Document 1] For non-responsive companies, you might face restrictions or need to switch funds, as per [Document 2]. Always check the CPF Board's policies for recovering premature withdrawals or penalties. [Document 3] Lastly, if payments are delayed, check your CPF account balance within 3-5 working days. [Document 4]",
+  "input_tokens": 737,
+  "output_tokens": 110,
+  "seconds": 13.891829199987114,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

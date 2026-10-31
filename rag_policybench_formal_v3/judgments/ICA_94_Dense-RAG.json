@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_94",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly instructs to submit error screenshot and details, aligns with provided documents on submitting SGAC and updating declarations, and directly addresses the error situation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly instructs to submit error screenshot and details, aligns with provided documents on submitting SGAC and updating declarations, and directly addresses the error situation.\"\n}",
+      "input_tokens": 1027,
+      "output_tokens": 192,
+      "seconds": 14.657206499992753,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_12",
+  "doc_id": "PB_dc08990660488c2ed4e8",
+  "query_type": "CPF_111",
+  "query": "What sources of MediSave contributions are eligible for Drive and Save (DAS) co-contribution?",
+  "reference_answer": "MediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.",
+  "corpus_query_index": 71,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 2]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 3]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 4]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 5]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.",
+  "retrieved_doc_ids": [
+    "PB_dc08990660488c2ed4e8",
+    "PB_e29140d6b3a201be99ba",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_b136e24f78206e70b3ee",
+    "PB_f96012ec2f1365efa6ef"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8f325d84ceb038cc4f7253d4648132f9ee57c0821c997cba2d421246f74dc3c6",
+  "answer": "MediSave contributions made by taxi principal hirers to offset MediSave payable qualify for Drive and Save (DAS) co-contribution. Contributions can be made via Manage your MediSave payable or GIRO. [Document 1]",
+  "input_tokens": 785,
+  "output_tokens": 49,
+  "seconds": 6.477389100007713,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

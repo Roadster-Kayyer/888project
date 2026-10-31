@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_82",
+  "doc_id": "PB_e29140d6b3a201be99ba",
+  "query_type": "CPF_111",
+  "query": "If I participate in the Drive and Save (DAS) Scheme, will my Taxi Driver Vocational Licence (TDVL) be automatically renewed?",
+  "reference_answer": "No, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "corpus_query_index": 148,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.",
+  "retrieved_doc_ids": [
+    "PB_e29140d6b3a201be99ba",
+    "PB_dc08990660488c2ed4e8",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b",
+    "PB_283925c4e94ab32680ac"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "021d9b90fc5cbbb0a322676697f00d5e998162b10b695aac8d70688fab5591c1",
+  "answer": "No, participating in the Drive and Save (DAS) Scheme does not automatically renew your Taxi Driver Vocational Licence (TDVL). TDVL renewal requires making MediSave contributions or other payments as per the guidelines provided in the documents. [Document 1]",
+  "input_tokens": 896,
+  "output_tokens": 53,
+  "seconds": 7.19247149999137,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_117",
+  "doc_id": "PB_89ea36a5df1396fbeefe",
+  "query_type": "ICA_134",
+  "query": "Does the Singapore Permanent Residence (PR) status expires?",
+  "reference_answer": "The Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.",
+  "corpus_query_index": 188,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.",
+  "retrieved_doc_ids": [
+    "PB_9bcc03600abfbc3227e6",
+    "PB_d98d322f2936df748ef1",
+    "PB_c6456fad7242c379cac1",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_16464034b8fc8059eece"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1628c941973a02d29a9283fb727cc8bec4a951b9b1271db506d1abde82e55383",
+  "answer": "The Singapore Permanent Residence (PR) status does not expire. However, a valid Re-Entry Permit (REP) is required each time a PR travels abroad to retain their PR status. [Document 4]",
+  "input_tokens": 390,
+  "output_tokens": 43,
+  "seconds": 5.749505200001295,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

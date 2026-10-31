@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001714",
+  "doc_id": "1306",
+  "query_type": "search",
+  "query": "What's the procedure to receive a lower tax withholding certificate in Tamil Nadu?",
+  "corpus_query_index": 1713,
+  "system": "Dense-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 2]\nObtaining Form 16 in Tamil Nadu:\nTo obtain Form 16, contact your employer, as they are responsible for issuing it. Form 16 is a certificate of tax deduction at source, and employers must provide it to employees by May 31st of each year.\n\n[Document 3]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 4]\nPolice Clearance Certificate:\nTo obtain a police clearance certificate in Tamil Nadu, apply at the District Police Office or Commissioner's Office with required documents (ID proof, address proof, etc.). Fill out the application form, pay the fee, and wait for verification. The certificate will be issued after clearance.\n\n[Document 5]\nPolice Clearance Certificate:\nTo get a police clearance certificate in Tamil Nadu, visit your local police station and submit an application with required documents, including ID proof and address proof. Pay the prescribed fee and wait for verification. The certificate will be issued after clearance.",
+  "retrieved_doc_ids": [
+    "1306",
+    "1303",
+    "1297",
+    "2046",
+    "817"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "662e32e13d21ae354fcdc6c2884d53487c467d58ea03220a5bc6d8ff469b8e00",
+  "answer": "To apply for a lower TDS certificate in Tamil Nadu, download Form 13 from the official income tax website, visit an Income Tax Office, and attach your PAN card and income proof. [Document 1]",
+  "input_tokens": 467,
+  "output_tokens": 45,
+  "seconds": 5.700989299999492,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

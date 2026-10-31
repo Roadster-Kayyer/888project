@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002244",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the methods used by authorities, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the methods used by authorities, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the methods used by authorities to combat exploitation of tribal artisans, which include registering complaints, investigating cases, and collaborating with tribal welfare departments and NGOs. The relevance (2) is high because the answer directly addresses the question and is supported by the provided documents. Faithfulness (2) is also high as the candidate's answer is substantiated by the evidence in Documents 1 and 2,",
+      "input_tokens": 886,
+      "output_tokens": 192,
+      "seconds": 14.892423500001314,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

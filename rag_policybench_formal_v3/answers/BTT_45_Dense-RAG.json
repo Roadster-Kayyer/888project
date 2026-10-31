@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_45",
+  "doc_id": "PB_6bc60367a9acd22488f7",
+  "query_type": "BTT",
+  "query": "What does the yellow section in a mandatory give-way to buses area indicate?",
+  "reference_answer": "It indicates a mandatory give-way to buses area.",
+  "corpus_query_index": 40,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt indicates a mandatory give-way to buses area.\n\n[Document 2]\nMandatory signs are compulsory signs.\n\n[Document 3]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.\n\n[Document 4]\nThree yellow reflective markings.\n\n[Document 5]\nIt indicates the centre line of a two-way road.",
+  "retrieved_doc_ids": [
+    "PB_6bc60367a9acd22488f7",
+    "PB_e57446a6e3d763a70f04",
+    "PB_c41b88860662185c50b1",
+    "PB_f93c36f8738a815fe887",
+    "PB_57b4cb852a1cc98f4ad5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c88db2f0a8323e5620104575633a6af613290671e708ba03d3d63530fb0085ec",
+  "answer": "[Document 1] indicates that the yellow section in a mandatory give-way to buses area means drivers must yield to buses. [Document 3] further clarifies that yellow color signifies an extended travel time for buses. However, [Document 4] and [Document 5] do not directly relate to the specific question about buses. [Document 2] explains that mandatory signs are required but don't pertain to the yellow section's meaning. [Document 3] provides context about the yellow color but doesn't specifically address the buses' section.",
+  "input_tokens": 205,
+  "output_tokens": 113,
+  "seconds": 14.292158700001892,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

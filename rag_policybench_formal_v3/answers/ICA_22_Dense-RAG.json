@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_22",
+  "doc_id": "PB_b155e67f12a868a1d32b",
+  "query_type": "ICA_134",
+  "query": "What is the processing time for Singapore Permanent Residence (PR) applications?",
+  "reference_answer": "Generally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "corpus_query_index": 217,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 4]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 5]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.",
+  "retrieved_doc_ids": [
+    "PB_b155e67f12a868a1d32b",
+    "PB_d98d322f2936df748ef1",
+    "PB_2fa0c09e016af1fec874",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_c6456fad7242c379cac1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "59620e4402820c1d7e44ddd49b5643f9bf0636e80760158c8c519a6178d062d2",
+  "answer": "The processing time for Singapore Permanent Residence (PR) applications is generally about 6 months, but can take up to 6 months depending on case complexity. [Document 1]",
+  "input_tokens": 555,
+  "output_tokens": 37,
+  "seconds": 5.063920800006599,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

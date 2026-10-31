@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_91",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents' information on processing times for REP renewal and transfer, including exclusions and potential delays."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents' information on processing times for REP renewal and transfer, including exclusions and potential delays.\"\n}",
+      "input_tokens": 880,
+      "output_tokens": 192,
+      "seconds": 14.94708709999395,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_25",
+  "doc_id": "PB_1dca0c51ba1dc68b6aca",
+  "query_type": "medishield",
+  "query": "What does MediShield Life protect Singapore Citizens and Permanent Residents against, regardless of their age or health condition?",
+  "reference_answer": "MediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "corpus_query_index": 320,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 2]\nAll Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.\n\n[Document 3]\nThe electronic health declaration is in place for purposes of disease control, specifically to guard against importing diseases of concern, to protect the health of Singapore residents. Those who make false declarations may be prosecuted under the Infectious Diseases Act.\n\n[Document 4]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 5]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.",
+  "retrieved_doc_ids": [
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_c82033a92d9e7c15a412",
+    "PB_1e36bd59d862bbf04f33",
+    "PB_552a298a8583e182f7ef",
+    "PB_d600f5b60cee68821fae"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "22d2902320555b65105ba9a237c3f25549a99271834fb01e66f1e5ed9cb377b4",
+  "answer": "MediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills throughout their lives, regardless of age or health condition. It covers all eligible individuals, regardless of their income or housing value, and has a deductible ranging from $2,000 to $4,500 based on age and ward class. [Document 1]",
+  "input_tokens": 330,
+  "output_tokens": 71,
+  "seconds": 8.977556600002572,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008852",
+  "doc_id": "710",
+  "query_type": "formal",
+  "query": "What legal repercussions result from the unauthorized partitioning of communal assets?",
+  "corpus_query_index": 8851,
+  "system": "BM25-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nLegal Consequences for Unauthorized Bill Posting:\nUnauthorized bill posting is an offense under the Tamil Nadu Urban Local Bodies (Permission for Erection of Advertisements) Rules, 2018. The penalty can range from ₹5,000 to ₹50,000.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nUnauthorized Quarrying:\nUnauthorized quarrying can result in imprisonment up to 5 years and/or a fine up to ₹5 lakhs to ₹25 lakhs, as per the Tamil Nadu Minor Mineral Concession Rules, 1959.\n\n[Document 4]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 5]\nUnauthorized Weighing Equipment:\nUsing unauthorized weighing equipment in Tamil Nadu can result in a fine up to ₹5,000 and/or imprisonment up to 1 year.",
+  "retrieved_doc_ids": [
+    "521",
+    "507",
+    "731",
+    "528",
+    "542"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4ba629e5058273588dedae941866a1d106097d3ac78d31b421d16be264ee61b2",
+  "answer": "Unauthorized partitioning of communal assets could lead to fines ranging from ₹5,000 to ₹50,000, depending on the specific rules governing the act, as detailed in [Document 1]. However, without direct evidence, other forms of unauthorized activities like street vending, quarrying, and weighing equipment use have varying legal consequences, including fines and potential imprisonment, as outlined in [Document 2] to [Document 5].",
+  "input_tokens": 377,
+  "output_tokens": 92,
+  "seconds": 12.191666699998677,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

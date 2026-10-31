@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_116",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the relevant centers for updating passport details for LTVP holders and non-Singapore passport holders, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the relevant centers for updating passport details for LTVP holders and non-Singapore passport holders, supported by evidence from Document 2.\",\n  \"evidence\": \"[Document 2]\"\n}",
+      "input_tokens": 1166,
+      "output_tokens": 192,
+      "seconds": 14.606589800008805,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

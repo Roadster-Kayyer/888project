@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_17",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately states the maximum claimable amount under MediShield Life and correctly relates it to the deductible, supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately states the maximum claimable amount under MediShield Life and correctly relates it to the deductible, supported by Document 1 and Document 4.\",\n  \"evidence\": \"Document 1: Deductible ranges from $2,000 to $4,500; Document 4: Maximum claimable amount is $1,000.\"\n}",
+      "input_tokens": 1104,
+      "output_tokens": 125,
+      "seconds": 9.683191699994495,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

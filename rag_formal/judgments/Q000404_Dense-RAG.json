@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000404",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the duties of Child Welfare Police Officers, supported by evidence from Documents 1, 3, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively describes the duties of Child Welfare Police Officers, supported by evidence from Document 1 and Document 5.\",\n}",
+      "input_tokens": 833,
+      "output_tokens": 74,
+      "seconds": 5.949906400001055,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the duties of Child Welfare Police Officers, supported by evidence from Documents 1, 3, and 5.\"}\n\nNote: The scores are based on the candidate's answer being correct (2), directly relevant to the question (2), and fully supported by the evidence provided in the documents (2). The reason is a concise summary of the evaluation.",
+      "input_tokens": 873,
+      "output_tokens": 110,
+      "seconds": 8.76965139999811,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

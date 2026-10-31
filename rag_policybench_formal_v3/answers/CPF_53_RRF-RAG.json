@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_53",
+  "doc_id": "PB_29b07e8c3007efc0cd16",
+  "query_type": "CPF_111",
+  "query": "What is the cut-off date for self-employed MediSave contributions to be eligible for tax relief?",
+  "reference_answer": "To be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.",
+  "corpus_query_index": 116,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 2]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 3]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 4]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days\n\n[Document 5]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44",
+  "retrieved_doc_ids": [
+    "PB_29b07e8c3007efc0cd16",
+    "PB_95a5467e7a1008fc8501",
+    "PB_dc08990660488c2ed4e8",
+    "PB_2c2c8f4f1646ae7f07d7",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_95a5467e7a1008fc8501",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dd3fdbba1c60bf671f0b864cc82e9b348ecd80c676bb037afa83d1ff1d314bab",
+  "answer": "The cut-off date for self-employed MediSave contributions to be eligible for tax relief is the last working day of the year [Document 1].",
+  "input_tokens": 1064,
+  "output_tokens": 30,
+  "seconds": 4.373917899996741,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

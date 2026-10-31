@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002771",
+  "doc_id": "1498",
+  "query_type": "original",
+  "query": "What is the recruitment process for ministerial staff in police department?",
+  "corpus_query_index": 2770,
+  "system": "RRF-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nRecruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.\n\n[Document 2]\nRecruitment for Tamil Nadu Police Medical Staff:\nThe recruitment process for Tamil Nadu Police medical staff involves a written exam and interview. Candidates must have the required medical qualifications and experience. The selection process is based on merit and reservation rules. You can check the official Tamil Nadu Police website for notifications and apply online.\n\n[Document 3]\nArmed Reserve Police Recruitment:\nThe recruitment process for the Armed Reserve Police involves a written exam, physical measurement test, and physical efficiency test. Candidates must meet the eligibility criteria, including age, education, and physical standards. The selection process is conducted by the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB).\n\n[Document 4]\n3. Police Recruitment Wing Role:\nThe Police Recruitment Wing attracts candidates by advertising job vacancies, conducting recruitment drives, and overseeing the selection process to ensure a fair and transparent hiring process for police positions in Tamil Nadu.\n\n[Document 5]\nTamil Nadu Special Police Commando Force Recruitment:\nRecruitment is through a rigorous process, including physical tests, written exams, and interviews. Candidates must meet age, education, and physical standards. Apply through the Tamil Nadu Police Department's website during recruitment notifications.",
+  "retrieved_doc_ids": [
+    "1498",
+    "1503",
+    "1484",
+    "1602",
+    "1479"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cbe9814ee92969192179c479c707eabf18fa1f47fdaed03d74841682d8b2b27b",
+  "answer": "The recruitment process for ministerial staff in the Tamil Nadu Police Department includes a written examination, skill test (if required), interview, and document verification along with a medical fitness check. [Document 1]",
+  "input_tokens": 406,
+  "output_tokens": 42,
+  "seconds": 5.519945899999584,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

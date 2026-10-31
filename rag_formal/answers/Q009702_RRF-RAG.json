@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009702",
+  "doc_id": "864",
+  "query_type": "formal",
+  "query": "How can one access the pink police patrol service?",
+  "corpus_query_index": 9701,
+  "system": "RRF-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nAccessing Tamil Nadu Police Public Service Portal:\nYou can access the Tamil Nadu Police public service portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or through the Tamil Nadu Police mobile app.\n\n[Document 3]\nPolice Patrol Request:\nYes, you can request police patrol in your locality by:\n- Contacting your local police station\n- Calling the police control room (100)\n- Filing a request through the Tamil Nadu Police website or mobile app\n\n[Document 4]\nDigital Kiosks in Police Stations:\nDigital kiosks in police stations are self-service machines where you can submit service requests, such as reporting a lost item or applying for a certificate. Simply select the required service, fill in the details, and submit your request.\n\n[Document 5]\nAccessing Women Helpline Services:\nTo access the Tamil Nadu Police women helpline services, dial 181 or visit the nearest All-Women Police Station. You can also download the Tamil Nadu Police mobile app for assistance.",
+  "retrieved_doc_ids": [
+    "864",
+    "309",
+    "276",
+    "1343",
+    "1010"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f5b114fc665619ac342b4c7614e36159ef118b792f0af1b1156b056d6fdf171c",
+  "answer": "To access the Pink Police Patrol service, call 94981 95555 or use the Tamil Nadu Police Emergency Number 100. For digital kiosks, visit police stations or use the Tamil Nadu Police website/mobile app to request a patrol. [Document 1]",
+  "input_tokens": 398,
+  "output_tokens": 63,
+  "seconds": 8.100055699997029,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

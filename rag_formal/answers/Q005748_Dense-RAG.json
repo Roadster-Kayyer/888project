@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005748",
+  "doc_id": "2032",
+  "query_type": "casual",
+  "query": "How do I check if those legal papers I got in the mail are legit?",
+  "corpus_query_index": 5747,
+  "system": "Dense-RAG",
+  "reference_answer": "Verifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "context": "[Document 1]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).\n\n[Document 3]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 5]\nReporting Fake Court Orders or Notices:\nTo report fake court orders or notices, contact the Tamil Nadu Police Cyber Cell or your local police station. Provide details of the fake document, and they will guide you through the process.",
+  "retrieved_doc_ids": [
+    "1191",
+    "345",
+    "1190",
+    "2032",
+    "1192"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2d6536ba0cd6ba2cde911cd361bfad69b33d7c08992510cac401f522843c18d1",
+  "answer": "To verify legal documents, contact the issuing court or Tamil Nadu State Judicial Department. Check for seals, signatures, and stamps. Visit official websites for specific types like summonses or court orders. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 44,
+  "seconds": 5.6156895000003715,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

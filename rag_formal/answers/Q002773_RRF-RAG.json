@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002773",
+  "doc_id": "1498",
+  "query_type": "casual",
+  "query": "So, how do they find new ministers in the police force?",
+  "corpus_query_index": 2772,
+  "system": "RRF-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nPolice Clearance for New SIM Card:\nTo get police clearance for a new SIM card, visit your local police station with a valid ID proof, address proof, and a filled-in application form. The police will verify your details and provide a clearance certificate, which you can then submit to your telecom service provider.\n\n[Document 2]\nQuestion 3: Police Public Grievance Redressal System\nTo find information about the police public grievance redressal system, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and look for the \"Citizen Services\" or \"Grievance Redressal\" section. You can also contact your local police station or call 100 (Police Emergency Number) for assistance.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "218",
+    "356",
+    "253",
+    "1021",
+    "1022"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "489287bff9b8863a3dd38cde76fb8beaf981038d4a39527575a64706fa5fdb9c",
+  "answer": "New ministers in the police force are likely found through vetting processes at police stations. For police clearance, one needs to visit a local police station with ID and address proofs, and fill an application form. [Document 1] This process verifies details and issues a clearance certificate. No direct mention of finding new ministers in police force. [Document 5]",
+  "input_tokens": 620,
+  "output_tokens": 73,
+  "seconds": 9.321069100000386,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

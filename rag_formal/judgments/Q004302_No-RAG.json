@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004302",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Candidate answer generally describes the process but does not directly cite the reference's specific measures.\"\n}",
+      "input_tokens": 422,
+      "output_tokens": 192,
+      "seconds": 14.75764540000091,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001548",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process for PWD approval and references relevant documents, aligning with the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process for PWD approval and references relevant documents, aligning with the provided reference.\",\n  \"evidence\": \"Document 1, Document 5, Document 2\"\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the question about getting road widening plans approved by the PWD in Tamil Nadu, mentioning the submission of a proposal to the PWD Divisional Office with the necessary documents and following the guidelines. The answer is relevant (2) because it directly relates to the process described in the reference documents. The faithfulness (2) is confirmed by the candidate's use of evidence from Document 5, which discusses the appro",
+      "input_tokens": 862,
+      "output_tokens": 192,
+      "seconds": 14.505303999998432,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

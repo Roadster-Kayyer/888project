@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_61",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with relevant information from all documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing relevant information from the documents about the process and conditions for registering/replacing an IC while overseas.\",\n}",
+      "input_tokens": 716,
+      "output_tokens": 192,
+      "seconds": 14.684367900001234,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with relevant information from all documents, fully supported by evidence.\"}",
+      "input_tokens": 756,
+      "output_tokens": 40,
+      "seconds": 3.2125647000066238,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_88",
+  "doc_id": "PB_b57a1848f1c7ce667389",
+  "query_type": "ICA_134",
+  "query": "Why did I get a 3-month extension for my current LTVP?",
+  "reference_answer": "Long-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.",
+  "corpus_query_index": 289,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.\n\n[Document 2]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 3]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 4]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 5]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "retrieved_doc_ids": [
+    "PB_b57a1848f1c7ce667389",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_f69aa5d536523684f1ff",
+    "PB_d36aa50f901554971814",
+    "PB_2fa0c09e016af1fec874"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5bddcee203c117a06746096b0105cf6df179f36f3ff7351462e6485e250444c7",
+  "answer": "You received a 3-month extension because you are eligible for it, and it's an interim arrangement while your LTVP renewal application is being processed. [Document 1]",
+  "input_tokens": 589,
+  "output_tokens": 36,
+  "seconds": 4.682808300000033,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

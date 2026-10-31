@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_104",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this evaluation, the candidate answer is partly correct as it acknowledges the possibility of restrictions and the need for official guidance, which aligns with the reference's implication that there are conditions to be met. However, it does not directly quote or paraphrase the reference, which is necessary for full faithfulness. The lack of retrieved evidence is noted, and the reason succinctly explains the scores.",
+      "input_tokens": 402,
+      "output_tokens": 151,
+      "seconds": 11.436333400008152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009582",
+  "doc_id": "842",
+  "query_type": "formal",
+  "query": "How does one verify a servant?",
+  "corpus_query_index": 9581,
+  "system": "RRF-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nTenant Verification:\nTo verify a tenant, submit a written application to the local police station with tenant's details, including ID proof, address, and rental agreement. The police will verify the information and provide a report.\n\n[Document 3]\nVerifying Lawyer Credentials:\nTo verify a lawyer's credentials in Tamil Nadu:\n1. Check the Tamil Nadu Bar Council website\n2. Verify their enrollment number\n3. Check for any disciplinary actions\n\n[Document 4]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 5]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).",
+  "retrieved_doc_ids": [
+    "842",
+    "841",
+    "2036",
+    "207",
+    "345"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bb5b0ed3aec29fd13514d22dafb710e1b6dcb6ae8628af7103475a8150dbb226",
+  "answer": "To verify a servant, submit an application to the local police station with the servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report. [Document 1]",
+  "input_tokens": 357,
+  "output_tokens": 45,
+  "seconds": 5.940602200000285,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

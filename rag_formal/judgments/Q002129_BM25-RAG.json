@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002129",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the evidence, detailing police actions and training related to forest rights violations and reporting, directly addressing the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence, detailing police actions and training related to forest rights violations and reporting, directly addressing the question.\"\n}",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 14.921743200000492,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

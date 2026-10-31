@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_102",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly interprets the eligibility rules, directly addresses the question, and is supported by the reference information about the deadline for top-ups."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the eligibility rules, directly addresses the question, and is supported by the reference information about the deadline for top-ups.\",\n  \"evidence\": \"The reference clearly states the top-up must be made by 31 December in the year of eligibility, which implies no retroactive top-ups are allowed.\"\n}",
+      "input_tokens": 546,
+      "output_tokens": 116,
+      "seconds": 9.06383869999263,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

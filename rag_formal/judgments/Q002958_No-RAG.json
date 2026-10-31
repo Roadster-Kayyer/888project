@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002958",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses deployment of law enforcement and managing public panic, which are related to the reference. However, it does not directly mention riot control police units, non-lethal crowd control measures, or the restoration of law and order, which are key points in the reference. Therefore, the correctness score is 1 due to the partial correctness but important omissions. Faithfulness is null because there is no substantive factual claim directly supported by the supplied evidence.",
+      "input_tokens": 410,
+      "output_tokens": 177,
+      "seconds": 13.579448800002865,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

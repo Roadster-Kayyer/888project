@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_17",
+  "doc_id": "PB_94d4cd30132bb6864607",
+  "query_type": "BTT",
+  "query": "What is crucial before pulling out to pass another vehicle to alert other road users of your intention?",
+  "reference_answer": "Give a clear signal in good time.",
+  "corpus_query_index": 9,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 2]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 3]\nIt indicates that a motorist can drive on ahead.\n\n[Document 4]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 5]\nMotorists should slow down and watch out for buses pulling out of the bus bay.",
+  "retrieved_doc_ids": [
+    "PB_2858faae83bda4331fb6",
+    "PB_89b7e5350f270a309ba9",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_619765030c2c1f6e27b8",
+    "PB_46950c4cff6ad431d048"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "41962984b03c710d004c25ca033c35e55dd02663638fa7fd0b64977fe653dec8",
+  "answer": "Before pulling out to pass, crucially slow down, keep left, and be aware of oncoming traffic [Document 1]. Additionally, ensure there's enough room to stop safely if needed [Document 2].",
+  "input_tokens": 224,
+  "output_tokens": 44,
+  "seconds": 5.667663000000175,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

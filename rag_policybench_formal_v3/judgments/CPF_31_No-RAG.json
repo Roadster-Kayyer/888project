@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_31",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but lacks direct evidence from the provided reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is correct as it suggests a valid resource (the official UK government website) for understanding MRSS. However, it does not directly reference the evidence provided (infographic and video in multiple languages). Therefore, the faithfulness score is null due to the absence of direct evidence from the supplied reference.",
+      "input_tokens": 458,
+      "output_tokens": 130,
+      "seconds": 9.887111299991375,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

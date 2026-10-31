@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_15",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference fact."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference fact.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate answer is correct (2) as it accurately reflects the information provided in the reference. The relevance score is 2 because the answer directly addresses the question about the maximum width of a vehicle allowed. Faithfulness is rated as 2 because the candidate's answer is consistent with the reference, which states the maximum permissible width as 2.3 meters. The reason for the scores is that the answer is factually correct, directly relevant, and faithful to the evidence provided. The evidence is the reference itself, which is implicitly included in the candidate",
+      "input_tokens": 367,
+      "output_tokens": 192,
+      "seconds": 14.76423660000728,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

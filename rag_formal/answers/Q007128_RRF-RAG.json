@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007128",
+  "doc_id": "40",
+  "query_type": "casual",
+  "query": "So, what's up with my rights when they're trying to arrest me?",
+  "corpus_query_index": 7127,
+  "system": "RRF-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nCitizen Rights During Investigations:\nCitizens have the right to remain silent, seek legal counsel, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation, with protection against torture, cruel, or inhuman treatment.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.\n\n[Document 4]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 5]\nSuspect Rights During Questioning:\nSuspects have the right to remain silent, consult a lawyer, and be informed of their rights. They must be treated with dignity and respect, and not be subjected to physical or mental abuse.",
+  "retrieved_doc_ids": [
+    "1418",
+    "46",
+    "2033",
+    "284",
+    "1421"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5882e060c72bcaaeccafaf9f0faa13cbeba41deb8cb1f192ea2e3b48fd7fd54c",
+  "answer": "When being arrested, you have several rights including the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. You also have the right to request medical attention if needed. [Document 1] [Document 4]",
+  "input_tokens": 374,
+  "output_tokens": 51,
+  "seconds": 6.826149200000145,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_26",
+  "doc_id": "PB_25927e8ab4491744b345",
+  "query_type": "medishield",
+  "query": "What kind of authority does the CPF Board have regarding the terms and conditions of the MediShield Life scheme?",
+  "reference_answer": "The CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.",
+  "corpus_query_index": 321,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 2]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 3]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 4]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 5]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.",
+  "retrieved_doc_ids": [
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_25927e8ab4491744b345",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_602681b75becd57cfb35",
+    "PB_eacf65b60e2998442b5a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "586c11ff86f02abb53aecb01b634e66bb40b04d42cc15ca79adf00122d1f9523",
+  "answer": "The CPF Board has authority to impose and vary the terms and conditions of the MediShield Life scheme as per the MediShield Life Scheme Act 2015 [Document 1]. It can also recover CPF savings and impose penalties for premature withdrawals [Document 3].",
+  "input_tokens": 415,
+  "output_tokens": 55,
+  "seconds": 7.170032399997581,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

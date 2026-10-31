@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002273",
+  "doc_id": "1407",
+  "query_type": "casual",
+  "query": "How do they handle animal-human clashes in the forests under Tamil Nadu Police?",
+  "corpus_query_index": 2272,
+  "system": "BM25-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nHuman-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed\n\n[Document 2]\nWildlife Rescue and Rehabilitation in Tamil Nadu\nFor wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.\n\n[Document 3]\nCultural Sensitivity Issues:\nThe Tamil Nadu Police follows a protocol to handle cultural sensitivity issues with foreign nationals. They have a dedicated Foreigners' Registration Office (FRO) to address concerns and provide assistance. The police also follow guidelines set by the National Human Rights Commission.\n\n[Document 4]\nRailway Police Jurisdiction:\nThe Railway Police in Tamil Nadu has jurisdiction over railway stations, trains, and railway premises within the state. They handle cases related to railway property, passengers, and staff.\n\n[Document 5]\nReporting Human Trafficking:\nTo report human trafficking in Tamil Nadu, call the National Human Trafficking Helpline at 1800-425-4777 or the Tamil Nadu Police Helpline at 100. You can also visit the nearest police station to file a complaint.",
+  "retrieved_doc_ids": [
+    "1407",
+    "1208",
+    "1784",
+    "1922",
+    "865"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fe8491b7d7687b75dcfec944012d3f7695f2bb7258d6d04c4d6476e69591d542",
+  "answer": "Tamil Nadu Police handles human-animal conflicts by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation when necessary. [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 43,
+  "seconds": 5.413960699999734,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2062.5498046875
+}

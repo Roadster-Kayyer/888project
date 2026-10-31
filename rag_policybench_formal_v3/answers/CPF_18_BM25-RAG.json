@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_18",
+  "doc_id": "PB_bb4198b52a9a38049310",
+  "query_type": "CPF_111",
+  "query": "Why are different Contribute As You Earn (CAYE) contribution rates applied to different service fees?",
+  "reference_answer": "Contribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+  "corpus_query_index": 77,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nNo, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.\n\n[Document 4]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 5]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.",
+  "retrieved_doc_ids": [
+    "PB_bb4198b52a9a38049310",
+    "PB_776de7439758761e5c43",
+    "PB_25b3bc98a8dc2f9afd1c",
+    "PB_43972d7faa0ccf029be3",
+    "PB_8b8122292438794b78bb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "974e8c5e51d99229f67907e3b7803bc10837cd8d9baef723df1315a165978ff7",
+  "answer": "Different CAYE contribution rates are applied due to changes like updating rates or ceasing CAYE contributions, which affect new service fees starting from the next day. [Document 1]",
+  "input_tokens": 492,
+  "output_tokens": 39,
+  "seconds": 5.338352399994619,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_59",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies relevant fee components and excludes non-attractive reimbursements, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies relevant fee components and excludes non-attractive reimbursements, supported by documents.\"\n}\n\n\nDocument evidence supports the candidate's answer by specifying which payments are subject to CPF contributions (fees related to platform services and earnings supplements) and which are not (expense reimbursements). The candidate's answer directly addresses the question and is substantiated by the provided documents.",
+      "input_tokens": 1662,
+      "output_tokens": 134,
+      "seconds": 11.07396749999316,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

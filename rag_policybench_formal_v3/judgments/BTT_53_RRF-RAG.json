@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_53",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, citing the two-second rule and stopping distance from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, citing the two-second rule and stopping distance from Document 1.\",\n  \"evidence\": \"[Document 1] The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\"\n}",
+      "input_tokens": 656,
+      "output_tokens": 192,
+      "seconds": 15.091602400003467,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005956",
+  "doc_id": "2070",
+  "query_type": "original",
+  "query": "How to verify if a vehicle is stolen before purchasing it in Tamil Nadu?",
+  "corpus_query_index": 5955,
+  "system": "BM25-RAG",
+  "reference_answer": "Verifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.",
+  "context": "[Document 1]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 2]\nReporting a Stolen Vehicle:\nTo report a stolen vehicle, visit the nearest police station and provide required documents: vehicle registration, insurance, and ID proof. Fill out the FIR form and submit it to the officer in charge.\n\n[Document 3]\nObtaining Duplicate Vehicle Registration Documents in Tamil Nadu:\nTo obtain a duplicate vehicle registration document, submit an application to the RTO with required documents, including a copy of the FIR (if the original is lost or stolen), proof of ownership, and a fee. The RTO will then issue a duplicate registration certificate.\n\n[Document 4]\nOnline Platform for Stolen Vehicle Status:\nThe online platform for checking stolen vehicle status is the Tamil Nadu Police website, where citizens can check the status of stolen vehicles using the vehicle's registration number.\n\n[Document 5]\nVehicle Registration Verification:\nThe website to verify vehicle registration details is: https://vahan.nic.in/",
+  "retrieved_doc_ids": [
+    "2070",
+    "63",
+    "2067",
+    "1362",
+    "321"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e38436a314814062aff6f1462efb61aea88fbbd9a5e8ccc973685e5b72b9e959",
+  "answer": "Before purchasing a vehicle in Tamil Nadu, verify its status by checking the registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or local RTO, or use online services like VAHAN to check the vehicle's history. For stolen vehicles, report them at a police station and use the Tamil Nadu Police website to check their status. [Document 1]",
+  "input_tokens": 379,
+  "output_tokens": 76,
+  "seconds": 9.59550599999966,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

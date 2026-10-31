@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004607",
+  "doc_id": "1828",
+  "query_type": "formal",
+  "query": "How can one challenge a traffic ticket in Tamil Nadu?",
+  "corpus_query_index": 4606,
+  "system": "RRF-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nContesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)\n\n[Document 2]\nChallenging Illegal Arrest:\nTo challenge an illegal arrest in Tamil Nadu:\n1. Contact a lawyer or approach the local police station to file a complaint.\n2. File a habeas corpus petition in the High Court or a lower court.\n3. Provide evidence to prove the arrest was unlawful.\n\n[Document 3]\nPaying Traffic Fines Online:\nTo pay traffic fines online in Tamil Nadu, visit the Tamil Nadu Police website (tnpolice.gov.in) or the Government of Tamil Nadu's online payment portal. Click on \"E-Challan\" or \"Fine Payment\" and enter your challan number or vehicle details. Follow the prompts to make the payment using a debit/credit card or net banking.\n\n[Document 4]\nPaying Traffic Fines Online in Tamil Nadu:\nThe website to pay traffic fines online in Tamil Nadu is [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or [https://echallan.parivahan.gov.in](https://echallan.parivahan.gov.in). You can also use the Tamil Nadu Police Department's mobile app.\n\n[Document 5]\nE-Payment of Traffic Fines:\nTo make an e-payment of traffic fines in Tamil Nadu:\n1. Visit the Tamil Nadu Police website or the e-Challan portal.\n2. Enter your challan number or vehicle details.\n3. Pay the fine using a debit/credit card or net banking.",
+  "retrieved_doc_ids": [
+    "1828",
+    "1985",
+    "832",
+    "307",
+    "1005"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4c032f4dc2bbef6719006d558f6d5e9b5c4efcf318825319ab4240b003cfc1b",
+  "answer": "To contest a traffic challan in Tamil Nadu, check the challan details, visit the Tamil Nadu Police website or the issuing police station, and submit a written appeal within 15 days [Document 1]. For challenging an illegal arrest, contact a lawyer, file a habeas corpus petition, and provide evidence [Document 2]. To pay traffic fines online, visit the Tamil Nadu Police website or use the e-Challan portal [Documents 3-5].",
+  "input_tokens": 477,
+  "output_tokens": 96,
+  "seconds": 12.300573099999383,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007120",
+  "doc_id": "399",
+  "query_type": "hard",
+  "query": "What strategies are there for reporting a hospital employee who insists on receiving gifts in exchange for services?",
+  "corpus_query_index": 7119,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nWaiting Period for Filing a Report:\nThere is no specific waiting period to file a missing person report in Tamil Nadu. You can report a missing person as soon as you realize they are missing and are unable to contact them.\n\n[Document 3]\nTypes of Summons in Tamil Nadu:\nThere are two main types of summons: \n1. Ordinary Summons: issued to inform a person of a court case.\n2. Warrant of Arrest: issued if a person fails to appear in court or is accused of a serious crime.\n\n[Document 4]\nPolice Station Working Hours:\nPolice stations in Tamil Nadu are open 24/7. However, for non-emergency services like reporting a complaint or obtaining a certificate, the working hours are typically from 9:00 AM to 5:00 PM, Monday to Friday.\n\n[Document 5]\nQuestion 2: Is there a single emergency helpline number in India?\nYes, the single emergency helpline number in India is 112.",
+  "retrieved_doc_ids": [
+    "107",
+    "815",
+    "1844",
+    "29",
+    "254"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8bd8e543132b3865e755d89b3e206bd5c88800f843ae91708c1f77f034174f4d",
+  "answer": "For reporting a hospital employee who accepts gifts, approach Human Resources first. If unresolved, report it to the Ethics Committee or Department of Health. Contact local law enforcement if necessary. [Document 1] provides information about Child Welfare Police Officers but does not directly address the hospital gift issue.",
+  "input_tokens": 401,
+  "output_tokens": 58,
+  "seconds": 7.6337892999999895,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

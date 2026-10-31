@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003399",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists all required documents and mentions the fine for not carrying a driving license, directly addressing the question and supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists all required documents and mentions the fine for not carrying a driving license, directly addressing the question and supported by Document 1 and Document 4.\",\n  \"evidence\": \"Documents to Carry While Driving: Valid driving license, Vehicle registration certificate, Insurance certificate, Pollution under control certificate, Vehicle fitness certificate (if applicable). Fine for not carrying a driving license: ₹1,000 for the first offense and ₹2,000 for subsequent offenses.\"\n}",
+      "input_tokens": 806,
+      "output_tokens": 192,
+      "seconds": 14.765713600001618,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

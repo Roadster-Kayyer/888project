@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007952",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the legal consequences for death threats as per the Indian Penal Code and related documents, covering the range of penalties and related legal contexts."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the legal consequences for death threats as per the Indian Penal Code and related documents, covering the range of penalties and related legal contexts.\"\n}\n\n\nThe candidate answer directly addresses the question by citing the specific section of the Indian Penal Code and the range of penalties for death threats, which is directly relevant to the question. The answer also references other related legal consequences for different forms of threats, which shows a comprehensive understanding of the topic. The evidence from the documents supports the factual claims made in the candidate answer, indicating that the answer is faithful to the provided evidence. The reason succinctly explains the scores, highlighting the accuracy and comprehensiveness of the answer",
+      "input_tokens": 818,
+      "output_tokens": 192,
+      "seconds": 14.87330959999963,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

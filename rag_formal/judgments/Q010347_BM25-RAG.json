@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010347",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific details and referencing Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific details and referencing Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 3, which instructs to contact the Tamil Nadu Police at 100 or the local police station to report illegal transportation of goods, which includes misuse of governmental transportation. The answer includes the necessary details such as the vehicle's registration number and the misuse details, which aligns with the instructions in the reference. The evidence directly supports the candidate's answer, as it is the same document that outlines the procedure for reporting such misuse.",
+      "input_tokens": 751,
+      "output_tokens": 189,
+      "seconds": 14.655782499998168,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

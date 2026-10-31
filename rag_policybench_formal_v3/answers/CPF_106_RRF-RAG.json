@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_106",
+  "doc_id": "PB_abe00f9d815aa54ee0f5",
+  "query_type": "CPF_111",
+  "query": "Can I continue to use my Ordinary Account savings to service my regular premium insurance bought before 1 January 2001, even if my balance falls below $20,000?",
+  "reference_answer": "You can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.",
+  "corpus_query_index": 64,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 2]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 3]\nYou can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.\n\n[Document 4]\nIf your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.\n\n[Document 5]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+  "retrieved_doc_ids": [
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_b530c3042e7202136bc5",
+    "PB_5ceab13899c08229e914",
+    "PB_1d9c2ab7fd656dcb2b40",
+    "PB_b8fa647c38cb9cfface8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "697986c2c9a0efbdd7cd6f9b14c289c73dca4c97e2b8c086244831694af86ec6",
+  "answer": "Yes, you can continue to use your Ordinary Account savings to service your regular premium insurance. However, if your balance falls below $20,000, you can't invest in new schemes. You can still pay premiums using this account as long as it has sufficient balance to cover the current month's premium. [Document 2]",
+  "input_tokens": 576,
+  "output_tokens": 70,
+  "seconds": 9.13340259999677,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

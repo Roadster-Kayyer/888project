@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_63",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states visa requirement and mentions Visa Free Transit Facility with criteria, supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states visa requirement and mentions Visa Free Transit Facility with criteria, supported by Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}",
+      "input_tokens": 1493,
+      "output_tokens": 84,
+      "seconds": 6.845375099990633,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

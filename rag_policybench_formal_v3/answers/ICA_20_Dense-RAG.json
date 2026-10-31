@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_20",
+  "doc_id": "PB_2b9abc3bd3c87651113d",
+  "query_type": "ICA_134",
+  "query": "How do I download/ retrieve Form 5 or Form 5A?",
+  "reference_answer": "Form 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.",
+  "corpus_query_index": 215,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nForm 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.\n\n[Document 2]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.\n\n[Document 3]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 4]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 5]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.",
+  "retrieved_doc_ids": [
+    "PB_2b9abc3bd3c87651113d",
+    "PB_73d82fe26c9a986d734d",
+    "PB_70e279a2efefc3723a97",
+    "PB_73589fc4535bd159b21d",
+    "PB_28996cba71bdbe7d5436"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3cda6dacfd11d4b570069588aeba446d3e771276901d133187058092d67033c",
+  "answer": "To download/ retrieve Form 5 or Form 5A, log into MyICA using Singpass. Go to 'MyTransaction – Entry Permit'. For those without Singpass, use 'Enquire Application status' to update information. [Document 1] [Document 2]",
+  "input_tokens": 747,
+  "output_tokens": 58,
+  "seconds": 7.723788699993747,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

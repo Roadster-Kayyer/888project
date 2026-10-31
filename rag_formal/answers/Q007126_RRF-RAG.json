@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007126",
+  "doc_id": "40",
+  "query_type": "original",
+  "query": "What are my rights if I am arrested?",
+  "corpus_query_index": 7125,
+  "system": "RRF-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\n2. Can I be arrested for a bailable offense?\nYes, you can be arrested for a bailable offense, but you have the right to be released on bail by the police or a court.",
+  "retrieved_doc_ids": [
+    "284",
+    "40",
+    "846",
+    "46",
+    "58"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7b0f55ebbada6554983afa8133bb5760b0334917495232464d4c75a464579a6",
+  "answer": "When arrested, you have several rights including knowing the reason for arrest, contacting a lawyer, remaining silent, and requesting medical attention if needed. Additionally, you have the right to be produced before a magistrate within 24 hours and to be released on bail if charged with a bailable offense. [Document 3]",
+  "input_tokens": 364,
+  "output_tokens": 65,
+  "seconds": 8.466551600000457,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

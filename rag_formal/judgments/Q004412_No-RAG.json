@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004412",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided to support claims about Tamil Nadu Police's methods for supporting foreign researchers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided, cannot assess correctness or relevance.\",\n}",
+      "input_tokens": 481,
+      "output_tokens": 51,
+      "seconds": 3.9885398000005807,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"No evidence provided to support claims about Tamil Nadu Police's methods for supporting foreign researchers.\"}",
+      "input_tokens": 521,
+      "output_tokens": 44,
+      "seconds": 3.527041099998314,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

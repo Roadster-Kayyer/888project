@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_108",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Documents 2 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Documents 2 and 4.\",\n  \"evidence\": \"Document 2 explains the process of transferring the validity of the REP from the old to the new passport, and Document 4 describes how to check the status of an application using the ICA e-Service.\"\n}",
+      "input_tokens": 749,
+      "output_tokens": 115,
+      "seconds": 9.155885799991665,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

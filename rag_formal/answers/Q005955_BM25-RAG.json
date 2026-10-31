@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005955",
+  "doc_id": "207",
+  "query_type": "hard",
+  "query": "What's the certification procedure for people who clean houses?",
+  "corpus_query_index": 5954,
+  "system": "BM25-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department in Tamil Nadu. Submit required documents, including proof of tribal identity, residence, and community certificate, to initiate the certification process.\n\n[Document 2]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department. Submit required documents, including proof of tribal identity, residence, and ancestry. The application will be verified and certified by the concerned authorities.\n\n[Document 3]\nRental of PWD Rest Houses:\nTo apply for rental of PWD rest houses in Tamil Nadu, visit the Tamil Nadu Public Works Department (PWD) website or contact the nearest PWD office. Fill out the application form, providing required documents and payment. Approval is subject to availability and eligibility.\n\n[Document 4]\nPrivate Forest Certification:\nTo apply for private forest certification in Tamil Nadu, contact the Tamil Nadu Forest Department. Submit an application with required documents, including land ownership proof and forest management plan. The department will verify and inspect your forest area before issuing certification.\n\n[Document 5]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "retrieved_doc_ids": [
+    "1239",
+    "1257",
+    "1273",
+    "1249",
+    "107"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5b8f3d358c6bdc26298ac3e97aed300af61f69cabaf73bf263b84aaa0faf617d",
+  "answer": "The document does not provide details on house cleaning certification procedures. It discusses tribal rights certification and other government services. [Document 1-5]",
+  "input_tokens": 414,
+  "output_tokens": 30,
+  "seconds": 4.007423600000038,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_56",
+  "doc_id": "PB_92313e7a80bef01e6c14",
+  "query_type": "CPF_111",
+  "query": "I am making a top-up to myself from overseas. How can I set up a Singpass account if I do not have a mobile phone number registered in Singapore?",
+  "reference_answer": "If you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.",
+  "corpus_query_index": 119,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 4]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 5]\nYou can make small and recurring cash top-ups via GIRO by following the steps below:Step 1:Set up a GIRO arrangementStep 2: Please allow one day for your GIRO bank account to be updated in the Board's record. Thereafter, please submit a request to makerecurring cash top-ups for retirement.Please note that you must completebothsteps for recurring cash top-ups via GIRO to be successful.Currently, the online application to set up a GIRO arrangement is only available for theseparticipating banks.If you encounter any difficulties in setting up GIRO, you maywrite to usfor assistance.",
+  "retrieved_doc_ids": [
+    "PB_92313e7a80bef01e6c14",
+    "PB_cc60baad4cbf9560588b",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_ffb44a115e698c779310",
+    "PB_807b1e4dfc132f9b1786"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bf1f8f47ebdfcef9b232492332f442bdf9693206173089bc45156cf0a89ef07d",
+  "answer": "To set up a Singpass account without a local mobile number, contact the Singpass Helpdesk directly. [Document 1]",
+  "input_tokens": 761,
+  "output_tokens": 27,
+  "seconds": 3.8408855000016047,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

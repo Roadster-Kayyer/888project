@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008854",
+  "doc_id": "710",
+  "query_type": "search",
+  "query": "How do legal systems handle disputes over dividing family-owned property without consent?",
+  "corpus_query_index": 8853,
+  "system": "BM25-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nRailway Police Jurisdiction:\nThe Railway Police in Tamil Nadu has jurisdiction over railway stations, trains, and railway premises within the state. They handle cases related to railway property, passengers, and staff.\n\n[Document 3]\nDiplomatic Immunity and Police Jurisdiction\nDiplomatic immunity limits police jurisdiction over foreign diplomats and officials. They are exempt from local laws and cannot be arrested or prosecuted without the consent of their home country or the Indian government.\n\n[Document 4]\nCases Handled by District Courts:\nDistrict Courts in Tamil Nadu handle:\n- Civil cases (e.g., property disputes, contracts)\n- Criminal cases (e.g., serious offenses, appeals from Magistrate Courts)\n\n[Document 5]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.",
+  "retrieved_doc_ids": [
+    "710",
+    "1922",
+    "1759",
+    "1047",
+    "713"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d85d0e74d855ffa23b317541c6fd9f212c0c34d7fede36f90fdee1d9f0458fcb",
+  "answer": "Disputes over dividing family-owned property without consent are handled by district courts in civil cases. The Hindu Succession Act, 1956, governs such cases, potentially leading to civil suits with penalties. However, specific penalties vary based on circumstances. [Document 1] Additionally, the Railway Police handle cases involving railway property, while diplomatic immunities limit police jurisdiction over foreign officials. [Document 3]",
+  "input_tokens": 358,
+  "output_tokens": 86,
+  "seconds": 11.551082699999824,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

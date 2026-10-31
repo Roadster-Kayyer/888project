@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001341",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the NDPS Act and the offenses it covers, directly addressing the question with evidence from Document 1, and there are no unsupported or contradicted claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the NDPS Act and its offenses, and correctly distinguishes it from other acts. Evidence from Document 1 supports the answer.\",\n}",
+      "input_tokens": 801,
+      "output_tokens": 75,
+      "seconds": 5.857624699998269,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the NDPS Act and the offenses it covers, directly addressing the question with evidence from Document 1, and there are no unsupported or contradicted claims.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer is supported by the evidence provided in Document 1, which directly states the offenses covered by the NDPS Act. There are no unsupported or contradicted factual claims in the candidate's answer.",
+      "input_tokens": 841,
+      "output_tokens": 131,
+      "seconds": 10.430537500000355,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

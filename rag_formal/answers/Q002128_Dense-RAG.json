@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002128",
+  "doc_id": "1381",
+  "query_type": "casual",
+  "query": "So, what's the deal with the cops when it comes to stopping people from breaking rules in the woods where tribes live?",
+  "corpus_query_index": 2127,
+  "system": "Dense-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nProtecting tribal land rights:\nThe role of police in protecting tribal land rights is to:\n* Prevent encroachment and land grabbing\n* Investigate cases of land disputes and fraud\n* Assist in revenue recovery and restoration of tribal lands\n* Collaborate with revenue and tribal welfare departments\n\n[Document 3]\nReporting Forest Offenses in Tribal Areas:\nTo report forest offenses, tribal area residents can contact the nearest Forest Range Office or the local police station. They can also dial the Tamil Nadu Police's toll-free number (1091) or the Forest Department's helpline.\n\n[Document 4]\nReligious Conversion Conflicts:\nIn tribal areas, police handle cases of religious conversion conflicts by:\n* Registering complaints\n* Investigating incidents\n* Maintaining law and order\n* Ensuring protection of individual rights\n\n[Document 5]\nReporting Illegal Tourism Activities in Forest Areas:\nReport to the nearest Forest Range Office or police station. Provide details of the activity, location, and any evidence. You can also contact the Tamil Nadu Forest Department's helpline or submit a complaint online through their official website.",
+  "retrieved_doc_ids": [
+    "1381",
+    "1376",
+    "1369",
+    "1405",
+    "1236"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "56d4c01e326ec42e46d3cd67773123220210765ba79bdff25f0a3aa2ec41d682",
+  "answer": "In tribal areas, police handle forest rights violations by registering complaints, investigating cases, collaborating with forest departments, and ensuring tribal rights under the Forest Rights Act [Document 1]. They protect tribal land rights by preventing encroachment, resolving disputes, and assisting in revenue recovery [Document 2]. For reporting forest offenses, residents can contact Forest Range Offices, police stations, or helplines [Document 3-5].",
+  "input_tokens": 424,
+  "output_tokens": 86,
+  "seconds": 10.691622699998334,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

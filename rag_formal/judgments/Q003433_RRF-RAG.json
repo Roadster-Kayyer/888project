@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003433",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Lists specific actions to take if police refuse to help, including contacting a senior officer, filing a complaint, and reaching out to the Tamil Nadu Police Complaint Authority.\"\n}",
+      "input_tokens": 780,
+      "output_tokens": 111,
+      "seconds": 8.954710500001966,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000007",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly describes the process and is supported by the reference, though specific evidence is not provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and is supported by the reference, though specific evidence is not provided.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence key is set to \"Document 1\" as a placeholder, indicating that the actual evidence supporting the candidate's answer would be found in a document or source labeled as such. In a real-world scenario, the actual evidence would need to be provided to fully support the faithfulness score.",
+      "input_tokens": 389,
+      "output_tokens": 140,
+      "seconds": 10.472445999999763,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2608.517578125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

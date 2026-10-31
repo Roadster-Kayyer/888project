@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_10",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that ERS affects monthly payouts but not BRS/FRS, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that ERS affects monthly payouts but not BRS/FRS, supported by Document 1.\"\n}",
+      "input_tokens": 1337,
+      "output_tokens": 70,
+      "seconds": 5.694436000005226,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_14",
+  "doc_id": "PB_3e1f1f7b75f5e180073d",
+  "query_type": "medishield",
+  "query": "What is the payment method allowed for premiums of additional private insurance coverage when you buy an Integrated Shield Plan (IP)?",
+  "reference_answer": "You can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).",
+  "corpus_query_index": 308,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 2]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 3]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).\n\n[Document 4]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 5]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.",
+  "retrieved_doc_ids": [
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_474d6298f86507ebfa6a",
+    "PB_b530c3042e7202136bc5",
+    "PB_5c63bf49bc0ed64dccba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "72d23e8ffdff590175fcd8b807b49aba61ee0461f2c51688bd869de1bddd455e",
+  "answer": "According to Document 1, you can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).",
+  "input_tokens": 617,
+  "output_tokens": 35,
+  "seconds": 4.794772399996873,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

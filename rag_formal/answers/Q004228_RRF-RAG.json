@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004228",
+  "doc_id": "176",
+  "query_type": "casual",
+  "query": "So my car got towed, what now?",
+  "corpus_query_index": 4227,
+  "system": "RRF-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 2]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 3]\nReporting Lost Articles\nTo report lost articles, open the TN Police app, click on \"Lost and Found\", fill in the required details, and upload a photo of the lost item. You will receive a reference number for future tracking.\n\n[Document 4]\n1. Can police search my house without a warrant?\nGenerally, no. Police need a warrant to search your house, except in emergency situations or with your consent. (As per CrPC, 1973)\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "176",
+    "833",
+    "1001",
+    "847",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "885bc70d7cdf306c6a69d193399dc0b60c011b90dba1430340cca410312ecd4e",
+  "answer": "If your car is towed, first contact the nearest Traffic Police station or the towing company to locate your vehicle. You'll need to show your vehicle's registration documents and pay any fines or towing charges to retrieve it. [Document 1] & [Document 2]",
+  "input_tokens": 392,
+  "output_tokens": 56,
+  "seconds": 7.256266099999266,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

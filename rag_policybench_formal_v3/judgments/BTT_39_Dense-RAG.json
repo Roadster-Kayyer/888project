@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_39",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses ERP payment procedure in tunnels and includes relevant traffic advice."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses ERP payment procedure in tunnels and includes relevant traffic advice.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate answer is fully relevant to the question, correctly stating the need to pre-insert cash cards for ERP payments when driving in tunnels, which is directly supported by Document 1. The mention of slowing down, keeping left, and being cautious of oncoming traffic, while not directly related to ERP payments, is relevant to general tunnel driving safety, which is supported by Document 4. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents.",
+      "input_tokens": 704,
+      "output_tokens": 192,
+      "seconds": 14.884141799993813,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

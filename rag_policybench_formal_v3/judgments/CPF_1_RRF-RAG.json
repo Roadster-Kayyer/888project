@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_1",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately states the application of the 3-year track record at the fund level and for indexed funds/ETFs, it's based on the fund management company's processes, as supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately states the application of the 3-year track record at the fund level and for indexed funds/ETFs, it's based on the fund management company's processes, as supported by Document 1.\"\n}",
+      "input_tokens": 1478,
+      "output_tokens": 192,
+      "seconds": 15.230949800010421,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

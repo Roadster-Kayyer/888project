@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_93",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 2 to support the inclusion of overtime pay and bonuses in the WIS assessment."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 2 to support the inclusion of overtime pay and bonuses in WIS assessment.\",\n}",
+      "input_tokens": 800,
+      "output_tokens": 192,
+      "seconds": 14.652248999998847,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2683.49658203125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 2 to support the inclusion of overtime pay and bonuses in the WIS assessment.\"}\n\nPlease note that the \"faithfulness\" score of 2 is based on the assumption that the candidate's answer is fully supported by the evidence provided in Document 1 and Document 2, which are not visible in the text but are referenced in the candidate's answer. In a real-world scenario, the actual content of these documents would need to be reviewed to confirm the faithfulness score.",
+      "input_tokens": 840,
+      "output_tokens": 148,
+      "seconds": 11.21361290000641,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2683.49658203125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

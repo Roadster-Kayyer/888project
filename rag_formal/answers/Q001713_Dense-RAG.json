@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001713",
+  "doc_id": "1306",
+  "query_type": "casual",
+  "query": "How can I get a TDS cut-off in Tamil Nadu?",
+  "corpus_query_index": 1712,
+  "system": "Dense-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 2]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 3]\nLegal Aid in Tamil Nadu:\nTo get legal aid, contact the Tamil Nadu State Legal Services Authority (TLSA) or visit a nearby Legal Services Institution. You can also call the TLSA helpline. Eligible individuals can receive free legal assistance from panel lawyers.\n\n[Document 4]\nApplying for Free Legal Aid in Tamil Nadu:\nTo apply for free legal aid, visit the Tamil Nadu State Legal Services Authority (TLSA) website or contact your local District Legal Services Authority. You can also approach a legal aid clinic or a TLSA-authorized lawyer. Eligibility criteria apply, including income limits and case type.\n\n[Document 5]\nLegal Remedies for Breach of Contract in Tamil Nadu:\nFor breach of contract, file a civil suit in the District Court or City Civil Court, seeking damages or specific performance. Alternatively, consider arbitration or mediation through the Tamil Nadu State Judicial Academy or the Indian Arbitration Council.",
+  "retrieved_doc_ids": [
+    "1306",
+    "1297",
+    "1824",
+    "1060",
+    "1861"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1eda5573f860b7bcefe0de7bdcec50d7b099a66ad047ec8e6057cbccc47ce09f",
+  "answer": "To get a TDS cut-off in Tamil Nadu, apply for a lower TDS certificate by submitting Form 13 to the Income Tax Department with required documents like PAN card and income proof. [Document 1]",
+  "input_tokens": 471,
+  "output_tokens": 45,
+  "seconds": 5.688625200000388,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

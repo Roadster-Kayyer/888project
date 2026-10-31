@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001523",
+  "doc_id": "1272",
+  "query_type": "casual",
+  "query": "So how do I tell the PWD if there's a hole in the canal?",
+  "corpus_query_index": 1522,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nReporting Bridge Damage to PWD:\nTo report bridge damage, contact the nearest PWD office or call the PWD helpline. Provide details of the damage, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 3]\nReporting Drainage Issues to PWD:\nTo report drainage issues, contact the local PWD office or the Chennai Corporation (if in Chennai). You can also call the PWD helpline or file a complaint online through the Tamil Nadu Government's portal. Provide details of the location and issue for prompt action.\n\n[Document 4]\nReporting Unauthorized Water Tapping:\nTo report unauthorized water tapping from PWD sources, call the PWD helpline or visit the nearest PWD office. Provide details of the location and nature of the tapping.\n\n[Document 5]\nReporting Encroachment on PWD Land:\nTo report encroachment, contact your local PWD office or the Tamil Nadu PWD helpline. Provide details of the location and nature of the encroachment. You can also submit a complaint online through the Tamil Nadu Government's grievance portal.",
+  "retrieved_doc_ids": [
+    "1272",
+    "1270",
+    "1284",
+    "1286",
+    "1276"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eb1f0d3196f80bb88579a603f75d882347bf22cb329df9f0862c8c5248d7a9b6",
+  "answer": "To report a hole in the canal, contact the PWD immediately. Provide details like the location and your contact info. You can reach out via PWD office, helpline, or their website/app [Document 1].",
+  "input_tokens": 419,
+  "output_tokens": 46,
+  "seconds": 6.003450600001088,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

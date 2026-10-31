@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_58",
+  "doc_id": "PB_10b7557459105ffc6c3e",
+  "query_type": "CPF_111",
+  "query": "Where can I find more information on Singtel's Scrip Dividend Scheme, as announced by Singtel on 12 November 2020?",
+  "reference_answer": "For financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share",
+  "corpus_query_index": 121,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 2]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nWe regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_10b7557459105ffc6c3e",
+    "PB_5524a72cc3bbbca92a03",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_c1aaea57c1b02e2e8590",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "455ab6da9a9e33c5c2df79759215235a4809724809db01a0ec118891df0336bd",
+  "answer": "[Document 1] provides details about the Scrip Dividend Scheme, including the dividend rate ($0.051 per share), issue price ($2.422 per share), and how to calculate the number of scrip shares issued. For more specific information, visit Singtel's website. [Document 1]N",
+  "input_tokens": 676,
+  "output_tokens": 69,
+  "seconds": 9.118828499995288,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

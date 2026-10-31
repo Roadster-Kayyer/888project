@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_85",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the consequences of wrong information, and accurately describes the process for correction using the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the consequences of incorrect passport information and the process to correct it, supported by Documents 2 and 4.\",\n}",
+      "input_tokens": 1021,
+      "output_tokens": 192,
+      "seconds": 15.000152199994773,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the consequences of wrong information, and accurately describes the process for correction using the provided documents.\"}\n\nNote: The scores are based on the assumption that the candidate answer provided is accurate and complete according to the information in the retrieved documents. The \"correctness\" score of 2 indicates that the answer is correct and covers the main reference facts. The \"relevance\" score of 2 indicates that the answer directly addresses the question. The \"faithfulness\" score of 2 indicates that all substantive factual claims in the candidate answer are supported by the evidence provided in the documents. The \"reason\" is a brief explanation of the scores.",
+      "input_tokens": 1061,
+      "output_tokens": 168,
+      "seconds": 12.87621269999363,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

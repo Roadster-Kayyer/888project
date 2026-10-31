@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_20",
+  "doc_id": "PB_8a7dfd1ae93a6b5afa1d",
+  "query_type": "medishield",
+  "query": "What is the annual premium in 2025 for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap?",
+  "reference_answer": "$1,326.00 per annum.",
+  "corpus_query_index": 315,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 2]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 3]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 4]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 5]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+  "retrieved_doc_ids": [
+    "PB_b8fa647c38cb9cfface8",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_377d7608d12421ff652e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ddc713eb0a19fd853c34b17859424e67d98a165ba58011b048029334563ff70c",
+  "answer": "Based on Document 1, the annual premium cap starts in 2025. However, without specific premium details for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen, I can't state the exact annual premium. [Document 1]",
+  "input_tokens": 623,
+  "output_tokens": 56,
+  "seconds": 7.430212799998117,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

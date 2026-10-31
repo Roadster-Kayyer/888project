@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002709",
+  "doc_id": "1486",
+  "query_type": "search",
+  "query": "Why is joining the Tamil Nadu Police considered more beneficial than joining other state police forces?",
+  "corpus_query_index": 2708,
+  "system": "RRF-RAG",
+  "reference_answer": "Benefits of Joining Tamil Nadu Police:\nJoining Tamil Nadu Police offers benefits like competitive salary, job security, and opportunities for growth. It also provides a chance to serve the community and uphold law and order in the state.",
+  "context": "[Document 1]\nBenefits of Joining Tamil Nadu Police:\nJoining Tamil Nadu Police offers benefits like competitive salary, job security, and opportunities for growth. It also provides a chance to serve the community and uphold law and order in the state.\n\n[Document 2]\nJoining Tamil Nadu Police:\nTo join the Tamil Nadu Police force, you must:\n1. Meet the eligibility criteria (age, education, physical standards)\n2. Apply online for the recruitment exam\n3. Clear the written exam, physical test, and interview\n4. Undergo training at a police academy\n\n[Document 3]\nJoining Tamil Nadu Police after Military Service:\nTo join the Tamil Nadu Police after serving in the military, you can apply for the Ex-Servicemen quota. You must meet the eligibility criteria, including age and educational qualifications. You can check the official Tamil Nadu Police website for notifications and apply online.\n\n[Document 4]\nJoining Community Policing Initiatives:\nTo join community policing initiatives, you can contact your local police station or visit the Tamil Nadu Police Department's website to learn about available programs. You can also look for initiatives like the Friends of Police movement or Police Boys and Girls Clubs in your area.\n\n[Document 5]\nJoining the Tamil Nadu Special Police Youth Brigade:\nTo join, you must be between 15-22 years old, meet physical standards, and pass a written exam. Apply through the Tamil Nadu Police Department's website or at local police stations.",
+  "retrieved_doc_ids": [
+    "1486",
+    "987",
+    "1501",
+    "241",
+    "1477"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4b572d4fba7bef25c04ed9e9dd402b685d0bf055f258b8b77068c74ef2393d41",
+  "answer": "Joining Tamil Nadu Police is considered beneficial due to competitive salary, job security, growth opportunities, and community service. It offers clear eligibility criteria, rigorous recruitment process, and various community policing initiatives. [Document 1]",
+  "input_tokens": 426,
+  "output_tokens": 45,
+  "seconds": 5.723186500001248,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

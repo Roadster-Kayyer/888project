@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007400",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from all documents, accurately detailing available assistance programs for expectant mothers in abusive relationships.\",\n}",
+      "input_tokens": 899,
+      "output_tokens": 192,
+      "seconds": 15.068888799993147,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from multiple documents.\"}",
+      "input_tokens": 939,
+      "output_tokens": 40,
+      "seconds": 3.475536400001147,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_47",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies legal requirement but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly identifies legal requirement but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is correct in stating that the CPF Board takes legal action against self-employed individuals for non-compliance with MediSave contributions, which is a fact from the reference. However, the answer does not directly quote or paraphrase specific evidence from the provided reference text, which is necessary for a full score in faithfulness. The relevance score is 1 because the answer addresses the question but does not fully utilize the reference material. The reason succinctly explains the scores. The evidence key is null because the candidate's answer does not contain direct evidence from the",
+      "input_tokens": 501,
+      "output_tokens": 192,
+      "seconds": 14.58696040000359,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

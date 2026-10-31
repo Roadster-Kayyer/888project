@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_27",
+  "doc_id": "PB_c82033a92d9e7c15a412",
+  "query_type": "medishield",
+  "query": "Who is automatically eligible for the Premium Cap and Phased Support provided under MediShield Life?",
+  "reference_answer": "All Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.",
+  "corpus_query_index": 322,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 2]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 5]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.",
+  "retrieved_doc_ids": [
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_d600f5b60cee68821fae",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_f96012ec2f1365efa6ef"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8101c260e89964faf7605a8ca019d69a74e7c019e751a7a8d3c9c41218282bbc",
+  "answer": "Singapore Citizens and Permanent Residents are automatically eligible for the Premium Cap and Phased Support under MediShield Life, as it protects them against large healthcare bills regardless of age or health condition. [Document 5]",
+  "input_tokens": 409,
+  "output_tokens": 42,
+  "seconds": 5.746502599999076,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

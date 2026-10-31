@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004095",
+  "doc_id": "1735",
+  "query_type": "hard",
+  "query": "What conditions lead to the application of the presumption of innocence in judicial processes?",
+  "corpus_query_index": 4094,
+  "system": "Dense-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nConditions of Conditional Bail:\nConditions may include:\n* Appearing in court as required\n* Not leaving the country without permission\n* Not contacting the victim or witnesses\n* Depositing a surety amount\n* Regularly reporting to the police station\n\n[Document 3]\nArticle 21 and Police Procedures:\nArticle 21 protects the right to life and personal liberty. It affects police procedures by:\n* Requiring arrest warrants or reasonable grounds for arrest\n* Ensuring prompt production of arrested persons before a magistrate\n* Prohibiting torture and cruel treatment\n\n[Document 4]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 5]\nProcess for Regular Bail:\n1. Arrested person applies for bail.\n2. Court considers application and sets conditions.\n3. Bail is granted if conditions met.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1804",
+    "1715",
+    "579",
+    "49"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5f4c2742755edc4347fc7c853d43aa8e96f4e074f8121fad91df3453d32b6f9b",
+  "answer": "The presumption of innocence leads to the assumption that an accused is innocent until proven guilty, as stated in [Document 1]. Conditions for bail, like appearing in court and not contacting victims, also reflect this principle, as outlined in [Document 5]. Additionally, threatening to file false cases is illegal under Article 21, ensuring fair processes, [Document 4] and [Document 3].",
+  "input_tokens": 398,
+  "output_tokens": 82,
+  "seconds": 10.466423500000019,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

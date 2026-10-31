@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000052",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the procedure and uses evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for accessing online traffic violation records, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 760,
+      "output_tokens": 66,
+      "seconds": 6.964607599998999,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the procedure and uses evidence from Document 1.\"}",
+      "input_tokens": 800,
+      "output_tokens": 40,
+      "seconds": 3.7687974000000395,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

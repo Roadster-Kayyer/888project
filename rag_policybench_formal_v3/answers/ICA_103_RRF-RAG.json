@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_103",
+  "doc_id": "PB_d36aa50f901554971814",
+  "query_type": "ICA_134",
+  "query": "Can I request for a Long-Term Visit Pass (LTVP) physical card after 27 Feb 2023?",
+  "reference_answer": "ICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.",
+  "corpus_query_index": 173,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 2]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 5]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.",
+  "retrieved_doc_ids": [
+    "PB_d36aa50f901554971814",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_b57a1848f1c7ce667389"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c79c603f0af5ceea76ed137ac8e94de8dfa3eef50fd663914f4e3479102d07b2",
+  "answer": "No physical LTVP cards will be issued after 27 Feb 2023. They will be issued in digital format only. [Document 1]",
+  "input_tokens": 633,
+  "output_tokens": 34,
+  "seconds": 4.528897199998028,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

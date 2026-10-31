@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001711",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, with evidence from Document 1 supporting the procedure."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, with evidence from Document 1 supporting the procedure.\",\n  \"evidence\": \"[Document 1] Lower TDS Certificate Application:\\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\"\n}",
+      "input_tokens": 843,
+      "output_tokens": 140,
+      "seconds": 11.156847300000663,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

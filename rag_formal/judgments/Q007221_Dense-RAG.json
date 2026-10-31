@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007221",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing accurate contact points and online options for complaints."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing accurate contact points and online options for complaints.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifying the District Collector and the grievance portal as valid avenues for lodging a complaint against a DRDA officer. The evidence from Document 1 supports the factual claims made in the candidate's answer, confirming the accuracy of the provided contact points and online complaint submission method. The reason succinctly explains the scores, indicating that the answer is both correct and relevant, with all substantive factual claims being supported by the evidence.",
+      "input_tokens": 813,
+      "output_tokens": 185,
+      "seconds": 14.470867900003213,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

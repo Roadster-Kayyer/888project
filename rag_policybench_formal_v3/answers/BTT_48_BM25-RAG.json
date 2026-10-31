@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_48",
+  "doc_id": "PB_46950c4cff6ad431d048",
+  "query_type": "BTT",
+  "query": "What action should motorists take when they notice buses pulling out of the bus bay?",
+  "reference_answer": "Motorists should slow down and watch out for buses pulling out of the bus bay.",
+  "corpus_query_index": 43,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 2]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 3]\nNon-scheduled buses, such as school and factory buses, are permitted to use bus lanes during restricted hours.\n\n[Document 4]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 5]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.",
+  "retrieved_doc_ids": [
+    "PB_46950c4cff6ad431d048",
+    "PB_445d301435d07072a252",
+    "PB_277c0b6ab5b094bffdee",
+    "PB_3300f78e0c7cee359492",
+    "PB_9f4f545378e55cf7e6a1"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "af1a3477081a36d8634870442a9e27db406178da508ac658ebf9b082b4464f34",
+  "answer": "When motorists notice buses pulling out of the bus bay, they should slow down and watch out for them. [Document 1]",
+  "input_tokens": 605,
+  "output_tokens": 27,
+  "seconds": 3.620350500001223,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

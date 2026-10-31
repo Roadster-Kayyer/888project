@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005088",
+  "doc_id": "1914",
+  "query_type": "casual",
+  "query": "So what kind of stuff do they deal with in the Cyber Crime Wing of TN police?",
+  "corpus_query_index": 5087,
+  "system": "BM25-RAG",
+  "reference_answer": "Cyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.",
+  "context": "[Document 1]\nCyber Crime Wing Role:\nThe Cyber Crime Wing in Tamil Nadu investigates and prevents cyber crimes, such as hacking, online fraud, and identity theft. They also provide technical assistance to other police units.\n\n[Document 2]\nTamil Nadu Cyber Crime Police Station Contact:\nPhone: 94981 94981 (Cyber Crime Helpline)\nEmail: [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in)\nAddress: Cyber Crime Police Station, Chennai, Tamil Nadu\n\n[Document 3]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.\n\n[Document 4]\nPhishing Email:\nIf you receive a phishing email, do not respond or click on any links. Report it to the Cyber Crime Cell at 1930 or [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in). Delete the email and keep your personal information secure.\n\n[Document 5]\nFiling a Cyber Crime Complaint:\nTo file a complaint with the Cyber Crime Wing in Tamil Nadu, visit the nearest cyber crime police station or submit a complaint online through the Tamil Nadu Police website. Provide detailed information about the incident, including evidence and supporting documents.",
+  "retrieved_doc_ids": [
+    "153",
+    "141",
+    "1564",
+    "252",
+    "1915"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "1a949fd8f9487c11416e7561f6db1474eafd4a4c8fb972b80dc9f2bf05c14e79",
+  "answer": "The Cyber Crime Wing in TN police deals with cyber crimes like hacking, online fraud, identity theft, phishing, cyber stalking, and cyber stalking. [Document 1, Document 5]",
+  "input_tokens": 411,
+  "output_tokens": 39,
+  "seconds": 5.096042500001204,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

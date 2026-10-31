@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_60",
+  "doc_id": "PB_b8fa647c38cb9cfface8",
+  "query_type": "CPF_111",
+  "query": "What are the options available to me if I foresee that I do not have sufficient CPF to continue paying the instalments on my regular premium insurance policy?",
+  "reference_answer": "If you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+  "corpus_query_index": 124,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 2]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 5]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "retrieved_doc_ids": [
+    "PB_b8fa647c38cb9cfface8",
+    "PB_55387403dc004065b043",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_b530c3042e7202136bc5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "44b118dd96f352698c3b9337ba8294cdbf139107de3261e6f250cfe56ce80188",
+  "answer": "If you foresee insufficient CPF to pay premiums, consider paying with cash, changing payment frequency, reducing sum assured, or converting to a paid-up policy. Consult your insurance advisor. CPF matures differently; for CPFIS-OA, proceeds go to CPF Investment Account, while CPFIS-SA refunds to CPF Special Account. Options include switching to a different fund, but funds may cease accepting new CPF contributions. [Document 1]",
+  "input_tokens": 905,
+  "output_tokens": 85,
+  "seconds": 10.971712899990962,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

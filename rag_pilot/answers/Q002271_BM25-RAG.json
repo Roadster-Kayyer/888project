@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002271",
+  "doc_id": "1407",
+  "query_type": "original",
+  "query": "How does Tamil Nadu Police address issues of human-animal conflict in forest borders?",
+  "corpus_query_index": 2270,
+  "system": "BM25-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nHuman-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed\n\n[Document 2]\nReporting Man-Animal Conflicts in Tamil Nadu\nTo report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.\n\n[Document 3]\nCultural Sensitivity Issues:\nThe Tamil Nadu Police follows a protocol to handle cultural sensitivity issues with foreign nationals. They have a dedicated Foreigners' Registration Office (FRO) to address concerns and provide assistance. The police also follow guidelines set by the National Human Rights Commission.\n\n[Document 4]\nReporting Illegal Tree Cutting:\nTo report illegal tree cutting in forest borders, contact the local Forest Department or police station. Provide details of the location and incident. You can also call the Tamil Nadu Forest Department's helpline or file a complaint online.\n\n[Document 5]\nWildlife Rescue and Rehabilitation in Tamil Nadu\nFor wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.",
+  "retrieved_doc_ids": [
+    "1407",
+    "1209",
+    "1784",
+    "1396",
+    "1208"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9bc584025574a1d1cd97b98380db52eeb6d955ab63b789e1c86ac2343a6972d1",
+  "answer": "Tamil Nadu Police addresses human-animal conflict in forest borders by collaborating with forest department officials, responding to distress calls, ensuring public safety and animal welfare, and providing support for relocation or compensation when needed. [Document 1] Additionally, they offer reporting services through the Forest Department's helpline (14417) or local offices. [Document 2] Public safety and animal welfare are prioritized, with protocols for cultural sensitivity and wildlife rescue. [Document 1, Document 2]",
+  "input_tokens": 403,
+  "output_tokens": 103,
+  "seconds": 13.774966400000267,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2049.794921875
+}

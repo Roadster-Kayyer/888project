@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_35",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines eligibility, required documents, and process for withdrawal, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines eligibility, required documents, and process for withdrawal, supported by evidence from Document 1.\"\n}",
+      "input_tokens": 1804,
+      "output_tokens": 74,
+      "seconds": 6.254157199990004,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

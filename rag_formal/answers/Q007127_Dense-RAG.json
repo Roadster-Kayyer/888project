@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007127",
+  "doc_id": "40",
+  "query_type": "formal",
+  "query": "Under what circumstances do I have legal rights during an arrest?",
+  "corpus_query_index": 7126,
+  "system": "Dense-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 4]\nRights of an Accused:\nDuring police interrogation, an accused has the right to:\n- Remain silent\n- Consult a lawyer\n- Be informed of the grounds of arrest\n- Be produced before a magistrate within 24 hours\n\n[Document 5]\n2. Can I be arrested for a bailable offense?\nYes, you can be arrested for a bailable offense, but you have the right to be released on bail by the police or a court.",
+  "retrieved_doc_ids": [
+    "284",
+    "846",
+    "40",
+    "1848",
+    "58"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "81d3a406a067893c852f7419097395f6ddf3851eb5ecaf47a66fa9beda4c19d8",
+  "answer": "During an arrest, you have the right to know the reason for arrest, contact a lawyer, remain silent, and request medical attention if needed. You also have the right to be produced before a magistrate within 24 hours and consult a lawyer. Additionally, you can be arrested for a bailable offense but have the right to be released on bail. [Document 1-5]",
+  "input_tokens": 368,
+  "output_tokens": 79,
+  "seconds": 10.343655700000454,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

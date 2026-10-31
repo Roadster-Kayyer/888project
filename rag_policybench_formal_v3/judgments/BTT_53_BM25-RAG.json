@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_53",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, citing specific road code measures and evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, citing the two-second rule and stopping distance from Document 1, which are consistent with the reference facts.\",\n  \"evidence\": \"[Document 1]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\"\n}\n\n\nIn the provided candidate answer, the correctness score is 2 because the answer is correct and covers the main reference facts about the two-second rule and stopping distance. The relevance score is 2 as the answer directly addresses the question about safety measures for following distance under road code conduct. The faithfulness score is 2 because the candidate's answer is supported by evidence from Document 1, which directly",
+      "input_tokens": 676,
+      "output_tokens": 192,
+      "seconds": 15.074332400006824,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, citing specific road code measures and evidence from Document 1.\"}",
+      "input_tokens": 716,
+      "output_tokens": 48,
+      "seconds": 4.124263200006681,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

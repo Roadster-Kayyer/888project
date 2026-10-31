@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_110",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the specific documents listed in the reference for passport collection."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the specific documents listed in the reference for passport collection.\",\n  \"evidence\": null\n}\n\n\nThe correctness score is 0 because the candidate's answer does not mention the specific documents required for passport collection as outlined in the reference. The relevance score is 0 because the answer does not directly address the question about the required documents for passport collection. Faithfulness is null due to the absence of substantive factual claims that align with the evidence provided in the reference. The reason succinctly explains the scores.",
+      "input_tokens": 494,
+      "output_tokens": 160,
+      "seconds": 12.369430799997644,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

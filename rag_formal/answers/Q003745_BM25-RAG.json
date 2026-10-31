@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003745",
+  "doc_id": "1672",
+  "query_type": "hard",
+  "query": "What kind of organization is the Women Safety Committee and what duties do they perform?",
+  "corpus_query_index": 3744,
+  "system": "BM25-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 4]\nSchool Safety Committee:\nThe School Safety Committee is a joint initiative between schools and the Tamil Nadu Police. Its purpose is to ensure a safe environment for students. The committee:\n* Identifies potential safety risks\n* Develops safety plans\n* Conducts regular drills and training\n\n[Document 5]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.",
+  "retrieved_doc_ids": [
+    "107",
+    "46",
+    "1672",
+    "1684",
+    "1682"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "19c176c29a5bd6492db8c2323ab4e0d8e006bf3b519260d476861d9a0ffbac23",
+  "answer": "The Women Safety Committee is a Tamil Nadu Police initiative. Their duties include addressing women's complaints, providing counseling and support, and conducting awareness programs on women's rights and safety [Document 3].",
+  "input_tokens": 412,
+  "output_tokens": 40,
+  "seconds": 5.41298690000076,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

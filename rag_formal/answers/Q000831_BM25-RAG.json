@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000831",
+  "doc_id": "1147",
+  "query_type": "original",
+  "query": "What is the procedure for obtaining a No Due Certificate from court?",
+  "corpus_query_index": 830,
+  "system": "BM25-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 2]\nObtaining Succession Certificate in Tamil Nadu:\nTo obtain a succession certificate, apply to the District Court with a petition, death certificate, and proof of relationship. The court will issue a notice and conduct an inquiry before granting the certificate.\n\n[Document 3]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 4]\nObtaining Permission for Events in PWD Grounds:\nTo obtain permission, apply to the concerned PWD Divisional Office or the District Collector's office. Submit required documents, including event details and safety measures. Pay the prescribed fee and obtain a no-objection certificate from the PWD department.\n\n[Document 5]\nTransfer of Cases Between States:\nThe transfer of cases between states is governed by the Code of Criminal Procedure (CrPC), 1973. Section 13 of the CrPC allows the Supreme Court to transfer cases from one state to another. This can be done to ensure a fair trial, prevent prejudice, or due to other extraordinary circumstances.",
+  "retrieved_doc_ids": [
+    "1147",
+    "1859",
+    "2038",
+    "1283",
+    "1762"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "817e5aa7b235e8d29facfb1077f535e38b8e3208c34727ef4e27a60207738f2e",
+  "answer": "To obtain a No Due Certificate from court, file a petition with the issuing court. Provide case details and ID proof. The court verifies and issues the certificate if no dues are outstanding. [Document 1]",
+  "input_tokens": 454,
+  "output_tokens": 43,
+  "seconds": 5.509503900000709,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

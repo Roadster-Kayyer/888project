@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_24",
+  "doc_id": "PB_aee729ae9fbc3265b81f",
+  "query_type": "ICA_134",
+  "query": "Must I submit Form V39A (Letter of Introduction/ LOI) if my company issues a letter with similar content?",
+  "reference_answer": "Your local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs",
+  "corpus_query_index": 219,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 2]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 3]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 4]\nLTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.\n\n[Document 5]\nForm 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.",
+  "retrieved_doc_ids": [
+    "PB_aee729ae9fbc3265b81f",
+    "PB_70e279a2efefc3723a97",
+    "PB_281c77b1cca45bc9951f",
+    "PB_963bfe00032464e36f8d",
+    "PB_2b9abc3bd3c87651113d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "250e9834719845019315f26563644592ed5ed8ab9d9d1216eddd26d081ed7f91",
+  "answer": "Yes, if your company issues a letter with similar content including local contact's NRIC details, it can serve as a Letter of Introduction (LOI) instead of submitting Form V39A. However, always check the specific requirements and any changes in rules as mentioned in Document 1 and 2. [Document 1]",
+  "input_tokens": 642,
+  "output_tokens": 68,
+  "seconds": 8.872986300004413,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

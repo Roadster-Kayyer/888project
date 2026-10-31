@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007397",
+  "doc_id": "449",
+  "query_type": "formal",
+  "query": "What assistance is provided to pregnant women experiencing domestic violence?",
+  "corpus_query_index": 7396,
+  "system": "BM25-RAG",
+  "reference_answer": "Support for Domestic Abuse:\nFor women facing domestic abuse during pregnancy, support services include:\n* Tamil Nadu Police helpline: 1091 or 181\n* National Domestic Violence Helpline: 181\n* Local NGOs and counseling services. These services provide emotional support, counseling, and legal aid.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nProtection Order\nA protection order is a court order to protect a person from domestic violence or harassment. You can get one by filing a petition under the Protection of Women from Domestic Violence Act, 2005, at a local court or through a women's cell at a police station.\n\n[Document 3]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 4]\nCases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.\n\n[Document 5]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.",
+  "retrieved_doc_ids": [
+    "657",
+    "94",
+    "581",
+    "82",
+    "70"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a2d36f6a9e372f1970e0acc103c7d15bac45c462dc4b4a0c4babd970d0c01c53",
+  "answer": "The Protection of Women from Domestic Violence Act, 2005 provides protection orders and can result in imprisonment up to 3 years and/or a fine. Additionally, all women police stations handle such cases, and reporting can be done through local police stations or helplines. [Document 1-5]",
+  "input_tokens": 391,
+  "output_tokens": 64,
+  "seconds": 8.351551499999914,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

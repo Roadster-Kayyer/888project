@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_25",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question and is supported by the reference, but lacks direct evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and is supported by the reference, but lacks direct evidence.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate answer is deemed partly correct (1) because it does mention that MediShield Life protects against hospitalization costs, major organ transplant fees, and some outpatient treatments, which are related to large healthcare bills. However, it does not directly state that it covers large healthcare bills for life, which is the core aspect of the reference. The relevance score is 1 because the candidate answer is related to the question but does not fully cover the main reference fact. Faithfulness is scored as 1",
+      "input_tokens": 396,
+      "output_tokens": 192,
+      "seconds": 14.467089900004794,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_7",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the time frame for free parking and acknowledges the restriction on application submission days, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies free parking hours and acknowledges the restriction on STVP applications on Sundays and public holidays, supported by Document 1 and 2.\",\n}",
+      "input_tokens": 676,
+      "output_tokens": 192,
+      "seconds": 14.661399799995706,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the time frame for free parking and acknowledges the restriction on application submission days, supported by evidence from Documents 1 and 2.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer is factually consistent with the evidence provided in Documents 1 and 2, which directly support the claim about the availability of free parking and the restriction on application submission days. There is no evidence suggesting that the claim is unsupported or contradicted, hence the faithfulness is not null. The reason is concise and accurately reflects the evaluation.",
+      "input_tokens": 716,
+      "output_tokens": 156,
+      "seconds": 11.964587599999504,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

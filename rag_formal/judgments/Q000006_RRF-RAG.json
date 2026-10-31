@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000006",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly states e-FIR filing online is possible for certain crimes and must visit a police station for regular FIR, supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly states e-FIR filing online is possible for certain crimes and must visit a police station for regular FIR, supported by all documents.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4\"\n}\n\n\nThe candidate's answer is correct in stating that e-FIR can be filed online for certain crimes and that a regular FIR must be filed at a police station. The relevance score is 2 because the candidate directly addresses the question about filing an FIR online and the necessity of visiting a police station for other types of FIRs. The faithfulness score is 2 as the candidate's answer is fully supported by",
+      "input_tokens": 732,
+      "output_tokens": 192,
+      "seconds": 16.62096549999842,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2588.04833984375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

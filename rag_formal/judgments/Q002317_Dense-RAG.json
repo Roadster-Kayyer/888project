@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002317",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by multiple documents, accurately reflecting the guidelines for police behavior in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the guidelines for police behavior in Tamil Nadu, supported by evidence from all documents.\",\n}",
+      "input_tokens": 814,
+      "output_tokens": 192,
+      "seconds": 14.903484300000855,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by multiple documents, accurately reflecting the guidelines for police behavior in Tamil Nadu.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and comprehensive, as indicated by the supporting documents provided. The reason given is a summary of the evaluation based on the provided information.",
+      "input_tokens": 854,
+      "output_tokens": 101,
+      "seconds": 7.794761600001948,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

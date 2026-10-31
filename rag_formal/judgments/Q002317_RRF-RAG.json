@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002317",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly cites the Tamil Nadu Police Code of Conduct, and is supported by evidence from multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the Tamil Nadu Police Code of Conduct, training, and transfer policy, supported by documents 1-5.\",\n}",
+      "input_tokens": 815,
+      "output_tokens": 72,
+      "seconds": 5.619406900001195,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly cites the Tamil Nadu Police Code of Conduct, and is supported by evidence from multiple documents.\"}",
+      "input_tokens": 855,
+      "output_tokens": 55,
+      "seconds": 4.382047499999317,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

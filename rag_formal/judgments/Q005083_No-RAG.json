@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005083",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate acknowledges lack of evidence but fails to provide specific power details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate acknowledges lack of evidence but fails to provide specific power details.\",\n  \"answer\": \"Without evidence, I can't provide specific power details for the EOW in TN.\"\n}",
+      "input_tokens": 374,
+      "output_tokens": 81,
+      "seconds": 6.217899100000068,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

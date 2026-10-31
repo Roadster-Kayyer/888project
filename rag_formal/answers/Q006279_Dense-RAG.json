@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006279",
+  "doc_id": "247",
+  "query_type": "search",
+  "query": "What strategies does the Tamil Nadu Police use to manage crowds during festivals?",
+  "corpus_query_index": 6278,
+  "system": "Dense-RAG",
+  "reference_answer": "Crowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring",
+  "context": "[Document 1]\nCrowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring\n\n[Document 2]\nTamil Nadu Police Drone Surveillance\nThe Tamil Nadu Police use drones for surveillance and crowd management to:\n* Monitor large gatherings and events\n* Track traffic and accidents\n* Assist in search and rescue operations\n* Enhance law and order maintenance\n\n[Document 3]\nRiot Control and Crowd Management:\nThe Tamil Nadu Police has introduced modern equipment such as:\n* Water cannons\n* Tear gas launchers\n* Drones for surveillance\n* Body cameras for police personnel\n\n[Document 4]\nHandling Protests and Demonstrations:\nThe Tamil Nadu Police has reformed its approach by:\n* Adopting crowd management techniques\n* Using technology like drones and CCTV cameras for surveillance\n* Emphasizing community policing and dialogue with protesters\n\n[Document 5]\nTamil Nadu Tourist Police Assistance:\nThe Tamil Nadu Tourist Police assists international visitors by providing guidance, support, and protection. They have dedicated tourist police stations and helplines to address concerns and complaints.",
+  "retrieved_doc_ids": [
+    "247",
+    "1321",
+    "1618",
+    "1637",
+    "1775"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13fbc559c3384a8a4cee3210c534db4cd7e7ec25c9fe33b2bd38622cc79dc555",
+  "answer": "The Tamil Nadu Police manages crowds during festivals through:\n- Adequate personnel deployment\n- Traffic management plans\n- Crowd control drills\n- Technology like drones for surveillance and monitoring [Document 1] [Document 2]",
+  "input_tokens": 367,
+  "output_tokens": 45,
+  "seconds": 5.949765400000615,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

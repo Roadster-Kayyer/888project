@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_10",
+  "doc_id": "PB_ad0bcfeb32e6e7edb2c7",
+  "query_type": "ICA_134",
+  "query": "After making payment, how do I print my receipt?",
+  "reference_answer": "Once payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.",
+  "corpus_query_index": 169,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nOnce payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.\n\n[Document 2]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 3]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 4]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_ad0bcfeb32e6e7edb2c7",
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_28af97b74168a5b5beb0",
+    "PB_e625576111e2a18d5ef0",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "74e9a4c3f1e37309fa2e09b614ede257abf901ddb0d068476022b6d2faa05203",
+  "answer": "After making payment, a pop-up window will show your receipt. Click the print function on your web browser to print it. [Document 1]",
+  "input_tokens": 576,
+  "output_tokens": 31,
+  "seconds": 4.262365799993859,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

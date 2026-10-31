@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_6",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer correctly instructs on reporting misuse but lacks direct evidence; however, it is faithful as it aligns with the reference's suggestion to submit a report."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"The answer correctly instructs on reporting misuse but lacks direct evidence; however, it is faithful as it aligns with the reference's suggestion to submit a report.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence key is included to indicate that there is a reference to a document that presumably contains more detailed instructions or procedures, which supports the candidate answer. However, since the actual content of \"Document 1\" is not provided in the instruction, the faithfulness score is based on the assumption that the document exists and contains relevant information. If \"Document 1\" were not available, the faithfulness score would be null.",
+      "input_tokens": 336,
+      "output_tokens": 177,
+      "seconds": 13.45483959998819,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

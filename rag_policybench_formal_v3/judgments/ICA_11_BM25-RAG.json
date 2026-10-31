@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_11",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states visa exemption for up to 30 days and the process for extending beyond 30 days, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states visa exemption for up to 30 days and the process for extending beyond 30 days, supported by Document 1.\",\n  \"evidence\": \"Document 1 states: 'With effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore...If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP)...Applications for STVP extension are subject to approval and relevant fees may apply.\"\n}",
+      "input_tokens": 1564,
+      "output_tokens": 192,
+      "seconds": 14.716602300002705,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

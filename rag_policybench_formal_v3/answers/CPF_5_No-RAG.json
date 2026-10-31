@@ -1,0 +1,20 @@
+{
+  "query_id": "CPF_5",
+  "doc_id": "PB_9deeca336ae5c6e38cd1",
+  "query_type": "CPF_111",
+  "query": "How will the Fixed Expense Deduction Amount be applied if I use different modes of transport?",
+  "reference_answer": "The Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.",
+  "corpus_query_index": 112,
+  "system": "No-RAG",
+  "context": "",
+  "retrieved_doc_ids": [],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": null,
+  "prompt_sha256": "9fbf4d7e47df790713d31832b848502f343fc7635ee211d07d4304c14731fd51",
+  "answer": "The Fixed Expense Deduction Amount would depend on the mode of transport used. For example, if using a car, it might apply to mileage; if by plane, it could relate to airfare. [Document 1] provides specific details.",
+  "input_tokens": 129,
+  "output_tokens": 50,
+  "seconds": 6.614097199999378,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

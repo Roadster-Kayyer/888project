@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_72",
+  "doc_id": "PB_70b5d47d6063963e4051",
+  "query_type": "CPF_111",
+  "query": "What happens if I have incentives accrued across a few months but only paid later? When will the payments attract CPF contribution?",
+  "reference_answer": "Platform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.",
+  "corpus_query_index": 137,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 2]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 3]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.\n\n[Document 4]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 5]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_70b5d47d6063963e4051",
+    "PB_0b2919dbf107215d276f",
+    "PB_32f2b09e4d17d1cf6a68",
+    "PB_28af97b74168a5b5beb0",
+    "PB_756caeff044567542744"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "862dd13340e7a60833d18c770c94c9804af1385281e264c388209dc3854f6276",
+  "answer": "If you have accrued incentives over several months but only paid later, these payments will attract CPF contribution when they become due and payable, typically with the rest of your earnings in the month they are paid, according to [Document 1]. Payments meant to supplement your earnings, like incentives, attract CPF contribution when they are due, regardless of when they were accrued, as per [Document 1] and [Document 2].",
+  "input_tokens": 726,
+  "output_tokens": 86,
+  "seconds": 11.179081000009319,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

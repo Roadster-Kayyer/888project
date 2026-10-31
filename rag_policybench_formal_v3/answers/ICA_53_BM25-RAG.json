@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_53",
+  "doc_id": "PB_2bc174ceaf15f1ad5e40",
+  "query_type": "ICA_134",
+  "query": "What should I key in for the field 'Date of Departure from Singapore' if I am not leaving Singapore?",
+  "reference_answer": "You are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "corpus_query_index": 251,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 2]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 3]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.\n\n[Document 4]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_56ae394ef36d16f6c616",
+    "PB_ffb44a115e698c779310",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e4c3947e02e25d1a10b45863d8a9d8b5272d48baba09d7bbef4819fd746d7781",
+  "answer": "If you're not leaving Singapore, enter any arbitrary date in the past. [Document 1] mentions this contextually but doesn't specify a particular date.",
+  "input_tokens": 795,
+  "output_tokens": 33,
+  "seconds": 4.555604899986065,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

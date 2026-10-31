@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_88",
+  "doc_id": "PB_aa985d2195d6653bfb7f",
+  "query_type": "CPF_111",
+  "query": "My Special Account (SA) will be closed in the second half of January 2025. Can I still apply to use my SA savings under CPF Investment Scheme-Special Account from now till before my SA is closed?",
+  "reference_answer": "You can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.",
+  "corpus_query_index": 154,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.\n\n[Document 2]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 3]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.\n\n[Document 4]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 5]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject",
+  "retrieved_doc_ids": [
+    "PB_aa985d2195d6653bfb7f",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_c0fec916295a83585eb1",
+    "PB_194e6b030eea394ac1a9",
+    "PB_55387403dc004065b043"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "501344606e773778811b6fdc5abe4843c2d4b7cc8dbdd1a5ff888c0c079826aa",
+  "answer": "Yes, you can apply to use your SA savings under CPF Investment Scheme until your SA closes in the second half of January 2025. Submit your application at least 14 days before the closure to allow for processing time, which typically takes 5-7 business days. [Document 1]",
+  "input_tokens": 778,
+  "output_tokens": 64,
+  "seconds": 8.330627600007574,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

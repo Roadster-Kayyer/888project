@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_21",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the Medishield program and the pro-ration of non-subsidised bills. However, it does not directly reference the specific expenses mentioned in the reference (outpatient cancer treatments and home parenteral nutrition), hence the correctness score is 1. The faithfulness score is null because there is no substantive factual claim supported by the supplied evidence, which in this case is absent. The reason succinctly explains the scores.",
+      "input_tokens": 369,
+      "output_tokens": 180,
+      "seconds": 13.442096099999617,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2762.0341796875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

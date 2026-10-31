@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001521",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and completely describes the procedure for reporting canal breaches to PWD, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the procedure for reporting canal breaches to PWD, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 761,
+      "output_tokens": 66,
+      "seconds": 5.331657200000336,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and completely describes the procedure for reporting canal breaches to PWD, supported by evidence from Document 1.\"}",
+      "input_tokens": 801,
+      "output_tokens": 52,
+      "seconds": 4.132720399997197,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

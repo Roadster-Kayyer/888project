@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_15",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the question but lacks the specific date; evidence supports the computation after 2025."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question but lacks the specific date; evidence supports the computation after 2025.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}",
+      "input_tokens": 583,
+      "output_tokens": 192,
+      "seconds": 14.626617699992494,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

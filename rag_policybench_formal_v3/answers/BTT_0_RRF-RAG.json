@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_0",
+  "doc_id": "PB_9c27ce47f88ef02aeefc",
+  "query_type": "BTT",
+  "query": "What is the impact of leaving a vehicle engine running when stationary for reasons other than traffic conditions under the Environmental Protection and Management (Vehicular Emissions) Regulations?",
+  "reference_answer": "It is an offence, and offenders are liable to a fine of up to $5,000 if convicted in court.",
+  "corpus_query_index": 0,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nAvoid dragging the engine by using the correct gear.\n\n[Document 3]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 4]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 5]\nSlow down, keep left, and beware of oncoming traffic.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_4a5e366a1e27905d0545",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_2858faae83bda4331fb6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "48e2f87f3321f3af56e3f80a2ed0e45574324b1c933ab0956e994d508008603a",
+  "answer": "Leaving a vehicle engine running idly impacts fuel efficiency and reduces emissions, as per Document 1 and 2. It also increases stopping distances, as stated in Document 3. However, the provided documents do not directly address the impact on CPF deductions or job earnings, which are related to mode of transport but not explicitly linked to leaving the engine running. [Document 1-5]",
+  "input_tokens": 445,
+  "output_tokens": 80,
+  "seconds": 10.063166400002956,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

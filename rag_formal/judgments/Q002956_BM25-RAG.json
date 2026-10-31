@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002956",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the emergency response procedure, includes relevant details from the reference documents, and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the emergency response procedure, includes relevant details from the reference documents, and is fully supported by the evidence provided.\",\n  \"evidence\": \"[Document 1], [Document 3], [Document 5]\"\n}",
+      "input_tokens": 893,
+      "output_tokens": 91,
+      "seconds": 7.36715710000135,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

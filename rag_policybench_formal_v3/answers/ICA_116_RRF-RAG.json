@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_116",
+  "doc_id": "PB_93b665013679b839e21c",
+  "query_type": "ICA_134",
+  "query": "How do I update my new passport details with ICA if I am a Long-Term Visit Pass (LTVP) holder?",
+  "reference_answer": "You can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.",
+  "corpus_query_index": 187,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 2]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.\n\n[Document 3]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 4]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 5]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.",
+  "retrieved_doc_ids": [
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_e0f7b3c7aacb50023519",
+    "PB_8171046f23dbdf9c0430",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_d36aa50f901554971814"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "96e60615dcbe37096316581a61301b33ce9534fd521e5176016e76293854fb81",
+  "answer": "According to [Document 4], for Long-Term Pass holders registered with ICA, including LTVP holders, you need to update your new passport details with ICA e-Service on REP Renew/Transfer. This service is free-of-charge. [Document 1] states you can submit your LTVP renewal application 2-3 months before the current LTVP expires. [Document 5] notes LTVPs are now issued digitally.",
+  "input_tokens": 720,
+  "output_tokens": 92,
+  "seconds": 11.973655199995846,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

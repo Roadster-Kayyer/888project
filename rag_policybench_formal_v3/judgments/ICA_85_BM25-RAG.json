@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_85",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which explain the process of correcting passport information and the implications of incorrect details on QR code validity."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the consequences of incorrect passport information and the process of updating it, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 1406,
+      "output_tokens": 72,
+      "seconds": 5.788117600008263,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which explain the process of correcting passport information and the implications of incorrect details on QR code validity.\"}\n\nPlease note that the \"faithfulness\" score of 2 is based on the assumption that the candidate answer correctly reflects the information provided in the documents, which indicate that travellers must correct their details in the MyICA mobile app and that the QR code's validity is tied to the passport's validity. The reason is concise and accurately summarizes the evaluation.",
+      "input_tokens": 1446,
+      "output_tokens": 154,
+      "seconds": 11.999902600000496,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

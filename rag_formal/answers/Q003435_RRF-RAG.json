@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003435",
+  "doc_id": "1616",
+  "query_type": "hard",
+  "query": "What strategies have been put in place to foster better relationships between law enforcement and the public?",
+  "corpus_query_index": 3434,
+  "system": "RRF-RAG",
+  "reference_answer": "Police-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "context": "[Document 1]\nPolice Public Relations Wing:\nThe Police Public Relations Wing functions to build trust and transparency between the police and the public. It handles media inquiries, shares information on police activities, and promotes community outreach programs to enhance police-public relationships.\n\n[Document 2]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.\n\n[Document 3]\nFriends of Police Movement:\nThe Friends of Police movement in Tamil Nadu is a community policing initiative that aims to build a strong relationship between the police and the public. It encourages citizens to work together with the police to prevent crime and maintain law and order.\n\n[Document 4]\nPolice-Public Interface Meeting\nThe Police-Public Interface Meeting addresses community concerns by providing a platform for citizens to interact with police officers, discuss local issues, and find solutions. It fosters a sense of trust and cooperation between the police and the public.\n\n[Document 5]\nPolice-Public Sports Meet:\nThe Police-Public Sports Meet is an event organized by the Tamil Nadu Police to promote harmony and friendship between the police and the public. It is usually held annually, featuring various sports and games.",
+  "retrieved_doc_ids": [
+    "1584",
+    "1616",
+    "240",
+    "1679",
+    "1694"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7566529ef5b88c4c0beeca8228525581c6dc6ca9ec82dc0cb9da2419988a292",
+  "answer": "Strategies include building trust through the Police Public Relations Wing, implementing reforms like community policing and public outreach programs, encouraging citizen involvement via the Friends of Police Movement, fostering interaction at Police-Public Interface Meetings, and promoting harmony with Police-Public Sports Meets. [Document 1-5]",
+  "input_tokens": 386,
+  "output_tokens": 60,
+  "seconds": 7.464202099999966,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

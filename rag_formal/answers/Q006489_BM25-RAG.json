@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006489",
+  "doc_id": "285",
+  "query_type": "search",
+  "query": "How can I file a complaint regarding online scams?",
+  "corpus_query_index": 6488,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Online Fraud:\nTo report online fraud, visit the nearest police station or:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents",
+  "context": "[Document 1]\nCitizen Rights Regarding Personal Data:\nCitizens have the right to:\n* Know how their data is being used\n* Access their personal data\n* Request correction or deletion of incorrect data\n* File a complaint if their data is misused (as per IT Act 2000 and Tamil Nadu Police guidelines)\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nReporting Cryptocurrency Scams:\nReport cryptocurrency scams to the Cyber Crime Police Station or the nearest police station. Provide transaction details, wallet IDs, and any communication with the scammer. You can also file a complaint online through the National Cyber Crime Reporting Portal.\n\n[Document 5]\nReporting Online Dating Scams:\nTo report online dating scams targeting women, contact the Cyber Crime Cell of the Tamil Nadu Police or file a complaint at the nearest police station. You can also call the toll-free helpline number 1930 or email [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in) for assistance.",
+  "retrieved_doc_ids": [
+    "1463",
+    "255",
+    "35",
+    "920",
+    "458"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "918248f32a63bd22ac77ed43c902ae353e1a0a675d3b443563b787447a425bf5",
+  "answer": "According to [Document 1], you can file a complaint about online scams by requesting correction or deletion of incorrect data, or by filing a complaint if your data is misused under the IT Act 2000 and Tamil Nadu Police guidelines. [Document 4] suggests reporting cryptocurrency scams to the Cyber Crime Police Station or the nearest police station, providing transaction details and communication with the scammer.",
+  "input_tokens": 445,
+  "output_tokens": 82,
+  "seconds": 10.65486090000013,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

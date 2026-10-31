@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_8",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not address the specific conditions for receiving and retaining a matching grant as outlined in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not address the specific conditions for receiving and retaining a matching grant as outlined in the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 480,
+      "output_tokens": 73,
+      "seconds": 5.678181499999482,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

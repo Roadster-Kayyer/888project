@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_67",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the role of agent banks under CPFIS-OA, supported by evidence from Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the role of agent banks under CPFIS-OA, supported by evidence from Document 1 and Document 4.\"\n}",
+      "input_tokens": 1528,
+      "output_tokens": 72,
+      "seconds": 5.912974499995471,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005084",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the jurisdiction and processes of the Economic Offences Wing as described in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the jurisdiction and processes of the Economic Offences Wing as described in the documents.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4, Document 5\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifying the jurisdiction threshold of ₹1 crore and the types of crimes the Economic Offences Wing handles. It also mentions the process of investigation and filing chargesheets, which is supported by Document 2. The use of forensic techniques is corroborated by Document 5. The evidence provided from the documents is used to justify the scores, and the reason succinctly",
+      "input_tokens": 767,
+      "output_tokens": 192,
+      "seconds": 14.965107299998635,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

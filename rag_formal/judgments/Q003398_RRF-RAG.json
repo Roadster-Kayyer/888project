@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003398",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists all required documents for driving in Tamil Nadu and is directly supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists all required documents for driving in Tamil Nadu and is directly supported by Document 1.\",\n  \"evidence\": \"Document 1: 'While driving in Tamil Nadu, carry:\\n* Valid driving license\\n* Vehicle registration certificate\\n* Insurance certificate\\n* Pollution under control certificate\\n* Vehicle fitness certificate (if applicable)'.\"\n}",
+      "input_tokens": 809,
+      "output_tokens": 192,
+      "seconds": 15.230656299998373,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_53",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it directly addresses the question about what to enter for the 'Date of Departure from Singapore' if not leaving Singapore. However, it does not provide a direct reference to the provided text, which would be necessary for a full score in faithfulness. The reason for the given scores is that while the candidate's answer is relevant, it lacks the direct evidence from the reference that would be required for full faithfulness. The evidence key is null because the candidate's answer does not contain any substantive factual claims that can be directly supported or contradicted by the provided reference text.",
+      "input_tokens": 477,
+      "output_tokens": 189,
+      "seconds": 14.541333999994094,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_77",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the procedure for rescheduling and attending the ceremony, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the procedure for rescheduling and attending the ceremony, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] You may contact us via the enquiry form on the request to reschedule your citizenship ceremony.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given for correctness, relevance, and faithfulness. The evidence provided is a direct quote from the retrieved documents that supports the candidate's answer, which is why the faithfulness score is 2. The candidate's answer is relevant and correct as per the evidence, and there are no omissions or unsupported claims.",
+      "input_tokens": 655,
+      "output_tokens": 182,
+      "seconds": 14.022564599988982,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

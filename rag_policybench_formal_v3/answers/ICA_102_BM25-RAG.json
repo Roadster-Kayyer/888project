@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_102",
+  "doc_id": "PB_9b3d1195e8f4641e640b",
+  "query_type": "ICA_134",
+  "query": "How do I renew my Student's Pass before pass expiry?",
+  "reference_answer": "You must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.",
+  "corpus_query_index": 172,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.\n\n[Document 2]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 3]\nWe regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.\n\n[Document 4]\nUpon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.\n\n[Document 5]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.",
+  "retrieved_doc_ids": [
+    "PB_9b3d1195e8f4641e640b",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_c1aaea57c1b02e2e8590",
+    "PB_bc945ef27bfe4a4e76b0",
+    "PB_a6030c6c9eb84a58b3ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cdc2c281f5401861f2f8debca02b10568507913b7856cd924937e97b19fe7d15",
+  "answer": "To renew your Student's Pass, you must be accepted into a full-time course at a recognized Singapore institution. Apply online using e-Service. Update your new passport details with the relevant centers as per your passport type. [Document 1][Document 2]",
+  "input_tokens": 497,
+  "output_tokens": 54,
+  "seconds": 7.342213600000832,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

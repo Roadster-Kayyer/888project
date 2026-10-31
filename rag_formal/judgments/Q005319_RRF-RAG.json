@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005319",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence, which outlines the steps to dispute a false police complaint in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering all main points with evidence from Document 1.\",\n}",
+      "input_tokens": 919,
+      "output_tokens": 192,
+      "seconds": 14.851350799999636,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence, which outlines the steps to dispute a false police complaint in Tamil Nadu.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and complete, and that the retrieved evidence (Document 1) is reliable and directly relevant to the question asked. The reason provided is a concise explanation of the scores assigned.",
+      "input_tokens": 959,
+      "output_tokens": 113,
+      "seconds": 8.760723600000347,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

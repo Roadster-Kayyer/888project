@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005083",
+  "doc_id": "1913",
+  "query_type": "casual",
+  "query": "How much power does the EOW in TN have?",
+  "corpus_query_index": 5082,
+  "system": "Dense-RAG",
+  "reference_answer": "Economic Offences Wing Jurisdiction:\nThe Economic Offences Wing in Tamil Nadu has jurisdiction over cases related to economic crimes, such as cheating, forgery, and financial frauds, that exceed ₹1 crore.",
+  "context": "[Document 1]\nEconomic Offences Wing (EOW):\nThe Economic Offences Wing (EOW) handles cases related to economic crimes, such as cheating, forgery, and financial fraud. They investigate cases involving large-scale financial losses and white-collar crimes.\n\n[Document 2]\nMajor Power Outage Response:\nIn case of a major power outage, the public can contact the Tamil Nadu Electricity Board (TNEB) helpline or the police (100) to report the issue. The police will coordinate with TNEB to restore power and maintain public safety.\n\n[Document 3]\nMounted Police Unit Recruitment:\nThe recruitment process involves a written exam, physical measurement test, and physical efficiency test. Candidates must meet the eligibility criteria and apply through the TNUSRB website. Selection is based on performance in these tests.\n\n[Document 4]\nComplaint against Electricity Board Official:\nTo complain against an Electricity Board official, contact the Tamil Nadu Electricity Board (TNEB) consumer complaint cell or the local TNEB office. You can also call the TNEB toll-free helpline 1912 or file a complaint online on the TNEB website.\n\n[Document 5]\nCorporate Fraud:\nThe Tamil Nadu Police handles corporate fraud cases through its Economic Offences Wing (EOW). If you suspect corporate fraud, file a complaint with the EOW or your local police station. They will investigate and take necessary action.",
+  "retrieved_doc_ids": [
+    "181",
+    "1560",
+    "1490",
+    "401",
+    "198"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8488f9b35ac133631b0119c0bc832b5605482059ce68fc7187446cbfbb518101",
+  "answer": "The EOW in TN has investigative powers but not direct power to handle major power outages or recruit police officers. [Document 1]",
+  "input_tokens": 410,
+  "output_tokens": 29,
+  "seconds": 3.8743825999990804,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

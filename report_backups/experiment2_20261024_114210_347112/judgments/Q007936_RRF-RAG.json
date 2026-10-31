@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007936",
+  "system": "RRF-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 717,
+      "output_tokens": 192,
+      "seconds": 14.953276299995196,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate",
+      "input_tokens": 757,
+      "output_tokens": 192,
+      "seconds": 14.847348699993745,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 142)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

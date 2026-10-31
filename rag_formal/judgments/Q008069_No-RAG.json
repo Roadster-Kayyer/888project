@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008069",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence; it correctly implies legal constraints but does not provide specific jurisdictional details or legal standards."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence; it correctly implies legal constraints but does not provide specific jurisdictional details or legal standards.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 382,
+      "output_tokens": 78,
+      "seconds": 6.004757199996675,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

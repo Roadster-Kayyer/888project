@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009880",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 5]\"\n}\n\n\nThe candidate answer is correct as it accurately describes the process of reporting caste prejudice, which includes contacting the Tamil Nadu Police through the SC/ST Helpline, local police station, or state commissions. The answer is relevant because it directly responds to the question about documentation and reporting of caste prejudice. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, Document 2, and Document 5, which all contain information about reporting caste",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 15.099525500001619,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

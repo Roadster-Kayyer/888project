@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007399",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists helplines and services, aligns with the reference, and includes rights under the Act."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists helplines and services, aligns with the reference, and includes rights under the Act.\"\n}\n\n\nThe candidate answer directly addresses the question by listing specific support options for women with domestic violence issues while pregnant, such as helplines and local services, which are mentioned in the reference. It also correctly refers to the Protection of Women from Domestic Violence Act, 2005, which is relevant to the context of the question. The answer is faithful to the evidence provided in the retrieved documents, as it accurately reflects the information about helplines and services and the rights granted by the Act. The reason succinctly explains the scores, highlighting the correctness, relevance",
+      "input_tokens": 867,
+      "output_tokens": 192,
+      "seconds": 15.208583999999973,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

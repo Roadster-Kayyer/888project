@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007939",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer correctly cites IPC and IT Act for text threats, includes consequences for senior citizens, and outlines steps for reporting harassment."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer correctly cites IPC and IT Act for text threats, includes consequences for senior citizens, and outlines steps for reporting harassment.\",\n  \"evidence\": \"[Document 1], [Document 3], [Document 5]\"\n}",
+      "input_tokens": 815,
+      "output_tokens": 192,
+      "seconds": 14.638159200003429,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

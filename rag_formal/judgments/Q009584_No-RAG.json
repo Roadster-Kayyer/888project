@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009584",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but is relevant to the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but is relevant to the process.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses the general process of servant verification, which aligns with the reference's mention of a background check. However, it does not directly quote or reference the provided evidence, hence the faithfulness score is null. The correctness score is 1 because it addresses the main reference fact but omits specific details about the process.",
+      "input_tokens": 389,
+      "output_tokens": 141,
+      "seconds": 10.482337800000096,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

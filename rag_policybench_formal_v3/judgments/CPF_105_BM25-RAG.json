@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_105",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies PRs' non-eligibility based on scheme design and income considerations, supported by documents 5 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies PRs' non-eligibility based on scheme design and income considerations, supported by documents 5 and 4.\"\n}",
+      "input_tokens": 770,
+      "output_tokens": 192,
+      "seconds": 14.85026619999553,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

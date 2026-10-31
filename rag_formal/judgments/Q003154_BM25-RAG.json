@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003154",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the role of SCRB in criminal case solving, supported by evidence from Documents 1, 2, and 3.\",\n}",
+      "input_tokens": 699,
+      "output_tokens": 75,
+      "seconds": 5.9227358999996795,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from all documents.\"}",
+      "input_tokens": 739,
+      "output_tokens": 40,
+      "seconds": 3.223238999999012,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

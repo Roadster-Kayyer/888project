@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004094",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly explains the presumption of innocence, directly addresses the reference, and is fully supported by the reference's explanation of the burden of proof."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the presumption of innocence, directly addresses the reference, and is fully supported by the reference's explanation of the burden of proof.\",\n  \"evidence\": \"The candidate answer directly correlates with the reference's explanation of the presumption of innocence and the burden of proof, which are central to the operation of this principle in court systems.\"\n}",
+      "input_tokens": 444,
+      "output_tokens": 121,
+      "seconds": 9.303320999999414,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_0",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference, addressing the need for PayNow-NRIC registration and the process for updating bank details via Singpass."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference, addressing the need for PayNow-NRIC registration and the process for updating bank details via Singpass.\"\n}",
+      "input_tokens": 1742,
+      "output_tokens": 72,
+      "seconds": 6.046805499994662,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3013.34130859375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

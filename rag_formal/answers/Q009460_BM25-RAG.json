@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009460",
+  "doc_id": "82",
+  "query_type": "hard",
+  "query": "By what sorts of issues are All Women Police Stations concerned?",
+  "corpus_query_index": 9459,
+  "system": "BM25-RAG",
+  "reference_answer": "Cases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nFemale Officers Availability\nFemale officers are available at all-women police stations (Mahila Police Stations) and some regular police stations, but not all regular stations have female officers available 24/7.\n\n[Document 3]\nLocation of All Women Police Stations:\nAll Women Police Stations are located in all districts of Tamil Nadu, with a total of 199 stations. They can be found in major cities and towns, including Chennai, Coimbatore, Madurai, and Trichy.\n\n[Document 4]\nRole of All Women Police Stations (AWPS):\nAll Women Police Stations (AWPS) in Tamil Nadu are dedicated to handling crimes against women and children. They provide a safe and supportive environment for victims to report crimes, such as domestic violence, harassment, and abuse. AWPS are staffed by female police officers and provide counseling, medical, and legal support to victims.\n\n[Document 5]\nMen approaching All Women Police Stations:\nYes, men can approach All Women Police Stations with complaints related to crimes against women, such as reporting a crime against a female family member or friend. However, for other general complaints, men are advised to approach regular police stations.",
+  "retrieved_doc_ids": [
+    "1631",
+    "93",
+    "81",
+    "80",
+    "83"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cf80565628dc5f9ba51522e8a9ef2210b2e5eba849b48ef07701b5cb1119bef4",
+  "answer": "All Women Police Stations (AWPS) in Tamil Nadu handle crimes against women and children, including domestic violence, harassment, and abuse. They provide a safe environment for victims and offer support like counseling, medical care, and legal assistance. Men can also report crimes against women here. [Document 5]",
+  "input_tokens": 415,
+  "output_tokens": 62,
+  "seconds": 8.595371700001124,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

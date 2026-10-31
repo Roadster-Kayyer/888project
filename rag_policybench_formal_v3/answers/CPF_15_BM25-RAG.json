@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_15",
+  "doc_id": "PB_9f4f545378e55cf7e6a1",
+  "query_type": "CPF_111",
+  "query": "What will CPF Board do with members or third parties who are found to have conducted manipulative transactions?",
+  "reference_answer": "Under the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.",
+  "corpus_query_index": 74,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 2]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\n\n[Document 3]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.\n\n[Document 4]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 5]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.",
+  "retrieved_doc_ids": [
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_70527c7dfb085e57dd22",
+    "PB_2a66fea5f046058537db",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_c1a387ce75f3f9c696bf"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0c38c7900883efe6010a99baaf86afb0a78a461237281639568e5e6cad19bca5",
+  "answer": "The CPF Board will recover CPF savings and charge individuals or third parties under the Penal Code. Members might face a one-year withdrawal ban or legal action. [Document 1]",
+  "input_tokens": 644,
+  "output_tokens": 36,
+  "seconds": 4.936786999998731,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007936",
+  "doc_id": "546",
+  "query_type": "original",
+  "query": "What is the penalty for sending threatening text messages?",
+  "corpus_query_index": 7935,
+  "system": "Dense-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.\n\n[Document 3]\nSuicide Threats:\nMaking suicide threats is a punishable offense. Under Section 506 of the IPC, it can lead to imprisonment up to 7 years and/or a fine.\n\n[Document 4]\nThreatening to Expose Private Information:\nUnder the IT Act, threatening to expose private information can lead to imprisonment up to 3 years and/or a fine up to ₹10,000.\n\n[Document 5]\nExtortion Threats:\nMaking extortion threats can lead to 2-7 years imprisonment and/or fine, under IPC sections 383-389.",
+  "retrieved_doc_ids": [
+    "546",
+    "545",
+    "584",
+    "571",
+    "566"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e1bccdc8612e237a1ade2664abcec93fc47a9a77ef4e71c22323757afd15464e",
+  "answer": "The penalty for sending threatening text messages is up to 3 years in prison and/or a fine, under Section 506 of the IPC and the IT Act, 2000. [Document 1]",
+  "input_tokens": 333,
+  "output_tokens": 46,
+  "seconds": 5.876552599998831,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

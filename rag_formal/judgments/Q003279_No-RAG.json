@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003279",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it directly addresses the role of the Police Academy Museum in preserving police history by mentioning the collection of artifacts and educational programs. However, it does not directly cite evidence from the provided reference, which would be necessary to fully support the claim. Therefore, the faithfulness score is null due to the absence of direct evidence. The correctness score is 1 because the answer is partly correct but omits specific details about the evolution of the Tamil Nadu Police Department as mentioned in the reference.",
+      "input_tokens": 398,
+      "output_tokens": 178,
+      "seconds": 13.514398399998754,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

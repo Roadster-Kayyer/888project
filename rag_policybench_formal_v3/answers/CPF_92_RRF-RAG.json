@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_92",
+  "doc_id": "PB_ee0f8ff38ba535d4384c",
+  "query_type": "CPF_111",
+  "query": "When should I submit my top-up application if I want to be eligible for tax relief in the next assessment year?",
+  "reference_answer": "Your online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.",
+  "corpus_query_index": 159,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYour online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 4]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_ee0f8ff38ba535d4384c",
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "de38d9754aa0473aa599227fa0cb690f816a64b8a2dd54ec16831bd8dee7ed9c",
+  "answer": "You should submit your top-up application by 31 December of the same year to be eligible for tax relief in the next assessment year. [Document 1]",
+  "input_tokens": 1004,
+  "output_tokens": 34,
+  "seconds": 4.976313200008008,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_22",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate mentions key features but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions key features but lacks direct evidence from the reference.\",\n  \"answer\": \"Candidate partially addresses the question but does not provide evidence from the specified reference.\"\n}\n\n\nIn this evaluation, the candidate's answer is partially relevant as it discusses the key features of the MediShield Life Scheme, which is what the question asks for. However, the answer does not directly cite the reference provided, which would be necessary to score high on faithfulness. The correctness score is 1 because the candidate's answer is partly correct but lacks important details that would be found in the reference. The relevance score is 1 because the candidate's answer is related to the question but does not fully address it",
+      "input_tokens": 393,
+      "output_tokens": 192,
+      "seconds": 14.496560100000352,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

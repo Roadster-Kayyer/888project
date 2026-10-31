@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001345",
+  "doc_id": "124",
+  "query_type": "hard",
+  "query": "How does the Narcotic Drugs and Psychotropic Substances Act regulate illegal narcotics trade, and which felonies does it target?",
+  "corpus_query_index": 1344,
+  "system": "BM25-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 3]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.\n\n[Document 4]\nDrug-Related Queries\n\n1. Personal Consumption: Individuals caught with drugs for personal consumption may face charges under the Narcotic Drugs and Psychotropic Substances (NDPS) Act. They may be fined or imprisoned, depending on the quantity and type of drug.\n\n2. Pharmaceutical Drug Diversion: The Tamil Nadu Police addresses pharmaceutical drug diversion through raids, inspections, and monitoring of pharmacies and medical stores. They work with other agencies to prevent the misuse of prescription drugs.\n\n3. Cybercrime Reporting: You can report cybercrimes in Tamil Nadu to the Cyber Crime Police Station or the nearest police station. Alternatively, you can file a complaint online through the Tamil Nadu Police website or the National Cyber Crime Reporting Portal.\n\n[Document 5]\nDrug-Related Queries\n\n1. Personal Consumption: Individuals caught with drugs for personal consumption may face charges under the Narcotic Drugs and Psychotropic Substances (NDPS) Act. They may be fined or imprisoned, depending on the quantity and type of drug.\n\n2. Pharmaceutical Drug Diversion: The Tamil Nadu Police addresses pharmaceutical drug diversion through raids, inspections, and monitoring of pharmacies and medical stores. They work with other agencies to prevent the misuse of prescription drugs.\n\n3. Cybercrime Reporting: You can report cybercrimes in Tamil Nadu to the Cyber Crime Police Station or the nearest police station. Alternatively, you can file a complaint online through the Tamil Nadu Police website or the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "124",
+    "129",
+    "122",
+    "138",
+    "139"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "92aab8d28cd2f2ebe5a4e25f96ef7a5fb2d2f79d780c1e57474b79955f1c236a",
+  "answer": "The NDPS Act regulates illegal narcotics trade by covering offenses like possession, sale, purchase, and manufacture of banned substances. It targets felonies including drug possession, where penalties vary based on quantity and type, up to 10-20 years in prison and heavy fines. [Document 1] [Document 5]",
+  "input_tokens": 636,
+  "output_tokens": 67,
+  "seconds": 8.902319599999828,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_9",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is deemed partly correct (1) because it acknowledges the availability of e-Services without Singpass login, which aligns with the reference. However, it introduces speculative language (\"likely still be available, but some might face restrictions or changes due to ongoing security measures\") that is not supported by the provided reference. The reference clearly states that such e-Services will continue to be available, which contradicts the speculative nature of the candidate's answer. Therefore, the faithfulness score is null as there is no evidence in the candidate's answer to support",
+      "input_tokens": 353,
+      "output_tokens": 192,
+      "seconds": 14.503711900004419,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

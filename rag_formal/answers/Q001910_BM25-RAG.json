@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001910",
+  "doc_id": "1341",
+  "query_type": "hard",
+  "query": "In what ways do law enforcement officers in Tamil Nadu apply digital evidence analysis in solving cases?",
+  "corpus_query_index": 1909,
+  "system": "BM25-RAG",
+  "reference_answer": "Digital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.",
+  "context": "[Document 1]\nDigital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.\n\n[Document 2]\nTechnology in Crime Investigation:\nTamil Nadu Police uses technology like CCTV surveillance, digital forensics, and mobile apps to investigate crimes. This helps in faster evidence collection, tracking, and solving cases.\n\n[Document 3]\nDigital Tools for Crime Scene Documentation:\nThe Tamil Nadu Police use digital tools such as:\n- Mobile Data Terminal (MDT) devices\n- CCTV cameras\n- Drones (in some cases)\n- Mobile apps for evidence collection and documentation.\n\n[Document 4]\nDigital Forensic Laboratory:\nThe digital forensic laboratory of Tamil Nadu Police is the Cyber Crime Lab, which analyzes digital evidence to aid in crime investigations.\n\n[Document 5]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "retrieved_doc_ids": [
+    "1341",
+    "1615",
+    "1330",
+    "1360",
+    "107"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b2da50a64ef331532f935435c07ac211efa3f12de44040bed82c4c76e2d1a9f2",
+  "answer": "Law enforcement officers in Tamil Nadu use digital forensics to analyze digital evidence from devices like mobiles, computers, and electronic data. This aids in collecting, preserving, tracking cybercrimes, and solving cases efficiently. They also employ technology like CCTV surveillance, mobile apps, and drones for evidence collection and tracking. The Cyber Crime Lab analyzes digital evidence to assist in investigations. [Document 1, Document 2, Document 3, Document 4]",
+  "input_tokens": 382,
+  "output_tokens": 93,
+  "seconds": 11.710807999999815,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

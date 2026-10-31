@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_70",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "The candidate answer correctly identifies the key differences between the three types of top-ups, including tax relief conditions and eligibility, which are supported by the evidence provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "correctness: 2\nrelevance: 2\nfaithfulness: 2\nreason: Candidate answer accurately describes the differences and conditions for each type of top-up, with evidence from Documents 1, 2, and 5 supporting the claims.\n\n{\"correctness\": 2, \"relevance\": 2, \"faithfulness\": 2, \"reason\": \"The candidate answer correctly identifies the key differences between the three types of top-ups, including tax relief conditions and eligibility, which are supported by the evidence provided in the documents.\"}",
+      "input_tokens": 2269,
+      "output_tokens": 130,
+      "seconds": 10.553392100002384,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

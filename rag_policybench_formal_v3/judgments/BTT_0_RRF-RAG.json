@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_0",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer addresses fuel efficiency, emissions, and stopping distances related to engine idling, but lacks direct evidence linking idling to CPF deductions or job earnings."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly identifies impacts on fuel efficiency, emissions, and stopping distances but lacks direct evidence linking engine idling to CPF deductions and job earnings.\n}",
+      "input_tokens": 803,
+      "output_tokens": 192,
+      "seconds": 15.070079900004202,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2723.6845703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":1,\"faithfulness\":null,\"reason\":\"Candidate answer addresses fuel efficiency, emissions, and stopping distances related to engine idling, but lacks direct evidence linking idling to CPF deductions or job earnings.\"}",
+      "input_tokens": 843,
+      "output_tokens": 61,
+      "seconds": 4.978090699994937,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

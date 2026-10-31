@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_17",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer provides a relevant estimate but lacks direct evidence from the untrusted data."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer provides a relevant estimate but lacks direct evidence from the untrusted data.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it addresses the question about the maximum claim limit under Medishield in Singapore. However, it does not directly quote or reference the untrusted data, which is supposed to contain the factual claim. Therefore, the correctness score is 1, indicating that the answer is partly correct but omits the specific factual detail that would be expected to be found in the untrusted data. Faithfulness is scored as null because there is no substantive factual claim supported by the supplied evidence, which in this case is absent. The reason succinct",
+      "input_tokens": 357,
+      "output_tokens": 192,
+      "seconds": 14.612573200007319,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

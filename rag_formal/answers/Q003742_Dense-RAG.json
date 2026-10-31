@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003742",
+  "doc_id": "1672",
+  "query_type": "formal",
+  "query": "How is the Women Safety Committee structured and what are its operational mechanisms?",
+  "corpus_query_index": 3741,
+  "system": "Dense-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nCommunity Safety Groups for Women:\nTo form a community safety group:\n* Gather like-minded women in the residential area\n* Discuss concerns and goals\n* Elect a leader to coordinate efforts\n* Collaborate with local police and authorities\n\n[Document 3]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 4]\nWomen's Safety in Remote Villages:\nSpecial measures for women's safety include:\n* Increased police presence and patrols\n* Women's helplines and dedicated cells\n* Community outreach and awareness programs\n* Collaboration with local organizations for support\n\n[Document 5]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.",
+  "retrieved_doc_ids": [
+    "1672",
+    "1902",
+    "1682",
+    "1388",
+    "108"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e95fa71e6c331d2422649bc3abf6e41530ea5809570d40f94afad64a5d6ae9d3",
+  "answer": "The Women Safety Committee in Tamil Nadu operates by addressing women's complaints, providing counseling, and conducting awareness programs. It functions through local police initiatives, community groups, and beach committees. Committees collaborate with local authorities and police to monitor safety and provide emergency response. [Document 1] Additionally, they coordinate with the Child Welfare Committee for child safety. [Document 5]",
+  "input_tokens": 403,
+  "output_tokens": 75,
+  "seconds": 9.66819150000083,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000009",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the online filing process and corroborates with Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the online filing process and corroborates with Documents 1 and 2.\",\n  \"evidence\": \"Documents 1 and 2\"\n}\n\n\nThe candidate answer directly addresses the question by specifying the online filing process for certain crimes through the Tamil Nadu Police website or mobile app, and also mentions the alternative method of filing at a police station. The answer is fully supported by the evidence provided in Documents 1 and 2, which both confirm the ability to file an e-FIR for specified crimes online. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 746,
+      "output_tokens": 186,
+      "seconds": 14.658786500000133,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2611.8232421875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

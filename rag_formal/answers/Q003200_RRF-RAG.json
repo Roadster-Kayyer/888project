@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003200",
+  "doc_id": "1574",
+  "query_type": "hard",
+  "query": "How does the Police Radio Branch support communication infrastructure?",
+  "corpus_query_index": 3199,
+  "system": "RRF-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\nPolice Computer Wing:\nThe Police Computer Wing manages the department's digital infrastructure by maintaining computer systems, networks, and databases. It provides technical support, develops software, and ensures cybersecurity to facilitate efficient policing.\n\n[Document 4]\nTamil Nadu Police Radio Branch Recruitment:\nRecruitment for the Tamil Nadu Police Radio Branch is done through the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB). Candidates must meet eligibility criteria, pass a written exam, and undergo physical and medical tests to be selected.\n\n[Document 5]\nCommunity Radio Program:\nThe Community Radio program shares police information by broadcasting crime prevention tips, missing person alerts, and public safety announcements. It also airs awareness programs on various social issues.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1577",
+    "1487",
+    "1675"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fbc19e9d832bd4b6b21ec2b220002d98a133591a1aada242155ca666fb18690f",
+  "answer": "The Police Radio Branch supports communication infrastructure by maintaining communication networks, coordinating police operations through wireless communication, and providing technical support for police radio systems. [Document 1]",
+  "input_tokens": 346,
+  "output_tokens": 34,
+  "seconds": 4.421510500000295,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

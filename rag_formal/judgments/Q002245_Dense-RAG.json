@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002245",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1, which details the police's approach to exploitation of tribal artisans."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the legal system's approach to artisan exploitation as described in Document 1, and corroborates with other documents' methods for handling related issues.\n}",
+      "input_tokens": 892,
+      "output_tokens": 92,
+      "seconds": 7.308361200000945,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1, which details the police's approach to exploitation of tribal artisans.\"}\n\nNote: The scores provided are based on the information given in the candidate answer and the retrieved evidence. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 because all substantive factual claims in the candidate answer are supported by the evidence provided in Document 1. The reason is a concise explanation of the scores.",
+      "input_tokens": 932,
+      "output_tokens": 154,
+      "seconds": 11.961722800002462,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

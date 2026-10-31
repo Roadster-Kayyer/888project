@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_27",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies IEO's purpose and its relation to staying and working in Singapore, directly addressing the question and supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes IEO and its benefits for eligible individuals, supported by Document 1.\",\n}",
+      "input_tokens": 938,
+      "output_tokens": 192,
+      "seconds": 14.254058900012751,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies IEO's purpose and its relation to staying and working in Singapore, directly addressing the question and supported by Document 1.\"}\n\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The candidate answer is relevant and correct, and it is fully supported by the evidence provided. Therefore, all scores are at the maximum value of 2.",
+      "input_tokens": 978,
+      "output_tokens": 111,
+      "seconds": 8.308773899989319,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

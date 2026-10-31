@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_97",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the normal processing time and method for self-employed MediSave contributions as stated in the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the normal processing time and method for self-employed MediSave contributions as stated in the retrieved evidence.\"\n}",
+      "input_tokens": 1199,
+      "output_tokens": 70,
+      "seconds": 5.566162199989776,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_43",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, and 3.\",\n  \"evidence\": \"Document 1: 'Give way to vehicles from the side road entering the main road.' Document 2: 'The road ahead will narrow on one side, requiring caution and potential adjustments in lane position.' Document 3: 'Drivers should proceed to complete their turn and clear the junction.'\"\n}",
+      "input_tokens": 525,
+      "output_tokens": 192,
+      "seconds": 15.331275300006382,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

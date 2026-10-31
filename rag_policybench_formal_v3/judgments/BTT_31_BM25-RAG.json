@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_31",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states vehicles must stop when approaching a Police Officer from the front and rear, supported by Document 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states vehicles must stop when approaching a Police Officer from the front and rear, supported by Document 1 and 4.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}",
+      "input_tokens": 540,
+      "output_tokens": 192,
+      "seconds": 15.020924399999785,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

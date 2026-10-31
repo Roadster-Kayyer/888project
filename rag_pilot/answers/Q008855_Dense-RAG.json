@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008855",
+  "doc_id": "710",
+  "query_type": "hard",
+  "query": "What penalties can be imposed for improperly dividing inherited wealth among relatives?",
+  "corpus_query_index": 8854,
+  "system": "Dense-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 3]\nIllegal Subdivision of Agricultural Holdings:\nThe Tamil Nadu Land Reforms Act prohibits the subdivision of agricultural holdings without permission. The penalty can include a fine of up to ₹25,000 and/or imprisonment for up to 6 months.\n\n[Document 4]\nPunishment for Senior Citizen Pension Fraud:\nSenior citizen pension fraud is punishable under the IPC and the Maintenance and Welfare of Parents and Senior Citizens Act. Penalties include imprisonment up to 3 years and fines up to ₹5,000.\n\n[Document 5]\nMarriage Fraud Involving Foreigners:\nPunishment for marriage fraud involving foreigners in Tamil Nadu can include imprisonment up to 10 years and a fine under the IPC Section 494 (bigamy) and the Foreigners Act, 1946.",
+  "retrieved_doc_ids": [
+    "710",
+    "720",
+    "740",
+    "636",
+    "642"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d48863ad7dc0b05f1a9b978c66cc62cf4f705fb0854d7866dfc7e53e76d92403",
+  "answer": "Penalties for improperly dividing inherited wealth can vary but generally include civil suits, fines, and imprisonment. Under the Hindu Succession Act, civil suits and potential penalties may apply. For instance, under the Tamil Nadu Land Reforms Act, illegal subdivision of agricultural holdings can result in a fine up to ₹25,000 and/or up to 6 months' imprisonment. [Document 3]",
+  "input_tokens": 403,
+  "output_tokens": 82,
+  "seconds": 10.658388100000593,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

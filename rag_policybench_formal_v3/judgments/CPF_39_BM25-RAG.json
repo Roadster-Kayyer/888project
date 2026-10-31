@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_39",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the benefits of reduced TER caps and includes relevant information from Document 1, and correctly explains the voting process and FEDA's role from Documents 2 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the benefits of reduced TER caps and includes relevant information from Document 1, and correctly explains the voting process and FEDA's role from Documents 2 and 4.\",\n  \"evidence\": \"Document 1, Document 2, Document 4\"\n}",
+      "input_tokens": 1609,
+      "output_tokens": 108,
+      "seconds": 8.618513699999312,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

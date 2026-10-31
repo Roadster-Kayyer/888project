@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000835",
+  "doc_id": "1147",
+  "query_type": "hard",
+  "query": "What's the method to secure a clearance slip issued by a legal authority?",
+  "corpus_query_index": 834,
+  "system": "BM25-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nPolice Clearance Certificate:\nTo obtain a police clearance certificate in Tamil Nadu, apply at the District Police Office or Commissioner's Office with required documents (ID proof, address proof, etc.). Fill out the application form, pay the fee, and wait for verification. The certificate will be issued after clearance.\n\n[Document 2]\nPolice Clearance Certificate for Passport:\nTo apply for a police clearance certificate in Tamil Nadu, visit the local police station or commissioner's office with a filled application form, ID proof, address proof, and passport copy. Pay the required fee and submit the application. The certificate will be issued after verification.\n\n[Document 3]\nFiling a Legal Notice:\nTo file a legal notice, consult a lawyer to draft the notice. Submit the notice to the court or the relevant authority, along with the required fee and supporting documents. The court will then issue a notice to the respondent.\n\n[Document 4]\nPolice Clearance Certificates for Visa Purposes\nTo obtain a police clearance certificate, apply at the local police station or online through the Tamil Nadu Police website. Provide required documents, including a valid passport and proof of address. The certificate will be issued after verification.\n\n[Document 5]\nVictim Compensation:\nTo get compensation as a victim of crime, you can apply to the Tamil Nadu State Legal Services Authority or the District Legal Services Authority. You will need to provide a copy of the FIR, medical reports, and other relevant documents.",
+  "retrieved_doc_ids": [
+    "2046",
+    "2072",
+    "1043",
+    "1772",
+    "1120"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6261da1ae6cb913acf48dc0e7fa8b4e320718d5b9cc37fc289884f3ca43c8a68",
+  "answer": "The method to secure a clearance slip varies but generally involves applying at the local police station or through an online portal. Provide necessary documents like ID proof, address proof, and sometimes a passport. The process includes filling an application form, paying fees, and waiting for verification. [Document 1-4]",
+  "input_tokens": 417,
+  "output_tokens": 62,
+  "seconds": 7.6785335000004125,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

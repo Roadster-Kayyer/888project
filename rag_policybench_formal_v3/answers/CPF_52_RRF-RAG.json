@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_52",
+  "doc_id": "PB_18ed14021ef1cf64ad15",
+  "query_type": "CPF_111",
+  "query": "I used to declare my income to CPFB to determine my Workfare Income Supplement (WIS)/excess Contribute As You Earn (CAYE) contributions for the year. Why is CPFB no longer accepting income declarations?",
+  "reference_answer": "The Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File tax returns.SEPs will receive a Notice of Computation (NOC) from IRAS if they are required to make MediSave contributions, after IRAS has issued a Notice of Assessment for the relevant Year of Assessment.",
+  "corpus_query_index": 115,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nNo, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.\n\n[Document 2]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 5]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44",
+  "retrieved_doc_ids": [
+    "PB_25b3bc98a8dc2f9afd1c",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_af1247343974a8960a93",
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "75109b7ad283cddd861e689e7f2ff7e2b19f22df8eeb35891504ac55b1451edc",
+  "answer": "CPFB stopped accepting income declarations because CAYE estimates are now used instead. To calculate WIS, you must declare your actual Net Trade Income to IRAS/CPF Board. This ensures accurate WIS computation based on current year's income alone. [Document 1]",
+  "input_tokens": 622,
+  "output_tokens": 56,
+  "seconds": 7.123613299991121,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

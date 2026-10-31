@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000229",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists all essential documents and matches the reference information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists all essential documents and matches the reference information.\",\n  \"evidence\": \"[Document 4]\"\n}",
+      "input_tokens": 767,
+      "output_tokens": 192,
+      "seconds": 14.790045500001725,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

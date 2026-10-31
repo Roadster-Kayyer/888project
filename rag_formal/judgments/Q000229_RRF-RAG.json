@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000229",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists essential documents and aligns with the reference, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists essential documents and aligns with the reference, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 800,
+      "output_tokens": 192,
+      "seconds": 14.882192299999588,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

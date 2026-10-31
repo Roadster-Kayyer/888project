@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002960",
+  "doc_id": "1530",
+  "query_type": "hard",
+  "query": "What methods should authorities employ in case of riots or civil disturbances?",
+  "corpus_query_index": 2959,
+  "system": "BM25-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 3]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 4]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 5]\nLegal Consequences for Causing Minor Public Disturbances:\nCausing minor public disturbances can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month under the Tamil Nadu Police Act, 1859.",
+  "retrieved_doc_ids": [
+    "1530",
+    "1534",
+    "106",
+    "1037",
+    "515"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ad6def4ac59d4ef3550a85f5ed1f5454f6265d55408b3f3d60ec819747fa3ee3",
+  "answer": "Authorities should deploy riot control police units, use non-lethal measures, restore law and order, and protect life and property during riots. For prison riots, alert nearby police and coordinate with prison authorities. [Document 1] & [Document 2]",
+  "input_tokens": 437,
+  "output_tokens": 52,
+  "seconds": 6.609478799999124,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

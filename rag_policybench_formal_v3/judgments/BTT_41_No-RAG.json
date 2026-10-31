@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_41",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer is incorrect and does not match the reference fact."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": 0,\n  \"reason\": \"The candidate's answer is incorrect and does not match the reference fact.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the evidence is null because the candidate's answer does not contain any factual information to support its claim, and the correctness is rated as 0 because the answer is factually incorrect according to the reference.",
+      "input_tokens": 347,
+      "output_tokens": 114,
+      "seconds": 8.737921299994923,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

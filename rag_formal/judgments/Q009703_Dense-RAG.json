@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009703",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the Tamil Nadu Police Emergency Number, which is supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate contact details for the Pink Police Patrol and instructions for reaching All Women Police Stations, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 837,
+      "output_tokens": 192,
+      "seconds": 15.155403199998545,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the Tamil Nadu Police Emergency Number, which is supported by the retrieved evidence.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate answer includes all substantive factual claims (the helpline numbers and the mention of the Tamil Nadu Police Emergency Number) that are supported by the evidence provided in the documents. There are no unsupported or contradicted claims in the candidate answer.",
+      "input_tokens": 877,
+      "output_tokens": 135,
+      "seconds": 10.540497000001778,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

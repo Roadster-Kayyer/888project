@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002127",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies measures used by law enforcement to address forest rights infringements and references relevant documents, but lacks specific examples of direct community interactions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies measures used by law enforcement to address forest rights infringements and references relevant documents, but lacks specific examples of direct community interactions.\",\n  \"evidence\": \"[Document 1], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 14.661942400001863,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010350",
+  "doc_id": "980",
+  "query_type": "hard",
+  "query": "How can I inform authorities about misused municipal vehicles?",
+  "corpus_query_index": 10349,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nUnclaimed Vehicles:\nTo find information about unclaimed vehicles, visit the Tamil Nadu Police Department's website or contact your local police station. They will guide you through the process of searching for unclaimed vehicles and provide necessary details.\n\n[Document 2]\nFiling Complaint about Unauthorized Parking Zones:\nTo file a complaint about unauthorized parking zones, contact your local police station or municipal corporation. Provide details such as location and any relevant evidence (e.g., photos). You can also dial 100 for assistance.\n\n[Document 3]\nReporting Misuse of VIP Vehicles:\nTo report misuse of VIP vehicles, dial 100 or contact the local police station. Provide the vehicle's registration number and details of the misuse. You can also report anonymously.\n\n[Document 4]\nReporting Abandoned Vehicles:\nTo report abandoned vehicles, contact your local police station or call the helpline (100). Provide the vehicle's location and description. The police will verify and take necessary action.\n\n[Document 5]\nReporting Illegal Modifications to Vehicles:\nTo report illegal modifications to vehicles, contact the Regional Transport Office (RTO) or the local police station. Provide the vehicle's registration number and details of the modifications. You can also dial 100 for assistance.",
+  "retrieved_doc_ids": [
+    "333",
+    "975",
+    "977",
+    "172",
+    "978"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b9dab2936117d0c9e1c58a1b3e5fae5e6ba1dafd9a873af64c03572ab6343275",
+  "answer": "For misused municipal vehicles, contact your local police station or municipal corporation. Provide the vehicle's registration number and details of misuse. You can also call 100 for help. [Document 3]",
+  "input_tokens": 376,
+  "output_tokens": 43,
+  "seconds": 5.896943100000499,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

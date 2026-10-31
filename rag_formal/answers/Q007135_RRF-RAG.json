@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007135",
+  "doc_id": "400",
+  "query_type": "hard",
+  "query": "What's the procedure for submitting a dispute to a BDO?",
+  "corpus_query_index": 7134,
+  "system": "RRF-RAG",
+  "reference_answer": "Complaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).",
+  "context": "[Document 1]\nComplaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).\n\n[Document 2]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 3]\nComplaint against a Village Panchayat Secretary:\nTo complain, contact the Block Development Officer (BDO) or the District Collector's office. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 4]\nFiling an Industrial Dispute:\nTo file an industrial dispute, submit a written application to the Labor Commissioner or the Conciliation Officer, stating the nature of the dispute and the relief sought. The application should be signed by the worker or the union representative.\n\n[Document 5]\nFiling a Property Dispute Case:\nTo file a property dispute case in Tamil Nadu, follow these steps:\n1. Gather documents: Collect relevant documents, such as property deeds and witness statements.\n2. Approach the police: File a complaint at the local police station.\n3. Court proceedings: The case will be forwarded to the court, where a judge will hear the dispute.",
+  "retrieved_doc_ids": [
+    "400",
+    "78",
+    "405",
+    "1094",
+    "1826"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1c7c84c27386252a47322af1cb47a367d849d3e4a7d719e8dbefc0c6232ad464",
+  "answer": "For a property dispute against a BDO, [Document 1] states to visit your local police station, provide details, and submit a written complaint with supporting documents like property deeds and witness statements. The police will guide further. [Document 3] confirms this process. [1]",
+  "input_tokens": 444,
+  "output_tokens": 59,
+  "seconds": 7.956282300001476,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

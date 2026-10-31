@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_14",
+  "doc_id": "PB_3e1f1f7b75f5e180073d",
+  "query_type": "medishield",
+  "query": "What is the payment method allowed for premiums of additional private insurance coverage when you buy an Integrated Shield Plan (IP)?",
+  "reference_answer": "You can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).",
+  "corpus_query_index": 308,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 2]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 3]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.\n\n[Document 4]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 5]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.",
+  "retrieved_doc_ids": [
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_92b9ca8b9a7a3195d282",
+    "PB_70b5d47d6063963e4051",
+    "PB_c843ce7aefae882d4bbe"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b4f5c8b5424e62d1b89a2a9a98d48e8157e105d3774eea4b140d8c19912bcc85",
+  "answer": "MediSave can be used to pay the premium for the additional private insurance coverage component up to AWLs. Other methods include paying using cash, changing payment frequency, reducing sum assured, or converting the policy to a paid-up policy. Policy loans are not allowed. [Document 1]",
+  "input_tokens": 567,
+  "output_tokens": 60,
+  "seconds": 8.00654719999875,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_49",
+  "doc_id": "PB_dfb47de04d492b3b972f",
+  "query_type": "CPF_111",
+  "query": "Can I top-up my CPF Investment Account under CPF Investment Scheme-Ordinary Account with cash if I do not have sufficient CPF savings for investment?",
+  "reference_answer": "Cash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.",
+  "corpus_query_index": 111,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 2]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 3]\nCash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.\n\n[Document 4]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 5]\nYou will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.",
+  "retrieved_doc_ids": [
+    "PB_dfb47de04d492b3b972f",
+    "PB_194e6b030eea394ac1a9",
+    "PB_15679d0d69b1e1e17f1d",
+    "PB_55387403dc004065b043",
+    "PB_c8a0224d2eb26ce19db5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fb779e89374a1ae9418e04c41efcec81a83ab1358f01bae863420d99e82fb28e",
+  "answer": "No, you cannot top-up your CPF Investment Account under CPF Investment Scheme-Ordinary Account with cash if you don't have sufficient CPF savings. Cash top-ups are only allowed for taking up entitlements or converting them, and they are non-withdrawable. [Document 1]",
+  "input_tokens": 643,
+  "output_tokens": 57,
+  "seconds": 7.354508300006273,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

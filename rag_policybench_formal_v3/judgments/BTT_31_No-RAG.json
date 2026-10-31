@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_31",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks direct evidence; it includes additional instructions not present in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but lacks direct evidence; it includes additional instructions not present in the reference.\",\n  \"evidence\": null\n}\n\n\nIn this case, the candidate answer is correct in stating that vehicles must stop, which aligns with the reference. However, the reference does not mention slowing down, activating hazard lights, or pulling over upon order, which are additional instructions provided in the candidate answer. Since there is no evidence provided to support the candidate's additional instructions, the faithfulness score is null. The relevance score is 1 because the candidate answer does address the main reference fact, but it includes more than what is directly stated in the reference.",
+      "input_tokens": 341,
+      "output_tokens": 181,
+      "seconds": 14.324354700002004,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

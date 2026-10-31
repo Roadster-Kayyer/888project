@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007135",
+  "doc_id": "400",
+  "query_type": "hard",
+  "query": "What's the procedure for submitting a dispute to a BDO?",
+  "corpus_query_index": 7134,
+  "system": "BM25-RAG",
+  "reference_answer": "Complaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).",
+  "context": "[Document 1]\nComplaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).\n\n[Document 2]\nPolice Verification for Government Contractors:\nThe procedure involves submitting an application to the local police station with required documents, including a contract copy and ID proof. The police will then conduct a background check and issue a verification report.\n\n[Document 3]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 4]\nComplaint against a Village Panchayat Secretary:\nTo complain, contact the Block Development Officer (BDO) or the District Collector's office. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 5]\nFiling a Property Dispute Case:\nTo file a property dispute case in Tamil Nadu, follow these steps:\n1. Gather documents: Collect relevant documents, such as property deeds and witness statements.\n2. Approach the police: File a complaint at the local police station.\n3. Court proceedings: The case will be forwarded to the court, where a judge will hear the dispute.",
+  "retrieved_doc_ids": [
+    "400",
+    "217",
+    "106",
+    "405",
+    "1826"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "585f4f4cd794f9f5ed93f992ed98f7d339275c5678a34b9999add8277b5b9737",
+  "answer": "According to [Document 1], to submit a dispute against a BDO, contact the District Collector's office, local Tahsildar office, RDO, or DRO. [Document 4] confirms this, stating you can also complain to the BDO or District Collector's office, or file online. [Document 1] specifically mentions contacting these offices. [Document 5] provides additional steps but doesn't address the specific procedure for BDO disputes.",
+  "input_tokens": 445,
+  "output_tokens": 96,
+  "seconds": 12.3610220999999,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

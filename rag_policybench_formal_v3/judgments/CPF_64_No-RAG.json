@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_64",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "The candidate answer correctly states that withdrawals are not allowed, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"The candidate answer correctly states that withdrawals are not allowed, but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided answer, the candidate correctly addresses the question about the inability to withdraw top-up monies once the Full Retirement Sum or Basic Retirement Sum is attained. However, the answer does not directly quote or paraphrase the reference, which would have been necessary for a full score in faithfulness. The absence of evidence is noted, but the candidate does not abstain from making a substantive claim, which is why the faithfulness score is not 0. The reason succinctly explains the scores given.",
+      "input_tokens": 422,
+      "output_tokens": 183,
+      "seconds": 14.024708800003282,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_39",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is partially correct but omits the requirement of inserting a cash card for ERP payments in tunnels."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is partially correct but omits the requirement of inserting a cash card for ERP payments in tunnels.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it addresses the topic of ERP payments in the context of driving, but it is not entirely correct because it fails to mention the specific action drivers must take (inserting a cash card) when driving in tunnels. The faithfulness score is null because the candidate's answer does not contain any substantive factual claims that can be directly supported or contradicted by the supplied evidence, which in this case is absent. The reason succinctly explains the scores, noting the omission of a key",
+      "input_tokens": 359,
+      "output_tokens": 192,
+      "seconds": 14.680691000001389,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001342",
+  "doc_id": "124",
+  "query_type": "formal",
+  "query": "What legislation governs narcotic drug production and supply, and which crimes does it encompass?",
+  "corpus_query_index": 1341,
+  "system": "BM25-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nOperation TASHA:\nOperation TASHA (Tamil Nadu Anti-Drug Special Action) is a crackdown on drug trafficking and peddling by the Tamil Nadu Police. It aims to identify and arrest those involved in drug-related crimes and create a drug-free environment in the state.\n\n[Document 2]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 3]\nSmoking in Prohibited Public Areas:\nSmoking in prohibited public areas in Tamil Nadu can lead to a fine of up to ₹200 under the Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act.\n\n[Document 4]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 5]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.",
+  "retrieved_doc_ids": [
+    "134",
+    "124",
+    "500",
+    "129",
+    "122"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3bcafd6375a504fbbf548b2607d8b8ba4af3bb93a4674f2840256e57f32f277",
+  "answer": "The NDPS Act governs narcotic drug production and supply, encompassing offenses like possession, sale, purchase, and manufacture of banned substances. [Document 1] and [Document 2] provide details. However, specific crimes it encompasses are not detailed here. [Document 3] and [Document 4] discuss its application, while [Document 5] outlines penalties.",
+  "input_tokens": 459,
+  "output_tokens": 79,
+  "seconds": 10.727802699999302,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_22",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses the processing time for Singapore PR applications, which is directly related to the question. However, it is only partly correct because it does not provide specific evidence from the reference material, which would have been necessary to fully support the claim. The reference indicates that processing times can vary and may take more than six months for complex cases, but the candidate's answer does not directly quote or reference this information. Therefore, the faithfulness score is null due to the absence of substantive factual claims supported by the provided evidence. The reason succinctly explains the scores",
+      "input_tokens": 442,
+      "output_tokens": 192,
+      "seconds": 13.825066000004881,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004013",
+  "doc_id": "1720",
+  "query_type": "casual",
+  "query": "So what can you do if the cops did something wrong?",
+  "corpus_query_index": 4012,
+  "system": "Dense-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nQuestion 2: Case Closure\nIf the police close your case due to lack of evidence, you can:\n* Request a review of the case\n* File a complaint with a higher authority, such as the Superintendent of Police\n* Consult a lawyer for further guidance\n\n[Document 4]\nFIR not accepted:\nIf your FIR is not accepted, you can approach a senior police officer or the Superintendent of Police. You can also file a complaint with the magistrate under Section 156(3) of the CrPC, who can direct the police to register the FIR.\n\n[Document 5]\nFiling Police Complaints as a Foreigner:\nTo file a complaint, foreigners should:\n* Visit the nearest police station\n* Provide passport and visa details\n* Explain the incident in detail\n* Submit a written complaint, if possible, with the help of an interpreter, if needed",
+  "retrieved_doc_ids": [
+    "35",
+    "253",
+    "67",
+    "273",
+    "1770"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f15d68a5ce9da4b5f4503bf0fba4d2fe5c107bc2b66c5acae69530937b089092",
+  "answer": "If you witness police brutality, stay safe, document the incident, and report it to a senior officer or the Tamil Nadu Police Complaint Authority. For other issues, ask to speak to a senior officer, file a complaint with the Superintendent of Police, or consult a lawyer. [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 60,
+  "seconds": 7.7701655000000756,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

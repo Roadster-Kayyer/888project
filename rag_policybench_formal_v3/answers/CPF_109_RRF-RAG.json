@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_109",
+  "doc_id": "PB_56c2efe6aef990703447",
+  "query_type": "CPF_111",
+  "query": "Why am I not allowed to do a CPF transfer to my extended family members (e.g. uncles/aunts/cousins)?",
+  "reference_answer": "The CPF system is meant to provide for and safeguard your individual retirement adequacy. Hence we must be careful when considering allowing CPF transfers to extended family members, beyond immediate family members such as your parents, spouse and siblings. Meanwhile, you can consider using cash to top up to your extended family member's CPF account instead.",
+  "corpus_query_index": 67,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe CPF system is meant to provide for and safeguard your individual retirement adequacy. Hence we must be careful when considering allowing CPF transfers to extended family members, beyond immediate family members such as your parents, spouse and siblings. Meanwhile, you can consider using cash to top up to your extended family member's CPF account instead.\n\n[Document 2]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 3]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 4]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_56c2efe6aef990703447",
+    "PB_dfb47de04d492b3b972f",
+    "PB_0b2919dbf107215d276f",
+    "PB_32f2b09e4d17d1cf6a68",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c29152d010d0df4e872bad57851c32bfa3d683f37467bdb3a2d124dc2876f73c",
+  "answer": "You are not allowed to transfer CPF funds to extended family members like uncles, aunts, or cousins. Only immediate family members can receive transfers. Instead, you can use cash to top up their CPF accounts. [Document 1]",
+  "input_tokens": 814,
+  "output_tokens": 49,
+  "seconds": 6.790082599996822,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

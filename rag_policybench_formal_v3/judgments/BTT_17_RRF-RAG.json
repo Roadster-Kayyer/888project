@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_17",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 3.\",\n  \"evidence\": \"Document 3: Give way to vehicles from the side road entering the main road.\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully faithful to the evidence provided in the reference documents. The answer specifically mentions the action of giving way to vehicles from the side road, which is a crucial step before pulling out to pass another vehicle, as indicated in Document 3. The evidence directly supports the factual claim made in the candidate answer, and there are no unsupported or contradicted claims. The reason succinctly explains the scores.",
+      "input_tokens": 596,
+      "output_tokens": 175,
+      "seconds": 13.850101499992888,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

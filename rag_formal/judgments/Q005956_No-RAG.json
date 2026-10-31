@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005956",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate answer partially addresses the question but omits specific details about checking the Vehicle Inspection Report (VIR) and the Transport Department’s website, and lacks evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"The candidate answer partially addresses the question but omits specific details about checking the Vehicle Inspection Report (VIR) and the Transport Department’s website, and lacks evidence.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct as it suggests checking the Vehicle Registration Certificate (RC) and the Vehicle Inspection Report (VIR), which are relevant steps in verifying a vehicle's status. However, it does not fully cover the main reference facts, such as the importance of matching the Vehicle Identification Number (VIN) with records at the Transport Department's website or visiting the nearest transport office, nor does it mention the use of",
+      "input_tokens": 452,
+      "output_tokens": 192,
+      "seconds": 14.652527099999133,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

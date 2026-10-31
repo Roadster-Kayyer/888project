@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008910",
+  "doc_id": "720",
+  "query_type": "hard",
+  "query": "What repercussions occur when the same real estate is filed with multiple authorities?",
+  "corpus_query_index": 8909,
+  "system": "Dense-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nReal Estate Title Fraud:\nThe legal consequences for real estate title fraud in Tamil Nadu include imprisonment up to 7 years and a fine under the Indian Penal Code (IPC) Section 420.\n\n[Document 2]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.\n\n[Document 3]\nEncroaching Common Areas:\nEncroaching common areas in apartment complexes can lead to legal consequences under the Tamil Nadu Apartment Ownership Act, 1994. The penalty may include a fine and/or eviction from the premises, as well as restoration of the encroached area.\n\n[Document 4]\nFiling a Complaint about Real Estate Fraud:\nTo file a complaint, visit the nearest police station and submit a written complaint with supporting documents. You can also contact the Tamil Nadu Police's Economic Offences Wing (EOW) for guidance.\n\n[Document 5]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "retrieved_doc_ids": [
+    "640",
+    "714",
+    "722",
+    "192",
+    "710"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a3acb30729d63b15a30a60a1585c3390aefbd76824007f6448e122a2465b0c43",
+  "answer": "When the same real estate is filed with multiple authorities, it can lead to legal consequences such as imprisonment up to 7 years and a fine under the IPC for real estate title fraud [Document 1], or penalties like fines and eviction under the Tamil Nadu Apartment Ownership Act for encroaching common areas [Document 3]. Additionally, filing a complaint can result in civil suits and potential penalties under the Hindu Succession Act [Document 5]. [Document 1-5]",
+  "input_tokens": 381,
+  "output_tokens": 97,
+  "seconds": 12.271489400001883,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

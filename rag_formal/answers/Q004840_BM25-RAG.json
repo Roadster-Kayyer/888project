@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004840",
+  "doc_id": "187",
+  "query_type": "hard",
+  "query": "How can someone formally accuse banks of negligence for bounced checks?",
+  "corpus_query_index": 4839,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.\n\n[Document 2]\nCausing Death by Negligence:\nCausing death by negligence is punishable under Section 304A IPC, with imprisonment for up to 2 years and/or a fine.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\nPolice Recruitment Board Selection Process:\nThe Police Recruitment Board conducts selection processes through:\n* Written examinations\n* Physical fitness tests\n* Interviews and assessments\n* Verification of documents and background checks",
+  "retrieved_doc_ids": [
+    "958",
+    "663",
+    "849",
+    "46",
+    "1581"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0ae9cd5aa34e71cb422fb39abab3c21dd6fbab3021116ca46463c7df207348cb",
+  "answer": "Someone formally accusing banks of negligence for bounced checks would need to follow a similar process to reporting medical negligence. Visit the nearest police station and file a complaint. Provide details like the bank's name, date, and specifics of the negligence leading to the bounced check. For official channels, contact the relevant financial regulatory body or seek legal advice. [Document 1]",
+  "input_tokens": 368,
+  "output_tokens": 73,
+  "seconds": 9.336668899999495,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

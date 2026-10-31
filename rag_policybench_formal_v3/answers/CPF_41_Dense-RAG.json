@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_41",
+  "doc_id": "PB_08b75e19b1641a8a3c64",
+  "query_type": "CPF_111",
+  "query": "What are the different evaluation factors for admission into CPF Investment Scheme (CPFIS) under the old and new entry criteria?",
+  "reference_answer": "New funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.",
+  "corpus_query_index": 103,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 2]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 3]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 4]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 5]\nOpting in is a concession given to help you increase your CPF contributions. By doing so, you will receive higher overall income, considering the contributions from platform operators. Staying committed to the CPF contributions will also ensure that your CPF savings will accumulate interest over time, thereby building up your housing and retirement adequacy in the long run.Allowing opt-outs will not help build up your housing and retirement adequacy in the long run. It is also not practical for platform operators to track the status of workers and apply the different rates of CPF contributions if workers opt in and out multiple times. This may incur additional business costs for platform operators and make implementation more complicated overall.As there is no deadline to opt in, you can carefully consider your decision based on your personal circumstances, before opting in to increase your CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_08b75e19b1641a8a3c64",
+    "PB_18205d295d37e73b6d4f",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_55387403dc004065b043",
+    "PB_81b9779fe183d60a2ff6"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "21d1b4d775d5e10aa7502fc4dcbdcd90df9a8c805bce634d716e1e73cbec8d50",
+  "answer": "Under the old criteria, CPFIS funds were evaluated based on past performance and other investment process aspects. Under the new criteria, funds must meet a higher benchmark, have an expense ratio at the median, and have at least 3 years of track record. [Document 1]",
+  "input_tokens": 864,
+  "output_tokens": 57,
+  "seconds": 7.584197200005292,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003279",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the preservation of police history through artifacts, documents, and equipment, and references the use of a Police Documentation Center, consistent with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the role of the Police Academy Museum in preserving police history, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 714,
+      "output_tokens": 73,
+      "seconds": 5.918658399998094,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the preservation of police history through artifacts, documents, and equipment, and references the use of a Police Documentation Center, consistent with the evidence provided.\"}",
+      "input_tokens": 754,
+      "output_tokens": 64,
+      "seconds": 5.182608200000686,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

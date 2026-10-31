@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000905",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the moment of criminal action as the point of accountability, supported by documents detailing specific crimes and penalties, aligning with the reference on age of criminal responsibility and police accountability."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the moment of criminal action as the point of accountability, supported by documents detailing specific crimes and penalties, aligning with the reference on age of criminal responsibility and police accountability.\"\n}\n\n\nIn the provided scenario, the candidate's answer directly addresses the question about the chronological juncture of criminal accountability in India, which is upon the commission of criminal actions. The answer is relevant as it refers to the specifics of criminal actions and their corresponding penalties as outlined in the Indian Penal Code (IPC), which is directly related to the reference provided. The faithfulness of the answer is high because it is substantiated by the evidence from Document 2 and Document",
+      "input_tokens": 846,
+      "output_tokens": 192,
+      "seconds": 15.172066600000107,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

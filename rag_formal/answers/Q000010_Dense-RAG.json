@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000010",
+  "doc_id": "1",
+  "query_type": "hard",
+  "query": "Where can I submit an electronic report in Tamil Nadu?",
+  "corpus_query_index": 9,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nReporting Online Fraud:\nTo report online fraud in Tamil Nadu:\n1. Visit the Tamil Nadu Police website (tnpolice.gov.in).\n2. Click on \"Cyber Crime\" and fill the complaint form.\n3. Alternatively, visit your local cyber crime cell or police station.\n\n[Document 2]\nSubmitting Electronic Evidence:\nTo submit electronic evidence in Tamil Nadu courts, follow these steps:\n1. Ensure the evidence is in a readable format.\n2. Verify the evidence with a digital signature or affidavit.\n3. Submit it to the court through a CD/DVD or USB drive, as per court instructions.\n\n[Document 3]\nReporting a Cybercrime in Tamil Nadu:\nTo report a cybercrime, visit the Tamil Nadu Police Cyber Crime Cell website or call 1930 (Cyber Crime Helpline). You can also file a complaint at your local police station.\n\n[Document 4]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 5]\nReporting Cyber Security Incidents:\nTo report cyber security incidents in Tamil Nadu, contact the Tamil Nadu Cyber Crime Police at 1930 (toll-free) or visit the nearest police station. You can also file a complaint online through the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "875",
+    "1138",
+    "60",
+    "796",
+    "2044"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b698ed706348b94973ed203073f99d7cab996de969d14c9b2b7eea745572e459",
+  "answer": "You can submit an electronic report in Tamil Nadu by visiting the Tamil Nadu Police website (tnpolice.gov.in), filing an e-FIR online, or using the National Cyber Crime Reporting Portal. [Document 4]",
+  "input_tokens": 407,
+  "output_tokens": 45,
+  "seconds": 5.899701600000299,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2052.3857421875
+}

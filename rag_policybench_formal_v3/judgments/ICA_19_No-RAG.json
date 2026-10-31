@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_19",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is relevant as it advises the next steps after an unsuccessful application, but it does not directly reference the specific instructions from the original reference, which would have been necessary for a higher faithfulness score. The evidence key is null because the candidate answer does not contain direct evidence from the provided reference text.",
+      "input_tokens": 453,
+      "output_tokens": 132,
+      "seconds": 9.652888700002222,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

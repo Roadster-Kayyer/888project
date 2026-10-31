@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002725",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but omits specific eligibility criteria and application process details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but omits specific eligibility criteria and application process details.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it mentions the need to be a Tamil Nadu resident and pass a physical fitness test, which are related to the prerequisites for the position. However, it fails to directly address the eligibility criteria and the application process as outlined in the reference, which includes visiting the TNUSRB website, meeting specific eligibility criteria, and filling out an online application. The faithfulness score is null because there is no substantive factual claim in the candidate's answer that can be directly supported or contradicted by the supplied evidence. The",
+      "input_tokens": 413,
+      "output_tokens": 192,
+      "seconds": 14.665491799998563,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

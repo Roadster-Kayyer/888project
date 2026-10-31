@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_127",
+  "doc_id": "PB_19512072066023768385",
+  "query_type": "ICA_134",
+  "query": "Will I lose my Singapore citizenship if I live overseas?",
+  "reference_answer": "Under Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.",
+  "corpus_query_index": 199,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 5]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+  "retrieved_doc_ids": [
+    "PB_89ea36a5df1396fbeefe",
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_bb4198b52a9a38049310"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "50037f3b597f86e352105676c21a376c7628b052acd84639bd862361aa7a6131",
+  "answer": "If you leave Singapore without a valid Re-Entry Permit (REP), you will lose your Singapore Permanent Resident (PR) status. [Document 4]",
+  "input_tokens": 822,
+  "output_tokens": 32,
+  "seconds": 4.258406000008108,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

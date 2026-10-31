@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006487",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 3 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 3 and 4.\",\n  \"evidence\": \"[Document 3], [Document 4]\"\n}",
+      "input_tokens": 786,
+      "output_tokens": 192,
+      "seconds": 14.810045299993362,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

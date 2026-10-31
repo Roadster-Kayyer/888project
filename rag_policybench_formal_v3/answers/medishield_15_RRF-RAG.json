@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_15",
+  "doc_id": "PB_dc6b2f15d67990c938d5",
+  "query_type": "medishield",
+  "query": "From which date will examples of MediShield Life premiums computation be provided without Phased Support?",
+  "reference_answer": "1 April 2027",
+  "corpus_query_index": 309,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 3]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 4]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 5]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_d600f5b60cee68821fae",
+    "PB_eacf65b60e2998442b5a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "edc8c1be1b3edd5c3b45a25fa2ac04e9ba9649c5b72f644c1ffe0819e914e98d",
+  "answer": "[Document 1] provides that examples of MediShield Life premiums computation will be provided without Phased Support from 2026 onwards. [Document 5] states the information is up to date as of 1 April 2025, indicating this change occurred after that date.",
+  "input_tokens": 324,
+  "output_tokens": 61,
+  "seconds": 7.828708299988648,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

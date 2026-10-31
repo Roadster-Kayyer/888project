@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_52",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately explains the transition from CPFB to IRAS for income declarations and the necessity of actual NTI declaration for WIS calculation, supported by retrieved documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately explains the transition from CPFB to IRAS for income declarations and the necessity of actual NTI declaration for WIS calculation, supported by retrieved documents.\"\n}",
+      "input_tokens": 1253,
+      "output_tokens": 192,
+      "seconds": 14.689168800003245,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

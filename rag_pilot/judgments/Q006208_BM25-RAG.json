@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006208",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the operations of the Prohibition Enforcement Wing and is supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes PEW operations and is supported by documents 1, 2, and 3.\",\n}",
+      "input_tokens": 837,
+      "output_tokens": 66,
+      "seconds": 5.399858400000085,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the operations of the Prohibition Enforcement Wing and is supported by the provided documents.\"}",
+      "input_tokens": 877,
+      "output_tokens": 50,
+      "seconds": 4.165533999999752,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

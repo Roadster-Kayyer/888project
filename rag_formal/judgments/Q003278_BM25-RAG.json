@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003278",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses museum safety by referencing relevant security measures and aligns with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses museum safety by referencing relevant security measures and aligns with evidence from Document 1.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 4]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly identifies the role of the Police Heritage Museum in preserving police history, and aligns with the evidence provided in Document 1 about maintaining a safe distance from suspicious items, which can be analogous to handling exhibits in the museum. The answer also implicitly suggests following instructions from authorities, which is a common safety measure in museums, although this is not explicitly stated in the evidence documents. The faithfulness score is 2 because the candidate's answer is",
+      "input_tokens": 783,
+      "output_tokens": 192,
+      "seconds": 14.93933670000115,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007134",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing specific offices to contact for filing a complaint against a BDO."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing specific offices to contact for filing a complaint against a BDO.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifies the offices to contact for filing a complaint against a BDO, and is supported by the evidence provided in Document 1. The answer is comprehensive and aligns with the information given in the reference, thus earning a high score in all categories.",
+      "input_tokens": 799,
+      "output_tokens": 149,
+      "seconds": 11.83608059999824,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

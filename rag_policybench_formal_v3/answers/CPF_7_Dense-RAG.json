@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_7",
+  "doc_id": "PB_5524a72cc3bbbca92a03",
+  "query_type": "CPF_111",
+  "query": "Why are my discounted Singtel shares not reflected in my Central Depository (CDP) statement?",
+  "reference_answer": "Your discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.",
+  "corpus_query_index": 134,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 4]\nYou will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.\n\n[Document 5]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.",
+  "retrieved_doc_ids": [
+    "PB_5524a72cc3bbbca92a03",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_10b7557459105ffc6c3e",
+    "PB_c8a0224d2eb26ce19db5",
+    "PB_af7358262394319e226a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "26e3609aae80023579aaef66b2444e09cb4321dbfe5787145a9370cae508f752",
+  "answer": "Your discounted Singtel shares might not be reflected in your CDP statement because you need to meet CPF withdrawal conditions, specifically setting aside the Full Retirement Sum (FRS) in your Retirement Account by age 55. [Document 1]",
+  "input_tokens": 790,
+  "output_tokens": 50,
+  "seconds": 6.7359780999977374,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

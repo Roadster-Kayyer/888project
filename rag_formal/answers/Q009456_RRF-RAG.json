@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009456",
+  "doc_id": "82",
+  "query_type": "original",
+  "query": "What kind of cases are handled by All Women Police Stations?",
+  "corpus_query_index": 9455,
+  "system": "RRF-RAG",
+  "reference_answer": "Cases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.",
+  "context": "[Document 1]\nCases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.\n\n[Document 2]\nLocation of All Women Police Stations:\nAll Women Police Stations are located in all districts of Tamil Nadu, with a total of 199 stations. They can be found in major cities and towns, including Chennai, Coimbatore, Madurai, and Trichy.\n\n[Document 3]\nFemale Officers Availability\nFemale officers are available at all-women police stations (Mahila Police Stations) and some regular police stations, but not all regular stations have female officers available 24/7.\n\n[Document 4]\nMen approaching All Women Police Stations:\nYes, men can approach All Women Police Stations with complaints related to crimes against women, such as reporting a crime against a female family member or friend. However, for other general complaints, men are advised to approach regular police stations.\n\n[Document 5]\nRole of All Women Police Stations (AWPS):\nAll Women Police Stations (AWPS) in Tamil Nadu are dedicated to handling crimes against women and children. They provide a safe and supportive environment for victims to report crimes, such as domestic violence, harassment, and abuse. AWPS are staffed by female police officers and provide counseling, medical, and legal support to victims.",
+  "retrieved_doc_ids": [
+    "82",
+    "81",
+    "93",
+    "83",
+    "80"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "014b01af21b03c3f06494c1c754017e5282b08e0e86afc26725f4709830bb618",
+  "answer": "All Women Police Stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women. [Document 1] Men can also report crimes against women here, but for other complaints, they should go to regular police stations. [Document 5]",
+  "input_tokens": 400,
+  "output_tokens": 59,
+  "seconds": 7.380366400000639,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

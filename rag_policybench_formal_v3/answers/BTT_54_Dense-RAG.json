@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_54",
+  "doc_id": "PB_2858faae83bda4331fb6",
+  "query_type": "BTT",
+  "query": "What does the 'Two-way traffic ahead' sign instruct drivers to do?",
+  "reference_answer": "Slow down, keep left, and beware of oncoming traffic.",
+  "corpus_query_index": 50,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt indicates that a motorist can drive on ahead.\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 5]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "retrieved_doc_ids": [
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_619765030c2c1f6e27b8",
+    "PB_786ca90f3ae19fb193e3",
+    "PB_15b5d9c0851609d354e4"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ba9830974d52777be71fefb22c03d9d0bc5d134ae89bc8a49994a3a426542b21",
+  "answer": "The 'Two-way traffic ahead' sign instructs drivers to use both lanes and can proceed straight ahead or make a right turn [Document 5].",
+  "input_tokens": 227,
+  "output_tokens": 31,
+  "seconds": 4.078461600001901,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

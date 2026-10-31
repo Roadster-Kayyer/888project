@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003519",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Candidate answer indirectly suggests plausible adjustments but does not directly reference the provided evidence.\"\n}",
+      "input_tokens": 426,
+      "output_tokens": 81,
+      "seconds": 6.281717400001071,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

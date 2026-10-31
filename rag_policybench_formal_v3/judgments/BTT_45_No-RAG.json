@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_45",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, although the retrieved evidence is not explicitly mentioned."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, although the retrieved evidence is not explicitly mentioned.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, the \"Document 1\" would be a specific reference that the candidate's answer is supposed to be based on. Since the instruction specifies not to use the reference or own knowledge, the evidence is assumed to be part of the candidate's answer. In practice, the evidence would need to be explicitly cited from the document.)",
+      "input_tokens": 361,
+      "output_tokens": 156,
+      "seconds": 11.929865500002052,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

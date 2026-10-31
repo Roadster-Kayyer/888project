@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_90",
+  "doc_id": "PB_f79fde53917b7a3dd93a",
+  "query_type": "CPF_111",
+  "query": "I am a Board Member/ Director. Am I considered a self-employed person, and do I have to contribute to my CPF?",
+  "reference_answer": "It depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "corpus_query_index": 157,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 2]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 3]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 4]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 5]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "retrieved_doc_ids": [
+    "PB_f79fde53917b7a3dd93a",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_68186a4dadd329687464"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9243cdcd500ab60aa3deff336e76fe27d8368634fa73098dbde0813527b3a9c7",
+  "answer": "Yes, as a Board Member/ Director under a contract of employment, you are considered an employee and must contribute to CPF. However, if you're engaged in providing services as a self-employed person, you contribute to MediSave instead. [Document 1]",
+  "input_tokens": 734,
+  "output_tokens": 53,
+  "seconds": 7.113783199994941,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

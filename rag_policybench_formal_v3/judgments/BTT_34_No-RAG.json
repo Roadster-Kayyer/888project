@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_34",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference, which states red-marked parking lots are for Season Parking Ticket Holders, not for visitors with disabilities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer is incorrect and unrelated to the reference, which states red parking lots are for Season Ticket Holders, not for visitors with disabilities.\",\n}",
+      "input_tokens": 361,
+      "output_tokens": 74,
+      "seconds": 5.831377800001064,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer does not align with the reference, which states red-marked parking lots are for Season Parking Ticket Holders, not for visitors with disabilities.\"}",
+      "input_tokens": 401,
+      "output_tokens": 61,
+      "seconds": 4.922468200005824,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

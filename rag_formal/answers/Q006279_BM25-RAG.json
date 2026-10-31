@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006279",
+  "doc_id": "247",
+  "query_type": "search",
+  "query": "What strategies does the Tamil Nadu Police use to manage crowds during festivals?",
+  "corpus_query_index": 6278,
+  "system": "BM25-RAG",
+  "reference_answer": "Crowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring",
+  "context": "[Document 1]\nPolice Help during Rural Festivals:\nTo get police help during rural festivals:\n* Dial 100 or the local police station number\n* Inform the police about the festival and expected crowd\n* Provide details of any potential law and order issues\n* Police will deploy personnel to maintain security and order\n\n[Document 2]\nEthical Conduct during Public Protests:\nThe Tamil Nadu Police ensures ethical conduct during public protests by following the Tamil Nadu Police Act and guidelines on crowd control. Police personnel are trained to respect citizens' rights, maintain public order, and use minimal force. The police also establish communication channels with protest organizers to ensure peaceful gatherings.\n\n[Document 3]\nReporting Illegal Activities Anonymously:\nCall the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.\n\n[Document 4]\nCrowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring\n\n[Document 5]\nQuestion 1: Police coordination with excise department on narcotic cases\nThe Tamil Nadu Police coordinates with the excise department through:\n* Joint raids and operations\n* Intelligence sharing on narcotic cases\n* Regular meetings to discuss and plan strategies",
+  "retrieved_doc_ids": [
+    "1382",
+    "1443",
+    "2088",
+    "247",
+    "135"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5df471a8517f16ed9e36f154b5d15c0156f747c099f5fbc8ac285f1c7ebcb4f6",
+  "answer": "The Tamil Nadu Police manages crowds during festivals by deploying adequate personnel, implementing traffic management plans, conducting crowd control drills, and using technology for surveillance and monitoring [Document 4]. They also inform the police about the festival and expected crowd, providing details of potential issues and ensuring security and order [Document 1]. Additionally, they coordinate with the excise department on narcotic cases [Document 5]. [Document 1]",
+  "input_tokens": 428,
+  "output_tokens": 86,
+  "seconds": 10.972225000001345,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

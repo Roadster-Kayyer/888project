@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008698",
+  "doc_id": "683",
+  "query_type": "casual",
+  "query": "How do they punish people who get mean at games?",
+  "corpus_query_index": 8697,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 4]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "107",
+    "255",
+    "799",
+    "849",
+    "1021"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a58cddaef0496d057ae0762f24610b46d9fe7e840f60244864a366f2801cf6fc",
+  "answer": "The document does not provide information on punishing mean behavior during games. It discusses Child Welfare Police Officers, reporting missing persons, FIRs, arrest inquiries, and bail procedures. [Document 1]",
+  "input_tokens": 515,
+  "output_tokens": 40,
+  "seconds": 5.3599947999973665,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

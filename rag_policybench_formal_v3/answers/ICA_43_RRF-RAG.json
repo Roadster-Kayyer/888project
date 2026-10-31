@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_43",
+  "doc_id": "PB_ac14b71f364c9fc1e15b",
+  "query_type": "ICA_134",
+  "query": "How long will the passport application process take?",
+  "reference_answer": "The processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.",
+  "corpus_query_index": 240,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 2]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 3]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 4]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 5]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.",
+  "retrieved_doc_ids": [
+    "PB_4db518930267429b7a6f",
+    "PB_14d73bad1d062f8a0a27",
+    "PB_b155e67f12a868a1d32b",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_3b19e2f31a18bd457d3a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9c182d94d18b16fabd33112d4dc177b9259b100ed5d17123c32d91c03a934d23",
+  "answer": "The passport application process takes 3 working days, excluding the day of submission. [Document 1] Some applications may take longer, especially during peak periods. You can check the status using the Enquire Application Status function. [Document 1]",
+  "input_tokens": 611,
+  "output_tokens": 51,
+  "seconds": 6.509206600007019,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

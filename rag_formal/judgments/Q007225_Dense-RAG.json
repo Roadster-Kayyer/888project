@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007225",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the procedure for DRDA representatives and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the procedure for DRDA complaints, directly referencing the provided documents and maintaining factual accuracy.\",\n}",
+      "input_tokens": 821,
+      "output_tokens": 192,
+      "seconds": 14.722058400002425,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the procedure for DRDA representatives and is supported by evidence from Document 1.\"}",
+      "input_tokens": 861,
+      "output_tokens": 47,
+      "seconds": 3.8287758999940706,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_84",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question but lacks specific reference to the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer partially addresses the question but lacks specific reference to the provided evidence.\",\n  \"evidence\": \"null\"\n}\n\nIn the reference, it is stated that the timeframe to exercise the switching option is given by the Fund Management Company/insurer in its communication letter, which is not directly mentioned in the candidate answer.",
+      "input_tokens": 465,
+      "output_tokens": 107,
+      "seconds": 8.228592800005572,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

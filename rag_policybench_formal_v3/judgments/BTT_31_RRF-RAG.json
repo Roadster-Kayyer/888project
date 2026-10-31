@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_31",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states vehicles must stop and yield to those entering from side roads, directly addressing the question and supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states vehicles must stop and yield to those entering from side roads, directly addressing the question and supported by Document 1.\",\n  \"evidence\": \"Document 1: 'They must stop.' and 'Give way to vehicles from the side road entering the main road.'\"\n}",
+      "input_tokens": 626,
+      "output_tokens": 192,
+      "seconds": 14.796468900007312,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

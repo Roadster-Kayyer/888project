@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008521",
+  "doc_id": "651",
+  "query_type": "original",
+  "query": "What are the legal consequences for assault in educational institutions?",
+  "corpus_query_index": 8520,
+  "system": "RRF-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 2]\nAdmission Fraud in Educational Institutions:\nThe penalty for admission fraud in educational institutions can include imprisonment up to 3 years and a fine under the IPC Section 420 and the Tamil Nadu Educational Institutions (Prohibition of Capitation Fee) Act, 1992.\n\n[Document 3]\nAssault in Healthcare Facilities:\nThe penalty for assault in healthcare facilities in Tamil Nadu can lead to imprisonment up to 3 years and a fine up to ₹50,000, as per the Tamil Nadu Medicare Service Persons and Medicare Service Institutions (Prevention of Violence and Damage or Loss to Property) Act, 2008.\n\n[Document 4]\nAssault During Forced Evictions:\nThe legal consequences for assault during forced evictions in Tamil Nadu can lead to imprisonment of up to 7 years and a fine, as per the IPC Section 323 and 325, and may also attract provisions under the Tamil Nadu Prevention of Eviction Act.\n\n[Document 5]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.",
+  "retrieved_doc_ids": [
+    "651",
+    "611",
+    "652",
+    "678",
+    "645"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "67f50d3dffcb0c2748dd34861cf605a8476402bdf7589aba80cd466cd1918ff8",
+  "answer": "For assault in educational institutions, the legal consequence is imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and IPC [Document 1].",
+  "input_tokens": 427,
+  "output_tokens": 42,
+  "seconds": 5.5794520000017656,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

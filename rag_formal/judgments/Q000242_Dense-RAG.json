@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000242",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for initiating a criminal case filing process, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the steps for initiating a criminal case filing process and is directly supported by the retrieved evidence documents.\n}",
+      "input_tokens": 869,
+      "output_tokens": 68,
+      "seconds": 5.300846999998612,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the steps for initiating a criminal case filing process, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 909,
+      "output_tokens": 56,
+      "seconds": 4.489480000000185,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

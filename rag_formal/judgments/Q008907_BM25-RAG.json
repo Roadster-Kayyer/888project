@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008907",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies legal consequences of duplicate registration, including fines and imprisonment, and references relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies legal consequences of duplicate registration, including fines and imprisonment, and references relevant documents.\",\n  \"evidence\": \"[Document 1, Document 3, Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate answer is directly relevant to the question, correctly identifies the legal consequences of registering the same property twice, and is supported by evidence from the provided documents. The answer also correctly mentions the Indian Penal Code (IPC) and the potential for imprisonment and fines, which aligns with the information in Document 1 and Document 3. The mention of joint family property division in the answer is also relevant, as it is a specific scenario that could lead to legal consequences",
+      "input_tokens": 775,
+      "output_tokens": 192,
+      "seconds": 14.717155899998033,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

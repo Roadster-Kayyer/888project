@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003196",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the role of the Police Radio Branch and is relevant to the reference, with evidence directly supporting the factual claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the role of the Police Radio Branch and is relevant to the reference, with evidence directly supporting the factual claims.\",\n  \"evidence\": \"The candidate answer directly correlates with the reference, which states the role of the Police Radio Branch in providing real-time connectivity and enabling swift response and coordination, which is managed and operated by the branch for efficient and secure communication among officers.\"\n}",
+      "input_tokens": 368,
+      "output_tokens": 128,
+      "seconds": 10.074547600001097,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

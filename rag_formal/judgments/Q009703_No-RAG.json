@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009703",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer lacks factual information and does not provide the requested details about the Pink Police Patrol."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer lacks information about the Pink Police Patrol and how to reach them, and there's no evidence provided to support the claim.\",\n}",
+      "input_tokens": 410,
+      "output_tokens": 72,
+      "seconds": 5.555488099998911,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer lacks factual information and does not provide the requested details about the Pink Police Patrol.\"}",
+      "input_tokens": 450,
+      "output_tokens": 48,
+      "seconds": 3.8961462000006577,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

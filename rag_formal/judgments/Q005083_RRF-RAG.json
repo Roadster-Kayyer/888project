@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005083",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies EOW's investigative powers and relates to TN's jurisdiction over economic crimes, supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes EOW's investigative powers and contrasts with TNEB's utility role, supported by documents.\",\n}",
+      "input_tokens": 772,
+      "output_tokens": 192,
+      "seconds": 15.209606399999757,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies EOW's investigative powers and relates to TN's jurisdiction over economic crimes, supported by Document 3.\"}\n\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly addresses the question, and is supported by the evidence provided in the documents. The reason is a concise justification of the scores given.",
+      "input_tokens": 812,
+      "output_tokens": 110,
+      "seconds": 8.762175099996966,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_9",
+  "doc_id": "PB_3530eb1d762ba76f2f2a",
+  "query_type": "BTT",
+  "query": "What happens to the stopping distance of a vehicle on a wet road compared to a dry road?",
+  "reference_answer": "The stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.",
+  "corpus_query_index": 54,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nGive way to vehicles from the side road entering the main road.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_619765030c2c1f6e27b8",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5b6731f7d67710182c3e0095ac7626f04ee8f8f5eea546c3bc95fa823cc579c6",
+  "answer": "On a wet road, the stopping distance doubles compared to a dry road due to reduced tyre-surface friction. [Document 1]",
+  "input_tokens": 233,
+  "output_tokens": 28,
+  "seconds": 3.5854097999981605,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

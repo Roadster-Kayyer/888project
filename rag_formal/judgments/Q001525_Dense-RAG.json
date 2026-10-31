@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001525",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing accurate steps and including all necessary details for reporting a canal leakage."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing accurate steps and including all necessary details for reporting a canal leakage.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is fully supported by the evidence provided in Document 1, which outlines the correct procedure for reporting a canal breach to the PWD. The answer is relevant as it directly responds to the question and is faithful to the evidence, as it includes all the essential steps and information that the reference document specifies. The reason succinctly explains the scores, indicating that the candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 763,
+      "output_tokens": 175,
+      "seconds": 13.179018999999244,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

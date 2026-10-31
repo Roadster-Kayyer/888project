@@ -1,0 +1,5 @@
+﻿system,correctness,correctness_ci_low,correctness_ci_high,n_faq_groups_correctness,relevance,relevance_ci_low,relevance_ci_high,n_faq_groups_relevance,faithfulness,faithfulness_ci_low,faithfulness_ci_high,n_faq_groups_faithfulness,reference_token_f1_proxy,reference_token_f1_proxy_ci_low,reference_token_f1_proxy_ci_high,n_faq_groups_reference_token_f1_proxy
+No-RAG,1.5,1.0,2.0,4,1.5,1.0,2.0,4,,,,0,0.33312842371761126,0.2527417746759721,0.44803370786516855,4
+BM25-RAG,2.0,2.0,2.0,4,2.0,2.0,2.0,4,2.0,2.0,2.0,4,0.4769582768396401,0.28869047619047616,0.5867486338797814,4
+Dense-RAG,2.0,2.0,2.0,4,2.0,2.0,2.0,4,2.0,2.0,2.0,4,0.49353874782584883,0.18358395989974938,0.7792008196721312,4
+RRF-RAG,1.75,1.25,2.0,4,1.75,1.25,2.0,4,1.75,1.25,2.0,4,0.4068043884220355,0.1349206349206349,0.5635504201680673,4

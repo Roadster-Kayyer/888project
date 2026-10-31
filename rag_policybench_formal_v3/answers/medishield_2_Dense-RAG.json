@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_2",
+  "doc_id": "PB_a5a49f4a8cf45baa57c5",
+  "query_type": "medishield",
+  "query": "What entity is responsible for administering the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015?",
+  "reference_answer": "The Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.",
+  "corpus_query_index": 314,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 2]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 3]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 4]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.\n\n[Document 5]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "retrieved_doc_ids": [
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_602681b75becd57cfb35",
+    "PB_25927e8ab4491744b345",
+    "PB_eacf65b60e2998442b5a",
+    "PB_1dca0c51ba1dc68b6aca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9077693416e9ad51da10f3e6f0da32045d00b9a9a1b51dbf7a14faa7d2160806",
+  "answer": "The Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the MediShield Life Scheme Act 2015 [Document 1].",
+  "input_tokens": 284,
+  "output_tokens": 34,
+  "seconds": 4.472715900003095,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

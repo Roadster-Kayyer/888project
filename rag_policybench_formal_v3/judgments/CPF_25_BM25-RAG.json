@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_25",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines steps for attendance and voting at AGMs/EGMs, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps for attendance and voting at AGMs/EGMs, supported by evidence from Document 1.\",\n  \"evidence\": \"CPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs. Special Arrangements due to Covid-19 MeasuresCompanies that hold AGMs/EGMs during the pre-Circuit Breaker period may have special arrangements (e.g. \\\"live\\\" webcast). CPF investors must submit voting instructions to their agent banks at least seven working days before the general meeting.\"\n}",
+      "input_tokens": 1646,
+      "output_tokens": 190,
+      "seconds": 14.84580910000659,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

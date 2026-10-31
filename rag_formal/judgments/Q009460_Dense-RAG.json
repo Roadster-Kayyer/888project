@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009460",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the issues All Women Police Stations handle, supported by Document 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the issues All Women Police Stations handle, supported by Document 1 and 2.\",\n  \"evidence\": \"Document 1 and 2\"\n}\n\n\nThe reason for the scores is that the candidate's answer is correct, directly relevant, and fully faithful to the evidence provided in the documents. The answer accurately reflects the types of cases handled by All Women Police Stations and acknowledges the role of men in approaching these stations for specific complaints, as outlined in Document 2. The evidence supporting this assessment is found in Document 1 and 2, which detail the types of cases and the role of men in approaching AWPS.",
+      "input_tokens": 743,
+      "output_tokens": 186,
+      "seconds": 14.15639789999841,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

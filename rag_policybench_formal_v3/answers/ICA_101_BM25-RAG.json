@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_101",
+  "doc_id": "PB_bcdfbf4db75a59af04ef",
+  "query_type": "ICA_134",
+  "query": "Does my child need to be a Permanent Resident (PR) before applying for Singapore citizenship?",
+  "reference_answer": "Your child may apply Singapore Citizenship without the need to be a Permanent Resident.",
+  "corpus_query_index": 171,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 4]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 5]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "retrieved_doc_ids": [
+    "PB_bcdfbf4db75a59af04ef",
+    "PB_d98d322f2936df748ef1",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_cb5d04a689bc8ce22058"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1b38d2cfa93f33801e0f268c54afa39a7211d7cd6d4c52b485ddbf5b7f61f2b2",
+  "answer": "Your child does not need to be a Permanent Resident (PR) to apply for Singapore citizenship. However, they must meet other requirements such as being born outside Singapore or having a valid Re-Entry Permit (REP). [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 49,
+  "seconds": 6.300848099999712,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

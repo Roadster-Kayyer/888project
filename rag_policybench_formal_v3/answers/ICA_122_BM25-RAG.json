@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_122",
+  "doc_id": "PB_35db64afc4b771d4dfd8",
+  "query_type": "ICA_134",
+  "query": "How do I obtain the departure endorsement to prove that I left Singapore?",
+  "reference_answer": "ICA no longer issues departure endorsements. You may use proxy documents, such as boarding passes as indicators of your exit record.",
+  "corpus_query_index": 194,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.\n\n[Document 2]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 3]\nIf you arrived at Singapore Changi Airport and were issued with the onward boarding passes for connecting flights out of Changi Airport, you may remain within the Changi Airport transit area until time for flight departure.You can also remain in the transit area if you can obtain the onward boarding passes from any of the Transfer Lounges within the transit area.However, if you are not issued with the onward boarding passes for connecting flights out of Changi Airport; or unable to obtain the onward boarding passes from any of the Transfer Lounges within the transit area, you are advised to exit the transit area as soon as possible.We wish to highlight that most passengers who are arriving on a Low Cost Carrier (LCC) or connecting to a LCC are required to seek immigration clearance and obtain your onward boarding passes in the respective Departure Check-in Hall.If you are required to seek immigration clearance before obtaining your onward boarding passes at the Departure Check-in Hall, you will have to satisfy the prevailing entry requirements, which include possessing an entry visa, where applicable.All passengers are strongly advised to liaise with the relevant airlines before embarking on your journey. For more information on flights connection and transit facilities/ services,\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+  "retrieved_doc_ids": [
+    "PB_04745399e49d55ad64a3",
+    "PB_ffb44a115e698c779310",
+    "PB_d0b05d1d05c1ed623967",
+    "PB_cc60baad4cbf9560588b",
+    "PB_bb4198b52a9a38049310"
+  ],
+  "trimmed_doc_ids": [
+    "PB_d0b05d1d05c1ed623967",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f3527105f16ccdc7aa2720c5db4f4322d7d62f8c229c7cc69ab9d211a99c8415",
+  "answer": "To obtain the departure endorsement, you need to use the MyICA mobile app to delete your previous trip's record. This process clears your records without retracting them. [Document 2]",
+  "input_tokens": 842,
+  "output_tokens": 39,
+  "seconds": 5.233044599997811,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

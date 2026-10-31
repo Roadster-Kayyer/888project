@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_65",
+  "doc_id": "PB_cb5d04a689bc8ce22058",
+  "query_type": "ICA_134",
+  "query": "Can I enter as a PR if my Re-Entry Permit is tagged to my old passport instead of my new passport?",
+  "reference_answer": "You may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "corpus_query_index": 264,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 2]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 3]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 4]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_cb5d04a689bc8ce22058",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_6a37eec904475577f862",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d17654049f6cb8533179461a457d77c534ed278ff227625429f38e8e94214d8e",
+  "answer": "Yes, you can enter as a PR if your Re-Entry Permit (REP) is on your old passport. However, you need to transfer its validity to your new passport using Singpass and ICA e-Service. [Document 1]",
+  "input_tokens": 665,
+  "output_tokens": 51,
+  "seconds": 6.753312200002256,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

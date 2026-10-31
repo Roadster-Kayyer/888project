@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002664",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference facts about career advancement for constables, including promotions, exams, training, specialization, and unit postings, all supported by the retrieved evidence.\",\n}",
+      "input_tokens": 858,
+      "output_tokens": 192,
+      "seconds": 14.946018400001776,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by the retrieved evidence.\"}",
+      "input_tokens": 898,
+      "output_tokens": 44,
+      "seconds": 3.7803104000013263,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_23",
+  "doc_id": "PB_e12438e446c271b6f34f",
+  "query_type": "BTT",
+  "query": "What actions should people take during an emergency in Fort Canning Tunnel and Woodsville Tunnel?",
+  "reference_answer": "People should head for the tunnel entrance or exit, whichever is safer.",
+  "corpus_query_index": 16,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPeople should head for the tunnel entrance or exit, whichever is safer.\n\n[Document 2]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 3]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 4]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 5]\nMotorists should slow down and watch out for buses pulling out of the bus bay.",
+  "retrieved_doc_ids": [
+    "PB_e12438e446c271b6f34f",
+    "PB_905df234754f5b501b5d",
+    "PB_3300f78e0c7cee359492",
+    "PB_1bd233e28127cfee0c86",
+    "PB_46950c4cff6ad431d048"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3371523e0cc5bab9a2e48f69d87a155c3b6e7e1869c942b180c56d10bebf141",
+  "answer": "During emergencies in Fort Canning Tunnel and Woodsville Tunnel, people should head for the nearest tunnel entrance or exit if it's safer [Document 1]. For emergencies, it's permissible only in cases of breakdown, accidents, or emergencies [Document 2]. No specific instructions are provided for CPF investors or drivers in the given documents [Document 3, Document 4, Document 5].",
+  "input_tokens": 449,
+  "output_tokens": 80,
+  "seconds": 27.878404399998544,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

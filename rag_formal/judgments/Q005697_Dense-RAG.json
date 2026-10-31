@@ -1,0 +1,38 @@
+{
+  "query_id": "Q005697",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for contacting the Anti-Counterfeiting Currency Wing, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for contacting the Anti-Counterfeiting Currency Wing, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 862,
+      "output_tokens": 71,
+      "seconds": 5.792785699999513,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for contacting the Anti-Counterfeiting Currency Wing, supported by evidence from Document 1.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n(Note: The \"reason\" field is a brief explanation, and the exact wording can be adjusted based on the specific details of the evidence provided. The scores are consistent with the candidate answer being correct, directly relevant, and fully supported by the evidence.)",
+      "input_tokens": 902,
+      "output_tokens": 154,
+      "seconds": 12.175970899999811,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required",
+  "parsing_recovery": {
+    "policy": "first complete valid JSON; all additional complete objects must agree on scores; ignore unfinished trailing duplicate; no score inference",
+    "attempt_index": 1,
+    "original_error": "Extra data: line 2 column 1 (char 217)",
+    "parser_sha256": "348e579869b5347d18a4f0f1307c96468eb1e061566fe3bf0be85140b8f2c590",
+    "utc": "2026-10-23T22:42:12.224685+00:00"
+  }
+}

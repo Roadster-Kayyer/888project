@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008026",
+  "system": "BM25-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and accurately reflects the punishment as stated in the reference documents.\",\n  \"evidence\": \"[Document 1]\n}",
+      "input_tokens": 795,
+      "output_tokens": 192,
+      "seconds": 15.165287099996931,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2",
+      "input_tokens": 835,
+      "output_tokens": 192,
+      "seconds": 14.608473699998285,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 156)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

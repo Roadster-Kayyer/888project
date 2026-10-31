@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008554",
+  "doc_id": "657",
+  "query_type": "search",
+  "query": "What are the legal repercussions of domestic abuse?",
+  "corpus_query_index": 8553,
+  "system": "Dense-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 3]\nDamaging Agricultural Crops:\nLegal consequences can include imprisonment up to 3 years and/or a fine under Section 425 of the IPC for mischief, causing damage to crops.\n\n[Document 4]\nRights under Protection of Women from Domestic Violence Act:\nWomen have the right to:\n* Live in a shared household without fear of violence\n* Protection from physical, emotional, and economic abuse\n* Access to medical and legal aid\n* Right to file a complaint against the abuser\n\n[Document 5]\nThreatening Healthcare Workers:\nLegal consequences can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Medicare Service Persons and Medicare Service Institutions (Prevention of Violence and Damage to Property) Act.",
+  "retrieved_doc_ids": [
+    "657",
+    "581",
+    "707",
+    "1890",
+    "563"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "46253a3274cf1992c3b079c489bb87a24700b43e98ea792586cfa93d2fb97c56",
+  "answer": "The legal repercussions of domestic abuse under the Protection of Women from Domestic Violence Act, 2005, can include imprisonment up to 3 years and/or a fine. Harassment of divorced women can also result in up to 3 years in prison, or a fine, or both. [Document 1] & [Document 2]",
+  "input_tokens": 397,
+  "output_tokens": 72,
+  "seconds": 9.382335800000874,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

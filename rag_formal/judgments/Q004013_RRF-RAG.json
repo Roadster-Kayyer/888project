@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004013",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided, as it includes the recommended actions for witnessing police brutality and general advice for dealing with police misconduct, which aligns with the information in Document 1. The reference to filing an FIR is also consistent with the advice given in the documents.",
+      "input_tokens": 789,
+      "output_tokens": 140,
+      "seconds": 11.005027999999584,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

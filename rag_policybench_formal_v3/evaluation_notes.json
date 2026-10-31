@@ -1,0 +1,29 @@
+{
+  "report_version": 2,
+  "status": "formal PolicyBench FAQ adaptation",
+  "judge": {
+    "repo": "microsoft/Phi-3.5-mini-instruct",
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "path": "D:\\CodexModels\\LegalFAQ\\hub\\models--microsoft--Phi-3.5-mini-instruct\\snapshots\\2fe192450127e6a83f7441aef6e3ca586c338b77"
+  },
+  "score_scale": "ordinal 0/1/2, provisional rubric scores, not percentages or verified factual accuracy",
+  "faithfulness": "N/A for No-RAG and pure abstentions; report valid counts",
+  "bootstrap": "Paired exact-answer FAQ groups; does not model uncertainty across new government domains.",
+  "main_summary": "answer_quality_summary.csv and chart use bootstrap estimates from the same complete FAQ groups as their CIs; by-type table follows the same rule within each type",
+  "available_case_summary": "answer_quality_available_case_summary.csv is descriptive only, includes all available scores and operational metrics, and has no paired CIs",
+  "citations": "bracketed Document/ Documents references; each listed reference occurrence counts separately; placeholders and malformed entries are invalid; numeric references outside supplied context are invalid; does not verify claim support",
+  "citation_answer_rate": "has_invalid_citation mean is the fraction of answers with at least one detected invalid citation; invalid_citation_count mean is occurrences per answer",
+  "pilot_warning": "Pilot has four questions; do not interpret its CI as thesis evidence.",
+  "f1": "lexical overlap proxy, not semantic correctness; v2 strips grouped and placeholder Document citation brackets as well as numeric single citations",
+  "review_status": {
+    "n_answers_scored": 80,
+    "n_queries_scored": 20,
+    "n_notes": 0,
+    "n_review_flags": 146,
+    "single_researcher_reference_check": true,
+    "raw_human_annotations_preserved": true
+  },
+  "external_validity": "Conditional on four Singapore domains and this static FAQ corpus; not NZ evidence.",
+  "source_warning": "Expected-answer corpus; official source passage mapping has not been verified.",
+  "benchmark_comparability": "Do not compare with original PolicyBench leave-one-out abstention results."
+}

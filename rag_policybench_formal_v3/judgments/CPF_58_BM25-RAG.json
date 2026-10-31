@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_58",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and provides specific information from Document 1, which is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and provides specific information from Document 1, which is supported by the evidence provided.\",\n  \"evidence\": \"[Document 1] provides details about the Scrip Dividend Scheme, including the dividend rate ($0.051 per share), issue price ($2.422 per share), and how to calculate the number of scrip shares issued. For more specific information, visit Singtel's website.\"\n}",
+      "input_tokens": 1163,
+      "output_tokens": 138,
+      "seconds": 11.061226999998325,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

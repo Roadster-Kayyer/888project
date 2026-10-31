@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005085",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer mentions relevant duties but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer mentions relevant duties but lacks specific evidence from the reference.\",\n  \"answer\": \"The Economic Offences Wing (EOW) in Tamil Nadu can perform various law enforcement duties related to economic crimes, including tax evasion, money laundering, and fraud. [Document 1]\"\n}",
+      "input_tokens": 404,
+      "output_tokens": 108,
+      "seconds": 8.362181399999827,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

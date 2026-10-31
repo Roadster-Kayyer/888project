@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002663",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided answer, the candidate correctly identifies that additional training, experience, and possibly specialized courses are required for advancement from constable to higher ranks. The answer is directly relevant to the question about moving up in rank. However, the answer does not cite specific evidence from the reference, which would have strengthened its faithfulness. The reason succinctly explains the scores.",
+      "input_tokens": 418,
+      "output_tokens": 149,
+      "seconds": 11.21537989999706,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

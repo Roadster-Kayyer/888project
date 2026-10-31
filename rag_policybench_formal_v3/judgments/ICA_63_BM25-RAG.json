@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_63",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies visa requirement for transit, but omits specific nationalities eligible for VFTF."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies visa requirement for transit, but omits specific nationalities eligible for VFTF.\"\n}\n\n\n\nThe candidate answer is correct in stating that a visa is generally required for transit in Singapore, as indicated by the need to meet prevailing entry requirements, including an entry visa for certain nationalities. The reference documents support this by specifying the Visa Free Transit Facility (VFTF) and the conditions under which it applies, including the need for an entry visa for some nationalities. However, the candidate answer could be more precise by mentioning the specific nationalities eligible for the VFTF, as outlined in Document 1. The relevance score",
+      "input_tokens": 1979,
+      "output_tokens": 192,
+      "seconds": 14.830235800007358,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

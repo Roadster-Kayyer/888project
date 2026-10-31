@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008854",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies district courts for civil disputes and references the Hindu Succession Act, 1956, and potential penalties. It also correctly notes the role of Railway Police and the concept of diplomatic immunity, aligning with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies district courts for civil disputes and references the Hindu Succession Act, 1956, and potential penalties. It also correctly notes the role of Railway Police and the concept of diplomatic immunity, aligning with the evidence provided.\",\n  \"evidence\": \"Document 1, Document 3, Document 5\"\n}",
+      "input_tokens": 768,
+      "output_tokens": 192,
+      "seconds": 14.791588600000978,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

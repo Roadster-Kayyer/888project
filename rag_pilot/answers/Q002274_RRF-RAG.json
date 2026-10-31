@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002274",
+  "doc_id": "1407",
+  "query_type": "search",
+  "query": "What strategies does the Tamil Nadu Police use to manage wildlife-human disputes in forest regions?",
+  "corpus_query_index": 2273,
+  "system": "RRF-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nReporting Wildlife Crime in Tamil Nadu:\nTo report wildlife crime, contact the Tamil Nadu Forest Department's wildlife crime control unit or the local police station. You can also call the wildlife crime control helpline (1800-425-3355) or email the department. Provide as much information as possible about the incident, including location, date, and time.\n\n[Document 2]\nReporting Illegal Wildlife Trading:\nTo report illegal wildlife trading in Tamil Nadu, contact the Tamil Nadu Forest Department or the Wildlife Crime Control Bureau. You can also dial 108 (Tamil Nadu Emergency Number) or 1800-425-3577 (Forest Department Helpline).\n\n[Document 3]\nHuman-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed\n\n[Document 4]\nContacting Forest Crime Investigation Unit:\nTo contact the Forest Crime Investigation Unit in Tamil Nadu, you can reach out to the Tamil Nadu Police headquarters or visit the official Tamil Nadu Police website for contact details.\n\n[Document 5]\nReporting Illegal Hunting:\nTo report illegal hunting in Tamil Nadu forests, contact the nearest Forest Range Office or call the Forest Department's toll-free number 1800-425-3355. You can also inform the local police or the Wildlife Crime Control Bureau.",
+  "retrieved_doc_ids": [
+    "1202",
+    "1246",
+    "1407",
+    "1928",
+    "1229"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "da1d32c141bece0c4647df19e2fb93239b6fe02bed8ef5ff61d18d4576464138",
+  "answer": "The Tamil Nadu Police manages wildlife-human disputes in forest regions by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation. [Document 3]",
+  "input_tokens": 438,
+  "output_tokens": 43,
+  "seconds": 5.398128999999244,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2062.5498046875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_81",
+  "doc_id": "PB_2e9958593302003e21bd",
+  "query_type": "ICA_134",
+  "query": "Can I submit the SG Arrival Card for multiple trips under 'Group Submission'?",
+  "reference_answer": "The 'Group Submission' is meant for a group of persons who are travelling to Singapore together for one trip.",
+  "corpus_query_index": 282,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 2]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 3]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 4]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_ffb44a115e698c779310",
+    "PB_60d3d79cc6579587cc62",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a2f68d4c8a69f46a0329582f060b8961f344a1bb27649ea427cbc413387f6a61",
+  "answer": "No, you cannot submit the SG Arrival Card for multiple trips under 'Group Submission'. According to [Document 1], it only mentions updating a single submission via the SG Arrival Card e-Service or MyICA Mobile App, but does not allow grouping submissions.",
+  "input_tokens": 797,
+  "output_tokens": 53,
+  "seconds": 7.127843900001608,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

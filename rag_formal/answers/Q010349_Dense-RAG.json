@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010349",
+  "doc_id": "980",
+  "query_type": "search",
+  "query": "What's the procedure to report theft of public transport?",
+  "corpus_query_index": 10348,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nReporting Misconduct by a Transport Department Officer:\nTo report misconduct, contact the Transport Department's grievance cell or file a complaint with the State Transport Authority. You can also submit a complaint online through the Tamil Nadu Government's portal or visit the nearest Regional Transport Office (RTO).\n\n[Document 2]\nReporting Illegal Transport Services:\nTo report illegal transport services, contact the Tamil Nadu State Transport Authority or the local Regional Transport Office (RTO). You can also call the Tamil Nadu Police helpline (87544 48484) or report online through the Tamil Nadu Police website. Provide vehicle details and nature of the illegal service.\n\n[Document 3]\nReporting Misconduct by State Transport Corporation Employee:\nTo report misconduct, contact the State Transport Corporation's customer care or visit their website for the complaint procedure. You can also file a complaint at the nearest police station or with the Transport Department.\n\n[Document 4]\nReporting a Stolen Vehicle:\nTo report a stolen vehicle, visit the nearest police station and provide required documents: vehicle registration, insurance, and ID proof. Fill out the FIR form and submit it to the officer in charge.\n\n[Document 5]\nReporting Illegal Modifications to Vehicles:\nTo report illegal modifications to vehicles, contact the Regional Transport Office (RTO) or the local police station. Provide the vehicle's registration number and details of the modifications. You can also dial 100 for assistance.",
+  "retrieved_doc_ids": [
+    "402",
+    "972",
+    "418",
+    "63",
+    "978"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "46780748efd77248006d412d0d477d3085c41a518ee11c811cd7b215d5c3077e",
+  "answer": "To report theft of a public transport vehicle, visit the nearest police station and provide documents like vehicle registration, insurance, and ID proof. Fill out an FIR form and submit it to the officer in charge [Document 4].",
+  "input_tokens": 412,
+  "output_tokens": 46,
+  "seconds": 6.596265100000892,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

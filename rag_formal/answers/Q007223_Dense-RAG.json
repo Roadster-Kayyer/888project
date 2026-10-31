@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007223",
+  "doc_id": "417",
+  "query_type": "casual",
+  "query": "Can you tell me how to file a complaint against a DRDA cop?",
+  "corpus_query_index": 7222,
+  "system": "Dense-RAG",
+  "reference_answer": "Complaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.",
+  "context": "[Document 1]\nComplaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 2]\nFiling a Complaint against a Police Officer:\nTo file a complaint against a police officer in Tamil Nadu:\n1. Visit the local police station or the office of the Superintendent of Police.\n2. Submit a written complaint with details of the incident.\n3. You can also file a complaint online through the Tamil Nadu Police website or through the SHRC.\n\n[Document 3]\nComplaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).\n\n[Document 4]\nFiling Complaint Against Police Misconduct:\nTo file a complaint, \n1. Visit the local police station or SP office\n2. Submit a written complaint with details\n3. Alternatively, contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nFiling a Complaint against a Revenue Department Official:\nTo file a complaint against a Revenue Department official, you can:\n1. Visit the Revenue Divisional Office or District Collector's office.\n2. Submit a written complaint to the official's higher authority.\n3. File a complaint online through the Tamil Nadu Government's grievance portal or contact the Vigilance and Anti-Corruption Department.",
+  "retrieved_doc_ids": [
+    "417",
+    "810",
+    "400",
+    "1830",
+    "395"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "54bfe076ba6d659b4e04fda9ffd1e16bb6686b4b64f38400b2f4acdd9316befc",
+  "answer": "To file a complaint against a DRDA officer, contact the District Collector or the concerned department's headquarters. Alternatively, file an online complaint through the Tamil Nadu Government's grievance portal or visit the nearest police station. [Document 1]",
+  "input_tokens": 449,
+  "output_tokens": 49,
+  "seconds": 6.293555500000366,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

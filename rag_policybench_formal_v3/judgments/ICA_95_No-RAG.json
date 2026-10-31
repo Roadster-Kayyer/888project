@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_95",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the specific process for reporting the loss of a physical LTVP card as per the reference, which states no physical cards will be issued for replacement."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the specific process for reporting the loss of a physical LTVP card as per the reference, which states no physical cards will be issued for replacement.\",\n  \"evidence\": null\n}",
+      "input_tokens": 479,
+      "output_tokens": 84,
+      "seconds": 6.404832800006261,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

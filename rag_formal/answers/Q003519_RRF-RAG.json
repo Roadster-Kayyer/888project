@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003519",
+  "doc_id": "1631",
+  "query_type": "search",
+  "query": "What adjustments has the Tamil Nadu Police made regarding women's security measures?",
+  "corpus_query_index": 3518,
+  "system": "RRF-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 3]\nLaw and Order Preventive Measures:\nVisit the Tamil Nadu Police Department's official website (www.tnpolice.gov.in) for information on law and order preventive measures.\n\n[Document 4]\nAssistance to Foreign Businesses:\nTamil Nadu Police provides security assistance to foreign businesses through its Economic Offences Wing and Cyber Crime Wing. They offer guidance on security measures and protocols to prevent economic crimes and cyber threats. Foreign businesses can contact the Tamil Nadu Police Headquarters for more information.\n\n[Document 5]\nTamil Nadu Police Helpline Numbers:\nThe various police helpline numbers in Tamil Nadu are:\n- 100 (Emergency)\n- 1091 (Women's Helpline)\n- 1098 (Child Helpline)\n- 103 (Traffic Helpline)",
+  "retrieved_doc_ids": [
+    "1631",
+    "1009",
+    "389",
+    "1783",
+    "311"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5a0ee0b22fed2cbcd7990bc5c1d62af4f95611aba1a794d9a5e840fc386a3380",
+  "answer": "The Tamil Nadu Police has established all-women police stations, created a dedicated women's helpline (181), and increased female police personnel. [Document 1]",
+  "input_tokens": 387,
+  "output_tokens": 36,
+  "seconds": 4.711949399999867,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009701",
+  "doc_id": "864",
+  "query_type": "original",
+  "query": "What is the pink police patrol and how do I contact them?",
+  "corpus_query_index": 9700,
+  "system": "Dense-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nContacting the Nearest All Women Police Station:\nTo contact the nearest All Women Police Station, you can:\n- Call the Tamil Nadu Police helpline: 100\n- Visit the Tamil Nadu Police website for station locations and contact numbers\n- Ask your local police station for directions to the nearest All Women Police Station\n\n[Document 3]\nFiling a Complaint about Illegal Red/Blue Beacons:\nTo report unauthorized use of red/blue beacons, contact the Tamil Nadu Police Department's helpline (87544 48484) or visit the nearest police station. Provide vehicle details, including number plate and location.\n\n[Document 4]\nWomen's Helpline:\nTo find a women's helpline in your city, you can:\n- Call 181 (Tamil Nadu Women's Helpline)\n- Visit the Tamil Nadu Police website\n- Contact your local police station for assistance\n\n[Document 5]\nContacting Police Boys and Girls Clubs in Tamil Nadu\nTo contact Police Boys and Girls Clubs, visit the Tamil Nadu Police website or contact your local police station. They can provide information on nearby clubs and their activities, which aim to promote community policing and youth development.",
+  "retrieved_doc_ids": [
+    "864",
+    "823",
+    "979",
+    "275",
+    "2019"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7da7ed5355395f74eeec920cb30bddda0a5e1d1e71b99e03ec5ae0728773f9aa",
+  "answer": "The Pink Police Patrol is a women's safety unit in Tamil Nadu. You can contact them at 94981 95555 or 100. For all women police stations, call 100 or check the Tamil Nadu Police website. [Document 1]",
+  "input_tokens": 434,
+  "output_tokens": 62,
+  "seconds": 8.166361299998243,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

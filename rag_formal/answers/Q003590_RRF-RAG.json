@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003590",
+  "doc_id": "1644",
+  "query_type": "hard",
+  "query": "How have recent tech advancements equipped patrol officers with safety measures?",
+  "corpus_query_index": 3589,
+  "system": "RRF-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 2]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 3]\nRoad Safety Patrol:\nThe Road Safety Patrol is a Tamil Nadu Police program to promote road safety. Students can participate by:\n* Joining the patrol team\n* Participating in awareness campaigns\n* Helping to monitor and report traffic violations\n\n[Document 4]\nTamil Nadu Highway Patrol Service Conditions:\nHighway Patrol officers work in shifts, including night shifts, and are required to be on call. They are entitled to benefits like uniform allowance, travel allowance, and medical benefits. For detailed information, visit the Tamil Nadu Police website.\n\n[Document 5]\nWomen's Safety in Remote Villages:\nSpecial measures for women's safety include:\n* Increased police presence and patrols\n* Women's helplines and dedicated cells\n* Community outreach and awareness programs\n* Collaboration with local organizations for support",
+  "retrieved_doc_ids": [
+    "1644",
+    "1705",
+    "1674",
+    "1496",
+    "1388"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1832d7fb0691b566eefdcc3986ebbb1f632a09e88186c94ee63d7827fd4e443f",
+  "answer": "Recent tech advancements have equipped patrol officers with bulletproof vests, helmets, and communication devices for personal safety [Document 1]. Additionally, they engage with tech professionals for enhanced cybersecurity and awareness about online safety [Document 2]. The Road Safety Patrol program promotes road safety through awareness campaigns and monitoring [Document 3]. Highway Patrol officers receive benefits and are on call, ensuring round-the-clock protection [Document 4]. Special measures for women's safety include increased police presence, helplines, community outreach, and collaboration with local organizations [Document 5]. [Document 1-5]",
+  "input_tokens": 380,
+  "output_tokens": 119,
+  "seconds": 15.141202400000111,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

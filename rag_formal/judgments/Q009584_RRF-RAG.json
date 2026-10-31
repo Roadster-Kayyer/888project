@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009584",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately describes verification processes for handwriting and passport, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes verification processes for handwriting and passport, supported by documents.\"\n}",
+      "input_tokens": 783,
+      "output_tokens": 192,
+      "seconds": 14.754471899999771,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

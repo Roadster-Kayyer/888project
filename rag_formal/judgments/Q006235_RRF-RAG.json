@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006235",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing, mentions related functions of the Protection of Civil Rights Wing and the Protection of Human Rights Act, and acknowledges the training provided to police officers, all supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing, mentions related functions of the Protection of Civil Rights Wing, references the Protection of Human Rights Act, and acknowledges the training provided to police officers, all supported by the retrieved evidence.\",\n}",
+      "input_tokens": 836,
+      "output_tokens": 192,
+      "seconds": 15.061898200001451,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing, mentions related functions of the Protection of Civil Rights Wing and the Protection of Human Rights Act, and acknowledges the training provided to police officers, all supported by the provided documents.\"}",
+      "input_tokens": 876,
+      "output_tokens": 81,
+      "seconds": 6.526660900002753,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000832",
+  "doc_id": "1147",
+  "query_type": "formal",
+  "query": "How can one acquire a No Objection Certificate through the judicial process?",
+  "corpus_query_index": 831,
+  "system": "Dense-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining a No Objection Certificate (NOC)\nTo obtain an NOC, visit your local police station with required documents (ID proof, address proof, etc.). Fill out the application form, submit documents, and pay the prescribed fee. The police will verify the details and issue the NOC.\n\n[Document 2]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 3]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 4]\nNOC Application Portal:\nThe portal for applying for NOC (No Objection Certificate) from the police department is the Tamil Nadu Police Citizen Services portal (https://www.tnpolice.gov.in/citizen).\n\n[Document 5]\nNo Objection Certificate (NOC) for Vehicle Registration:\nTo get an NOC, visit the local police station or traffic police office with your vehicle's documents. Fill out the application form, and the police will verify the vehicle's details. If everything is in order, the NOC will be issued.",
+  "retrieved_doc_ids": [
+    "820",
+    "1147",
+    "2038",
+    "343",
+    "166"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2c8381b38c6b5287118714837ec6b6982726b6691419427ec0d0981327900683",
+  "answer": "To acquire a No Objection Certificate (NOC), visit your local police station with required documents like ID proof and address proof. Fill out the application form, submit documents, and pay the fee. The police will verify the details and issue the NOC if all conditions are met. [Document 1]",
+  "input_tokens": 442,
+  "output_tokens": 63,
+  "seconds": 7.990397200000189,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004608",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is supported by evidence from the documents, which provide detailed steps for contesting a traffic challan in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies steps to contest a speeding ticket, relevant to the reference, and substantiates claims with evidence from Document 1.\",\n}",
+      "input_tokens": 883,
+      "output_tokens": 72,
+      "seconds": 5.534225100000185,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":1, \"relevance\":2, \"faithfulness\":2, \"reason\":\"Answer directly addresses the question and is supported by evidence from the documents, which provide detailed steps for contesting a traffic challan in Tamil Nadu.\"}",
+      "input_tokens": 923,
+      "output_tokens": 58,
+      "seconds": 4.768938400000479,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

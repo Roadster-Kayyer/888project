@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002399",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence as per the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence as per the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is relevant as it mentions the types of evidence needed (screenshots, timestamps, and witness statements), but it does not directly reference the specific evidence types mentioned in the reference (screenshots, URLs, messages, emails, chat logs). Therefore, the faithfulness score is null due to the absence of direct evidence from the supplied evidence.",
+      "input_tokens": 387,
+      "output_tokens": 146,
+      "seconds": 11.335992699998314,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_77",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the consequences of discrepancies between actual income and CAYE estimates. However, it is only partly correct because it does not directly reference the specific requirement to declare actual income to IRAS/CPF Board as stated in the reference. The faithfulness score is null due to the absence of direct evidence from the provided reference text, and the reason succinctly explains the scores.",
+      "input_tokens": 470,
+      "output_tokens": 161,
+      "seconds": 12.45639590000792,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

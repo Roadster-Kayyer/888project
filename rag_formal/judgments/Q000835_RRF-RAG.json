@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000835",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the method to secure a clearance slip and is supported by evidence from multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the general process for securing various types of clearance slips, supported by evidence from documents 1-5.\",\n}",
+      "input_tokens": 773,
+      "output_tokens": 71,
+      "seconds": 5.778362900000502,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the method to secure a clearance slip and is supported by evidence from multiple documents.\"}",
+      "input_tokens": 813,
+      "output_tokens": 44,
+      "seconds": 3.7216781999995874,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

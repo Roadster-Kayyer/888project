@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_83",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer does not directly address the question about urgent travel without a valid passport and lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer does not directly address the question about urgent travel without a valid passport and lacks specific evidence from the reference.\",\n  \"evidence\": null\n}",
+      "input_tokens": 585,
+      "output_tokens": 73,
+      "seconds": 5.520700699998997,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

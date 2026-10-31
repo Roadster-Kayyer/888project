@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007126",
+  "doc_id": "40",
+  "query_type": "original",
+  "query": "What are my rights if I am arrested?",
+  "corpus_query_index": 7125,
+  "system": "Dense-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 4]\n2. Can I be arrested for a bailable offense?\nYes, you can be arrested for a bailable offense, but you have the right to be released on bail by the police or a court.\n\n[Document 5]\nRights of an Accused:\nDuring police interrogation, an accused has the right to:\n- Remain silent\n- Consult a lawyer\n- Be informed of the grounds of arrest\n- Be produced before a magistrate within 24 hours",
+  "retrieved_doc_ids": [
+    "284",
+    "40",
+    "846",
+    "58",
+    "1848"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "aae687d2e8bc9a2afebd8987abd73f7aa21d7ad425152a9c2ef7102a372856f4",
+  "answer": "When arrested, you have several rights including knowing the reason for arrest, contacting a lawyer, remaining silent, and requesting medical attention if needed. Additionally, you have the right to be produced before a magistrate within 24 hours and the option to consult a lawyer during police interrogations. [Document 3]",
+  "input_tokens": 365,
+  "output_tokens": 63,
+  "seconds": 8.260875200001465,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

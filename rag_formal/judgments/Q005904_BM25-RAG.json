@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005904",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 3.\",\n  \"evidence\": \"[Document 3] - To report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.\"\n}",
+      "input_tokens": 808,
+      "output_tokens": 124,
+      "seconds": 9.392485899999883,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

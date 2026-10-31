@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007225",
+  "doc_id": "417",
+  "query_type": "hard",
+  "query": "What's the procedure for addressing issues with a DRDA representative?",
+  "corpus_query_index": 7224,
+  "system": "BM25-RAG",
+  "reference_answer": "Complaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.",
+  "context": "[Document 1]\nComplaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 2]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 3]\nRecording Evidence of Witnesses Abroad:\nThe procedure involves:\n1. Court issues a Letter of Request (LOR) to the foreign country.\n2. LOR is sent through the Ministry of Home Affairs and the Ministry of External Affairs.\n3. Foreign country's court or authority records the witness's statement.\n\n[Document 4]\n3. What is Section 107/151 preventive detention?\nSection 107/151 of the CrPC allows the police to detain a person to prevent a breach of peace or disturbance of public order, but only with a magistrate's approval and for a limited period.\n\n[Document 5]\nCommunity Liaison Group:\nThe Community Liaison Group is a platform for Tamil Nadu Police to engage with the public. It functions by:\n* Fostering community relationships\n* Addressing public concerns\n* Gathering feedback\n* Promoting police initiatives",
+  "retrieved_doc_ids": [
+    "417",
+    "106",
+    "788",
+    "59",
+    "246"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05e3043034a699f1380507e93f09c01f7cfd0078ca909734dbd5f000444d5b28",
+  "answer": "For complaints against DRDA officers, contact the District Collector or the concerned department's headquarters, or file an online complaint through the Tamil Nadu Government's grievance portal or visit a police station [Document 1].",
+  "input_tokens": 434,
+  "output_tokens": 43,
+  "seconds": 5.591890399999102,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

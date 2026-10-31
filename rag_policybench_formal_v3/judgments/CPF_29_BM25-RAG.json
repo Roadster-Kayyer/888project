@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_29",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and uses evidence from Document 4 to explain how to verify the CPF Board's notification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and uses evidence from Document 4 to explain how to verify the CPF Board's notification.\",\n  \"evidence\": \"Document 4 instructs to check past top-up applications on the CPF website, which is a method to verify the legitimacy of the notification.\"\n}",
+      "input_tokens": 1590,
+      "output_tokens": 108,
+      "seconds": 8.813936399994418,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

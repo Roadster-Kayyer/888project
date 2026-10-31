@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_42",
+  "doc_id": "PB_efc8a8e9bd021e1f3ab7",
+  "query_type": "ICA_134",
+  "query": "How can I cancel a Short-Term Visit Pass?",
+  "reference_answer": "The Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.",
+  "corpus_query_index": 239,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 2]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 3]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 4]\nICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.\n\n[Document 5]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.",
+  "retrieved_doc_ids": [
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_a5deb8741f88193f4891",
+    "PB_a49ff041193717d466d2",
+    "PB_bd4cd5b4c56b0c9ef30b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fa940add97024818589a721b450dd91e53509310920d6e9c68b473f368f474ba",
+  "answer": "According to [Document 1], there's no need to cancel a Short-Term Visit Pass (STVP) if departing Singapore before expiry. If staying beyond the validity, overstay is an offense; depart early instead. Cancelling is not required but departure must be arranged if pass expires. [Document 2] doesn't directly address cancelling but explains other pass types.",
+  "input_tokens": 612,
+  "output_tokens": 76,
+  "seconds": 10.060201200001757,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

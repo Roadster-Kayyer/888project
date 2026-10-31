@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004957",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence but generally addresses the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence but generally addresses the question.\",\n  \"evidence\": \"null\"\n}\n\nIn this evaluation, the candidate's answer is partially correct as it generally addresses the question of how to interact with domestic violence protection officers in Tamil Nadu. However, it fails to provide specific evidence or details from the reference, which is necessary for a higher score in faithfulness. The reason for the given scores is that the answer is relevant but lacks the substantive factual claims that would be required to fully support the strategies for interaction with protection officers. The evidence key is set to null because the candidate's answer does not contain any direct evidence from the provided reference.",
+      "input_tokens": 453,
+      "output_tokens": 183,
+      "seconds": 13.868854500000452,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

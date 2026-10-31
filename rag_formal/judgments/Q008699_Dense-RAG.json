@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008699",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects penalties for violence at sporting events as per the Tamil Nadu Public Order Act and IPC, and correctly cites relevant sections of the IPC for other scenarios."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects penalties for violence at sporting events as per the Tamil Nadu Public Order Act and IPC, and correctly cites relevant sections of the IPC for other scenarios. Evidence directly supports all factual claims.\",\n}",
+      "input_tokens": 852,
+      "output_tokens": 94,
+      "seconds": 7.40524899999582,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects penalties for violence at sporting events as per the Tamil Nadu Public Order Act and IPC, and correctly cites relevant sections of the IPC for other scenarios.\"}\n\nExplan0: The candidate answer is correct in stating the penalties for violence at sporting events according to the Tamil Nadu Public Order Act and IPC, and it directly addresses the question by providing specific sections of the IPC for related scenarios. The evidence provided in the retrieved documents supports the factual claims made in the candidate answer, demonstrating faithfulness to the supplied evidence.",
+      "input_tokens": 892,
+      "output_tokens": 150,
+      "seconds": 11.611942099996668,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

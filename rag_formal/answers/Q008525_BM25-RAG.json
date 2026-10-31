@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008525",
+  "doc_id": "651",
+  "query_type": "hard",
+  "query": "What fines or bans might result from hitting another student?",
+  "corpus_query_index": 8524,
+  "system": "BM25-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.\n\n[Document 2]\nPenalties for Crimes in Tamil Nadu:\nIn Tamil Nadu, penalties vary by crime category. \n- Minor offenses: Fines or imprisonment up to 3 years\n- Serious crimes: Imprisonment from 3-10 years\n- Heinous crimes: Life imprisonment or death penalty\n\n[Document 3]\nTransfer of Cases Between States:\nThe transfer of cases between states is governed by the Code of Criminal Procedure (CrPC), 1973. Section 13 of the CrPC allows the Supreme Court to transfer cases from one state to another. This can be done to ensure a fair trial, prevent prejudice, or due to other extraordinary circumstances.\n\n[Document 4]\nChecking Traffic Fines:\nTo check your traffic fines, visit the Tamil Nadu Police website or the e-Challan portal. You can also check at the nearest police station or through the 'Digital Traffic/Transport Enforcement Solution' app.\n\n[Document 5]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.",
+  "retrieved_doc_ids": [
+    "122",
+    "1829",
+    "1762",
+    "264",
+    "540"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d37eb089a05b204c72eb40285aaace522118869ffde19451d71eb96e03b0c129",
+  "answer": "Based on Document 2, penalties for minor offenses like hitting another student in Tamil Nadu could result in fines or up to 3 years imprisonment. [Document 2]",
+  "input_tokens": 458,
+  "output_tokens": 35,
+  "seconds": 4.601205399998435,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

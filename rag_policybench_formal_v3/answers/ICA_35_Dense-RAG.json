@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_35",
+  "doc_id": "PB_ebd58cc24fe004fbabd6",
+  "query_type": "ICA_134",
+  "query": "What should I input for \"Vehicle Number\" if I do not have the transport details before/at arrival?",
+  "reference_answer": "Travelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "corpus_query_index": 231,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 2]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 3]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 4]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_6f67feecf50543bb14eb",
+    "PB_60d3d79cc6579587cc62",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f9f55c2342610bc67eb8a6e4ea299391e16cfaa26687d10278a10e11b7df34d6",
+  "answer": "If you don't have transport details before arrival, input \"BUS\" under Vehicle Number. [Document 1]",
+  "input_tokens": 702,
+  "output_tokens": 24,
+  "seconds": 3.3280248000082793,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

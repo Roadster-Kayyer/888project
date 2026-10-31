@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008853",
+  "doc_id": "710",
+  "query_type": "casual",
+  "query": "So what happens if you split up my grandma's stuff without asking?",
+  "corpus_query_index": 8852,
+  "system": "BM25-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\n1. Can police search my house without a warrant?\nGenerally, no. Police need a warrant to search your house, except in emergency situations or with your consent. (As per CrPC, 1973)\n\n[Document 2]\nQuestion 1: Can police enter my house without a warrant?\nGenerally, no. Police need a warrant to enter your house, except in emergency situations or with your consent. (As per Tamil Nadu Police guidelines)\n\n[Document 3]\nResponse to Filming/Photographing without Consent:\nIf someone is filming or photographing you without consent, stay calm and:\n* Politely ask them to stop\n* If they refuse, seek help from nearby authorities or police\n* Note down the person's details and report the incident to the police\n\n[Document 4]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 5]\nArrest without Warrant:\nPolice can arrest without a warrant in certain situations, such as:\n* If they witness a crime\n* If you're suspected of a serious offense\n* If you're a threat to public safety\nNote: The police must follow Tamil Nadu Police guidelines and the Code of Criminal Procedure, 1973.",
+  "retrieved_doc_ids": [
+    "847",
+    "33",
+    "2008",
+    "933",
+    "41"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6fffffa4c641e9852fd16c92387597c09fa4599bb326ab9f0a6e7a41df318e73",
+  "answer": "If you split up your grandma's stuff without asking, there are no specific legal repercussions mentioned in the documents. However, it's generally considered impolite and could cause tension. Police need a warrant to search or enter your house, and they can only do so in emergencies or with your consent. [Document 1] & [Document 2]",
+  "input_tokens": 424,
+  "output_tokens": 72,
+  "seconds": 9.512623099999473,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

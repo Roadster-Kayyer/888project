@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010348",
+  "doc_id": "980",
+  "query_type": "casual",
+  "query": "So how do I tell on cars used by my boss?",
+  "corpus_query_index": 10347,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nChecking Used Vehicle for Pending Cases:\nTo check if a used vehicle has pending cases, visit the Tamil Nadu Police website or the State Transport Department portal. You can also check the vehicle's history using the Vehicle Registration Number (VRN) or Chassis Number at the Regional Transport Office (RTO).\n\n[Document 2]\nOnline Job Fraud:\nIf you're a victim of online job fraud, report it to the nearest police station or cybercrime cell. Provide details like transaction IDs, emails, and phone numbers used by the fraudsters. You can also file a complaint on the National Cyber Crime Reporting Portal.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nVerifying Police Officer Authenticity:\nTo verify the authenticity of a police officer in plainclothes, ask for their:\n* ID card\n* Badge number\n* Contact the local police station to confirm their identity\n* Do not hesitate to ask for verification to ensure your safety\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "2056",
+    "147",
+    "849",
+    "1900",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "11669ee55392e703b4f128010839a96ce5b3b30115030e062132f974e7bf360d",
+  "answer": "To check if a car used by your boss has pending cases, visit the Tamil Nadu Police website or State Transport Department portal. Alternatively, use the VRN or Chassis Number at the RTO to check its history [Document 1]. For verifying a police officer, ask for their ID card, badge number, and contact the local police station for confirmation [Document 5].",
+  "input_tokens": 425,
+  "output_tokens": 77,
+  "seconds": 10.558948600002623,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

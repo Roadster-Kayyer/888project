@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_54",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the impact of passport changes on ABTC and provides accurate information from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the procedure for passport number change and its effect on ABTC, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\"\n}",
+      "input_tokens": 853,
+      "output_tokens": 154,
+      "seconds": 12.048681400003261,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly addresses the impact of passport changes on ABTC and provides accurate information from the documents.\"}",
+      "input_tokens": 893,
+      "output_tokens": 47,
+      "seconds": 3.71811109999544,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

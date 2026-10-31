@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006278",
+  "doc_id": "247",
+  "query_type": "casual",
+  "query": "How do they keep crowds in check during festivals in Tamil Nadu?",
+  "corpus_query_index": 6277,
+  "system": "Dense-RAG",
+  "reference_answer": "Crowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring",
+  "context": "[Document 1]\nCrowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring\n\n[Document 2]\nSafety at Cultural Festivals:\nTo stay safe at cultural festivals in Tamil Nadu, women should:\n* Attend with a group of friends or family\n* Stay in well-lit and crowded areas\n* Keep valuables secure and be aware of surroundings\n* Follow festival rules and instructions from authorities\n\n[Document 3]\nHosting Public Events:\nTo host a public event in Tamil Nadu, obtain a permit from the local police and district administration. Provide event details, including date, time, location, and expected attendance. Ensure compliance with noise pollution rules and public safety regulations.\n\n[Document 4]\nPublic Gatherings and Protests:\nIn Tamil Nadu, public gatherings and protests are regulated by the Tamil Nadu Public Order Act, 1939, and the Police Act, 1861. Organizers must obtain prior permission from the police, and gatherings must not disturb public order or peace.\n\n[Document 5]\nProcedure for Public Gatherings Clearance:\nTo get clearance for public gatherings in Tamil Nadu, apply to the local police station or commissioner's office with required documents, including event details and organizer information. Approval is granted based on safety and security assessments.",
+  "retrieved_doc_ids": [
+    "247",
+    "2001",
+    "2039",
+    "1756",
+    "213"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dc014af9e76e3a87aa26cc88a234c9582312af1d7e0d028dc52a616983d11a92",
+  "answer": "Tamil Nadu Police manages crowds during festivals through:\n- Adequate personnel deployment\n- Traffic management plans\n- Crowd control drills\n- Technology for surveillance [Document 1]",
+  "input_tokens": 406,
+  "output_tokens": 36,
+  "seconds": 4.746628200000487,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

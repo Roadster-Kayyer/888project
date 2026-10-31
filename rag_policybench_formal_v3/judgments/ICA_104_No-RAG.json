@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_104",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is relevant as it directly addresses the question about the use of a QR code for immigration clearance in Malaysia. However, it is not fully correct because it does not mention that passports are still required for identification during overseas travel, which is a key point in the reference. The faithfulness score is null due to the lack of direct evidence from the reference to support the claim made in the candidate answer.",
+      "input_tokens": 415,
+      "output_tokens": 160,
+      "seconds": 12.41174530000717,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

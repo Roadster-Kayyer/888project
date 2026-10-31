@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006442",
+  "doc_id": "277",
+  "query_type": "formal",
+  "query": "What methods are available for reporting domestic violence?",
+  "corpus_query_index": 6441,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.",
+  "context": "[Document 1]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 2]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.\n\n[Document 3]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint:\n1. Visit the nearest All Women Police Station or local police station\n2. Meet with a police officer and provide details of the incident\n3. File a written complaint (FIR) with supporting evidence\n4. Receive a copy of the FIR and follow up on the investigation status\n\n[Document 4]\nReporting Marital Rape:\nTo report marital rape, visit the nearest police station and file a complaint. Provide details of the incident, including date, time, and location. You will be assisted by a female police officer. You can also call the Tamil Nadu Police helpline (1091) for support.\n\n[Document 5]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint, visit the nearest police station or call 100. Provide details of the incident, and a complaint will be registered. You can also contact the Tamil Nadu State Commission for Women or a local NGO for support.",
+  "retrieved_doc_ids": [
+    "277",
+    "70",
+    "825",
+    "459",
+    "84"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d9aa691c7f3554454c8f432cf2fae6cc13d5a54b4f149ff20c6ab471366a65e4",
+  "answer": "To report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. Additionally, use the National Domestic Violence Helpline (181). For filing complaints, visit nearest police station or call 100. Details of the incident should be provided to start the process. [Document 1-5]",
+  "input_tokens": 439,
+  "output_tokens": 74,
+  "seconds": 9.516235700000834,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

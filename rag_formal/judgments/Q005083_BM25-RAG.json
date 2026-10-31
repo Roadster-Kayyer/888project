@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005083",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies EOW's investigative role and directly addresses its jurisdiction over economic crimes, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately states EOW's investigative role and corrects misconceived power to restore electricity, supported by Document 1.\",\n  \"evidence\": \"[Document 1] and \"[Document 5]\"\n}",
+      "input_tokens": 1058,
+      "output_tokens": 94,
+      "seconds": 7.743989500002499,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":1, \"relevance\":2, \"faithfulness\":2, \"reason\":\"Candidate answer correctly identifies EOW's investigative role and directly addresses its jurisdiction over economic crimes, supported by evidence from documents.\"}\n\n\n(Note: The scores are based on the assumption that the candidate's answer is accurate and relevant to the question asked, and that the provided documents (1-5) contain the necessary evidence to support the claim about the EOW's powers and jurisdiction. The reason succinctly explains the scores given.)",
+      "input_tokens": 1098,
+      "output_tokens": 124,
+      "seconds": 9.896741299999121,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

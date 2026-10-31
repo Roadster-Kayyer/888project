@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008697",
+  "doc_id": "683",
+  "query_type": "formal",
+  "query": "What sanctions are imposed on individuals who engage in violent behavior at sports matches?",
+  "corpus_query_index": 8696,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nPolice Sports Control Board:\nThe Police Sports Control Board in Tamil Nadu promotes sports among police personnel. It organizes tournaments, provides training, and selects teams for national and international competitions.\n\n[Document 2]\nTamil Nadu Police Sports Quota Recruitment:\nThe sports quota recruitment is for outstanding sports personnel. Candidates must meet the eligibility criteria and apply through the TNUSRB website. Selection is based on sports performance, written exams, and physical tests. Candidates must provide proof of their sports achievements.\n\n[Document 3]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 4]\nTamil Nadu Police Youth Engagement:\nTamil Nadu Police engages with youth through sports programs like:\n* Sports tournaments and events\n* Coaching and training sessions\n* Promoting fitness and discipline among youth\n\n[Document 5]\n3. Police Sports Division:\nThe Police Sports Division promotes fitness among police personnel by organizing sports events, training programs, and competitions, encouraging a healthy and active lifestyle.",
+  "retrieved_doc_ids": [
+    "2026",
+    "1491",
+    "688",
+    "1673",
+    "1590"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "fbe45cc21c46f1b855aabefb0b2098b10f40d75b953727418dc5bc6a4ea4dc08",
+  "answer": "[Document 1] and [Document 2] discuss sports programs but do not mention sanctions for violent behavior at sports matches. [Document 3] discusses penalties for assault with sexual intent under Section 354 IPC, which could apply to violent behavior at sports matches. However, specific sanctions are not detailed. [Document 4] and [Document 5] focus on promoting sports but don't address violent behavior. Missing specific information about sanctions.",
+  "input_tokens": 355,
+  "output_tokens": 93,
+  "seconds": 11.826455700000224,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

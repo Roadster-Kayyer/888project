@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_36",
+  "doc_id": "PB_73589fc4535bd159b21d",
+  "query_type": "ICA_134",
+  "query": "Do I have to retrieve or download and print the approved e-Visa to travel to Singapore?",
+  "reference_answer": "You are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.",
+  "corpus_query_index": 232,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 2]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 3]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 4]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 5]\nOnce payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.",
+  "retrieved_doc_ids": [
+    "PB_73589fc4535bd159b21d",
+    "PB_14d73bad1d062f8a0a27",
+    "PB_b5339301e0857337a248",
+    "PB_ee19c47e62eb004069ad",
+    "PB_ad0bcfeb32e6e7edb2c7"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8e3bf498c3ccede6d31b2e15e808ddacd96055f469e0bd3e9c8c2284e40ee9ba",
+  "answer": "No, you do not need to print the e-Visa. However, it is recommended to bring it for verification by airlines and immigration authorities. [Document 1]",
+  "input_tokens": 675,
+  "output_tokens": 36,
+  "seconds": 4.816768699995009,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

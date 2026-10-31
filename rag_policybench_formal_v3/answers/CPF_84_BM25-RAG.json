@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_84",
+  "doc_id": "PB_f5589d8ccc2a35f727e9",
+  "query_type": "CPF_111",
+  "query": "If I hold a fund under the CPF Investment Scheme that does not meet the stricter criteria, when must I exercise the switching option?",
+  "reference_answer": "Funds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.",
+  "corpus_query_index": 150,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 2]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nMembers who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.\n\n[Document 5]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+  "retrieved_doc_ids": [
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_8b587c7ab32751210874",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_7b930eae03f82435afed",
+    "PB_92b9ca8b9a7a3195d282"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05d612ad7e2af61fed395766aff4e267b9fb39e4e895bd8f7ee9198d639acbfa",
+  "answer": "Funds not meeting stricter criteria can accept new CPF contributions until December 2010, and you have until June 2011 to switch. [Document 1]",
+  "input_tokens": 413,
+  "output_tokens": 38,
+  "seconds": 5.146858500011149,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

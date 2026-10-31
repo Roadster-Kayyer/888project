@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_9",
+  "doc_id": "PB_4c6983683f465b70b78a",
+  "query_type": "medishield",
+  "query": "For how many years is Phased Support provided to all Singapore Citizens and Permanent Residents?",
+  "reference_answer": "Two years.",
+  "corpus_query_index": 330,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 3]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 4]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 5]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_19512072066023768385",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_552a298a8583e182f7ef"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ed243b4db8a4a58fba85ab64d463e30c3e6cfe2cb6c4169afc81e53ef007b11c",
+  "answer": "Phased Support is not mentioned in the documents provided. However, Permanent Residents are eligible for up to 10 years before potentially losing their citizenship due to long-term absence. [Document 1] & [Document 2]",
+  "input_tokens": 478,
+  "output_tokens": 47,
+  "seconds": 6.1012326999916695,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

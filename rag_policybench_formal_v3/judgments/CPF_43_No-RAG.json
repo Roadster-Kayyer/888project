@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_43",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence; correctness is assumed based on common practices."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence; correctness is assumed based on common practices.\",\n  \"evidence\": null\n}\n\n\n(Note: The \"faithfulness\" score is null because the candidate's answer does not contain direct evidence from the provided reference or retrieved evidence. In a real-world scenario, the candidate would need to cite specific documents or sources to support their claim for a higher faithfulness score.)",
+      "input_tokens": 366,
+      "output_tokens": 131,
+      "seconds": 9.97456489999604,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

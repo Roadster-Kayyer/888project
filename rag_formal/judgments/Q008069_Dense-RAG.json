@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008069",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly interprets Document 1, relevantly discusses context from Documents 2 and 3, and faithfully reflects the legal limitations on police-imposed signatures as outlined in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets Document 1, relevantly discusses context from Documents 2 and 3, and faithfully reflects the legal limitations on police-imposed signatures as outlined in the documents.\"\n}",
+      "input_tokens": 746,
+      "output_tokens": 192,
+      "seconds": 15.147783499996876,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

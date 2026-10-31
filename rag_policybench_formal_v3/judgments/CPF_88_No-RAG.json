@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_88",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the closure of SA but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly states the closure of SA but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is correct in stating the closure of the SA but it does not directly reference the evidence provided in the reference, which explains the application process and timeline. Therefore, the faithfulness score is null due to the lack of direct evidence in the candidate's answer.",
+      "input_tokens": 477,
+      "output_tokens": 127,
+      "seconds": 10.115780899999663,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

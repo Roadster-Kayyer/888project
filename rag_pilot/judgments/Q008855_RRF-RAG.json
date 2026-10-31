@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008855",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the range of penalties for dividing inherited wealth."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies potential penalties including civil suits, imprisonment, and fines, and references relevant documents supporting the specifics of penalties under various acts.\",\n}\n\n\nThe reason is succinct and directly relates to the scores given in correctness, relevance, and faithfulness. The candidate answer is relevant to the question, correctly identifies the types of penalties, and the evidence from the documents supports the claim about the nature of these penalties. The answer is not only relevant but also directly addresses the question, hence the scores are justified.",
+      "input_tokens": 848,
+      "output_tokens": 163,
+      "seconds": 12.871754300000248,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the range of penalties for dividing inherited wealth.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and comprehensive, and that the evidence provided in the documents supports the claims made in the answer. The reason given is a concise summary of the evaluation.",
+      "input_tokens": 888,
+      "output_tokens": 107,
+      "seconds": 9.054573700001129,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

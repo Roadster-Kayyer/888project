@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_94",
+  "doc_id": "PB_8ebe3f6918bf6e508aca",
+  "query_type": "CPF_111",
+  "query": "How do I change or delete my recurring cash top-up arrangement to receive the matching grant under Matched Retirement Savings Scheme?",
+  "reference_answer": "If you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.",
+  "corpus_query_index": 161,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 2]\nIf you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.\n\n[Document 3]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 4]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 5]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.",
+  "retrieved_doc_ids": [
+    "PB_0e779c5155a62f56c06e",
+    "PB_8ebe3f6918bf6e508aca",
+    "PB_377d7608d12421ff652e",
+    "PB_194e6b030eea394ac1a9",
+    "PB_283925c4e94ab32680ac"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "78c7cb7fa644a4cc4bc6618a2314808a8bcd9b604f5a1569626f8449e392c2ce",
+  "answer": "To change or delete a recurring cash top-up arrangement, use the Manage recurring cash top-ups for retirement form. [Document 2] Additionally, ensure you meet eligibility criteria like being a Singapore Citizen and having received cash top-ups. [Document 1]",
+  "input_tokens": 551,
+  "output_tokens": 52,
+  "seconds": 6.920641499993508,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

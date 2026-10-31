@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007118",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing specific steps and contact information for reporting bribery demands by a doctor."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing specific steps and contact information for reporting bribery demands by a doctor.\",\n  \"evidence\": \"[Document 3]\"\n}",
+      "input_tokens": 985,
+      "output_tokens": 192,
+      "seconds": 14.974336399995082,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

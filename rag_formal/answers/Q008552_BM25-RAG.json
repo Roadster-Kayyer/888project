@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008552",
+  "doc_id": "657",
+  "query_type": "formal",
+  "query": "What penalties can be imposed for acts of domestic violence?",
+  "corpus_query_index": 8551,
+  "system": "BM25-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.\n\n[Document 3]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint, visit the nearest police station or call 100. Provide details of the incident, and a complaint will be registered. You can also contact the Tamil Nadu State Commission for Women or a local NGO for support.\n\n[Document 4]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 5]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.",
+  "retrieved_doc_ids": [
+    "657",
+    "70",
+    "84",
+    "277",
+    "581"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9ddb5b4f2a5cf8e3c013446253059c2ad73a043846690304633a69eab5721363",
+  "answer": "Under the Protection of Women from Domestic Violence Act, 2005, penalties for domestic violence include imprisonment of up to 3 years and/or a fine. [Document 1]",
+  "input_tokens": 417,
+  "output_tokens": 39,
+  "seconds": 5.30878759999905,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

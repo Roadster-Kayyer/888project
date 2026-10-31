@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000834",
+  "doc_id": "1147",
+  "query_type": "search",
+  "query": "Can you guide me on how to obtain a certificate of non-objection from a court?",
+  "corpus_query_index": 833,
+  "system": "BM25-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nClaiming Inheritance in Tamil Nadu:\nTo claim inheritance, you need to:\n1. Obtain a death certificate\n2. Get a succession certificate from the court\n3. Apply for a legal heirship certificate from the Tahsildar office\n\n[Document 2]\nEstablishing a Private Plantation:\nTo establish a private plantation in Tamil Nadu, obtain a no-objection certificate from the Tamil Nadu Forest Department. Submit a proposal with details of the land, species to be planted, and management plan. The department will review and approve your proposal before granting permission.\n\n[Document 3]\nEstablishing a Private Plantation in Tamil Nadu:\nTo establish a private plantation, obtain a no-objection certificate from the Tamil Nadu Forest Department. Submit an application with land details, plantation plan, and other required documents. The department will review and approve your proposal.\n\n[Document 4]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 5]\nObtaining Permission for Events in PWD Grounds:\nTo obtain permission, apply to the concerned PWD Divisional Office or the District Collector's office. Submit required documents, including event details and safety measures. Pay the prescribed fee and obtain a no-objection certificate from the PWD department.",
+  "retrieved_doc_ids": [
+    "1841",
+    "1250",
+    "1232",
+    "1147",
+    "1283"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2e07f78807bec8b74ef09520578bf5f6e94092dcc090dd76abb0d02a02dd7b75",
+  "answer": "To obtain a certificate of non-objection from a court, file a petition with the court that issued the original order. Provide case details and identity proof. The court will verify and issue the certificate if no dues are pending [Document 4].",
+  "input_tokens": 430,
+  "output_tokens": 51,
+  "seconds": 6.563058000001547,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

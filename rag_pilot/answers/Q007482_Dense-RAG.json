@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007482",
+  "doc_id": "464",
+  "query_type": "formal",
+  "query": "What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?",
+  "corpus_query_index": 7481,
+  "system": "Dense-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nVoyeurism and Privacy Violations:\nThe Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.\n\n[Document 3]\nProtection for Women Facing Honor-Based Threats\nThe Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.\n\n[Document 4]\nReporting Sexual Harassment:\nTo report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 5]\nSocial Media Monitoring:\nThe Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.",
+  "retrieved_doc_ids": [
+    "464",
+    "450",
+    "453",
+    "827",
+    "1327"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "65be815fe86bb56bb8b93c1cde7e9b654efdb4a3d981085c8568a467c30175b0",
+  "answer": "The Tamil Nadu Police protect complainants' identities by maintaining confidentiality and using coded names in records. Victims can request anonymity, following Supreme Court guidelines. [Document 1]",
+  "input_tokens": 428,
+  "output_tokens": 35,
+  "seconds": 4.378939700000046,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

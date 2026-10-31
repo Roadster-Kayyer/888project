@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_115",
+  "doc_id": "PB_04de2d145d0ff95654be",
+  "query_type": "ICA_134",
+  "query": "How do I know when my citizenship ceremony will be held?",
+  "reference_answer": "Typically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.",
+  "corpus_query_index": 186,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 2]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 3]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 4]\nYou may contact us via the enquiry form on the request to reschedule your citizenship ceremony.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_04de2d145d0ff95654be",
+    "PB_46ec4c9c421699906017",
+    "PB_763506fa65f40c0150d3",
+    "PB_9b423fbf39ce2c64bb80",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13345f2961390f4cf3bfba402525a61b8c8f6fac39b30cc3adf80fe98df9ce0d",
+  "answer": "The citizenship ceremony will be held approximately 3-6 months after registering as a Singapore citizen. Details will be sent via email closer to the date. [Document 1]",
+  "input_tokens": 556,
+  "output_tokens": 36,
+  "seconds": 4.776745900002425,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_46",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question with evidence from Document 1 and Document 2, which are consistent with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference facts about fuel efficiency and emissions, supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 748,
+      "output_tokens": 70,
+      "seconds": 5.831226199996308,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question with evidence from Document 1 and Document 2, which are consistent with the reference.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence retrieved. The reason given is a concise explanation of the scores, indicating that the candidate's answer is both relevant and faithful to the evidence provided.",
+      "input_tokens": 788,
+      "output_tokens": 96,
+      "seconds": 7.83000109999557,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003598",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects changes in the complaint process, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects changes in the complaint process, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Filing a Property Dispute Complaint: Provide written complaint, submit supporting documents, and receive guidance.\"\n}",
+      "input_tokens": 900,
+      "output_tokens": 100,
+      "seconds": 7.981723099997907,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

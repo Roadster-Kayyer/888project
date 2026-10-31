@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000007",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the online filing process and mentions alternative in-person filing, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 729,
+      "output_tokens": 72,
+      "seconds": 7.710820500000409,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2588.04833984375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 769,
+      "output_tokens": 47,
+      "seconds": 4.050220199998876,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2594.8623046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

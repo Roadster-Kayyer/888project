@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_1",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies FIN as a 9-character alphanumeric code for foreigners with long-term passes in Singapore, issued by ICA or MOM, and correctly relates it to e-Pass issuance, supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies FIN as a 9-character code for foreigners with long-term passes, issued by ICA or MOM, and relates it to e-Pass issuance, supported by Document 1.\",\n}",
+      "input_tokens": 1013,
+      "output_tokens": 192,
+      "seconds": 13.984438800005591,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies FIN as a 9-character alphanumeric code for foreigners with long-term passes in Singapore, issued by ICA or MOM, and correctly relates it to e-Pass issuance, supported by all documents.\"}",
+      "input_tokens": 1053,
+      "output_tokens": 79,
+      "seconds": 6.049476000000141,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

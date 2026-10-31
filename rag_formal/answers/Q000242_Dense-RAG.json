@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000242",
+  "doc_id": "1040",
+  "query_type": "formal",
+  "query": "What steps are necessary to initiate a criminal case filing process?",
+  "corpus_query_index": 241,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling a Case in CBI Court:\nTo file a case in CBI Court, follow these steps:\n1. Lodge a complaint with the Central Bureau of Investigation (CBI).\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet in the CBI Court.\n\n[Document 3]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 4]\nFiling an Interlocutory Application:\nTo file an interlocutory application, you must submit a written petition to the court, stating the grounds and relief sought. The application should be filed during the pendency of a case, and the court will consider it and pass an order accordingly. Please consult the court rules and procedures for specific requirements.\n\n[Document 5]\nFiling Cases under SC/ST Prevention of Atrocities Act:\nTo file a case, report the incident to the nearest police station or the District Superintendent of Police. The police will register an FIR and investigate. You can also approach the Special Court or the District Magistrate for assistance.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1172",
+    "1116",
+    "1143",
+    "1961"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "30184f7ad067059653bbcd35eee1e1ed37641f62c38b16c8c3b23c5bc67e3a9e",
+  "answer": "To initiate a criminal case filing process, follow these steps:\n\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will take up the case. [Document 1]\n\nFor CBI Court, follow these steps:\n1. Lodge a complaint with the CBI.\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet. [Document 2]",
+  "input_tokens": 457,
+  "output_tokens": 103,
+  "seconds": 13.4179895999996,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

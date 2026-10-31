@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004840",
+  "doc_id": "187",
+  "query_type": "hard",
+  "query": "How can someone formally accuse banks of negligence for bounced checks?",
+  "corpus_query_index": 4839,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nFiling a Cheque Bounce Case in Tamil Nadu:\nTo file a cheque bounce case:\n1. Send a demand notice to the drawer\n2. File a complaint with the Judicial Magistrate Court\n3. Attach the bounced cheque and demand notice to the complaint\n\n[Document 2]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 3]\nFiling a Cheque Bounce Case:\nTo file a cheque bounce case, send a demand notice to the drawer within 30 days of cheque return. If unpaid, file a complaint under Section 138 of the Negotiable Instruments Act at the concerned court in Tamil Nadu, along with required documents, such as the bounced cheque and demand notice.\n\n[Document 4]\nCausing Death by Negligence:\nCausing death by negligence is punishable under Section 304A IPC, with imprisonment for up to 2 years and/or a fine.\n\n[Document 5]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.",
+  "retrieved_doc_ids": [
+    "1843",
+    "187",
+    "1074",
+    "663",
+    "958"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eda61837514701ec9214047332181195bc5721a95ef1379e0c6e59d38c557b10",
+  "answer": "Someone formally accusing banks of negligence for bounced checks should follow these steps:\n- For Tamil Nadu, send a demand notice to the drawer and file a complaint with the Judicial Magistrate Court.\n- Include the bounced cheque and demand notice in the complaint.\n- Alternatively, report it as a criminal offense by filing a complaint with the police station where the check was dishonored.\n- Ensure all documents are provided, as per local laws. [Document 1, Document 2]",
+  "input_tokens": 430,
+  "output_tokens": 96,
+  "seconds": 12.14815119999912,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

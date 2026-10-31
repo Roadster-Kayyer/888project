@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_101",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate's answer does not match the reference information regarding specific MediSave contribution amounts for different age groups."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer does not match the reference information regarding specific MediSave contribution amounts for different age groups.\"\n}\n\n(Note: The \"faithfulness\" key is set to null because the candidate's answer does not contain any substantive factual claims that can be directly compared to the evidence provided in the reference. The correct amounts are explicitly stated in the reference, which the candidate's answer does not accurately reflect.)",
+      "input_tokens": 689,
+      "output_tokens": 129,
+      "seconds": 9.98667280000518,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

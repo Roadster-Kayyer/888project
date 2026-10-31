@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_30",
+  "doc_id": "PB_b6b1e9a33645d01dc138",
+  "query_type": "BTT",
+  "query": "What is the recommended sequence to look at a junction according to the Basic Theory Test?",
+  "reference_answer": "Look right, then left, then right again.",
+  "corpus_query_index": 24,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 4]\nFasten the seat belt and look in the mirrors.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_1bd233e28127cfee0c86",
+    "PB_043f86bad043c042932a",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_492ee6967a595605ddf6",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "3b80856be716f9775841e89f8b08794c3f78a643cefff2414c6788bc2066b148",
+  "answer": "According to Document 1, Drivers should proceed to complete their turn and clear the junction. [Document 1]",
+  "input_tokens": 450,
+  "output_tokens": 24,
+  "seconds": 9.784730699997453,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

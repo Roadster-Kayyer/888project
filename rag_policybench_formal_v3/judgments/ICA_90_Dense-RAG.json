@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_90",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the reporting timeframe and outlines the steps to update the IC, consistent with Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the reporting timeframe and outlines the steps to update the IC, consistent with Document 1 and Document 2.\",\n  \"evidence\": \"Document 1 and Document 2\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly identifying the 28-day reporting requirement and providing the necessary steps to update the IC, which are supported by the evidence provided in Document 1 and Document 2. There are no omissions or unsupported claims, and the answer faithfully reflects the information in the documents.",
+      "input_tokens": 623,
+      "output_tokens": 158,
+      "seconds": 12.139074699996854,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

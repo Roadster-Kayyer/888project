@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_10",
+  "doc_id": "PB_d3d5f861b3deec1e8c73",
+  "query_type": "CPF_111",
+  "query": "Does the raising of the Enhanced Retirement Sum (ERS) affect my Basic Retirement Sum (BRS) and Full Retirement Sum (FRS)?",
+  "reference_answer": "No, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.",
+  "corpus_query_index": 57,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 2]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.\n\n[Document 3]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 4]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 5]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.",
+  "retrieved_doc_ids": [
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_ffdb8da43be014161737",
+    "PB_737eb8e9312fbade39a9",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_abe00f9d815aa54ee0f5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "30ffd719723dbde75af1301ca21e6ef58743e557e27e1b118be7e85f81bb1eaa",
+  "answer": "The raising of the Enhanced Retirement Sum (ERS) affects your monthly payouts in retirement, but not your Basic Retirement Sum (BRS) and Full Retirement Sum (FRS). You can top up to the new ERS limit of $426,000 in 2025 to receive higher monthly payouts. However, these changes only apply to future top-ups; your existing BRS and FRS remain unchanged. [Document 1]",
+  "input_tokens": 648,
+  "output_tokens": 93,
+  "seconds": 12.148982400001842,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

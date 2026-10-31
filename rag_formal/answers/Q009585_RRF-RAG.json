@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009585",
+  "doc_id": "842",
+  "query_type": "hard",
+  "query": "What methods are used to confirm someone's status as a servant?",
+  "corpus_query_index": 9584,
+  "system": "RRF-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nFIR Status Search:\nTo search for FIR status online, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and click on the \"FIR Status\" or \"Citizen Services\" section. Enter your FIR number and other required details to check the status.\n\n[Document 3]\nPolice Verification Application Status:\nTo check the status of your police verification application online, visit the Tamil Nadu Police Department's official website (www.tnpolice.gov.in) and follow the links to the \"Verification\" or \"Services\" section.\n\n[Document 4]\nTracking FIR Status in Tamil Nadu:\nTo track your FIR status, visit the Tamil Nadu Police website, click on \"FIR Status\", and enter your FIR number. You can also visit the police station where you filed the FIR or call the station's helpline number for updates.\n\n[Document 5]\nChecking Police Verification Status:\nTo check the status, visit the Tamil Nadu Police Department's website or contact the concerned police station where you applied. You can also use the online tracking system, if available, by entering your application reference number.",
+  "retrieved_doc_ids": [
+    "842",
+    "312",
+    "328",
+    "804",
+    "856"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "831fa2126cb8667a50212b2db7e7c8e88c20311135aa6fa6f32cca0080705556",
+  "answer": "For servant verification, submit an application to the local police station with ID proof, address, and employment details. The police conduct a background check and provide a report [Document 1]. To check FIR status, visit the Tamil Nadu Police Department's website and enter your FIR number [Document 2-5]. Police verification application status can be checked online or at the police station [Document 4, 5].",
+  "input_tokens": 395,
+  "output_tokens": 84,
+  "seconds": 10.559317300001567,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

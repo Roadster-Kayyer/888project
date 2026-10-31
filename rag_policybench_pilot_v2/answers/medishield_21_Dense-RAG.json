@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_21",
+  "doc_id": "PB_25ba54369b4af95adaad",
+  "query_type": "medishield",
+  "query": "What category of expenses are non-subsidised bills pro-rated for under the Medishield program?",
+  "reference_answer": "Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.",
+  "corpus_query_index": 316,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nNon-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\n\n[Document 2]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 3]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 4]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 5]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "retrieved_doc_ids": [
+    "PB_25ba54369b4af95adaad",
+    "PB_fd10bc60905030393bfb",
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_3808b698344f1c773560"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f7ba239b7793927d23fd68d0ffab0a8ed08a9bfcd37eb638101da348a92a81b5",
+  "answer": "Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition under the Medishield program. [Document 1]",
+  "input_tokens": 321,
+  "output_tokens": 31,
+  "seconds": 3.982797600001504,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2163.20947265625
+}

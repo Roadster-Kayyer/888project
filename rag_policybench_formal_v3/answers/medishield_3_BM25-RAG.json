@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_3",
+  "doc_id": "PB_147ee7a2086de2af862b",
+  "query_type": "medishield",
+  "query": "What is the pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma?",
+  "reference_answer": "67%",
+  "corpus_query_index": 324,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNon-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\n\n[Document 2]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 3]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.",
+  "retrieved_doc_ids": [
+    "PB_25ba54369b4af95adaad",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_d98d322f2936df748ef1",
+    "PB_86ecb50c3ba0c8242aab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d747cafe4b968c4aa1e7eda28afd179ccdc9d770afddce863aa26584d8b27994",
+  "answer": "Based on Document 1, the pro-ration factor for subsidised treatments like Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma applies to outpatient cancer treatments. However, Document 1 does not specify the exact pro-ration factor for permanent residents. [Document 1]",
+  "input_tokens": 433,
+  "output_tokens": 62,
+  "seconds": 8.23258199999691,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

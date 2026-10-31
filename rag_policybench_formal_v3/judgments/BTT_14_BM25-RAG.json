@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_14",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not directly address the question and lacks evidence from the documents about car parts and controls."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not directly address the question and lacks evidence from the documents about car parts and controls.\"\n}",
+      "input_tokens": 991,
+      "output_tokens": 192,
+      "seconds": 14.872503899998264,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

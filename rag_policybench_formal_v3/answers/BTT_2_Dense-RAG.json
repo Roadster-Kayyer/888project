@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_2",
+  "doc_id": "PB_dcec244efa94b7d5bbaf",
+  "query_type": "BTT",
+  "query": "What is the minimum tread depth required for tyres before they need to be replaced as per Singapore's Basic Theory Test?",
+  "reference_answer": "Tyres should be replaced if their tread depth is less than 1.6mm.",
+  "corpus_query_index": 12,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTyres should be replaced if their tread depth is less than 1.6mm.\n\n[Document 2]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 3]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 4]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 5]\nBasic theory of driving.",
+  "retrieved_doc_ids": [
+    "PB_dcec244efa94b7d5bbaf",
+    "PB_5b5856d1886897cce5a3",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_043f86bad043c042932a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0d251050c9b6b726066aa2c02664e44cf344289efdd145abd0b040ef2177d086",
+  "answer": "According to Document 1, the minimum tread depth required for tyres before replacement is 1. 6mm.",
+  "input_tokens": 316,
+  "output_tokens": 24,
+  "seconds": 3.3027111000046716,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

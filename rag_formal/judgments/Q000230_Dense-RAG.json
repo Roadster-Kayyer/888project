@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000230",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies necessary documents for civil disputes and property disputes, and FIRs, and directly references the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies necessary documents for civil disputes and property disputes, supported by Documents 1, 4, and 5.\",\n}",
+      "input_tokens": 872,
+      "output_tokens": 72,
+      "seconds": 5.610209300000861,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies necessary documents for civil disputes and property disputes, and FIRs, and directly references the provided documents.\"}",
+      "input_tokens": 912,
+      "output_tokens": 54,
+      "seconds": 4.385154199997487,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

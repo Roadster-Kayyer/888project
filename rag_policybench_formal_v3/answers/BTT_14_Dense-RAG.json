@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_14",
+  "doc_id": "PB_4e13954ab54d10e3d48d",
+  "query_type": "BTT",
+  "query": "What are the two sections mentioned in the document related to the Parts and Controls of a Car?",
+  "reference_answer": "Front View and Rear View.",
+  "corpus_query_index": 6,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAutomobile Association of Singapore (AAS) website.\n\n[Document 2]\nThe Wiper Switch.\n\n[Document 3]\nBasic theory of driving.\n\n[Document 4]\nIt indicates the centre line of a two-way road.\n\n[Document 5]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "retrieved_doc_ids": [
+    "PB_2633af100601ebe4d43f",
+    "PB_44fecebdc3e9128be8a9",
+    "PB_043f86bad043c042932a",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_68186a4dadd329687464"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4240fdbeae7e2ada63e9c564b32003b9f8b1b773907160064de433f8408d847c",
+  "answer": "[Document 1] mentions the two sections related to the Parts and Controls of a Car. However, the provided evidence does not specifically list these sections. [Document 1] appears to be about the Parts and Controls of a Car but lacks explicit mention of which two sections they are.",
+  "input_tokens": 263,
+  "output_tokens": 59,
+  "seconds": 7.52562190000026,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

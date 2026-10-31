@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004609",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the appeal process, specifies the time frames, and references the correct documents for appeal and payment procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the appeal process, specifies the time frames, and references the correct documents for appeal and payment procedures.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4\"\n}",
+      "input_tokens": 916,
+      "output_tokens": 91,
+      "seconds": 7.046295899999677,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

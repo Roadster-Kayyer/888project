@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004839",
+  "doc_id": "187",
+  "query_type": "search",
+  "query": "What's the legal way to report a bounced check as a crime?",
+  "corpus_query_index": 4838,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 2]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 3]\nVictim Compensation:\nTo get compensation as a victim of crime, you can apply to the Tamil Nadu State Legal Services Authority or the District Legal Services Authority. You will need to provide a copy of the FIR, medical reports, and other relevant documents.\n\n[Document 4]\nJoining as a Legal Advisor:\nTo join as a legal advisor, you must be a law graduate and apply through the Tamil Nadu Public Service Commission (TNPSC) or the Tamil Nadu Police Department's recruitment portal. You will need to meet the eligibility criteria and clear the selection process.\n\n[Document 5]\nFiling a Cheque Bounce Case in Tamil Nadu:\nTo file a cheque bounce case:\n1. Send a demand notice to the drawer\n2. File a complaint with the Judicial Magistrate Court\n3. Attach the bounced cheque and demand notice to the complaint",
+  "retrieved_doc_ids": [
+    "187",
+    "800",
+    "1120",
+    "1493",
+    "1843"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "12fd4662ba9ed86aa6bfc8a55a74f9401beab4d1ee7576f70d933246d1b7e366",
+  "answer": "To report a bounced check as a crime, file a complaint with the police station where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will investigate and may register a case under the Negotiable Instruments Act. [Document 1]",
+  "input_tokens": 439,
+  "output_tokens": 66,
+  "seconds": 8.427599399999963,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

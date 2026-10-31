@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008029",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects fines and imprisonment for harassment and unauthorized vending as per Documents 1 and 3, and correctly mentions penalties for minor street fights from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects fines and imprisonment for harassment and unauthorized vending as per Documents 1 and 3, and correctly mentions penalties for minor street fights from Document 2.\",\n  \"evidence\": \"Documents 1, 2, and 3 provide the necessary evidence to support the candidate's answer.\"\n}\n\n\nNote: The \"reason\" is a succinct explanation of the scores, which is included as part of the instruction but not part of the JSON object itself. The \"evidence\" key is included to indicate the documents that support the scores, but it is not a score in itself. The JSON object structure is designed to reflect the instruction's requirements",
+      "input_tokens": 836,
+      "output_tokens": 192,
+      "seconds": 15.534843599998567,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

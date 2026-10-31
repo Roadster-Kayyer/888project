@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_32",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"answer\": \"The candidate answer is partly correct but does not provide specific evidence from the reference to support the claim about registering a child's birth outside Singapore.\"\n}",
+      "input_tokens": 415,
+      "output_tokens": 92,
+      "seconds": 7.125295500009088,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

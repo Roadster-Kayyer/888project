@@ -1,0 +1,38 @@
+{
+  "query_id": "Q000902",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the age of criminal responsibility in Indian law as stated in Document 1, with direct relevance and full factual support."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the age of criminal responsibility in Indian law as stated in Document 1.\",\n}",
+      "input_tokens": 778,
+      "output_tokens": 192,
+      "seconds": 14.408693499997753,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the age of criminal responsibility in Indian law as stated in Document 1, with direct relevance and full factual support.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by evidence from Document 1.\"}\n\n(Note: The \"reason\" field is a brief explanation, and the exact wording can be adjusted to fit the context. The scores are consistent with the provided candidate answer being correct, relevant, and faithful to the evidence.)",
+      "input_tokens": 818,
+      "output_tokens": 153,
+      "seconds": 11.638365700000577,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required",
+  "parsing_recovery": {
+    "policy": "first complete valid JSON; all additional complete objects must agree on scores; ignore unfinished trailing duplicate; no score inference",
+    "attempt_index": 1,
+    "original_error": "Extra data: line 2 column 1 (char 219)",
+    "parser_sha256": "348e579869b5347d18a4f0f1307c96468eb1e061566fe3bf0be85140b8f2c590",
+    "utc": "2026-10-23T22:42:11.784941+00:00"
+  }
+}

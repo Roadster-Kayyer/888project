@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_111",
+  "doc_id": "PB_bdb09e6bcfb2726f4ea5",
+  "query_type": "CPF_111",
+  "query": "Can I withdraw my discounted Singtel shares when I reach 55 years old?",
+  "reference_answer": "You are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Sell your shares”.",
+  "corpus_query_index": 70,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 2]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 3]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+  "retrieved_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_5524a72cc3bbbca92a03",
+    "PB_10b7557459105ffc6c3e",
+    "PB_cc60baad4cbf9560588b",
+    "PB_bb4198b52a9a38049310"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d0f2e44893707e312a9fcccc3761c2b2abdafafcccfa1cc13c996a3be5325f1e",
+  "answer": "To withdraw your discounted Singtel shares, you must first set aside the Full Retirement Sum (FRS) in your Retirement Account by age 55. After setting aside the FRS, you can then withdraw your shares. [Document 1]",
+  "input_tokens": 856,
+  "output_tokens": 51,
+  "seconds": 7.25745660001121,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001341",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies the NDPS Act's coverage of drug-related offenses but fails to mention trafficking, which is part of the reference. The answer is relevant but incomplete."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies the NDPS Act's coverage of drug-related offenses but fails to mention trafficking, which is part of the reference. The answer is relevant but incomplete.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\n(Note: The \"faithfulness\" score is 2 because the candidate's answer is factually consistent with the evidence provided in Document 1, which supports the claim about the NDPS Act covering possession, sale, purchase, and manufacture of banned substances. However, the candidate's answer omits trafficking, which is also covered by the Act as per the reference, but since the instruction is to set faithfulness to null",
+      "input_tokens": 873,
+      "output_tokens": 192,
+      "seconds": 14.905135500001052,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

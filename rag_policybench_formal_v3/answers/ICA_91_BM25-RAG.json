@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_91",
+  "doc_id": "PB_a74f1879324f284c6dde",
+  "query_type": "ICA_134",
+  "query": "What is the average processing time for an application to renew or transfer Re-Entry Permit (REP) submitted online?",
+  "reference_answer": "The general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.",
+  "corpus_query_index": 293,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 2]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 3]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 4]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 5]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).",
+  "retrieved_doc_ids": [
+    "PB_a74f1879324f284c6dde",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_6c6fcaa3d9ba8be58b7b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dccdf19edc1094d4a23fcc2ddc2f7d45b5b855e613350e9c3ebe68f5a6abce69",
+  "answer": "The average processing time for REP renewal is within one week, and for REP transfer, it's within three working days when submitted online. [Document 1]",
+  "input_tokens": 424,
+  "output_tokens": 33,
+  "seconds": 4.500168200000189,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

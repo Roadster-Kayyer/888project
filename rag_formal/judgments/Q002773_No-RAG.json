@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002773",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the specific recruitment process for ministerial staff in the police force as outlined in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the specific recruitment process for ministerial staff in the police force as outlined in the reference.\",\n  \"evidence\": null\n}",
+      "input_tokens": 410,
+      "output_tokens": 75,
+      "seconds": 5.777127599998494,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

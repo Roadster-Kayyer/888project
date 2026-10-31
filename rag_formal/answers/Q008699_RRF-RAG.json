@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008699",
+  "doc_id": "683",
+  "query_type": "search",
+  "query": "What penalties are applied to those who act violently at sporting events?",
+  "corpus_query_index": 8698,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\nForeign Athletes During Sporting Events:\nFor foreign athletes, the protocol includes:\n1. Registration with the local police.\n2. Coordination with event organizers.\n3. Provision of security and assistance as needed.\n\n[Document 3]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.\n\n[Document 4]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 5]\nTraffic Violations and Penalties:\nIn Tamil Nadu, common traffic violations include speeding, jumping signals, and not wearing helmets. Penalties range from ₹100 to ₹10,000, depending on the offense. For specific penalties, visit the Tamil Nadu Police website or refer to the Motor Vehicles Act, 1988.",
+  "retrieved_doc_ids": [
+    "683",
+    "1800",
+    "540",
+    "720",
+    "164"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e623f295fb8b4b9085a6e9a5b8e0502c558afbb2f75d0f89fab0120fc88aa14a",
+  "answer": "Violent behavior at sporting events can lead to imprisonment for up to 1 year and/or a fine, according to the Tamil Nadu Public Order Act and the IPC. [Document 1]",
+  "input_tokens": 407,
+  "output_tokens": 39,
+  "seconds": 5.29229199999827,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

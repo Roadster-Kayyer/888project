@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001715",
+  "doc_id": "1306",
+  "query_type": "hard",
+  "query": "How might one acquire a diminished TDS endorsement in Tamil Nadu?",
+  "corpus_query_index": 1714,
+  "system": "BM25-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 2]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 3]\nMutual Consent Divorce Procedure:\nTo file for mutual consent divorce in Tamil Nadu, both parties must:\n1. Be married for at least one year.\n2. Agree to divorce mutually.\n3. File a joint petition in the Family Court.\n4. Wait for a six-month cooling period.\n5. Appear in court for a final hearing.\n\n[Document 4]\nTransferring a Case:\nTo transfer a case from one court to another in Tamil Nadu:\n1. File a transfer petition with the higher court (e.g., High Court).\n2. State the reasons for transfer.\n3. Pay the required court fees.\n4. The higher court will decide on the transfer.\n\n[Document 5]\nE-filing Registration for Income Tax in Tamil Nadu:\nTo register for e-filing, visit the Income Tax Department's e-filing portal and click on \"Register Yourself\". Fill in the required details, such as PAN, name, and address, and create a username and password. Verify your account through a one-time password sent to your registered mobile number and email ID.",
+  "retrieved_doc_ids": [
+    "1297",
+    "1306",
+    "1066",
+    "1959",
+    "1302"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d5e81ef4ac8bfa0f121a7bf4e35c4640f6cb08da621d16d206cb8fc85d44b66c",
+  "answer": "One acquires a diminished TDS endorsement by applying for a Lower TDS Certificate in Tamil Nadu. According to [Document 1], submit Form 13 to the Income Tax Department, providing required documents like PAN card and income proof. [Document 2] provides the procedure.",
+  "input_tokens": 503,
+  "output_tokens": 58,
+  "seconds": 7.4312408000005234,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

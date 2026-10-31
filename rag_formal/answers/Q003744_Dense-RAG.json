@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003744",
+  "doc_id": "1672",
+  "query_type": "search",
+  "query": "Can you tell me about the structure and functions of the Women Safety Committee?",
+  "corpus_query_index": 3743,
+  "system": "Dense-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nCommunity Safety Groups for Women:\nTo form a community safety group:\n* Gather like-minded women in the residential area\n* Discuss concerns and goals\n* Elect a leader to coordinate efforts\n* Collaborate with local police and authorities\n\n[Document 3]\nWomen's Safety in Remote Villages:\nSpecial measures for women's safety include:\n* Increased police presence and patrols\n* Women's helplines and dedicated cells\n* Community outreach and awareness programs\n* Collaboration with local organizations for support\n\n[Document 4]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 5]\nSafety Measures for Women at Public Gatherings:\nTo stay safe, women should:\n* Be aware of their surroundings\n* Stay in well-lit and crowded areas\n* Avoid walking alone at night\n* Keep emergency numbers handy\n* Inform friends or family about their whereabouts",
+  "retrieved_doc_ids": [
+    "1672",
+    "1902",
+    "1388",
+    "1682",
+    "1895"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "23c432b1c25b87e18315e6218221921e8272ef4301a4659a5ef6d1d2eed4d077",
+  "answer": "The Women Safety Committee in Tamil Nadu Police ensures women's safety through addressing complaints, providing counseling, and conducting awareness programs. It functions by:\n- Handling women's issues and offering support\n- Educating on women's rights and safety [Document 1]\n\nAdditionally, community safety groups are formed to address local concerns, while beach safety committees monitor and educate on beach safety. Women are advised to be aware, stay in groups, and keep emergency contacts handy for safety [Document 4 & 5]. [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 106,
+  "seconds": 13.748892199999318,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

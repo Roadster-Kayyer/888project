@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_5",
+  "doc_id": "PB_04745399e49d55ad64a3",
+  "query_type": "ICA_134",
+  "query": "Why is ICA removing the departure endorsement?",
+  "reference_answer": "The removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.",
+  "corpus_query_index": 247,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.\n\n[Document 2]\nICA no longer issues departure endorsements. You may use proxy documents, such as boarding passes as indicators of your exit record.\n\n[Document 3]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 4]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_04745399e49d55ad64a3",
+    "PB_35db64afc4b771d4dfd8",
+    "PB_b5339301e0857337a248",
+    "PB_ee19c47e62eb004069ad",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "26ce25d80def25f0a18b459ea5bfdc67a31cb5a74adbc87f4c541deb10fcc149",
+  "answer": "ICA is removing the departure endorsement to streamline procedures and make immigration clearance faster and more efficient. This change allows for quicker processing and use of proxy documents like boarding passes. [Document 1]",
+  "input_tokens": 620,
+  "output_tokens": 39,
+  "seconds": 5.098448700009612,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

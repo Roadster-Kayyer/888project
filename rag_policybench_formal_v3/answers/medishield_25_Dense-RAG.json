@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_25",
+  "doc_id": "PB_1dca0c51ba1dc68b6aca",
+  "query_type": "medishield",
+  "query": "What does MediShield Life protect Singapore Citizens and Permanent Residents against, regardless of their age or health condition?",
+  "reference_answer": "MediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "corpus_query_index": 320,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 2]\nThe electronic health declaration is in place for purposes of disease control, specifically to guard against importing diseases of concern, to protect the health of Singapore residents. Those who make false declarations may be prosecuted under the Infectious Diseases Act.\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 5]\nDental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+  "retrieved_doc_ids": [
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_1e36bd59d862bbf04f33",
+    "PB_d98d322f2936df748ef1",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_bc3e58093a0f6c39111b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cebd2f4da7702182448aba194192994d04ee50d76d9a8f6353e6ea07d6e34018",
+  "answer": "MediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills throughout their lives, regardless of age or health condition. [Document 1]",
+  "input_tokens": 295,
+  "output_tokens": 31,
+  "seconds": 4.128989300006651,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

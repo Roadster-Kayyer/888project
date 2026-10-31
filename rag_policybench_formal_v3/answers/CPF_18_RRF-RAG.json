@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_18",
+  "doc_id": "PB_bb4198b52a9a38049310",
+  "query_type": "CPF_111",
+  "query": "Why are different Contribute As You Earn (CAYE) contribution rates applied to different service fees?",
+  "reference_answer": "Contribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+  "corpus_query_index": 77,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 2]\nNo, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.\n\n[Document 3]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 4]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 5]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "retrieved_doc_ids": [
+    "PB_bb4198b52a9a38049310",
+    "PB_25b3bc98a8dc2f9afd1c",
+    "PB_43972d7faa0ccf029be3",
+    "PB_0b2919dbf107215d276f",
+    "PB_f79fde53917b7a3dd93a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e9e4d55a0adcf34e046abc7dc6aee0a0092eaaa2383a6fd8c2a76a924a98f7cc",
+  "answer": "Different CAYE contribution rates are applied because they adjust based on when your CAYE contribution rate changes or when you're no longer required to make them. Additionally, these rates apply to service fees starting from the next day after updating. The rates can vary based on whether you're using excess contributions to offset MediSave payable or earning interest on MediSave Account. [Document 1]",
+  "input_tokens": 792,
+  "output_tokens": 79,
+  "seconds": 10.686444199993275,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

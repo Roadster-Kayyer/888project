@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_37",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer partially addresses safety in reduced speed but lacks direct reference to speed adjustment for safety; Document 2 provides relevant information on safe following distance."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses safety in reduced speed but lacks direct reference to speed adjustment for safety; Document 2 provides relevant information on safe following distance.\",\n  \"evidence\": \"[Document 2]\"\n}",
+      "input_tokens": 973,
+      "output_tokens": 90,
+      "seconds": 7.207967199996347,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2683.49658203125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

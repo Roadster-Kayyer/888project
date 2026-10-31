@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008070",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by the reference which implies legal conditions for signature."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference, which implies legal conditions for signature.\n}\n\n\nNote: The evidence is not explicitly stated in the candidate answer, but the reference implies that there are legal conditions under which a signature is required, which the candidate answer correctly identifies. The absence of direct evidence in the candidate answer is not a flaw since the answer is logically derived from the implications of the reference.",
+      "input_tokens": 380,
+      "output_tokens": 131,
+      "seconds": 9.974613300000783,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is supported by the reference which implies legal conditions for signature.\"}",
+      "input_tokens": 420,
+      "output_tokens": 48,
+      "seconds": 3.8546986000001198,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

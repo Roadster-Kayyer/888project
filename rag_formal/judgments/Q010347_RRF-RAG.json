@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010347",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific details and referencing relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific details and referencing relevant documents.\"\n}\n\n\nThe candidate answer is correct in stating that one should report misuse of governmental transportation by calling 100 or visiting a local police station and providing the vehicle's registration number and misuse details, which aligns with the information in Document 1. It also correctly suggests reporting to the Tamil Nadu Vigilance Commission or the District Collector's office, which is supported by Document 2. The answer is relevant as it directly addresses the question and includes the necessary details for reporting. The faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence provided in the retrieved",
+      "input_tokens": 782,
+      "output_tokens": 192,
+      "seconds": 14.550438899997971,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

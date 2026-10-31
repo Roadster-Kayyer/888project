@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008909",
+  "doc_id": "720",
+  "query_type": "search",
+  "query": "What penalties can be imposed for duplicating a property's registration?",
+  "corpus_query_index": 8908,
+  "system": "BM25-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 2]\nManipulating Land Registration Documents:\nManipulating land registration documents is a serious offense under the Registration Act, 1908, and the Indian Penal Code. Penalties can include imprisonment up to 7 years and/or a fine for forgery and cheating.\n\n[Document 3]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 4]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 5]\nRegistering a Property Sale Deed in Tamil Nadu:\nTo register a property sale deed, visit the Sub-Registrar's office with required documents, including the sale deed, identity proof, and payment receipt. The process involves:\n- Filing the sale deed\n- Paying registration fees (7% of property value)\n- Verifying documents\n- Obtaining the registered deed",
+  "retrieved_doc_ids": [
+    "720",
+    "711",
+    "106",
+    "710",
+    "1081"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "959426f9c6ee8750cf024f8bfc8b50d5c01d903d6cf90bba45074036b1734ecd",
+  "answer": "For duplicating a property's registration, penalties can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also under the Registration Act, 1908 [Document 1, Document 2].",
+  "input_tokens": 445,
+  "output_tokens": 60,
+  "seconds": 8.799254099998507,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

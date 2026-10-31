@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_26",
+  "doc_id": "PB_e625576111e2a18d5ef0",
+  "query_type": "CPF_111",
+  "query": "What happens if I scan the generated PayNow QR code multiple times?",
+  "reference_answer": "To ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.",
+  "corpus_query_index": 86,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 2]\nThe QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).\n\n[Document 3]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_e625576111e2a18d5ef0",
+    "PB_dd26aa147490be0c459d",
+    "PB_b5339301e0857337a248",
+    "PB_33b32af818c8c4223f8f",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2883714702912e0b2a4c22cf5038dbb9ac46856f6ec5b3b1c2d883cb226cbe95",
+  "answer": "If you scan the generated PayNow QR code multiple times, the payment will be refunded. Each QR code is only valid for a single payment. [Document 1]",
+  "input_tokens": 490,
+  "output_tokens": 35,
+  "seconds": 4.742289800007711,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

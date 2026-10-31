@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_50",
+  "doc_id": "PB_33b32af818c8c4223f8f",
+  "query_type": "ICA_134",
+  "query": "Is there a limit to the number of profiles in a group QR code?",
+  "reference_answer": "A single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.",
+  "corpus_query_index": 248,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 2]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 3]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 4]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 5]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "retrieved_doc_ids": [
+    "PB_33b32af818c8c4223f8f",
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_b5339301e0857337a248",
+    "PB_bf4db8945d407eacbe6a",
+    "PB_09222d548a5f63af648a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c25508e2a2c6e7061050e2b4f9fc944a50db1e42835356b1eeb2eb189c188946",
+  "answer": "Yes, there is a limit to the number of profiles in a group QR code. Up to 10 profiles can be included [Document 1]. However, for specific vehicle types like \"Lorry\" or \"Bus\", only up to 4 profiles are allowed [Document 1]. Travellers can create multiple groups with different numbers of profiles based on their needs [Document 2].",
+  "input_tokens": 614,
+  "output_tokens": 80,
+  "seconds": 10.637804700003471,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_61",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 4, which states that GovCash balance is deducted upon successful payment and cannot be withdrawn or canceled."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 4, which states that GovCash balance is deducted upon successful payment and cannot be withdrawn or canceled.\",\n  \"evidence\": \"[Document 4]\"\n}\n\n\n{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 4.\",\n  \"evidence\": \"[Document 4]\"\n}\n\n\n{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"",
+      "input_tokens": 1082,
+      "output_tokens": 192,
+      "seconds": 14.856654699993669,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by Document 4, which states that GovCash balance is deducted upon successful payment and cannot be withdrawn or canceled.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is directly supported by the evidence provided in Document 4, which explicitly states the irreversibility of the GovCash payment once it has been made. There are no unsupported or contradicted factual claims in the candidate's answer.",
+      "input_tokens": 1122,
+      "output_tokens": 137,
+      "seconds": 10.569760200000019,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

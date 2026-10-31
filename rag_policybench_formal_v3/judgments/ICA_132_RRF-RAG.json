@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_132",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process for non-Singapore passport holders to update their passport details and mentions the importance of passport validity for travel, aligning with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process for non-Singapore passport holders to update their passport details and mentions the importance of passport validity for travel, aligning with the reference documents.\"\n}",
+      "input_tokens": 1228,
+      "output_tokens": 192,
+      "seconds": 14.835004699998535,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

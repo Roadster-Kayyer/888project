@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_13",
+  "doc_id": "PB_e3c25d5d6d3228d33a57",
+  "query_type": "medishield",
+  "query": "What is the relationship between members paying premiums during their working ages under MediShield Life and the benefits they receive?",
+  "reference_answer": "Members pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.",
+  "corpus_query_index": 307,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.\n\n[Document 2]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 5]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.",
+  "retrieved_doc_ids": [
+    "PB_e3c25d5d6d3228d33a57",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_d600f5b60cee68821fae",
+    "PB_f36114baa5e370122326"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "daf48baa53ea0104ef395e03626cbfd4c635b2495aa994dc7af7e6f4afc1cbcb",
+  "answer": "Members paying premiums during their working ages under MediShield Life receive premium rebates during their older ages. This system ensures that self-employed persons (SEPs) have MediSave savings for healthcare needs, especially during old age when they stop working. MediShield Life has a deductible ranging from $2,000 to $4,500 based on age and ward class. [Document 1]",
+  "input_tokens": 493,
+  "output_tokens": 82,
+  "seconds": 10.57452270000067,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

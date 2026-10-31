@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008030",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the relevant law and penalties for harassment of street vendors, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the relevant law and penalties for harassment of street vendors, supported by Document 2.\",\n  \"evidence\": \"[Document 2] - Punishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifies the specific law that applies to street peddlers, and the evidence from the documents supports the factual claims made in the answer. The reason succinctly explains the scores.",
+      "input_tokens": 804,
+      "output_tokens": 189,
+      "seconds": 14.538420400000177,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

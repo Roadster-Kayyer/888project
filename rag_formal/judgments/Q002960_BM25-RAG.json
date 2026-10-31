@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002960",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the methods for handling riots and civil disturbances, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the methods for handling riots and civil disturbances, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 823,
+      "output_tokens": 72,
+      "seconds": 5.6842647999983456,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the methods for handling riots and civil disturbances, supported by evidence from Documents 1 and 2.\"}\n\nNote: The scores are based on the candidate's answer being correct (2), relevant (2), and faithful (2) to the evidence provided in the documents. The reason succinctly explains the scores.",
+      "input_tokens": 863,
+      "output_tokens": 98,
+      "seconds": 7.737980600002629,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

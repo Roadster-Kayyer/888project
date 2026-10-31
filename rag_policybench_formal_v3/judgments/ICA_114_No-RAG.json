@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_114",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"answer\": \"If you have an In-Principle Approval (IPA) issued by either the Ministry of Manpower (MOM) or Immigration & Border Protection (ICA), you should select \\\"Yes\\\" for the SG Arrival Card (SGAC) field when applying.\"\n}",
+      "input_tokens": 433,
+      "output_tokens": 122,
+      "seconds": 9.43875709999702,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007954",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects penalties from documents for various threats, consistent with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects penalties from documents for various threats, consistent with the reference.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate answer correctly identifies the range of penalties for different types of threats as stated in the documents, which directly addresses the question. The evidence provided from the documents supports the factual claims made in the candidate answer, thus justifying the scores for correctness, relevance, and faithfulness.",
+      "input_tokens": 731,
+      "output_tokens": 163,
+      "seconds": 12.749611500003084,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

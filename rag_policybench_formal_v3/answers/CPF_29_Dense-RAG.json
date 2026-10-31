@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_29",
+  "doc_id": "PB_c1a387ce75f3f9c696bf",
+  "query_type": "CPF_111",
+  "query": "I received an email notification on topping up my and/or my loved ones’ retirement savings. How do I know if the notification is indeed sent by CPF Board?",
+  "reference_answer": "Members will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.",
+  "corpus_query_index": 89,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.\n\n[Document 2]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 3]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 4]\nCash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.\n\n[Document 5]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.",
+  "retrieved_doc_ids": [
+    "PB_c1a387ce75f3f9c696bf",
+    "PB_28af97b74168a5b5beb0",
+    "PB_09f08389f279dd1828ad",
+    "PB_15679d0d69b1e1e17f1d",
+    "PB_f06f7bf4b4cb01868d1c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6bd35c51b80c3ded1791f744fe110fd35a835aae6f2b57b94f322eca3d075e5d",
+  "answer": "To verify if the email is legitimate, check if the sender's email address is correctly spelled and ends with \"@e.cpf.gov.sg\" [Document 1]. Also, ensure any links you click end with \".gov.sg\" [Document 1]. [Document 1] provides additional context that such notifications are rare but can be delayed due to network issues.",
+  "input_tokens": 568,
+  "output_tokens": 74,
+  "seconds": 9.532543699999223,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

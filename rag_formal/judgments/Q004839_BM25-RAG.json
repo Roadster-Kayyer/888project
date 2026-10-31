@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004839",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing all relevant factual claims supported by the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing all relevant factual claims supported by the evidence.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly outlines the process of reporting a bounced check as a crime, and is fully supported by the evidence provided in Document 1. The answer is comprehensive and accurate, reflecting the information given in the reference. The reason succinctly explains the scores, indicating that the candidate's answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 856,
+      "output_tokens": 160,
+      "seconds": 12.235628200000065,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

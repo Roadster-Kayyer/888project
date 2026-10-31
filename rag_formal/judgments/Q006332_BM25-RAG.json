@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006332",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 3.\",\n  \"evidence\": \"Document 3 states that to get information about your case investigation, you can contact the investigating officer directly, visit the police station where the case was filed, and check the status online on the Tamil Nadu Police website.\"\n}",
+      "input_tokens": 750,
+      "output_tokens": 112,
+      "seconds": 8.948214199997892,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

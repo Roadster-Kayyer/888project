@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_62",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the method of applying for bonds and T-bills through the CPFIS-OA agent bank and references the correct documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\"correctness\": 2, \"relevance\": 2, \"faithfulness\": 2, \"reason\": \"Candidate answer correctly states the method of applying for bonds and T-bills through the CPFIS-OA agent bank and references the correct documents.\"}",
+      "input_tokens": 2031,
+      "output_tokens": 64,
+      "seconds": 5.442235499998787,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001522",
+  "doc_id": "1272",
+  "query_type": "formal",
+  "query": "How can one report a breach in the canal to the Public Works Department?",
+  "corpus_query_index": 1521,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nReporting Corruption in Government Tender Procedures:\nReport corruption to the Vigilance and Anti-Corruption Department or the Tamil Nadu Public Works Department. You can also contact the Central Vigilance Commission (CVC) or file a complaint on their website.\n\n[Document 3]\nReporting Damaged Government Buildings:\nTo report damaged government buildings, contact the Public Works Department (PWD) in Tamil Nadu through their official website or visit the nearest PWD office. You can also call the PWD helpline or submit a complaint through the Tamil Nadu Government's online grievance portal.\n\n[Document 4]\nReporting Water Disputes:\nTo report water disputes in villages, contact the local police station or village administrative officer. Provide details of the dispute, including the parties involved and the issue. The police will then direct you to the relevant authority, such as the Revenue Department or the Public Works Department, for resolution.\n\n[Document 5]\nReporting Data Privacy Breaches:\nIf you suspect a data privacy breach, report it to the company or organization involved. You can also file a complaint with the Tamil Nadu Police Cyber Crime Cell or the Information Technology Department. Provide as much detail as possible about the breach.",
+  "retrieved_doc_ids": [
+    "1272",
+    "436",
+    "1267",
+    "1390",
+    "926"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "33ed33b82d589f1e394469b2fa37d62cb29cd7f1031c97da1a88460807cb8b3a",
+  "answer": "To report a canal breach, contact the nearest Public Works Department (PWD) office or call their helpline immediately. Provide details like the location and your contact info. You can also report online at the PWD website or app. [Document 1]",
+  "input_tokens": 426,
+  "output_tokens": 52,
+  "seconds": 6.707497900000817,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

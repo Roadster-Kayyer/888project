@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_67",
+  "doc_id": "PB_533c97338e1e60662538",
+  "query_type": "ICA_134",
+  "query": "How do I check the status of my passport application or retrieve the application reference number?",
+  "reference_answer": "You may check the status of your online application or retrieve your application reference number by logging in to MyICA.For hardcopy applications, you may log in to our e-Service.",
+  "corpus_query_index": 266,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 2]\nYou may check the status of your online application or retrieve your application reference number by logging in to MyICA.For hardcopy applications, you may log in to our e-Service.\n\n[Document 3]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 4]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 5]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.",
+  "retrieved_doc_ids": [
+    "PB_c6456fad7242c379cac1",
+    "PB_533c97338e1e60662538",
+    "PB_73589fc4535bd159b21d",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_f8ef7d9186905c0df18a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "270ea18c21e45d86c94982c0fe8169ba700c2780d6169478dfcef0f1c987c2ab",
+  "answer": "For online applications, log in to MyICA or the ICA e-Service with your reference number to check status [Document 1, Document 2]. For hardcopy applications, use the ICA e-Service. Retrieve your application reference number through the e-Service with your visa application reference number and travel document number. [Document 3]",
+  "input_tokens": 424,
+  "output_tokens": 72,
+  "seconds": 9.402556100001675,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

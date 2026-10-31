@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002664",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct and relevant but lacks direct evidence from the reference.\",\n  \"answer_explanation\": \"While the candidate's answer correctly identifies potential higher ranks, it does not directly reference the provided evidence about advancement through promotions, exams, and training.\"\n}",
+      "input_tokens": 392,
+      "output_tokens": 103,
+      "seconds": 8.0681239000005,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

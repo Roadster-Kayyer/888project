@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_29",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 0,
+    "reason": "Candidate answer incorrectly associates green-down arrow with slippery roads, while reference indicates it's for merging lanes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer incorrectly associates green-down arrow with slippery roads, while reference indicates it's for merging lanes.\",\n  \"evidence\": \"Document 3\"\n}\n\n\nThe candidate answer is only partially correct as it does not accurately reflect the reference information that a green-down arrow indicates merging lanes, not slippery roads. The evidence provided (Document 3) supports the correct interpretation of merging arrows but does not directly support the candidate's claim about slippery roads. Therefore, the faithfulness score is 0. The reason succinctly explains the discrepancy between the candidate's answer and the reference.",
+      "input_tokens": 535,
+      "output_tokens": 182,
+      "seconds": 13.957083600005717,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

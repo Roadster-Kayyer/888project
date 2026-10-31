@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_44",
+  "doc_id": "PB_1d2f0adc9590216ed0ca",
+  "query_type": "ICA_134",
+  "query": "How do I report or provide information against immigration offenders and related activities?",
+  "reference_answer": "You may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.",
+  "corpus_query_index": 241,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 2]\nYou can submit a report on the misuse of your address.\n\n[Document 3]\nThe Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.\n\n[Document 4]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 5]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.",
+  "retrieved_doc_ids": [
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_9a8bc39406bbc966061a",
+    "PB_603be4b797f377a91761",
+    "PB_6cdb1150c49584cda270",
+    "PB_93b665013679b839e21c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c6bbf0319d2ad5800d4dd2f2c056590515618601e4443cfeb2fedcd1b3d01010",
+  "answer": "To report or provide information about immigration offenders, use the ICA online form. Ensure all details are correct at the start; changes can't be made after submission. [Document 1]",
+  "input_tokens": 490,
+  "output_tokens": 39,
+  "seconds": 5.11153490000288,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

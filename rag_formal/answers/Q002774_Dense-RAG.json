@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002774",
+  "doc_id": "1498",
+  "query_type": "search",
+  "query": "Can you tell me about the hiring procedure for high-ranking officers in police forces?",
+  "corpus_query_index": 2773,
+  "system": "Dense-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nPolice Recruitment Board Selection Process:\nThe Police Recruitment Board conducts selection processes through:\n* Written examinations\n* Physical fitness tests\n* Interviews and assessments\n* Verification of documents and background checks\n\n[Document 2]\n3. Police Recruitment Wing Role:\nThe Police Recruitment Wing attracts candidates by advertising job vacancies, conducting recruitment drives, and overseeing the selection process to ensure a fair and transparent hiring process for police positions in Tamil Nadu.\n\n[Document 3]\nRecruitment Process for Police Drivers:\nThe recruitment process for police drivers involves a written exam, driving test, and physical fitness test. Candidates must have a valid driving license and meet the prescribed age and educational qualifications. The selection process is based on merit and reservation rules.\n\n[Document 4]\nArmed Reserve Police Recruitment:\nThe recruitment process for the Armed Reserve Police involves a written exam, physical measurement test, and physical efficiency test. Candidates must meet the eligibility criteria, including age, education, and physical standards. The selection process is conducted by the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB).\n\n[Document 5]\nPolice Special Task Force:\nThe Police Special Task Force handles high-risk operations by:\n* Conducting thorough risk assessments\n* Deploying trained personnel with specialized equipment\n* Following established protocols for hostage situations, raids, and other high-risk scenarios",
+  "retrieved_doc_ids": [
+    "1581",
+    "1602",
+    "1502",
+    "1484",
+    "1609"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f6e3f09669176acaabe46054ce8a8b6c67ddefff3397c76a05d3b4dd3a942c94",
+  "answer": "The hiring procedure for high-ranking officers in police forces typically includes written examinations, physical fitness tests, interviews, and background checks. [Document 1] It also involves specific tests like driving tests for police drivers and physical efficiency tests for Armed Reserve Police. [Document 4] For high-risk roles, a thorough risk assessment and specialized training are crucial. [Document 5]",
+  "input_tokens": 390,
+  "output_tokens": 76,
+  "seconds": 9.802972800000134,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

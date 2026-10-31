@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_38",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Documents 1 and 2, which provide the necessary details about receiving the IPA letter via ICA e-Service after approval."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by Document 1 and Document 2.\",\n}",
+      "input_tokens": 952,
+      "output_tokens": 65,
+      "seconds": 5.39369360001001,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by Documents 1 and 2, which provide the necessary details about receiving the IPA letter via ICA e-Service after approval.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer includes specific information from the retrieved documents that support the factual claim about receiving the IPA letter after approval. There is no evidence of unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 992,
+      "output_tokens": 128,
+      "seconds": 9.93063259999326,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

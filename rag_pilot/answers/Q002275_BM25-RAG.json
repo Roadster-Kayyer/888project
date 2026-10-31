@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002275",
+  "doc_id": "1407",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?",
+  "corpus_query_index": 2274,
+  "system": "BM25-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nClaiming Compensation for Human Injury/Death:\nTo claim compensation for human injury or death caused by wild animals, submit an application to the Tamil Nadu Forest Department or the District Collector's office. Provide required documents, such as medical certificates and proof of incident. The compensation amount will be decided as per the Tamil Nadu Government's guidelines.\n\n[Document 2]\nTamil Nadu Police and CERT-In:\nThe Tamil Nadu Police coordinates with CERT-In (Computer Emergency Response Team-India) to report and respond to cyber attacks. CERT-In provides technical assistance, and the Tamil Nadu Police takes action based on their recommendations to mitigate cyber threats.\n\n[Document 3]\nRights of Differently-Abled People:\nDifferently-abled individuals have the right to:\n* Equal access to police services\n* Reasonable accommodations and assistance\n* Respect and dignity in interactions with police\n* File complaints and seek redressal if needed\n\n[Document 4]\nMedia Interactions:\nThe Tamil Nadu Police follows ethical guidelines for media interactions, including:\n* Being truthful and transparent\n* Respecting privacy and confidentiality\n* Avoiding sensationalism and speculation\n* Providing accurate and timely information\n\n[Document 5]\nEmergency Response Protocols\n\n1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.\n\n2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.\n\n3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.",
+  "retrieved_doc_ids": [
+    "1230",
+    "158",
+    "1445",
+    "1438",
+    "1552"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b6b2cd3f2d8273c22309894347f096cf3e08dfae1ceaed59785ec467e205eaa6",
+  "answer": "The Tamil Nadu Police mitigates animal-related issues through the Forest Department for human injuries/deaths due to wild animals. For other concerns, they coordinate with CERT-In for cyber threats and follow emergency response protocols for critical infrastructure threats, temple stampedes, and dam breaches. [Document 1]",
+  "input_tokens": 525,
+  "output_tokens": 59,
+  "seconds": 7.250093599999673,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2069.16650390625
+}

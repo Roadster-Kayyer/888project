@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002956",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the procedure but lacks specific reference to the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the procedure but lacks specific reference to the provided evidence.\",\n  \"evidence\": null\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it discusses the deployment of law enforcement and resource allocation during riots, which are part of the emergency response procedure. However, it does not directly reference the specific measures mentioned in the reference, such as riot control police units, non-lethal crowd control measures, or the restoration of law and order, which are crucial for a complete answer. The faithfulness score is null because there is no substantive factual claim directly supported by the supplied evidence, which in this case is absent. The reason succinctly explains the scores",
+      "input_tokens": 420,
+      "output_tokens": 192,
+      "seconds": 14.544274800002313,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

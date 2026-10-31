@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008030",
+  "doc_id": "562",
+  "query_type": "hard",
+  "query": "What sanctions could street peddlers expect if they're constantly bothered?",
+  "corpus_query_index": 8029,
+  "system": "Dense-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nGas Cylinder Subsidy Fraud:\nThe penalty for gas cylinder subsidy fraud is imprisonment up to 3 years and a fine under the Essential Commodities Act, 1955, and the LPG (Regulation of Supply and Distribution) Order, 2000.\n\n[Document 2]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 3]\nThreatening Public Transportation Drivers:\nThreatening public transportation drivers is a punishable offense under the Indian Penal Code (IPC). The penalty can range from imprisonment for 1-3 years and/or a fine, depending on the severity of the threat.\n\n[Document 4]\nWelfare Scheme Fraud:\nFraud in welfare schemes is punishable under the IPC and the Tamil Nadu Public Properties (Prevention of Damage and Loss) Act, with imprisonment up to 3 years and a fine, depending on the severity of the offense.\n\n[Document 5]\nLegal Consequences for Causing Minor Public Disturbances:\nCausing minor public disturbances can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month under the Tamil Nadu Police Act, 1859.",
+  "retrieved_doc_ids": [
+    "620",
+    "562",
+    "589",
+    "615",
+    "515"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fcdb7ba16099e0c7ec5a5fd3ee472af596b46fc3fdbf6eb07358493410c75581",
+  "answer": "Street peddlers who are constantly bothered could face penalties including up to 3 years in prison and fines up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules [Document 2].",
+  "input_tokens": 407,
+  "output_tokens": 55,
+  "seconds": 7.118355200000224,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

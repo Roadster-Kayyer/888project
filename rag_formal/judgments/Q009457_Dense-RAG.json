@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009457",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully faithful to the evidence provided in the documents. The documents clearly state that All Women Police Stations handle cases related to crimes against women and children, which includes domestic violence, harassment, and abuse. The evidence from Document 1 and Document 5 directly supports the factual claims made in the candidate's answer. The reason succinctly explains the scores, indicating that the answer is accurate, directly relevant, and supported by the evidence.",
+      "input_tokens": 723,
+      "output_tokens": 181,
+      "seconds": 13.9409885999994,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001073",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies methods for verifying a judge's ruling and filing complaints, supported by evidence from Documents 1-4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods for verifying a judge's ruling and filing complaints, supported by evidence from Documents 1-4.\"\n}\n\n\nThe candidate answer directly addresses the question by providing specific actions to take when verifying a judge's ruling and filing complaints, which are directly supported by the evidence provided in the retrieved documents. The answer is correct, relevant, and faithful to the evidence, as it includes the necessary steps and references the appropriate documents. The reason succinctly explains the scores, indicating that the answer is well-informed and based on the provided evidence.",
+      "input_tokens": 800,
+      "output_tokens": 168,
+      "seconds": 13.247483400002238,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001549",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the procedure for requesting road safety measures, which is relevant to road expansion funding, and is supported by Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the procedure for requesting road safety measures, which is relevant to road expansion funding, and is supported by Document 4.\",\n  \"evidence\": \"[Document 4]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps to request funding for road safety measures, which is a part of road expansion projects. The answer is relevant as it pertains to the Tamil Nadu PWD's process for handling such requests. The faithfulness score is 2 because the candidate's answer is supported by Document 4, which provides the necessary evidence for the claim. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to",
+      "input_tokens": 824,
+      "output_tokens": 192,
+      "seconds": 14.930620099999942,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

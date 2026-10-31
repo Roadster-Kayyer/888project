@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_42",
+  "doc_id": "PB_efc8a8e9bd021e1f3ab7",
+  "query_type": "ICA_134",
+  "query": "How can I cancel a Short-Term Visit Pass?",
+  "reference_answer": "The Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.",
+  "corpus_query_index": 239,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 2]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 3]\nUpon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.\n\n[Document 4]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 5]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "retrieved_doc_ids": [
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_bc945ef27bfe4a4e76b0",
+    "PB_ffb44a115e698c779310",
+    "PB_a5deb8741f88193f4891"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8982693a0f5c2d7e42ef570c0094e67c5c92d77fb2fd772e11871ffab293f80b",
+  "answer": "A Short-Term Visit Pass (STVP) does not require cancellation; it expires automatically. If departing early, there's no need to cancel it. [Document 1]",
+  "input_tokens": 552,
+  "output_tokens": 37,
+  "seconds": 4.865742299996782,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

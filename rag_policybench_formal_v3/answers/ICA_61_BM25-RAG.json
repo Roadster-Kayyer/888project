@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_61",
+  "doc_id": "PB_28ec022d3591816d8720",
+  "query_type": "ICA_134",
+  "query": "Can I register/replace my IC when I am residing overseas?",
+  "reference_answer": "You need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.",
+  "corpus_query_index": 260,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 4]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_28ec022d3591816d8720",
+    "PB_cc60baad4cbf9560588b",
+    "PB_bb4198b52a9a38049310",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "585e4ebf0cbf8e0271a43682118ed5ea861c7cfea15a17611810d557f249c99c",
+  "answer": "You can register/replace your IC if you plan to return to Singapore within six months. Otherwise, you must do it in person. [Document 1]",
+  "input_tokens": 772,
+  "output_tokens": 33,
+  "seconds": 4.52953049998905,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

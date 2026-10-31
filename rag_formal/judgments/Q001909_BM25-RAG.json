@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001909",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the use of digital forensics by the Tamil Nadu Police, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the use of digital forensics by the Tamil Nadu Police and is supported by Document 1.\",\n}",
+      "input_tokens": 812,
+      "output_tokens": 69,
+      "seconds": 5.583117199999833,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the use of digital forensics by the Tamil Nadu Police, supported by evidence from Document 1.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly relevant to the question, and fully supported by the evidence provided in the retrieved documents. The reason given is a concise explanation of the scores assigned.",
+      "input_tokens": 852,
+      "output_tokens": 108,
+      "seconds": 8.347833499999979,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

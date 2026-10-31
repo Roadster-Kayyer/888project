@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008852",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the legal repercussions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies multiple legal repercussions and supports them with evidence from multiple documents.\",\n}",
+      "input_tokens": 815,
+      "output_tokens": 192,
+      "seconds": 15.421829900000375,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the legal repercussions.\"}\n**Note:** The scores provided are based on the assumption that the candidate's answer is accurate and comprehensive, as indicated by the evidence provided in the documents. The reason given is a summary of the overall assessment. In a real-world scenario, the evaluation would require a detailed analysis of the candidate's answer in relation to the specific content of the documents.",
+      "input_tokens": 855,
+      "output_tokens": 128,
+      "seconds": 10.187217900000178,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

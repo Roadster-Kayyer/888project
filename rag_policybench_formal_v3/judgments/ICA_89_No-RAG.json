@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_89",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"candidate_answer\": \"If your old passport with registered details has expired, you should update your new passport details for automated clearance systems. [Document N] doesn't provide specific information.\"\n}",
+      "input_tokens": 488,
+      "output_tokens": 102,
+      "seconds": 7.761046899991925,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

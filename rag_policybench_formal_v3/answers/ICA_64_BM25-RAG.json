@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_64",
+  "doc_id": "PB_963bfe00032464e36f8d",
+  "query_type": "ICA_134",
+  "query": "What is required for a LTVP holder to work in Singapore?",
+  "reference_answer": "LTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.",
+  "corpus_query_index": 263,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 2]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 3]\nLTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.\n\n[Document 4]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_93b665013679b839e21c",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_963bfe00032464e36f8d",
+    "PB_552a298a8583e182f7ef",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2689e47ac3d823c580122603299f05b0c731e46a872c20e2c8591b4f7307bdf9",
+  "answer": "An LTVP holder in Singapore needs to update their passport details via e-Service and obtain a Letter of Consent (LOC) from the Ministry of Manpower before commencing work. [Document 1] & [Document 3]",
+  "input_tokens": 661,
+  "output_tokens": 48,
+  "seconds": 6.5811058999970555,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007126",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses all rights mentioned in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses all rights mentioned in the reference documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 5]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly summarizing the rights of an individual when arrested as outlined in the provided documents. The answer includes all the key points such as knowing the reason for arrest, contacting a lawyer, remaining silent, requesting medical attention, being produced before a magistrate, and consulting a lawyer during interrogations. The evidence provided (Documents 1, 2, 3, and 5) supports the factual claims made in the candidate answer, thus the faithfulness score is",
+      "input_tokens": 713,
+      "output_tokens": 192,
+      "seconds": 14.835139199996775,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

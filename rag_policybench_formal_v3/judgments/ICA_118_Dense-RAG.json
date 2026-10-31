@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_118",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the meaning of the arrival date in SGAC and is supported by the documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the meaning of the arrival date in SGAC and does not falsely claim it refers to the embarkation date from the last port. Evidence from Document 1 supports this claim.\",\n}",
+      "input_tokens": 949,
+      "output_tokens": 192,
+      "seconds": 14.740232600001036,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the meaning of the arrival date in SGAC and is supported by the documents provided.\"}",
+      "input_tokens": 989,
+      "output_tokens": 49,
+      "seconds": 4.06996789999539,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

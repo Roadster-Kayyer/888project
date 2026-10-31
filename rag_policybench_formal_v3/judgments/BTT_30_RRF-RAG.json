@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_30",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer partially addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] Drivers should proceed to complete their turn and clear the junction.\"\n}\n\n\nThe correctness score is 1 because the candidate answer is partly correct, as it refers to completing a turn at a junction, which is relevant to the sequence of looking at a junction. However, it does not explicitly mention the sequence of looking right, then left, then right again, which is a key part of the reference.\n\nThe relevance score is 1 because the candidate answer is relevant to the question as it pertains to actions taken at a junction, which is the context of the question",
+      "input_tokens": 728,
+      "output_tokens": 192,
+      "seconds": 15.22602659999393,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

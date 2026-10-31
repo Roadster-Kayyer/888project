@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_16",
+  "doc_id": "PB_0e1de73acbe3ab7138ec",
+  "query_type": "CPF_111",
+  "query": "Why is the deduction still happening after I have successfully deleted my recurring cash top-up arrangement?",
+  "reference_answer": "To ensure that your deduction request takes effect from current month onwards, delete it at least three working days before the current monthdeduction. Else, the deduction will still proceed.",
+  "corpus_query_index": 75,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.\n\n[Document 2]\nTo ensure that your deduction request takes effect from current month onwards, delete it at least three working days before the current monthdeduction. Else, the deduction will still proceed.\n\n[Document 3]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 4]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_8ebe3f6918bf6e508aca",
+    "PB_0e1de73acbe3ab7138ec",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_dfb47de04d492b3b972f",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e2a75ddbf9e90e015b2f77e5635dd648af3b2147fb1b2cc0e6d11277d6f015d2",
+  "answer": "The deduction might still happen because deleting the arrangement doesn't immediately stop it. According to [Document 1], you need to delete it at least 3 working days before the current month's deduction date for it to take effect. Deleting it now won't halt the ongoing deduction. [Document 2] confirms this process.",
+  "input_tokens": 628,
+  "output_tokens": 66,
+  "seconds": 8.610799999994924,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

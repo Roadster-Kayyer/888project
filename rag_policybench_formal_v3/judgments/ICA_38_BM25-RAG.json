@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_38",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] You will receive a notification to download the outcome letter with relevant instructions at ICA e-Service when your application status is 'In-Principle Approval'.\",\n  \"faithfulness_evidence\": \"[Document 1] directly supports the factual claim made in the candidate answer.\"\n}",
+      "input_tokens": 1035,
+      "output_tokens": 192,
+      "seconds": 14.56817779999983,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

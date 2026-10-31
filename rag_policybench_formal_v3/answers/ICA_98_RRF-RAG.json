@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_98",
+  "doc_id": "PB_bf4db8945d407eacbe6a",
+  "query_type": "ICA_134",
+  "query": "What happens if travellers do not have mobile data to access the QR Code in MyICA mobile app?",
+  "reference_answer": "The QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.",
+  "corpus_query_index": 300,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 4]\nThe QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_b5339301e0857337a248",
+    "PB_09222d548a5f63af648a",
+    "PB_bf4db8945d407eacbe6a",
+    "PB_dd26aa147490be0c459d",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "77b9fcf9dcf964d4ab2796df9f842874bc3a00406d71d3fcfe452abf0b7e5c40",
+  "answer": "If travellers don't have mobile data, they can still create and retrieve QR codes for self-scanning at immigration counters. The QR code's validity extends until the passport expires, and the app will warn when the passport is about to expire. They can regenerate the QR code even offline, ensuring they can access the QR Code in MyICA mobile app. [Document 1]",
+  "input_tokens": 570,
+  "output_tokens": 76,
+  "seconds": 9.937753200007137,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

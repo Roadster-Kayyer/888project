@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_31",
+  "doc_id": "PB_197ecc94e6c4cbcb96e9",
+  "query_type": "ICA_134",
+  "query": "What is the difference between a business visa and a social visa?",
+  "reference_answer": "A business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.",
+  "corpus_query_index": 227,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nA business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.\n\n[Document 4]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_197ecc94e6c4cbcb96e9",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_98e41a7d780bc8508f25",
+    "PB_ee19c47e62eb004069ad",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "330b2ac07736d0343a73e146b65440f9e224027610473aaada0ff079bf728a94",
+  "answer": "A business visa is applied by a company for business purposes, while a social visa is applied by individuals/families for social visits. [Document 1] Additionally, a business visa requires a local contact to be a Singapore citizen or permanent resident, whereas a social visa can be applied by anyone. [Document 2]",
+  "input_tokens": 570,
+  "output_tokens": 65,
+  "seconds": 8.544342699999106,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

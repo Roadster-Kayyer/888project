@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_49",
+  "doc_id": "PB_5e87133ca7da061eb257",
+  "query_type": "ICA_134",
+  "query": "What are the documents required for IC collection?",
+  "reference_answer": "You must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.",
+  "corpus_query_index": 246,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 2]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 3]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 4]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 5]\nYou must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.",
+  "retrieved_doc_ids": [
+    "PB_6a73d290ca55b1465a81",
+    "PB_2e64264f3a3803434cab",
+    "PB_28996cba71bdbe7d5436",
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_5e87133ca7da061eb257"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "424c75041be204a832747e65aa6822fd3ee5de1d73c099f0a4032423ae407e11",
+  "answer": "For yourself: IC, current passport. For a child: Child's birth certificate, IC of consenting parent, child's passport. Additional: Signed authorisation letter, IC of authorised person. Original documents needed. [Document 1]",
+  "input_tokens": 637,
+  "output_tokens": 48,
+  "seconds": 6.166408200006117,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

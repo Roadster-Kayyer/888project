@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004958",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from the documents to provide specific actions and resources."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from the documents to provide specific actions and resources.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4]\"\n}\n\n\nThe candidate answer is directly relevant to the question, as it suggests using the Tamil Nadu Police's resources, which is in line with the information provided in Document 1. It also correctly mentions the Victim Compensation Scheme from Document 2, which is relevant for financial support. The advice to stay informed via the police website or social media is supported by Document 4. There are no unsupported claims or omissions, and the answer is fully supported by the evidence provided.",
+      "input_tokens": 847,
+      "output_tokens": 186,
+      "seconds": 14.294289500001469,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

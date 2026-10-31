@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002128",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question, mentioning police roles and limitations in tribal forests, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question, mentioning police roles and limitations in tribal forests, but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses the role of police in tribal forests and their limitations, which is related to the question. However, it does not directly cite the reference provided, which would have been necessary for a higher faithfulness score. The correctness score is 1 because the answer is partly correct but omits specific details about how police handle violations, such as registering complaints and collaborating with forest departments. The relevance score is 1 because the answer addresses the question about police involvement in trib",
+      "input_tokens": 447,
+      "output_tokens": 192,
+      "seconds": 14.586857800000871,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

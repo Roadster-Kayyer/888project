@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_2",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn the given scenario, the candidate answer does not directly reference the specific method mentioned in the reference (clicking the \"Check Application Status\" function in the e-Service). Therefore, while the answer is relevant to the question, it does not fully align with the evidence provided in the reference. The correctness score is 1 because the answer is partly correct but omits the crucial detail of using the e-Service. Faithfulness is null because there is no substantive factual claim in the answer that can be directly supported or contradicted by the supplied evidence.",
+      "input_tokens": 351,
+      "output_tokens": 184,
+      "seconds": 13.178817899999558,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

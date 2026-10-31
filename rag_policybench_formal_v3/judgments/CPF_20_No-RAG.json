@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_20",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the reference's explanation of the PRN's role in transaction verification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference's explanation of the PRN's role in transaction verification.\",\n  \"retrieved_evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it directly addresses the concern about losing the PRN and its implications for security. The answer is correct in stating that someone else cannot take the money without the PRN, which aligns with the reference's emphasis on the PRN's importance for transaction verification. The faithfulness score is 2 because the candidate's answer is substantiated by the reference's explanation of the verification process, even though the specific evidence (Document 1) is not detailed in",
+      "input_tokens": 497,
+      "output_tokens": 192,
+      "seconds": 15.083582899998873,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

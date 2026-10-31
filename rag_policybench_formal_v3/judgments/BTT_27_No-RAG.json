@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_27",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"system_answer\": \"It is permissible only in the event of a breakdown, accident, or emergency.\"\n}\n\nIn this evaluation, the candidate answer is relevant as it addresses the circumstances under which it might be permissible to drive, move, or stop on the road shoulder or verge. However, it does not directly quote or paraphrase the specific circumstances mentioned in the reference, which is why the faithfulness score is null. The system answer directly states the circumstances from the reference, which is why it is considered correct.",
+      "input_tokens": 366,
+      "output_tokens": 170,
+      "seconds": 13.118863600000623,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

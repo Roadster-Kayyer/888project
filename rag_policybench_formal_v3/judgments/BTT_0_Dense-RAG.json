@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_0",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly cites relevant documents, and supports factual claims with evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the regulations, relevance to vehicle idling, and is supported by evidence from Documents 2 and 3.\",\n  \"evidence\": \"Document 2: 'Driving the vehicle in the right gear will increase fuel efficiency and reduce emissions.' Document 3: 'Avoid dragging the engine by using the correct gear.'\n}",
+      "input_tokens": 559,
+      "output_tokens": 192,
+      "seconds": 15.176840200001607,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2723.6845703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly cites relevant documents, and supports factual claims with evidence.\"}",
+      "input_tokens": 599,
+      "output_tokens": 47,
+      "seconds": 3.781161199993221,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

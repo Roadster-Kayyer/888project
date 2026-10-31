@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_14",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the automatic invalidation process and supports it with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the automatic invalidation process and supports it with evidence from Document 1.\",\n  \"evidence\": \"[Document 1] There is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.\"\n}",
+      "input_tokens": 1252,
+      "output_tokens": 192,
+      "seconds": 15.915098999990732,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

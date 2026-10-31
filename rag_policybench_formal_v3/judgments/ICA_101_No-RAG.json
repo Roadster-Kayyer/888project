@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_101",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states that PR status is not required for Singapore citizenship application."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states that PR status is not required for Singapore citizenship application.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to an actual document that supports the claim made in the candidate answer. Since the instruction specifies not to use the reference or own knowledge, the evidence is represented as a placeholder here.)",
+      "input_tokens": 373,
+      "output_tokens": 140,
+      "seconds": 10.464661000005435,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

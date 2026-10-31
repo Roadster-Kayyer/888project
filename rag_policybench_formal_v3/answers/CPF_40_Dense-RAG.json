@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_40",
+  "doc_id": "PB_68186a4dadd329687464",
+  "query_type": "CPF_111",
+  "query": "What documents must I provide when I lodge a report regarding CPF non/under-payment?",
+  "reference_answer": "You should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "corpus_query_index": 102,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 2]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.\n\n[Document 3]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 4]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 5]\nPlease refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.",
+  "retrieved_doc_ids": [
+    "PB_68186a4dadd329687464",
+    "PB_67fb3c3d8e5dd0d5de24",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_6a73d290ca55b1465a81",
+    "PB_c258c2cbaf7491b2d9b3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7b31cdbefb6210f9860c9f690d172b59db78d6bf38ad7050996b659076ed2c18",
+  "answer": "When reporting CPF non/under-payment, provide your employment contract or pay slips for verification. Essential documents include your birth certificate for transfers to loved ones, and IC and passport for yourself and your child. [Document 1] [Document 2]",
+  "input_tokens": 720,
+  "output_tokens": 51,
+  "seconds": 6.790608399998746,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

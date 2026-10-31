@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008684",
+  "doc_id": "680",
+  "query_type": "search",
+  "query": "What are the legal consequences of violence occurring during strikes?",
+  "corpus_query_index": 8683,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.\n\n[Document 3]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 4]\nThreatening Healthcare Workers:\nLegal consequences can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Medicare Service Persons and Medicare Service Institutions (Prevention of Violence and Damage to Property) Act.\n\n[Document 5]\nDamaging Agricultural Crops:\nLegal consequences can include imprisonment up to 3 years and/or a fine under Section 425 of the IPC for mischief, causing damage to crops.",
+  "retrieved_doc_ids": [
+    "680",
+    "713",
+    "683",
+    "563",
+    "707"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7ddcc0507ca4ebcd6583f081a0cc64de09dfaa9637436c8830607d8dc657de58",
+  "answer": "Violence during strikes can lead to imprisonment up to 3 years and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). Additionally, property damage can result in compensation and fines under the IPC. [Document 1]",
+  "input_tokens": 357,
+  "output_tokens": 62,
+  "seconds": 8.17707270000028,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

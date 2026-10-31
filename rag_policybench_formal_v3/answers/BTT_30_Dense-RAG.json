@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_30",
+  "doc_id": "PB_b6b1e9a33645d01dc138",
+  "query_type": "BTT",
+  "query": "What is the recommended sequence to look at a junction according to the Basic Theory Test?",
+  "reference_answer": "Look right, then left, then right again.",
+  "corpus_query_index": 24,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 5]\nFront View and Rear View.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_1bd233e28127cfee0c86",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_3300f78e0c7cee359492",
+    "PB_4e13954ab54d10e3d48d"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "07129c760cea9e5e7972bf73c47ee3ab8883ff80fb7bc666caa0dd9b0162122d",
+  "answer": "According to Document 2, drivers should first complete their turn and clear the junction. [Document 1]",
+  "input_tokens": 423,
+  "output_tokens": 23,
+  "seconds": 9.458771500001603,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

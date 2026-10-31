@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_31",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states vehicles must stop and yield, supported by Document 4 and partially by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states vehicles must stop and yield, supported by Document 4 and partially by Document 2.\",\n  \"evidence\": \"[Document 4], [Document 2]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the requirement for vehicles to stop and yield to a Police Officer, which is supported by Document 4. The answer is relevant (2) because it directly addresses the question by mentioning the need to stop and yield to a Police Officer from both the front and behind. The answer is faithful (2) as it includes factual claims that are supported by the evidence provided in Document 4. The reason succinctly explains the scores, noting that the candidate answer is correct",
+      "input_tokens": 456,
+      "output_tokens": 192,
+      "seconds": 14.793312399997376,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

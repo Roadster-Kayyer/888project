@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007134",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the factual claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the factual claims.\",\n  \"evidence\": \"[Document 1] Complaint against Block Development Officer (BDO): To file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).\"\n}",
+      "input_tokens": 838,
+      "output_tokens": 144,
+      "seconds": 11.301826700000674,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

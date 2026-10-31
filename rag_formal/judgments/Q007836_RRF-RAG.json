@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007836",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the fine under the Tamil Nadu City Police Act and is directly supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the fine under the Tamil Nadu City Police Act for unauthorized street performances and is supported by Document 1.\",\n}",
+      "input_tokens": 771,
+      "output_tokens": 72,
+      "seconds": 5.904519399999117,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the fine under the Tamil Nadu City Police Act and is directly supported by Document 1.\"}",
+      "input_tokens": 811,
+      "output_tokens": 50,
+      "seconds": 4.120488200002001,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

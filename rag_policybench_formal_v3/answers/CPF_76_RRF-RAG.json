@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_76",
+  "doc_id": "PB_c258c2cbaf7491b2d9b3",
+  "query_type": "CPF_111",
+  "query": "What are the service standards for processing applications relating to employees' CPF Matters?",
+  "reference_answer": "Please refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.",
+  "corpus_query_index": 141,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPlease refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.\n\n[Document 2]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days\n\n[Document 3]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 4]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 5]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "retrieved_doc_ids": [
+    "PB_c258c2cbaf7491b2d9b3",
+    "PB_2c2c8f4f1646ae7f07d7",
+    "PB_0b2919dbf107215d276f",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_f79fde53917b7a3dd93a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cd1d1bd75546ef0a09f289e12c5518f6eb1d630ebe209603ab490438f8883218",
+  "answer": "Service standards include normal processing times like 5 working days for employer-reported CPF contributions issues. For Self-Employed Scheme applications, processing is within 12-15 working days. [Document 1]",
+  "input_tokens": 883,
+  "output_tokens": 44,
+  "seconds": 5.861182099994039,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

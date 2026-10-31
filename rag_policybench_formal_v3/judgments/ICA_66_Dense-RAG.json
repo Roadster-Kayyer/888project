@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_66",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies MyICA app for QR code generation, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies MyICA app for QR code generation, supported by Document 2.\",\n  \"evidence\": \"[Document 2] The QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).\"\n}",
+      "input_tokens": 735,
+      "output_tokens": 192,
+      "seconds": 14.910224699997343,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

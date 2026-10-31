@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_23",
+  "doc_id": "PB_9e513aa79957841bf9fc",
+  "query_type": "ICA_134",
+  "query": "How do I apply for a birth extract if I lost my birth certificate?",
+  "reference_answer": "You may refer to the ICA website for more information on the application, processing time and download of a birth extract.",
+  "corpus_query_index": 218,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.\n\n[Document 2]\nYou may refer to the ICA website for more information on the application, processing time and download of a birth extract.\n\n[Document 3]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person",
+  "retrieved_doc_ids": [
+    "PB_67fb3c3d8e5dd0d5de24",
+    "PB_9e513aa79957841bf9fc",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_cc60baad4cbf9560588b",
+    "PB_6a73d290ca55b1465a81"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "974f80dc9e94b51cc12e7cab9ccd238c7533021f45601a431039a9c943cba9dc",
+  "answer": "To apply for a birth extract, visit the ICA website for details on application process, processing time, and birth extract download. However, if you lost your birth certificate, you should register the birth in the foreign country and get a new birth certificate there. [Document 2] & [Document 3]",
+  "input_tokens": 756,
+  "output_tokens": 64,
+  "seconds": 8.58449429999746,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

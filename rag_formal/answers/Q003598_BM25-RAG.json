@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003598",
+  "doc_id": "1646",
+  "query_type": "casual",
+  "query": "So, what changes were made to make it easier to file a complaint?",
+  "corpus_query_index": 3597,
+  "system": "BM25-RAG",
+  "reference_answer": "Tamil Nadu Police Improvements\n\n1. Data Analysis for Predictive Policing: Tamil Nadu Police has improved data analysis by implementing a Crime and Criminal Tracking Network System (CCTNS), which helps in collecting, storing, and analyzing crime data to predict and prevent crimes.\n\n2. Complaints Filing Process: Reforms include introducing online complaint filing systems, such as the \"Citizen Portal\" and \"Lost and Found\" portals, to streamline the process and reduce paperwork.\n\n3. Dealing with Drug Offenses: Tamil Nadu Police has modernized its approach by setting up specialized narcotics cells, increasing awareness programs, and collaborating with other agencies to tackle drug trafficking and abuse effectively.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 5]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.",
+  "retrieved_doc_ids": [
+    "46",
+    "253",
+    "35",
+    "800",
+    "34"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f67f0bcaa7b5c11878b0f0ccd46ad99792eb1c4d5a5ea87284d068ea95d7ee27",
+  "answer": "Based on Document 1, 2, and 3, changes in filing complaints include:\n- Filing complaints with the Superintendent of Police or Commissioner of Police (Document 1).\n- Reporting incidents of police brutality to a senior officer or the Tamil Nadu Police Complaint Authority (Document 2 & 3).\n- Filing Zero FIRs at any police station for crimes outside jurisdiction (Document 4).\n- Requesting police verification for certain applications (Document 5). [Document 1-5]",
+  "input_tokens": 416,
+  "output_tokens": 102,
+  "seconds": 13.180296199998338,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

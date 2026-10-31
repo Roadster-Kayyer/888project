@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000244",
+  "doc_id": "1040",
+  "query_type": "search",
+  "query": "Can you guide me through the criminal case filing procedure?",
+  "corpus_query_index": 243,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a case in Juvenile Justice Board:\nTo file a case in the Juvenile Justice Board, contact the local police station or a lawyer. They will guide you through the process, which typically involves filing a complaint and providing required documents. The Board will then review the case and take necessary actions.\n\n[Document 2]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 3]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 4]\nFiling a Labor Dispute Case:\nContact the Labor Department or the nearest Labor Court. Provide details of the dispute, employment records, and supporting documents. The Labor Court will guide you through the process and help resolve the dispute.\n\n[Document 5]\nFiling a Case for Online Fraud:\nTo file a case for online fraud, visit your local police station's cybercrime cell. Provide details of the fraud, including transaction records and communication with the fraudster. The police will guide you through the process and help you file a complaint.",
+  "retrieved_doc_ids": [
+    "1166",
+    "1037",
+    "1040",
+    "1092",
+    "1194"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "574cbb3a487422a5fc2137470ba0891a3a97fc68f197eb4820f7ca14287d21a3",
+  "answer": "For a criminal case, you need to file a complaint with the police, which they will investigate and file as a chargesheet. The court will then take up the case. [Document 3]",
+  "input_tokens": 405,
+  "output_tokens": 41,
+  "seconds": 5.273636400000214,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

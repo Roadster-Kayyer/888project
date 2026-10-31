@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002275",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific examples from documents that support the Tamil Nadu Police's methods for mitigating human-animal conflicts in forested zones."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific examples from documents that support the Tamil Nadu Police's methods for mitigating human-animal conflicts in forested zones.\"\n}",
+      "input_tokens": 977,
+      "output_tokens": 192,
+      "seconds": 15.391821799999889,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2685.14697265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

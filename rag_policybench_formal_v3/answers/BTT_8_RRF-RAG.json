@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_8",
+  "doc_id": "PB_70527c7dfb085e57dd22",
+  "query_type": "BTT",
+  "query": "What is the required action if an accident occurs, regardless of its severity or visible damage?",
+  "reference_answer": "Report the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.",
+  "corpus_query_index": 53,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 2]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\n\n[Document 3]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 4]\nThere is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.\n\n[Document 5]\nIn the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gr",
+  "retrieved_doc_ids": [
+    "PB_905df234754f5b501b5d",
+    "PB_70527c7dfb085e57dd22",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_836a1574dc33ade45124",
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a5ef956fe9e592d93e3aae2764561e52eb41e000145ea468b09d3e10f767d704",
+  "answer": "If an accident occurs, regardless of its severity or visible damage, report it to your insurer within 24 hours or the next working day. [Document 2]",
+  "input_tokens": 714,
+  "output_tokens": 35,
+  "seconds": 4.643605000004754,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

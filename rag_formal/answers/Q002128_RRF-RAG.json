@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002128",
+  "doc_id": "1381",
+  "query_type": "casual",
+  "query": "So, what's the deal with the cops when it comes to stopping people from breaking rules in the woods where tribes live?",
+  "corpus_query_index": 2127,
+  "system": "RRF-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nIllegal Construction on Tribal Lands:\nIllegal construction on tribal lands can result in imprisonment up to 3 years and/or a fine under the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989, and the Tamil Nadu Forest Act, 1882.\n\n[Document 2]\nReporting Violations of the Scheduled Castes and Scheduled Tribes Act:\nTo report violations, contact the local police station or the District Superintendent of Police. You can also file a complaint with the National Commission for Scheduled Castes or the State SC/ST Commission. Provide details of the incident, and the police will investigate and take action.\n\n[Document 3]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 4]\nReporting Forest Offenses in Tribal Areas:\nTo report forest offenses, tribal area residents can contact the nearest Forest Range Office or the local police station. They can also dial the Tamil Nadu Police's toll-free number (1091) or the Forest Department's helpline.\n\n[Document 5]\nQ3: Can I file an FIR at any police station regardless of where the crime occurred?\nYes, you can file an FIR at any police station, but it's called a Zero FIR. The police station will then forward the report to the relevant station where the crime occurred, for further investigation.",
+  "retrieved_doc_ids": [
+    "737",
+    "1402",
+    "800",
+    "1369",
+    "801"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "dade7d87fb419efff14d973fc283d3ffe173cf317e1fa9875e874ad629f13fdb",
+  "answer": "When tribes break rules in the woods, illegal construction can lead to imprisonment up to 3 years and/or a fine. For reporting violations, contact local police stations or state commissions. To report forest offenses, use the nearest Forest Range Office or call the Tamil Nadu Police's toll-free number (1091). [Document 1-5]",
+  "input_tokens": 462,
+  "output_tokens": 71,
+  "seconds": 9.01331399999981,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

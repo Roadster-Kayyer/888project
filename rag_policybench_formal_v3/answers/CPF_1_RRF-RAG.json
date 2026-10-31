@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_1",
+  "doc_id": "PB_d22ee6af2962a7277884",
+  "query_type": "CPF_111",
+  "query": "Is the 3 years track record for new funds applied at the fund level or based on the experience of Fund Management Companies?",
+  "reference_answer": "The preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error",
+  "corpus_query_index": 56,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error\n\n[Document 2]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 3]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 4]\nExpenses on investment have a significant impact on returns. Hence, reducing Total Expense Ratio caps will lower the expenses that CPF investors have to bear and increase a fund's per-unit net asset value. This will enable CPF members who have invested in the fund to accumulate their retirement savings faster.The following example illustrates the impact of expense ratio:Amount invested: $10,000 over 30 years, with annual return of 5%1Total expense ratio of the Fund decreases from 1.95% to 1.75%Savings =$1,475(or 6% more in his retirement savings)Expense Ratio of 1.95%Expense Ratio of 1.75%Net investment value after 30 years$24,629$26,104Savings$1,4751Assumes no front end load\n\n[Document 5]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject",
+  "retrieved_doc_ids": [
+    "PB_d22ee6af2962a7277884",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_9cd9954ab47df751deda",
+    "PB_55387403dc004065b043"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "56dffedeec27f3bb1326daebdcb97fd3825b01ab7cce590e9b3cb2bd6aad4251",
+  "answer": "The 3-year track record for new funds is applied at the fund level. However, for indexed funds or ETFs, it's based on the fund management company's processes and systems [Document 1].",
+  "input_tokens": 952,
+  "output_tokens": 43,
+  "seconds": 5.815603299997747,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

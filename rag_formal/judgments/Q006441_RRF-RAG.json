@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006441",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate helpline numbers and mentioning the need to provide details of the incident, which is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate helpline numbers and mentioning the process of reporting, supported by Document 1.\",\n}",
+      "input_tokens": 822,
+      "output_tokens": 71,
+      "seconds": 5.812928699997428,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate helpline numbers and mentioning the need to provide details of the incident, which is supported by all documents.\"}",
+      "input_tokens": 862,
+      "output_tokens": 59,
+      "seconds": 4.844736400002148,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

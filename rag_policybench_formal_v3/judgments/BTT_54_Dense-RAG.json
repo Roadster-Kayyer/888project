@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_54",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly interprets the 'Two-way traffic ahead' sign and is supported by Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the 'Two-way traffic ahead' sign and is supported by Document 5.\",\n  \"evidence\": \"Document 5: It indicates that vehicles can proceed straight ahead as well as make a right turn.\"\n}",
+      "input_tokens": 475,
+      "output_tokens": 91,
+      "seconds": 7.179933399995207,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

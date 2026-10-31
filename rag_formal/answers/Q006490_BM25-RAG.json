@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006490",
+  "doc_id": "285",
+  "query_type": "hard",
+  "query": "What steps should I take if I suspect someone is trying to scam me online?",
+  "corpus_query_index": 6489,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Online Fraud:\nTo report online fraud, visit the nearest police station or:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents",
+  "context": "[Document 1]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 4]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 5]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"",
+  "retrieved_doc_ids": [
+    "253",
+    "35",
+    "46",
+    "800",
+    "1432"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8d15ed2925e29cc10ee621d0c82f49ffdc2b6ffdb3465c6d38a3cb257a6fd0a5",
+  "answer": "If police refuse to help, ask to speak to a senior officer, file a complaint with the Superintendent or Commissioner, or contact the Tamil Nadu Police Complaint Authority. [Document 1]",
+  "input_tokens": 421,
+  "output_tokens": 38,
+  "seconds": 4.969100099999196,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

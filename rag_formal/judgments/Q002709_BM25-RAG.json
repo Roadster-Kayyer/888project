@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002709",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 3 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly cites documents, and faithfully reflects the benefits and opportunities mentioned in the reference.\n}",
+      "input_tokens": 773,
+      "output_tokens": 192,
+      "seconds": 14.818868099999236,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 3 and 5.\"}",
+      "input_tokens": 813,
+      "output_tokens": 46,
+      "seconds": 3.8586733999982243,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

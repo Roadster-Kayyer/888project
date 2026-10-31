@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_27",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate directly addresses eligibility for Premium Cap and Phased Support, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate directly addresses eligibility for Premium Cap and Phased Support, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] All Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given in the keys. The evidence provided from Document 1 directly supports the candidate's answer, which is why the faithfulness score is 2. The correctness and relevance scores are both 2 because the candidate's answer is correct and directly addresses the question.",
+      "input_tokens": 574,
+      "output_tokens": 180,
+      "seconds": 13.725276999990456,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

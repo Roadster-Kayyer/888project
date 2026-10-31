@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_33",
+  "doc_id": "PB_70e279a2efefc3723a97",
+  "query_type": "ICA_134",
+  "query": "How do I update my latest employment or salary information for PR application?",
+  "reference_answer": "Applications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.",
+  "corpus_query_index": 229,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 2]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 3]\nYou may refer to the ICA website for more information on the eligibility criteria for PR application.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_70e279a2efefc3723a97",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_ab2a764b892b10ef7a10",
+    "PB_cc60baad4cbf9560588b",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4821941ebf9671373464eb2014b2407de752e0ed48a858cba7ff302d0e5198ba",
+  "answer": "For applications submitted before 26 June 2024, submit a letter stating the employment detail change along with relevant proof via 'Ad-hoc submission' on ICA e-Service. For applications on or after 26 June 2024, log into MyICA or use Singpass to select 'Update information'. [Document 1]",
+  "input_tokens": 831,
+  "output_tokens": 75,
+  "seconds": 9.847675900004106,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

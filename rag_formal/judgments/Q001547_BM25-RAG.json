@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001547",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and correctly includes all necessary steps and required documents as per the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for submitting a road widening proposal, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 759,
+      "output_tokens": 68,
+      "seconds": 5.505556399999477,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and correctly includes all necessary steps and required documents as per the reference documents.\"}",
+      "input_tokens": 799,
+      "output_tokens": 47,
+      "seconds": 4.0571860000018205,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

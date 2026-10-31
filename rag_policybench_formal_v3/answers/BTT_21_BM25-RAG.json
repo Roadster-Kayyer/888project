@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_21",
+  "doc_id": "PB_8a851d564b8b1c6da3af",
+  "query_type": "BTT",
+  "query": "What is recommended for optimizing fuel efficiency when using air-conditioning in a vehicle?",
+  "reference_answer": "Avoid setting the air-conditioning temperature too low and increase the fan speed instead.",
+  "corpus_query_index": 14,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.\n\n[Document 3]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_8a851d564b8b1c6da3af",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_33b32af818c8c4223f8f",
+    "PB_60d3d79cc6579587cc62"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e0f368405f56388ccd735541a80324783ef0295013d5a392d8af32a7f9daedf3",
+  "answer": "According to Document 2, to optimize fuel efficiency while using air conditioning, avoid setting the temperature too low and increase fan speed instead. [Document 2]",
+  "input_tokens": 576,
+  "output_tokens": 33,
+  "seconds": 4.309923000000708,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

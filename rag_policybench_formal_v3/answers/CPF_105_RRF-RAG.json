@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_105",
+  "doc_id": "PB_cc9c3dfe3c902d1137c0",
+  "query_type": "CPF_111",
+  "query": "Why are Singapore Permanent Residents (PRs) not eligible for the Workfare Income Supplement (WIS) scheme?",
+  "reference_answer": "The Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.",
+  "corpus_query_index": 63,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.\n\n[Document 2]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 5]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.",
+  "retrieved_doc_ids": [
+    "PB_cc9c3dfe3c902d1137c0",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_af1247343974a8960a93",
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_51abc1b31808d773e226"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2c2a330d3741e0c2ba4a4fc06790c738ef9fec73f7a50399983ab5c5ee70ee8d",
+  "answer": "Singapore Permanent Residents (PRs) are not eligible for the Workfare Income Supplement (WIS) because the scheme is designed for Singaporean lower-wage workers [Document 1]. PRs do not qualify under the criteria that the WIS is based on net trade income earned in the work year [Document 2], which excludes their previous year's losses. Additionally, PRs might not meet the requirement of being considered as employees on study/medical/maternity leave [Document 4] and their total income may not be sufficient to qualify them under the WIS scheme [Document 5].",
+  "input_tokens": 388,
+  "output_tokens": 120,
+  "seconds": 15.538581200002227,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

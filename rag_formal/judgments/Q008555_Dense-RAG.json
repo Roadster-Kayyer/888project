@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008555",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies various criminal charges for assaulting a family member, directly addresses the question, and is supported by evidence from the documents provided.\",\n}",
+      "input_tokens": 785,
+      "output_tokens": 72,
+      "seconds": 5.7023885999951744,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from all documents.\"}",
+      "input_tokens": 825,
+      "output_tokens": 35,
+      "seconds": 2.976826499994786,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

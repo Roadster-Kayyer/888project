@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004227",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1] and [Document 2]\"\n}\n\n\nThe candidate's answer is correct, relevant, and faithful to the evidence provided in the documents. The answer directly addresses the question by outlining the steps to take when a vehicle is towed, which is consistent with the information in Documents 1 and 2. The evidence supports the factual claims made in the candidate's answer, as both documents provide similar instructions for dealing with a towed vehicle. The reason succinctly explains the scores, indicating that the answer is well-informed and directly relevant to the question.",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 15.17445299999963,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

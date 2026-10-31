@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005700",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer acknowledges lack of specific details but correctly suggests official sources for obtaining them."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer acknowledges lack of specific details but correctly suggests official sources for obtaining them.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 450,
+      "output_tokens": 68,
+      "seconds": 5.579124799998681,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

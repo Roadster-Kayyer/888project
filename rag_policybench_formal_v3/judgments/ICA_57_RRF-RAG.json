@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_57",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that new passport number update is not required for renewal and is supported by Document 2 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that new passport number update is not required for renewal and is supported by Document 2 and Document 5.\",\n  \"evidence\": \"Document 2: 'For Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passport.' Document 5: 'If your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.'\"\n}",
+      "input_tokens": 1111,
+      "output_tokens": 192,
+      "seconds": 15.522119299988844,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

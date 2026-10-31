@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_14",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference, which specifies MediSave, not credit cards."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not align with the reference, which specifies MediSave, not credit cards.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 376,
+      "output_tokens": 70,
+      "seconds": 5.3404057000007015,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

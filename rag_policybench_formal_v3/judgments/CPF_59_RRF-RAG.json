@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_59",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies components of gross earnings that attract CPF contributions and the role of FEDA, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies components of gross earnings that attract CPF contributions and the role of FEDA, supported by evidence from Documents 1 and 5.\",\n  \"evidence\": \"Documents 1 and 5 provide evidence that CPF contributions are payable on fees related to platform services and earnings supplements, and that FEDA is used to calculate net earnings after expenses, excluding reimbursements for expenses.\"\n}",
+      "input_tokens": 1850,
+      "output_tokens": 144,
+      "seconds": 11.996751099999528,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

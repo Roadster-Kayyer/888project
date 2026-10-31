@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_102",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the process for renewing a Student's Pass and references the correct documents, aligning with the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process for renewing a Student's Pass and references the correct documents, aligning with the provided evidence.\"\n}",
+      "input_tokens": 896,
+      "output_tokens": 69,
+      "seconds": 5.318402199991397,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

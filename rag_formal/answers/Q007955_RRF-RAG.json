@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007955",
+  "doc_id": "549",
+  "query_type": "hard",
+  "query": "What fines or jail time could I get for saying someone will die?",
+  "corpus_query_index": 7954,
+  "system": "RRF-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nRecording Dying Declarations:\nA dying declaration is recorded by a police officer or a magistrate in the presence of a doctor. The statement is taken from a person who is seriously injured or ill and is likely to die. The declaration is recorded in the person's own words, and their statement is noted down verbatim. The process is done to ensure the statement's authenticity and admissibility in court.\n\n[Document 2]\nThreatening Religious Conversion:\nForcing or threatening someone to undergo religious conversion is a serious offense. The penalty can range from imprisonment for 1-5 years and/or a fine, under the Tamil Nadu Prohibition of Forcible Conversion of Religion Act, 2002, and the IPC.\n\n[Document 3]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "756",
+    "591",
+    "848",
+    "46",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "c15971f6efd8e618adfd814cf47177b7298aa04b7df11afda3e416bf7026100f",
+  "answer": "Saying someone will die isn't mentioned in the documents. However, threatening religious conversion carries up to 5 years in prison and a fine [Document 2]. Jail time and fines vary based on the crime, not just threats. [Document 1] doesn't directly apply here.",
+  "input_tokens": 440,
+  "output_tokens": 59,
+  "seconds": 7.671917699997721,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

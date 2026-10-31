@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_33",
+  "doc_id": "PB_15b5d9c0851609d354e4",
+  "query_type": "BTT",
+  "query": "What does the signal \"Means \\\"GO\\\" for straight ahead vehicles and \\\"GO\\\" for right turn vehicles\" indicate?",
+  "reference_answer": "It indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "corpus_query_index": 27,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nBasic theory of driving.\n\n[Document 4]\nIt indicates the centre line of a two-way road.\n\n[Document 5]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.",
+  "retrieved_doc_ids": [
+    "PB_15b5d9c0851609d354e4",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_043f86bad043c042932a",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_4479f84c1b73422f7e24"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "93763257474952cf80e3849adf3a22bafe14a2b4249b1ac29f5208680c5deb9f",
+  "answer": "The signal means \"GO\" for straight-ahead vehicles and \"GO\" for right-turn vehicles, indicating they can proceed straight ahead or make a right turn. [Document 1]",
+  "input_tokens": 237,
+  "output_tokens": 37,
+  "seconds": 533.6949421000027,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

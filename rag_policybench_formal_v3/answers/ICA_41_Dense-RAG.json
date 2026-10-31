@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_41",
+  "doc_id": "PB_02fa9d13bfe8e82b1959",
+  "query_type": "ICA_134",
+  "query": "Can I use a photograph taken with my mobile phone for a passport or identity card (IC) application?",
+  "reference_answer": "We recommend that you download and use mobile apps that are specifically designed to take photographs for Singapore passport or identity card applications. These apps usually come with features that will help you take photographs in the required dimensions. Some suggested search-words you can use on the Android Play Store or Apple App Store are 'Singapore Passport’, 'Singapore IC’ and 'Photo’. The photograph will be accepted if it complies with our photo guidelines.",
+  "corpus_query_index": 238,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nWe recommend that you download and use mobile apps that are specifically designed to take photographs for Singapore passport or identity card applications. These apps usually come with features that will help you take photographs in the required dimensions. Some suggested search-words you can use on the Android Play Store or Apple App Store are 'Singapore Passport’, 'Singapore IC’ and 'Photo’. The photograph will be accepted if it complies with our photo guidelines.\n\n[Document 2]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 3]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 4]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 5]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person",
+  "retrieved_doc_ids": [
+    "PB_02fa9d13bfe8e82b1959",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_2e64264f3a3803434cab",
+    "PB_8b8122292438794b78bb",
+    "PB_6a73d290ca55b1465a81"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "116febaa6cd3eb91fc7f53cd1c359f15d5736a946e3b028d5f267956c86848f5",
+  "answer": "Yes, you can use a photograph taken with your mobile phone for a passport or identity card application. However, it should be taken using a dedicated app designed for these purposes. Ensure the photo meets the required dimensions and guidelines provided by the authorities. [Document 1]",
+  "input_tokens": 759,
+  "output_tokens": 55,
+  "seconds": 7.312028899992583,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

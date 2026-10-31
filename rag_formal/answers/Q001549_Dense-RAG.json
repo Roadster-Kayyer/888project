@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001549",
+  "doc_id": "1277",
+  "query_type": "search",
+  "query": "What's the procedure to request funding for expanding roads with the Tamil Nadu PWD?",
+  "corpus_query_index": 1548,
+  "system": "Dense-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nBuilding Plan Approval:\nTo obtain building plan approval from PWD in Tamil Nadu, submit your building plan to the nearest PWD office or local authority. Ensure compliance with Tamil Nadu PWD building regulations and pay the required fees. The application will be reviewed, and approval will be granted if the plan meets the regulations.\n\n[Document 2]\nIrrigation Water from PWD Channels:\nTo apply for irrigation water from PWD channels, contact the Tamil Nadu Public Works Department. Submit an application with required documents, including proof of land ownership and a water usage plan. The department will review and issue a permit if the application meets the eligibility criteria.\n\n[Document 3]\nForest Land Diversion in Tamil Nadu:\nTo apply for forest land diversion, submit a proposal to the Tamil Nadu Forest Department. The application should include details of the proposed project, land requirements, and environmental impact assessment. The department will review and process the application as per the Forest Conservation Act, 1980, and relevant state guidelines.\n\n[Document 4]\nApplying for Road Safety Measures from PWD:\nTo apply for road safety measures, submit a request to the Tamil Nadu PWD through their website or visit the nearest PWD office. Provide details of the location and proposed safety measures. The PWD will review and process your request.\n\n[Document 5]\nConstruction near Highways:\nTo obtain permission for construction near highways in Tamil Nadu, contact the Tamil Nadu Highways Department. Submit an application with required documents, including a building plan and NOC from local authorities. The department will review and issue permission if the construction complies with regulations.",
+  "retrieved_doc_ids": [
+    "1275",
+    "1281",
+    "1201",
+    "1289",
+    "1279"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b4b1a8b28d52d58174f4a5e57132ef61418c96b02e14f1a874a4412c1ce9edda",
+  "answer": "To request funding for expanding roads with the Tamil Nadu PWD, follow these steps: Submit a request through their website or visit a PWD office. Provide details of the location and proposed safety measures. The PWD will review and process your request [Document 4].",
+  "input_tokens": 455,
+  "output_tokens": 55,
+  "seconds": 7.10257300000012,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_44",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly interprets the sign but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly interprets the sign but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is correct (2) as it accurately describes the meaning of the road sign. It is relevant (2) because it directly addresses the question about the sign's indication. However, the faithfulness score is 1 because the answer, while correct, does not cite the specific reference provided, which would have strengthened the claim. The reason succinctly explains the scores. The evidence field is null as the candidate answer does not include direct evidence from the reference text.",
+      "input_tokens": 368,
+      "output_tokens": 175,
+      "seconds": 13.619992699997965,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

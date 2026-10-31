@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001075",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided. It directly addresses the question of ensuring a court's decision is genuine by suggesting visiting the official website or contacting the court, which is consistent with the advice given in Document 1. The mention of checking for the official seal, signature, and stamp is also directly supported by the evidence in Document 1. The reason succinctly explains the scores, and the evidence is explicitly cited.",
+      "input_tokens": 747,
+      "output_tokens": 171,
+      "seconds": 13.389251000000513,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

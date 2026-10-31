@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_49",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}\n\n\nThe candidate answer is correct (2), as it directly addresses the question about what a driver must do before moving off, specifically mentioning the need to be in the correct lane and have a clear view of the road ahead, which are safety and regulatory requirements for drivers. The relevance score is 2 because the answer directly addresses the question, and the faithfulness score is 2 because the answer is supported by the evidence provided in Document 3, which states the same requirement for drivers. The reason succinctly explains the scores, indicating that the candidate answer is directly relevant and factually supported by",
+      "input_tokens": 823,
+      "output_tokens": 192,
+      "seconds": 14.84042710000358,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

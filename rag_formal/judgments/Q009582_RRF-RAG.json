@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009582",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Servant Verification process involves submitting an application to the local police station with servant's ID proof, address, and employment details, followed by a police-conducted background check and a verification report.\"\n}",
+      "input_tokens": 687,
+      "output_tokens": 116,
+      "seconds": 9.185314700000163,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

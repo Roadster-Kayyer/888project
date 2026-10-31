@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002242",
+  "doc_id": "1401",
+  "query_type": "formal",
+  "query": "What strategies do law enforcement employ in addressing cases involving the exploitation of tribal artisans?",
+  "corpus_query_index": 2241,
+  "system": "RRF-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 3]\nReligious Conversion Conflicts:\nIn tribal areas, police handle cases of religious conversion conflicts by:\n* Registering complaints\n* Investigating incidents\n* Maintaining law and order\n* Ensuring protection of individual rights\n\n[Document 4]\nProtecting tribal land rights:\nThe role of police in protecting tribal land rights is to:\n* Prevent encroachment and land grabbing\n* Investigate cases of land disputes and fraud\n* Assist in revenue recovery and restoration of tribal lands\n* Collaborate with revenue and tribal welfare departments\n\n[Document 5]\nHandling Illegal Excavation Cases:\nIn cases of illegal excavation of archaeological sites in tribal areas, the police register a complaint under the Ancient Monuments and Archaeological Sites and Remains Act, 1958. The police then investigate and take action against the offenders in coordination with the Archaeological Survey of India and local authorities.",
+  "retrieved_doc_ids": [
+    "1401",
+    "1381",
+    "1405",
+    "1376",
+    "1409"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "39b7c1b2cd0217c842b3cc1bb4b684dc1a59347d5ab48a45bfce1ebfca9ec769",
+  "answer": "Law enforcement addresses exploitation of tribal artisans by registering complaints, investigating cases, and collaborating with tribal welfare departments and NGOs [Document 1]. In other contexts, they handle forest rights violations, religious conversion conflicts, and protecting land rights, all while ensuring protection and maintaining law and order [Documents 2-5].",
+  "input_tokens": 432,
+  "output_tokens": 63,
+  "seconds": 8.025460900000326,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

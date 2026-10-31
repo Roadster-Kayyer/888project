@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003396",
+  "doc_id": "161",
+  "query_type": "original",
+  "query": "What documents should I carry while driving in Tamil Nadu?",
+  "corpus_query_index": 3395,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 2]\nObtaining International Driving Permits:\nTo obtain an international driving permit through Tamil Nadu RTO, submit an application with required documents, including a valid driving license, passport, and proof of address. Visit the RTO website for the application form and procedures. The permit is usually issued within a few days.\n\n[Document 3]\nPolice Verification for Passport:\nFor police verification of a passport in Tamil Nadu, you will need to provide documents such as:\n- Application form\n- Passport copy\n- Address proof (e.g., Aadhaar card, voter ID)\n- Identity proof (e.g., PAN card, driving license)\n\n[Document 4]\nFine for Not Carrying Driving License:\nIn Tamil Nadu, the fine for not carrying a driving license is ₹1,000 for the first offense and ₹2,000 for subsequent offenses, as per the Motor Vehicles Act. Always carry your driving license while driving to avoid penalties.\n\n[Document 5]\nDivorce Petition Documents:\nFor filing a divorce petition in Tamil Nadu, required documents include:\n* Marriage certificate\n* Proof of address and identity\n* Proof of marriage breakdown (e.g., separation agreement)\n* Affidavit stating the grounds for divorce\n* Other relevant documents (e.g., income proof, child custody arrangements)",
+  "retrieved_doc_ids": [
+    "161",
+    "2058",
+    "816",
+    "870",
+    "1807"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f5d2be3f11375d0a2c43f421e545fee5fc9f8bd2ab93e6939f79b256baf218b1",
+  "answer": "While driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable) [Document 1]",
+  "input_tokens": 432,
+  "output_tokens": 42,
+  "seconds": 5.414515800001027,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

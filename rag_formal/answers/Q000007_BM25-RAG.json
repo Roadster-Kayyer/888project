@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000007",
+  "doc_id": "1",
+  "query_type": "formal",
+  "query": "How can one file an FIR online in Tamil Nadu?",
+  "corpus_query_index": 6,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 2]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.\n\n[Document 3]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to give a written statement, and the police will register your complaint and provide an FIR number.\n\n[Document 4]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station, provide details of the incident, and submit a written complaint. The police will register the complaint and provide a copy of the FIR.\n\n[Document 5]\nFiling an FIR:\nYou can file an FIR in Tamil, English, or any other language you are comfortable with. The police will provide assistance if needed.",
+  "retrieved_doc_ids": [
+    "796",
+    "1",
+    "793",
+    "0",
+    "3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ef6ce4ac8c3cf45a94d9e14dc5cad0eef1bb99a050374cb30a2ccdae0acda8e4",
+  "answer": "To file an FIR online in Tamil Nadu, go to the Tamil Nadu Police website or their mobile app for crimes like theft, loss of documents, and cyber crimes. Alternatively, visit a police station to file an FIR in person. Provide details and submit a written complaint; they will register it and issue an FIR number/copy. [Document 1]",
+  "input_tokens": 352,
+  "output_tokens": 72,
+  "seconds": 9.00312490000033,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2047.30029296875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007938",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct legal references and evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question with correct legal references and evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Sending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\"\n}",
+      "input_tokens": 758,
+      "output_tokens": 111,
+      "seconds": 8.666731099998287,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

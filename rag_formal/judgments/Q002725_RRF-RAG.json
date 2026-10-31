@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002725",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the prerequisites for the position, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the prerequisites for the position, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Tamil Nadu Police Dog Handler Positions: To apply, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website for notifications. Meet the eligibility criteria, fill out the online application, and appear for the written exam and physical tests.\"\n}",
+      "input_tokens": 784,
+      "output_tokens": 192,
+      "seconds": 14.943136700003379,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

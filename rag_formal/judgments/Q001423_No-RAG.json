@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001423",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer provides a method to identify naughty behavior but lacks direct evidence or instructions on reporting, which is crucial according to the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer provides a method to identify naughty behavior but lacks direct evidence or instructions on reporting, which is crucial according to the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is partly correct as it suggests a way to identify naughty behavior in the woods, which is relevant to the question. However, it does not directly address the reference's instructions on how to report such activities, which is a critical part of the process. Therefore, the correctness score is 1, indicating important omissions. The relevance score is 1 because the answer is related to the question but does not fully address the reporting aspect. Faithfulness is null because the answer does not",
+      "input_tokens": 405,
+      "output_tokens": 192,
+      "seconds": 14.759225500001776,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

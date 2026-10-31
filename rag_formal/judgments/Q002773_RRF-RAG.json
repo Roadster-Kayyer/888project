@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002773",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate partially addresses the recruitment process for ministerial staff but lacks direct evidence for finding new ministers within the police force; however, it correctly describes the police clearance process for a new SIM card."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate partially addresses the recruitment process for ministerial staff but lacks direct evidence for finding new ministers within the police force; however, it correctly describes the police clearance process for a new SIM card.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\n(Note: The \"faithfulness\" score is 2 because the candidate's answer is supported by Document 1, which describes the police clearance process, and Document 5, which confirms the role of the Director General of Police (DGP) in the police force. However, the candidate does not directly address the process of finding new ministers within the police force, which is the main reference fact, hence",
+      "input_tokens": 1066,
+      "output_tokens": 192,
+      "seconds": 15.03110309999829,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

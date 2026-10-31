@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004226",
+  "doc_id": "176",
+  "query_type": "original",
+  "query": "What should I do if my vehicle is towed away?",
+  "corpus_query_index": 4225,
+  "system": "BM25-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "176",
+    "35",
+    "253",
+    "833",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1d445a689006333a759a659afec1d6210d71e94fa4a31e976b6568f6d372daa5",
+  "answer": "If your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You must show your vehicle's registration documents and pay any fines or towing charges to retrieve it. [Document 1]",
+  "input_tokens": 416,
+  "output_tokens": 48,
+  "seconds": 6.058588300000338,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

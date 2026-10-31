@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006490",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly summarizes steps for reporting scams and references relevant documents, accurately reflecting the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly summarizes steps for reporting scams and references relevant documents, accurately reflecting the provided evidence.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe candidate's answer directly addresses the question by outlining the steps to take when suspecting an online scam, which is relevant to the provided reference. The answer is correct as it includes the key actions of not sharing personal information, reporting to the police, and providing details of the scam, which are all supported by the evidence from the documents. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents, specifically Document 1 for sc",
+      "input_tokens": 826,
+      "output_tokens": 192,
+      "seconds": 15.01022880000528,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

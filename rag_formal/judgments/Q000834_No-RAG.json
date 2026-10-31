@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000834",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it addresses the process of obtaining a Certificate of Non-Objection from a court. However, it does not directly reference the required documents or the court's verification process as outlined in the reference, hence the correctness score is 1. Faithfulness is marked as null because there is no substantive evidence provided in the candidate's answer that directly supports the factual claims made. The reference suggests that the court will verify and issue the certificate if no dues are pending, which is not explicitly mentioned in the candidate's answer.",
+      "input_tokens": 438,
+      "output_tokens": 186,
+      "seconds": 14.214268100000481,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

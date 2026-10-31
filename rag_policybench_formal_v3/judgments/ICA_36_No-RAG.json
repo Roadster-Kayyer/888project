@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_36",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not accurately reflect the reference's information about the necessity of having a physical e-Visa for travel."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer contradicts the reference, which states the necessity of having a printable e-Visa.\",\n}",
+      "input_tokens": 426,
+      "output_tokens": 63,
+      "seconds": 4.935513300006278,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer does not accurately reflect the reference's information about the necessity of having a physical e-Visa for travel.\"}",
+      "input_tokens": 466,
+      "output_tokens": 52,
+      "seconds": 4.026795800004038,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

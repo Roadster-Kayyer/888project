@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_20",
+  "doc_id": "PB_066794289dd14caa73dd",
+  "query_type": "CPF_111",
+  "query": "I lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+  "reference_answer": "It is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "corpus_query_index": 80,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 2]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 3]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_09f08389f279dd1828ad",
+    "PB_066794289dd14caa73dd",
+    "PB_cc60baad4cbf9560588b",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "232e56948dd5833486d053b0e050674ec9220401e4398c1e1be9146ce32e0378",
+  "answer": "To withdraw money, you need to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA). You can't do this without the Payment Reference Number (PRN), as it's used for authentication via Singpass Face Verification. [Document 3]",
+  "input_tokens": 827,
+  "output_tokens": 56,
+  "seconds": 7.604805099996156,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_56",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] If you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.\"\n}",
+      "input_tokens": 930,
+      "output_tokens": 112,
+      "seconds": 8.596367899997858,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

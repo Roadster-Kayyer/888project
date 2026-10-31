@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_4",
+  "doc_id": "PB_633b332cd4e09afc1045",
+  "query_type": "CPF_111",
+  "query": "Why is there no tax relief for top-ups made to my children or non-immediate family?",
+  "reference_answer": "Tax relief is an incentive given to encourage members to build up retirement savings for themselves or their immediate family members, particularly older Singaporeans who may have less retirement savings.Your children have more time to accumulate savings in their working years for their own retirement needs. Hence, there is no tax relief for top-ups made to your children or non-immediate family members.",
+  "corpus_query_index": 101,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTax relief is an incentive given to encourage members to build up retirement savings for themselves or their immediate family members, particularly older Singaporeans who may have less retirement savings.Your children have more time to accumulate savings in their working years for their own retirement needs. Hence, there is no tax relief for top-ups made to your children or non-immediate family members.\n\n[Document 2]\nYour online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.\n\n[Document 3]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 4]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_633b332cd4e09afc1045",
+    "PB_ee0f8ff38ba535d4384c",
+    "PB_95a5467e7a1008fc8501",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ee8ba9cbf74cf8ca6d09da68877796d2182fe2542118152da33437f98c62eb2d",
+  "answer": "There is no tax relief for top-ups made to children or non-immediate family members because tax relief is only granted for immediate family members of older Singaporeans with less retirement savings. The tax relief is tied to the calendar year the top-up is made, not when it's submitted. Additionally, the tax relief conditions differ based on whether the top-up is to retirement savings or MediSave, making it exclusive to immediate family members. [Document 1]",
+  "input_tokens": 801,
+  "output_tokens": 92,
+  "seconds": 11.900355200006743,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

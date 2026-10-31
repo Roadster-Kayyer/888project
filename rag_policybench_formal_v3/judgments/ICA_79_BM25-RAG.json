@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_79",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies responsibilities and supports them with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies responsibilities and supports them with evidence from Document 1.\",\n  \"evidence\": \"[Document 1] The Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.\"\n}\n\n\nThe candidate answer directly addresses the question by mentioning the interview and investigation role of the Local Contact in case of a law breach, which is supported by evidence from Document 1. The answer also touches upon the importance of the correct visa type application, which is a responsibility of the Local Contact, although it is not explicitly stated in the evidence provided, it is implied as part of the Local Contact's role in the visa process",
+      "input_tokens": 813,
+      "output_tokens": 192,
+      "seconds": 14.776302099999157,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

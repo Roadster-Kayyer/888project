@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007395",
+  "doc_id": "448",
+  "query_type": "hard",
+  "query": "What's the procedure for notifying law enforcement if a person is being coerced into marriage or has already been married off too young?",
+  "corpus_query_index": 7394,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 2]\nRecording Statement under Section 164 CrPC\nA statement under Section 164 CrPC is recorded by a Magistrate. The procedure involves:\n- The person is informed of the consequences of making a statement.\n- The statement is recorded in the presence of a lawyer (if desired).\n- The statement is signed by the person and the Magistrate.\n\n[Document 3]\n3. What is Section 107/151 preventive detention?\nSection 107/151 of the CrPC allows the police to detain a person to prevent a breach of peace or disturbance of public order, but only with a magistrate's approval and for a limited period.\n\n[Document 4]\nCourt Marriage Procedure in Tamil Nadu:\nThe procedure involves:\n1. Filing a notice at the Sub-Registrar's office\n2. Waiting 30 days for objections\n3. Appearing before the Sub-Registrar with witnesses and documents (age proof, ID, address proof)\n4. Taking an oath and signing the marriage certificate\n\n[Document 5]\nReporting Child Marriage:\nTo report child marriage, contact the local police station or call 100 (Tamil Nadu Police Helpline). Provide details about the marriage, including date, time, location, and parties involved. You can also contact the Childline at 1098 for assistance.",
+  "retrieved_doc_ids": [
+    "448",
+    "1955",
+    "59",
+    "1837",
+    "901"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1f0c839d7e8b9c59f822c3d5f4c2118a177fcbecebb0ff0167666336d2354384",
+  "answer": "Forced or coerced marriages should be reported to the Tamil Nadu Police helpline: 1091 or 181. Provide details about the incident, and the police will take action. For child marriages, contact local police or Childline 1098. A statement under Section 164 CrPC can be recorded by a Magistrate, informing the consequences and recording the statement. [Document 1]",
+  "input_tokens": 487,
+  "output_tokens": 89,
+  "seconds": 11.564805900001375,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

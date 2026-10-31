@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005748",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks specific evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn the candidate answer, the steps to verify the authenticity of legal papers are correctly outlined, which aligns with the reference's advice to check for official seals, watermarks, and signatures. The mention of a unique identifier like a bar code or serial number is a good addition, as it is a common security feature. However, the reference specifically mentions contacting the police station or court, which is not directly addressed in the candidate answer. The evidence provided (Document 1) is mentioned but without context or details, which makes it insufficient to fully support the claims",
+      "input_tokens": 418,
+      "output_tokens": 192,
+      "seconds": 15.048314600000595,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008553",
+  "doc_id": "657",
+  "query_type": "casual",
+  "query": "How do you get in trouble for hitting someone at home?",
+  "corpus_query_index": 8552,
+  "system": "Dense-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nAction Against Abusive Posts:\nIf you receive abusive or threatening social media posts, report them to the platform's administrators. You can also file a complaint with the Cyber Crime Wing or the local police station under the IT Act and IPC sections related to harassment and threatening behavior.\n\n[Document 3]\nFiling Complaints about Child Care Home Violations:\nTo file a complaint about child care home violations, contact the Tamil Nadu State Child Protection Society or the local District Child Protection Unit. You can also call the Childline helpline (1098) or file a complaint with the local police station.\n\n[Document 4]\nFiling Complaint against Husband or In-laws:\nTo file a complaint against your husband or in-laws, visit the nearest police station and provide a written complaint with supporting evidence. The police will guide you through the process and provide necessary support. You can also contact the All-Women Police Station or the Mahila Helpline for assistance.\n\n[Document 5]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "retrieved_doc_ids": [
+    "657",
+    "155",
+    "963",
+    "98",
+    "680"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9cb8bb470bbe662501b813d9d8feb5b08a105b6f40ad1d5137837941f02d1cb7",
+  "answer": "Hitting someone at home can lead to imprisonment of up to 3 years and/or a fine under the Protection of Women from Domestic Violence Act, 2005 [Document 1]. Additionally, filing complaints against one's husband or in-laws involves visiting a police station and providing a written complaint with evidence [Document 4].",
+  "input_tokens": 420,
+  "output_tokens": 69,
+  "seconds": 9.067229500000394,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

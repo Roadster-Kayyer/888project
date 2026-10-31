@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_95",
+  "doc_id": "PB_4dcd99c8330400f4101b",
+  "query_type": "CPF_111",
+  "query": "Why is PayNow (excluding PayNow Mobile Number and Virtual Payments Address) the default mode of bank payments moving forward?",
+  "reference_answer": "PayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.",
+  "corpus_query_index": 162,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.\n\n[Document 2]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 3]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nIC holders are required to report a change of address within 28 days of moving to the new address.",
+  "retrieved_doc_ids": [
+    "PB_4dcd99c8330400f4101b",
+    "PB_aba31460334fd65c7b41",
+    "PB_e625576111e2a18d5ef0",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_3c57126fedeef060902b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a60400dd18a197034d48be0beacf636c51500a3ec4da617acdeff41f9e5f176b",
+  "answer": "PayNow (excluding PayNow Mobile Number and Virtual Payments Address) is the default mode of bank payments due to the government's push for digital transformation and security. It simplifies receiving service fees and ensures a secure payment process without sharing bank details. Citizens are encouraged to link their NRIC to PayNow for timely government benefits like CPF PCTS and Workfare Income Supplement payments. [Document 1]",
+  "input_tokens": 741,
+  "output_tokens": 81,
+  "seconds": 10.653263000000152,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

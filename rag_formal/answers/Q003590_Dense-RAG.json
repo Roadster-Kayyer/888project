@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003590",
+  "doc_id": "1644",
+  "query_type": "hard",
+  "query": "How have recent tech advancements equipped patrol officers with safety measures?",
+  "corpus_query_index": 3589,
+  "system": "Dense-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nModernization of Vehicles and Transportation:\nTamil Nadu Police has modernized its vehicles and transportation systems by:\n* Introducing high-speed patrol vehicles\n* Implementing GPS tracking systems\n* Establishing a fleet of emergency response vehicles\n* Upgrading communication systems for efficient coordination\n\n[Document 2]\n3. Modernization Initiatives:\nTamil Nadu Police has implemented various modernization initiatives, including the introduction of e-police stations, online complaint registration, and the use of technology such as CCTV cameras, drones, and mobile apps to enhance policing and public services.\n\n[Document 3]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 4]\nPolice Technical Research Wing:\nThe Police Technical Research Wing functions to develop and implement new technologies, such as forensic tools and surveillance systems, to aid in crime investigation and prevention, and to provide technical support to police personnel.\n\n[Document 5]\nTraffic Management Modernization:\nTamil Nadu Police has modernized its traffic management approach by:\n* Implementing automated traffic signal systems\n* Using CCTV cameras for surveillance and enforcement\n* Introducing online services for vehicle registration and fine payment",
+  "retrieved_doc_ids": [
+    "1635",
+    "1614",
+    "1644",
+    "1608",
+    "1629"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "75a5af9f5dd626506736fa7c2b64df1bda90804235929abadfd2db597cd175d6",
+  "answer": "Recent tech advancements have equipped patrol officers with safety measures through modern equipment like bulletproof vests, helmets, and communication devices [Document 3]. Additionally, they are provided with high-speed patrol vehicles, GPS tracking, and upgraded communication systems [Document 1]. Modernization includes using CCTV cameras, drones, and mobile apps for enhanced policing and public services [Document 2] and implementing automated traffic systems and online services [Document 5]. Police also benefit from technological research for forensic tools and surveillance systems [Document 4].",
+  "input_tokens": 376,
+  "output_tokens": 105,
+  "seconds": 13.404132599998775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

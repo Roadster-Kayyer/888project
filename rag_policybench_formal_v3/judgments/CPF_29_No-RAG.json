@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_29",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the domain to check for legitimacy but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the domain to check for legitimacy but lacks direct evidence from the reference.\",\n  \"evidence\": \"The reference suggests checking the sender's email address for @e.cpf.gov.sg and hyperlinks ending with .gov.sg to verify legitimacy.\"\n}\n\n\nIn the provided scenario, the candidate answer is relevant as it correctly advises checking the email domain for verification, which aligns with the reference's instructions. However, the answer lacks direct evidence from the reference, which would have strengthened its faithfulness score. The reason succinctly explains the scores given.",
+      "input_tokens": 480,
+      "output_tokens": 174,
+      "seconds": 13.739518800008227,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006232",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] - The Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\"\n}",
+      "input_tokens": 762,
+      "output_tokens": 192,
+      "seconds": 15.008886900002835,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

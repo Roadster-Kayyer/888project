@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000242",
+  "doc_id": "1040",
+  "query_type": "formal",
+  "query": "What steps are necessary to initiate a criminal case filing process?",
+  "corpus_query_index": 241,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a case in Juvenile Justice Board:\nTo file a case in the Juvenile Justice Board, contact the local police station or a lawyer. They will guide you through the process, which typically involves filing a complaint and providing required documents. The Board will then review the case and take necessary actions.\n\n[Document 2]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 3]\nFiling for Compensation:\nTo file for compensation in a criminal case, the victim can:\n1. Apply to the court trying the case.\n2. Submit a petition with required documents.\n3. The court will consider the application and pass an order.\n\n[Document 4]\nFiling Cases under Special Acts:\nTo file a case under a special act, approach the nearest police station with relevant documents and information. The officer will guide you through the process and register a complaint if necessary. Special acts, such as the Tamil Nadu Prohibition of Harassment of Women Act, have specific procedures.\n\n[Document 5]\nFiling a Property Dispute Case:\nTo file a property dispute case in Tamil Nadu, follow these steps:\n1. Gather documents: Collect relevant documents, such as property deeds and witness statements.\n2. Approach the police: File a complaint at the local police station.\n3. Court proceedings: The case will be forwarded to the court, where a judge will hear the dispute.",
+  "retrieved_doc_ids": [
+    "1166",
+    "1040",
+    "752",
+    "766",
+    "1826"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "673a415292fa55e9a277c398af63376022d531434f4b5c6602b85bdac50d8907",
+  "answer": "To initiate a criminal case filing process, follow these steps:\n\n1. For Juvenile Justice Board: Contact the local police station or a lawyer, file a complaint, and provide required documents.\n2. For Criminal Court: File a complaint with the police, and the court will take up the case after investigation and chargesheet.\n3. For Special Acts: Approach the nearest police station with relevant documents and information, and register a complaint if necessary.\n4. For Property Dispute: Gather documents, file a complaint at the local police station, and the case will be forwarded to the court. [Document 1-5]",
+  "input_tokens": 447,
+  "output_tokens": 126,
+  "seconds": 16.261653999999908,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

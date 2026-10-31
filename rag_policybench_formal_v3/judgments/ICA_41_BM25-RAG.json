@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_41",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the use of mobile phone photos for applications, aligns with the reference, and is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the use of mobile phone photos for applications, aligns with the reference, and is supported by the evidence provided.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 1051,
+      "output_tokens": 192,
+      "seconds": 14.727039099991089,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

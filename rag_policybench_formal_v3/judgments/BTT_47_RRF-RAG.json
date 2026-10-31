@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_47",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer does not directly address the consequence of failing to comply with prohibitory signs on visa requirements or entry into Singapore."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not directly address the consequence of failing to comply with prohibitory signs on visa requirements or entry into Singapore.\"\n}",
+      "input_tokens": 1220,
+      "output_tokens": 67,
+      "seconds": 5.467431199998828,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

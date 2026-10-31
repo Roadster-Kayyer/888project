@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006335",
+  "doc_id": "257",
+  "query_type": "hard",
+  "query": "What steps should I take to keep track of the outcome of my reported missing individual?",
+  "corpus_query_index": 6334,
+  "system": "BM25-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nPolice Search for Missing Persons:\nThe Tamil Nadu Police search for missing persons by:\n* Filing a missing person report\n* Conducting investigations and gathering information\n* Using surveillance and technology to track the missing person\n* Collaborating with other agencies and departments\n\n[Document 5]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "retrieved_doc_ids": [
+    "35",
+    "253",
+    "255",
+    "260",
+    "257"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "49c6e7d3f51f5a1263f246deeaa6cc67338f80ca8211ad06a71ecceb81f72a5f",
+  "answer": "To keep track of a reported missing individual, follow these steps:\n- File a First Information Report (FIR) at the nearest police station.\n- Get a copy of the FIR for reference.\n- Visit the Tamil Nadu Police Department’s website to track your complaint status [Document 5]. [Document 3]",
+  "input_tokens": 413,
+  "output_tokens": 64,
+  "seconds": 8.222853100000066,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

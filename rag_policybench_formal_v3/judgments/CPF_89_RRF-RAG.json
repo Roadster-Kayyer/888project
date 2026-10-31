@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_89",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, detailing the frequency, calculation, and payment methods for WIS."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, detailing the frequency, calculation, and payment methods for WIS.\"\n}",
+      "input_tokens": 1299,
+      "output_tokens": 192,
+      "seconds": 15.223236199992243,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_2",
+  "doc_id": "PB_cb078a82de94eaac8bfe",
+  "query_type": "ICA_134",
+  "query": "How can I check the application status of my REP application?",
+  "reference_answer": "You can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.",
+  "corpus_query_index": 214,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 2]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 3]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 4]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 5]\nYou may check the status of your online application or retrieve your application reference number by logging in to MyICA.For hardcopy applications, you may log in to our e-Service.",
+  "retrieved_doc_ids": [
+    "PB_cb078a82de94eaac8bfe",
+    "PB_4db518930267429b7a6f",
+    "PB_c6456fad7242c379cac1",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_533c97338e1e60662538"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ce08a024272142138ff17d3a7fb345a424b80863dca0f8642df31017407afdfb",
+  "answer": "To check the application status of your REP application, click the \"Check Application Status\" function in the e-Service. The processing time is usually within 3 working days, but some applications may take longer, especially during peak periods. [Document 1] & [Document 2]",
+  "input_tokens": 402,
+  "output_tokens": 59,
+  "seconds": 7.746843399989302,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

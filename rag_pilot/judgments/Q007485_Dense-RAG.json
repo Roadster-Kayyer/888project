@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007485",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\"\n}",
+      "input_tokens": 841,
+      "output_tokens": 138,
+      "seconds": 11.037979999999152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

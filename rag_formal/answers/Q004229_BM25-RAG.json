@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004229",
+  "doc_id": "176",
+  "query_type": "search",
+  "query": "Assistance needed for handling a towed vehicle situation.",
+  "corpus_query_index": 4228,
+  "system": "BM25-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 2]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 3]\nGetting Police Protection:\nTo get police protection, visit your local police station and file a complaint. Provide evidence of threats, and the police will assess the situation and provide necessary protection. You can also call 100 for emergency assistance.\n\n[Document 4]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 5]\nEmergency Response Protocols\n\n1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.\n\n2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.\n\n3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.",
+  "retrieved_doc_ids": [
+    "833",
+    "176",
+    "828",
+    "867",
+    "1552"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5db41216397167e657cef5ed1234107c536396b78e3e36a6ef673b20e818de27",
+  "answer": "For reclaiming a towed vehicle, go to the nearest police station or towing station with your vehicle's documents and ID. Pay fees and fill out forms. For a lost vehicle, visit the police website or station and provide details. [Document 1]",
+  "input_tokens": 524,
+  "output_tokens": 53,
+  "seconds": 6.933952199999112,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

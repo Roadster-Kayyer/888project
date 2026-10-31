@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_14",
+  "doc_id": "PB_836a1574dc33ade45124",
+  "query_type": "ICA_134",
+  "query": "Do I need to surrender the deceased's NRIC to the police station or ICA for physical invalidation?",
+  "reference_answer": "There is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.",
+  "corpus_query_index": 208,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThere is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.\n\n[Document 2]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\n\n[Document 3]\nYou must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.\n\n[Document 4]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.\n\n[Document 5]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.",
+  "retrieved_doc_ids": [
+    "PB_836a1574dc33ade45124",
+    "PB_5ae2776cd5bb7bd71a02",
+    "PB_5e87133ca7da061eb257",
+    "PB_2140a6169b3f40aa828c",
+    "PB_f07373f2f002f0f7b2ed"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cef2e15779e57cc6a6c6e1b43b74c6adf8b3b6940ce25d0b81c7b9d49276f352",
+  "answer": "No, you do not need to surrender the deceased's NRIC to the police station or ICA for physical invalidation. It will be automatically invalidated in ICA's system upon registering the death. [Document 1]",
+  "input_tokens": 488,
+  "output_tokens": 46,
+  "seconds": 5.898706799998763,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

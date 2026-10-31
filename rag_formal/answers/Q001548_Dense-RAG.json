@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001548",
+  "doc_id": "1277",
+  "query_type": "casual",
+  "query": "How can I get my road widening plan approved by the PWD in Tamil Nadu?",
+  "corpus_query_index": 1547,
+  "system": "Dense-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nBuilding Plan Approval:\nTo obtain building plan approval from PWD in Tamil Nadu, submit your building plan to the nearest PWD office or local authority. Ensure compliance with Tamil Nadu PWD building regulations and pay the required fees. The application will be reviewed, and approval will be granted if the plan meets the regulations.\n\n[Document 2]\nApplying for Road Safety Measures from PWD:\nTo apply for road safety measures, submit a request to the Tamil Nadu PWD through their website or visit the nearest PWD office. Provide details of the location and proposed safety measures. The PWD will review and process your request.\n\n[Document 3]\nConstruction near Highways:\nTo obtain permission for construction near highways in Tamil Nadu, contact the Tamil Nadu Highways Department. Submit an application with required documents, including a building plan and NOC from local authorities. The department will review and issue permission if the construction complies with regulations.\n\n[Document 4]\nApplying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.\n\n[Document 5]\nRental of PWD Rest Houses:\nTo apply for rental of PWD rest houses in Tamil Nadu, visit the Tamil Nadu Public Works Department (PWD) website or contact the nearest PWD office. Fill out the application form, providing required documents and payment. Approval is subject to availability and eligibility.",
+  "retrieved_doc_ids": [
+    "1275",
+    "1289",
+    "1279",
+    "1277",
+    "1273"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cb63d7e01c29349b5395b379c99da3820f5e938680b5b28d2e56952211ca037b",
+  "answer": "To get your road widening plan approved, submit a proposal to the concerned PWD Divisional Office with necessary documents like land ownership records and a detailed project report. [Document 4]",
+  "input_tokens": 437,
+  "output_tokens": 38,
+  "seconds": 5.032881200000702,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_55",
+  "doc_id": "PB_ba8da7916c6aa6ff3ddd",
+  "query_type": "CPF_111",
+  "query": "I am not a self-employed person. Why did I receive a Notice of Computation (NOC) from IRAS?",
+  "reference_answer": "You are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.",
+  "corpus_query_index": 118,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 2]\nThe Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File\n\n[Document 3]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.\n\n[Document 4]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 5]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.",
+  "retrieved_doc_ids": [
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_18ed14021ef1cf64ad15",
+    "PB_af7358262394319e226a",
+    "PB_b136e24f78206e70b3ee",
+    "PB_c4f12e1a849b705fc8a2"
+  ],
+  "trimmed_doc_ids": [
+    "PB_18ed14021ef1cf64ad15"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "258dc83fd79741c6b4bf0995c893b0d909d05f41b2de94a7c0cde51c544628f4",
+  "answer": "You received the NOC because you are registered as a self-employed, even if you're not a traditional one. IRAS collects income information from all self-employed individuals, including those with multiple sources of income, and sends NOCs for MediSave payable. This applies regardless of whether you're a property agent or not. [Document 1]",
+  "input_tokens": 883,
+  "output_tokens": 70,
+  "seconds": 9.403786800001399,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

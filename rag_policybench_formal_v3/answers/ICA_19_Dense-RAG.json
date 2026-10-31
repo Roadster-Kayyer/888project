@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_19",
+  "doc_id": "PB_a5deb8741f88193f4891",
+  "query_type": "ICA_134",
+  "query": "How should I appeal if my extension of stay application is unsuccessful?",
+  "reference_answer": "If your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "corpus_query_index": 213,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 2]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 3]\nAll REP renewal applications are being carefully assessed, taking into consideration all relevant factors, before a decision is made. If there are fresh facts and circumstances to support your request for a longer REP validity, you may furnish them to us for consideration at your next REP renewal.\n\n[Document 4]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 5]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "retrieved_doc_ids": [
+    "PB_a5deb8741f88193f4891",
+    "PB_f69aa5d536523684f1ff",
+    "PB_2442511cbf8a98e91232",
+    "PB_c4889c17ceec12f1516c",
+    "PB_6cdb1150c49584cda270"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ed23ec6826463025ce262b9c255d1e9684da198b1c41c5d673e60664316ea366",
+  "answer": "If your initial extension application is unsuccessful, submit a new application via the e-Service, providing accurate details. Ensure you follow the guidelines for the type of pass (e.g., STVP, REP). Always include all required documents and provide reasons for the request. [Document 1]",
+  "input_tokens": 623,
+  "output_tokens": 59,
+  "seconds": 7.917512200001511,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

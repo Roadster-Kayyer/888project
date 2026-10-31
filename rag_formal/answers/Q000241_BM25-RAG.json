@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000241",
+  "doc_id": "1040",
+  "query_type": "original",
+  "query": "How do I file a case in a criminal court?",
+  "corpus_query_index": 240,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 4]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "1040",
+    "255",
+    "1021",
+    "1022",
+    "1023"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "03e6955b687058d082bfe8ade1e4e2c5c1b715f4d06fdb0786300827524aa846",
+  "answer": "To file a case in a criminal court, first file a complaint with the police. They will investigate and file a chargesheet. Then, the court will take up the case. [Document 1]",
+  "input_tokens": 661,
+  "output_tokens": 42,
+  "seconds": 5.501721300000099,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

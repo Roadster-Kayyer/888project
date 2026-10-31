@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009585",
+  "doc_id": "842",
+  "query_type": "hard",
+  "query": "What methods are used to confirm someone's status as a servant?",
+  "corpus_query_index": 9584,
+  "system": "BM25-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 4]\nEthical Framework for Police Intelligence Gathering:\nThe Tamil Nadu Police follows a framework based on the Indian Constitution and laws. Intelligence gathering is guided by principles of necessity, proportionality, and respect for human rights. Police must ensure that methods used are lawful and do not infringe on individual rights.\n\n[Document 5]\nCall Detail Records (CDR) as Evidence:\nTo collect CDRs, the police obtain a court order or permission from the telecom authority. The telecom company then provides the required records, which are verified and used as evidence in investigations.",
+  "retrieved_doc_ids": [
+    "842",
+    "46",
+    "848",
+    "1453",
+    "781"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "866b1bfd541f0a37aa4be748a9929fd17677fbe6f1e77ef1104566124688ab61",
+  "answer": "To confirm a servant's status, submit an application to the local police station with ID proof, address, and employment details. The police conduct a background check and issue a verification report [Document 1]. Servants may be arrested, and their families should be informed and updates sought from the police station [Document 2]. Police must present the person before a magistrate within 24 hours [Document 3]. Police use lawful methods, including CDRs, under ethical frameworks guided by law [Document 4] and court orders [Document 5]. [Document 1] provides specific steps for servant verification.",
+  "input_tokens": 386,
+  "output_tokens": 125,
+  "seconds": 15.984944900003029,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

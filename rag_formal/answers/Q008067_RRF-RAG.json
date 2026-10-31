@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008067",
+  "doc_id": "57",
+  "query_type": "formal",
+  "query": "Under what circumstances can law enforcement compel an individual to affix their signature to a document?",
+  "corpus_query_index": 8066,
+  "system": "RRF-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 2]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 3]\nDigital Signature for Tax Filing:\nTo obtain a digital signature, visit the official website of a certified authority (e.g., eMudhra or Sify) and fill out the application form. Submit required documents, such as ID proof and address proof, and pay the fees. The digital signature certificate will be issued after verification.\n\n[Document 4]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 5]\nImpersonation Fraud:\nImpersonation fraud can lead to punishment under the IPC Section 419, including imprisonment up to 3 years and/or a fine, depending on the circumstances of the case.",
+  "retrieved_doc_ids": [
+    "34",
+    "57",
+    "1309",
+    "1193",
+    "603"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "44b7ab28b378be9f71a80319678d8c23b6d541879a26c68090dc3123c4ba1ad2",
+  "answer": "Law enforcement cannot compel an individual to sign a document. However, individuals have the right to read and understand the document before signing it [Document 2]. Police verification, which checks an individual's background, is required for certain purposes like passport applications [Document 1].",
+  "input_tokens": 393,
+  "output_tokens": 55,
+  "seconds": 7.2409415999973135,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_59",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate identifies CPF contributions as part of platform fee components but lacks specific details from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate identifies CPF contributions as part of platform fee components but lacks specific details from the reference.\",\n  \"retrieved_evidence\": null\n}",
+      "input_tokens": 743,
+      "output_tokens": 73,
+      "seconds": 5.793113699997775,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

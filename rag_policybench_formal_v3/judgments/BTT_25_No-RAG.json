@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_25",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer mentions slippery roads but omits other conditions listed in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer mentions slippery roads but omits other conditions listed in the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is partly correct as it correctly identifies slippery roads as a condition warning signs can indicate, which aligns with the reference. However, it fails to mention gated and ungated level crossings, uneven roads, road humps, steep slopes, quays, river banks, or seas, which are all conditions listed in the reference. Therefore, the answer is not fully faithful to the provided evidence. The reason for the score is that the answer does not cover all the main reference facts about specific road conditions indicated by warning signs.",
+      "input_tokens": 369,
+      "output_tokens": 187,
+      "seconds": 14.423909300006926,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_27",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference information and lacks supporting evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not align with the reference information and lacks supporting evidence.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate's answer incorrectly specifies age and duration of payment as criteria for eligibility, which are not mentioned in the reference. The reference clearly states that all Singapore Citizens and Permanent Residents are automatically eligible, regardless of age, income, or residence value. Therefore, the answer is incorrect and not relevant to the reference provided. There is no evidence in the candidate's answer to support the claim made.",
+      "input_tokens": 384,
+      "output_tokens": 159,
+      "seconds": 11.79999400000088,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007360",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is relevant as it suggests contacting the college's administration or using the institution's complaint system, which aligns with the reference's advice. However, it does not directly quote or paraphrase the specific steps or entities to contact (college administration, Director of Collegiate Education, Tamil Nadu, or the Vigilance and Anti-Corruption Department), hence the faithfulness score is null due to the absence of direct evidence from the provided reference.",
+      "input_tokens": 390,
+      "output_tokens": 171,
+      "seconds": 13.162127799994778,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

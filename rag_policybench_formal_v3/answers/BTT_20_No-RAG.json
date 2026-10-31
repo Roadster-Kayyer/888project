@@ -1,0 +1,20 @@
+{
+  "query_id": "BTT_20",
+  "doc_id": "PB_5c3115538294339c3ac4",
+  "query_type": "BTT",
+  "query": "Where must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+  "reference_answer": "They must travel along the left-hand lane of the expressway.",
+  "corpus_query_index": 13,
+  "system": "No-RAG",
+  "context": "",
+  "retrieved_doc_ids": [],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": null,
+  "prompt_sha256": "9140d5edb107ff68d6f6750b0a75d3e4186ff8971af0d0f3c562e4986523f57c",
+  "answer": "Vehicles with speed limits of 60 km/h and below must travel on local roads or low-speed lanes within an expressway. [Document 1]",
+  "input_tokens": 131,
+  "output_tokens": 33,
+  "seconds": 4.517743500000506,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

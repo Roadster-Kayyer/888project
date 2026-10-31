@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_5",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 5.\",\n  \"evidence\": \"Document 5 states that individuals can use Ordinary Account savings if MediSave balance falls below $20,000, which is a solution to insufficient balance for MediShield premiums.\"\n}",
+      "input_tokens": 749,
+      "output_tokens": 192,
+      "seconds": 15.118245799996657,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

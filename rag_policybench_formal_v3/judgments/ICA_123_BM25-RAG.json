@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_123",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that long-term pass holders can travel with an expiring passport if it's valid for at least 6 months and aligns with evidence from Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that long-term pass holders can travel with an expiring passport if it's valid for at least 6 months and aligns with evidence from Document 1 and Document 5.\"\n}",
+      "input_tokens": 1513,
+      "output_tokens": 192,
+      "seconds": 15.295361299999058,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

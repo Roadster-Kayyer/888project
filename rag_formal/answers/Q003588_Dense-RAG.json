@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003588",
+  "doc_id": "1644",
+  "query_type": "casual",
+  "query": "What cool stuff do cops get now for staying safe?",
+  "corpus_query_index": 3587,
+  "system": "Dense-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nGetting Police Protection:\nTo get police protection, visit your local police station and file a complaint. Provide evidence of threats, and the police will assess the situation and provide necessary protection. You can also call 100 for emergency assistance.\n\n[Document 2]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 3]\nDocuments to Carry:\nWhen visiting a police station, carry a valid ID proof (Aadhaar card, voter ID, etc.), a copy of your complaint or petition, and any relevant documents related to your case.\n\n[Document 4]\n1. Police Finger Print Bureau:\nThe Police Finger Print Bureau helps identify individuals by comparing fingerprints found at crime scenes with those in their database. This aids in solving crimes and tracking repeat offenders.\n\n[Document 5]\nFunction of the Police Printing Press:\nThe Police Printing Press prints:\n* Official police documents and forms\n* Identity cards and certificates\n* Police publications and materials\n* Other sensitive documents",
+  "retrieved_doc_ids": [
+    "828",
+    "1644",
+    "38",
+    "1594",
+    "1604"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c91bedeffb13894b5cf2847a070832d2eb9da44d5f5687b992a25343ef1f3df2",
+  "answer": "Cops in Tamil Nadu now receive bulletproof vests, helmets, and communication devices for personal safety. Additionally, they have access to a Police Finger Print Bureau for identifying suspects and tracking repeat offenders. [Document 2]",
+  "input_tokens": 343,
+  "output_tokens": 45,
+  "seconds": 5.707058700001653,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

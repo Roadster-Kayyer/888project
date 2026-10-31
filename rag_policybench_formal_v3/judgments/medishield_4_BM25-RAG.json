@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_4",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No information on the highest premium increase over three years is provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No information on the highest premium increase over three years is provided.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}",
+      "input_tokens": 1070,
+      "output_tokens": 192,
+      "seconds": 14.769539899993106,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

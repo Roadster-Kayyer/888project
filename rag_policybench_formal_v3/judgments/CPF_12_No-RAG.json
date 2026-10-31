@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_12",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not directly address the eligibility sources for DAS co-contribution as per the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not directly address the eligibility sources for DAS co-contribution as per the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer does not provide information directly from the reference, which specifies that only contributions made by the taxi principal hirer qualify for DAS co-contribution and excludes certain types of contributions. The evidence provided is also null, as the candidate did not reference any document or specific information from the provided text.",
+      "input_tokens": 446,
+      "output_tokens": 146,
+      "seconds": 11.18962360000296,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

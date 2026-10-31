@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009876",
+  "doc_id": "896",
+  "query_type": "original",
+  "query": "What is the process for reporting casteist discrimination?",
+  "corpus_query_index": 9875,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.",
+  "context": "[Document 1]\nReporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.\n\n[Document 2]\nReporting Discrimination against Transgender Women:\nTo report discrimination, contact the Tamil Nadu Police's dedicated helpline or visit the nearest police station. You can also file a complaint online through the Tamil Nadu Police website. Provide details of the incident, and the police will take necessary action.\n\n[Document 3]\nAddressing Caste-Based Discrimination:\nThe Tamil Nadu Police addresses caste-based discrimination through the SC/ST Helpline (14416) and the District Human Rights Cells. Victims can report incidents, and the police will take action under the SC/ST (Prevention of Atrocities) Act, 1989.\n\n[Document 4]\nFiling a Discrimination Case at Workplace:\nTo file a discrimination case, follow these steps:\n1. Report the incident to your HR department or supervisor.\n2. File a complaint with the Tamil Nadu State Commission for Women or the Tamil Nadu State Commission for SC/ST.\n3. Provide supporting documents and evidence.\n4. Cooperate with the investigation.\n\n[Document 5]\nDigital Interface for Traffic Violation Reporting:\nThe digital interface for traffic violation reporting is the \"E-Challan\" system. This online platform allows citizens to report traffic violations and pay fines electronically, making the process convenient and efficient.",
+  "retrieved_doc_ids": [
+    "896",
+    "462",
+    "1391",
+    "1096",
+    "1338"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "10a73d6933c8f7ee5f84687ad864b6f87e543a1123ba90c0360d7663d27692ee",
+  "answer": "For reporting casteist discrimination, report to the nearest police station or District Social Welfare Officer. Alternatively, contact the Tamil Nadu State Commission for SC/ST for assistance. [Document 1] Additionally, victims can report to the SC/ST Helpline (14416) or District Human Rights Cells. [Document 3]",
+  "input_tokens": 431,
+  "output_tokens": 69,
+  "seconds": 8.969596099999762,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

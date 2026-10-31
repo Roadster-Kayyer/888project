@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_40",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate answer partially addresses the reference but lacks specific details about operating hours and parking schemes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer partially addresses the reference but lacks specific details about operating hours and parking schemes.\",\n  \"evidence\": \"null\"\n}\n\nIn this evaluation, the candidate answer is deemed partly correct (1 for correctness) as it provides relevant information about what a car park signboard typically indicates. However, it does not directly address all the points mentioned in the reference, such as different parking schemes and operating hours, hence the relevance score is also 1. Faithfulness is scored as null because there is no supplied evidence directly supporting the candidate's claims, and the answer does not contain an abstention without making substantive factual claims. The reason succinctly explains the scores given.",
+      "input_tokens": 360,
+      "output_tokens": 188,
+      "seconds": 14.740284500003327,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

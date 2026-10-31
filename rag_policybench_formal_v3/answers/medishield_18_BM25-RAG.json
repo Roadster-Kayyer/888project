@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_18",
+  "doc_id": "PB_aa57740dea1752946959",
+  "query_type": "medishield",
+  "query": "What percentage of additional premium do individuals with serious pre-existing medical conditions need to pay for MediShield Life for the first 10 years?",
+  "reference_answer": "30%",
+  "corpus_query_index": 312,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 3]\nEligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.\n\n[Document 4]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 5]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_94912bc524cf8198c3c7",
+    "PB_25927e8ab4491744b345",
+    "PB_e3c25d5d6d3228d33a57"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e25471de9c06cc4e8e3558b14c5e159f73ad3e024b8da8f73b78f79dfb6c86fa",
+  "answer": "Based on Document 1, individuals with serious pre-existing medical conditions receive annual MediSave top-ups of $50 to $200 from 2021 to 2025, which can be used to pay MediShield Life premiums. However, Document 1 does not specify a percentage increase for the additional premium. [Document 1]",
+  "input_tokens": 312,
+  "output_tokens": 74,
+  "seconds": 9.613773000004585,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

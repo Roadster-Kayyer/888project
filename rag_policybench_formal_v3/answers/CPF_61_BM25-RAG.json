@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_61",
+  "doc_id": "PB_f95f71d1b02137e5eb5f",
+  "query_type": "CPF_111",
+  "query": "Can I cancel the payment after I have confirmed the payment utilising my GovCash on the LifeSG mobile app?",
+  "reference_answer": "No, your GovCash balance will be deducted upon successful payment.",
+  "corpus_query_index": 125,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 2]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 3]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_b5339301e0857337a248",
+    "PB_09222d548a5f63af648a",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b16e1480bbb926a69d1b47eed76101b6193fc3365920eb4289811cf60674df4a",
+  "answer": "No, you cannot cancel the payment via GovCash on the LifeSG mobile app. According to [Document 3], the QR code's validity is automatically extended when accessed via the app, and it becomes invalid only when the passport expires. There's no mention of being able to cancel or void payments through this app.",
+  "input_tokens": 782,
+  "output_tokens": 65,
+  "seconds": 8.759705800010124,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

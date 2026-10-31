@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001345",
+  "doc_id": "124",
+  "query_type": "hard",
+  "query": "How does the Narcotic Drugs and Psychotropic Substances Act regulate illegal narcotics trade, and which felonies does it target?",
+  "corpus_query_index": 1344,
+  "system": "Dense-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nNarcotics Control Bureau (NCB):\nThe NCB is a central agency that works with local police to prevent and investigate drug-related crimes. They share intelligence and coordinate efforts to combat drug trafficking and abuse.\n\n[Document 3]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.\n\n[Document 4]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 5]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.",
+  "retrieved_doc_ids": [
+    "124",
+    "121",
+    "122",
+    "1926",
+    "129"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2f462fe7239af0da8f2cbe0de48241a75dc6f550329460684f85f6cfaf1256c7",
+  "answer": "The NDPS Act regulates illegal narcotics trade by covering offenses like possession, sale, purchase, and manufacture of banned substances. It targets felonies including drug trafficking and abuse through agencies like the Narcotics Control Bureau (NCB). Penalties range from up to 1 year in prison and fines for small quantities to up to 10-20 years and heavier fines for larger quantities, as per the Act of 1985 [Document 3].",
+  "input_tokens": 429,
+  "output_tokens": 94,
+  "seconds": 11.959404600000198,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

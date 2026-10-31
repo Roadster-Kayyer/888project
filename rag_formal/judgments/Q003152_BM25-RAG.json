@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003152",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, and 3.\",\n  \"faithfulness_evidence\": \"Documents 1 and 2 confirm the Bureau's role in collecting, analyzing, and maintaining crime data for investigations and providing intelligence to police units. Document 3 supports the claim of handling cases related to crime records and analysis, which aids in investigations.\"\n}",
+      "input_tokens": 734,
+      "output_tokens": 192,
+      "seconds": 14.916092299998127,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

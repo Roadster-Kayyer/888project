@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003587",
+  "doc_id": "1644",
+  "query_type": "formal",
+  "query": "How have modern devices been supplied to law enforcement for security purposes?",
+  "corpus_query_index": 3586,
+  "system": "BM25-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 2]\nSedition and Free Speech\nIn India, sedition is covered under Section 124A of the IPC. The law balances free speech with national security. Citizens have the right to free speech, but it's limited by reasonable restrictions, including those related to sedition.\n\n[Document 3]\nFiling a case in the Company Law Board:\nThe Company Law Board has been replaced by the National Company Law Tribunal (NCLT). To file a case, you must:\n* Prepare a petition with required documents and fees\n* File the petition with the NCLT registry\n* Serve notice to the respondent\n\n[Document 4]\nModern Surveillance Systems:\nThe Tamil Nadu Police has implemented:\n* CCTV cameras in public areas\n* Intelligent Traffic Management Systems\n* Facial recognition technology in urban areas to enhance security and surveillance.\n\n[Document 5]\nTerrorist Threat Response:\nThe Tamil Nadu Police has established a specialized counter-terrorism unit and conducts regular drills and training exercises to improve response to terrorist threats. Intelligence gathering and sharing have also been enhanced.",
+  "retrieved_doc_ids": [
+    "1644",
+    "1754",
+    "1178",
+    "1632",
+    "1642"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "59d300816592e1dfa707c72270d9b5bcfee3264c9e69a347c27c49b74bfc42d1",
+  "answer": "Modern devices supplied to law enforcement include bulletproof vests, helmets, and communication devices for personal safety [Document 1]. Additionally, CCTV cameras, intelligent traffic management systems, and facial recognition technology are used for enhanced security and surveillance [Document 4].",
+  "input_tokens": 376,
+  "output_tokens": 51,
+  "seconds": 6.7431285999991815,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

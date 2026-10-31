@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004012",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate mentions relevant actions but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions relevant actions but lacks specific evidence from the reference.\",\n  \"answer\": \"Legal actions against officers include internal investigations and potential criminal charges, but specific reference-based evidence is missing.\"\n}",
+      "input_tokens": 420,
+      "output_tokens": 192,
+      "seconds": 15.034227599997394,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

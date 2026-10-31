@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_26",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate's answer contradicts the reference which states amendments are not allowed post-submission."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer contradicts the reference which states amendments are not allowed post-submission.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the reference, it is clearly stated that amendments to visa application information are not allowed after the successful submission of the visa application. The candidate's answer, however, suggests that amendments are possible after submission, which is not supported by the provided reference. Therefore, the correctness score is 0, as the candidate's answer is wrong relative to the reference facts. The relevance score is 1 because the candidate's answer addresses the question of amending visa application information, but it fails to accurately reflect the reference's stipulations",
+      "input_tokens": 521,
+      "output_tokens": 192,
+      "seconds": 13.913000700005796,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008523",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses school reporting procedures and the prohibition of corporal punishment, supported by Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses school reporting procedures and the prohibition of corporal punishment, supported by Document 5.\",\n  \"evidence\": \"Document 5 directly supports the claim about reporting corporal punishment and the prohibition under the Right to Education Act.\"\n}",
+      "input_tokens": 771,
+      "output_tokens": 96,
+      "seconds": 7.621725400000287,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

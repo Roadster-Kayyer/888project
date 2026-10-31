@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005901",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn the reference, it is specified to call the police control room or contact the local traffic police station, and there is mention of a mobile app or website for reporting. The candidate answer does not mention these specific methods, hence the faithfulness score is null due to lack of substantive factual claims supported by the supplied evidence.",
+      "input_tokens": 402,
+      "output_tokens": 133,
+      "seconds": 10.415804100000969,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

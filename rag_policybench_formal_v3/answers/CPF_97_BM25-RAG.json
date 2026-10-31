@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_97",
+  "doc_id": "PB_837e541098985a1c1bc9",
+  "query_type": "CPF_111",
+  "query": "What is the status of my request to make self-employed MediSave contributions via monthly instalments?",
+  "reference_answer": "We will keep you informed about the status of your request to make self-employed MediSave contributions via monthly instalments, once it has been processed.Please note our normal processing time:·         Requests made via online appeal: generally 12 working days·         Manual transactions: generally 15 working daysYou can check the status of your request by clicking on thislink.You can view your approved GIRO instalment plan details on theSelf-employment dashboard. To accessmy cpfDigital Services – Self-employment dashboard, please log in to theCPF websiteusing your Singpass.",
+  "corpus_query_index": 164,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nWe will keep you informed about the status of your request to make self-employed MediSave contributions via monthly instalments, once it has been processed.Please note our normal processing time:·         Requests made via online appeal: generally 12 working days·         Manual transactions: generally 15 working daysYou can check the status of your request by clicking on thislink.You can view your approved GIRO instalment plan details on theSelf-employment dashboard. To accessmy cpfDigital Services – Self-employment dashboard, please log in to theCPF websiteusing your Singpass.\n\n[Document 2]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 3]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 4]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 5]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_837e541098985a1c1bc9",
+    "PB_e29140d6b3a201be99ba",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_b136e24f78206e70b3ee",
+    "PB_dc08990660488c2ed4e8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d4cb0b3f826a4b7fc4ecd0f6732422fa2ef422fb8be996a9ab2c9e699f2a125f",
+  "answer": "Your request to make self-employed MediSave contributions via monthly instalments is being processed. The normal processing time is 15 working days. You can check the status by following the provided link. [Document 1]",
+  "input_tokens": 596,
+  "output_tokens": 45,
+  "seconds": 6.061972000010428,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_57",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states that the WIS is based on the current year's net trade income and does not allow for previous year's losses to be used."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states that the WIS is based on the current year's net trade income and does not allow for previous year's losses to be used.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to an actual document or source that supports the candidate's answer. Since this is a hypothetical example, the evidence is represented as a placeholder.)",
+      "input_tokens": 413,
+      "output_tokens": 151,
+      "seconds": 11.432919500002754,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

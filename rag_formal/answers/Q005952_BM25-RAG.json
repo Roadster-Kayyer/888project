@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005952",
+  "doc_id": "207",
+  "query_type": "formal",
+  "query": "How does the verification process for domestic workers operate?",
+  "corpus_query_index": 5951,
+  "system": "BM25-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 4]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint in Tamil Nadu, visit the nearest police station or a women's police station. Provide a written complaint with details of the incident. The police will register an FIR and guide you through the process.\n\n[Document 5]\nPolice Verification in Remote Areas:\nFor police verification in remote areas, applicants can submit their requests through the local police station or the Tamil Nadu Police website. The police will then conduct the verification process, which may involve door-to-door checks or online verification, and provide the necessary clearance.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "277",
+    "1815",
+    "1394"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3a86c875782a332ed7211e61ec2e3646418d78d3c2b105b0a93e8824f669a9ff",
+  "answer": "The verification process for domestic workers involves submitting an application to the local police station with required documents like ID proof, address proof, and a declaration form. The police conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 404,
+  "output_tokens": 48,
+  "seconds": 6.135340499999074,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003433",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence in documents about police-public relations improvements."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence in documents about police-public relations improvements.\",\n  \"score\": 0\n}",
+      "input_tokens": 746,
+      "output_tokens": 58,
+      "seconds": 4.617193699999916,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

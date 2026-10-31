@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_33",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] With effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs.\"\n}",
+      "input_tokens": 996,
+      "output_tokens": 192,
+      "seconds": 14.65026099998795,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002958",
+  "doc_id": "1530",
+  "query_type": "casual",
+  "query": "So, what's the deal with handling riots or civil unrest emergencies?",
+  "corpus_query_index": 2957,
+  "system": "Dense-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 3]\nEmergency Response to Communal Violence:\nThe Tamil Nadu Police handles communal violence through:\n* Rapid deployment of personnel to affected areas\n* Establishing communication with community leaders to calm tensions\n* Implementing curfews and other measures to maintain law and order\n\n[Document 4]\nHandling Multiple Emergency Situations:\nThe Tamil Nadu Police handles multiple emergency situations simultaneously by:\n1. Prioritizing incidents based on severity and urgency\n2. Allocating available resources effectively\n3. Coordinating with other emergency services (e.g., fire, ambulance)\n4. Using a centralized command center to monitor and respond to situations.\n\n[Document 5]\nEmergency Response to Severe Weather Events:\nThe Tamil Nadu Police responds to severe weather events through its Disaster Management Plan. This includes:\n* Alerting the public through social media and messaging systems\n* Deploying personnel for rescue and relief operations\n* Coordinating with other emergency services, such as fire and medical teams",
+  "retrieved_doc_ids": [
+    "1530",
+    "1534",
+    "1545",
+    "1521",
+    "1543"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ede78b459061984601378fefd2d45ec748b8059a73728c429f9426f9c3b51564",
+  "answer": "Emergency responses in Tamil Nadu involve deploying riot control police, using non-lethal measures, restoring law and order, and protecting life and property. For prisons, alerting nearby police and coordinating with prison authorities is key. Handling communal violence involves rapid deployment, communication with leaders, and implementing curfews. For multiple emergencies, prioritization, resource allocation, coordination, and centralized command are used. For severe weather events, alerting the public, deploying personnel, and coordinating with other services are crucial. [Document 1-5]",
+  "input_tokens": 453,
+  "output_tokens": 107,
+  "seconds": 13.776046299999507,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

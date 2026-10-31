@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001344",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the NDPS Act and the types of crimes it addresses, directly aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the NDPS Act and the types of crimes it addresses, directly aligning with the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key is included to indicate that the candidate's answer is supported by a document, even though the actual document is not provided in the text. In a real-world scenario, the evidence would be the actual document or source that backs up the candidate's answer.",
+      "input_tokens": 437,
+      "output_tokens": 144,
+      "seconds": 11.336987099999533,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

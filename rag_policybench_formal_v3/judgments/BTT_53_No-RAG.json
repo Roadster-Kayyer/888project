@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_53",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly mentions the two-second rule but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly mentions the two-second rule but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is correct (2) as it directly addresses the question about safety measures for following distance by mentioning the two-second rule. The relevance is also high (2) because the answer directly relates to the safety measures discussed in the reference. However, the faithfulness is only partially (1) because the answer does not cite the specific reference (Document 1) that supports the claim, which is a requirement for full faithfulness. The reason succinctly explains the scores, noting the correctness and relevance but the lack of evidence linking to",
+      "input_tokens": 365,
+      "output_tokens": 192,
+      "seconds": 14.688933800003724,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

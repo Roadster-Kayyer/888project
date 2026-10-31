@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009584",
+  "doc_id": "842",
+  "query_type": "search",
+  "query": "Can you explain the verification process for servants?",
+  "corpus_query_index": 9583,
+  "system": "Dense-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nPassport Verification Procedure:\nThe police verification process for passports involves:\n1. Application submission\n2. Field verification by local police\n3. Report submission to passport office\nVerification is done to confirm applicant's identity and address.\n\n[Document 4]\nPolice Verification for Government Contractors:\nThe procedure involves submitting an application to the local police station with required documents, including a contract copy and ID proof. The police will then conduct a background check and issue a verification report.\n\n[Document 5]\nPolice Verification for Foreign Religious Missionaries:\nForeign religious missionaries must register with the local police station and provide required documents. They must also obtain a verification certificate from the police, which is typically required for their visa and stay in Tamil Nadu.",
+  "retrieved_doc_ids": [
+    "842",
+    "207",
+    "201",
+    "217",
+    "1796"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "465aefd5abab39c8c7c7c9c171f76e1dfc8decea9c0d03541d20088730dde452",
+  "answer": "The verification process for servants involves submitting an application to the local police station with ID proof, address, and employment details. The police conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 367,
+  "output_tokens": 42,
+  "seconds": 5.183848799999396,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

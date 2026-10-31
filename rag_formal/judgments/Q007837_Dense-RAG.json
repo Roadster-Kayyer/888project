@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007837",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct and relevant information from all documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the sanctions for unauthorized street performances and related offenses as stated in the documents, with correct amounts and potential penalties for each scenario.\",\n}",
+      "input_tokens": 857,
+      "output_tokens": 192,
+      "seconds": 15.01465549999557,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct and relevant information from all documents, fully supported by evidence.\"}",
+      "input_tokens": 897,
+      "output_tokens": 42,
+      "seconds": 3.732357699998829,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

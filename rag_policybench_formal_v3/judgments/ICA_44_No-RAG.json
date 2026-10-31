@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_44",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it suggests a method to report immigration offenses, which aligns with the question. However, it does not directly reference the ICA online form mentioned in the reference, which is a key piece of evidence for the correct procedure. Therefore, the correctness score is 1, indicating partial correctness with important omissions. The relevance score is 1 because the answer addresses the question but could be more specific. Faithfulness is null because the candidate's answer does not contain the specific evidence (ICA online form) from the reference, and there",
+      "input_tokens": 473,
+      "output_tokens": 192,
+      "seconds": 14.996909699999378,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

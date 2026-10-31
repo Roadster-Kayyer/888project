@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007356",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific contact details and the mention of the Vigilance and Anti-Corruption Department."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant but omits specific contact details and the mention of the Vigilance and Anti-Corruption Department.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it correctly suggests contacting the college's administration or relevant university department, which aligns with the reference's advice. However, it lacks the specificity of contacting the Director of Collegiate Education in Tamil Nadu and the Vigilance and Anti-Corruption Department, which are crucial for a complete procedure. The faithfulness score is 1 because the candidate's answer contains substantive factual claims that are supported by the reference, but it does not fully encompass all the",
+      "input_tokens": 405,
+      "output_tokens": 192,
+      "seconds": 14.921951500000432,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

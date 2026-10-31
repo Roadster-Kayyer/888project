@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008067",
+  "doc_id": "57",
+  "query_type": "formal",
+  "query": "Under what circumstances can law enforcement compel an individual to affix their signature to a document?",
+  "corpus_query_index": 8066,
+  "system": "BM25-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 2]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 3]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 4]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 5]\nPolice Heritage Walk Program:\nThe Police Heritage Walk program is an initiative to showcase the history and heritage of policing in historic cities. It aims to educate the public about the evolution of law enforcement and promote community engagement.",
+  "retrieved_doc_ids": [
+    "34",
+    "579",
+    "1193",
+    "1191",
+    "1690"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "28dd511c0211fdeb59a65f7bb9ebc24532fd0c3ecac44e572c6f986efed3b29f",
+  "answer": "Law enforcement can compel an individual to sign a document if there's a threat to file false cases, leading to potential imprisonment. However, the given documents do not specify other circumstances for compulsion. [Document 1]",
+  "input_tokens": 390,
+  "output_tokens": 45,
+  "seconds": 5.94127540000045,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

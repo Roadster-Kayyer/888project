@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002707",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from the documents, which mention housing and complaint authority benefits, as well as bail procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from the documents, which mention housing and complaint authority benefits, as well as bail procedures.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}",
+      "input_tokens": 1118,
+      "output_tokens": 192,
+      "seconds": 14.673739599998953,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

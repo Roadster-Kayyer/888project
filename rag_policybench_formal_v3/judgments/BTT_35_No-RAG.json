@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_35",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the implied content of the document."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the implied content of the document.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: Since the actual content of \"Document 1\" is not provided, the faithfulness score is based on the assumption that the document would contain information about traffic rules, road signs, and safe driving practices, which are typical topics in the basic theory of driving. In a real-world scenario, the evidence would need to be explicitly referenced to justify the score.)",
+      "input_tokens": 331,
+      "output_tokens": 148,
+      "seconds": 11.524353700006031,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

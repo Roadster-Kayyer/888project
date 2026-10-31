@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_26",
+  "doc_id": "PB_6cdb1150c49584cda270",
+  "query_type": "ICA_134",
+  "query": "There is a spelling mistake in my visa application. Can the visa application information be amended after the application has been submitted or approved?",
+  "reference_answer": "You must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "corpus_query_index": 221,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 2]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.\n\n[Document 3]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 4]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_6cdb1150c49584cda270",
+    "PB_98e41a7d780bc8508f25",
+    "PB_70e279a2efefc3723a97",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c805e1153c6b3610db0b781832a147ecf98ed007c002403f8711544f364c4f97",
+  "answer": "Yes, you can amend the visa application information after submitting it. However, you need to start a new application with the correct details. The processing fee is non-refundable. [Document 1]",
+  "input_tokens": 696,
+  "output_tokens": 42,
+  "seconds": 5.608129800006282,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003199",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly cites documents, and is fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly cites documents, and is fully supported by evidence.\",\n  \"evidence\": \"Document 1 and Document 2 both describe the role of the Police Radio Branch in maintaining and coordinating communication networks for real-time connectivity and effective police operations.\"\n}",
+      "input_tokens": 715,
+      "output_tokens": 192,
+      "seconds": 14.9449844999981,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

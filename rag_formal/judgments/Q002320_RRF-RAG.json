@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002320",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies norms from the Indian Police Code of Conduct and related documents, directly addresses the question, and is supported by evidence from the documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies norms from the Indian Police Code of Conduct and related documents, directly addresses the question, and is supported by evidence from the documents provided.\"\n}\n\n\nThe candidate answer is correct in stating that the norms are outlined by the Indian Police Code of Conduct, which is directly relevant to the question. The answer also correctly references the importance of integrity, impartiality, and respect for human rights, which are key aspects of the code. The mention of the Police Act and National Human Rights Commission guidelines further supports the faithfulness of the answer, as these documents provide additional context for the norms of police behavior. The candidate also correctly refers to the specific practices during rural elections and emergency situations, which",
+      "input_tokens": 863,
+      "output_tokens": 192,
+      "seconds": 14.870380200001819,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

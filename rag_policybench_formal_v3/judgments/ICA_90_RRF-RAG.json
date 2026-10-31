@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_90",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"Documents 1 and 2 provide the required information about the timeframe for reporting a change of address and the process involved, which is directly relevant to the question.\"\n}\n\n\nIn the provided scenario, the candidate's answer is comprehensive, directly relevant, and fully supported by the evidence from the documents. The answer correctly states the timeframe for reporting a change of address (28 days) and outlines the process (report via ICA e-Service, receive PIN, affix sticker to the IC), which is consistent with the information in Documents 1 and 2. There",
+      "input_tokens": 693,
+      "output_tokens": 192,
+      "seconds": 14.637786799998139,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

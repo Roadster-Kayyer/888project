@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008698",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the question about punishment for mean behavior during games, as the provided documents do not contain this information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the question about punishment for mean behavior during games, as the provided documents do not contain this information.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 886,
+      "output_tokens": 79,
+      "seconds": 6.229509099997813,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

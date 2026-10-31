@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009459",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with specific incidents and is supported by documents 2 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the types of incidents managed by All Women Police Stations and includes evidence from Documents 2 and 3. It also correctly states that men can report crimes against women at these stations, as per Document 5.\",\n}",
+      "input_tokens": 740,
+      "output_tokens": 93,
+      "seconds": 7.225513100005628,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with specific incidents and is supported by documents 2 and 3.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the question with specific incidents and is supported by the provided documents. The brief explanation in the \"reason\" field summarizes the evaluation.",
+      "input_tokens": 780,
+      "output_tokens": 112,
+      "seconds": 8.79218150000088,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

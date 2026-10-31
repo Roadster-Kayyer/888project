@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007840",
+  "doc_id": "528",
+  "query_type": "hard",
+  "query": "How do local authorities usually handle street performers who aren't officially licensed?",
+  "corpus_query_index": 7839,
+  "system": "BM25-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nLicensed Firearms Information:\nTo access information about licensed firearms in your area, contact your local police station or visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) for more information on firearms licensing and regulations.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "107",
+    "528",
+    "849",
+    "332",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2975071ce931867434216ceffc65968b72a1f535d7515959282dcc599e745554",
+  "answer": "Local authorities handle unauthorized street performers by imposing fines of up to ₹1,000 under the Tamil Nadu City Police Act. In severe cases, they may arrest performers for causing public nuisance. [Document 2]",
+  "input_tokens": 407,
+  "output_tokens": 45,
+  "seconds": 5.966182000000117,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007840",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states fines and potential arrests for unauthorized performances, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states fines and potential arrests for unauthorized performances, supported by Document 1 and Document 2.\",\n  \"evidence\": \"Document 1: Fine up to ₹1,000 for unauthorized performances; Document 2: Up to 7 years imprisonment for threatening cultural performers.\"\n}",
+      "input_tokens": 806,
+      "output_tokens": 115,
+      "seconds": 9.106380299999728,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

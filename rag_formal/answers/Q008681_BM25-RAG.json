@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008681",
+  "doc_id": "680",
+  "query_type": "original",
+  "query": "What punishment can be given for violence during bandhs or strikes?",
+  "corpus_query_index": 8680,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nPolice Seizing Property:\nYes, police can seize property during investigation with a warrant or under certain circumstances. A receipt is given, and the property is returned if not used as evidence.\n\n[Document 3]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 4]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 5]\nViolence related to Witch-Hunting:\nViolence related to witch-hunting is punishable under Section 302 (murder) or 304 (culpable homicide) of the IPC. The punishment can range from 7 years to life imprisonment.",
+  "retrieved_doc_ids": [
+    "680",
+    "50",
+    "581",
+    "683",
+    "692"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6c187e1a233e5d439a7760095d3c80bbc8cd6c7268942467abd9a377ebcd3731",
+  "answer": "For violence during bandhs or strikes, the punishment can be up to 3 years in prison and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). [Document 1]",
+  "input_tokens": 402,
+  "output_tokens": 54,
+  "seconds": 7.0294957000005525,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

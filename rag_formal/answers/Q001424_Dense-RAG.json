@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001424",
+  "doc_id": "1254",
+  "query_type": "search",
+  "query": "What's the procedure to flag illegal tourism in national parks?",
+  "corpus_query_index": 1423,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.\n\n[Document 2]\nReporting Illegal Tourism Activities in Forest Areas:\nReport to the nearest Forest Range Office or police station. Provide details of the activity, location, and any evidence. You can also contact the Tamil Nadu Forest Department's helpline or submit a complaint online through their official website.\n\n[Document 3]\nProperty Loss Reports by International Tourists:\nInternational tourists can report property loss at the local police station where the incident occurred. They should provide their passport, visa details, and a detailed description of the lost property. The police will issue a report, which can be used for insurance and other purposes.\n\n[Document 4]\nReporting Illegal Occupation:\nTo report illegal occupation of common lands in villages:\n* File a complaint with the local police station\n* Inform the village administration (Gram Panchayat)\n* Provide evidence of illegal occupation\n\n[Document 5]\nReporting Illegal Construction:\nTo report illegal construction in forest buffer zones, contact the Tamil Nadu Forest Department or local police station. Provide details of the location and construction activity. You can also file a complaint online through the Tamil Nadu Government's public grievance portal or the Forest Department's website.",
+  "retrieved_doc_ids": [
+    "1254",
+    "1236",
+    "1780",
+    "1406",
+    "1251"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13afbce79ffd6157877004d34aa0ff4fd01f27f38a6c20baa3a70cee648fd7be",
+  "answer": "To flag illegal tourism in national parks, report to the nearest Forest Range Office or local police station. Provide details and any evidence. Contact the Tamil Nadu Forest Department's helpline or submit a complaint online. [Document 1, 2]",
+  "input_tokens": 411,
+  "output_tokens": 50,
+  "seconds": 6.6767694000009215,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

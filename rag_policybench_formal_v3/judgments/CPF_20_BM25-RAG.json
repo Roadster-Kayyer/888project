@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_20",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the need for FRS in RA and the role of PRN and Singpass Face Verification, supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the need for FRS in RA and the role of PRN and Singpass Face Verification, supported by Document 3.\",\n  \"evidence\": \"Document 3\"\n}",
+      "input_tokens": 1326,
+      "output_tokens": 192,
+      "seconds": 15.281119899998885,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_122",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states current policy and uses evidence from Document 2 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states current policy and uses evidence from Document 2 and Document 3.\",\n  \"evidence\": \"[Document 2], [Document 3]\"\n}\n\n\nThe candidate answer is correct in stating that departure endorsements are no longer issued by ICA and that proxy documents like boarding passes can be used as indicators of departure. The answer directly addresses the question and is supported by the evidence provided in Document 2, which confirms the current policy, and Document 3, which explains the implications of staying outside of Singapore for an extended period. The reason succinctly explains the scores, indicating that the answer is both correct and relevant, with evidence directly supporting the factual claims made.",
+      "input_tokens": 819,
+      "output_tokens": 190,
+      "seconds": 14.782396000009612,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

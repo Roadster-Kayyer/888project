@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_64",
+  "doc_id": "PB_c8a0224d2eb26ce19db5",
+  "query_type": "CPF_111",
+  "query": "Can I withdraw the top-up monies if I have the Full Retirement Sum, or the Basic Retirement Sum if I own a property?",
+  "reference_answer": "You will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.",
+  "corpus_query_index": 128,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.\n\n[Document 2]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 3]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 4]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 5]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.",
+  "retrieved_doc_ids": [
+    "PB_c8a0224d2eb26ce19db5",
+    "PB_737eb8e9312fbade39a9",
+    "PB_dfb47de04d492b3b972f",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_194e6b030eea394ac1a9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13c540a077a0ca6ff1936f36d98a74402dddfb5d5b1b482b38fe4622baafda1e",
+  "answer": "Based on [Document 1] and [Document 3], you cannot withdraw top-up monies once you have reached the Full Retirement Sum or Enhanced Retirement Sum. However, [Document 2] states that if you had other inflows, your top-up was refunded. Therefore, if you haven't met the Full Retirement Sum, you can receive top-ups but they cannot be withdrawn. [Document 4] confirms you can receive top-ups if your account hasn't reached the Enhanced Retirement Sum. [Document 5] mentions special cases where top-ups can be made to a Special Account. [Document 3] specifies that cash top-ups are not withdrawable.",
+  "input_tokens": 420,
+  "output_tokens": 135,
+  "seconds": 17.357122100002016,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008855",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate acknowledges lack of evidence but correctly relates to potential legal consequences for dividing inherited wealth."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate acknowledges lack of evidence but correctly relates to potential legal consequences for dividing inherited wealth.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is partially correct as it correctly identifies that there could be legal consequences for improperly dividing inherited wealth, which aligns with the reference's indication of potential civil suits and penalties. However, the answer lacks specificity and does not directly address the Hindu Succession Act, 1956, which is mentioned in the reference. The faithfulness score is null because the candidate does not make any substantive factual claims that can be directly supported or contradicted by the supplied evidence, which in this",
+      "input_tokens": 413,
+      "output_tokens": 192,
+      "seconds": 15.265743799998745,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000055",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it suggests visiting a state's DMV website or using a mobile app to view traffic tickets, which is a correct method for accessing traffic infraction records. However, it does not directly reference the specific methods mentioned in the reference (Tamil Nadu Police Department's website or e-Challan portal), nor does it provide evidence to support the claim. Therefore, the correctness score is 1 due to the partial correctness but omission of key details. The relevance score is 1 because the answer addresses the question of locating",
+      "input_tokens": 411,
+      "output_tokens": 192,
+      "seconds": 14.590807299999142,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

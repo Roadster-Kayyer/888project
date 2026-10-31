@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_25",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer partially addresses the question and is supported by Document 1, but could clarify conditions for travel with less than 6 months validity."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and is supported by Document 1, but could clarify conditions for travel with less than 6 months validity.\",\n  \"evidence\": \"[Document 1, Document 3, Document 5]\"\n}",
+      "input_tokens": 1034,
+      "output_tokens": 192,
+      "seconds": 13.995748899993487,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

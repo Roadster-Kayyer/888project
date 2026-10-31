@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007939",
+  "doc_id": "546",
+  "query_type": "search",
+  "query": "What are the consequences of sending threatening text messages?",
+  "corpus_query_index": 7938,
+  "system": "RRF-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Calls/Messages:\nIf you receive threatening calls or messages:\n1. Save the messages or call records as evidence.\n2. Visit your local police station and file a complaint.\n3. Provide the evidence to the police for further action.\n\n[Document 3]\nDealing with Harassment Calls/ Messages:\nIf being harassed by phone calls or messages, report to:\n* Tamil Nadu Police Cyber Cell: 1930 (toll-free)\n* Local police station\n* Block the caller's number\n* Save evidence (messages, call logs)\n\n[Document 4]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.\n\n[Document 5]\nThreatening Senior Citizens:\nThreatening senior citizens is a punishable offense. The legal consequences can include imprisonment for up to 3 years and a fine, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007.",
+  "retrieved_doc_ids": [
+    "546",
+    "876",
+    "1896",
+    "545",
+    "575"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3227f3e3af407349a06d6c8923eac69e4fb66edb8b1352dab80165ed60ebc577",
+  "answer": "Sending threatening text messages can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the IT Act, 2000 [Document 1]. Threats via phone calls or messages can result in similar legal penalties, including fines and up to 3 years in prison [Document 4]. Additionally, threatening senior citizens can lead to up to 3 years in prison and a fine under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 [Document 5]. [Document 1-5] provide details on the legal consequences.",
+  "input_tokens": 380,
+  "output_tokens": 126,
+  "seconds": 16.366448100001435,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

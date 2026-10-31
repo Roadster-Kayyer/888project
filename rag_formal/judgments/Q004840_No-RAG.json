@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004840",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not follow the reference steps for reporting check bouncing and lacks evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not follow the reference steps for reporting check bouncing and lacks evidence.\",\n  \"evidence\": null\n}\n\n\nThe candidate's answer does not align with the reference's instructions for reporting check bouncing, which involves filing a complaint with the police and not directly with the Consumer Financial Protection Bureau (CFPB). The answer also fails to mention the Negotiable Instruments Act, which is crucial according to the reference. There is no evidence provided to support the answer.",
+      "input_tokens": 450,
+      "output_tokens": 153,
+      "seconds": 11.460707399997773,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

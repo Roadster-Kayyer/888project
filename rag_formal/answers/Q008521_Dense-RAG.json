@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008521",
+  "doc_id": "651",
+  "query_type": "original",
+  "query": "What are the legal consequences for assault in educational institutions?",
+  "corpus_query_index": 8520,
+  "system": "Dense-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 2]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 3]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.\n\n[Document 4]\nAssault on Government Servants:\nAssault on government servants can result in imprisonment for up to 3 years and a fine, under Section 353 of the IPC. Additionally, it may also attract charges under the Tamil Nadu Prohibition of Harassment of Women Act, 1998, and other relevant laws.\n\n[Document 5]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.",
+  "retrieved_doc_ids": [
+    "651",
+    "688",
+    "645",
+    "648",
+    "679"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "01c2b5423b52341bc5b8509b8f7bcb7ff7b608f7c8e2df55018f19872fe87b2d",
+  "answer": "Legal consequences for assault in educational institutions include up to 3 years imprisonment and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and IPC. Assault with sexual intent carries 1-5 years imprisonment and fines. Assault causing minor injuries is punishable with up to 1 year imprisonment or a ₹1,000 fine. Assault on government servants can result in up to 3 years imprisonment and fines. Assault during labor disputes leads to up to 3 years imprisonment and fines. [Document 1]",
+  "input_tokens": 392,
+  "output_tokens": 109,
+  "seconds": 13.953948300000775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_8",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states claimable amount and deductible, supported by Document 2, aligning with reference facts."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states claimable amount and deductible, supported by Document 2, aligning with reference facts.\"\n}",
+      "input_tokens": 972,
+      "output_tokens": 192,
+      "seconds": 14.949972600006731,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

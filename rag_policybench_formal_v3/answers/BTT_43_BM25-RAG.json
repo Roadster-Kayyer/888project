@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_43",
+  "doc_id": "PB_66d3da627b3ea10f22bd",
+  "query_type": "BTT",
+  "query": "When approaching a side road, what should drivers do regarding vehicles entering from it?",
+  "reference_answer": "Give way to vehicles from the side road entering the main road.",
+  "corpus_query_index": 38,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nGive way to vehicles from the side road entering the main road.\n\n[Document 2]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 3]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 4]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 5]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "retrieved_doc_ids": [
+    "PB_66d3da627b3ea10f22bd",
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_1bd233e28127cfee0c86",
+    "PB_15b5d9c0851609d354e4",
+    "PB_7f4c71e9895fc3caf31f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "66da6d9adf7c74999f36f69b1e5dc1032df062413a82655c29a8319f3b10b5dd",
+  "answer": "When approaching a side road, drivers should give way to vehicles entering the main road from it [Document 1]. Additionally, they need to be cautious as the road may narrow ahead [Document 2]. Drivers should also complete their turn and clear the junction [Document 3], and if allowed, proceed straight or make a right turn [Document 4].",
+  "input_tokens": 226,
+  "output_tokens": 73,
+  "seconds": 9.300119799998356,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

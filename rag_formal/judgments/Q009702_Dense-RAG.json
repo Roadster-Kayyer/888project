@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009702",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the use of the public service portal and mobile app, which are supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and additional digital access methods, supported by evidence from Documents 1 and 3.\",\n}",
+      "input_tokens": 824,
+      "output_tokens": 76,
+      "seconds": 6.223622099998465,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the use of the public service portal and mobile app, which are supported by the retrieved evidence.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and fully supported by the evidence provided in the documents. The reason given is a concise explanation of the scores.",
+      "input_tokens": 864,
+      "output_tokens": 105,
+      "seconds": 8.493489899999986,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

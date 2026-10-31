@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003199",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the role of the Police Radio Branch in communication networks and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the role of the Police Radio Branch in communication networks and is supported by the reference.\",\n  \"evidence\": \"The candidate answer mentions managing and maintaining radio systems and frequencies, which aligns with the reference's description of providing real-time connectivity and enabling swift response and coordination, indicating all substantive factual claims are supported.\"\n}",
+      "input_tokens": 378,
+      "output_tokens": 119,
+      "seconds": 9.124224799998046,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

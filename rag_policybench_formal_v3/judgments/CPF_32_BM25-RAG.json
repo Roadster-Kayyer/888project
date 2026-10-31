@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_32",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, is relevant, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly relates the timing of CPF contribution increases to WIS alignment, and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]CPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution",
+      "input_tokens": 1352,
+      "output_tokens": 192,
+      "seconds": 14.715939699992305,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, is relevant, and is supported by evidence from Document 1.\"}",
+      "input_tokens": 1392,
+      "output_tokens": 46,
+      "seconds": 3.786790199999814,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

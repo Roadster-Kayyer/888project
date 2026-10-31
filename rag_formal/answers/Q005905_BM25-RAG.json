@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005905",
+  "doc_id": "2060",
+  "query_type": "hard",
+  "query": "What's the process for informing local officials about traffic signal failures in Tamil Nadu metropolises?",
+  "corpus_query_index": 5904,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.",
+  "context": "[Document 1]\nReporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.\n\n[Document 2]\nReporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions, call the Tamil Nadu Police helpline (100) or contact the local traffic police station. You can also report online through the Tamil Nadu Police website or mobile app, providing the location and details of the malfunction.\n\n[Document 3]\nReporting Traffic Signal Issues to PWD:\nTo report traffic signal issues, contact the Tamil Nadu Public Works Department (PWD) through their helpline or website. You can also submit a complaint at the nearest PWD office or through the Tamil Nadu Government's online complaint portal.\n\n[Document 4]\nReporting Traffic Signal Violations:\nTo report traffic signal violations, dial 100 or use the Tamil Nadu Police mobile app. Provide details such as location, time, and vehicle number (if applicable).\n\n[Document 5]\nTraffic Awareness Campaigns Website:\nThe website to find information about traffic awareness campaigns is the official Tamil Nadu Police Department website (www.tnpolice.gov.in) or the Tamil Nadu Transport Department website.",
+  "retrieved_doc_ids": [
+    "2060",
+    "167",
+    "1288",
+    "974",
+    "373"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "07a0fdd1897c457add7008d5f3fee88ff108ae344344ee757c37c80826a6017c",
+  "answer": "To report traffic signal malfunctions in Tamil Nadu metropolises, call the police control room (100) or local traffic police station. Alternatively, use the Tamil Nadu Police Department's mobile app or website to report the issue. [Document 1] & [Document 2]",
+  "input_tokens": 396,
+  "output_tokens": 59,
+  "seconds": 7.779219699999885,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

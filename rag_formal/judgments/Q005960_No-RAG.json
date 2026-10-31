@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005960",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer does not directly reference the steps outlined in the reference, such as verifying the vehicle's registration certificate, engine/chassis number, or using the VAHAN portal. The answer introduces new suggestions (immobilizer installation, parking in secure areas, reporting suspicious activity) which, while relevant, are not explicitly supported by the provided evidence.",
+      "input_tokens": 427,
+      "output_tokens": 147,
+      "seconds": 11.197876099999121,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

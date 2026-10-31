@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_41",
+  "doc_id": "PB_02fa9d13bfe8e82b1959",
+  "query_type": "ICA_134",
+  "query": "Can I use a photograph taken with my mobile phone for a passport or identity card (IC) application?",
+  "reference_answer": "We recommend that you download and use mobile apps that are specifically designed to take photographs for Singapore passport or identity card applications. These apps usually come with features that will help you take photographs in the required dimensions. Some suggested search-words you can use on the Android Play Store or Apple App Store are 'Singapore Passport’, 'Singapore IC’ and 'Photo’. The photograph will be accepted if it complies with our photo guidelines.",
+  "corpus_query_index": 238,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nWe recommend that you download and use mobile apps that are specifically designed to take photographs for Singapore passport or identity card applications. These apps usually come with features that will help you take photographs in the required dimensions. Some suggested search-words you can use on the Android Play Store or Apple App Store are 'Singapore Passport’, 'Singapore IC’ and 'Photo’. The photograph will be accepted if it complies with our photo guidelines.\n\n[Document 2]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 3]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 4]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 5]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).",
+  "retrieved_doc_ids": [
+    "PB_02fa9d13bfe8e82b1959",
+    "PB_8b8122292438794b78bb",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_09222d548a5f63af648a",
+    "PB_6c6fcaa3d9ba8be58b7b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8ce8723e45ee858b9cb6ee0532c15a141982f0a981bee4ba2127f4e47c256085",
+  "answer": "Yes, you can use a photograph taken with your mobile phone for a passport or identity card application. However, it must comply with the required dimensions and guidelines provided by the Singapore government. Use specific apps designed for this purpose, or ensure the photo is recent (within 3 months) and meets size requirements. [Document 1]",
+  "input_tokens": 620,
+  "output_tokens": 68,
+  "seconds": 8.939991500010365,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

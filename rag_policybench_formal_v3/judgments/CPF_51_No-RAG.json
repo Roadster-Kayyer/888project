@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_51",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests a method to receive SMS notifications and stop hardcopy notifications, which aligns with the question. However, it does not directly cite the provided reference, which specifies using CPF Board services and Singpass for SMS notifications. The faithfulness score is null due to the absence of direct evidence from the reference. The reason succinctly explains the scores.",
+      "input_tokens": 442,
+      "output_tokens": 150,
+      "seconds": 11.31652039999608,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

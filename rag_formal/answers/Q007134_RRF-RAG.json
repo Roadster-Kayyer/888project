@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007134",
+  "doc_id": "400",
+  "query_type": "search",
+  "query": "Can you guide me on how to file a complaint with a BDO?",
+  "corpus_query_index": 7133,
+  "system": "RRF-RAG",
+  "reference_answer": "Complaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).",
+  "context": "[Document 1]\nComplaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).\n\n[Document 2]\nComplaint against a Village Panchayat Secretary:\nTo complain, contact the Block Development Officer (BDO) or the District Collector's office. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 3]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 4]\nFiling a Complaint against a Company:\nTo file a complaint, visit the nearest police station or consumer court. Provide details of the issue, supporting documents, and evidence. The police or court will guide you through the process.\n\n[Document 5]\nFiling a Complaint against a Revenue Department Official:\nTo file a complaint against a Revenue Department official, you can:\n1. Visit the Revenue Divisional Office or District Collector's office.\n2. Submit a written complaint to the official's higher authority.\n3. File a complaint online through the Tamil Nadu Government's grievance portal or contact the Vigilance and Anti-Corruption Department.",
+  "retrieved_doc_ids": [
+    "400",
+    "405",
+    "78",
+    "1090",
+    "395"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "70d20db1da4b4ea3cf4e9799919eb2d2b51ec6232d92c2754dbd5fb722f06769",
+  "answer": "For filing a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. Alternatively, submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO). [Document 1]",
+  "input_tokens": 442,
+  "output_tokens": 55,
+  "seconds": 7.265382300000056,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

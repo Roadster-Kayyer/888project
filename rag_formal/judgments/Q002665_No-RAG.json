@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002665",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks specific evidence from the reference.\",\n  \"system_answer\": \"After starting as a constable, advancement options include inspector, superintendent, chief superintendent, and deputy commissioner, based on experience and performance.\"\n}\n\n\nIn the system's answer, the progression from constable to higher ranks is directly addressed, which is relevant to the question. The answer is correct as it aligns with the reference's indication that experience and performance are key to career growth. However, the system's answer is more faithful as it directly refers to the specific ranks mentioned in the reference, which the candidate's answer did not explicitly do. The reason for",
+      "input_tokens": 412,
+      "output_tokens": 192,
+      "seconds": 14.521639399998094,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

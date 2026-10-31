@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_4",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which explains the rationale behind tax relief policies."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which explains the rationale behind tax relief policies.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to an actual document or source that provides the evidence for the claim made in the candidate answer. Since this is a hypothetical example, the evidence is represented by a placeholder.)",
+      "input_tokens": 452,
+      "output_tokens": 135,
+      "seconds": 10.086809000000358,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

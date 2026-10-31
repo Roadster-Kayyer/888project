@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007132",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific offices to contact, which is crucial information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but omits specific offices to contact, which is crucial information.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided candidate answer, the information is relevant as it correctly suggests multiple methods to lodge a grievance against a BDO, including office visits, phone or email contact, and writing a letter. However, it lacks the specific details about which offices to contact (District Collector's office, local Tahsildar office, RDO, or DRO), which is essential for someone trying to lodge a grievance. The correctness score is 1 because it is partly correct but misses important details. Faithfulness is marked as null because there",
+      "input_tokens": 424,
+      "output_tokens": 192,
+      "seconds": 14.636313999995764,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

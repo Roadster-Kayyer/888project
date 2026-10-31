@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_83",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question with relevant details from the reference, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question with relevant details from the reference, supported by evidence from Document 1.\",\n  \"evidence\": \"Document 1 provides the necessary steps and required documents for urgent passport assistance, which aligns with the question's scenario.\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is not typically used in the format of the question. However, for the sake of completeness and to reflect the instruction, it has been included. In a real-world scenario, the \"evidence\" would be the actual text from the documents, not a description of it.)",
+      "input_tokens": 1614,
+      "output_tokens": 171,
+      "seconds": 13.202361300005578,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

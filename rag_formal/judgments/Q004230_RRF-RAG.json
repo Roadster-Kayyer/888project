@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004230",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for retrieving an impounded vehicle, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for retrieving an impounded vehicle, supported by Document 2.\",\n  \"evidence\": \"Document 2 outlines the steps to retrieve an impounded vehicle, which includes contacting the police station, providing necessary documents, paying fines or penalties, and obtaining a release order.\"\n}",
+      "input_tokens": 810,
+      "output_tokens": 113,
+      "seconds": 8.77084560000003,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

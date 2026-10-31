@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_21",
+  "doc_id": "PB_8a851d564b8b1c6da3af",
+  "query_type": "BTT",
+  "query": "What is recommended for optimizing fuel efficiency when using air-conditioning in a vehicle?",
+  "reference_answer": "Avoid setting the air-conditioning temperature too low and increase the fan speed instead.",
+  "corpus_query_index": 14,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.\n\n[Document 3]\nAvoid dragging the engine by using the correct gear.\n\n[Document 4]\nBasic theory of driving.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_8a851d564b8b1c6da3af",
+    "PB_4a5e366a1e27905d0545",
+    "PB_043f86bad043c042932a",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "978d8c73f19edd18a6fff2ffd99ef81a462c403c39f4e332b2792ca289a7fd4a",
+  "answer": "According to Document 2, to optimize fuel efficiency with air conditioning, avoid setting the temperature too low and increase fan speed instead. [Document 2]",
+  "input_tokens": 206,
+  "output_tokens": 32,
+  "seconds": 4.0903191000033985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

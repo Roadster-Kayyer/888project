@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009458",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and correct, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is relevant and correct, but lacks direct evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key is included to indicate that the candidate's answer refers to a document that should contain the specific evidence, but since the actual evidence is not provided in the text, it is marked as \"Document 1\" as a placeholder. In a real scenario, the actual evidence would need to be attached or described for a full evaluation.",
+      "input_tokens": 387,
+      "output_tokens": 146,
+      "seconds": 11.464091599998937,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

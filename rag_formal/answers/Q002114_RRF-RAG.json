@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002114",
+  "doc_id": "1379",
+  "query_type": "search",
+  "query": "Can you tell me about the methods used by Tamil Nadu's police to interact with local village officials?",
+  "corpus_query_index": 2113,
+  "system": "RRF-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nNeighborhood Watch Program Collaboration\n\nCitizen groups can collaborate with the Tamil Nadu Police by:\n* Registering with the local police station\n* Forming a neighborhood watch committee\n* Sharing information on suspicious activities\n* Participating in regular meetings with police officials\n* Reporting crimes and incidents promptly\n\nFor more information, contact your local police station or visit the Tamil Nadu Police Department website.\n\n[Document 2]\nVolunteering with Tamil Nadu Police:\nTo volunteer with the Tamil Nadu Police for public events, contact your local police station or visit the Tamil Nadu Police website for information on volunteer programs. You can also reach out to the police's community outreach department to express your interest in volunteering.\n\n[Document 3]\nOnline Appointment System:\nThe Tamil Nadu Police has an online appointment system called \"Citizen Portal\" or \"Public Interface\" where you can book an appointment to meet senior police officials. You can visit the official Tamil Nadu Police website to access this service.\n\n[Document 4]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 5]\nPolice-Public Interface Meetings:\nTo find information about police-public interface meetings in your area, visit the Tamil Nadu Police Department's official website or contact your local police station. You can also check the department's social media pages for updates on meeting schedules and locations.",
+  "retrieved_doc_ids": [
+    "249",
+    "245",
+    "1340",
+    "1379",
+    "378"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2bc094a68589fa044ebc04999512f6785d6499c5874fc7d063f9645e93cc8dfa",
+  "answer": "Tamil Nadu's police interact with local village officials through various methods:\n- Neighborhood Watch Programs: Collaborate with citizen groups to report suspicious activities.\n- Online Appointment System: Book meetings with senior police officials.\n- Coordination with VAOs: Regular meetings and joint patrols ensure a collaborative approach.\n- Police-Public Interface Meetings: Held regularly to discuss local issues and security concerns. [Document 4] & [Document 5]",
+  "input_tokens": 439,
+  "output_tokens": 88,
+  "seconds": 11.111984099999972,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

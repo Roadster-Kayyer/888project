@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004415",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific examples from documents and mentioning relevant services for international scholars. Evidence from Document 5 and Document 1 supports the factual claims about education assistance and specialized courses."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific examples from documents and mentioning relevant services for international scholars. Evidence from Document 5 and Document 1 supports the factual claims about education assistance and specialized courses.\",\n  \"evidence\": \"Document 5, Document 1\"\n}",
+      "input_tokens": 865,
+      "output_tokens": 192,
+      "seconds": 15.129089599999133,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_112",
+  "doc_id": "PB_558188a8bd115503280d",
+  "query_type": "ICA_134",
+  "query": "I have booked an appointment to collect my passport. Can I change my existing appointment?",
+  "reference_answer": "You may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.",
+  "corpus_query_index": 183,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 3]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 4]\nYou have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.\n\n[Document 5]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_558188a8bd115503280d",
+    "PB_8b8122292438794b78bb",
+    "PB_927c6923e7588158fb23",
+    "PB_93b665013679b839e21c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4aba7476c0d9a31018c4f989e7ee18895c8f11085dd02ceacab53df313aab9e5",
+  "answer": "Yes, you can change your existing appointment. You can do this by logging into ICA e-Service and making changes to your appointment. Changes can be made at least 3 working days before your existing appointment. [Document 1] [Document 2]",
+  "input_tokens": 403,
+  "output_tokens": 54,
+  "seconds": 7.165237600012915,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

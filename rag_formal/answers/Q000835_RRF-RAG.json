@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000835",
+  "doc_id": "1147",
+  "query_type": "hard",
+  "query": "What's the method to secure a clearance slip issued by a legal authority?",
+  "corpus_query_index": 834,
+  "system": "RRF-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nPolice Clearance Certificate:\nTo obtain a police clearance certificate in Tamil Nadu, apply at the District Police Office or Commissioner's Office with required documents (ID proof, address proof, etc.). Fill out the application form, pay the fee, and wait for verification. The certificate will be issued after clearance.\n\n[Document 2]\nPolice Clearance Certificate:\nTo get a police clearance certificate in Tamil Nadu, visit your local police station and submit an application with required documents, including ID proof and address proof. Pay the prescribed fee and wait for verification. The certificate will be issued after clearance.\n\n[Document 3]\nPolice Clearance Certificate for Passport:\nTo apply for a police clearance certificate in Tamil Nadu, visit the local police station or commissioner's office with a filled application form, ID proof, address proof, and passport copy. Pay the required fee and submit the application. The certificate will be issued after verification.\n\n[Document 4]\nPolice Clearance Certificates for Visa Purposes\nTo obtain a police clearance certificate, apply at the local police station or online through the Tamil Nadu Police website. Provide required documents, including a valid passport and proof of address. The certificate will be issued after verification.\n\n[Document 5]\nPolice Clearance Certificate for Vehicle:\nTo get a police clearance certificate for your vehicle, visit the local Traffic Police station or the Regional Transport Office (RTO) with your vehicle's registration documents and a valid ID proof.",
+  "retrieved_doc_ids": [
+    "2046",
+    "817",
+    "2072",
+    "1772",
+    "175"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6c8aa7a91192dd674ef30ff13b434b4d37b34c357ef05e8e60bfbe27f3f7523a",
+  "answer": "The method to secure a clearance slip varies by purpose but generally involves visiting a local police station or relevant authority, submitting required documents like ID and address proofs, paying fees, and waiting for verification. [Document 1-5]",
+  "input_tokens": 410,
+  "output_tokens": 47,
+  "seconds": 5.807473299999401,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

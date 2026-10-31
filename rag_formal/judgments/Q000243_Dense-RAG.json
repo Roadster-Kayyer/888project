@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000243",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process as per Document 1 and is directly relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process as per Document 1 and is directly relevant to the question.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}",
+      "input_tokens": 768,
+      "output_tokens": 192,
+      "seconds": 14.429363200000807,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

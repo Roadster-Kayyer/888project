@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004301",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the question, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the Tamil Nadu Police's process for handling missing foreign tourists, directly addressing the reference facts, and is supported by evidence from Document 1 and Document 5.\",\n}",
+      "input_tokens": 845,
+      "output_tokens": 192,
+      "seconds": 14.952947500001756,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the question, supported by evidence from Documents 1 and 5.\"}",
+      "input_tokens": 885,
+      "output_tokens": 48,
+      "seconds": 3.9191485999981523,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

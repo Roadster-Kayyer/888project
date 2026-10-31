@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_7",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need to meet CPF withdrawal conditions, directly addressing the question and supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need to meet CPF withdrawal conditions, directly addressing the question and supported by Document 2.\",\n  \"evidence\": \"Document 2 states, 'You are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares.'\"\n}",
+      "input_tokens": 1164,
+      "output_tokens": 118,
+      "seconds": 9.396869100004551,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

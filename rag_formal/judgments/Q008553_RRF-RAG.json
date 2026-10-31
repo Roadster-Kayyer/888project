@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008553",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the legal consequences of domestic violence and the process following an arrest, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the legal consequences of domestic violence and the process following an arrest, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Domestic violence can lead to imprisonment and/or a fine, and the process after arrest involves legal representation and informing family, which aligns with the candidate's answer.\"\n}",
+      "input_tokens": 721,
+      "output_tokens": 116,
+      "seconds": 8.973589299996092,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

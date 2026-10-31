@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000904",
+  "doc_id": "116",
+  "query_type": "search",
+  "query": "What is the minimum age for criminal liability under Indian law?",
+  "corpus_query_index": 903,
+  "system": "BM25-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nAge Determination in Juvenile Cases:\nIn Tamil Nadu, age determination is done through a medical examination by a qualified doctor. The court may also consider other evidence, such as school records or birth certificates. The age determination is crucial to decide whether the child should be treated as a juvenile or an adult under the law.\n\n[Document 3]\nBail Jurisprudence:\nIn Indian criminal law, bail is governed by the Code of Criminal Procedure (CrPC). The court grants bail if it believes the accused will appear for trial and not tamper with evidence. The accused must meet certain conditions, such as providing surety or guarantee.\n\n[Document 4]\nPublic Nuisance:\nUnder Tamil Nadu law, public nuisance is punishable under Section 290 of the Indian Penal Code (IPC). The punishment can be a fine of up to ₹200.\n\n[Document 5]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.",
+  "retrieved_doc_ids": [
+    "116",
+    "119",
+    "1723",
+    "493",
+    "1753"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2b576d6b09716bc420847bf82615bb7505fc2d8f9873f7a905cabec470f500a6",
+  "answer": "According to Document 1, the minimum age for criminal liability in India is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. [Document 1]",
+  "input_tokens": 407,
+  "output_tokens": 46,
+  "seconds": 6.2591828999993595,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_63",
+  "doc_id": "PB_a9eb17a0bc6c61e006d2",
+  "query_type": "CPF_111",
+  "query": "Will my CPF Investment Scheme (CPFIS) investments be sold or liquidated when I apply to withdraw my CPFIS investments upon meeting CPF withdrawal conditions?",
+  "reference_answer": "Applying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.",
+  "corpus_query_index": 127,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 2]\nApplying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 5]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.",
+  "retrieved_doc_ids": [
+    "PB_55387403dc004065b043",
+    "PB_a9eb17a0bc6c61e006d2",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_18205d295d37e73b6d4f",
+    "PB_f06f7bf4b4cb01868d1c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ea7e22a6928a414fc1998021d72fee94f212920eb238d77d7fee19ab9ac03781",
+  "answer": "No, your CPFIS investments will not be sold or liquidated when you apply to withdraw them. [Document 2] states that applying to withdraw your CPFIS investments will not result in the liquidation of your investment holdings. [Document 1] explains that the maturity proceeds are refunded to your CPF account, allowing you to transfer them back.",
+  "input_tokens": 855,
+  "output_tokens": 71,
+  "seconds": 9.296194199996535,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

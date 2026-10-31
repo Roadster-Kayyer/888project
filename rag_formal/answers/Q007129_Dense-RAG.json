@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007129",
+  "doc_id": "40",
+  "query_type": "search",
+  "query": "Legal protections I receive upon being taken into custody?",
+  "corpus_query_index": 7128,
+  "system": "Dense-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nPolice Custody Conditions:\nCitizens have the right to:\n* Be treated humanely in police custody\n* Have access to basic amenities like food, water, and medical care\n* Be produced before a magistrate within 24 hours of arrest\n* Contact family members or a lawyer\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 4]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 5]\nChild Custody Disputes:\nThe police role is limited in child custody disputes. They can help in locating a missing child or preventing abduction. However, custody decisions are made by the court. Police may assist in enforcing court orders.",
+  "retrieved_doc_ids": [
+    "1457",
+    "284",
+    "40",
+    "846",
+    "114"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8edf37dea2253fb2c29d18a1219b760513cdd7607b906189f85b0a4985061592",
+  "answer": "Upon being taken into custody, you have rights including humane treatment, access to basic amenities, and medical care. You must be seen by a magistrate within 24 hours and can contact a lawyer. Additionally, you have the right to know the reason for arrest, remain silent, and request medical attention if needed. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 383,
+  "output_tokens": 89,
+  "seconds": 11.437399200000073,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

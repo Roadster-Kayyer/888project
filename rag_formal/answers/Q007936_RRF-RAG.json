@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007936",
+  "doc_id": "546",
+  "query_type": "original",
+  "query": "What is the penalty for sending threatening text messages?",
+  "corpus_query_index": 7935,
+  "system": "RRF-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Public Transportation Drivers:\nThreatening public transportation drivers is a punishable offense under the Indian Penal Code (IPC). The penalty can range from imprisonment for 1-3 years and/or a fine, depending on the severity of the threat.\n\n[Document 3]\nThreatening Witnesses:\nThreatening witnesses is punishable under Section 195A of the IPC. The punishment can be imprisonment up to 7 years, or a fine, or both.\n\n[Document 4]\nThreatening Government Officials:\nPenalty can range from 1-7 years imprisonment and a fine, under the Indian Penal Code, Sections 186, 189, and 506.\n\n[Document 5]\nThreatening Food Delivery Workers:\nThreatening food delivery workers can be considered intimidation or assault, punishable under the IPC. The penalty can range from imprisonment for 1-3 years and/or a fine, depending on the circumstances.",
+  "retrieved_doc_ids": [
+    "546",
+    "589",
+    "552",
+    "558",
+    "590"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "37971339c0b48dd2379641ca62ee4c3e553c10806cc24956210d5ea7a539f4fc",
+  "answer": "The penalty for sending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the IT Act, 2000. [Document 1]",
+  "input_tokens": 367,
+  "output_tokens": 47,
+  "seconds": 6.210513699999865,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

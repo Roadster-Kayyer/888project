@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_11",
+  "doc_id": "PB_50b7e744316cb05299f8",
+  "query_type": "BTT",
+  "query": "What does the acronym 'SH' stand for in Singapore's Expressway Monitoring and Advisory Systems (EMAS)?",
+  "reference_answer": "Shoulder",
+  "corpus_query_index": 3,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nFor CPF Investment Scheme-Ordinary Account (CPFIS-OA)Please apply for the bonds and T-bills through your CPFIS-OA agent bank. Application is restricted to your CPFIS-OA agent bank to facilitate the settlement process for bonds and T-bills purchased under CPFIS-OA.DBS/POSB: Apply through DBS/POSB's internet banking portal or digibank mobile.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply for SGS bonds in person at any UOB branch. Apply for T-bills through UOB’s internet banking portalFor step-by-step guide on how to submit your application through your CPFIS-OA agent bank’s electronic portal, you may visit their website,DBS(scroll to dropdown menu “How to apply?”),OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”) andUOB(scroll to section \"Things you should know\").After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be\n\n[Document 2]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 3]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 4]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 5]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.",
+  "retrieved_doc_ids": [
+    "PB_42402669fab955f6129f",
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_c4889c17ceec12f1516c",
+    "PB_28996cba71bdbe7d5436",
+    "PB_f36114baa5e370122326"
+  ],
+  "trimmed_doc_ids": [
+    "PB_42402669fab955f6129f"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f4eea974a37fae5c54f3e1bf866ddd89f3442daad6bc277db68168613bb752c5",
+  "answer": "[Document 1] doesn't contain the answer. The acronym SH likely stands for \"Singapore Highway\" in the context of Singapore's Expressway Monitoring and Advisory Systems (EMAS).",
+  "input_tokens": 899,
+  "output_tokens": 38,
+  "seconds": 5.236680100002559,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

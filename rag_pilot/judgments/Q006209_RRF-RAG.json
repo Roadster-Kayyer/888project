@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006209",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes PEW's operational methods and is supported by Document 2.\",\n}",
+      "input_tokens": 841,
+      "output_tokens": 192,
+      "seconds": 14.803794800000105,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes the operational methods of the Prohibition Enforcement Wing, which are mentioned in the reference documents.\n- Relevance: The answer directly addresses the question about the operational methods of the PEW.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in Document 2, which lists the operational methods of the PEW.\n- Reason: The explanation is concise and directly related to the scores given.\n\nNote: The reason provided in the instruction is a brief explanation, but for the sake of clarity and completeness, I included a more detailed explanation within the",
+      "input_tokens": 881,
+      "output_tokens": 192,
+      "seconds": 14.510088399998494,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

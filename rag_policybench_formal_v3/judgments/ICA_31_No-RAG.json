@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_31",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly differentiates between business and social visas and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly differentiates between business and social visas and is supported by the reference.\",\n  \"evidence\": \"The candidate answer directly addresses the question and is substantiated by the reference, which states the purpose of each visa type. The answer is factually accurate and aligns with the reference information.\"\n}",
+      "input_tokens": 366,
+      "output_tokens": 107,
+      "seconds": 8.41872560000047,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

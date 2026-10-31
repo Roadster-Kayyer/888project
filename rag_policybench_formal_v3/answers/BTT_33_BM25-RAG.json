@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_33",
+  "doc_id": "PB_15b5d9c0851609d354e4",
+  "query_type": "BTT",
+  "query": "What does the signal \"Means \\\"GO\\\" for straight ahead vehicles and \\\"GO\\\" for right turn vehicles\" indicate?",
+  "reference_answer": "It indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "corpus_query_index": 27,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 2]\nGive way to vehicles from the side road entering the main road.\n\n[Document 3]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 4]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 5]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.",
+  "retrieved_doc_ids": [
+    "PB_15b5d9c0851609d354e4",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_445d301435d07072a252",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_60d3d79cc6579587cc62"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5c97c98bd6b13a2dcd45a183aa6c8fb5efa8dc2aac9a21977b13f28e5f220406",
+  "answer": "This signal means vehicles can go straight ahead and make a right turn. [Document 1]",
+  "input_tokens": 333,
+  "output_tokens": 20,
+  "seconds": 824.3778922000056,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

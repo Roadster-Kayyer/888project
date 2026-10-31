@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_29",
+  "doc_id": "PB_a6f8d6ad745a1e028eb1",
+  "query_type": "BTT",
+  "query": "What does a green-down arrow on lane use signs indicate to motorists in the tunnels?",
+  "reference_answer": "It indicates that a motorist can drive on ahead.",
+  "corpus_query_index": 22,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 2]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 3]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 4]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 5]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "retrieved_doc_ids": [
+    "PB_786ca90f3ae19fb193e3",
+    "PB_46950c4cff6ad431d048",
+    "PB_4479f84c1b73422f7e24",
+    "PB_445d301435d07072a252",
+    "PB_7f4c71e9895fc3caf31f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "557fbe16f8a096f6e30bb3aff1d9d55d7d5bc7d734cfb9811c43e813cad5bb2f",
+  "answer": "A green-down arrow on lane use signs in tunnels indicates slippery roads ahead, warning motorists to slow down and be cautious. [Document 3]",
+  "input_tokens": 259,
+  "output_tokens": 30,
+  "seconds": 12.260819499999343,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

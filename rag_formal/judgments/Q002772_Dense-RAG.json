@@ -1,0 +1,38 @@
+{
+  "query_id": "Q002772",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the recruitment process for ministerial staff and medical staff, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the recruitment process for ministerial staff and medical staff, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 796,
+      "output_tokens": 71,
+      "seconds": 5.628737700000784,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the recruitment process for ministerial staff and medical staff, supported by evidence from Documents 1 and 2.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the recruitment process, and is supported by evidence from the provided documents.\"}\n\n(Note: The \"reason\" field is a brief explanation, and the exact wording can be adjusted based on the specific details and nuances of the evidence provided. The scores are consistent with the instructions, indicating that the candidate's answer is correct, relevant, and faithful to the evidence.)",
+      "input_tokens": 836,
+      "output_tokens": 168,
+      "seconds": 12.96256600000197,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required",
+  "parsing_recovery": {
+    "policy": "first complete valid JSON; all additional complete objects must agree on scores; ignore unfinished trailing duplicate; no score inference",
+    "attempt_index": 1,
+    "original_error": "Extra data: line 2 column 1 (char 209)",
+    "parser_sha256": "348e579869b5347d18a4f0f1307c96468eb1e061566fe3bf0be85140b8f2c590",
+    "utc": "2026-10-23T22:42:11.952427+00:00"
+  }
+}

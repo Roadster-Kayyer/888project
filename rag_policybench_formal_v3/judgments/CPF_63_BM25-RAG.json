@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_63",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 2.\",\n  \"evidence\": \"Document 2 states, 'Applying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.'\"\n}",
+      "input_tokens": 1492,
+      "output_tokens": 125,
+      "seconds": 9.726144899992505,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005088",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies types of cyber crimes handled by the Cyber Crime Wing and is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies types of cyber crimes handled by the Cyber Crime Wing and is supported by all documents.\",\n  \"evidence\": \"Documents 1, 2, 3, and 5 directly support the candidate's answer, providing specific examples of cyber crimes and methods of reporting them.\"\n}",
+      "input_tokens": 735,
+      "output_tokens": 192,
+      "seconds": 14.82634749999852,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

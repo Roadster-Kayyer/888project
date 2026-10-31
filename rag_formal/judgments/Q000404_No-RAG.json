@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000404",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly and directly addresses the duties of Child Welfare Police Officers, supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the duties of Child Welfare Police Officers, supported by the reference.\",\n  \"evidence\": \"The candidate answer directly corresponds to the reference, which states that Child Welfare Police Officers handle cases related to children, investigate child abuse and exploitation, and provide support to child victims.\"\n}",
+      "input_tokens": 418,
+      "output_tokens": 112,
+      "seconds": 8.823754500001087,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

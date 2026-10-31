@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_106",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"Document 1 states, 'However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.'\"\n}",
+      "input_tokens": 1322,
+      "output_tokens": 192,
+      "seconds": 15.007482899993192,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

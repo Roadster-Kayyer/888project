@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010347",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific details on reporting procedures and evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific details on reporting procedures and evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests reporting to law enforcement or a government agency, which aligns with the reference's advice to report to the Tamil Nadu Police Department or the Vigilance Department. However, it does not directly address the specifics of providing vehicle details as mentioned in the reference, nor does it include the evidence from the reference, hence the faithfulness score is null. The reason succinctly explains the scores.",
+      "input_tokens": 384,
+      "output_tokens": 164,
+      "seconds": 12.223727899996447,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_69",
+  "doc_id": "PB_c1b27ec78f7a49b7fed4",
+  "query_type": "CPF_111",
+  "query": "How do I determine the year of my Singapore Permanent Resident status for the purpose of CPF contributions?",
+  "reference_answer": "The year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:",
+  "corpus_query_index": 133,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 2]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 5]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.",
+  "retrieved_doc_ids": [
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_d98d322f2936df748ef1",
+    "PB_c6456fad7242c379cac1",
+    "PB_0e779c5155a62f56c06e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dca9f05ce482637455ba45d242928074885a6a23ab42d739301b66eaeefa7a09",
+  "answer": "To determine your SPR year for CPF contributions, look at the date on your entry permit (Form 5/5A) issued by ICA. This date marks the start of your first year of SPR status, which applies the initial CPF contribution rate until the end of the following month. [Document 1]",
+  "input_tokens": 637,
+  "output_tokens": 64,
+  "seconds": 8.423820199997863,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

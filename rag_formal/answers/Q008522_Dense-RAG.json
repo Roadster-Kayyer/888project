@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008522",
+  "doc_id": "651",
+  "query_type": "formal",
+  "query": "What penalties can be imposed for assault within educational settings?",
+  "corpus_query_index": 8521,
+  "system": "Dense-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 2]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 3]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.\n\n[Document 4]\nAssault during Religious Gatherings:\nThe penalty for assault during religious gatherings can lead to imprisonment up to 3 years and/or a fine, under Section 295 of the Indian Penal Code (IPC) and other relevant laws.\n\n[Document 5]\nRagging in Educational Institutions:\nPunishment for ragging can include imprisonment up to 2 years and a fine of up to ₹10,000. In severe cases, it can lead to expulsion from the institution.",
+  "retrieved_doc_ids": [
+    "651",
+    "688",
+    "645",
+    "649",
+    "577"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "652a58e85a6321d4298fc88be1154d398f5c4ceccf3be21acf286c495f8e3e8b",
+  "answer": "Penalties for assault in educational settings vary but typically include imprisonment up to 3 years and/or fines. Assault with sexual intent carries 1-5 years imprisonment. Assault with minor injuries faces up to 1 year imprisonment or a ₹1,000 fine. Assault during religious gatherings can result in up to 3 years imprisonment. Ragging can lead to up to 2 years imprisonment and a ₹10,000 fine, or expulsion. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 376,
+  "output_tokens": 119,
+  "seconds": 15.16352459999689,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

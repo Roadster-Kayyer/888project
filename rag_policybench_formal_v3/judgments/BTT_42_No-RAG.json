@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_42",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the speed limit and is directly supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the speed limit and is directly supported by the reference.\",\n  \"evidence\": \"The retrieved evidence is the candidate answer itself, which directly corresponds to the reference provided.\"\n}\n\n\nIn this evaluation, the candidate answer is deemed correct (2) because it accurately reflects the information given in the reference, which is the speed limit sign indicating 40 km/h. The relevance score is 2 as the candidate answer directly addresses the question about the maximum speed limit in a silver zone. Faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence, which is the reference indicating the speed limit. The reason succinctly explains the scores, noting",
+      "input_tokens": 359,
+      "output_tokens": 192,
+      "seconds": 14.781646000003093,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

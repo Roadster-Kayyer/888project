@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006231",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific details about the Wing's functions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific details about the Wing's functions.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it mentions the promotion of social justice and human rights initiatives, which aligns with the reference's description of the Wing's role. However, it does not fully cover the main reference facts, such as investigating human rights violations and ensuring the upholding of human rights and dignity principles, which is why the correctness score is 1. Faithfulness is scored as null because there is no substantive factual claim in the candidate's answer that can be directly supported or contradicted by the supplied evidence,",
+      "input_tokens": 375,
+      "output_tokens": 192,
+      "seconds": 14.60166140000365,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

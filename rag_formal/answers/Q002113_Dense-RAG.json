@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002113",
+  "doc_id": "1379",
+  "query_type": "casual",
+  "query": "So how do the police in Tamil Nadu work with the people who run villages?",
+  "corpus_query_index": 2112,
+  "system": "Dense-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nNight Patrolling System:\nThe Tamil Nadu Police conducts regular night patrols in remote villages through the 'Night Round' system. Police personnel, including village police officers, patrol designated areas to prevent and detect crime, and provide assistance to the public. The public can also report any concerns or incidents to the police control room (100) for immediate response.\n\n[Document 2]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 3]\nLaw and Order during Rural Elections:\nThe Tamil Nadu Police manages law and order during rural elections by:\n* Deploying additional personnel in sensitive areas\n* Conducting regular patrols and checks\n* Setting up polling station security\n* Implementing strict vigilance to prevent electoral malpractices\n\n[Document 4]\nRural Land Disputes:\nThe Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.\n\n[Document 5]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "retrieved_doc_ids": [
+    "1392",
+    "1379",
+    "1387",
+    "1366",
+    "1401"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4948d24a5337c2c2aab474e1fa9b97c6bc728ca974280157d5d1a8724a15a2df",
+  "answer": "In Tamil Nadu, police work with village administrative officers (VAOs) through regular meetings and patrols. They also use the Night Round system for night patrolling in remote villages. Police collaborate with VAOs to maintain law and order, manage elections, resolve land disputes, and protect tribal artisans. [Document 1, Document 2]",
+  "input_tokens": 437,
+  "output_tokens": 69,
+  "seconds": 8.887617099999261,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

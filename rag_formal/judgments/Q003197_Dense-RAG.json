@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003197",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects evidence from all documents, and makes no unsupported claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects evidence from all documents, and makes no unsupported claims.\",\n  \"evidence\": \"All substantive factual claims in the candidate answer are supported by the evidence provided in Documents 1, 2, 3, 4, and 5.\"\n}",
+      "input_tokens": 748,
+      "output_tokens": 192,
+      "seconds": 15.12806019999698,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

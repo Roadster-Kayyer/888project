@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008908",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence from the reference, which discusses legal penalties for the act."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence from the reference, which discusses legal penalties for the act.\",\n  \"answer\": \"You can get in trouble for putting the same house on the books twice by committing mortgage fraud, which is a serious crime. [System]\"\n}",
+      "input_tokens": 392,
+      "output_tokens": 100,
+      "seconds": 8.05919040000299,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

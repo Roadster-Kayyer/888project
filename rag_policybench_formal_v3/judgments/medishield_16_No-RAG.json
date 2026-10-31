@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_16",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is deemed correct as it accurately states that the Ministry of Health determines subsidy eligibility without an application, which aligns with the reference's information. However, the answer does not directly cite the reference, which is necessary for full faithfulness. The relevance score is 1 because the answer addresses the question but could be more directly tied to the reference. Faithfulness is marked as null due to the lack of direct evidence from the provided reference text. The reason succinctly explains the scores.",
+      "input_tokens": 371,
+      "output_tokens": 182,
+      "seconds": 13.72332340000139,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

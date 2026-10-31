@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001072",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"The reference suggests checking the official seal, date, and signature of the issuing judge, which is similar to the candidate's answer, but the reference also mentions visiting the official website or contacting the court directly, which is not addressed in the candidate's answer.\"\n}",
+      "input_tokens": 394,
+      "output_tokens": 121,
+      "seconds": 9.496195100000477,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

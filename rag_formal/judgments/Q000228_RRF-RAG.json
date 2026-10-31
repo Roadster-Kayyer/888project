@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000228",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and correctly cites all relevant documents with accurate information about the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need to visit the court with required documents and consult a lawyer, directly addressing the question and aligning with evidence from Document 1. It also references specific documents for different types of cases, which is consistent with the information provided in Documents 2, 3, 4, and 5.\",\n}",
+      "input_tokens": 881,
+      "output_tokens": 192,
+      "seconds": 15.349208600000566,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2643.22021484375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and correctly cites all relevant documents with accurate information about the process.\"}\n\nExplan0: The candidate answer is correct (2) as it directly addresses the question about how to start a civil case in Tamil Nadu, mentioning the need to visit the court with the required documents and consult a lawyer. It also correctly references all relevant documents (1-5) that provide detailed steps for various types of civil cases, which shows it is relevant (2). The answer is faithful (2) because it accurately reflects the information provided in the documents, without any contradictions or unsupported claims. The reason is succinct and accurately summarizes the candidate's performance.",
+      "input_tokens": 921,
+      "output_tokens": 171,
+      "seconds": 13.360542700000224,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

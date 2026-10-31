@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000833",
+  "doc_id": "1147",
+  "query_type": "casual",
+  "query": "So how do I get a no-due note from the judge?",
+  "corpus_query_index": 832,
+  "system": "RRF-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 2]\nComplaint against a Judge:\nTo file a complaint against a judge, you can contact the High Court of Judicature at Madras or the Supreme Court of India. You can also file a complaint with the National Judicial Accountability Commission or the Tamil Nadu State Judicial Academy. Please note that the process may vary, and it's recommended to consult the official websites or seek guidance from a legal expert.\n\n[Document 3]\nFiling a Recusal Application:\nTo file a recusal application against a judge, you must submit a written petition to the court, stating the reasons for recusal. The petition should be filed through your lawyer, if you have one. The court will then consider your application and make a decision.\n\n[Document 4]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 5]\nNo Objection Certificate (NOC) for Vehicle Registration:\nTo get an NOC, visit the local police station or traffic police office with your vehicle's documents. Fill out the application form, and the police will verify the vehicle's details. If everything is in order, the NOC will be issued.",
+  "retrieved_doc_ids": [
+    "1147",
+    "1122",
+    "1144",
+    "2038",
+    "166"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9834cc1b172e1801c933fbc313a73c8194440a2f0481b9eeec5517d9c6523a1d",
+  "answer": "To get a No Due Note from the judge, file a petition with the court that issued the original order. Provide case details and identity proof. The court will verify and issue the certificate if no dues are pending. [Document 1]",
+  "input_tokens": 476,
+  "output_tokens": 49,
+  "seconds": 6.350221000000602,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

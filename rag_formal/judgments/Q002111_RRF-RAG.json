@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002111",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the evidence from Document 1, covering the main facts about coordination methods and purpose."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence from Document 1, covering the main facts about coordination methods and purpose.\",\n  \"evidence\": \"[Document 1] Coordination with Village Administrative Officers\\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\"\n}",
+      "input_tokens": 796,
+      "output_tokens": 192,
+      "seconds": 14.958586400000058,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_46",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] - Directly states no appointment is needed for oath-taking and describes the process at the ICA Services Centre.\"\n}",
+      "input_tokens": 1029,
+      "output_tokens": 92,
+      "seconds": 7.448242600003141,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

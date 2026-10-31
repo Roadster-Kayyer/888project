@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_66",
+  "doc_id": "PB_dd26aa147490be0c459d",
+  "query_type": "ICA_134",
+  "query": "Which mobile app can travellers use to generate the QR code?",
+  "reference_answer": "The QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).",
+  "corpus_query_index": 265,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 2]\nThe QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.",
+  "retrieved_doc_ids": [
+    "PB_bf4db8945d407eacbe6a",
+    "PB_dd26aa147490be0c459d",
+    "PB_8d18fc446288ee1e6348",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_b5339301e0857337a248"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "016206df0f94b69d21cb7e2e60a4240345d450b5742034cbd6d618cdf1dfa98d",
+  "answer": "The MyICA mobile app can be used to generate the QR code. [Document 2]",
+  "input_tokens": 428,
+  "output_tokens": 20,
+  "seconds": 2.7469722000096226,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

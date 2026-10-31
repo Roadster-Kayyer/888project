@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009702",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the use of digital kiosks and the website/mobile app, all supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 787,
+      "output_tokens": 63,
+      "seconds": 5.199970200003008,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning the use of digital kiosks and the website/mobile app, all supported by the retrieved evidence.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer includes all substantive factual claims that are directly supported by the evidence provided in the documents. The evidence clearly states the helpline numbers and the methods to access the Pink Police Patrol service, which the candidate's answer accurately reflects.",
+      "input_tokens": 827,
+      "output_tokens": 140,
+      "seconds": 11.349257000001671,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

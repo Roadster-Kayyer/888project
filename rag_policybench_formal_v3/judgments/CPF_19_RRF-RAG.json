@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_19",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing evidence from Document 1 and relevant details from Documents 4 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the reference information about topping up to a Special Account (SA) for matching grants and the conditions related to the Enhanced Retirement Sum (ERS) and tax relief.\",\n}",
+      "input_tokens": 1032,
+      "output_tokens": 91,
+      "seconds": 7.178193400002783,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing evidence from Document 1 and relevant details from Documents 4 and 5.\"}",
+      "input_tokens": 1072,
+      "output_tokens": 53,
+      "seconds": 4.344090300000971,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "medishield_5",
+  "doc_id": "PB_cda0b3fc0663bcb717be",
+  "query_type": "medishield",
+  "query": "What happens if there is insufficient balance in a MediSave Account to pay for MediShield premiums?",
+  "reference_answer": "The individual or payer will be informed to top up MediSave or arrange for a family member to help pay the premiums.",
+  "corpus_query_index": 326,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 2]\nThe application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 5]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply",
+  "retrieved_doc_ids": [
+    "PB_43972d7faa0ccf029be3",
+    "PB_bc2b027060817e0f3bc3",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "trimmed_doc_ids": [
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2c30e2cfaa19be697aca3d8f41e31cc77df16f6e2cc593b31714373864291264",
+  "answer": "If there's insufficient balance in a MediSave Account to pay for MediShield premiums, excess CAYE contributions can be used to offset previous years' MediSave payable [Document 1]. Any remaining excess will be refunded to the bank account. Alternatively, excess contributions can be retained in the MediSave Account to earn interest, which can then be used to offset future MediSave payable [Document 1]. If the MediSave balance is still insufficient, the CPF Board offers instalment plans to settle outstanding amounts over a reasonable period [Document 3].",
+  "input_tokens": 799,
+  "output_tokens": 111,
+  "seconds": 14.602779600012582,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001074",
+  "doc_id": "1190",
+  "query_type": "search",
+  "query": "What steps should I take to confirm the validity of a legal document issued by a court?",
+  "corpus_query_index": 1073,
+  "system": "RRF-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 2]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 3]\nFiling a Legal Notice:\nTo file a legal notice, consult a lawyer to draft the notice. Submit the notice to the court or the relevant authority, along with the required fee and supporting documents. The court will then issue a notice to the respondent.\n\n[Document 4]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 5]\nGetting a Certified Copy of a Court Order:\nTo get a certified copy of a court order, visit the court where the order was issued and submit an application. You can also use the e-Courts services portal to download a certified copy, if available. A fee may be applicable for obtaining a certified copy.",
+  "retrieved_doc_ids": [
+    "1193",
+    "1191",
+    "1043",
+    "2032",
+    "1053"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f04b61c90c2cd68a3bb6c07da27a1d09ebe32b4c23df4a358781b0c6e065d8f0",
+  "answer": "To confirm a legal document's validity, approach the issuing court. Verify the document's authenticity by checking its seal, signature, and stamp. Alternatively, contact the court or state judicial department for confirmation. [Document 1] & [Document 2]",
+  "input_tokens": 411,
+  "output_tokens": 52,
+  "seconds": 6.694231000001309,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

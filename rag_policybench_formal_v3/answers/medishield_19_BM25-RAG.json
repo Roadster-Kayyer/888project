@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_19",
+  "doc_id": "PB_3ccce1f4da948035fd36",
+  "query_type": "medishield",
+  "query": "What is the percentage of additional Merdeka Generation Subsidies provided to seniors aged 76 years and above?",
+  "reference_answer": "10%",
+  "corpus_query_index": 313,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 2]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 3]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 4]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 5]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "retrieved_doc_ids": [
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_fd10bc60905030393bfb",
+    "PB_377d7608d12421ff652e",
+    "PB_5970b9dd48a067a0363d",
+    "PB_3808b698344f1c773560"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6607ba0aae8420578e76ca71591378755d673b43ddc310f03378a6fd1cdbb86e",
+  "answer": "Based on Document 3 and Document 2, the Merdeka Generation Subsidies (which likely refers to the Additional MediSave Top-ups) provide $50 to $200 annually to seniors aged 76 and above, starting from 2025. This is an enhancement not tied to household income or residence value. [Document 3]",
+  "input_tokens": 494,
+  "output_tokens": 76,
+  "seconds": 10.019917000012356,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

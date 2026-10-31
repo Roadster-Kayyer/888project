@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006334",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests actions that could lead to finding the status of a missing relative, but it does not directly reference the Tamil Nadu Police Department's website or the use of a specific complaint number, which are key points in the reference. Therefore, the correctness score is 1 due to the partial correctness with important omissions. Faithfulness is null because there is no substantive factual claim directly supported by the supplied evidence.",
+      "input_tokens": 425,
+      "output_tokens": 163,
+      "seconds": 12.28475299999991,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

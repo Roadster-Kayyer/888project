@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_103",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the cessation of physical LTVP issuance and the shift to digital format, supported by Document 1.\",\n}",
+      "input_tokens": 971,
+      "output_tokens": 192,
+      "seconds": 14.910902799994801,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided.\"}\n\nExplanation:\n- Correctness: The candidate's answer correctly states that physical LTVP cards will not be issued after 27 Feb 2023, which aligns with the information in Document 1.\n- Relevance: The answer directly addresses the question about the possibility of requesting a physical LTVP after the specified date.\n- Faithfulness: The answer is fully supported by the evidence in Document 1, which states that physical LTVP cards will no longer be issued and that LTVP will be issued in digital format only.\n\nGiven the evidence and the candidate's answer, all scores are at the maximum level, indicating a high degree",
+      "input_tokens": 1011,
+      "output_tokens": 192,
+      "seconds": 14.884614100010367,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

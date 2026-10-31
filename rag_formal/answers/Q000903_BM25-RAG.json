@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000903",
+  "doc_id": "116",
+  "query_type": "casual",
+  "query": "How old do you have to be to get in trouble for crimes in India?",
+  "corpus_query_index": 902,
+  "system": "BM25-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nEligibility Criteria for Police Constable in Tamil Nadu:\nTo be eligible, candidates must:\n* Be Indian citizens\n* Be between 18-24 years old\n* Have passed 10th standard (for some posts) or higher secondary (for others)\n* Meet physical standards set by the Tamil Nadu Police Department\n* Pass the recruitment exam and interview\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nPolice Lineups:\nIn Tamil Nadu, citizens participating in police lineups have the right to:\n* Be informed of the purpose of the lineup\n* Have a lawyer present\n* Not be forced to participate\n* Be treated fairly and without bias\n\n[Document 4]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.\n\n[Document 5]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"",
+  "retrieved_doc_ids": [
+    "1464",
+    "255",
+    "1460",
+    "2033",
+    "1432"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ef8214839ebfeabcd1728eab9091c82aae1ea39a40430bbde8c61729097cc3db",
+  "answer": "According to Document 1, to get in trouble for crimes in India, you must be between 18-24 years old. [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 34,
+  "seconds": 4.474706300001344,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

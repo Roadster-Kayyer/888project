@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_33",
+  "doc_id": "PB_76cedb96dcf8bd5508e7",
+  "query_type": "CPF_111",
+  "query": "Is there a minimum interest rate for CPF Investment Scheme Fixed Deposit (FD) that FD Banks must offer?",
+  "reference_answer": "With effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.",
+  "corpus_query_index": 94,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nWith effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.\n\n[Document 2]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.\n\n[Document 3]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 4]\nYou can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.\n\n[Document 5]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.",
+  "retrieved_doc_ids": [
+    "PB_76cedb96dcf8bd5508e7",
+    "PB_c0fec916295a83585eb1",
+    "PB_b530c3042e7202136bc5",
+    "PB_aa985d2195d6653bfb7f",
+    "PB_32f2b09e4d17d1cf6a68"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f872344ebe069c7385d487e608388c712399a5f73f8b5ff3200fdf1189b51b53",
+  "answer": "Yes, FD Banks must offer a minimum effective interest rate at least the prevailing CPF interest rate. As of 2007, this was at least 4%, extended until 2025 with a minimum 4% interest rate per annum. [Document 1]",
+  "input_tokens": 563,
+  "output_tokens": 58,
+  "seconds": 8.031440799997654,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

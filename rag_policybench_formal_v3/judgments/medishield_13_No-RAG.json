@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_13",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses the relationship between premium payments and benefits received under MediShield Life. However, it does not directly cite the reference's mention of premium rebates, which is a key aspect of the relationship. Therefore, the correctness score is 1 for being partly correct but missing important details. Faithfulness is scored as null because there is no evidence provided in the candidate answer to directly support the claim made, and the evidence field is also null due to the absence of evidence. The reason succinctly explains the scores.",
+      "input_tokens": 387,
+      "output_tokens": 187,
+      "seconds": 13.97699699999066,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

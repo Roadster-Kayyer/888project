@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_49",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and partially supports the reference by mentioning mirror checks, but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and partially supports the reference by mentioning mirror checks, but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the given scenario, the candidate answer is relevant as it directly addresses the actions a driver must take before moving off, which includes checking mirrors and blind spots, and signaling if required. The answer also implies compliance with traffic regulations, which is a part of the safety aspect. However, the reference provided does not contain any evidence to support the specific actions mentioned in the candidate answer, hence the faithfulness score is not 2. The reason succinctly explains the scores given, indicating that while the answer is relevant",
+      "input_tokens": 357,
+      "output_tokens": 192,
+      "seconds": 14.746014900010778,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

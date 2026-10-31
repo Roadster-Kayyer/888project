@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000403",
+  "doc_id": "107",
+  "query_type": "casual",
+  "query": "So, what's the deal with Child Welfare Police Officers? What do they actually do?",
+  "corpus_query_index": 402,
+  "system": "Dense-RAG",
+  "reference_answer": "3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nServices by Policemen Family Welfare Wing:\nThe wing provides welfare services to police personnel and their families, including education, health, and financial assistance.\n\n[Document 3]\nPolice Welfare Board:\nThe Police Welfare Board supports officers and their families by providing financial assistance, medical aid, and educational scholarships. It also offers help during emergencies and natural disasters.\n\n[Document 4]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 5]\nChild Custody Disputes:\nThe police role is limited in child custody disputes. They can help in locating a missing child or preventing abduction. However, custody decisions are made by the court. Police may assist in enforcing court orders.",
+  "retrieved_doc_ids": [
+    "107",
+    "1944",
+    "1582",
+    "108",
+    "114"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "67a12643e795c3cef4b1221adff77fbfebe004ad23e98e5e288963cf0b2d4446",
+  "answer": "Child Welfare Police Officers handle cases related to children, ensuring their safety and well-being. They investigate child abuse and exploitation, provide support to victims, and coordinate with the Child Welfare Committee. Their roles include helping locate missing children and enforcing court orders in custody disputes. [Document 1]",
+  "input_tokens": 380,
+  "output_tokens": 58,
+  "seconds": 7.313610100000005,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

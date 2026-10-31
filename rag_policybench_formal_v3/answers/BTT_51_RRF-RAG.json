@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_51",
+  "doc_id": "PB_cfbeecc8e8bd16153256",
+  "query_type": "BTT",
+  "query": "Under what circumstances must a driver refrain from crossing the center line of the road?",
+  "reference_answer": "A driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+  "corpus_query_index": 47,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_cfbeecc8e8bd16153256",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_716429660f2efd24efb8",
+    "PB_619765030c2c1f6e27b8",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cc954bfb6ce2a76dfdeb8817b5baf80a35fb5cccb8ed13e07efabac9a7a8484e",
+  "answer": "A driver must refrain from crossing the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead [Document 1].",
+  "input_tokens": 270,
+  "output_tokens": 36,
+  "seconds": 4.8047912000038195,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

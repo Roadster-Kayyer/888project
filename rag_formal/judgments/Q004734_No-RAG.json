@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004734",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it correctly describes the need to file a written application and follow format rules, which aligns with the reference's mention of filing a petition in the court registry. However, it does not directly quote or paraphrase the reference's detailed guidelines, hence the lack of faithfulness. The reason is succinct, noting the absence of specific evidence from the reference.",
+      "input_tokens": 430,
+      "output_tokens": 152,
+      "seconds": 11.412954899999022,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

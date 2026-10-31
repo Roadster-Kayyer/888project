@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005747",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies methods for authenticating legal notices and references the official seal and signature, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods for authenticating legal notices and references the official seal and signature, supported by Document 1.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifies the methods for authenticating legal notices, and is fully supported by the evidence provided in Document 1. The reason succinctly explains the scores, and the evidence key confirms the source of the information.",
+      "input_tokens": 741,
+      "output_tokens": 141,
+      "seconds": 10.871647099997062,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

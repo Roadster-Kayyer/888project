@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005086",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate lacks specific evidence but acknowledges the inability to provide details without it."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate lacks specific evidence but acknowledges the inability to provide details without it.\",\n  \"answer\": \"Without retrieved evidence, I can't provide specific cases handled by the Cyber Crime Wing of Tamil Nadu Police.\"\n}",
+      "input_tokens": 376,
+      "output_tokens": 90,
+      "seconds": 6.965437200000451,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

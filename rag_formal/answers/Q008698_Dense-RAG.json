@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008698",
+  "doc_id": "683",
+  "query_type": "casual",
+  "query": "How do they punish people who get mean at games?",
+  "corpus_query_index": 8697,
+  "system": "Dense-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\nVerbal Harassment:\nPunishment for verbal harassment can include imprisonment up to 3 years and/or a fine, under Section 509 of the Indian Penal Code (IPC).\n\n[Document 3]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 4]\nAction Against Abusive Posts:\nIf you receive abusive or threatening social media posts, report them to the platform's administrators. You can also file a complaint with the Cyber Crime Wing or the local police station under the IT Act and IPC sections related to harassment and threatening behavior.\n\n[Document 5]\nMob Violence:\nMob violence can lead to punishment under Section 147-149 of the IPC, with imprisonment up to 3 years and/or a fine. In severe cases, it can also lead to charges under Section 307 (attempt to murder) with imprisonment up to 10 years.",
+  "retrieved_doc_ids": [
+    "683",
+    "544",
+    "578",
+    "155",
+    "650"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "074e297da64deba4806ede4d22a4df2df3d5fe4b5192c11123d1af7a53b8a164",
+  "answer": "The punishment for getting mean at games varies depending on the context. For violence during sporting events, it can lead to up to 1 year in prison and a fine [Document 1]. Verbal harassment can result in up to 3 years in prison and a fine [Document 2]. Threatening public performers face up to 3 years in prison and a fine of up to ₹5,000 [Document 3]. Reporting abusive social media posts can lead to further action under IT Act and IPC sections [Document 4]. Mob violence can result in up to 3 years in prison and fines, with severe cases leading to longer sentences [Document 5]. [Document 1-5]",
+  "input_tokens": 391,
+  "output_tokens": 144,
+  "seconds": 18.52472789999956,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

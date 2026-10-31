@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_8",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer does not directly reference the required action to report to insurer as per the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not directly reference the required action to report to insurer as per the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer does not directly address the requirement to report the accident to the insurer within 24 hours or by the next working day as stated in the reference. The answer focuses on immediate safety actions, which, while important, are not the specific action required by the reference. Therefore, the correctness score is 1 due to the partial correctness of addressing the accident's immediate aftermath, but it lacks the critical information about reporting to the insurer. Relevance is 1 because it is related to the accident scenario, but it does not directly answer the question about ins",
+      "input_tokens": 397,
+      "output_tokens": 192,
+      "seconds": 14.650986099994043,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008699",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the penalties for violent behavior at sporting events, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the penalties for violent behavior at sporting events, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 767,
+      "output_tokens": 192,
+      "seconds": 14.845862499998475,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the penalties for violent behavior at sporting events, supported by evidence from Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The relevance score is 2 because the candidate answer directly addresses the question. The correctness score is 2 because the candidate answer is correct and covers the main reference facts. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1.",
+      "input_tokens": 807,
+      "output_tokens": 133,
+      "seconds": 10.295744000002742,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

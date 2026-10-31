@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001715",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct procedure and necessary evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process for acquiring a diminished TDS endorsement using evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 912,
+      "output_tokens": 70,
+      "seconds": 5.771964100000332,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing the correct procedure and necessary evidence from Documents 1 and 2.\"}\n**Note:** The scores are based on the provided candidate answer and the evidence from the documents. The reason is a succinct summary of the evaluation. In a real-world scenario, the reason might be more detailed, but it is kept brief as per the instruction.",
+      "input_tokens": 952,
+      "output_tokens": 106,
+      "seconds": 8.379244600000675,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

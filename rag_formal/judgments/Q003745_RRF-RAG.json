@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003745",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Women Safety Committee as a Tamil Nadu Police initiative and accurately describes its functions, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the Women Safety Committee as a Tamil Nadu Police initiative and accurately describes its functions as stated in the reference documents.\",\n}",
+      "input_tokens": 811,
+      "output_tokens": 74,
+      "seconds": 5.8505986999989545,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Women Safety Committee as a Tamil Nadu Police initiative and accurately describes its functions, supported by evidence from Document 1.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly addresses the reference facts. The evidence provided in Document 1 directly supports the factual claims made in the candidate's answer, hence the faithfulness score is 2. The candidate's answer is relevant to the question and directly addresses the main points about the duties of the Women Safety Committee, hence the relevance score is 2. The answer is correct in its representation of the committee's functions, hence the correctness score is 2. The reason is a concise explanation of the scores.",
+      "input_tokens": 851,
+      "output_tokens": 184,
+      "seconds": 14.582244099998206,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

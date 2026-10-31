@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003276",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the preservation of policing heritage and is supported by the reference's mention of historical artifacts and documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the preservation of policing heritage and is supported by the reference's mention of historical artifacts and documents.\",\n  \"evidence\": \"Document 1\"\n}",
+      "input_tokens": 374,
+      "output_tokens": 82,
+      "seconds": 6.257769499999995,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

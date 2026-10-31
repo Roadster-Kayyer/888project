@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_7",
+  "doc_id": "PB_763506fa65f40c0150d3",
+  "query_type": "ICA_134",
+  "query": "When can I collect my citizenship certificate after registration?",
+  "reference_answer": "As a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.",
+  "corpus_query_index": 269,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 2]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 3]\nChildren age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.\n\n[Document 4]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_763506fa65f40c0150d3",
+    "PB_46ec4c9c421699906017",
+    "PB_a8cd1e2cca8ee87c6824",
+    "PB_04de2d145d0ff95654be",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "385c40dda91348926bddc4ff2dcc32882e5e7bfae9469dc436c9af5879df9124",
+  "answer": "You can collect your citizenship certificate after attending the citizenship ceremony, which typically takes place in about 3-6 months after registration. Details are sent via email closer to the ceremony date. [Document 4]",
+  "input_tokens": 408,
+  "output_tokens": 43,
+  "seconds": 5.618378500003018,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

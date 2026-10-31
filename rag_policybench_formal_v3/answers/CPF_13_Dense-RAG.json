@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_13",
+  "doc_id": "PB_5f9fbfa5f7209cde8f34",
+  "query_type": "CPF_111",
+  "query": "Will I still be considered opted-in if I stop doing platform work for a period of time or change platform operator after opting-in?",
+  "reference_answer": "Yes, your opt-in status is permanent after opting in and applies to all platform operators you work with.",
+  "corpus_query_index": 72,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYes, your opt-in status is permanent after opting in and applies to all platform operators you work with.\n\n[Document 2]\nOpting in is a concession given to help you increase your CPF contributions. By doing so, you will receive higher overall income, considering the contributions from platform operators. Staying committed to the CPF contributions will also ensure that your CPF savings will accumulate interest over time, thereby building up your housing and retirement adequacy in the long run.Allowing opt-outs will not help build up your housing and retirement adequacy in the long run. It is also not practical for platform operators to track the status of workers and apply the different rates of CPF contributions if workers opt in and out multiple times. This may incur additional business costs for platform operators and make implementation more complicated overall.As there is no deadline to opt in, you can carefully consider your decision based on your personal circumstances, before opting in to increase your CPF contributions.\n\n[Document 3]\nIn the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gr\n\n[Document 4]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.\n\n[Document 5]\nFor the convenience of both platform workers and platform operators, CPF contributions will be based on gross earnings less Fixed Expense Deduction Amount (FEDA), and are not based on declared expenses.This benefits both platform workers and platform operators as you will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will also not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.FEDA is applied to all platform workers to simplify the computation of CPF contribution for both platform operators and platform workers, regardless of income levels and delivery modes. As such, we will not adjust the CPF contributions based on declared expenses.",
+  "retrieved_doc_ids": [
+    "PB_5f9fbfa5f7209cde8f34",
+    "PB_81b9779fe183d60a2ff6",
+    "PB_bd1ee881d60bea761ac7",
+    "PB_78fc5f010e94bc79c15a",
+    "PB_0a58ed0f170d5073ce90"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5818f04f3e9ca39e1b4f7548afd0363faf521e0127c14babe1f1705fcdf304cf",
+  "answer": "Yes, your opt-in status remains permanent and applies to all platform operators you work with. It's not affected by stopping work for a period or changing platform operators. [Document 1]",
+  "input_tokens": 806,
+  "output_tokens": 39,
+  "seconds": 5.311023000002024,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

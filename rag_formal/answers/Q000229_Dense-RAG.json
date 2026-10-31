@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000229",
+  "doc_id": "1038",
+  "query_type": "search",
+  "query": "What are the essential legal documents required for a civil action?",
+  "corpus_query_index": 228,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nDocuments Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.\n\n[Document 2]\nFiling for Injunction Order:\nTo file for an injunction order, submit a petition under Order 39 of the Civil Procedure Code, 1908. Attach an affidavit and supporting documents to the petition, stating the grounds for the injunction. The court will then consider your application and pass an order.\n\n[Document 3]\nDocuments Required for Bail Application:\nRequired documents include:\n- Copy of the FIR\n- Copy of the charge sheet (if filed)\n- Identity proof\n- Address proof\n- Surety documents (if required)\n\n[Document 4]\nRequired Information for Filing an FIR:\nYou will need to provide:\n- Your name and address\n- Details of the incident (date, time, location)\n- Description of the incident and people involved\n- Any evidence or witnesses\n- Contact information for follow-up\n\n[Document 5]\nDocuments for Police Verification (Government Jobs):\nFor government jobs, required documents include:\n1. ID proof\n2. Address proof\n3. Educational certificates\n4. Character certificate (if required)\nNote: Specific documents may vary depending on the job and organization.",
+  "retrieved_doc_ids": [
+    "1038",
+    "1110",
+    "1025",
+    "2",
+    "203"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "14c459b7ed31bc67cc7d37c44c27c587dbb94e73c6574167fd0adc14693ede81",
+  "answer": "For a civil action, essential documents include proof of identity and address, relevant contracts/agreements, evidence supporting your claim, an affidavit (if required), and court fees. [Document 1]",
+  "input_tokens": 409,
+  "output_tokens": 40,
+  "seconds": 5.0682379999998375,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.20947265625
+}

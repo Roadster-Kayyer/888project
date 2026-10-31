@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002772",
+  "doc_id": "1498",
+  "query_type": "formal",
+  "query": "How does the recruitment process work for ministerial staff in police departments?",
+  "corpus_query_index": 2771,
+  "system": "RRF-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nRecruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.\n\n[Document 2]\nRecruitment for Tamil Nadu Police Medical Staff:\nThe recruitment process for Tamil Nadu Police medical staff involves a written exam and interview. Candidates must have the required medical qualifications and experience. The selection process is based on merit and reservation rules. You can check the official Tamil Nadu Police website for notifications and apply online.\n\n[Document 3]\n3. Police Recruitment Wing Role:\nThe Police Recruitment Wing attracts candidates by advertising job vacancies, conducting recruitment drives, and overseeing the selection process to ensure a fair and transparent hiring process for police positions in Tamil Nadu.\n\n[Document 4]\nRecruitment Process for Police Photographers:\nThe recruitment process for police photographers in Tamil Nadu involves:\n* Meeting eligibility criteria (age, education, and skills)\n* Written examination\n* Practical test (photography skills)\n* Interview\n* Medical examination\n* Background verification\n\n[Document 5]\nArmed Reserve Police Recruitment:\nThe recruitment process for the Armed Reserve Police involves a written exam, physical measurement test, and physical efficiency test. Candidates must meet the eligibility criteria, including age, education, and physical standards. The selection process is conducted by the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB).",
+  "retrieved_doc_ids": [
+    "1498",
+    "1503",
+    "1602",
+    "1510",
+    "1484"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1e6e0fc8076437408ba10076c018ed86b82b239b9ccee06ece850a4b4f0a6c32",
+  "answer": "The recruitment process for ministerial staff in Tamil Nadu Police involves a written examination, skill test if needed, interview, document verification, and medical fitness check. [Document 1]",
+  "input_tokens": 409,
+  "output_tokens": 37,
+  "seconds": 4.763002599998799,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

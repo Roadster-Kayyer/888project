@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008029",
+  "doc_id": "562",
+  "query_type": "search",
+  "query": "What kind of fines or bans can street vendors receive for harassment?",
+  "corpus_query_index": 8028,
+  "system": "RRF-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 4]\nReporting Harassment or Threats:\nForeigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.\n\n[Document 5]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "retrieved_doc_ids": [
+    "562",
+    "507",
+    "494",
+    "1774",
+    "528"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "337da65a84a224b5945c3db8fa45d015bc3f4515f0c27145a81d322b73e85dfd",
+  "answer": "Street vendors can face fines up to ₹5,000 and up to 3 years in prison for harassment, and unauthorized vending can result in a fine of up to ₹500. Minor street fights can lead to up to ₹1,000 fines or 1 month imprisonment. [Document 1]",
+  "input_tokens": 410,
+  "output_tokens": 67,
+  "seconds": 8.594625999998243,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

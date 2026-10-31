@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_14",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate's answer contradicts the reference which states all property types are considered for WIS eligibility."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer contradicts the reference which states all property types are considered for WIS eligibility.\",\n  \"evidence\": null\n}",
+      "input_tokens": 384,
+      "output_tokens": 71,
+      "seconds": 5.559698299999582,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

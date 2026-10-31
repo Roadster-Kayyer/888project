@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009876",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, accurately reflecting the evidence from Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the evidence from Documents 1 and 3.\",\n  \"evidence\": \"[Document 1], [Document 3]\"\n}\n\n\nThe candidate answer is correct in stating the appropriate authorities to report casteist discrimination, such as the nearest police station, District Social Welfare Officer, and the Tamil Nadu State Commission for SC/ST. It also correctly mentions the SC/ST Helpline (14416) and District Human Rights Cells as additional reporting avenues, which aligns with the information provided in Document 3. The answer is relevant as it directly responds to the question about the reporting process for caste",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 14.865825299995777,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

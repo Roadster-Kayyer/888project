@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001910",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by all documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the use of digital forensics and related technologies in Tamil Nadu law enforcement as supported by the retrieved evidence documents.\",\n}",
+      "input_tokens": 733,
+      "output_tokens": 192,
+      "seconds": 15.338978800002224,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by all documents provided.\"}",
+      "input_tokens": 773,
+      "output_tokens": 39,
+      "seconds": 3.1666889999978594,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

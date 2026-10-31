@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_32",
+  "doc_id": "PB_756caeff044567542744",
+  "query_type": "CPF_111",
+  "query": "Why is the Workfare Income Supplement (WIS) for platform workers aligned to that of employees only in 2029 when the increased CPF contributions for platform workers is implemented in 2025?",
+  "reference_answer": "CPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+  "corpus_query_index": 93,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.\n\n[Document 2]\nFor the convenience of both platform workers and platform operators, CPF contributions will be based on gross earnings less Fixed Expense Deduction Amount (FEDA), and are not based on declared expenses.This benefits both platform workers and platform operators as you will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will also not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.FEDA is applied to all platform workers to simplify the computation of CPF contribution for both platform operators and platform workers, regardless of income levels and delivery modes. As such, we will not adjust the CPF contributions based on declared expenses.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 5]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:",
+  "retrieved_doc_ids": [
+    "PB_756caeff044567542744",
+    "PB_0a58ed0f170d5073ce90",
+    "PB_af1247343974a8960a93",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_f2859c1fb9b873b9f305"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7f0a87afb1009b7a21e5845142cfa15fe9f9641ac2f20d249bc97c0edfc8b307",
+  "answer": "The Workfare Income Supplement (WIS) aligns with employees' due to the gradual increase in CPF contributions for platform workers starting from 2025. By 2029, when CPF contributions for platform workers are fully aligned with employees', WIS will also be adjusted accordingly. This ensures support for lower-income platform workers through the Platform Workers CPF Transition Support (PCTS) until 2029. [Document 1]",
+  "input_tokens": 800,
+  "output_tokens": 92,
+  "seconds": 12.254905699999654,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

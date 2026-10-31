@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008027",
+  "doc_id": "562",
+  "query_type": "formal",
+  "query": "Under what circumstances might vendors on the street face legal penalties?",
+  "corpus_query_index": 8026,
+  "system": "BM25-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 3]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 4]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 5]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.",
+  "retrieved_doc_ids": [
+    "562",
+    "710",
+    "507",
+    "579",
+    "540"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f9ceede239198a38f4084cbb16f28db159636d16369926892b96dbcd2edaacca",
+  "answer": "Vendors on the street might face legal penalties for harassment, illegally dividing joint family property, unauthorized street vending, threatening to file false cases, and keeping shops open during a bandh, as detailed in [Document 1-5].",
+  "input_tokens": 397,
+  "output_tokens": 48,
+  "seconds": 6.38149070000145,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

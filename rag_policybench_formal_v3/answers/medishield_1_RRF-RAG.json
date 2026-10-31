@@ -1,0 +1,28 @@
+{
+  "query_id": "medishield_1",
+  "doc_id": "PB_ee588d3fa5445377e2bc",
+  "query_type": "medishield",
+  "query": "How much is the co-insurance for the first $5,000 claimable amount if the deductible is $2,000?",
+  "reference_answer": "The co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.",
+  "corpus_query_index": 303,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 2]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 3]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 4]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 5]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "retrieved_doc_ids": [
+    "PB_ee588d3fa5445377e2bc",
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_b530c3042e7202136bc5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f4941d3e87aacc952aec24b74c2d29afbbf3dbd5ba520c17acb279e724df64d9",
+  "answer": "The co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible. [Document 1]",
+  "input_tokens": 657,
+  "output_tokens": 53,
+  "seconds": 7.166474700003164,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

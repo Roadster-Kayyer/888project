@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_106",
+  "doc_id": "PB_abe00f9d815aa54ee0f5",
+  "query_type": "CPF_111",
+  "query": "Can I continue to use my Ordinary Account savings to service my regular premium insurance bought before 1 January 2001, even if my balance falls below $20,000?",
+  "reference_answer": "You can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.",
+  "corpus_query_index": 64,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 2]\nYou can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.\n\n[Document 3]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 4]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 5]\nIf your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.",
+  "retrieved_doc_ids": [
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_5ceab13899c08229e914",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_b530c3042e7202136bc5",
+    "PB_1d9c2ab7fd656dcb2b40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "21dc5f311cc2f086f0c8b770b81a38f1199a1e0b06d1c98c9c00b3e52a1b03e0",
+  "answer": "Yes, you can continue to use your Ordinary Account savings to service your regular premium insurance. However, if your balance falls below $20,000, you might not have enough savings to meet your Full Retirement Sum (FRS). [Document 1]",
+  "input_tokens": 580,
+  "output_tokens": 55,
+  "seconds": 7.303614200005541,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

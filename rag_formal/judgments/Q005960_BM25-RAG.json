@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005960",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly covers steps for vehicle verification and includes relevant Tamil Nadu authorities, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly covers steps for vehicle verification and includes relevant Tamil Nadu authorities, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 920,
+      "output_tokens": 192,
+      "seconds": 14.665778800001135,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

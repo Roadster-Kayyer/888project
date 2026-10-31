@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003518",
+  "doc_id": "1631",
+  "query_type": "casual",
+  "query": "How did the Tamil Nadu Police change their ways to keep women safer?",
+  "corpus_query_index": 3517,
+  "system": "BM25-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nName Change:\nTo change your name in Tamil Nadu, publish a name change advertisement in a local newspaper and submit a petition to the District Collector's office. You will need to provide ID proof, address proof, and a affidavit. The Collector will then publish a gazette notification.\n\n[Document 2]\nCitizen Rights Regarding Personal Data:\nCitizens have the right to:\n* Know how their data is being used\n* Access their personal data\n* Request correction or deletion of incorrect data\n* File a complaint if their data is misused (as per IT Act 2000 and Tamil Nadu Police guidelines)\n\n[Document 3]\nContacting the Nearest All Women Police Station:\nTo contact the nearest All Women Police Station, you can:\n- Call the Tamil Nadu Police helpline: 100\n- Visit the Tamil Nadu Police website for station locations and contact numbers\n- Ask your local police station for directions to the nearest All Women Police Station\n\n[Document 4]\nAccessing Women Helpline Services:\nTo access the Tamil Nadu Police women helpline services, dial 181 or visit the nearest All-Women Police Station. You can also download the Tamil Nadu Police mobile app for assistance.\n\n[Document 5]\nSafety Measures for Women Living Alone:\nTo stay safe, women living alone should:\n* Keep emergency numbers handy\n* Install security cameras and alarms\n* Inform neighbors and local police about their living situation\n* Avoid sharing personal details with strangers\n* Keep doors and windows locked",
+  "retrieved_doc_ids": [
+    "1833",
+    "1463",
+    "823",
+    "1010",
+    "1892"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "da230662cec9cd4b0d1c3ccd90512d22ed52bbeba211dd3f88d7fb82e7a11914",
+  "answer": "The Tamil Nadu Police changed their ways by implementing measures like providing safety tips for women living alone [Document 5], ensuring women can access helplines and women-friendly police stations [Documents 3 & 4], and offering rights regarding personal data [Document 2]. However, the provided documents do not detail specific changes to keep women safer. [Document 1] discusses name change procedures but is unrelated to women's safety.",
+  "input_tokens": 432,
+  "output_tokens": 87,
+  "seconds": 10.519148499999574,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

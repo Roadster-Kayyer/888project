@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_10",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Residents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\"\n}",
+      "input_tokens": 752,
+      "output_tokens": 111,
+      "seconds": 8.596277899996494,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

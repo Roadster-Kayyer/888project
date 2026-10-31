@@ -1,0 +1,31 @@
+{
+  "query_id": "medishield_16",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Document 1.\",\n}",
+      "input_tokens": 669,
+      "output_tokens": 192,
+      "seconds": 14.666909299994586,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct and covers the main reference fact about subsidy eligibility being determined without an application.\n- Relevance: The candidate answer directly addresses the question about who determines subsidy eligibility.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in Document 1, which states that eligibility is determined using existing information in Government databases without an application.\n- Reason: The candidate answer is correct, relevant, and faithful to the evidence, hence the brief explanation is not necessary in this case as the scores already justify the answer.",
+      "input_tokens": 709,
+      "output_tokens": 176,
+      "seconds": 13.342164000001503,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

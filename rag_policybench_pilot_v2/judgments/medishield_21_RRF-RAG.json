@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_21",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by the evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\"\n}",
+      "input_tokens": 862,
+      "output_tokens": 99,
+      "seconds": 7.558527599998342,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2762.0341796875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

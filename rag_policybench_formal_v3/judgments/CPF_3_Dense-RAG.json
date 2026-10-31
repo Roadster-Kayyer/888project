@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_3",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference information on no refund needed after a full voluntary housing refund."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference information on no refund needed after a full voluntary housing refund.\"\n}",
+      "input_tokens": 1530,
+      "output_tokens": 192,
+      "seconds": 14.917665200002375,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

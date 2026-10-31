@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000402",
+  "doc_id": "107",
+  "query_type": "formal",
+  "query": "What roles do Child Welfare Police Officers play and what is their function?",
+  "corpus_query_index": 401,
+  "system": "BM25-RAG",
+  "reference_answer": "3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 4]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "107",
+    "46",
+    "1021",
+    "1022",
+    "1023"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "47894217c71a21b601cea72049e614b9c0e787acef777ab1cdd4df49b7d19766",
+  "answer": "Child Welfare Police Officers handle cases related to children, investigate child abuse and exploitation, and provide support and counseling to child victims. [Document 1]",
+  "input_tokens": 659,
+  "output_tokens": 31,
+  "seconds": 4.218181000000186,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

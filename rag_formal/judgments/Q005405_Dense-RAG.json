@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005405",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the legal process for bringing a child home in Tamil Nadu, citing adoption through an agency and court procedures, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the legal process for bringing a child home in Tamil Nadu, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 841,
+      "output_tokens": 74,
+      "seconds": 5.903002799997921,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the legal process for bringing a child home in Tamil Nadu, citing adoption through an agency and court procedures, supported by Document 1 and Document 2.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate answer includes all substantive factual claims about the legal process for adoption and court procedures in Tamil Nadu, as evidenced by Document 1 and Document 2. There are no unsupported or contradicted claims in the candidate answer.",
+      "input_tokens": 881,
+      "output_tokens": 136,
+      "seconds": 11.082012799997756,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_42",
+  "doc_id": "PB_5f8d1c2144f099bd0476",
+  "query_type": "BTT",
+  "query": "What is the maximum speed limit for vehicles traveling in a silver zone when a 40km/h speed limit sign is attached below?",
+  "reference_answer": "40 km/h",
+  "corpus_query_index": 37,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\n40 km/h\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nThe maximum permissible width is 2.3 meters.\n\n[Document 4]\nGive way to vehicles from the side road entering the main road.\n\n[Document 5]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "retrieved_doc_ids": [
+    "PB_5f8d1c2144f099bd0476",
+    "PB_33b32af818c8c4223f8f",
+    "PB_6acce45e52dda6f7e067",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_15b5d9c0851609d354e4"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cd4d20d765c5cc43944d10731da7e71c7477e273af09a487dce01e220a6f00a6",
+  "answer": "According to Document 1, the maximum speed limit for vehicles traveling in a silver zone when a 40 km/h speed limit sign is attached is 40 km/h. [Document 1]",
+  "input_tokens": 295,
+  "output_tokens": 42,
+  "seconds": 5.530967099999543,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

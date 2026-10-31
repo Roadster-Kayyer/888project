@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_64",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies LOC and valid work pass requirements, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies LOC and valid work pass requirements, supported by Document 1.\",\n  \"evidence\": \"[Document 1] LTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.\"\n}",
+      "input_tokens": 972,
+      "output_tokens": 141,
+      "seconds": 10.983160600007977,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

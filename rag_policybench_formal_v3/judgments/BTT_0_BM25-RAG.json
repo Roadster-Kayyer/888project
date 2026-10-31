@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_0",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific information on idling impacts outside traffic conditions, and no substantive factual claims are supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific information on idling impacts outside traffic conditions, and no substantive factual claims are supported by the evidence provided.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 1067,
+      "output_tokens": 192,
+      "seconds": 15.208783300011419,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

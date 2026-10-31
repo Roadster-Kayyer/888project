@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_60",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the reference, suggesting multiple viable options."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference, suggesting multiple viable options.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder since the actual evidence is not provided in the text. In a real-world scenario, the evidence would be a specific document or source that directly supports the candidate's answer.)",
+      "input_tokens": 537,
+      "output_tokens": 131,
+      "seconds": 10.221925099991495,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002957",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, covering main reference facts about emergency response during riots or civil unrest, and includes relevant information about CERT training."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly covers main reference facts about emergency response during riots, includes relevant details about CERT training, and is supported by evidence from Document 5.\",\n}",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 14.778094199999032,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, covering main reference facts about emergency response during riots or civil unrest, and includes relevant information about CERT training.\"}",
+      "input_tokens": 868,
+      "output_tokens": 59,
+      "seconds": 4.875652700000501,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

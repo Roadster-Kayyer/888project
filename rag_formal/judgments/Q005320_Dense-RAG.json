@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005320",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the procedure and includes all relevant steps supported by the evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the procedure and includes all relevant steps supported by the evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 891,
+      "output_tokens": 73,
+      "seconds": 5.929856099999597,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

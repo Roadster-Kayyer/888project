@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003589",
+  "doc_id": "1644",
+  "query_type": "search",
+  "query": "What new gear is given to police for their own protection?",
+  "corpus_query_index": 3588,
+  "system": "Dense-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 2]\nRiot Control and Crowd Management:\nThe Tamil Nadu Police has introduced modern equipment such as:\n* Water cannons\n* Tear gas launchers\n* Drones for surveillance\n* Body cameras for police personnel\n\n[Document 3]\nHelpline for Illegal Use of Police Uniform/Equipment:\nThe helpline number for reporting illegal use of police uniform or equipment is 100. You can also dial 1090 to report any suspicious activity.\n\n[Document 4]\nGetting Police Protection:\nTo get police protection, visit your local police station and file a complaint. Provide evidence of threats, and the police will assess the situation and provide necessary protection. You can also call 100 for emergency assistance.\n\n[Document 5]\nLegal Self-Defense Tools:\nIn Tamil Nadu, women can carry self-defense tools like pepper sprays, but it's recommended to check with local authorities for specific regulations.",
+  "retrieved_doc_ids": [
+    "1644",
+    "1618",
+    "391",
+    "828",
+    "1871"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eacf4337e79d4fc2943244a48b1285aa56cb25a60492fc484fd6097275630059",
+  "answer": "Police in Tamil Nadu now receive bulletproof vests, helmets, communication devices, and other protective gear. They also have access to water cannons, tear gas, drones, and body cameras for personal safety. [Document 1]",
+  "input_tokens": 346,
+  "output_tokens": 46,
+  "seconds": 6.03612129999965,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

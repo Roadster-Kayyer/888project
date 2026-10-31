@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006277",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, covering all main points about crowd management measures during festivals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about crowd management measures during festivals.\",\n  \"evidence\": \"All substantive factual claims about crowd management measures during festivals are supported by the evidence provided in Documents 1, 2, 3, 4, and 5.\"\n}",
+      "input_tokens": 825,
+      "output_tokens": 192,
+      "seconds": 15.310535399999935,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

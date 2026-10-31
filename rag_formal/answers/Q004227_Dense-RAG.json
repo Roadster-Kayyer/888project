@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004227",
+  "doc_id": "176",
+  "query_type": "formal",
+  "query": "How can one address the situation of having a vehicle towed?",
+  "corpus_query_index": 4226,
+  "system": "Dense-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 2]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 3]\nRetrieving Impounded Vehicles:\nTo retrieve a vehicle impounded by police in Tamil Nadu, follow these steps:\n1. Contact the police station where the vehicle was impounded.\n2. Produce required documents (RC, insurance, driving license).\n3. Pay any pending fines or penalties.\n4. Obtain a release order from the police.\n\n[Document 4]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 5]\nPunishment for Illegal Parking Causing Obstruction:\nIllegal parking causing obstruction can result in a fine of up to ₹1,000 and/or towing of the vehicle under the Motor Vehicles Act, 1988, and the Chennai City Traffic Police regulations.",
+  "retrieved_doc_ids": [
+    "176",
+    "833",
+    "2051",
+    "867",
+    "516"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5c2db756952e7d89268fc19ca891d7bb2545143475fc6554dad05400772d5b17",
+  "answer": "To address a towed vehicle, first, contact the nearest Traffic Police station or the towing company to locate your vehicle. Ensure you have your vehicle's registration documents ready. Pay any fines or towing charges, then retrieve your vehicle. [Document 1] & [Document 2]",
+  "input_tokens": 446,
+  "output_tokens": 58,
+  "seconds": 7.386688500000673,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

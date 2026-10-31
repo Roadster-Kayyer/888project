@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007938",
+  "doc_id": "546",
+  "query_type": "casual",
+  "query": "How much do you get in trouble for sending scary texts?",
+  "corpus_query_index": 7937,
+  "system": "BM25-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 5]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.",
+  "retrieved_doc_ids": [
+    "255",
+    "799",
+    "849",
+    "546",
+    "933"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bbcd84f05a2a2e28436661ebf4985fe51303a44d1f4ad0ef7331be586ef1afc5",
+  "answer": "Sending scary texts can lead to imprisonment up to 3 years and/or a fine, according to Section 506 of the IPC and the IT Act, [Document 4].",
+  "input_tokens": 425,
+  "output_tokens": 38,
+  "seconds": 4.859206600001926,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

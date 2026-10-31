@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003745",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partly correct, but lacks specific reference to Tamil Nadu Police and the detailed duties mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and partly correct, but lacks specific reference to Tamil Nadu Police and the detailed duties mentioned in the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided answer, the candidate correctly identifies the Women Safety Committee as an organization focused on women's safety, which aligns with the reference's description of its purpose. The answer also mentions duties that are consistent with the reference, such as promoting awareness and organizing workshops. However, the answer does not explicitly state that the committee is a Tamil Nadu Police initiative, nor does it detail the specific duties of addressing complaints, providing counseling, and conducting awareness programs as",
+      "input_tokens": 433,
+      "output_tokens": 192,
+      "seconds": 14.689408400001412,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

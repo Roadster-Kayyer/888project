@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_45",
+  "doc_id": "PB_5ae2776cd5bb7bd71a02",
+  "query_type": "ICA_134",
+  "query": "What should I do if I found my lost IC after I have reported the loss of the IC?",
+  "reference_answer": "The lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.",
+  "corpus_query_index": 242,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 4]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).\n\n[Document 5]\nYou must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.",
+  "retrieved_doc_ids": [
+    "PB_5ae2776cd5bb7bd71a02",
+    "PB_cc60baad4cbf9560588b",
+    "PB_6a73d290ca55b1465a81",
+    "PB_6c6fcaa3d9ba8be58b7b",
+    "PB_5e87133ca7da061eb257"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05ae135559a4d5689c5e41f691b8908ecd732db645e30a0f14ee8b3689829af4",
+  "answer": "If you found your lost IC after reporting it, use your new IC and invalidate your lost card by cutting it up. If you haven't replaced it yet, submit images of your recovered IC to ICA. [Document 1]",
+  "input_tokens": 652,
+  "output_tokens": 48,
+  "seconds": 6.388446900004055,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007953",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, accurately citing Document 2 for the process of recording a dying declaration."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately citing Document 2 for the process of recording a dying declaration.\"\n}\n\n\nThe candidate's answer is directly relevant to the question about what happens if someone is going to die, specifically addressing the process of recording a dying declaration as per the provided reference. The answer is correct, as it aligns with the information given in Document 2, and it is faithful to the evidence because it directly quotes the process described in the document. The reason succinctly explains the scores.",
+      "input_tokens": 767,
+      "output_tokens": 152,
+      "seconds": 12.073782799998298,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

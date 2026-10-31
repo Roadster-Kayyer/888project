@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_54",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and provides a general guideline for claiming deductions, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and provides a general guideline for claiming deductions, but lacks specific evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder since the actual evidence is not provided in the text. In a real scenario, the evidence would be a specific document or source that directly supports the candidate's answer.)",
+      "input_tokens": 531,
+      "output_tokens": 136,
+      "seconds": 10.490604799997527,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

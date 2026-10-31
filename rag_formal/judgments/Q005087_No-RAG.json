@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005087",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies types of cybercrime cases, directly aligns with reference, and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies types of cybercrime cases, directly aligns with reference, and is fully supported by the evidence provided.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key is included to indicate that the provided candidate answer is supported by a document, even though the actual document is not supplied in the text. In a real-world scenario, the evidence would be the actual document or source that backs up the candidate's answer.",
+      "input_tokens": 387,
+      "output_tokens": 145,
+      "seconds": 11.2587139999996,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

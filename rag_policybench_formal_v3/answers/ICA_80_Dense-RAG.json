@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_80",
+  "doc_id": "PB_a6030c6c9eb84a58b3ba",
+  "query_type": "ICA_134",
+  "query": "Can Dependant's Pass (DP) holders study in Singapore?",
+  "reference_answer": "If you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.",
+  "corpus_query_index": 281,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 2]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 5]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "retrieved_doc_ids": [
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_552a298a8583e182f7ef",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_cb5d04a689bc8ce22058"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1408b79224a5bf6e2d099752cbf9fee80860ed8862fa69bc7f8fc927ded0d920",
+  "answer": "Yes, Dependant's Pass (DP) holders can study in Singapore under certain conditions. They do not need a Student's Pass for full-time, non-religious related studies. However, if studying at an approved religious school, a Student's Pass is required. [Document 1]",
+  "input_tokens": 580,
+  "output_tokens": 59,
+  "seconds": 7.653061399993021,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

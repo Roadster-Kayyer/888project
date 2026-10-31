@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007837",
+  "doc_id": "528",
+  "query_type": "formal",
+  "query": "What sanctions might authorities impose on individuals or groups engaging in unauthorized street performances?",
+  "corpus_query_index": 7836,
+  "system": "Dense-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 3]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.\n\n[Document 4]\nLegal Consequences for Causing Minor Public Disturbances:\nCausing minor public disturbances can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month under the Tamil Nadu Police Act, 1859.\n\n[Document 5]\nReporting Unauthorized NGO Activities:\nTo report unauthorized NGO activities, contact the Tamil Nadu Registrar of Societies or the local police station. You can also file a complaint with the NGO's governing body or the District Collector's office.",
+  "retrieved_doc_ids": [
+    "528",
+    "578",
+    "592",
+    "515",
+    "965"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4e57417a2aeb8f2d95daa3d9d01aad59b75cd0ef2eb7bbb7a997b33a07455567",
+  "answer": "Authorities might impose fines up to ₹1,000 and/or arrest for causing public nuisance. Threatening performers could lead to up to 3 years in prison and a ₹5,000 fine. Threatening cultural performers can result in up to 7 years in prison and a ₹5,000 fine. Causing minor public disturbances can lead to a fine of up to ₹1,000 and/or up to 1 month in prison. [Document 1-5]",
+  "input_tokens": 400,
+  "output_tokens": 104,
+  "seconds": 13.347118099998625,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

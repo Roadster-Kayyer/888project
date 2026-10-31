@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000243",
+  "doc_id": "1040",
+  "query_type": "casual",
+  "query": "So, how do I get my criminal case started?",
+  "corpus_query_index": 242,
+  "system": "RRF-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nQuestion 1: Case Investigation Progress\nTo get information about your case investigation, you can:\n* Contact the investigating officer directly\n* Visit the police station where the case was filed\n* Check the status online, if available, on the Tamil Nadu Police website\n\n[Document 3]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 4]\nFiling for Compensation:\nTo file for compensation in a criminal case, the victim can:\n1. Apply to the court trying the case.\n2. Submit a petition with required documents.\n3. The court will consider the application and pass an order.\n\n[Document 5]\nFirst Hearing of a Criminal Case:\nAt the first hearing, the court reads out the charges to the accused, who then pleads guilty or not guilty. The judge may grant bail or remand the accused, and the case is posted for further hearing.",
+  "retrieved_doc_ids": [
+    "1040",
+    "66",
+    "1116",
+    "752",
+    "1822"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1d5cb4779a89593ed51638b755d65e0f37f7344a1bd52a2b724cb13b19114fb9",
+  "answer": "To start a criminal case, file a complaint with the police [Doc. 1], and the police will investigate and file charges [Doc. 1]. Next, the court will take up the case [Doc. 1]. For details on your case's progress, contact the investigating officer or check the police station or website [Doc. 2].",
+  "input_tokens": 411,
+  "output_tokens": 73,
+  "seconds": 9.173434199999974,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

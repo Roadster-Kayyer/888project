@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007840",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, directly addressing the handling of unauthorized street performers and the potential legal consequences, with evidence from all relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the punishment for unauthorized street performances and the process for handling such cases, supported by evidence from Document 1 and Document 5.\",\n}",
+      "input_tokens": 887,
+      "output_tokens": 192,
+      "seconds": 14.806631400002516,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the reference documents, directly addressing the handling of unauthorized street performers and the potential legal consequences, with evidence from all relevant documents.\"}",
+      "input_tokens": 927,
+      "output_tokens": 61,
+      "seconds": 5.056549900000391,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

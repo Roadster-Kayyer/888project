@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003432",
+  "doc_id": "1616",
+  "query_type": "formal",
+  "query": "How have recent reforms aimed at enhancing police-community relations been structured?",
+  "corpus_query_index": 3431,
+  "system": "BM25-RAG",
+  "reference_answer": "Police-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "context": "[Document 1]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.\n\n[Document 2]\nPolice Band:\nThe Police Band performs ceremonial and public duties by:\n* Participating in parades and ceremonies\n* Playing at government functions and events\n* Promoting community engagement and police-public relations\n\n[Document 3]\nPolice Public Relations Wing:\nThe Police Public Relations Wing functions to build trust and transparency between the police and the public. It handles media inquiries, shares information on police activities, and promotes community outreach programs to enhance police-public relationships.\n\n[Document 4]\nPolice-Media Relations:\nThe Tamil Nadu Police has established a dedicated Public Relations Office to improve police-media relations. This office facilitates regular press briefings, issue-based press releases, and provides timely information to the media.\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "1616",
+    "1585",
+    "1584",
+    "1654",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e1abbd91dc648cf71b0dd021e1c56d5e0f5006271ca36f2a9946c984f2efa22c",
+  "answer": "Recent reforms in police-community relations in Tamil Nadu include community policing, public outreach programs, and online complaint systems [Document 1]. The Police Public Relations Wing builds trust and transparency, handling media inquiries and promoting community outreach [Document 3]. Additionally, a dedicated Public Relations Office facilitates better police-media relations through regular press briefings and information sharing [Document 4]. Trust and transparency are key goals of these reforms [Document 1, Document 3, Document 4].",
+  "input_tokens": 369,
+  "output_tokens": 96,
+  "seconds": 12.335392400000273,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_55",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies self-employment status as reason for NOC, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies self-employment status as reason for NOC, supported by Document 1.\",\n  \"evidence\": \"Document 1 states, 'You are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent.'\"\n}\n\n\n{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate's answer directly addresses the reason for the NOC and is supported by evidence in Document 1.\",\n  \"evidence\":",
+      "input_tokens": 1565,
+      "output_tokens": 192,
+      "seconds": 14.853590900005656,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

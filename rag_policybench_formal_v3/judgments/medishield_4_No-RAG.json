@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_4",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence; correct premise but omits exact figure."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence; correct premise but omits exact figure.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the question about premium increases during a review cycle. However, it fails to provide the exact figure from the reference, which is a critical piece of information. The correctness score is 1 because the candidate correctly implies that there could be a significant increase, but the exact figure is missing. The relevance score is 1 because the candidate's answer is related to the question but does not fully address it due to the lack of specific data. Faithfulness is scored as null because there is no evidence provided to support the claim",
+      "input_tokens": 376,
+      "output_tokens": 192,
+      "seconds": 14.504007199997432,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

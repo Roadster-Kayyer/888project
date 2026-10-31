@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_73",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly explains the use of FEDA in calculating net earnings and is directly relevant to the reference, supported by the concept of actual expenses deduction."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the use of FEDA in calculating net earnings and is directly relevant to the reference, supported by the concept of actual expenses deduction.\",\n  \"retrieved_evidence\": \"The reference explains the use of FEDA for platform workers, including examples of expenses and the convenience it provides to both workers and platform operators.\"\n}",
+      "input_tokens": 628,
+      "output_tokens": 117,
+      "seconds": 8.93883490000735,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

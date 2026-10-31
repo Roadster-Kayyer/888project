@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006334",
+  "doc_id": "257",
+  "query_type": "search",
+  "query": "Can you guide me on how to find out the current status of my missing relative?",
+  "corpus_query_index": 6333,
+  "system": "Dense-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nReporting a Missing Senior Citizen:\nTo report a missing senior citizen, contact the local police station (100) and provide details. You can also file a missing person complaint online on the Tamil Nadu Police website or visit the nearest police station with required documents.\n\n[Document 2]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.\n\n[Document 3]\nMissing Person Report:\nTo file a missing person report, you need to provide:\n- Name and age of the missing person\n- Address and contact details\n- Description of the missing person\n- Last seen location and time\n- Any relevant identification documents\n\n[Document 4]\nMissing Persons Information:\nTo find information about missing persons online, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and click on the \"Missing Persons\" or \"Citizen Services\" section. You can also check the National Crime Records Bureau (NCRB) website (ncrb.gov.in) for missing persons data.\n\n[Document 5]\nReporting a Missing Person in Tamil Nadu:\nTo report a missing person, visit your local police station and provide details about the missing person, including:\n- Name and age\n- Last seen location and time\n- Contact information of family members or friends\n- Any other relevant information\nYou can also call 100 (Tamil Nadu Police Helpline) for assistance.",
+  "retrieved_doc_ids": [
+    "900",
+    "257",
+    "274",
+    "314",
+    "62"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4a5818d2e583a5945c236304bf8c02e0c671208d4aaa4f2e836d2a6f0f3c2809",
+  "answer": "To find the status of your missing relative, visit the Tamil Nadu Police Department’s website or use the complaint number. For updates, track your complaint there. To file a report, gather details like name, age, address, description, last seen info, and ID docs. [Document 1-5]",
+  "input_tokens": 437,
+  "output_tokens": 63,
+  "seconds": 7.892138899998827,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

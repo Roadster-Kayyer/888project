@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003433",
+  "doc_id": "1616",
+  "query_type": "casual",
+  "query": "So, what changes were made to get along better with the cops?",
+  "corpus_query_index": 3432,
+  "system": "BM25-RAG",
+  "reference_answer": "Police-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nPolice Clearance for Visa Applications:\nTo get police clearance, visit your local police station with required documents (ID proof, address proof, and passport). Fill out the application form, and submit it along with the necessary fees. The police will verify your details and issue a clearance certificate.\n\n[Document 3]\nMinor Building Code Violations:\nFor minor building code violations, the penalty can range from ₹5,000 to ₹50,000, along with orders to rectify the violation.\n\n[Document 4]\nVideo Conferencing Facility for Witnesses:\nThe process involves:\n1. Court's permission is required for video conferencing.\n2. Request is made to the police or court administration.\n3. Arrangements are made for video conferencing at a designated location.\n\n[Document 5]\nAcid Attacks:\nThe punishment for acid attacks in Tamil Nadu can lead to imprisonment for 10 years to life, along with a fine, as per the IPC Section 326A.",
+  "retrieved_doc_ids": [
+    "46",
+    "210",
+    "530",
+    "789",
+    "659"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "c97e2fccacdf6ab5b5116cca18d8a7c9f83c5790d5d4a4e5deb89a9237142606",
+  "answer": "Based on the provided documents, there's no specific information about changes made to improve relations with the cops. [Document 1] and [Document 2] discuss legal procedures, but do not address police-citizen interactions. [Document 3], [Document 4], and [Document 5] focus on penalties and codes, not police-community relations.",
+  "input_tokens": 380,
+  "output_tokens": 73,
+  "seconds": 9.127683799999431,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

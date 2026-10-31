@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_32",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly explains the alignment of WIS with employees' CPF contributions, directly addressing the question and supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the alignment of WIS with employees' CPF contributions, directly addressing the question and supported by the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder since the actual document is not provided. In a real scenario, the evidence would be the specific text from the document that supports the candidate's answer.)",
+      "input_tokens": 568,
+      "output_tokens": 134,
+      "seconds": 10.174169400008395,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007127",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which outlines specific rights during an arrest."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which outlines specific rights during an arrest.\",\n  \"evidence\": \"The retrieved evidence is not explicitly provided, but the candidate answer aligns with the rights listed in the reference, indicating it is based on the provided information.\"\n}",
+      "input_tokens": 400,
+      "output_tokens": 102,
+      "seconds": 7.954712500002643,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

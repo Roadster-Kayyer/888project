@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007130",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the protection rights during police detention, correctly states police cannot force signature, advises on actions if police refuse help, and aligns with ethical guidelines and proportionality principle."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the protection rights during police detention, supported by evidence from Document 1 and Document 5.\",\n}",
+      "input_tokens": 743,
+      "output_tokens": 68,
+      "seconds": 5.401557500001218,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the protection rights during police detention, correctly states police cannot force signature, advises on actions if police refuse help, and aligns with ethical guidelines and proportionality principle.\"}",
+      "input_tokens": 783,
+      "output_tokens": 67,
+      "seconds": 5.22161259999848,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

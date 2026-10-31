@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009705",
+  "doc_id": "864",
+  "query_type": "hard",
+  "query": "Where can I find information on the pink police patrol and their contact details?",
+  "corpus_query_index": 9704,
+  "system": "Dense-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nContacting the Nearest All Women Police Station:\nTo contact the nearest All Women Police Station, you can:\n- Call the Tamil Nadu Police helpline: 100\n- Visit the Tamil Nadu Police website for station locations and contact numbers\n- Ask your local police station for directions to the nearest All Women Police Station\n\n[Document 3]\nWomen's Helpline:\nTo find a women's helpline in your city, you can:\n- Call 181 (Tamil Nadu Women's Helpline)\n- Visit the Tamil Nadu Police website\n- Contact your local police station for assistance\n\n[Document 4]\nPolice Libraries and Information Centers:\nVisit the Tamil Nadu Police Department's official website or contact your local police station to access information about police libraries and information centers.\n\n[Document 5]\nAdding Details to FIR:\nYes, you can add more details to your FIR after it has been registered. You can visit the police station where the FIR was filed and provide additional information to the investigating officer.",
+  "retrieved_doc_ids": [
+    "864",
+    "823",
+    "275",
+    "388",
+    "72"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ac00320d0996972b7f38eb266f19366cefb57be46a1a271884e71d4aefaa787c",
+  "answer": "[Document 1] provides contact details for the Pink Police Patrol: call 94981 95555 or use the Tamil Nadu Police Emergency Number 100. For All Women Police Stations, check the Tamil Nadu Police website for station locations and contact numbers. [Document 2] also mentions the Tamil Nadu Police helpline 100 for women's issues. [Document 1] and [Document 2] offer ways to contact these services. [Document 3] offers additional helplines for women's issues. [Document 4] suggests visiting the Tamil Nadu Police website for police libraries and information centers. [Document 5] states you can add details to an FIR at the police station.",
+  "input_tokens": 394,
+  "output_tokens": 152,
+  "seconds": 19.609712900000886,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

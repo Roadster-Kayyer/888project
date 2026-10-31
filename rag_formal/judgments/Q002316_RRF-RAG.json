@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002316",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects the content of the provided documents, and makes substantive factual claims supported by the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, including key principles and training aspects, supported by Document 1, Document 2, and Document 4.\",\n}",
+      "input_tokens": 816,
+      "output_tokens": 192,
+      "seconds": 15.017860800002381,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, accurately reflects the content of the provided documents, and makes substantive factual claims supported by the evidence.\"}",
+      "input_tokens": 856,
+      "output_tokens": 55,
+      "seconds": 4.5066280999999435,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

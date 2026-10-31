@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_114",
+  "doc_id": "PB_5155cca92728746c93bf",
+  "query_type": "ICA_134",
+  "query": "What should I select for SG Arrival Card (SGAC) if I have an In-Principle Approval (IPA) issued by MOM or ICA?",
+  "reference_answer": "A holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.",
+  "corpus_query_index": 185,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.\n\n[Document 2]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 3]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 4]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 5]\nICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.",
+  "retrieved_doc_ids": [
+    "PB_5155cca92728746c93bf",
+    "PB_281c77b1cca45bc9951f",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_a49ff041193717d466d2"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "435db71b24d483aad92d93900038f4caead55673c19d31a2da486d3dbb95ea54",
+  "answer": "For an In-Principle Approval (IPA) issued by MOM or ICA, you should select the SG Arrival Card (SGAC) for electronic submission of arrival information and health declaration. [Document 1]",
+  "input_tokens": 626,
+  "output_tokens": 44,
+  "seconds": 5.855517199990572,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

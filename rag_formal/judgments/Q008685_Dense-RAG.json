@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008685",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 2, which outlines the Tamil Nadu Police's response to communal violence, including deploying personnel, communicating with community leaders, and implementing law and order measures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 2, which outlines the Tamil Nadu Police's response to communal violence, including deploying personnel, communicating with community leaders, and implementing law and order measures.\"\n}",
+      "input_tokens": 1185,
+      "output_tokens": 93,
+      "seconds": 7.359417799998482,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

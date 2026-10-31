@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005088",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which lists specific types of cyber crimes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which lists specific types of cyber crimes.\",\n  \"evidence\": \"Cyber Crime Wing Cases: online crimes, cyber security breaches, online fraud, digital identity theft.\"\n}",
+      "input_tokens": 385,
+      "output_tokens": 98,
+      "seconds": 7.690998600002786,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

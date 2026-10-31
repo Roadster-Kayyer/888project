@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_74",
+  "doc_id": "PB_4bd71ffc7b87577275da",
+  "query_type": "CPF_111",
+  "query": "How is the Annual Value (AV) requirement for Workfare Income Supplement (WIS) decided and what address is used to determine the AV in WIS?",
+  "reference_answer": "The Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "corpus_query_index": 139,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 2]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.",
+  "retrieved_doc_ids": [
+    "PB_4bd71ffc7b87577275da",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_af1247343974a8960a93",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_44fcf2efe098f2e0edc3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ac1cca6058e9eeace3e146bf462a81d8f2bed592e725101e5c2922cf95d16b37",
+  "answer": "The Annual Value (AV) for WIS is set at $21,000 for Work Year 2024, covering HDB and some smaller private residences. AV is determined by the address in your NRIC. It's based on total income, not just trade income, to assess eligibility for WIS. [Document 1]",
+  "input_tokens": 613,
+  "output_tokens": 73,
+  "seconds": 9.242375999994692,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

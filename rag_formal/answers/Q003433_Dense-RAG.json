@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003433",
+  "doc_id": "1616",
+  "query_type": "casual",
+  "query": "So, what changes were made to get along better with the cops?",
+  "corpus_query_index": 3432,
+  "system": "Dense-RAG",
+  "reference_answer": "Police-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "context": "[Document 1]\nCommunity Policing Reforms:\nThe Tamil Nadu Police has introduced community policing initiatives, such as the \"Friends of Police\" program, to build trust and engage with the public. This approach focuses on preventive policing, neighborhood policing, and citizen participation in maintaining law and order.\n\n[Document 2]\nPolice Stress and Mental Health Reforms:\nReforms implemented to address police stress and mental health include:\n* Introduction of counseling services and stress management programs\n* Regular health check-ups and fitness training\n* Employee assistance programs for police personnel\n\n[Document 3]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.\n\n[Document 4]\nPolice-Public Partnership:\nThe Police-Public Partnership initiative involves:\n* Citizen police liaison committees\n* Neighborhood watch programs\n* Public participation in crime prevention and reporting\n* Joint efforts to address local crime concerns\n\n[Document 5]\nPolice Accountability:\nReforms to enhance police accountability include:\n* Introduction of the Police Complaint Authority\n* Establishment of Human Rights Cells\n* Implementation of the Right to Information Act\n* Regular training on human rights and professional ethics",
+  "retrieved_doc_ids": [
+    "1625",
+    "1622",
+    "1616",
+    "1670",
+    "1634"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0229e266de28eac43fdb1b898dadba8ec76be93cf552af5c8dd6a9128c4c39ca",
+  "answer": "Community policing initiatives, like the \"Friends of Police\" program, were introduced to build trust and engage with the public [Document 1]. Police stress and mental health reforms, including counseling services and employee assistance programs, were also implemented [Document 2]. Improvements in police-public relations through community policing, public outreach programs, and online complaint systems were made [Document 3]. Police accountability was enhanced with the introduction of the Police Complaint Authority and regular training on human rights [Document 5].",
+  "input_tokens": 379,
+  "output_tokens": 100,
+  "seconds": 12.673247999999148,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

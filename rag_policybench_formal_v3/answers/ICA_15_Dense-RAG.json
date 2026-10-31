@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_15",
+  "doc_id": "PB_abb4a02effa48ce5e10f",
+  "query_type": "ICA_134",
+  "query": "Can I obtain a copy of my travel history?",
+  "reference_answer": "We regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.",
+  "corpus_query_index": 209,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 2]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 3]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 4]\nICA no longer issues departure endorsements. You may use proxy documents, such as boarding passes as indicators of your exit record.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_73589fc4535bd159b21d",
+    "PB_35db64afc4b771d4dfd8",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f5595862c3b6d2afea0971b4cc45ef4cc26cda62d5d2f9de234c7e6aac5a16a1",
+  "answer": "You can print your Re-Entry Permit (REP) through the e-Service. For travel history updates, use the SG Arrival Card e-service to update arrival information. However, no direct way to print travel history exists; you can only update individual trip details. [Document 1], [Document 2]",
+  "input_tokens": 530,
+  "output_tokens": 64,
+  "seconds": 8.206202000001213,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

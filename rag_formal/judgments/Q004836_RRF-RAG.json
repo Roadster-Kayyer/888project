@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004836",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for reporting check bouncing as a criminal offense, supported by evidence from Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for reporting check bouncing as a criminal offense, supported by evidence from Document 1 and Document 2.\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the process of reporting check bouncing as a criminal offense, which includes filing a complaint at the police station and providing necessary documents. The answer is relevant (2) because it directly addresses the question and is supported by the evidence provided in Document 1. The faithfulness (2) is confirmed as the candidate's answer is substantiated by the evidence in Document 1, which outlines the procedure for reporting check bouncing and the potential legal consequences as described in Document 2",
+      "input_tokens": 888,
+      "output_tokens": 192,
+      "seconds": 15.131479199997557,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

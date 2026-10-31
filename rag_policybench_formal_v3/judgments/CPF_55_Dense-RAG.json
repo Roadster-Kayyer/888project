@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_55",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies self-employment status and related IRAS actions, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies self-employment status and related IRAS actions, supported by Document 1.\",\n  \"evidence\": \"Document 1 states, 'You are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent.'\"\n}\n\n\n\nDocument 1 directly addresses the question by explaining the reason for the Notice of Computation (NOC) related to the self-employed status and MediSave payable. The evidence provided in the document supports the candidate's answer, confirming that the individual is considered a self-employed person (SEP",
+      "input_tokens": 1582,
+      "output_tokens": 192,
+      "seconds": 14.81578210000589,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_43",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the distinction between employee and self-employed contributions to CPF based on the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the distinction between employee and self-employed contributions to CPF based on the provided documents.\",\n  \"evidence\": \"Document 1 and Document 5 support the candidate's answer by explaining the different treatments for employees and self-employed persons (SEPs) regarding CPF contributions.\"\n}",
+      "input_tokens": 1175,
+      "output_tokens": 192,
+      "seconds": 15.002983300000778,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001075",
+  "doc_id": "1190",
+  "query_type": "hard",
+  "query": "How can I ensure a court's decision is genuine?",
+  "corpus_query_index": 1074,
+  "system": "BM25-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nAppealing a Lower Court Decision:\nTo appeal a lower court decision in Tamil Nadu, you must file a petition with the Madras High Court or the concerned appellate court, depending on the case type and lower court's jurisdiction.\n\n[Document 3]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nIdentifying a Genuine Police Officer:\nTo identify a genuine police officer:\n* Check for a valid police ID card\n* Verify the officer's uniform and badge\n* Ask for their name and designation\n* Contact the local police station to confirm their identity\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "1190",
+    "1049",
+    "1191",
+    "28",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cda4ed2a5b8598787eed8438c6c6ac283a6347ec25a76ad3fdf7f7cca4a468ed",
+  "answer": "To ensure a court's decision is genuine, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. Check the order's seal, signature, and stamp to verify its authenticity [Document 1].",
+  "input_tokens": 396,
+  "output_tokens": 45,
+  "seconds": 5.957394099999874,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

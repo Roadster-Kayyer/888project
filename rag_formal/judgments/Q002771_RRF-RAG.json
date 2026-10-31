@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002771",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the recruitment process as described in the documents, with all key steps mentioned."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the recruitment process as described in the documents, with all key steps mentioned.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully faithful to the evidence provided in the documents. The written examination, skill test (if required), interview, and verification of documents and medical fitness are all mentioned, aligning perfectly with the information in Document 1. Although Document 2 discusses recruitment for police medical staff, it does not contradict the candidate's answer about ministerial staff recruitment. The evidence supports the candidate's answer, and the reason succinctly explains the scores.",
+      "input_tokens": 791,
+      "output_tokens": 192,
+      "seconds": 14.650493900000583,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

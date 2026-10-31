@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_51",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the process of transitioning from a Student's Pass to a Long-Term Visit Pass, supported by evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process for transitioning from a Student's Pass to a Long-Term Visit Pass, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 1211,
+      "output_tokens": 74,
+      "seconds": 6.0317670999938855,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the process of transitioning from a Student's Pass to a Long-Term Visit Pass, supported by evidence from the documents.\"}\n\n\n(Note: The \"faithfulness\" score of 2 is given because the candidate answer directly addresses the substantive factual claims about the process of obtaining a Long-Term Pass after course completion, as supported by the evidence provided in the documents. The reason succinctly explains why the scores were given, indicating that the answer is both correct and relevant, and faithfully represents the information from the documents.)",
+      "input_tokens": 1251,
+      "output_tokens": 146,
+      "seconds": 11.238360799994553,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

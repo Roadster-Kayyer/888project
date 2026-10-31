@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_2",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately describes the computation and eligibility criteria for AMI and WIS."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the computation and eligibility criteria for AMI and WIS.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate's answer directly addresses the question about the computation of the 12-month AMI and its relation to WIS eligibility, as evidenced by the provided documents. The answer is correct, relevant, and fully supported by the evidence.",
+      "input_tokens": 1099,
+      "output_tokens": 133,
+      "seconds": 10.333268699992914,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

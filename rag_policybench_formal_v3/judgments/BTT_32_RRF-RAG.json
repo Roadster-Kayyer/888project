@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_32",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No information on speeding penalties provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No information on speeding penalties provided in the documents.\",\n  \"candidate_answer\": \"No information on speeding penalties provided in the documents.\"\n}",
+      "input_tokens": 890,
+      "output_tokens": 75,
+      "seconds": 6.248678199990536,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

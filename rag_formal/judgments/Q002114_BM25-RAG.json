@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002114",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes police interaction methods with local officials, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes police interaction methods with local officials, supported by evidence from documents.\",\n  \"evidence\": \"Document 1, Document 3, Document 5\"\n}\n\n\nThe candidate answer correctly identifies the use of an online portal (Tamil Nadu Police Citizen Portal), the adherence to ethical frameworks (Ethical Framework for Police Intelligence Gathering), and the encouragement of neighborhood watch programs (Neighborhood Watch Program Collaboration). The evidence from Document 1, Document 3, and Document 5 directly supports these factual claims, making the answer both relevant and faithful to the provided reference.",
+      "input_tokens": 857,
+      "output_tokens": 178,
+      "seconds": 13.674148400001286,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

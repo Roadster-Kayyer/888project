@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001072",
+  "doc_id": "1190",
+  "query_type": "formal",
+  "query": "What methods can be used to verify the genuineness of a judicial decree?",
+  "corpus_query_index": 1071,
+  "system": "RRF-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).\n\n[Document 2]\nExecution of a Court Decree:\nTo execute a court decree, you must file an execution petition with the court that passed the decree. Provide the decree copy, and the court will issue a notice to the respondent. The court may then attach properties or take other measures to ensure compliance with the decree.\n\n[Document 3]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 5]\nTenant Verification:\nTo verify a tenant, submit a written application to the local police station with tenant's details, including ID proof, address, and rental agreement. The police will verify the information and provide a report.",
+  "retrieved_doc_ids": [
+    "345",
+    "1054",
+    "1191",
+    "1193",
+    "841"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b8a64b0d19f0e94f277fb61de220f12a57d15af7113804aaa77a791330ec3e6a",
+  "answer": "To verify a judicial decree, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity [Document 3]. Alternatively, check the document's seal, signature, and stamp for genuineness [Document 3]. For a certified version, approach the court where the document is to be used and submit the original document [Document 4].",
+  "input_tokens": 396,
+  "output_tokens": 81,
+  "seconds": 10.32366490000095,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

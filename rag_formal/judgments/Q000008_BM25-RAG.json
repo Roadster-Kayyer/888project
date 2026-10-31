@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000008",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process of filing a Zero FIR and refers directly to Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process of filing a Zero FIR and refers directly to Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}",
+      "input_tokens": 763,
+      "output_tokens": 192,
+      "seconds": 15.39260760000252,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2608.517578125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

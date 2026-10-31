@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_68",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies potential reasons for rejection based on documents and directly addresses the question about application rejection. All factual claims are supported by the evidence provided.\",\n}",
+      "input_tokens": 884,
+      "output_tokens": 76,
+      "seconds": 6.009955399989849,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the documents provided.\"}",
+      "input_tokens": 924,
+      "output_tokens": 39,
+      "seconds": 3.2573878000112018,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_32",
+  "doc_id": "PB_2a793f15196b974cd4da",
+  "query_type": "BTT",
+  "query": "What is the penalty for exceeding the speed limit of a vehicle by 1 to 20 kilometres per hour?",
+  "reference_answer": "It is considered an offence.",
+  "corpus_query_index": 26,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 2]\n40 km/h\n\n[Document 3]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.",
+  "retrieved_doc_ids": [
+    "PB_111b71b487c94f59fe3c",
+    "PB_5f8d1c2144f099bd0476",
+    "PB_89b7e5350f270a309ba9",
+    "PB_33b32af818c8c4223f8f",
+    "PB_5b5856d1886897cce5a3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "63a42a987fbf67d06a5b414e913563c94d7b199525e1545bca66f5c0d5d20569",
+  "answer": "Based on Document 4, the penalty for exceeding the speed limit by 1-20 km/h is not specified directly. [Document 1] discusses penalties for using a mobile device while driving, but does not relate to speeding. [Document 2] mentions 40 km/h, which could be the speed limit, but not the specific penalty. Without direct evidence, the exact penalty for this speed range is not clear.",
+  "input_tokens": 315,
+  "output_tokens": 89,
+  "seconds": 2046.952201299995,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

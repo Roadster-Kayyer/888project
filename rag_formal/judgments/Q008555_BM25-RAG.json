@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008555",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies assault as a potential charge but lacks specificity; documents support the general legal consequences of domestic violence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies assault as a potential charge but lacks specificity; documents support the general legal consequences of domestic violence.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe correctness score is 2 because the candidate's answer is correct in stating that assaulting a family member can lead to criminal charges like battery or domestic violence, which are relevant to the question. However, the answer could be more precise by directly mentioning the specific charges or laws.\n\nThe relevance score is 1 because the candidate's answer is relevant to the question as it pertains to criminal charges resulting from assaulting a family member. However, it does not directly address the specific legal consequences or the",
+      "input_tokens": 702,
+      "output_tokens": 192,
+      "seconds": 14.980468200003088,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

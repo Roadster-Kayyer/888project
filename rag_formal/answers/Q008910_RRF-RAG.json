@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008910",
+  "doc_id": "720",
+  "query_type": "hard",
+  "query": "What repercussions occur when the same real estate is filed with multiple authorities?",
+  "corpus_query_index": 8909,
+  "system": "RRF-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nReal Estate Title Fraud:\nThe legal consequences for real estate title fraud in Tamil Nadu include imprisonment up to 7 years and a fine under the Indian Penal Code (IPC) Section 420.\n\n[Document 2]\nReporting Real Estate Fraud:\nTo report real estate fraud, visit the nearest police station and file a complaint. Provide documents related to the transaction, such as property papers and payment receipts. You can also contact the Tamil Nadu Police's Economic Offences Wing (EOW) for assistance.\n\n[Document 3]\nApproaching the Real Estate Appellate Tribunal in Tamil Nadu:\nTo approach the Real Estate Appellate Tribunal, file an appeal within 60 days of receiving the order from the Real Estate Regulatory Authority (RERA). Submit the appeal in person or through an authorized representative, along with the required fees and documents.\n\n[Document 4]\nFiling a Complaint about Real Estate Fraud:\nTo file a complaint, visit the nearest police station and submit a written complaint with supporting documents. You can also contact the Tamil Nadu Police's Economic Offences Wing (EOW) for guidance.\n\n[Document 5]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "retrieved_doc_ids": [
+    "640",
+    "916",
+    "1189",
+    "192",
+    "720"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ad81e67bcc6d1aa1ecca6bf4d02396652f296462081b145ced05ce4b65b4ce94",
+  "answer": "When the same real estate is filed with multiple authorities, it constitutes real estate title fraud, leading to legal consequences including imprisonment up to 7 years and a fine under the Indian Penal Code (IPC) Section 420. Additionally, penalties under the Registration Act may apply. [Document 1] [Document 5]",
+  "input_tokens": 405,
+  "output_tokens": 67,
+  "seconds": 8.597410399997898,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

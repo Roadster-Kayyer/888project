@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008525",
+  "doc_id": "651",
+  "query_type": "hard",
+  "query": "What fines or bans might result from hitting another student?",
+  "corpus_query_index": 8524,
+  "system": "RRF-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.\n\n[Document 2]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 3]\nPunishment for Minor Weights and Measures Violations\nMinor weights and measures violations can result in a fine of up to ₹5,000 under the Legal Metrology Act.\n\n[Document 4]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.\n\n[Document 5]\nPunishment for Minor Fire Safety Violations:\nMinor fire safety violations may result in a fine of up to ₹5,000 under the Tamil Nadu Fire Service Act.",
+  "retrieved_doc_ids": [
+    "540",
+    "688",
+    "525",
+    "122",
+    "537"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5c51a98b552c3b800f5f1b5769f99cf586e990190e9afc3d2fc6a09d41b8d6f9",
+  "answer": "From Document 1, there's no direct answer but it shows varying penalties exist. From Document 2, assault with sexual intent can result in fines and imprisonment. [Document 3] suggests minor weights and measures violations can result in a fine of up to ₹5,000. No specific fines or bans for hitting students are mentioned. [Document 4] indicates drug possession can result in fines and imprisonment, though not directly related. Missing specific fines or bans for hitting students. [Document 5] mentions fire safety violations, but again, no direct answer.",
+  "input_tokens": 397,
+  "output_tokens": 117,
+  "seconds": 15.022036800000933,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

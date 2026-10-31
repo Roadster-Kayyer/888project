@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_28",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the refund process for excess CPF contributions when total earnings exceed the ceiling, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the refund process for excess CPF contributions when total earnings exceed the ceiling, supported by Document 1.\",\n  \"evidence\": \"Document 1 directly supports the candidate's answer, stating the refund process for excess contributions when total earnings exceed $102,000.\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is not typically used in the format of the question. However, for the sake of this exercise, I've included it to demonstrate how the evidence would be referenced. In a real-world scenario, the \"evidence\" would be a direct quote or paraphrase from the documents that supports the answer.)",
+      "input_tokens": 1560,
+      "output_tokens": 190,
+      "seconds": 15.068643199992948,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

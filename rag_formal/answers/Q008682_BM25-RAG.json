@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008682",
+  "doc_id": "680",
+  "query_type": "formal",
+  "query": "Under what circumstances can violence during bandhs or strikes result in legal penalties?",
+  "corpus_query_index": 8681,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.\n\n[Document 3]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 4]\nLegal Consequences for Minor Public Indecency:\nMinor public indecency can result in a fine of up to ₹500 and/or imprisonment for up to 15 days under the Indian Penal Code (IPC) Section 294A.\n\n[Document 5]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.",
+  "retrieved_doc_ids": [
+    "680",
+    "540",
+    "710",
+    "512",
+    "507"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9f697b53147d4929df44c859fb05612fa0a750795306900551deadd2aa22985a",
+  "answer": "Violence during bandhs or strikes can lead to legal penalties, including up to 3 years in prison and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). [Document 1]",
+  "input_tokens": 406,
+  "output_tokens": 56,
+  "seconds": 7.366384100001596,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

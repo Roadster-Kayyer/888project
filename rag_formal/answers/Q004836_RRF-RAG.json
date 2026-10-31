@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004836",
+  "doc_id": "187",
+  "query_type": "original",
+  "query": "What is the procedure to report check bouncing as a criminal offense?",
+  "corpus_query_index": 4835,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 2]\nPunishment for Check Bouncing in Tamil Nadu:\nIn Tamil Nadu, check bouncing is governed by the Negotiable Instruments Act, 1881. The punishment for check bouncing can be imprisonment of up to 2 years or a fine of up to twice the check amount, or both.\n\n[Document 3]\nConducting Test Identification Parades:\nTest identification parades are conducted as per the Code of Criminal Procedure, 1973. The procedure involves:\n* Ensuring the witness does not see the accused before the parade\n* Using a minimum of 10-12 persons, including the accused, with similar physical characteristics\n* Recording the witness's statement and identification, if any\n\n[Document 4]\nPolice Verification for Government Contractors:\nThe procedure involves submitting an application to the local police station with required documents, including a contract copy and ID proof. The police will then conduct a background check and issue a verification report.\n\n[Document 5]\nFiling a Charge Sheet:\nTo file a charge sheet, the police investigate a crime, gather evidence, and prepare a report. The report is then submitted to the court, detailing the charges against the accused. The court reviews the report and decides whether to proceed with the case.",
+  "retrieved_doc_ids": [
+    "187",
+    "594",
+    "780",
+    "217",
+    "745"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "76a12667e6f1cabf0f9cd17557bd4d66e970be03fe166356601615e62f416017",
+  "answer": "To report check bouncing as a criminal offense, file a complaint at the police station where the check was dishonored. Provide the bounced check, a copy of the notice, and other documents. The police will investigate and may register a case under the Negotiable Instruments Act [Document 1]. In Tamil Nadu, check bouncing can result in up to 2 years in prison or a fine up to twice the check amount [Document 2].",
+  "input_tokens": 453,
+  "output_tokens": 90,
+  "seconds": 11.466548399999738,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

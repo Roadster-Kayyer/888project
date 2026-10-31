@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006333",
+  "doc_id": "257",
+  "query_type": "casual",
+  "query": "How do I check on the status of my lost person report?",
+  "corpus_query_index": 6332,
+  "system": "RRF-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.\n\n[Document 3]\nReporting Lost Articles\nTo report lost articles, open the TN Police app, click on \"Lost and Found\", fill in the required details, and upload a photo of the lost item. You will receive a reference number for future tracking.\n\n[Document 4]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 5]\nReporting a Lost Document or Item:\nTo report a lost document or item, visit the nearest police station and file a complaint (FIR). Provide a detailed description of the lost item and any relevant documents. You can also use the TN Police mobile app to report a lost item.",
+  "retrieved_doc_ids": [
+    "255",
+    "257",
+    "1001",
+    "867",
+    "77"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7a614c09d1df924d9e94d8c79336b066c2f1f1847831d1b30d3b020be9539083",
+  "answer": "To check the status of your lost person report, visit the Tamil Nadu Police Department's website using the complaint number, or contact the police station where you filed the complaint. [Document 2]",
+  "input_tokens": 413,
+  "output_tokens": 40,
+  "seconds": 5.4933880000007775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

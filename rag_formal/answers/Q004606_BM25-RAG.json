@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004606",
+  "doc_id": "1828",
+  "query_type": "original",
+  "query": "What is the procedure for contesting a traffic challan in Tamil Nadu?",
+  "corpus_query_index": 4605,
+  "system": "BM25-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nContesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)\n\n[Document 2]\nContesting a Traffic Challan:\nTo contest a traffic challan, visit the Tamil Nadu Police e-Challan website or the concerned police station. Fill out the objection form, providing details of the challan and reasons for objection. Submit the form and supporting documents. A hearing will be scheduled to review your case.\n\n[Document 3]\nE-Challan System in Tamil Nadu:\nThe e-challan system in Tamil Nadu is an online platform for issuing traffic fines. If you commit a traffic offense, a digital challan will be generated and sent to your registered mobile number or email. You can pay the fine online through the Tamil Nadu Police website or mobile app.\n\n[Document 4]\nAppealing a Traffic Challan:\nYes, you can appeal against a traffic challan. You can file an appeal within 60 days of receiving the challan at the concerned court or through the Tamil Nadu Police Department's online portal.\n\n[Document 5]\nContesting Wrongly Issued E-Challans:\nTo contest a wrongly issued e-challan in Tamil Nadu, follow these steps:\n1. Visit the Tamil Nadu Police e-challan website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).\n2. Enter your challan number and vehicle details.\n3. Click on \"Dispute\" and fill the online form.\n4. Upload supporting documents (if any).\n5. Submit your dispute for review by the authorities.",
+  "retrieved_doc_ids": [
+    "1828",
+    "162",
+    "173",
+    "289",
+    "2052"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b4e57250c1eb8f551ce7a98c8441967ee2e59d5f8c8b8dbe0c82018c9f7a476f",
+  "answer": "To contest a traffic challan in Tamil Nadu:\n1. Check challan details\n2. Visit Tamil Nadu Police website or issuing station\n3. Submit a written appeal within 15 days [Document 1]\nAlternatively, use the e-Challan system:\n- Go to Tamil Nadu Police e-Challan website\n- Fill out objection form with challan details and reasons\n- Submit form and supporting docs [Document 2]",
+  "input_tokens": 487,
+  "output_tokens": 90,
+  "seconds": 11.587235499999224,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

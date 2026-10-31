@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003277",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the methods used by the Police Academy Museum to conserve its historical significance, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the methods used by the Police Academy Museum and the Police Documentation Center, supported by Document 1 and Document 5.\",\n}",
+      "input_tokens": 736,
+      "output_tokens": 72,
+      "seconds": 5.521718100000726,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the methods used by the Police Academy Museum to conserve its historical significance, supported by evidence from Documents 1 and 5.\"}",
+      "input_tokens": 776,
+      "output_tokens": 59,
+      "seconds": 4.835160300001007,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

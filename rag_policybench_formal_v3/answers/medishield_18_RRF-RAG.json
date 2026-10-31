@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_18",
+  "doc_id": "PB_aa57740dea1752946959",
+  "query_type": "medishield",
+  "query": "What percentage of additional premium do individuals with serious pre-existing medical conditions need to pay for MediShield Life for the first 10 years?",
+  "reference_answer": "30%",
+  "corpus_query_index": 312,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).\n\n[Document 3]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 4]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.\n\n[Document 5]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_3e1f1f7b75f5e180073d",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_e3c25d5d6d3228d33a57",
+    "PB_ee588d3fa5445377e2bc"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "07490e8e052230770235ef5e74b098e4c4979adcdda1b3450b2deeef472dd8ee",
+  "answer": "Based on Document 1, individuals with serious pre-existing medical conditions receive annual MediSave top-ups of $50 to $200 from 2021 to 2025. However, the exact percentage increase in premium they need to pay for MediShield Life over time is not specified in the given evidence. [Document 1]",
+  "input_tokens": 450,
+  "output_tokens": 73,
+  "seconds": 9.538452599997981,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

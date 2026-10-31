@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_22",
+  "doc_id": "PB_b155e67f12a868a1d32b",
+  "query_type": "ICA_134",
+  "query": "What is the processing time for Singapore Permanent Residence (PR) applications?",
+  "reference_answer": "Generally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "corpus_query_index": 217,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 2]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 3]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "retrieved_doc_ids": [
+    "PB_9bcc03600abfbc3227e6",
+    "PB_a74f1879324f284c6dde",
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_d98d322f2936df748ef1",
+    "PB_b155e67f12a868a1d32b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f79eccf427ea995f8a87d81d96f4fcffefbcc6364fbaba2b703dabe64389c0a0",
+  "answer": "The processing time for Singapore Permanent Residence (PR) applications is generally about 6 months, though it can take up to 3 weeks for specific cases like REP renewals and transfers. [Document 5]",
+  "input_tokens": 370,
+  "output_tokens": 43,
+  "seconds": 5.614731199995731,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

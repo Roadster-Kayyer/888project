@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_79",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly stating the impact of opting in on CPF contributions and the implications of changing modes of transport, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly stating the impact of opting in on CPF contributions and the implications of changing modes of transport, supported by evidence from Document 1.\",\n  \"evidence\": \"Document 1 explains the FEDA rates for different modes of transport and how they affect CPF contributions, which directly relates to the inability to reverse the decision without affecting earnings.\"\n}",
+      "input_tokens": 1764,
+      "output_tokens": 126,
+      "seconds": 9.92978600000788,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

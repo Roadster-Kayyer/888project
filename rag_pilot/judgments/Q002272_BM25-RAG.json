@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002272",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1 and Document 4.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate's answer is correct as it accurately describes the measures taken by the Tamil Nadu Police to resolve human-animal conflicts in forest areas, which include using the Forest Department's helpline and coordinating with the Forest Department to prevent forest-related crimes. The answer is relevant as it directly pertains to the question about human-animal conflict resolution in forest areas. The faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence provided in Document 1 and Document 4,",
+      "input_tokens": 937,
+      "output_tokens": 192,
+      "seconds": 14.711520999999266,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2667.1162109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

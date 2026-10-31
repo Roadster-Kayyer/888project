@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001425",
+  "doc_id": "1254",
+  "query_type": "hard",
+  "query": "How can you blow the whistle on folks misbehaving in wooded areas?",
+  "corpus_query_index": 1424,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\nReporting Illegal Tourism Activities in Forest Areas:\nReport to the nearest Forest Range Office or police station. Provide details of the activity, location, and any evidence. You can also contact the Tamil Nadu Forest Department's helpline or submit a complaint online through their official website.\n\n[Document 2]\nReporting Forest Offenses in Tribal Areas:\nTo report forest offenses, tribal area residents can contact the nearest Forest Range Office or the local police station. They can also dial the Tamil Nadu Police's toll-free number (1091) or the Forest Department's helpline.\n\n[Document 3]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.\n\n[Document 4]\nReporting Illegal Tree Cutting:\nTo report illegal tree cutting, contact your local police station or the Tamil Nadu Forest Department. You can also call the Forest Department's helpline number or submit a complaint online through their website.\n\n[Document 5]\nReporting Wildlife Poaching to Police:\nTo report wildlife poaching, citizens can contact the local police station or the Forest Department. They can also call the wildlife crime control helpline number 1800-425-3355. The police will work with the Forest Department to investigate and take action against those involved in wildlife poaching.",
+  "retrieved_doc_ids": [
+    "1236",
+    "1369",
+    "1254",
+    "883",
+    "1386"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "962a7cbf274c74b0b1efc3b3daf93f6dc9cbc46121f01af2fe4879962efaf24f",
+  "answer": "You can report illegal activities in wooded areas by contacting the nearest Forest Range Office or police station. Provide details and any evidence. Alternatively, use the Tamil Nadu Forest Department's helpline or submit a complaint online. [Document 1]",
+  "input_tokens": 425,
+  "output_tokens": 48,
+  "seconds": 6.092928199999733,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

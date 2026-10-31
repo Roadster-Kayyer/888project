@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000831",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details about required documents and court verification process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details about required documents and court verification process.\",\n  \"evidence\": null\n}\n\n\nIn the candidate answer, the procedure is mentioned but without the specific details about the required documents and the court's verification process, which are crucial for obtaining a No Due Certificate. The reference provides these details, but the candidate answer does not directly reflect them, hence the faithfulness score is null. There is no evidence provided in the candidate answer, so the evidence key also has a null value.",
+      "input_tokens": 406,
+      "output_tokens": 155,
+      "seconds": 11.688559999998688,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

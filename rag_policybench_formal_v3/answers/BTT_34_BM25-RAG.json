@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_34",
+  "doc_id": "PB_3de6df26cfd351caa37e",
+  "query_type": "BTT",
+  "query": "What is the designated use for parking lots demarcated in red within Singapore's parking guidelines?",
+  "reference_answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders.",
+  "corpus_query_index": 28,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nFree parking is available from 7am to 10.30pm.\n\n[Document 5]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.",
+  "retrieved_doc_ids": [
+    "PB_3de6df26cfd351caa37e",
+    "PB_776de7439758761e5c43",
+    "PB_716429660f2efd24efb8",
+    "PB_bffdf08b037b0b8dbbbe",
+    "PB_ee80f8d345424676a47b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "312e85252e859415afefd43fc093ce3ede8da0e735ff6b0d4dc60f6fd68b3d96",
+  "answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders. [Document 1]",
+  "input_tokens": 318,
+  "output_tokens": 22,
+  "seconds": 298.46639900000446,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

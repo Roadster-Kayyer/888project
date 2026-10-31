@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000227",
+  "doc_id": "1038",
+  "query_type": "formal",
+  "query": "What are the necessary papers needed to initiate a civil lawsuit?",
+  "corpus_query_index": 226,
+  "system": "RRF-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 2]\nRecovery of Documents:\nTo file a case for recovery of documents in Tamil Nadu courts, follow these steps:\n1. File a suit for recovery under the Civil Procedure Code.\n2. Attach an affidavit with details of the documents.\n3. Submit the suit to the concerned district court or city civil court.\n4. The court will hear the case and pass an order for recovery.\n\n[Document 3]\nFiling for Injunction Order:\nTo file for an injunction order, submit a petition under Order 39 of the Civil Procedure Code, 1908. Attach an affidavit and supporting documents to the petition, stating the grounds for the injunction. The court will then consider your application and pass an order.\n\n[Document 4]\nFiling a Public Interest Litigation (PIL):\nTo file a PIL, submit a petition to the High Court or Supreme Court, citing a public interest issue. Provide facts, evidence, and relevant laws. The court will review and decide whether to admit the petition. Note: PILs are typically filed by individuals or organizations acting in the public interest.\n\n[Document 5]\nFiling a Complaint with ICC:\nTo file a complaint, a woman should:\n1. Contact the ICC in her organization.\n2. Provide a written complaint with details of the incident.\n3. Submit supporting evidence, if any.\nThe ICC will then investigate and take necessary action.",
+  "retrieved_doc_ids": [
+    "1037",
+    "1968",
+    "1110",
+    "1056",
+    "1885"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a28143493ccbbca0a33c32e59c709bd8b19b6a088c1ec62602faceb8e6e6c2bc",
+  "answer": "To initiate a civil lawsuit, you need to prepare necessary documents and consult a lawyer. For a general civil case in Tamil Nadu, bring required documents, an affidavit, and supporting evidence. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 455,
+  "output_tokens": 63,
+  "seconds": 7.902644499999951,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.20947265625
+}

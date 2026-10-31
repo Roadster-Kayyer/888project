@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002129",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses the actions taken by authorities in response to illegal activities concerning forest rights among tribal populations. However, it does not directly cite the reference provided, which would be necessary to fully assess faithfulness. Therefore, the correctness score is 1 due to the omission of specific reference details, and faithfulness is marked as null due to the absence of direct evidence from the provided reference. The reason succinctly explains the scores.",
+      "input_tokens": 425,
+      "output_tokens": 164,
+      "seconds": 12.738065600002301,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

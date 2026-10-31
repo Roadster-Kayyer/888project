@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_91",
+  "doc_id": "PB_a74f1879324f284c6dde",
+  "query_type": "ICA_134",
+  "query": "What is the average processing time for an application to renew or transfer Re-Entry Permit (REP) submitted online?",
+  "reference_answer": "The general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.",
+  "corpus_query_index": 293,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 2]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 3]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 4]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).\n\n[Document 5]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.",
+  "retrieved_doc_ids": [
+    "PB_a74f1879324f284c6dde",
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_6cdb1150c49584cda270",
+    "PB_6c6fcaa3d9ba8be58b7b",
+    "PB_4db518930267429b7a6f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e1df2e3a10fc5c35bf81e8bd07c701f46af6ad4d1522a1ffaa093808304b60a6",
+  "answer": "The average processing time for REP renewal is within one week, and for REP transfer, it's within three working days, excluding the day of submission. [Document 1]",
+  "input_tokens": 451,
+  "output_tokens": 36,
+  "seconds": 4.770155899997917,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

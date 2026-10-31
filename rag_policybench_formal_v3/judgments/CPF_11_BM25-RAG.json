@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_11",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference, covering both realised and unrealised gains/losses and directly addressing the question about what the statistic measures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering both realised and unrealised gains/losses and directly addressing the question about what the statistic measures.\"\n}",
+      "input_tokens": 1400,
+      "output_tokens": 77,
+      "seconds": 6.414172199991299,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

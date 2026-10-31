@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_0",
+  "doc_id": "PB_9c27ce47f88ef02aeefc",
+  "query_type": "BTT",
+  "query": "What is the impact of leaving a vehicle engine running when stationary for reasons other than traffic conditions under the Environmental Protection and Management (Vehicular Emissions) Regulations?",
+  "reference_answer": "It is an offence, and offenders are liable to a fine of up to $5,000 if convicted in court.",
+  "corpus_query_index": 0,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 3]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 4]\nThe preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error\n\n[Document 5]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_25927e8ab4491744b345",
+    "PB_d22ee6af2962a7277884",
+    "PB_6cdb1150c49584cda270"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "bbd6efeb6fc566cafe03c9f7f6fc6991f3fcc49e88ec16c17922bd8eee188bc6",
+  "answer": "Leaving a vehicle engine running idling increases fuel efficiency and reduces emissions, according to Document 1. However, the regulations do not specifically address idling for reasons other than traffic conditions. The document mentions various modes of travel and related declarations, but does not detail the impact of idling for non-traffic reasons. [Document 1]",
+  "input_tokens": 702,
+  "output_tokens": 70,
+  "seconds": 9.288125999999465,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

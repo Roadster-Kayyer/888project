@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_22",
+  "doc_id": "PB_9407386fab4b4f1d13c5",
+  "query_type": "BTT",
+  "query": "What type of background and border colors are used for directional signs that provide information on non-expressway roads?",
+  "reference_answer": "Green backgrounds with white borders.",
+  "corpus_query_index": 15,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 2]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 3]\nMandatory signs are compulsory signs.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+  "retrieved_doc_ids": [
+    "PB_4479f84c1b73422f7e24",
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_e57446a6e3d763a70f04",
+    "PB_33b32af818c8c4223f8f",
+    "PB_716429660f2efd24efb8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "74044aea9dc690414d292e381d82b3ea276d270c9f9229101097ce07e73ce081",
+  "answer": "[Document 1] mentions that warning signs for non-expressway roads could indicate slippery roads, but it doesn't specify background or border colors. [Document 2] is about immigration signs and [Documents 3-5] are about QR codes and school zones respectively, none relate to road sign colors. Therefore, no specific background or border colors are mentioned for these signs. [Missing]",
+  "input_tokens": 442,
+  "output_tokens": 81,
+  "seconds": 11.692037300002994,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

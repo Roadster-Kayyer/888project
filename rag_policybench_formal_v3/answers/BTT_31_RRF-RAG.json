@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_31",
+  "doc_id": "PB_a1d3a7486832c187b833",
+  "query_type": "BTT",
+  "query": "What must vehicles approaching a Police Officer from the front and behind do?",
+  "reference_answer": "They must stop.",
+  "corpus_query_index": 25,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nGive way to vehicles from the side road entering the main road.\n\n[Document 2]\nFront View and Rear View.\n\n[Document 3]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 4]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 5]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.",
+  "retrieved_doc_ids": [
+    "PB_66d3da627b3ea10f22bd",
+    "PB_4e13954ab54d10e3d48d",
+    "PB_15b5d9c0851609d354e4",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_2140a6169b3f40aa828c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f5a6a906ee2f82574e1fb8655c31f5490ccf7f350c24d2e64d3e65f3bdcb4ce2",
+  "answer": "Approaching vehicles must give way to those entering the main road from side roads [Document 1]. For both front and rear views, vehicles should yield to police officers [Document 2]. There's no specific instruction about making a right turn [Document 3]. The key is to stop and allow traffic from side roads to enter the main road before proceeding [Document 1].",
+  "input_tokens": 336,
+  "output_tokens": 77,
+  "seconds": 30.22281450000446,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

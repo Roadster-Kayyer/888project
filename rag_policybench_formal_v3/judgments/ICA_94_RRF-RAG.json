@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_94",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the evidence provided in the documents, which instruct on submitting an enquiry with an error screenshot and indicate the use of web service or MyICA Mobile App."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the evidence provided in the documents, which instruct on submitting an enquiry with an error screenshot and indicate the use of web service or MyICA Mobile App.\"\n}",
+      "input_tokens": 1311,
+      "output_tokens": 192,
+      "seconds": 14.76416770000651,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

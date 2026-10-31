@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001906",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by all documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the use of digital forensics by Tamil Nadu Police, supported by evidence from Documents 1, 2, and 3.\",\n}",
+      "input_tokens": 754,
+      "output_tokens": 78,
+      "seconds": 6.114665699999023,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by all documents provided.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes how Tamil Nadu Police uses digital forensics in investigations, which aligns with the reference information.\n- Relevance: The answer directly addresses the question by discussing the use of digital forensics in investigations, which is the core of the question.\n- Faithfulness: The candidate answer is fully supported by the documents, as they all mention the use of digital forensics in investigations, the role of the Police Cyber Forensics Division, and the existence of a digital forensic laboratory (Cyber Crime Lab).\n\nReason: The candidate's answer is comprehensive, directly",
+      "input_tokens": 794,
+      "output_tokens": 192,
+      "seconds": 14.764533000001393,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

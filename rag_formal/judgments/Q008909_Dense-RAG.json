@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008909",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies penalties under IPC and Registration Act, 1908, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies penalties under IPC and Registration Act, 1908, supported by documents 1, 2, and 3.\",\n}",
+      "input_tokens": 785,
+      "output_tokens": 77,
+      "seconds": 6.220173200003046,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies penalties under IPC and Registration Act, 1908, supported by documents.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately reflects the penalties for duplicating a property's registration as stated in the reference documents.\n- Relevance: The answer directly addresses the question by mentioning the specific penalties under the IPC and the Registration Act, 1908.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in the documents, which mention imprisonment up to 7 years and/or a fine for forgery and cheating under the IPC and the Registration Act, 1908.\n\nReason: The candidate",
+      "input_tokens": 825,
+      "output_tokens": 192,
+      "seconds": 14.704291699999885,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

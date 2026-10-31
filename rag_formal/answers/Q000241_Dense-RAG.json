@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000241",
+  "doc_id": "1040",
+  "query_type": "original",
+  "query": "How do I file a case in a criminal court?",
+  "corpus_query_index": 240,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling a Case in CBI Court:\nTo file a case in CBI Court, follow these steps:\n1. Lodge a complaint with the Central Bureau of Investigation (CBI).\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet in the CBI Court.\n\n[Document 3]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 4]\nFiling Cases under SC/ST Prevention of Atrocities Act:\nTo file a case, report the incident to the nearest police station or the District Superintendent of Police. The police will register an FIR and investigate. You can also approach the Special Court or the District Magistrate for assistance.\n\n[Document 5]\nFiling for Compensation:\nTo file for compensation in a criminal case, the victim can:\n1. Apply to the court trying the case.\n2. Submit a petition with required documents.\n3. The court will consider the application and pass an order.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1172",
+    "1116",
+    "1961",
+    "752"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f17fe87eeef3515cb3526eb8632c2cb9c3e0a631b42aa02cf3f72367412d5568",
+  "answer": "To file a case in a criminal court, first file a complaint with the police. They will investigate and file a chargesheet. The court will then take up the case. [Document 1]",
+  "input_tokens": 437,
+  "output_tokens": 41,
+  "seconds": 5.211520900000323,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

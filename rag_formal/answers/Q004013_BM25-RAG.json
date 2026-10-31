@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004013",
+  "doc_id": "1720",
+  "query_type": "casual",
+  "query": "So what can you do if the cops did something wrong?",
+  "corpus_query_index": 4012,
+  "system": "BM25-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.",
+  "retrieved_doc_ids": [
+    "933",
+    "46",
+    "35",
+    "253",
+    "1753"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0d22233b1a025ec395d22dc19af933787a9ff90292beaeaccace089cc9e878e2",
+  "answer": "If the police did something wrong, report it by contacting a lawyer, informing the person's family, and reporting the incident to a senior officer or police authority. Document the event if possible and consider filing a complaint. Additionally, understand that police departments are liable for their officers' actions. [Document 3]",
+  "input_tokens": 410,
+  "output_tokens": 63,
+  "seconds": 8.125604499999099,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

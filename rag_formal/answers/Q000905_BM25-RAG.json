@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000905",
+  "doc_id": "116",
+  "query_type": "hard",
+  "query": "According to Indian statutes, at what chronological juncture does one become accountable for criminal actions?",
+  "corpus_query_index": 904,
+  "system": "BM25-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nRight to Legal Counsel:\nThe Indian Constitution and the CrPC provide the right to legal counsel. According to Section 303 of the CrPC, an accused person has the right to be defended by a lawyer of their choice. If they cannot afford one, the court may appoint a lawyer.\n\n[Document 2]\nChallenging Arbitrary Government Actions:\nTo challenge arbitrary government actions in Tamil Nadu courts, you can file a Writ Petition under Article 226 of the Indian Constitution. This can be done through a lawyer in the Madras High Court, which has the power to review and quash such actions.\n\n[Document 3]\nThreatening to Damage Property:\nAccording to the Indian Penal Code (IPC), threatening to damage property is punishable under Section 506. The punishment can be imprisonment up to 2 years, or a fine, or both.\n\n[Document 4]\nTransfer of Cases Between States:\nThe transfer of cases between states is governed by the Code of Criminal Procedure (CrPC), 1973. Section 13 of the CrPC allows the Supreme Court to transfer cases from one state to another. This can be done to ensure a fair trial, prevent prejudice, or due to other extraordinary circumstances.\n\n[Document 5]\nPolice Accountability:\nThe Tamil Nadu Police Department is accountable under the Tamil Nadu Police Act, 2013, and the Indian Police Act, 1861. The State Police Complaints Authority and the National Human Rights Commission oversee police conduct.",
+  "retrieved_doc_ids": [
+    "1736",
+    "1987",
+    "550",
+    "1762",
+    "1750"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "695afcfc211e39343ef6be8fd9b5c96be862433b40a557f47f934889e1a0d10f",
+  "answer": "According to the Indian Penal Code (IPC), one becomes accountable for criminal actions upon committing them. [Document 3]",
+  "input_tokens": 441,
+  "output_tokens": 25,
+  "seconds": 3.384297399999923,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

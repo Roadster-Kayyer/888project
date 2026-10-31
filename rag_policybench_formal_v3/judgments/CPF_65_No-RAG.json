@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_65",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partly correct, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant and partly correct, but lacks direct evidence from the reference.\",\n  \"answer\": \"The candidate's answer is relevant as it discusses the potential revision of eligibility with the lifting of the age cap. However, it is only partly correct as it does not directly cite the reference's information about the enhancements starting from 2025 and the increased matching grant amount. Faithfulness cannot be assessed due to the absence of direct evidence in the candidate's answer.\"\n}",
+      "input_tokens": 522,
+      "output_tokens": 151,
+      "seconds": 11.513328700006241,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

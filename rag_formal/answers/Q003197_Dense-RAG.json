@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003197",
+  "doc_id": "1574",
+  "query_type": "formal",
+  "query": "How does the Police Radio Branch contribute to communication systems?",
+  "corpus_query_index": 3196,
+  "system": "Dense-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\n2. Police Wireless Monitoring Organization:\nThe Police Wireless Monitoring Organization monitors and regulates wireless communications to prevent misuse and maintain law and order. It tracks and intercepts suspicious messages to aid in investigations.\n\n[Document 4]\nModern Communication Systems:\nThe Tamil Nadu Police has implemented modern communication systems, including a dedicated police helpline (100), social media integration, and mobile apps (e.g., \"Tamil Nadu Police\" app) to facilitate public interaction and emergency response.\n\n[Document 5]\nCommunity Radio Program:\nThe Community Radio program shares police information by broadcasting crime prevention tips, missing person alerts, and public safety announcements. It also airs awareness programs on various social issues.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1592",
+    "1626",
+    "1675"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "12e8ad3c16ac0eafc6a86f186228e3030fc599074d5a97d4d93dfe5eb3ce8f4f",
+  "answer": "The Police Radio Branch contributes to communication systems by:\n- Providing real-time connectivity for police units [Doc. 1]\n- Maintaining and coordinating communication networks [Doc. 2]\n- Offering technical support for police radio systems [Doc. 2]\n- Monitoring and regulating wireless communications [Doc. 3]\n- Facilitating public interaction and emergency response [Doc. 4]\n- Broadcasting crime prevention tips and alerts [Doc. 5]",
+  "input_tokens": 343,
+  "output_tokens": 91,
+  "seconds": 11.478381000000809,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009702",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided to answer the question about accessing the Pink Police Patrol service."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided to answer the question about accessing the Pink Police Patrol service.\",\n  \"answer\": \"Information not found in the provided evidence.\"\n}",
+      "input_tokens": 398,
+      "output_tokens": 70,
+      "seconds": 5.5928662000005716,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

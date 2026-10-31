@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007118",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines steps to report bribery, aligns with reference documents, and includes contact details for reporting."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps to report bribery, aligns with reference documents, and includes contact details for reporting.\",\n  \"evidence\": \"Document 1 and Document 2\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly outlines the steps to take when faced with a bribery situation involving a doctor, and it is faithful to the evidence provided in the reference documents. The mention of refusing to pay, noting the doctor's details, and reporting to a senior officer or DVAC are all supported by the documents. The inclusion of the Tamil Nadu Police Helpline and the DVAC website for guidance further corroborates the answer with the evidence provided",
+      "input_tokens": 875,
+      "output_tokens": 192,
+      "seconds": 14.278872300004878,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

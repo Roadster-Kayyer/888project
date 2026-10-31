@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009705",
+  "doc_id": "864",
+  "query_type": "hard",
+  "query": "Where can I find information on the pink police patrol and their contact details?",
+  "corpus_query_index": 9704,
+  "system": "RRF-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nAdding Details to FIR:\nYes, you can add more details to your FIR after it has been registered. You can visit the police station where the FIR was filed and provide additional information to the investigating officer.\n\n[Document 3]\nContacting Police Boys and Girls Clubs in Tamil Nadu\nTo contact Police Boys and Girls Clubs, visit the Tamil Nadu Police website or contact your local police station. They can provide information on nearby clubs and their activities, which aim to promote community policing and youth development.\n\n[Document 4]\nPolice Outpost Locations:\nTo find police outpost locations in remote areas, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and click on \"Police Stations\" or \"Contact Us\" to access the list of police outposts and their contact details.\n\n[Document 5]\nCoastal Security Group Contact:\nTo find contact information for the Coastal Security Group, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and navigate to the \"Contact Us\" or \"Units\" section.",
+  "retrieved_doc_ids": [
+    "864",
+    "72",
+    "2019",
+    "366",
+    "330"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "344ed17346debd80ee707dec144281983a9e1a6b44cba508bf3a02150048eafe",
+  "answer": "[Document 1] provides contact details for the Pink Police Patrol: Call 94981 95555 or use 100 (Tamil Nadu Police Emergency Number). For other police units, refer to [Document 4] for police outpost locations. [Document 1] specifically mentions the Pink Police Patrol.",
+  "input_tokens": 401,
+  "output_tokens": 71,
+  "seconds": 9.277780600001279,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

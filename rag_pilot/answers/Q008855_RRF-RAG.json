@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008855",
+  "doc_id": "710",
+  "query_type": "hard",
+  "query": "What penalties can be imposed for improperly dividing inherited wealth among relatives?",
+  "corpus_query_index": 8854,
+  "system": "RRF-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 3]\nManipulating Land Registration Documents:\nManipulating land registration documents is a serious offense under the Registration Act, 1908, and the Indian Penal Code. Penalties can include imprisonment up to 7 years and/or a fine for forgery and cheating.\n\n[Document 4]\nPunishment for Senior Citizen Pension Fraud:\nSenior citizen pension fraud is punishable under the IPC and the Maintenance and Welfare of Parents and Senior Citizens Act. Penalties include imprisonment up to 3 years and fines up to ₹5,000.\n\n[Document 5]\nCeiling Surplus Land:\nThe penalty for illegal occupation of ceiling surplus land is governed by the Tamil Nadu Land Reforms (Ceiling on Holdings) Act, 1961. It may include a fine, eviction, and/or confiscation of the land, with penalties varying depending on the specific circumstances.",
+  "retrieved_doc_ids": [
+    "710",
+    "720",
+    "711",
+    "636",
+    "723"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2ef5f2129498e11a187cd8b8cadbcd622bd33cc5c039311b22e1f58687bb020d",
+  "answer": "Penalties for improperly dividing inherited wealth can include civil suits, imprisonment up to 7 years, and fines. Under the Hindu Succession Act, 1956, there are specific penalties, but they vary based on circumstances. [Document 1] Additionally, under the Indian Penal Code (IPC), penalties can range from imprisonment up to 7 years and fines, depending on the context. [Document 2-5]",
+  "input_tokens": 413,
+  "output_tokens": 88,
+  "seconds": 11.152870600000824,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

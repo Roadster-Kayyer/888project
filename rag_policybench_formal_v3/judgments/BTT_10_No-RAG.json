@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_10",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it addresses the question about preventing engine dragging in manual vehicles by suggesting smooth gear shifting and gradual acceleration. However, it does not directly cite the reference that states \"use the correct gear,\" which would have been necessary for full faithfulness. The evidence key is null because the supplied evidence does not exist in the given context.",
+      "input_tokens": 342,
+      "output_tokens": 145,
+      "seconds": 11.123739599992405,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

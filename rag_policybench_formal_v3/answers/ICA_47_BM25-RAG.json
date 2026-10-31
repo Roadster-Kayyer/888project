@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_47",
+  "doc_id": "PB_459d0a3b9e1ad4c022cb",
+  "query_type": "ICA_134",
+  "query": "Who should the employment letter from my employer be addressed to for my citizenship application?",
+  "reference_answer": "Your letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "corpus_query_index": 244,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 2]\nThe employer who had entered into an employment contract with you is required to pay the CPF contributions.\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_e05e627156f03d97ac97",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_68186a4dadd329687464",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f43a66ea2cea3313205ece861178b1ff53efa6c6c6a8ca2a2755db0a27912f22",
+  "answer": "The employment letter should be addressed to ICA Services Centre. It should be dated within three months of your citizenship application, detailing your occupation, employment start date, and monthly salary. [Document 1]",
+  "input_tokens": 589,
+  "output_tokens": 42,
+  "seconds": 5.335218399995938,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

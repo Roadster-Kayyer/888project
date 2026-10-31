@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_27",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with evidence from Document 1, correctly stating the treatment of unused transfers and top-ups upon demise or account closure."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question with evidence from Document 1, correctly stating the treatment of unused transfers and top-ups upon demise or account closure.\"\n}",
+      "input_tokens": 1265,
+      "output_tokens": 72,
+      "seconds": 5.9420148999925,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

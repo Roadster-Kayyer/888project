@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002400",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies types of evidence and authorities to contact, aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies types of evidence and authorities to contact, aligning with the reference.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by specifying the types of evidence to gather (screenshots, timestamps, IP addresses) and the action to take (document incidents and share with authorities), which is consistent with the advice given in the reference. The evidence provided (Document 1) is presumed to contain relevant information that supports the candidate's answer, thus demonstrating faithfulness. The answer is relevant as it directly pertains to the question of what records to gather for online harassment. The correctness score is high because the answer is complete and",
+      "input_tokens": 750,
+      "output_tokens": 192,
+      "seconds": 15.003938199999538,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

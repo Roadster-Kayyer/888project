@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006333",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which suggests contacting the local police department."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which suggests contacting the local police department.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence \"Document 1\" is a placeholder as the actual evidence is not provided in the instruction. In a real scenario, this would be replaced with the specific document or source that supports the candidate's answer.",
+      "input_tokens": 380,
+      "output_tokens": 124,
+      "seconds": 9.604824000001827,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

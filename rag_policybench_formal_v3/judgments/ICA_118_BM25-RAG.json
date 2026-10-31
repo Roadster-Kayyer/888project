@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_118",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the purpose of the SG Arrival Card date and is supported by all documents, directly addressing the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n0,\n\"reason\": \"Candidate answer correctly identifies the meaning of the arrival date in SGAC and does not falsely claim it refers to the embarkation date.\"\n}\n\n\nIn the candidate answer, the reference to the SGAC's arrival date being the expected arrival date or entry date to Singapore is directly supported by Document 1. The answer is relevant as it directly addresses the question about the meaning of the arrival date in the SGAC. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which states the arrival date in the SGAC refers to the expected arrival date or entry date to Singapore. There are no unsupported or contradicted factual claims",
+      "input_tokens": 1101,
+      "output_tokens": 192,
+      "seconds": 14.734253900009207,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the purpose of the SG Arrival Card date and is supported by all documents, directly addressing the question.\"}",
+      "input_tokens": 1141,
+      "output_tokens": 53,
+      "seconds": 4.296177999989595,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

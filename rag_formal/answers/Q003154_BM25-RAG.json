@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003154",
+  "doc_id": "1566",
+  "query_type": "search",
+  "query": "What part does the State Crime Records Bureau play in criminal case solving?",
+  "corpus_query_index": 3153,
+  "system": "BM25-RAG",
+  "reference_answer": "State Crime Records Bureau:\nThe State Crime Records Bureau collects, analyzes, and maintains crime data to aid in investigations. They provide intelligence and support to police units, helping to identify patterns and solve crimes.",
+  "context": "[Document 1]\nQuestion 3: Function of State Crime Records Bureau\nThe State Crime Records Bureau in Tamil Nadu collects, analyzes, and maintains crime data to aid in investigations, crime prevention, and policy-making, and also provides fingerprint and forensic services.\n\n[Document 2]\nState Crime Records Bureau:\nThe State Crime Records Bureau collects, analyzes, and maintains crime data to aid in investigations. They provide intelligence and support to police units, helping to identify patterns and solve crimes.\n\n[Document 3]\n1. State Crime Records Bureau (SCRB) Cases:\nThe SCRB handles cases related to crime records, statistics, and analysis. This includes maintaining records of crimes, providing crime data to police units, and assisting in investigations.\n\n[Document 4]\nFingerprint Bureau Function:\nThe Fingerprint Bureau in Tamil Nadu helps identify criminals by analyzing and matching fingerprints found at crime scenes with those in their database. This aids in solving crimes and tracking repeat offenders.\n\n[Document 5]\n1. Police Finger Print Bureau:\nThe Police Finger Print Bureau helps identify individuals by comparing fingerprints found at crime scenes with those in their database. This aids in solving crimes and tracking repeat offenders.",
+  "retrieved_doc_ids": [
+    "1918",
+    "1566",
+    "222",
+    "226",
+    "1594"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cfdb1ef806769fddfb2fd337bbb5b6d660624cc5de9ff892b15b0332e2675ad3",
+  "answer": "The State Crime Records Bureau (SCRB) in Tamil Nadu plays a crucial role in criminal case solving by collecting, analyzing, and maintaining crime data to aid investigations, identify patterns, and track repeat offenders through fingerprint analysis. [Document 1]",
+  "input_tokens": 356,
+  "output_tokens": 50,
+  "seconds": 6.4045399000006,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

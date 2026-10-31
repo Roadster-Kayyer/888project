@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001073",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and provides specific steps for verification, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies verification methods and official bodies for judicial ruling authenticity, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 815,
+      "output_tokens": 73,
+      "seconds": 5.751423400000931,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and provides specific steps for verification, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 855,
+      "output_tokens": 52,
+      "seconds": 4.201182900000276,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

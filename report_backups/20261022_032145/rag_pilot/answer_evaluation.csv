@@ -1,0 +1,1695 @@
+﻿query_id,doc_id,query_type,query,corpus_query_index,system,reference_answer,context,retrieved_doc_ids,trimmed_doc_ids,strict_gold_in_top5,prompt_sha256,answer,input_tokens,output_tokens,seconds,hit_token_limit,peak_allocated_mb,judge_status,correctness,relevance,faithfulness,judge_reason,reference_token_f1_proxy,citation_count,invalid_citation_count
+Q002271,1407,original,How does Tamil Nadu Police address issues of human-animal conflict in forest borders?,2270,BM25-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Cultural Sensitivity Issues:
+The Tamil Nadu Police follows a protocol to handle cultural sensitivity issues with foreign nationals. They have a dedicated Foreigners' Registration Office (FRO) to address concerns and provide assistance. The police also follow guidelines set by the National Human Rights Commission.
+
+[Document 4]
+Reporting Illegal Tree Cutting:
+To report illegal tree cutting in forest borders, contact the local Forest Department or police station. Provide details of the location and incident. You can also call the Tamil Nadu Forest Department's helpline or file a complaint online.
+
+[Document 5]
+Wildlife Rescue and Rehabilitation in Tamil Nadu
+For wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.","['1407', '1209', '1784', '1396', '1208']",[],True,9bc584025574a1d1cd97b98380db52eeb6d955ab63b789e1c86ac2343a6972d1,"Tamil Nadu Police addresses human-animal conflict in forest borders by collaborating with forest department officials, responding to distress calls, ensuring public safety and animal welfare, and providing support for relocation or compensation when needed. [Document 1] Additionally, they offer reporting services through the Forest Department's helpline (14417) or local offices. [Document 2] Public safety and animal welfare are prioritized, with protocols for cultural sensitivity and wildlife rescue. [Document 1, Document 2]",403,103,13.774966400000267,False,2049.794921875,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the reference documents, covering all main points about Tamil Nadu Police's approach to human-animal conflict in forest borders.",0.660377358490566,2,0
+Q002271,1407,original,How does Tamil Nadu Police address issues of human-animal conflict in forest borders?,2270,Dense-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 4]
+Disputes related to traditional tribal customs:
+The Tamil Nadu Police handles disputes related to traditional tribal customs by:
+* Respecting tribal laws and customs
+* Collaborating with tribal leaders and community elders
+* Providing mediation and counseling services
+* Ensuring protection of tribal rights and interests
+
+[Document 5]
+Tamil Nadu Police and NGOs:
+Tamil Nadu Police collaborates with NGOs on social issues by:
+* Partnering on awareness campaigns
+* Supporting community outreach programs
+* Referring victims to NGO services for support and counseling","['1407', '1209', '1413', '1375', '1701']",[],True,3b2accabeebf5b7ac1ba87f72943ad41b26751b90c2d315fb697c714524a661f,"Tamil Nadu Police addresses human-animal conflict in forest borders by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation when needed. [Document 1] Additionally, they coordinate with the Forest Department through regular meetings and joint patrols. [Document 3] They also handle disputes related to traditional tribal customs through respect for laws, collaboration with leaders, and mediation services. [Document 4]",413,93,12.44523880000088,False,2050.6884765625,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents.,0.6407766990291263,3,0
+Q002271,1407,original,How does Tamil Nadu Police address issues of human-animal conflict in forest borders?,2270,No-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed",,[],[],,39f203723e06646af268cadd8d52b34f1500e880c3576d3780f4902389b998d2,"Without specific evidence, I can't provide exact details, but typically, the Tamil Nadu Police addresses human-animal conflicts by setting up warning signs, conducting awareness programs, and collaborating with forest departments to manage wildlife corridors safely. [Document 1]",127,50,7.727462499999092,False,2023.71044921875,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.32432432432432434,1,1
+Q002271,1407,original,How does Tamil Nadu Police address issues of human-animal conflict in forest borders?,2270,RRF-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Contacting Forest Crime Investigation Unit:
+To contact the Forest Crime Investigation Unit in Tamil Nadu, you can reach out to the Tamil Nadu Police headquarters or visit the official Tamil Nadu Police website for contact details.
+
+[Document 4]
+Reporting Illegal Diversion of Forest Land:
+To report illegal diversion of forest land in Tamil Nadu, contact the Tamil Nadu Forest Department or local police station. You can also file a complaint on the Tamil Nadu Government's online grievance portal or call the Forest Department's helpline.
+
+[Document 5]
+Reporting Illegal Hunting:
+To report illegal hunting in Tamil Nadu forests, call the Forest Department Helpline at 1800-425-3577 or contact the nearest Forest Range Office. You can also inform the local police or dial 100 (Tamil Nadu Police Emergency Number).","['1407', '1209', '1928', '1225', '1247']",[],True,6c98e76d9706cd5fd778b5a7f6b800fb401a82cca826f7a233bd59a9216e408f,"Tamil Nadu Police addresses human-animal conflict by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation when needed. [Document 1] For reporting incidents, call the Forest Department's helpline (14417) or local forest range office. [Document 2]",414,72,9.596556999998938,False,2050.77734375,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the methods used by Tamil Nadu Police to address human-animal conflict and provides correct procedures for reporting incidents, supported by evidence from Documents 1 and 2.",0.7469879518072289,2,0
+Q002272,1407,formal,What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?,2271,BM25-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 2]
+Family Counseling Centers:
+The role of Family Counseling Centers at police stations is to provide counseling and mediation services to resolve family disputes and domestic issues. Trained counselors help families resolve conflicts and work towards reconciliation.
+
+[Document 3]
+Safety Measures for College-Going Women:
+Safety measures for college-going women in Tamil Nadu include:
+* Being aware of surroundings and avoiding isolated areas
+* Sharing travel plans with friends and family
+* Using the Tamil Nadu Police's ""Kavalan"" app for emergency assistance
+* Reporting any suspicious activity to college authorities or police
+
+[Document 4]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 5]
+1. Who heads the Tamil Nadu Police force?
+The Director General of Police (DGP) heads the Tamil Nadu Police force.
+
+2. What is the State Police Complaints Authority?
+The State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.
+
+3. What is the difference between bail and anticipatory bail?
+Bail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.
+
+4. How do I apply for regular bail in Tamil Nadu?
+To apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.","['1209', '96', '1888', '1413', '1021']",[],False,876a6b9003860374f546ed6f3add7878b4cd09f38f9980f19f00d3372ac7fa99,"The Tamil Nadu Police uses the Forest Department's helpline (14417) for reporting human-animal conflicts. They also coordinate with the Forest Department to prevent encroachment and poaching, ensuring forest protection. [Document 1] & [Document 4]",503,57,7.781393299999763,False,2062.5498046875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is supported by Document 1 and Document 4.,0.38235294117647056,2,0
+Q002272,1407,formal,What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?,2271,Dense-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 4]
+Rural Land Disputes:
+The Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.
+
+[Document 5]
+Tamil Nadu Police and NGOs:
+Tamil Nadu Police collaborates with NGOs on social issues by:
+* Partnering on awareness campaigns
+* Supporting community outreach programs
+* Referring victims to NGO services for support and counseling","['1407', '1209', '1413', '1366', '1701']",[],True,a30f841303038ad6281edb260fc7c6adf7b2df9b5d0094812ba93a3d2fa83e7e,"The Tamil Nadu Police addresses human-animal conflict by collaborating with the forest department, responding to distress calls, ensuring public and animal safety, and providing support for relocations or compensation. [Document 1] Additionally, they coordinate with the Forest Department in tribal areas and collaborate with NGOs on social issues. [Document 5] [Document 3]",410,71,8.690125400000397,False,2062.5498046875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the provided documents.,0.6666666666666666,3,0
+Q002272,1407,formal,What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?,2271,No-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed",,[],[],,b44027f977be16f7460e1fe686ad17a52fd901e3bd4d908bf1b629035d5f6bbd,"Without specific evidence, I can't provide exact measures. However, typically, the Tamil Nadu Police might implement patrols, awareness campaigns, and sometimes relocate animals to reduce human-animal conflicts in forested areas. [Document 1] provides detailed information if available.",130,53,7.122578599999542,False,2050.77734375,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.21621621621621623,1,1
+Q002272,1407,formal,What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?,2271,RRF-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 2]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 3]
+Reporting Forest Offenses in Tribal Areas:
+To report forest offenses, tribal area residents can contact the nearest Forest Range Office or the local police station. They can also dial the Tamil Nadu Police's toll-free number (1091) or the Forest Department's helpline.
+
+[Document 4]
+Emergency Response to Communal Violence:
+The Tamil Nadu Police handles communal violence through:
+* Rapid deployment of personnel to affected areas
+* Establishing communication with community leaders to calm tensions
+* Implementing curfews and other measures to maintain law and order
+
+[Document 5]
+Joint Forest Management Program:
+To apply for Joint Forest Management programs, contact the Tamil Nadu Forest Department or the local Forest Range Officer. The program involves collaboration between the forest department and local communities to manage and conserve forests sustainably. Application procedures and guidelines are available on the Tamil Nadu Forest Department's website.","['1209', '1413', '1369', '1545', '1218']",[],False,1916f8cb969c0ec59013573d457536c79e092b878f5498aa509048d7a4551d96,"The Tamil Nadu Police works with the Forest Department to coordinate in tribal areas, preventing encroachment and poaching. For reporting human-animal conflicts, call the Forest Department's helpline or local office. In tribal areas, they handle communal violence through rapid deployment and communication with leaders. [Document 1] & [Document 2]",427,69,8.656987099999242,False,2062.5498046875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which detail the collaboration with the Forest Department and the process for reporting conflicts.",0.3373493975903614,2,0
+Q002273,1407,casual,How do they handle animal-human clashes in the forests under Tamil Nadu Police?,2272,BM25-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Wildlife Rescue and Rehabilitation in Tamil Nadu
+For wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.
+
+[Document 3]
+Cultural Sensitivity Issues:
+The Tamil Nadu Police follows a protocol to handle cultural sensitivity issues with foreign nationals. They have a dedicated Foreigners' Registration Office (FRO) to address concerns and provide assistance. The police also follow guidelines set by the National Human Rights Commission.
+
+[Document 4]
+Railway Police Jurisdiction:
+The Railway Police in Tamil Nadu has jurisdiction over railway stations, trains, and railway premises within the state. They handle cases related to railway property, passengers, and staff.
+
+[Document 5]
+Reporting Human Trafficking:
+To report human trafficking in Tamil Nadu, call the National Human Trafficking Helpline at 1800-425-4777 or the Tamil Nadu Police Helpline at 100. You can also visit the nearest police station to file a complaint.","['1407', '1208', '1784', '1922', '865']",[],True,fe8491b7d7687b75dcfec944012d3f7695f2bb7258d6d04c4d6476e69591d542,"Tamil Nadu Police handles human-animal conflicts by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation when necessary. [Document 1]",399,43,5.413960699999734,False,2062.5498046875,invalid,,,,,0.7941176470588235,1,0
+Q002273,1407,casual,How do they handle animal-human clashes in the forests under Tamil Nadu Police?,2272,Dense-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 4]
+Disputes related to traditional tribal customs:
+The Tamil Nadu Police handles disputes related to traditional tribal customs by:
+* Respecting tribal laws and customs
+* Collaborating with tribal leaders and community elders
+* Providing mediation and counseling services
+* Ensuring protection of tribal rights and interests
+
+[Document 5]
+Rural Land Disputes:
+The Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.","['1407', '1209', '1413', '1375', '1366']",[],True,2c5628bb7f5ed7ee68399557f06997cd83af25e1e0d99ce1aba8700ec26f6473,"Tamil Nadu Police handles human-animal conflicts by collaborating with the forest department, responding to calls, ensuring safety, and providing support for relocations or compensation. [Document 1] They also coordinate with the Forest Department in tribal areas and resolve disputes related to traditional customs. [Document 5] Police play a supportive role in rural land disputes but not in their resolution. [Document 1, Document 5]",418,85,10.465763700000025,False,2062.5498046875,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the handling of human-animal conflicts and coordination with the Forest Department as described in Document 1, and correctly states the role of the police in rural land disputes as per Document 5. No important omissions are present.",0.4742268041237113,2,0
+Q002273,1407,casual,How do they handle animal-human clashes in the forests under Tamil Nadu Police?,2272,No-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed",,[],[],,b3e568157e2a254284ed86186aac373fd4d97f8c18a13d0b4fa157b4eb2862b6,"Without specific evidence, I can't provide exact details, but generally, the Tamil Nadu Police might use mediation, setting up buffer zones, or enforcing rules to manage animal-human conflicts in forest areas. [Document N]",126,44,5.383401999999478,False,2062.5498046875,ok,1.0,1.0,,Candidate answer is relevant but lacks specific evidence from the reference.,0.25,0,0
+Q002273,1407,casual,How do they handle animal-human clashes in the forests under Tamil Nadu Police?,2272,RRF-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 3]
+Reporting Illegal Hunting:
+To report illegal hunting in Tamil Nadu forests, call the Forest Department Helpline at 1800-425-3577 or contact the nearest Forest Range Office. You can also inform the local police or dial 100 (Tamil Nadu Police Emergency Number).
+
+[Document 4]
+Wildlife Rescue and Rehabilitation in Tamil Nadu
+For wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.
+
+[Document 5]
+Religious Tensions:
+The Tamil Nadu Police has implemented community policing initiatives and established a dedicated team to handle religious tensions. They also conduct regular meetings with community leaders to promote harmony and address grievances.","['1407', '1209', '1247', '1208', '1643']",[],True,fdc51e9a061cd5daed65ce4001f491ed5fef2c98870e88e1d1e6fac7dd262d85,"Tamil Nadu Police handles human-animal conflicts by collaborating with forest department officials, responding to distress calls, ensuring public and animal welfare, and providing support for relocation or compensation when needed. [Document 1] For reporting incidents, call the Forest Department Helpline (14417) or local forest range office. [Document 2] Police also manage religious tensions through community policing and community leader meetings. [Document 5]",400,89,11.226586700000553,False,2062.5498046875,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the reference documents, covering all main points about handling human-animal conflicts and reporting procedures.",0.6170212765957447,3,0
+Q002274,1407,search,What strategies does the Tamil Nadu Police use to manage wildlife-human disputes in forest regions?,2273,BM25-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Reporting Illegal Wildlife Trading:
+To report illegal wildlife trading in Tamil Nadu, contact the Tamil Nadu Forest Department or the Wildlife Crime Control Bureau. You can also dial 108 (Tamil Nadu Emergency Number) or 1800-425-3577 (Forest Department Helpline).
+
+[Document 2]
+Reporting Wildlife Crime in Tamil Nadu:
+To report wildlife crime, contact the Tamil Nadu Forest Department's wildlife crime control unit or the local police station. You can also call the wildlife crime control helpline (1800-425-3355) or email the department. Provide as much information as possible about the incident, including location, date, and time.
+
+[Document 3]
+Reporting Wildlife Poaching to Police:
+To report wildlife poaching, citizens can contact the local police station or the Forest Department. They can also call the wildlife crime control helpline number 1800-425-3355. The police will work with the Forest Department to investigate and take action against those involved in wildlife poaching.
+
+[Document 4]
+Wildlife Rescue and Rehabilitation in Tamil Nadu
+For wildlife rescue and rehabilitation, contact the Tamil Nadu Forest Department or local animal welfare organizations. They will dispatch a team to rescue and transport the animal to a rehabilitation center.
+
+[Document 5]
+Reporting Illegal Wildlife Trading:
+To report illegal wildlife trading in Tamil Nadu, contact the Tamil Nadu Forest Department or the Wildlife Crime Control Bureau. You can also call the toll-free number 1800-425-3355 or email [tnfwls@gmail.com](mailto:tnfwls@gmail.com).","['1246', '1202', '1386', '1208', '1228']",[],False,dbf2dc442ca9f731d94a5de4d2d5527576c4697c3e1dfcb65d82f44f0d6e0976,"The Tamil Nadu Police manages wildlife-human disputes through reporting mechanisms. Citizens can report illegal wildlife trading by contacting the Tamil Nadu Forest Department, Wildlife Crime Control Bureau, or using emergency numbers [108, 1800-425-3577]. For wildlife crime, report to the Forest Department, local police, or the wildlife crime control helpline (1800-425-3355). Wildlife rescue and rehabilitation are handled by the Forest Department or local animal welfare organizations. [Document 1-5]",469,114,15.141566800000874,False,2062.5498046875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from the documents, detailing the reporting mechanisms and collaboration with forest departments for dispute management.",0.2545454545454545,0,0
+Q002274,1407,search,What strategies does the Tamil Nadu Police use to manage wildlife-human disputes in forest regions?,2273,Dense-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 3]
+Rural Land Disputes:
+The Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.
+
+[Document 4]
+Disputes related to traditional tribal customs:
+The Tamil Nadu Police handles disputes related to traditional tribal customs by:
+* Respecting tribal laws and customs
+* Collaborating with tribal leaders and community elders
+* Providing mediation and counseling services
+* Ensuring protection of tribal rights and interests
+
+[Document 5]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.","['1407', '1413', '1366', '1375', '1209']",[],True,431e48657b57549b1ca523cd04c8b38add7783e4fa10d1f29fb060e70f3fe3bb,"The Tamil Nadu Police manages wildlife-human disputes in forest regions by collaborating with the forest department, responding to distress calls, ensuring public and animal safety, and providing support for relocations or compensation. They also coordinate with the Forest Department through regular meetings and joint patrols. The police handle rural land disputes and traditional tribal customs disputes through respect, collaboration, mediation, and counseling. For reporting, call the Forest Department's helpline or local office. [Document 1]",420,93,12.346597599998859,False,2062.5498046875,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the strategies used by the Tamil Nadu Police for managing wildlife-human disputes, as evidenced by the documents, and is directly relevant to the question.",0.45045045045045046,1,0
+Q002274,1407,search,What strategies does the Tamil Nadu Police use to manage wildlife-human disputes in forest regions?,2273,No-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed",,[],[],,c0f4683fbfc02f874beb024c772cf3dd6f674d5c004859e029d1c4bcfc2f2e04,"Without specific evidence, I can't provide exact strategies. However, the Tamil Nadu Police likely employs patrols, awareness programs, and sometimes relocation of human settlements near forests to manage wildlife-human disputes. [Document 1] provides detailed information if available.",128,50,6.223453399999926,False,2062.5498046875,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.21621621621621623,1,1
+Q002274,1407,search,What strategies does the Tamil Nadu Police use to manage wildlife-human disputes in forest regions?,2273,RRF-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Reporting Wildlife Crime in Tamil Nadu:
+To report wildlife crime, contact the Tamil Nadu Forest Department's wildlife crime control unit or the local police station. You can also call the wildlife crime control helpline (1800-425-3355) or email the department. Provide as much information as possible about the incident, including location, date, and time.
+
+[Document 2]
+Reporting Illegal Wildlife Trading:
+To report illegal wildlife trading in Tamil Nadu, contact the Tamil Nadu Forest Department or the Wildlife Crime Control Bureau. You can also dial 108 (Tamil Nadu Emergency Number) or 1800-425-3577 (Forest Department Helpline).
+
+[Document 3]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 4]
+Contacting Forest Crime Investigation Unit:
+To contact the Forest Crime Investigation Unit in Tamil Nadu, you can reach out to the Tamil Nadu Police headquarters or visit the official Tamil Nadu Police website for contact details.
+
+[Document 5]
+Reporting Illegal Hunting:
+To report illegal hunting in Tamil Nadu forests, contact the nearest Forest Range Office or call the Forest Department's toll-free number 1800-425-3355. You can also inform the local police or the Wildlife Crime Control Bureau.","['1202', '1246', '1407', '1928', '1229']",[],True,da1d32c141bece0c4647df19e2fb93239b6fe02bed8ef5ff61d18d4576464138,"The Tamil Nadu Police manages wildlife-human disputes in forest regions by collaborating with forest department officials, responding to distress calls, ensuring public and animal safety, and providing support for relocation or compensation. [Document 3]",438,43,5.398128999999244,False,2062.5498046875,ok,2.0,2.0,2.0,Candidate answer accurately reflects the strategies outlined in the reference documents and is directly relevant to the question.,0.7714285714285715,1,0
+Q002275,1407,hard,How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?,2274,BM25-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Claiming Compensation for Human Injury/Death:
+To claim compensation for human injury or death caused by wild animals, submit an application to the Tamil Nadu Forest Department or the District Collector's office. Provide required documents, such as medical certificates and proof of incident. The compensation amount will be decided as per the Tamil Nadu Government's guidelines.
+
+[Document 2]
+Tamil Nadu Police and CERT-In:
+The Tamil Nadu Police coordinates with CERT-In (Computer Emergency Response Team-India) to report and respond to cyber attacks. CERT-In provides technical assistance, and the Tamil Nadu Police takes action based on their recommendations to mitigate cyber threats.
+
+[Document 3]
+Rights of Differently-Abled People:
+Differently-abled individuals have the right to:
+* Equal access to police services
+* Reasonable accommodations and assistance
+* Respect and dignity in interactions with police
+* File complaints and seek redressal if needed
+
+[Document 4]
+Media Interactions:
+The Tamil Nadu Police follows ethical guidelines for media interactions, including:
+* Being truthful and transparent
+* Respecting privacy and confidentiality
+* Avoiding sensationalism and speculation
+* Providing accurate and timely information
+
+[Document 5]
+Emergency Response Protocols
+
+1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.
+
+2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.
+
+3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.","['1230', '158', '1445', '1438', '1552']",[],False,b6b2cd3f2d8273c22309894347f096cf3e08dfae1ceaed59785ec467e205eaa6,"The Tamil Nadu Police mitigates animal-related issues through the Forest Department for human injuries/deaths due to wild animals. For other concerns, they coordinate with CERT-In for cyber threats and follow emergency response protocols for critical infrastructure threats, temple stampedes, and dam breaches. [Document 1]",525,59,7.250093599999673,False,2069.16650390625,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, providing specific examples from documents that support the Tamil Nadu Police's methods for mitigating human-animal conflicts in forested zones.",0.2926829268292683,1,0
+Q002275,1407,hard,How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?,2274,Dense-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed
+
+[Document 2]
+Coordination with Forest Department:
+The Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.
+
+[Document 3]
+Reporting Man-Animal Conflicts in Tamil Nadu
+To report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.
+
+[Document 4]
+Reporting Wildlife Crime in Tamil Nadu:
+To report wildlife crime, contact the Tamil Nadu Forest Department's wildlife crime control unit or the local police station. You can also call the wildlife crime control helpline (1800-425-3355) or email the department. Provide as much information as possible about the incident, including location, date, and time.
+
+[Document 5]
+Rural Land Disputes:
+The Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.","['1407', '1413', '1209', '1202', '1366']",[],True,c294cbcb4ca1a74798af6adaf949d2d2bc0d1bee1cbc64b1ee945c2a0362cf97,"The Tamil Nadu Police mitigates human-animal conflicts by collaborating with the forest department, responding to distress calls, ensuring public and animal safety, and providing support for relocations or compensation. They coordinate regularly and conduct joint patrols to prevent encroachments and crimes. Reporting incidents can be done via helplines or local offices. Rural land disputes are managed by the Revenue Department. [Document 1-5]",443,83,10.270207600000504,False,2069.16650390625,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is supported by evidence from all documents.,0.4752475247524752,0,0
+Q002275,1407,hard,How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?,2274,No-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed",,[],[],,cb93c9df4f82745d3fb6c8119a3b160bb6b1d98abe7ba15e461b562fda858873,"Without specific evidence, mitigating issues requires educating locals about animal behavior, enforcing rules to prevent human-animal conflicts, and creating buffer zones in forests. [System Knowledge]",131,35,4.27844499999992,False,2062.5498046875,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.19047619047619047,0,0
+Q002275,1407,hard,How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?,2274,RRF-RAG,"Human-Animal Conflict:
+Tamil Nadu Police addresses human-animal conflict in forest borders by:
+* Collaborating with forest department officials
+* Responding to distress calls
+* Ensuring public safety and animal welfare
+* Providing support for relocation or compensation when needed","[Document 1]
+Media Interactions:
+The Tamil Nadu Police follows ethical guidelines for media interactions, including:
+* Being truthful and transparent
+* Respecting privacy and confidentiality
+* Avoiding sensationalism and speculation
+* Providing accurate and timely information
+
+[Document 2]
+Emergency Response Protocols
+
+1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.
+
+2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.
+
+3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.
+
+[Document 3]
+Emergency Response Protocols
+
+1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.
+
+2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.
+
+3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.
+
+[Document 4]
+Reporting Illegal Construction:
+To report illegal construction in forest buffer zones, contact the Tamil Nadu Forest Department or local police station. Provide details of the location and construction activity. You can also file a complaint online through the Tamil Nadu Government's public grievance portal or the Forest Department's website.
+
+[Document 5]
+Emergency Response Protocols
+
+1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.
+
+2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.
+
+3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.","['1438', '1552', '1553', '1251', '1554']",[],False,33a4cb48e6f960726bfde2c0146c00919b67c8e760d032bae69f83e7d37bb2fd,"The Tamil Nadu Police mitigates animal-related issues by following ethical guidelines for media interactions, ensuring transparency and accuracy. For emergencies, they have protocols for critical infrastructure threats, temple stampedes, and dam breaches. Additionally, they provide a reporting system for illegal construction in forest buffer zones. However, specific protocols for managing human-animal interactions in forested areas are not detailed in the provided documents. [Document 1-5]",715,86,10.672460600000704,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly identifies Tamil Nadu Police's protocols for various emergencies and reporting illegal activities, but lacks specific strategies for human-animal interactions in forested zones, which are not detailed in the documents.",0.23076923076923078,0,0
+Q006206,234,original,How does the Prohibition Enforcement Wing operate?,6205,BM25-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Police Units in Tamil Nadu:
+The main police units in Tamil Nadu are:
+* Local Police
+* Traffic Police
+* Crime Branch
+* Prohibition Enforcement Wing
+* Special Branch
+
+[Document 4]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.
+
+[Document 5]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.","['1926', '234', '985', '889', '1935']",[],True,f5dd7fce517f93d78a02836a5515bb95cc206cb57f3bbd9b369c0aa81f494a4a,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. It enforces prohibition laws and prevents illicit liquor trade. [Document 1]",387,46,5.692359200000283,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes PEW operations and is supported by all documents.,0.8055555555555556,1,0
+Q006206,234,original,How does the Prohibition Enforcement Wing operate?,6205,Dense-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.
+
+[Document 4]
+CB-CID Economic Offences Wing:
+The CB-CID Economic Offences Wing is a specialized unit of the Tamil Nadu Police that investigates economic crimes, including fraud, cheating, and other financial offenses.
+
+[Document 5]
+Economic Offences Wing:
+The Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.","['1926', '234', '1613', '195', '1565']",[],True,745dc1603217244a5e72c5e6fa53e0d82e8a0abb5fc4c0021c7f9a7ce503f54d,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. It uses police intelligence and specialized techniques to gather and analyze information. [Document 1]",355,48,5.914724500000375,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the operation of PEW, supported by evidence from Documents 1, 2, and 5.",0.64,1,0
+Q006206,234,original,How does the Prohibition Enforcement Wing operate?,6205,No-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales",,[],[],,53af6d5c369b0aed0e0ab6e41b721e3f07d54204709a9fb723f9e8accb15a521,"The Prohibition Enforcement Wing operates to enforce laws against the production, sale, and transportation of alcohol and other prohibited substances. They conduct inspections, investigations, and arrests to ensure compliance with prohibition laws. [System]",120,43,5.281319499999881,False,2133.796875,ok,1.0,2.0,,Candidate answer is relevant but lacks specific details about operations from the reference.,0.32,0,0
+Q006206,234,original,How does the Prohibition Enforcement Wing operate?,6205,RRF-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+CB-CID Economic Offences Wing:
+The CB-CID Economic Offences Wing is a specialized unit of the Tamil Nadu Police that investigates economic crimes, including fraud, cheating, and other financial offenses.
+
+[Document 4]
+Motor Transport Wing:
+The Motor Transport Wing is responsible for managing the police department's vehicles, including maintenance, allocation, and logistics, to ensure efficient transportation for police personnel and operations.
+
+[Document 5]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.","['1926', '234', '195', '238', '1613']",[],True,c2e956e5b5b8e5e3f22f1bbf3cf6dbaf41b0537f042f9f9275df3eeafda0de97,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales, and gathering strategic information. [Document 1]",348,39,4.765673400001106,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes PEW operations and is supported by all documents.,0.6363636363636364,1,0
+Q006207,234,formal,What mechanisms does the Prohibition Enforcement Wing utilize in its operations?,6206,BM25-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Police Units in Tamil Nadu:
+The main police units in Tamil Nadu are:
+* Local Police
+* Traffic Police
+* Crime Branch
+* Prohibition Enforcement Wing
+* Special Branch
+
+[Document 4]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.
+
+[Document 5]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.","['1926', '234', '985', '1935', '889']",[],True,e2edc1d5e6cc7fcdacfc4199878d3158ce93037c278fa13f727d609cfcf0c61f,"The Prohibition Enforcement Wing utilizes mechanisms including conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales [Document 2]. It operates under the Tamil Nadu Police and works to enforce prohibition laws [Document 3]. Additionally, they can be contacted through various means like helplines or local police stations [Document 5].",391,71,8.7655853999986,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question, accurately lists the mechanisms used by PEW, and is supported by evidence from Document 2 and Document 3.",0.5777777777777777,3,0
+Q006207,234,formal,What mechanisms does the Prohibition Enforcement Wing utilize in its operations?,6206,Dense-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.
+
+[Document 4]
+Economic Offences Wing:
+The Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.
+
+[Document 5]
+Political Investigation Wing:
+The Political Investigation Wing functions to:
+* Monitor and investigate political activities
+* Gather intelligence on potential threats to law and order
+* Provide security for VIPs and sensitive events","['1926', '234', '1613', '1565', '1568']",[],True,a563a5ad8d115b30504726173ebd3c6937f803aa51ea1d8cd86f1042fa3d351c,"The Prohibition Enforcement Wing utilizes:
+- Conducting raids and seizures
+- Arresting offenders
+- Destroying illicit liquor
+- Preventing smuggling and sales [Document 2]",358,37,4.540900699999838,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses and correctly lists the mechanisms used by the Prohibition Enforcement Wing as stated in the reference documents.,0.5666666666666667,1,0
+Q006207,234,formal,What mechanisms does the Prohibition Enforcement Wing utilize in its operations?,6206,No-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales",,[],[],,c52678a97e09ff35efe83093da83886ff547c702eb53c616c2b164bc4d23c0a1,"The Prohibition Enforcement Wing utilizes surveillance, raids, and inspections to enforce laws against illegal alcohol sales and production. [System]",124,26,3.344337099999393,False,2133.796875,ok,1.0,1.0,,Candidate mentions relevant activities but lacks specific evidence from the reference.,0.29508196721311475,0,0
+Q006207,234,formal,What mechanisms does the Prohibition Enforcement Wing utilize in its operations?,6206,RRF-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Motor Transport Wing:
+The Motor Transport Wing is responsible for managing the police department's vehicles, including maintenance, allocation, and logistics, to ensure efficient transportation for police personnel and operations.
+
+[Document 4]
+Cyber Forensics Wing:
+The Cyber Forensics Wing plays a crucial role in:
+- Investigating cybercrimes
+- Analyzing digital evidence
+- Providing technical assistance to police units
+- Helping to prevent and detect online crimes
+
+[Document 5]
+Prison Intelligence Wing:
+The Prison Intelligence Wing in Tamil Nadu gathers and shares intelligence to prevent and investigate crimes within prisons, ensuring prison security and maintaining law and order.","['1926', '234', '238', '2022', '2025']",[],True,8c90af1e274c9f08b619d76a53b07441cd335ad09c2bdc4d2620a0042c95fab3,"The Prohibition Enforcement Wing utilizes:
+- Conducting raids and seizures
+- Arresting offenders
+- Destroying illicit liquor
+- Preventing smuggling and sales [Document 2]",360,37,4.518276799999512,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence.,0.5666666666666667,1,0
+Q006208,234,casual,"So, how do they run the Prohibition Enforcement Wing?",6207,BM25-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Police Units in Tamil Nadu:
+The main police units in Tamil Nadu are:
+* Local Police
+* Traffic Police
+* Crime Branch
+* Prohibition Enforcement Wing
+* Special Branch
+
+[Document 4]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.
+
+[Document 5]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.","['1926', '234', '985', '889', '1935']",[],True,0119d8e9710572567483f6249601b2ebec43f1154d8fcc63aa3a1920c3645eba,"The Prohibition Enforcement Wing (PEW) runs by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. It's a specialized unit of the Tamil Nadu Police enforcing prohibition laws. [Document 1]",390,49,6.0488522999985435,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes the operations of the Prohibition Enforcement Wing and is supported by the provided documents.,0.8157894736842105,1,0
+Q006208,234,casual,"So, how do they run the Prohibition Enforcement Wing?",6207,Dense-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.
+
+[Document 4]
+Political Investigation Wing:
+The Political Investigation Wing functions to:
+* Monitor and investigate political activities
+* Gather intelligence on potential threats to law and order
+* Provide security for VIPs and sensitive events
+
+[Document 5]
+CB-CID Economic Offences Wing:
+The CB-CID Economic Offences Wing is a specialized unit of the Tamil Nadu Police that investigates economic crimes, including fraud, cheating, and other financial offenses.","['1926', '234', '1613', '1568', '195']",[],True,f3101d4ef3f188001113e6737fdc66e777de60ca139105b6114dd83ab6e2109e,"The Prohibition Enforcement Wing (PEW) runs by conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales. It operates under the Tamil Nadu Police, using police intelligence and gathering strategic info to enforce prohibition laws. [Document 1, Document 2]",354,58,7.193098900001132,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes PEW operations and is supported by Document 1 and Document 2.,0.6666666666666666,0,0
+Q006208,234,casual,"So, how do they run the Prohibition Enforcement Wing?",6207,No-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales",,[],[],,7c2a81357be6a4d85e3f2b73e23ca988f524faca7e5a7b4d4d0322b47fbe2aff,"Without evidence, I can't provide specific details, but in general, a Prohibition Enforcement Wing would enforce laws against illegal alcohol sales and production. They conduct raids, inspect businesses, and prosecute violators to uphold national prohibition laws. [Document 1]",123,52,6.370827400000053,False,2133.796875,ok,1.0,1.0,,Candidate answer is relevant but lacks specific evidence from the reference.,0.25316455696202533,1,1
+Q006208,234,casual,"So, how do they run the Prohibition Enforcement Wing?",6207,RRF-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Economic Offences Wing:
+The Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.
+
+[Document 4]
+Filing a Prohibition Petition:
+To file a prohibition petition, approach the High Court of Tamil Nadu with a petition stating the grounds for prohibition. The petition should be filed through a lawyer, and the court will review the petition and decide on the next course of action.
+
+[Document 5]
+Tamil Nadu Police Cyber Crime Wing:
+The Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.","['1926', '234', '1565', '1105', '1564']",[],True,6f7a3961e100cb084fe44916b9a481717b6a6de8fe2595f7bc93c0bae619a092,"The Prohibition Enforcement Wing (PEW) runs by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. [Document 1]",383,35,4.519981599998573,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes PEW operations and is supported by all documents.,0.6349206349206349,1,0
+Q006209,234,search,Can you tell me about the operational methods of the Prohibition Enforcement Wing?,6208,BM25-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Police Units in Tamil Nadu:
+The main police units in Tamil Nadu are:
+* Local Police
+* Traffic Police
+* Crime Branch
+* Prohibition Enforcement Wing
+* Special Branch
+
+[Document 4]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.
+
+[Document 5]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.","['1926', '234', '985', '889', '1935']",[],True,37fb4a8f8caa1156795f5bb7505933be94b200c9ea7fcb26abed8bc7618baf69,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. [Document 2]",393,35,4.36719119999907,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer accurately describes PEW's operational methods and is supported by all documents.,0.6666666666666666,1,0
+Q006209,234,search,Can you tell me about the operational methods of the Prohibition Enforcement Wing?,6208,Dense-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Economic Offences Wing:
+The Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.
+
+[Document 4]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.
+
+[Document 5]
+Political Investigation Wing:
+The Political Investigation Wing functions to:
+* Monitor and investigate political activities
+* Gather intelligence on potential threats to law and order
+* Provide security for VIPs and sensitive events","['1926', '234', '1565', '1613', '1568']",[],True,58f58fb7742870e8ef0f1e1573963d11ea0f82ae6411504a8b5e1f6dd208ffc5,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales. It uses specialized techniques like forensic accounting and gathers strategic info through surveillance and informants. [Document 1-5]",360,53,6.726727199999004,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer correctly describes PEW's methods and includes evidence from documents 1-5.,0.575,0,0
+Q006209,234,search,Can you tell me about the operational methods of the Prohibition Enforcement Wing?,6208,No-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales",,[],[],,3fd07be4a22eb5bec1d74343f5f0d2c2e16c5ee5a7493a78814990d594a7614a,"I'm unable to provide specific operational methods of the Prohibition Enforcement Wing as no evidence was retrieved. For accurate information, one would need to refer to official documents or reports from the relevant law enforcement agency.",126,42,5.029032399999778,False,2133.796875,ok,2.0,1.0,,Candidate answer acknowledges the lack of evidence but fails to directly address the operational methods.,0.17721518987341772,0,0
+Q006209,234,search,Can you tell me about the operational methods of the Prohibition Enforcement Wing?,6208,RRF-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Innovation in Policing Methods:
+The Police Research and Development Wing innovates policing methods by:
+* Analyzing crime trends and patterns
+* Developing new technologies and strategies
+* Collaborating with experts and stakeholders
+* Implementing evidence-based policing practices
+
+[Document 4]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.
+
+[Document 5]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.","['1926', '234', '1579', '1935', '889']",[],True,a774e772d8c7799f056f3866c2b451c240ad9b9c4c507ab9e50570c0575763b9,"The Prohibition Enforcement Wing (PEW) operates by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. [Document 2]",406,35,4.724834100001317,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence.,0.6666666666666666,1,0
+Q006210,234,hard,What strategies does the Prohibition Enforcement Wing employ during its activities?,6209,BM25-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Police Units in Tamil Nadu:
+The main police units in Tamil Nadu are:
+* Local Police
+* Traffic Police
+* Crime Branch
+* Prohibition Enforcement Wing
+* Special Branch
+
+[Document 4]
+Reporting Illegal Liquor Sales:
+To report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.
+
+[Document 5]
+Traffic Enforcement Wing Contact:
+To contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.","['1926', '234', '985', '889', '1935']",[],True,46b18ac46db163c77689c738f0e657ed5b8f8d6eeda4c3201139fb7e52821edc,"The Prohibition Enforcement Wing employs strategies including conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales [Document 2]. They operate under the Tamil Nadu Police and can be contacted through various means [Document 4] and [Document 5].",391,56,7.601177500000631,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence.,0.5641025641025641,3,0
+Q006210,234,hard,What strategies does the Prohibition Enforcement Wing employ during its activities?,6209,Dense-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+2. Police Intelligence Wing:
+The Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.
+
+[Document 4]
+Economic Offences Wing:
+The Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.
+
+[Document 5]
+Political Investigation Wing:
+The Political Investigation Wing functions to:
+* Monitor and investigate political activities
+* Gather intelligence on potential threats to law and order
+* Provide security for VIPs and sensitive events","['1926', '234', '1613', '1565', '1568']",[],True,543dc8aca5f1630d136b35474a07e662f4c9b84f669d21a517e79c577cc22bac,"The Prohibition Enforcement Wing employs strategies including conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales, using police intelligence, and gathering strategic information. [Document 1]",358,40,5.096806900000956,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence.,0.5507246376811594,1,0
+Q006210,234,hard,What strategies does the Prohibition Enforcement Wing employ during its activities?,6209,No-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales",,[],[],,da5e9bd4ced1f1fc130ffaa664a8e688ded211f291c3e298ce45a4384577f362,"Without specific evidence, I can't provide exact strategies. However, typically, the Prohibition Enforcement Wing employs surveillance, raids, undercover operations, and legal enforcement to combat illegal activities. [Document 1]",124,42,5.621257599999808,False,2133.796875,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.2028985507246377,1,1
+Q006210,234,hard,What strategies does the Prohibition Enforcement Wing employ during its activities?,6209,RRF-RAG,"Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales","[Document 1]
+Prohibition Enforcement Wing (PEW) Cases:
+The Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.
+
+[Document 2]
+Prohibition Enforcement Wing:
+The Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:
+* Conducting raids and seizures
+* Arresting offenders
+* Destroying illicit liquor
+* Preventing smuggling and sales
+
+[Document 3]
+Political Investigation Wing:
+The Political Investigation Wing functions to:
+* Monitor and investigate political activities
+* Gather intelligence on potential threats to law and order
+* Provide security for VIPs and sensitive events
+
+[Document 4]
+Innovation in Policing Methods:
+The Police Research and Development Wing innovates policing methods by:
+* Analyzing crime trends and patterns
+* Developing new technologies and strategies
+* Collaborating with experts and stakeholders
+* Implementing evidence-based policing practices
+
+[Document 5]
+Police Public Relations Wing:
+The Police Public Relations Wing functions to build trust and transparency between the police and the public. It handles media inquiries, shares information on police activities, and promotes community outreach programs to enhance police-public relationships.","['1926', '234', '1568', '1579', '1584']",[],True,c2d204e96c6e134ccd5c560318a05713a63667f26b5f897cecc3dacf0377f2d6,"The Prohibition Enforcement Wing employs strategies like conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales. [Document 2]",376,31,4.1103095999988,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is fully supported by the retrieved evidence.,0.5483870967741935,1,0
+Q007481,464,original,How does Tamil Nadu Police protect the identity of sexual harassment complainants?,7480,BM25-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 3]
+Harassment based on Sexual Orientation:
+Under the Tamil Nadu Police guidelines, harassment based on sexual orientation can be considered a form of sexual harassment. The punishment can range from 1 to 3 years of imprisonment and a fine, as per the Indian Penal Code (IPC) Section 354A.
+
+[Document 4]
+Workplace Harassment:
+The legal consequences for workplace harassment in Tamil Nadu can include imprisonment of up to 3 years and a fine, as per the Tamil Nadu Prohibition of Harassment of Women Act, 1998, and the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.
+
+[Document 5]
+Filing a Workplace Harassment Complaint:
+To file a complaint, inform your supervisor/HR department. If not resolved, contact the Local Complaints Committee (LCC) or the Tamil Nadu State Commission for Women. You can also file a police complaint under the Sexual Harassment of Women at Workplace Act.","['464', '827', '568', '548', '899']",[],True,fb4e087def153d83c812058cc97a5bbf439b50442d44529c74a105f5167a119b,Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can request anonymity. They follow Supreme Court guidelines and ensure safety throughout the process. [Document 1],461,44,5.4042793000007805,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer accurately and completely reflects the evidence from Document 1, covering confidentiality, coded names, anonymity, and adherence to Supreme Court guidelines.",0.7,1,0
+Q007481,464,original,How does Tamil Nadu Police protect the identity of sexual harassment complainants?,7480,Dense-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Protection for Women Facing Honor-Based Threats
+The Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.
+
+[Document 3]
+Voyeurism and Privacy Violations:
+The Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.
+
+[Document 4]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 5]
+Agricultural Loan Harassment Cases:
+The Tamil Nadu Police handles cases of agricultural loan harassment by registering complaints and investigating allegations of harassment by money lenders. They work with banks and other financial institutions to ensure that farmers' rights are protected, and action is taken against those who engage in harassment or illegal lending practices.","['464', '453', '450', '827', '1395']",[],True,e9b14d2ddd6c6be720b2fc87ddfd7a1d4c53d1f8ed5d3d315fd5c5fcf7a228a8,Tamil Nadu Police protects complainants' identities by using coded names and ensuring anonymity. They follow Supreme Court guidelines and maintain confidentiality throughout the process. [Document 1],440,35,4.388952199999039,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from Document 1, accurately reflecting the Tamil Nadu Police's methods for protecting complainants' identities.",0.5405405405405406,1,0
+Q007481,464,original,How does Tamil Nadu Police protect the identity of sexual harassment complainants?,7480,No-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",,[],[],,0b8107fd433e1f7abbaa8c8f1a404c09ba7d96ead25455cd6e69ac6c23162c3c,"Without specific evidence, I can't provide exact details, but generally, Tamil Nadu Police protect complainants' identities by keeping reports confidential and using codes in official documents. They follow guidelines to ensure privacy and security. [Document N] provides specifics if available.",125,52,6.514919100000043,False,2133.796875,ok,1.0,2.0,,Candidate answer is relevant and correct but lacks specific evidence from the reference.,0.3516483516483517,0,0
+Q007481,464,original,How does Tamil Nadu Police protect the identity of sexual harassment complainants?,7480,RRF-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 3]
+Reporting Harassment or Threats:
+Foreigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.
+
+[Document 4]
+Reporting Harassment in Public Places:
+To report harassment in public places, call 100 or visit the nearest police station. You can also use the Tamil Nadu Police's mobile app to report incidents. Provide details of the incident, and the police will take necessary action.
+
+[Document 5]
+Ethical Guidelines for Police Behavior in Tamil Nadu:
+The Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.","['464', '827', '1774', '86', '1414']",[],True,440e15e44067c0a1bfc08cfeed6f64328832967ec5a78e796431d9d9b288a8cd,"Tamil Nadu Police protects complainants' identities by using coded names and maintaining confidentiality. Complainants can request anonymity, following Supreme Court guidelines. [Document 1]",428,35,4.364098799998828,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.",0.5352112676056338,1,0
+Q007482,464,formal,What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?,7481,BM25-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 2]
+Harassment based on Sexual Orientation:
+Under the Tamil Nadu Police guidelines, harassment based on sexual orientation can be considered a form of sexual harassment. The punishment can range from 1 to 3 years of imprisonment and a fine, as per the Indian Penal Code (IPC) Section 354A.
+
+[Document 3]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 4]
+Workplace Harassment:
+The legal consequences for workplace harassment in Tamil Nadu can include imprisonment of up to 3 years and a fine, as per the Tamil Nadu Prohibition of Harassment of Women Act, 1998, and the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.
+
+[Document 5]
+Support for Acid Attack Victims:
+The Tamil Nadu Police provides support to women victims of acid attacks. Victims can contact the All-Women Police Stations or the 181 Helpline for assistance. The government also provides financial aid and medical help through the Tamil Nadu Victim Compensation Scheme.","['827', '568', '464', '548', '471']",[],True,7724f2969a5c83f83bb16a648ea20c5dfbebc091fa79ee9114354c306607ea53,Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. They follow Supreme Court guidelines and ensure safety and security during investigations. [Document 3],457,38,4.8763402000004135,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the measures taken by Tamil Nadu Police to protect victims' anonymity, supported by Document 3.",0.6233766233766234,1,0
+Q007482,464,formal,What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?,7481,Dense-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Voyeurism and Privacy Violations:
+The Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.
+
+[Document 3]
+Protection for Women Facing Honor-Based Threats
+The Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.
+
+[Document 4]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 5]
+Social Media Monitoring:
+The Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.","['464', '450', '453', '827', '1327']",[],True,65be815fe86bb56bb8b93c1cde7e9b654efdb4a3d981085c8568a467c30175b0,"The Tamil Nadu Police protect complainants' identities by maintaining confidentiality and using coded names in records. Victims can request anonymity, following Supreme Court guidelines. [Document 1]",428,35,4.378939700000046,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.",0.5675675675675675,1,0
+Q007482,464,formal,What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?,7481,No-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",,[],[],,5f14f28eb92778ccaa127bc40e89d0fd7a2c4d9e90c2c3aa8c8df75ae2b29da2,"Without specific evidence, I can't provide exact measures. However, in general, the Tamil Nadu Police might implement confidentiality agreements, pseudonyms for reports, and secure reporting systems to protect victims' anonymity. [Document 1] provides detailed information on such practices.",128,53,6.453761200000372,False,2133.796875,ok,1.0,1.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.25287356321839083,1,1
+Q007482,464,formal,What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?,7481,RRF-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 3]
+Social Media Monitoring:
+The Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.
+
+[Document 4]
+Reporting Harassment or Threats:
+Foreigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.
+
+[Document 5]
+Reporting Harassment in Public Places:
+To report harassment in public places, call 100 or visit the nearest police station. You can also use the Tamil Nadu Police's mobile app to report incidents. Provide details of the incident, and the police will take necessary action.","['464', '827', '1327', '1774', '86']",[],True,e369e33c2a22a5ab6425329396f4f8025b942e10e4cb164fab25fc734d37937b,"The Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines and ensuring safety and security throughout the investigation process. [Document 1]",428,48,6.054359400000976,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is fully supported by the retrieved evidence, accurately reflecting the measures taken by the Tamil Nadu Police.",0.7764705882352941,1,0
+Q007483,464,casual,How do they keep the names of people who report being harassed secret in Tamil Nadu?,7482,BM25-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+3. Who are Child Welfare Police Officers and what do they do?
+Child Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.
+
+[Document 2]
+Dealing with Harassment Calls/ Messages:
+If being harassed by phone calls or messages, report to:
+* Tamil Nadu Police Cyber Cell: 1930 (toll-free)
+* Local police station
+* Block the caller's number
+* Save evidence (messages, call logs)
+
+[Document 3]
+Witnessing Harassment:
+If you witness a woman being harassed, stay calm and:
+* Intervene safely, if possible
+* Call 100 (Tamil Nadu Police helpline) or 1091 (Women's Helpline)
+* Provide support to the victim
+
+[Document 4]
+1. Who heads the Tamil Nadu Police force?
+The Director General of Police (DGP) heads the Tamil Nadu Police force.
+
+2. What is the State Police Complaints Authority?
+The State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.
+
+3. What is the difference between bail and anticipatory bail?
+Bail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.
+
+4. How do I apply for regular bail in Tamil Nadu?
+To apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.
+
+[Document 5]
+1. Who heads the Tamil Nadu Police force?
+The Director General of Police (DGP) heads the Tamil Nadu Police force.
+
+2. What is the State Police Complaints Authority?
+The State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.
+
+3. What is the difference between bail and anticipatory bail?
+Bail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.
+
+4. How do I apply for regular bail in Tamil Nadu?
+To apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.","['107', '1896', '1904', '1021', '1022']",[],False,016d9b9104297014892781889af629b8324f157bf66bb0179f3037908a3102ec,"Names of people who report harassment are kept confidential by reporting to Tamil Nadu Police Cyber Cell (1930), local police station, or blocking the harasser's number. [Document 2]",600,41,5.338773100000253,False,2133.796875,ok,2.0,2.0,2.0,Candidate answer directly addresses the question and is supported by evidence from Document 2.,0.2857142857142857,1,0
+Q007483,464,casual,How do they keep the names of people who report being harassed secret in Tamil Nadu?,7482,Dense-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Harassment or Threats:
+Foreigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.
+
+[Document 3]
+Reporting Suspicious Persons:
+To report suspicious persons, call the Tamil Nadu Police helpline (100) or visit your local police station. Provide details about the person, their activities, and location. You can also use the Tamil Nadu Police mobile app to report suspicious activity.
+
+[Document 4]
+Reporting Illegal Activities Anonymously:
+Call the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.
+
+[Document 5]
+Reporting Harassment in Public Places:
+To report harassment in public places, call 100 or visit the nearest police station. You can also use the Tamil Nadu Police's mobile app to report incidents. Provide details of the incident, and the police will take necessary action.","['464', '1774', '2083', '2088', '86']",[],True,3a8ceaf03bbcc9c611c506b71171241e3d05d938970361e0b764118a93881dad,"In Tamil Nadu, the police protect complainants' identities by using coded names and ensuring confidentiality. Victims can remain anonymous if they choose. This follows Supreme Court guidelines to safeguard victims' safety and security during investigations [Document 1].",453,47,5.777602100000877,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer accurately and directly addresses the question, providing specific details from the reference documents that confirm the police's methods for protecting identities, which are consistent with the evidence provided.",0.5647058823529412,1,0
+Q007483,464,casual,How do they keep the names of people who report being harassed secret in Tamil Nadu?,7482,No-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",,[],[],,7b935c6a8c6c9baba3136a2976c345e405f479988dd042654159393d64981f23,"In Tamil Nadu, the identity of harassment victims is kept confidential to protect them. This is done through strict confidentiality protocols and legal protections. [Document N] doesn't provide specific details.",128,38,4.656694700001026,False,2133.796875,ok,1.0,2.0,,Candidate answer is relevant but lacks specific evidence from the reference.,0.2716049382716049,0,0
+Q007483,464,casual,How do they keep the names of people who report being harassed secret in Tamil Nadu?,7482,RRF-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Dealing with Harassment Calls/ Messages:
+If being harassed by phone calls or messages, report to:
+* Tamil Nadu Police Cyber Cell: 1930 (toll-free)
+* Local police station
+* Block the caller's number
+* Save evidence (messages, call logs)
+
+[Document 3]
+Reporting Lost Articles:
+To report lost articles in Tamil Nadu, visit the nearest police station and provide details of the lost item, including description, date, and place of loss. Fill out a complaint form (FIR) and submit it to the police. Keep a copy of the FIR for future reference.
+
+[Document 4]
+Witnessing Harassment:
+If you witness a woman being harassed, stay calm and:
+* Intervene safely, if possible
+* Call 100 (Tamil Nadu Police helpline) or 1091 (Women's Helpline)
+* Provide support to the victim
+
+[Document 5]
+Reporting Harassment or Threats:
+Foreigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.","['464', '1896', '2073', '1904', '1774']",[],True,0bdbfda1351a42d77ddea7ad4b2ab0b89987a3329cd76872ddb4204d363a3c51,"In Tamil Nadu, the police protect complainants' identities by using coded names and maintaining confidentiality. Complainants can also request anonymity [Document 1]. Their actions align with Supreme Court guidelines to ensure victims' safety and security throughout the process [Document 1].",457,54,6.714254500000607,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, providing specific details from the reference documents that support the claim about protecting complainants' identities in Tamil Nadu.",0.7209302325581395,2,0
+Q007484,464,search,What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?,7483,BM25-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Abuse of Children with Disabilities:
+In Tamil Nadu, the Tamil Nadu State Commission for Protection of Child Rights and the District Child Protection Units have special provisions to report sexual abuse of children with disabilities. You can contact the Childline (1098) or the State Commission's helpline to report such cases.
+
+[Document 3]
+POCSO Act:
+The POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.
+
+[Document 4]
+Female Genital Mutilation Cases:
+The Tamil Nadu Police handles cases of female genital mutilation (FGM) as a serious offense under the Indian Penal Code. Victims can report incidents to the nearest police station or the All-Women Police Stations (AWPS). The police ensure confidentiality and provide support to victims.
+
+[Document 5]
+Regulation of Confidential Informants:
+The use of confidential informants by Tamil Nadu Police is regulated by:
+* Guidelines set by the State Police Headquarters
+* Supervision by senior officers
+* Requirements for informant registration and verification
+* Strict confidentiality to protect informant identities","['464', '483', '101', '456', '1428']",[],True,161cc39d2a85dee17d25be1ce372177c822f27320a7df36183f829652f3bd457,"The Tamil Nadu Police ensures confidentiality of sexual abuse survivors through:
+- Maintaining confidentiality and using coded names in records.
+- Allow complainants to remain anonymous.
+- Following Supreme Court guidelines.
+- Investigating POCSO (Protection of Children from Sexual Offences) cases in a child-friendly manner.
+- Handling FGM cases as a serious offense with strict confidentiality.
+- Regulating confidential informants with guidelines and supervision. [Document 5]",459,89,11.25118509999993,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question, accurately reflects the evidence from the documents, and maintains the confidentiality of survivors as described.",0.4036697247706422,1,0
+Q007484,464,search,What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?,7483,Dense-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Voyeurism and Privacy Violations:
+The Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.
+
+[Document 3]
+Ethical Standards in Witness Protection Programs:
+The Tamil Nadu Police Department applies ethical standards to witness protection programs by ensuring confidentiality, safety, and dignity of witnesses. Witnesses are protected from intimidation and harm, and their identities are kept confidential to ensure their security and well-being.
+
+[Document 4]
+Treating Victims of Crime:
+The Tamil Nadu Police follows ethical guidelines to treat victims with dignity and respect. Victims have the right to:
+* Receive fair and compassionate treatment
+* Get medical attention if needed
+* Be informed about their case status
+* Be protected from further harm
+
+[Document 5]
+Support Services for Victims of Gender-Based Violence:
+Tamil Nadu Police offers support services through All-Women Police Stations and Women Help Desks. These provide a safe and confidential space for victims to report crimes and receive assistance.","['464', '450', '1434', '1456', '99']",[],True,75c7bf041e31282ed7f36028cf7e3c870b21eb698154b03f32ce4131228bf9f2,"The Tamil Nadu Police ensures confidentiality for sexual abuse survivors by maintaining anonymity, using coded names, and following Supreme Court guidelines. They protect victims' identities and safety throughout investigations. [Document 1]",433,40,5.041326699998535,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from Document 1, which details the methods used by the Tamil Nadu Police to ensure confidentiality.",0.5063291139240507,1,0
+Q007484,464,search,What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?,7483,No-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",,[],[],,6e956a133ebcb54dbf43d71ff6f2229e1240c33a1d230ecb259e77f511e5b9f9,"Without specific evidence, I can't provide exact methods. However, typically, police use secure communication channels, non-disclosure agreements, and strict confidentiality policies to protect survivors of sexual abuse. [Document 1] provides such details if available.",128,49,5.977333099999669,False,2133.796875,ok,1.0,1.0,,Candidate answer lacks direct evidence but is relevant to the topic.,0.16666666666666666,1,1
+Q007484,464,search,What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?,7483,RRF-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Ethical Standards in Witness Protection Programs:
+The Tamil Nadu Police Department applies ethical standards to witness protection programs by ensuring confidentiality, safety, and dignity of witnesses. Witnesses are protected from intimidation and harm, and their identities are kept confidential to ensure their security and well-being.
+
+[Document 3]
+Reporting Illegal Activities Anonymously:
+Call the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.
+
+[Document 4]
+Police Accountability in Tamil Nadu:
+The Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.
+
+[Document 5]
+Reporting Sexual Abuse of Children with Disabilities:
+In Tamil Nadu, the Tamil Nadu State Commission for Protection of Child Rights and the District Child Protection Units have special provisions to report sexual abuse of children with disabilities. You can contact the Childline (1098) or the State Commission's helpline to report such cases.","['464', '1434', '2088', '1419', '483']",[],True,511fa4234f42fee9b0f406c2eb47854e5fcbed9b45cb2dc2fd9f3d5accf9079e,"The Tamil Nadu Police ensures confidentiality for sexual abuse survivors by maintaining anonymity, using coded names, and following Supreme Court guidelines. They protect complainants' identities and safety throughout investigations. [Document 1] Additionally, they maintain confidentiality for all witnesses and provide options to report crimes anonymously. [Document 3]",456,62,7.546192499999961,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer accurately reflects the methods used by Tamil Nadu Police for confidentiality, supported by evidence from Documents 1 and 3.",0.4731182795698925,2,0
+Q007485,464,hard,How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?,7484,BM25-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 3]
+Harassment based on Sexual Orientation:
+Under the Tamil Nadu Police guidelines, harassment based on sexual orientation can be considered a form of sexual harassment. The punishment can range from 1 to 3 years of imprisonment and a fine, as per the Indian Penal Code (IPC) Section 354A.
+
+[Document 4]
+Ethical Framework for Informers:
+The Tamil Nadu Police follows a confidential and protected framework for dealing with informers. Informers' identities are kept secret, and their information is verified before action is taken. The police ensure that informers are not coerced or exploited.
+
+[Document 5]
+POCSO Act:
+The POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.","['464', '827', '568', '1441', '101']",[],True,0c79c4341bd42b1a492f5a1a7e71a2bd61eb0bcbecea20f1532a08c924bbb86f,"Tamil Nadu Police ensures the anonymity of sexual harassment complainants by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines. [Document 1]",444,42,5.145365499998661,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.",0.6582278481012658,1,0
+Q007485,464,hard,How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?,7484,Dense-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Discrimination against Transgender Women:
+To report discrimination, contact the Tamil Nadu Police's dedicated helpline or visit the nearest police station. You can also file a complaint online through the Tamil Nadu Police website. Provide details of the incident, and the police will take necessary action.
+
+[Document 3]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 4]
+Voyeurism and Privacy Violations:
+The Tamil Nadu Police handles cases of voyeurism and privacy violations under the Indian Penal Code (IPC) and the Information Technology Act. Victims can report such incidents at the nearest police station or through the Tamil Nadu Police's online complaint portal. The police will investigate and take action against the accused.
+
+[Document 5]
+Ethical Framework for Informers:
+The Tamil Nadu Police follows a confidential and protected framework for dealing with informers. Informers' identities are kept secret, and their information is verified before action is taken. The police ensure that informers are not coerced or exploited.","['464', '462', '827', '450', '1441']",[],True,f400ed3f3c146b0600e1a4d8826e73ed02a83bca51e54b73bc6e46841e0c74c7,"Tamil Nadu Police ensures the anonymity of sexual harassment complainants by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines. [Document 1]",439,42,5.23957960000007,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.",0.6582278481012658,1,0
+Q007485,464,hard,How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?,7484,No-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",,[],[],,677971eb4e4f530241c846aafe6a0036fafad8106d1b4df552c7c3206af79a31,"The Tamil Nadu Police cannot ensure anonymity for individuals reporting sexual harassment without additional measures like encryption and pseudonymization, as their records are publicly accessible. [System]",129,33,4.321205599999303,False,2133.796875,ok,1.0,1.0,,The candidate's answer partially addresses the question but lacks evidence from the reference and introduces unsupported claims about encryption and pseudonymization.,0.2631578947368421,0,0
+Q007485,464,hard,How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?,7484,RRF-RAG,"Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.","[Document 1]
+Protecting Identity of Sexual Harassment Complainants:
+Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.
+
+[Document 2]
+Reporting Sexual Harassment:
+To report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.
+
+[Document 3]
+Ethical Framework for Informers:
+The Tamil Nadu Police follows a confidential and protected framework for dealing with informers. Informers' identities are kept secret, and their information is verified before action is taken. The police ensure that informers are not coerced or exploited.
+
+[Document 4]
+Reporting Harassment or Threats:
+Foreigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.
+
+[Document 5]
+Reporting Harassment in Public Places:
+To report harassment in public places, call 100 or visit the nearest police station. You can also use the Tamil Nadu Police's mobile app to report incidents. Provide details of the incident, and the police will take necessary action.","['464', '827', '1441', '1774', '86']",[],True,9fc2de4c15914613609e3550cf43bd545b9fc7da4495ce12c486f6da7633c379,"Tamil Nadu Police ensures the anonymity of sexual harassment complainants by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines. [Document 1]",435,42,5.511976900001173,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.",0.6582278481012658,1,0
+Q008851,710,original,What are the legal consequences for illegally dividing joint family property?,8850,BM25-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Property Damage During Disputes:
+Legal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.
+
+[Document 3]
+Property Sale Fraud:
+The legal consequences for property sale fraud in Tamil Nadu can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Indian Penal Code (IPC) Section 420.
+
+[Document 4]
+Threatening Healthcare Workers:
+Legal consequences can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Medicare Service Persons and Medicare Service Institutions (Prevention of Violence and Damage to Property) Act.
+
+[Document 5]
+Illegally Collecting Rent from Disputed Property:
+The person can be charged under Section 206 of the Indian Penal Code (IPC) for criminal breach of trust, and may face imprisonment up to 3 years and/or a fine.","['710', '713', '601', '563', '719']",[],True,4a3d8b52f3fdcb6b64cc6c8ea703c884f68682b5aaed5d6dff11f9ade52c6626,"Illegally dividing joint family property can lead to civil suits and penalties under the Hindu Succession Act, 1956. Legal consequences also include fines and imprisonment under the IPC, depending on the severity and circumstances of the case. [Document 1]",378,54,6.5402522000003955,False,2133.796875,ok,2.0,2.0,2.0,Answer directly addresses the question and is supported by evidence from Document 1 and Document 5.,0.6575342465753424,1,0
+Q008851,710,original,What are the legal consequences for illegally dividing joint family property?,8850,Dense-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Illegal Conversion of Land Use:
+Consequences include fines, imprisonment, and restoration of land to its original use. The Tamil Nadu Town and Country Planning Act imposes penalties for unauthorized land use changes.
+
+[Document 3]
+Boundary Encroachment:
+Legal consequences can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Prevention of Land Grabbing Act, 1982.
+
+[Document 4]
+Illegal Construction on Government Land:
+Legal consequences for illegal construction on government land can include demolition of the structure, imprisonment up to 3 years, and a fine under the Tamil Nadu Public Buildings (Eviction of Unauthorised Occupants) Act, 1960.
+
+[Document 5]
+Illegal Construction on Road Margins:
+Legal consequences include demolition of the structure, imprisonment up to 3 years, and/or a fine up to ₹50,000 under the Tamil Nadu Highways Act.","['710', '701', '695', '698', '734']",[],True,3f2c4eaca677cd5f6dda6cd2e9224f1e8fb0d284c8660db17eb005f4bc4f64fc,"Illegally dividing joint family property can result in civil suits and penalties under the Hindu Succession Act, 1956. Specifics vary but may include fines, imprisonment, and restoration of property. [Document 1]",376,48,5.990158599999631,False,2133.796875,ok,2.0,2.0,2.0,Answer directly addresses the question with specific legal consequences and is supported by evidence from Document 1.,0.5846153846153846,1,0
+Q008851,710,original,What are the legal consequences for illegally dividing joint family property?,8850,No-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",,[],[],,5db99b16305833d487715b893a5d826e6ee06c77acd606fbf5b8292e2ce623e7,"The legal consequences for illegally dividing joint family property can include fines, imprisonment, and restoration of property to its original owners. [System]",123,28,3.473415300000852,False,2133.796875,ok,2.0,2.0,,Candidate answer is correct but lacks specific evidence from the reference.,0.41379310344827586,0,0
+Q008851,710,original,What are the legal consequences for illegally dividing joint family property?,8850,RRF-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Property Damage During Disputes:
+Legal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.
+
+[Document 3]
+Property Sale Fraud:
+The legal consequences for property sale fraud in Tamil Nadu can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Indian Penal Code (IPC) Section 420.
+
+[Document 4]
+Illegal Construction on Road Margins:
+Legal consequences include demolition of the structure, imprisonment up to 3 years, and/or a fine up to ₹50,000 under the Tamil Nadu Highways Act.
+
+[Document 5]
+Real Estate Title Fraud:
+The legal consequences for real estate title fraud in Tamil Nadu include imprisonment up to 7 years and a fine under the Indian Penal Code (IPC) Section 420.","['710', '713', '601', '734', '640']",[],True,113ef89962796fde5aa3ae312651f4e67c574563e2d39924cc79a7c39b27d941,"Illegally dividing joint family property can lead to civil suits and penalties under the Hindu Succession Act, 1956. Legal consequences also include fines and imprisonment under the Indian Penal Code (IPC), depending on the circumstances. [Document 1]",359,53,7.016944599999988,False,2133.796875,ok,2.0,2.0,2.0,"Answer directly addresses the question with correct information from the documents, supported by evidence.",0.676056338028169,1,0
+Q008852,710,formal,What legal repercussions result from the unauthorized partitioning of communal assets?,8851,BM25-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Legal Consequences for Unauthorized Bill Posting:
+Unauthorized bill posting is an offense under the Tamil Nadu Urban Local Bodies (Permission for Erection of Advertisements) Rules, 2018. The penalty can range from ₹5,000 to ₹50,000.
+
+[Document 2]
+Unauthorized Street Vending:
+Unauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.
+
+[Document 3]
+Unauthorized Quarrying:
+Unauthorized quarrying can result in imprisonment up to 5 years and/or a fine up to ₹5 lakhs to ₹25 lakhs, as per the Tamil Nadu Minor Mineral Concession Rules, 1959.
+
+[Document 4]
+Punishment for Unauthorized Street Performances
+Unauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.
+
+[Document 5]
+Unauthorized Weighing Equipment:
+Using unauthorized weighing equipment in Tamil Nadu can result in a fine up to ₹5,000 and/or imprisonment up to 1 year.","['521', '507', '731', '528', '542']",[],False,4ba629e5058273588dedae941866a1d106097d3ac78d31b421d16be264ee61b2,"Unauthorized partitioning of communal assets could lead to fines ranging from ₹5,000 to ₹50,000, depending on the specific rules governing the act, as detailed in [Document 1]. However, without direct evidence, other forms of unauthorized activities like street vending, quarrying, and weighing equipment use have varying legal consequences, including fines and potential imprisonment, as outlined in [Document 2] to [Document 5].",377,92,12.191666699998677,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly identifies fines for unauthorized partitioning and references relevant documents, aligning with the legal consequences for similar unauthorized activities.",0.3010752688172043,3,0
+Q008852,710,formal,What legal repercussions result from the unauthorized partitioning of communal assets?,8851,Dense-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Illegal Conversion of Land Use:
+Consequences include fines, imprisonment, and restoration of land to its original use. The Tamil Nadu Town and Country Planning Act imposes penalties for unauthorized land use changes.
+
+[Document 3]
+Ceiling Surplus Land:
+The penalty for illegal occupation of ceiling surplus land is governed by the Tamil Nadu Land Reforms (Ceiling on Holdings) Act, 1961. It may include a fine, eviction, and/or confiscation of the land, with penalties varying depending on the specific circumstances.
+
+[Document 4]
+Forcefully Changing Locks of Disputed Property:
+The penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.
+
+[Document 5]
+Encroaching Common Areas:
+Encroaching common areas in apartment complexes can lead to legal consequences under the Tamil Nadu Apartment Ownership Act, 1994. The penalty may include a fine and/or eviction from the premises, as well as restoration of the encroached area.","['710', '701', '723', '714', '722']",[],True,762770ef6729b88e401fc32f41c763fcf1857e20c749db21383e05c1538d3beb,"Unauthorized partitioning of communal assets can lead to legal repercussions, including civil suits, fines, imprisonment, fines, eviction, confiscation, and restoration of the asset under various laws like the Hindu Succession Act, Tamil Nadu Town and Country Planning Act, Land Reforms Act, IPC, and Apartment Ownership Act. [Document 1-5]",393,70,9.189631699999154,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the legal repercussions.",0.32941176470588235,0,0
+Q008852,710,formal,What legal repercussions result from the unauthorized partitioning of communal assets?,8851,No-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",,[],[],,eb215b24f1ce3379c39df9c5bde9faccccb2fb9cf9b49e7e903c2d108e7ef3df,"Unauthorized partitioning of communal assets can lead to legal repercussions including fines, legal action, and potential criminal charges, depending on the severity and jurisdiction. [System]",124,33,4.201355699999112,False,2133.796875,ok,2.0,2.0,,"Candidate answer is correct and directly addresses the question, but lacks specific evidence from the reference.",0.32786885245901637,0,0
+Q008852,710,formal,What legal repercussions result from the unauthorized partitioning of communal assets?,8851,RRF-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Unauthorized Quarrying:
+Unauthorized quarrying can result in imprisonment up to 5 years and/or a fine up to ₹5 lakhs to ₹25 lakhs, as per the Tamil Nadu Minor Mineral Concession Rules, 1959.
+
+[Document 2]
+Legal Consequences for Unauthorized Bill Posting:
+Unauthorized bill posting is an offense under the Tamil Nadu Urban Local Bodies (Permission for Erection of Advertisements) Rules, 2018. The penalty can range from ₹5,000 to ₹50,000.
+
+[Document 3]
+Unauthorized Layouts:
+Developing unauthorized layouts is an offense under the Tamil Nadu Town and Country Planning Act. The penalty can include a fine of up to ₹50,000 and/or imprisonment for up to 1 year, as well as demolition of the unauthorized structure.
+
+[Document 4]
+Encroaching Common Areas:
+Encroaching common areas in apartment complexes can lead to legal consequences under the Tamil Nadu Apartment Ownership Act, 1994. The penalty may include a fine and/or eviction from the premises, as well as restoration of the encroached area.
+
+[Document 5]
+Unauthorized Street Vending:
+Unauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.","['731', '521', '741', '722', '507']",[],False,187c4af811755cec8b27ac6c6621ad2537ef747f3a49876e4376a6ab856122c9,"Unauthorized partitioning of communal assets can lead to legal repercussions including fines and imprisonment. For example, under the Tamil Nadu Town and Country Planning Act, developing unauthorized layouts can result in a fine up to ₹50,000 and/or up to 1 year in prison [Document 3]. [Document 1], [Document 2], [Document 3], [Document 4], and [Document 5] provide similar details across different types of unauthorized activities. [Document 1] specifically mentions imprisonment up to 5 years for unauthorized quarrying.",407,115,14.987115699999777,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly identifies legal repercussions for unauthorized partitioning, including fines and imprisonment, and cites specific documents that support these claims.",0.1782178217821782,7,0
+Q008853,710,casual,So what happens if you split up my grandma's stuff without asking?,8852,BM25-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+1. Can police search my house without a warrant?
+Generally, no. Police need a warrant to search your house, except in emergency situations or with your consent. (As per CrPC, 1973)
+
+[Document 2]
+Question 1: Can police enter my house without a warrant?
+Generally, no. Police need a warrant to enter your house, except in emergency situations or with your consent. (As per Tamil Nadu Police guidelines)
+
+[Document 3]
+Response to Filming/Photographing without Consent:
+If someone is filming or photographing you without consent, stay calm and:
+* Politely ask them to stop
+* If they refuse, seek help from nearby authorities or police
+* Note down the person's details and report the incident to the police
+
+[Document 4]
+Reporting Bomb Threats:
+If you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.
+
+[Document 5]
+Arrest without Warrant:
+Police can arrest without a warrant in certain situations, such as:
+* If they witness a crime
+* If you're suspected of a serious offense
+* If you're a threat to public safety
+Note: The police must follow Tamil Nadu Police guidelines and the Code of Criminal Procedure, 1973.","['847', '33', '2008', '933', '41']",[],False,6fffffa4c641e9852fd16c92387597c09fa4599bb326ab9f0a6e7a41df318e73,"If you split up your grandma's stuff without asking, there are no specific legal repercussions mentioned in the documents. However, it's generally considered impolite and could cause tension. Police need a warrant to search or enter your house, and they can only do so in emergencies or with your consent. [Document 1] & [Document 2]",424,72,9.512623099999473,False,2133.796875,ok,1.0,1.0,2.0,"Candidate answer partially addresses the question and is supported by the documents, but lacks specific legal consequences related to dividing joint family property.",0.1590909090909091,2,0
+Q008853,710,casual,So what happens if you split up my grandma's stuff without asking?,8852,Dense-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Filing a Partition Suit for Ancestral Property in Tamil Nadu:
+To file a partition suit, consult a lawyer and gather documents such as property deeds, wills, and family tree records. File a petition in the District Court or Sub-Court under the Hindu Succession Act, 1956, or the Tamil Nadu Partition Act, 1862.
+
+[Document 3]
+Forcefully Changing Locks of Disputed Property:
+The penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.
+
+[Document 4]
+Harassing Divorced Women:
+Harassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.
+
+[Document 5]
+Threatening Senior Citizens:
+Threatening senior citizens is a punishable offense. The legal consequences can include imprisonment for up to 3 years and a fine, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007.","['710', '1862', '714', '581', '575']",[],True,903468622c0c9f90c9556e7908baad80625105cf91b318aa62bc202f3056e2f4,"Splitting up grandma's stuff without asking can lead to legal consequences, including civil suits and penalties under the Hindu Succession Act. Depending on the situation, there could be imprisonment and fines under various acts like IPC, Protection of Women from Domestic Violence Act, and Maintenance and Welfare of Parents and Senior Citizens Act. [Document 1]",435,68,9.177366300000358,False,2133.796875,ok,2.0,2.0,2.0,"Answer directly addresses the question with correct information from the documents, fully supported by evidence.",0.4,1,0
+Q008853,710,casual,So what happens if you split up my grandma's stuff without asking?,8852,No-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",,[],[],,1b3ef3ff9d49b853a9513b8eac19c5ae3ed791033f11e5a7e70e77649d104caa,"If you split up your grandma's stuff without asking, it could be considered disrespectful and against her wishes. You should ask permission first to avoid any issues or hurt feelings. [System]",125,38,4.9058260999991035,False,2133.796875,ok,0.0,1.0,,"The answer does not provide factual evidence from the reference, which discusses legal consequences.",0.058823529411764705,0,0
+Q008853,710,casual,So what happens if you split up my grandma's stuff without asking?,8852,RRF-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegal Subdivision of Agricultural Holdings:
+The Tamil Nadu Land Reforms Act prohibits the subdivision of agricultural holdings without permission. The penalty can include a fine of up to ₹25,000 and/or imprisonment for up to 6 months.
+
+[Document 2]
+What to Do if Someone is Arrested
+If someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.
+
+[Document 3]
+Selling Agricultural Land:
+Selling agricultural land without proper conversion can attract a penalty of up to ₹1 lakh and/or imprisonment under the Tamil Nadu Land Reforms Act.
+
+[Document 4]
+Dealing with Unauthorized Photography:
+If someone is taking photos without consent in public:
+* Politely ask them to stop
+* Report to nearest police station or dial 100
+* Note the perpetrator's details, if possible
+
+[Document 5]
+Suspected Family Member Involvement:
+If you suspect a family member is involved in drug trafficking, contact the Tamil Nadu Police anonymously or visit the nearest police station to report your concerns. You can also call the police helpline (100) for assistance.","['740', '46', '725', '1893', '130']",[],False,21cb8e1a7494f80fa2c2898c7061006ae6723a3aa05c16af2618980597e5d5b7,"If you split up your grandma's stuff without asking, it might be considered illegal under Tamil Nadu's Land Reforms Act, which prohibits subdividing agricultural holdings without permission. However, the specific issue of splitting up personal belongings isn't addressed by these documents. [Document 1]",374,57,7.191453600000386,False,2133.796875,ok,1.0,1.0,1.0,Candidate answer correctly identifies potential legal issues under Tamil Nadu's Land Reforms Act but lacks specificity for personal belongings.,0.125,1,0
+Q008854,710,search,How do legal systems handle disputes over dividing family-owned property without consent?,8853,BM25-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Railway Police Jurisdiction:
+The Railway Police in Tamil Nadu has jurisdiction over railway stations, trains, and railway premises within the state. They handle cases related to railway property, passengers, and staff.
+
+[Document 3]
+Diplomatic Immunity and Police Jurisdiction
+Diplomatic immunity limits police jurisdiction over foreign diplomats and officials. They are exempt from local laws and cannot be arrested or prosecuted without the consent of their home country or the Indian government.
+
+[Document 4]
+Cases Handled by District Courts:
+District Courts in Tamil Nadu handle:
+- Civil cases (e.g., property disputes, contracts)
+- Criminal cases (e.g., serious offenses, appeals from Magistrate Courts)
+
+[Document 5]
+Property Damage During Disputes:
+Legal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.","['710', '1922', '1759', '1047', '713']",[],True,d85d0e74d855ffa23b317541c6fd9f212c0c34d7fede36f90fdee1d9f0458fcb,"Disputes over dividing family-owned property without consent are handled by district courts in civil cases. The Hindu Succession Act, 1956, governs such cases, potentially leading to civil suits with penalties. However, specific penalties vary based on circumstances. [Document 1] Additionally, the Railway Police handle cases involving railway property, while diplomatic immunities limit police jurisdiction over foreign officials. [Document 3]",358,86,11.551082699999824,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly identifies district courts for civil disputes and references the Hindu Succession Act, 1956, and potential penalties. It also correctly notes the role of Railway Police and the concept of diplomatic immunity, aligning with the evidence provided.",0.43478260869565216,2,0
+Q008854,710,search,How do legal systems handle disputes over dividing family-owned property without consent?,8853,Dense-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Matrimonial Disputes
+Matrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.
+
+[Document 3]
+Property Attachment:
+During trials, property attachment is done through a court order. The police can seize properties under Section 102 of the CrPC. The process involves:
+* Court order issuance
+* Police seizure of property
+* Property documentation and storage
+
+[Document 4]
+Compromise in Compoundable Offenses:
+To apply for compromise:
+1. Ensure the offense is compoundable
+2. Obtain consent from the complainant and accused
+3. Submit a compromise petition to the court
+4. Court approval is required for the compromise to be valid.
+
+[Document 5]
+Forcefully Changing Locks of Disputed Property:
+The penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.","['710', '95', '763', '770', '714']",[],True,85efdba6099835488052dce1390ccb94da6ee257a3d3804eed2f0bec2b97df98,"Legal systems handle disputes over family-owned property without consent through courts issuing property attachment orders under the CrPC. Civil suits and penalties may also apply, as per the Hindu Succession Act. For matrimonial disputes, police mediate but can escalate to courts under relevant acts like the Hindu Marriage Act or Domestic Violence Act. In cases of trespass or criminal intimidation, offenders face imprisonment and fines. [Document 3] [Document 1] [Document 2] [Document 5]",407,98,13.06382929999927,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the handling of disputes over family-owned property without consent, citing relevant documents and legal processes.",0.3333333333333333,4,0
+Q008854,710,search,How do legal systems handle disputes over dividing family-owned property without consent?,8853,No-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",,[],[],,8444cbb00c1aa09f202e0cf7bef92c54211f0803885ae3753cf458084116d3d8,"Legal systems typically require all parties to agree to divide family-owned property. Disputes are resolved through negotiation, mediation, or litigation if necessary. [System]",125,33,4.241118699999788,False,2133.796875,ok,1.0,2.0,,Candidate answer is relevant but lacks direct evidence from the reference.,0.13333333333333333,0,0
+Q008854,710,search,How do legal systems handle disputes over dividing family-owned property without consent?,8853,RRF-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Property Damage During Disputes:
+Legal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.
+
+[Document 3]
+Matrimonial Disputes
+Matrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.
+
+[Document 4]
+Property Rights Violations:
+Women can report property rights violations by family members at the nearest police station or the Mahila Police Station. They can also approach the District Collector or the Revenue Divisional Officer for assistance. The police will investigate and take action to protect the woman's property rights.
+
+[Document 5]
+Damaging Public Infrastructure:
+Damaging public infrastructure during property disputes can lead to imprisonment up to 5 years and/or a fine under the Tamil Nadu Public Property (Prevention of Damage and Loss) Act, 1992.","['710', '713', '95', '476', '736']",[],True,2993ef2f8e3b064481b3adf409d19b4bf3c3553420e8f9acbb93385cbd441ee3,"Disputes over family-owned property without consent are handled through various legal means. Civil suits and penalties under the Hindu Succession Act can arise from illegal division. For property damage, compensation and penalties under the IPC may apply. Matrimonial disputes involve police counseling and referral to family centers or courts. Women can report violations to police or seek help from district officials. Damaging public infrastructure leads to fines and possible imprisonment under specific acts. [Document 1-5]",396,95,12.514242900000681,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly and directly addresses the handling of disputes over family-owned property without consent, supported by evidence from all documents.",0.35398230088495575,0,0
+Q008855,710,hard,What penalties can be imposed for improperly dividing inherited wealth among relatives?,8854,BM25-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Assault with Sexual Intent:
+The penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.
+
+[Document 3]
+Surety:
+A surety is a person who guarantees the accused will appear in court. Anyone with a good reputation and sufficient financial resources can stand as surety, including family members, friends, or relatives.
+
+[Document 4]
+2. What is the procedure for recording a child victim's statement?
+A child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.
+
+[Document 5]
+Penalties for Drunk Driving:
+In Tamil Nadu, drunk driving penalties include:
+- Imprisonment up to 6 months
+- Fine up to ₹10,000
+- License suspension for at least 6 months","['710', '688', '1031', '106', '283']",[],True,346c39b575591c98d04be896c2141cf357898c229f3a964f024f90ec5cadbbe1,"For improperly dividing inherited wealth among relatives, there are civil suits and potential penalties under the Hindu Succession Act, 1956 [Document 1]. However, specific penalties vary. [Document 1]",399,44,5.685954300000958,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer correctly identifies potential penalties under the Hindu Succession Act, 1956 and acknowledges variability in specific penalties, supported by Document 1.",0.5333333333333333,2,0
+Q008855,710,hard,What penalties can be imposed for improperly dividing inherited wealth among relatives?,8854,Dense-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Dual Registration of Same Property:
+The penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.
+
+[Document 3]
+Illegal Subdivision of Agricultural Holdings:
+The Tamil Nadu Land Reforms Act prohibits the subdivision of agricultural holdings without permission. The penalty can include a fine of up to ₹25,000 and/or imprisonment for up to 6 months.
+
+[Document 4]
+Punishment for Senior Citizen Pension Fraud:
+Senior citizen pension fraud is punishable under the IPC and the Maintenance and Welfare of Parents and Senior Citizens Act. Penalties include imprisonment up to 3 years and fines up to ₹5,000.
+
+[Document 5]
+Marriage Fraud Involving Foreigners:
+Punishment for marriage fraud involving foreigners in Tamil Nadu can include imprisonment up to 10 years and a fine under the IPC Section 494 (bigamy) and the Foreigners Act, 1946.","['710', '720', '740', '636', '642']",[],True,d48863ad7dc0b05f1a9b978c66cc62cf4f705fb0854d7866dfc7e53e76d92403,"Penalties for improperly dividing inherited wealth can vary but generally include civil suits, fines, and imprisonment. Under the Hindu Succession Act, civil suits and potential penalties may apply. For instance, under the Tamil Nadu Land Reforms Act, illegal subdivision of agricultural holdings can result in a fine up to ₹25,000 and/or up to 6 months' imprisonment. [Document 3]",403,82,10.658388100000593,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from Document 3 regarding penalties for illegal subdivision of agricultural holdings, which is relevant to the division of inherited wealth.",0.3617021276595745,1,0
+Q008855,710,hard,What penalties can be imposed for improperly dividing inherited wealth among relatives?,8854,No-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",,[],[],,c275d6a17e88bd1055a813e8f05651078896db8d974c147b42c494b9b9d14e27,"Without specific evidence, I can't provide exact penalties. However, improperly dividing inherited wealth among relatives can lead to legal disputes and potential fines or penalties depending on local laws. [System]",124,38,4.91252269999859,False,2133.796875,ok,1.0,1.0,,Candidate acknowledges lack of evidence but correctly relates to potential legal consequences for dividing inherited wealth.,0.3880597014925373,0,0
+Q008855,710,hard,What penalties can be imposed for improperly dividing inherited wealth among relatives?,8854,RRF-RAG,"Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.","[Document 1]
+Illegally Dividing Joint Family Property:
+Illegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.
+
+[Document 2]
+Dual Registration of Same Property:
+The penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.
+
+[Document 3]
+Manipulating Land Registration Documents:
+Manipulating land registration documents is a serious offense under the Registration Act, 1908, and the Indian Penal Code. Penalties can include imprisonment up to 7 years and/or a fine for forgery and cheating.
+
+[Document 4]
+Punishment for Senior Citizen Pension Fraud:
+Senior citizen pension fraud is punishable under the IPC and the Maintenance and Welfare of Parents and Senior Citizens Act. Penalties include imprisonment up to 3 years and fines up to ₹5,000.
+
+[Document 5]
+Ceiling Surplus Land:
+The penalty for illegal occupation of ceiling surplus land is governed by the Tamil Nadu Land Reforms (Ceiling on Holdings) Act, 1961. It may include a fine, eviction, and/or confiscation of the land, with penalties varying depending on the specific circumstances.","['710', '720', '711', '636', '723']",[],True,2ef5f2129498e11a187cd8b8cadbcd622bd33cc5c039311b22e1f58687bb020d,"Penalties for improperly dividing inherited wealth can include civil suits, imprisonment up to 7 years, and fines. Under the Hindu Succession Act, 1956, there are specific penalties, but they vary based on circumstances. [Document 1] Additionally, under the Indian Penal Code (IPC), penalties can range from imprisonment up to 7 years and fines, depending on the context. [Document 2-5]",413,88,11.152870600000824,False,2133.796875,ok,2.0,2.0,2.0,"Candidate answer directly addresses the question and is supported by evidence from multiple documents, accurately reflecting the range of penalties for dividing inherited wealth.",0.425531914893617,1,0

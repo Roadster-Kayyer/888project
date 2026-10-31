@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_99",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly identifies the necessity of the SG Arrival Card for health declaration, and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly identifies the necessity of the SG Arrival Card for health declaration, and is supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}",
+      "input_tokens": 988,
+      "output_tokens": 192,
+      "seconds": 14.809445799997775,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

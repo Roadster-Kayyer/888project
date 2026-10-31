@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002319",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the rules for police officers in Tamil Nadu, is relevant to the question, and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the rules, including adherence to specific laws and ethical guidelines, as supported by Documents 1-5.\",\n}",
+      "input_tokens": 837,
+      "output_tokens": 75,
+      "seconds": 6.2852985999998054,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the rules for police officers in Tamil Nadu, is relevant to the question, and is supported by evidence from all documents.\"}",
+      "input_tokens": 877,
+      "output_tokens": 52,
+      "seconds": 4.277662500000588,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

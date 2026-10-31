@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_105",
+  "doc_id": "PB_cc9c3dfe3c902d1137c0",
+  "query_type": "CPF_111",
+  "query": "Why are Singapore Permanent Residents (PRs) not eligible for the Workfare Income Supplement (WIS) scheme?",
+  "reference_answer": "The Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.",
+  "corpus_query_index": 63,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.\n\n[Document 2]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 5]\nAll Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.",
+  "retrieved_doc_ids": [
+    "PB_51abc1b31808d773e226",
+    "PB_cc9c3dfe3c902d1137c0",
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_c82033a92d9e7c15a412"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7b09143d5430a2ade0239002a7252fa5fde166b5ef4fd132c910ad91639925b3",
+  "answer": "Singapore Permanent Residents (PRs) are not eligible for the Workfare Income Supplement (WIS) scheme because the scheme is specifically designed for Singaporean lower-wage workers, and PRs are not considered Singapore citizens [Document 5]. Additionally, the WIS considers total income, which excludes PRs' income since they are not Singapore citizens [Document 4].",
+  "input_tokens": 371,
+  "output_tokens": 74,
+  "seconds": 9.658880300004967,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

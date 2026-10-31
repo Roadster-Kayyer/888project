@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_23",
+  "doc_id": "PB_183b9bc3c7d1d8eee2cf",
+  "query_type": "CPF_111",
+  "query": "If I do not intend to renew my licence, do I need to settle my outstanding MediSave payable?",
+  "reference_answer": "You’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.",
+  "corpus_query_index": 83,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.\n\n[Document 2]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 3]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 4]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_183b9bc3c7d1d8eee2cf",
+    "PB_43972d7faa0ccf029be3",
+    "PB_b136e24f78206e70b3ee",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7991d04ba781eefd559534c56e8df57b24af6c9df35cd6837062d1339ef72cc6",
+  "answer": "Even if you don't intend to renew your licence, you still need to settle your outstanding MediSave payable. [Document 1] states you're required to pay it regardless of renewal intentions. However, you can use CAYE contributions to offset it instead. [Document 2] provides options for doing so. [Document 1] confirms this obligation.",
+  "input_tokens": 757,
+  "output_tokens": 74,
+  "seconds": 9.598893699992914,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

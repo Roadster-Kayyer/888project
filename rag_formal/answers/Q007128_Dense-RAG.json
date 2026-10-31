@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007128",
+  "doc_id": "40",
+  "query_type": "casual",
+  "query": "So, what's up with my rights when they're trying to arrest me?",
+  "corpus_query_index": 7127,
+  "system": "Dense-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 4]\n2. Can I be arrested for a bailable offense?\nYes, you can be arrested for a bailable offense, but you have the right to be released on bail by the police or a court.\n\n[Document 5]\nSuspect Rights During Questioning:\nSuspects have the right to remain silent, consult a lawyer, and be informed of their rights. They must be treated with dignity and respect, and not be subjected to physical or mental abuse.",
+  "retrieved_doc_ids": [
+    "284",
+    "40",
+    "846",
+    "58",
+    "1421"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c425b9e8326940a749bbfbca4954a27f32a5e67eefb62d9607a61ec524403f01",
+  "answer": "When arrested, you have several rights including knowing the reason for arrest, contacting a lawyer, remaining silent, and requesting medical attention if needed. You also have the right to be released on bail if charged with a bailable offense. Suspects must be treated with dignity and respect and cannot be abused. [Document 3]",
+  "input_tokens": 371,
+  "output_tokens": 66,
+  "seconds": 8.705457000000024,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

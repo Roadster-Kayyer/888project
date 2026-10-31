@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_27",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer incorrectly describes IEO as related to the UK and does not match the reference about Singapore."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer incorrectly describes IEO as related to the UK and does not match the reference about Singapore.\",\n  \"answer\": \"The candidate's answer is incorrect and irrelevant as it pertains to the UK and not Singapore, where IEO is defined.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 95,
+      "seconds": 7.003969400000642,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_49",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses safety and regulation compliance before moving off, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses safety and regulation compliance before moving off, supported by Document 1 and Document 2.\",\n  \"evidence\": \"[Document 1] A driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3). [Document 2] The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\"\n}",
+      "input_tokens": 803,
+      "output_tokens": 192,
+      "seconds": 15.053165999997873,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

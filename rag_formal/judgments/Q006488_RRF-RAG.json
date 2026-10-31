@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006488",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and provides relevant steps for reporting fake online content, supported by evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods to spot and report fake online content, aligns with evidence from documents, and instructs on evidence collection.\",\n}",
+      "input_tokens": 819,
+      "output_tokens": 192,
+      "seconds": 15.146984899998643,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and provides relevant steps for reporting fake online content, supported by evidence from the documents.\"}",
+      "input_tokens": 859,
+      "output_tokens": 48,
+      "seconds": 4.008079799998086,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

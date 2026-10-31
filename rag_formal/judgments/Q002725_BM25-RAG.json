@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002725",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines application process but omits details on written and physical tests."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines application process but omits details on written and physical tests.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 1104,
+      "output_tokens": 76,
+      "seconds": 6.191569800001162,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

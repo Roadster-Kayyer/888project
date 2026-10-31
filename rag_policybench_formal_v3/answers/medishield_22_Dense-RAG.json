@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_22",
+  "doc_id": "PB_602681b75becd57cfb35",
+  "query_type": "medishield",
+  "query": "Where can one find a summary of the key features of the MediShield Life Scheme?",
+  "reference_answer": "A summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.",
+  "corpus_query_index": 317,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 2]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 5]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.",
+  "retrieved_doc_ids": [
+    "PB_602681b75becd57cfb35",
+    "PB_eacf65b60e2998442b5a",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_25927e8ab4491744b345",
+    "PB_fd10bc60905030393bfb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "71073c2767b84197198ca33f703d14b9af65a22290d68d5cd22d46916daf3fe8",
+  "answer": "One can find a summary of the key features of the MediShield Life Scheme in the MediShield Life Scheme booklet. [Document 1]",
+  "input_tokens": 299,
+  "output_tokens": 29,
+  "seconds": 3.8048124999913853,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

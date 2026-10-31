@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_103",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the transition to digital LTVP issuance and replacements, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the transition to digital LTVP issuance and replacements, supported by Document 1 and Document 2.\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully supported by the evidence provided in the documents. The transition to digital issuance of LTVPs is clearly stated, and the process for replacements is accurately described, aligning with the information in Document 1 and Document 2. There are no unsupported claims or omissions in the candidate's response.",
+      "input_tokens": 916,
+      "output_tokens": 150,
+      "seconds": 11.591689400011091,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

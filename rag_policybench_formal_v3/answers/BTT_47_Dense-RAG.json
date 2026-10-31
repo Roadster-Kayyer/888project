@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_47",
+  "doc_id": "PB_d746f0212f8873d30582",
+  "query_type": "BTT",
+  "query": "What is the consequence of failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations?",
+  "reference_answer": "It constitutes an offence.",
+  "corpus_query_index": 42,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 2]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 3]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.\n\n[Document 4]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 5]\nThe electronic health declaration is in place for purposes of disease control, specifically to guard against importing diseases of concern, to protect the health of Singapore residents. Those who make false declarations may be prosecuted under the Infectious Diseases Act.",
+  "retrieved_doc_ids": [
+    "PB_ee19c47e62eb004069ad",
+    "PB_a5deb8741f88193f4891",
+    "PB_89b49e1ae6fc2845f85e",
+    "PB_19512072066023768385",
+    "PB_1e36bd59d862bbf04f33"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f245251108352a66625d20a10d21a5203de98ecb386d5611be2ec83a6eca2395",
+  "answer": "Failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations does not directly affect visa or entry requirements as per Document 1. However, it could lead to inconveniences during immigration checks, as stated in Document 4. No direct consequences for test compliance are mentioned. [Document 1]",
+  "input_tokens": 653,
+  "output_tokens": 64,
+  "seconds": 8.291551399990567,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008697",
+  "doc_id": "683",
+  "query_type": "formal",
+  "query": "What sanctions are imposed on individuals who engage in violent behavior at sports matches?",
+  "corpus_query_index": 8696,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nCommunity Policing Initiatives:\nEthical guidelines include respect for human rights, transparency, and accountability. Police must engage with the community in a fair and impartial manner, ensuring equal treatment for all individuals.\n\n[Document 3]\nEnrolling in Tamil Nadu Police Youth Clubs:\nTo enroll in Tamil Nadu Police Youth Clubs, visit the Tamil Nadu Police website or contact your local police station for information on eligibility criteria, registration process, and club activities. The youth clubs aim to engage young people in community service, sports, and character-building activities, while promoting a positive relationship with the police.\n\n[Document 4]\nAgricultural Loan Harassment Cases:\nThe Tamil Nadu Police handles cases of agricultural loan harassment by registering complaints and investigating allegations of harassment by money lenders. They work with banks and other financial institutions to ensure that farmers' rights are protected, and action is taken against those who engage in harassment or illegal lending practices.\n\n[Document 5]\nFingerprint Bureau Function:\nThe Fingerprint Bureau in Tamil Nadu Police collects, analyzes, and matches fingerprints found at crime scenes with those in the database. This helps identify suspects, solve crimes, and maintain fingerprint records.",
+  "retrieved_doc_ids": [
+    "107",
+    "1450",
+    "996",
+    "1395",
+    "1921"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a24378c9658663f9abf6259bdd331ab002fb997c0a9a7474efe346c29e661b60",
+  "answer": "The provided documents do not mention any sanctions for violent behavior at sports matches. [Document 1-5]",
+  "input_tokens": 423,
+  "output_tokens": 23,
+  "seconds": 3.0984717999999702,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

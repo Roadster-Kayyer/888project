@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_0",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer contains incorrect top-up amount and lacks specific evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer contains incorrect top-up amount and lacks specific evidence.\",\n  \"evidence\": null\n}\n\n\nIn this case, the correctness score is 0 because the candidate answer provides an incorrect amount of the MediSave top-up ($3,000 instead of $50 to $200). The relevance score is 0 because the candidate answer does not directly address the specific amounts and uses mentioned in the reference. Faithfulness is null due to the absence of evidence to support the claim of the $3,000 top-up, and the candidate's answer does not contain any substantive factual claims that can be directly tied to the supplied evidence. The reason succinctly explains the",
+      "input_tokens": 452,
+      "output_tokens": 192,
+      "seconds": 14.451827700002468,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

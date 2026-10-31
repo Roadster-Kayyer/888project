@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_113",
+  "doc_id": "PB_ffb44a115e698c779310",
+  "query_type": "ICA_134",
+  "query": "My trip to Singapore is cancelled. How do I withdraw the submitted SG Arrival Card (Individual/Group) for the cancelled trip?",
+  "reference_answer": "You do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "corpus_query_index": 184,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 2]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 3]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 4]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_ffb44a115e698c779310",
+    "PB_6f67feecf50543bb14eb",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ebece625f310302d39c431921d193def1a060d47e0de28dece9519ac5520d07c",
+  "answer": "If your trip to Singapore is cancelled, you do not need to withdraw or void the SG Arrival Card (SGAC). However, if you plan a new trip, you'll need to submit a new SGAC for your upcoming journey. For MyICA mobile app users, you can delete your record by selecting and deleting the relevant submission. [Document 1]",
+  "input_tokens": 786,
+  "output_tokens": 73,
+  "seconds": 9.656434699994861,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

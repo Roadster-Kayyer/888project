@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_94",
+  "doc_id": "PB_60d3d79cc6579587cc62",
+  "query_type": "ICA_134",
+  "query": "What should I do if I am prompted with an error message when submitting the SG Arrival Card?",
+  "reference_answer": "For more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.",
+  "corpus_query_index": 296,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.\n\n[Document 2]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 3]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 4]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 5]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.",
+  "retrieved_doc_ids": [
+    "PB_60d3d79cc6579587cc62",
+    "PB_6f67feecf50543bb14eb",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_56ae394ef36d16f6c616"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1bf9e644c14d345be35c39eef5cd1d85a44702958abbe680ef6cc19b4a8a8a89",
+  "answer": "If prompted with an error message, submit a screenshot of the error along with your SG Arrival Card details. Contact support with your inquiry. [Document 1]",
+  "input_tokens": 627,
+  "output_tokens": 33,
+  "seconds": 4.420768299998599,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

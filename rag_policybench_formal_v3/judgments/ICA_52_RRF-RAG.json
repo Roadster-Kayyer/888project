@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_52",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer includes all necessary documents and procedures for extending a Special Pass, supported by Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer includes all necessary documents and procedures for extending a Special Pass, supported by Document 1 and Document 5.\",\n  \"evidence\": \"Document 1 and Document 5\"\n}",
+      "input_tokens": 1419,
+      "output_tokens": 192,
+      "seconds": 15.226985300003435,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

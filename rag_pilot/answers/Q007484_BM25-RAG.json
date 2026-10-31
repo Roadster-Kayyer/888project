@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007484",
+  "doc_id": "464",
+  "query_type": "search",
+  "query": "What methods does the Tamil Nadu Police use to ensure the confidentiality of sexual abuse survivors?",
+  "corpus_query_index": 7483,
+  "system": "BM25-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nReporting Sexual Abuse of Children with Disabilities:\nIn Tamil Nadu, the Tamil Nadu State Commission for Protection of Child Rights and the District Child Protection Units have special provisions to report sexual abuse of children with disabilities. You can contact the Childline (1098) or the State Commission's helpline to report such cases.\n\n[Document 3]\nPOCSO Act:\nThe POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.\n\n[Document 4]\nFemale Genital Mutilation Cases:\nThe Tamil Nadu Police handles cases of female genital mutilation (FGM) as a serious offense under the Indian Penal Code. Victims can report incidents to the nearest police station or the All-Women Police Stations (AWPS). The police ensure confidentiality and provide support to victims.\n\n[Document 5]\nRegulation of Confidential Informants:\nThe use of confidential informants by Tamil Nadu Police is regulated by:\n* Guidelines set by the State Police Headquarters\n* Supervision by senior officers\n* Requirements for informant registration and verification\n* Strict confidentiality to protect informant identities",
+  "retrieved_doc_ids": [
+    "464",
+    "483",
+    "101",
+    "456",
+    "1428"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "161cc39d2a85dee17d25be1ce372177c822f27320a7df36183f829652f3bd457",
+  "answer": "The Tamil Nadu Police ensures confidentiality of sexual abuse survivors through:\n- Maintaining confidentiality and using coded names in records.\n- Allow complainants to remain anonymous.\n- Following Supreme Court guidelines.\n- Investigating POCSO (Protection of Children from Sexual Offences) cases in a child-friendly manner.\n- Handling FGM cases as a serious offense with strict confidentiality.\n- Regulating confidential informants with guidelines and supervision. [Document 5]",
+  "input_tokens": 459,
+  "output_tokens": 89,
+  "seconds": 11.25118509999993,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

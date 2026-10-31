@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000228",
+  "doc_id": "1038",
+  "query_type": "casual",
+  "query": "How do I get the right papers to start a civil case?",
+  "corpus_query_index": 227,
+  "system": "BM25-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "255",
+    "799",
+    "849",
+    "1037",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b8f24c8252c8337197587f5ef5b894350d13f23a5ef85eb9cca0bbd11e4dfe59",
+  "answer": "To start a civil case in Tamil Nadu, visit the court with required documents and consult a lawyer. [Document 4]",
+  "input_tokens": 425,
+  "output_tokens": 26,
+  "seconds": 3.4965038999998796,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.20947265625
+}

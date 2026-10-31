@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_112",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 711,
+      "output_tokens": 66,
+      "seconds": 5.4720672000112245,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 2.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 because all substantive factual claims in the candidate answer are supported by the evidence provided in the documents.",
+      "input_tokens": 751,
+      "output_tokens": 131,
+      "seconds": 10.387711799994577,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

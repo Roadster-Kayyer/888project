@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_43",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and Document 2.\",\n  \"faithfulness_evidence\": \"[Document 1] directly supports the claim about giving way to vehicles from the side road. [Document 2] provides context about road conditions requiring caution and lane adjustments.\"\n}",
+      "input_tokens": 516,
+      "output_tokens": 112,
+      "seconds": 8.730100700006005,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

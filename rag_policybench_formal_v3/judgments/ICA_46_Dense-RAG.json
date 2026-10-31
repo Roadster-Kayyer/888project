@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_46",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] You are not required to book an appointment for oath-taking. You may proceed to ICA Services Centre and obtain an 'Oath-taking' queue ticket at the self-service kiosks. Please ensure you have the required documents to complete your Oath of Renunciation, Allegiance and Loyalty (ORAL).\"\n}",
+      "input_tokens": 1004,
+      "output_tokens": 143,
+      "seconds": 11.258100699997158,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

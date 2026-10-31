@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_32",
+  "doc_id": "PB_c8c1a5bc0d89d0bfed72",
+  "query_type": "ICA_134",
+  "query": "I am a Singaporean and my child is born overseas. Can I register my child's birth via LifeSG?",
+  "reference_answer": "ICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "corpus_query_index": 228,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 2]\nA child born in Singapore to legally married parents who are both Singapore citizens (or either one is a Singapore citizen) at the time of child's birth, is automatically a Singapore Citizen.\n\n[Document 3]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.\n\n[Document 4]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 5]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.",
+  "retrieved_doc_ids": [
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_18afcc43a443719b9c31",
+    "PB_bcdfbf4db75a59af04ef",
+    "PB_c4889c17ceec12f1516c",
+    "PB_9bcc03600abfbc3227e6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3a93a65bea6570104fffbdf662f67fb5756b050e8de8cf521ed2b197151fad25",
+  "answer": "No, you can't register your child's birth via LifeSG if they were born overseas. You should register the birth with the foreign authorities and get a birth certificate there. [Document 1]",
+  "input_tokens": 395,
+  "output_tokens": 41,
+  "seconds": 5.380871699991985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

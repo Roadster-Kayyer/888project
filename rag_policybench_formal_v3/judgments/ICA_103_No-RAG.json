@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_103",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate answer does not provide evidence and acknowledges the lack of information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer does not provide evidence and acknowledges the lack of information.\",\n  \"answer\": \"No substantive evidence provided to confirm future issuance of LTVP physical cards.\"\n}\n\nIn this case, the candidate answer is relevant as it pertains to the question about the possibility of requesting an LTVP physical card after a specified date. However, it lacks correctness because it does not directly state the fact that ICA ceased issuance of physical cards as of the given date, which is a key fact from the reference. Faithfulness is marked as null because there is no evidence provided in the candidate answer to support or contradict the claim. The reason succinctly explains the scores.",
+      "input_tokens": 392,
+      "output_tokens": 186,
+      "seconds": 14.223539399987203,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

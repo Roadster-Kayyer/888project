@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004304",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Candidate answer generally describes police actions but does not directly reference the provided evidence.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the actions taken by the Tamil Nadu Police for missing foreign tourists, which aligns with the reference's mention of search operations and coordination with authorities. However, the answer does not directly cite the specific actions outlined in the reference, such as filing a missing person report or conducting investigations, hence the faithfulness score is null due to the absence of direct evidence from the provided text. The reason succinctly explains the scores, noting",
+      "input_tokens": 422,
+      "output_tokens": 192,
+      "seconds": 14.321107299998403,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

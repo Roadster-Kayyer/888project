@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003277",
+  "doc_id": "1589",
+  "query_type": "formal",
+  "query": "What methods does the Police Academy Museum employ to conserve its historical significance in policing?",
+  "corpus_query_index": 3276,
+  "system": "BM25-RAG",
+  "reference_answer": "2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.",
+  "context": "[Document 1]\n2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.\n\n[Document 2]\nTamil Nadu Police Academy:\nThe Tamil Nadu Police Academy provides training to police personnel in the state. Its function is to impart knowledge, skills, and attitude to police officers and staff to enable them to perform their duties effectively and efficiently.\n\n[Document 3]\nInnovation in Policing Methods:\nThe Police Research and Development Wing innovates policing methods by:\n* Analyzing crime trends and patterns\n* Developing new technologies and strategies\n* Collaborating with experts and stakeholders\n* Implementing evidence-based policing practices\n\n[Document 4]\nCitizen Police Academy Program:\nThe Citizen Police Academy is a program that educates civilians about police procedures, laws, and community policing. It aims to build trust and cooperation between the police and the public.\n\n[Document 5]\nPolice Museum Information:\nFor information about the police museum in Tamil Nadu, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and search for \"Police Museum\" or contact the Tamil Nadu Police Headquarters directly. They will provide you with details about the museum's location, timings, and exhibits.",
+  "retrieved_doc_ids": [
+    "1589",
+    "1948",
+    "1579",
+    "1696",
+    "350"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "08848c2f0b23d25fce40d8281c88b441c4820392c6374035c0c64ab2aa7aacb8",
+  "answer": "The Police Academy Museum employs showcasing historical artifacts, documents, and equipment to highlight policing evolution. However, the methods to conserve historical significance are not detailed in the provided evidence. [Document 1]",
+  "input_tokens": 380,
+  "output_tokens": 40,
+  "seconds": 5.2437418999998044,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,29 @@
+{
+  "query_id": "medishield_3",
+  "doc_id": "PB_147ee7a2086de2af862b",
+  "query_type": "medishield",
+  "query": "What is the pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma?",
+  "reference_answer": "67%",
+  "corpus_query_index": 324,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nNon-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 5]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_25ba54369b4af95adaad",
+    "PB_cc60baad4cbf9560588b",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "97b68c952c61c46e893595025c1608fe2ea26f059e27df49b17940d728a256cc",
+  "answer": "Based on Document 2, the pro-ration factor applies to outpatient cancer treatments, but there's no specific pro-ration factor mentioned for autologous bone marrow transplant for multiple myeloma. [Document 3] discusses various top-ups but does not specify the factor for this treatment.",
+  "input_tokens": 708,
+  "output_tokens": 60,
+  "seconds": 8.077725299997837,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

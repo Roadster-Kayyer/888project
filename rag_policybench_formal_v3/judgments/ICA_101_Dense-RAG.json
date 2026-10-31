@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_101",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that PR status is not required to apply for citizenship and correctly mentions the two-year waiting period after PR status for citizenship application, supported by Document 2.\",\n}\n\n\nIn the provided candidate answer, the information is directly relevant to the question and accurately reflects the content of the retrieved evidence, specifically Document 2. The candidate answer correctly conveys that a Permanent Resident status is not a prerequisite for applying for Singapore citizenship but does correctly note the two-year waiting period after obtaining PR status as per the evidence. There are no unsupported or contradicted claims, and the answer includes substantive factual claims that are directly supported by the evidence provided. The reason succ",
+      "input_tokens": 637,
+      "output_tokens": 192,
+      "seconds": 14.696815499992226,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by the retrieved evidence.\"}\n\nExplanation:\n- Correctness: The candidate answer correctly states that a child does not need to be a PR to apply for citizenship and accurately reflects the information from Document 1.\n- Relevance: The answer directly addresses the question about the necessity of being a PR before applying for citizenship.\n- Faithfulness: The answer is fully supported by Document 1, which states that a child may apply for citizenship without the need to be a PR.\n\nReason: The candidate answer is accurate, directly relevant, and fully supported by the evidence provided.",
+      "input_tokens": 677,
+      "output_tokens": 169,
+      "seconds": 12.685916899994481,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

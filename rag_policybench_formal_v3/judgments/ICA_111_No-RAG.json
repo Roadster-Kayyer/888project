@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_111",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference about PR status in Singapore."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference about PR status in Singapore.\",\n  \"answer\": \"To maintain Permanent Residence (PR) status, one must continue to meet the eligibility criteria, such as maintaining lawful presence in the US, and may need to continue to meet any employment or financial requirements set by immigration law.\"\n}",
+      "input_tokens": 414,
+      "output_tokens": 118,
+      "seconds": 9.283229399996344,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

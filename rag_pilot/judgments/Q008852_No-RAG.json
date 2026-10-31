@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008852",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and directly addresses the question, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct and directly addresses the question, but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 409,
+      "output_tokens": 69,
+      "seconds": 5.490243199999895,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

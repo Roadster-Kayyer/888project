@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_82",
+  "doc_id": "PB_7929dbd00d14667dbd16",
+  "query_type": "ICA_134",
+  "query": "Will my PR status be revoked if I divorce my spouse who sponsored my Singapore Permanent Residence (PR) application?",
+  "reference_answer": "Any cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.",
+  "corpus_query_index": 283,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.",
+  "retrieved_doc_ids": [
+    "PB_7929dbd00d14667dbd16",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_16464034b8fc8059eece",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_d98d322f2936df748ef1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3f98d562cd1a4b6129ac459895a168393265631fc74cd2640a0b4887ecf6c363",
+  "answer": "No, your PR status won't be revoked simply because you divorced your spouse. Your renewal will be assessed based on your own merits. However, you need a valid Re-Entry Permit (REP) to retain your PR status when traveling abroad. [Document 4]",
+  "input_tokens": 391,
+  "output_tokens": 55,
+  "seconds": 7.02410389999568,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

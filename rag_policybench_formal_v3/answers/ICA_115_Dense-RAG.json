@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_115",
+  "doc_id": "PB_04de2d145d0ff95654be",
+  "query_type": "ICA_134",
+  "query": "How do I know when my citizenship ceremony will be held?",
+  "reference_answer": "Typically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.",
+  "corpus_query_index": 186,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 2]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 3]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 4]\nYou may contact us via the enquiry form on the request to reschedule your citizenship ceremony.\n\n[Document 5]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.",
+  "retrieved_doc_ids": [
+    "PB_04de2d145d0ff95654be",
+    "PB_c6456fad7242c379cac1",
+    "PB_763506fa65f40c0150d3",
+    "PB_9b423fbf39ce2c64bb80",
+    "PB_46ec4c9c421699906017"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5ff7fbdfa859523b70e19918113ae6a0d3e0ade4ecbad8b0a40b4b87da1e7a6f",
+  "answer": "The citizenship ceremony will typically be held 3 to 6 months after registering as a Singapore citizen. Further details will be provided via email closer to the ceremony date. [Document 1]",
+  "input_tokens": 384,
+  "output_tokens": 39,
+  "seconds": 5.312311100002262,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

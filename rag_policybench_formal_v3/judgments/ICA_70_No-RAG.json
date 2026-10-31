@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_70",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence and does not match the reference's timeframe for IC application processing."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence and does not match the reference's timeframe for IC application processing.\",\n  \"evidence\": null\n}\n\n\nIn this case, the candidate answer does not provide a correct timeframe as per the reference, which specifies a seven-day processing time for an IC application. The answer also fails to directly address the question as it does not mention the seven-day timeframe and instead provides a general range that is not substantiated by the given reference. There is no evidence provided to support the claim made in the candidate answer.",
+      "input_tokens": 392,
+      "output_tokens": 157,
+      "seconds": 12.315163300008862,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

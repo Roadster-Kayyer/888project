@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002245",
+  "doc_id": "1401",
+  "query_type": "hard",
+  "query": "What approaches does the legal system take to resolve issues where tribal artisans are exploited?",
+  "corpus_query_index": 2244,
+  "system": "BM25-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nDispute Resolution with Tribal Councils:\nThe Tamil Nadu Police coordinates with tribal councils through regular meetings and dialogue. They work together to resolve disputes and address issues affecting tribal communities, ensuring their rights and interests are protected.\n\n[Document 3]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 4]\nFamily Counseling Centers:\nThe role of Family Counseling Centers at police stations is to provide counseling and mediation services to resolve family disputes and domestic issues. Trained counselors help families resolve conflicts and work towards reconciliation.\n\n[Document 5]\nCommunity Dispute Resolution Forum:\nThe Community Dispute Resolution Forum works with the police to resolve minor disputes and issues at the community level. Trained mediators, with police support, help resolve disputes through mediation and counseling, reducing the need for formal policing.",
+  "retrieved_doc_ids": [
+    "1401",
+    "1393",
+    "1381",
+    "96",
+    "1695"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04632afb5c0ab2bb33326a225ebe33a0e68e440cc8530710c4de43bddc4d077e",
+  "answer": "The legal system in Tamil Nadu addresses exploitation of tribal artisans through:\n- Police registration and investigation of complaints (Document 1).\n- Coordination with tribal councils for dispute resolution (Document 2).\n- Handling forest rights violations by collaborating with forest departments (Document 3).\n- Providing counseling and mediation services at police stations (Document 4).\n- Community mediation forums for minor disputes (Document 5). [Document 1]",
+  "input_tokens": 397,
+  "output_tokens": 86,
+  "seconds": 10.964279600000737,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

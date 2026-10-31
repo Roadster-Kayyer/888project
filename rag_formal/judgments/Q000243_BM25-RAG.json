@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000243",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the process of starting a criminal case by filing an FIR, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process of starting a criminal case by filing an FIR, supported by evidence from Document 2.\",\n}",
+      "input_tokens": 770,
+      "output_tokens": 69,
+      "seconds": 5.475727200002439,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the process of starting a criminal case by filing an FIR, supported by evidence from Document 2.\"}",
+      "input_tokens": 810,
+      "output_tokens": 54,
+      "seconds": 4.336048599998321,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

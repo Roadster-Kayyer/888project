@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003517",
+  "doc_id": "1631",
+  "query_type": "formal",
+  "query": "What reforms has the Tamil Nadu Police implemented in their strategy for women's safety?",
+  "corpus_query_index": 3516,
+  "system": "RRF-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 3]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.\n\n[Document 4]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 5]\nReforms to Address Corruption:\nTo address corruption, Tamil Nadu Police has implemented:\n* Online complaint registration and tracking systems\n* Increased transparency in police procedures\n* Regular internal audits and disciplinary actions",
+  "retrieved_doc_ids": [
+    "1631",
+    "1009",
+    "1616",
+    "1672",
+    "1628"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f42cd10c48df89ce51ae140022b941504d2f099d43bfb14f0a4a1c5455743011",
+  "answer": "The Tamil Nadu Police has implemented reforms such as establishing all-women police stations, creating a dedicated women's helpline (181), and increasing female police personnel. They also launched initiatives like She Teams for surveillance and assistance, and established the Women Safety Committee for addressing women's safety concerns. [Document 1]",
+  "input_tokens": 375,
+  "output_tokens": 65,
+  "seconds": 8.032447300000058,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

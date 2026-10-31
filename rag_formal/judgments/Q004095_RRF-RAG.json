@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004095",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference facts about the presumption of innocence, its legal basis in India, and the burden of proof on the prosecution."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, accurately reflecting the presumption of innocence principle and the burden of proof in Indian law.\",\n}",
+      "input_tokens": 810,
+      "output_tokens": 72,
+      "seconds": 5.830063900000823,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the reference facts about the presumption of innocence, its legal basis in India, and the burden of proof on the prosecution.\"}\n\nNote: The scores are based on the provided candidate answer which is deemed to be correct (2), relevant (2), and faithful (2) to the evidence provided in the reference documents. The reason is a succinct justification of these scores.",
+      "input_tokens": 850,
+      "output_tokens": 113,
+      "seconds": 8.835712399999466,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

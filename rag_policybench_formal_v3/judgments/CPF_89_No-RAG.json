@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_89",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference information regarding the timing of WIS payments."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not align with the reference information regarding the timing of WIS payments.\",\n  \"evidence\": \"null\"\n}\n\n\nThe reference clearly states that WIS payments are received monthly based on the work year's eligibility criteria and that for self-employed persons, the earliest payment will be on 30 April of the following year, not in February as stated in the candidate's answer.",
+      "input_tokens": 565,
+      "output_tokens": 133,
+      "seconds": 10.341967600004864,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

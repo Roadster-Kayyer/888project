@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005319",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Directly outlines the steps to dispute a false police complaint in Tamil Nadu, which aligns with the candidate's answer.\"\n}\n\n\nNote: The \"faithfulness\" key in the JSON object is set to 2 because the candidate's answer is directly supported by the evidence provided in Document 1, which is the retrieved evidence. There are no unsupported claims or contradictions in the candidate's answer when compared to the evidence.",
+      "input_tokens": 864,
+      "output_tokens": 167,
+      "seconds": 12.790920700001152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

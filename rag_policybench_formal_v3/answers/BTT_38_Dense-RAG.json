@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_38",
+  "doc_id": "PB_c41b88860662185c50b1",
+  "query_type": "BTT",
+  "query": "What does a yellow color on Travel Time Display signboards indicate?",
+  "reference_answer": "Yellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+  "corpus_query_index": 32,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.\n\n[Document 2]\nThree yellow reflective markings.\n\n[Document 3]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 4]\nGreen backgrounds with white borders.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_c41b88860662185c50b1",
+    "PB_f93c36f8738a815fe887",
+    "PB_776de7439758761e5c43",
+    "PB_9407386fab4b4f1d13c5",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a25aeca73a497ba4230a9c97bfb52f9521ccb4fa60a264f5cdbe7d8774966e32",
+  "answer": "A yellow color on Travel Time Display signboards indicates that travel time is between 50% to 125% more than normal travel time. [Document 1]",
+  "input_tokens": 267,
+  "output_tokens": 37,
+  "seconds": 351.3160579000032,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

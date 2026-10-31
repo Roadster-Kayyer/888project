@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007120",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it suggests a course of action (approaching HR with documented evidence) for reporting the misconduct. However, it does not directly reference the specific procedures or entities mentioned in the reference (DVAC, local police, toll-free helpline, TN Government website), hence the correctness score is 1. The faithfulness score is null because the candidate answer does not contain any substantive factual claims that are directly supported by the evidence provided in the reference. The reason succinctly explains the scores, noting the relevance but lack of direct",
+      "input_tokens": 424,
+      "output_tokens": 192,
+      "seconds": 14.849236800000654,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

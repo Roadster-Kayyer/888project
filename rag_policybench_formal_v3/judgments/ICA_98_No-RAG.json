@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_98",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer suggests an alternative method (printed QR code) but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer suggests an alternative method (printed QR code) but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct as it provides an alternative solution for travellers without mobile data, but it does not directly reference the provided evidence that the QR code generation works offline. Therefore, the faithfulness score is null due to the lack of direct evidence linking the candidate answer to the reference.",
+      "input_tokens": 422,
+      "output_tokens": 138,
+      "seconds": 10.499590100007481,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

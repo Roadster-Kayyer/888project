@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002130",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant strategies but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer includes relevant strategies but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses strategies used by law enforcers, which aligns with the reference's mention of police handling forest rights violations. However, the correctness score is 1 because the answer does not cover all the main points from the reference, such as the specific role of the Forest Rights Act. Faithfulness is marked as null because there is no direct evidence provided from the reference to support the claims made in the candidate answer. The reason succinctly explains the scores, noting the relevance but lack of direct evidence.",
+      "input_tokens": 430,
+      "output_tokens": 186,
+      "seconds": 14.150951200001145,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

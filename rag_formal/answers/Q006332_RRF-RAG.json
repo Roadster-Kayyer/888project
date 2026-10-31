@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006332",
+  "doc_id": "257",
+  "query_type": "formal",
+  "query": "What methods are available to monitor the progress of a reported missing person case?",
+  "corpus_query_index": 6331,
+  "system": "RRF-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nReporting a Missing Person Online:\nYes, you can report a missing person online through the Tamil Nadu Police Department's website or the National Police Portal. You can also visit the nearest police station to file a report in person.\n\n[Document 3]\nReporting a Missing Person:\nTo report a missing person in Tamil Nadu, visit the nearest police station and provide details about the missing person, including their name, age, address, and last seen location. Fill out a missing person report form and submit it to the police.\n\n[Document 4]\nQuestion 1: Case Investigation Progress\nTo get information about your case investigation, you can:\n* Contact the investigating officer directly\n* Visit the police station where the case was filed\n* Check the status online, if available, on the Tamil Nadu Police website\n\n[Document 5]\nMissing Person Report:\nTo file a missing person report, you need to provide:\n- Name and age of the missing person\n- Address and contact details\n- Description of the missing person\n- Last seen location and time\n- Any relevant identification documents",
+  "retrieved_doc_ids": [
+    "255",
+    "265",
+    "814",
+    "66",
+    "274"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cb0ee7b150c8ae73ed962b85fec97bb936e55a5d8e60b3b544d26e6209ff7e25",
+  "answer": "Methods to monitor the progress of a reported missing person case include:\n- Checking the status online via the police department’s website\n- Visiting the police station where the case was filed\n- Contacting the investigating officer directly\n- [Document 4] provides these options [Document 1] mentions visiting the nearest police station to check the FIR copy.",
+  "input_tokens": 406,
+  "output_tokens": 72,
+  "seconds": 9.561061399999744,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

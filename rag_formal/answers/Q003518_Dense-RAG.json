@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003518",
+  "doc_id": "1631",
+  "query_type": "casual",
+  "query": "How did the Tamil Nadu Police change their ways to keep women safer?",
+  "corpus_query_index": 3517,
+  "system": "Dense-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 3]\nProtection for Women Facing Honor-Based Threats\nThe Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.\n\n[Document 4]\nAwareness Programs:\nTamil Nadu Police conducts awareness programs on:\n* Crime prevention\n* Road safety\n* Women's safety\n* Cybercrime prevention\nThese programs aim to educate the public and promote a safe and secure environment.\n\n[Document 5]\nSupport Services for Victims of Gender-Based Violence:\nTamil Nadu Police offers support services through All-Women Police Stations and Women Help Desks. These provide a safe and confidential space for victims to report crimes and receive assistance.",
+  "retrieved_doc_ids": [
+    "1631",
+    "1009",
+    "453",
+    "248",
+    "99"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8141e61f2fa45c186d781f436d2d0c2377f4e0b5b9d832a7b62ff19f3cd091d3",
+  "answer": "The Tamil Nadu Police changed their ways by establishing all-women police stations, creating a dedicated women's helpline (181), increasing female police personnel, and launching awareness programs. They also protect women facing honor-based threats and offer support services for victims of gender-based violence. [Document 1-5]",
+  "input_tokens": 379,
+  "output_tokens": 64,
+  "seconds": 8.349088400000255,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

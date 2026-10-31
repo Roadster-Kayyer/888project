@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_38",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses and correctly states the meaning of yellow color on Travel Time Display signboards as per Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 788,
+      "output_tokens": 192,
+      "seconds": 14.985018800012767,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses and correctly states the meaning of yellow color on Travel Time Display signboards as per Document 1.\"}\n\n\nNote: The scores are based on the provided candidate answer being correct (2), relevant (2), and faithful (2) to the evidence given in Document 1. The reason is a succinct justification of the scores.",
+      "input_tokens": 828,
+      "output_tokens": 99,
+      "seconds": 7.871732100000372,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

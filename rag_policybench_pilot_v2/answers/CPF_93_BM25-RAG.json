@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_93",
+  "doc_id": "PB_af1247343974a8960a93",
+  "query_type": "CPF_111",
+  "query": "Why are overtime pay and bonuses included in Workfare Income Supplement (WIS) assessment?",
+  "reference_answer": "Basic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+  "corpus_query_index": 160,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 2]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 3]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.\n\n[Document 4]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 5]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.",
+  "retrieved_doc_ids": [
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_51abc1b31808d773e226",
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_cc9c3dfe3c902d1137c0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ed68603658d48a6b8471b6c6d855372eaabcad08b2c042b41f553eed3027b543",
+  "answer": "Overtime pay and bonuses are included in the WIS assessment because they contribute to a worker's total income, which helps determine eligibility for the subsidy, as stated in [Document 1]. The WIS aims to supplement the income of lower-wage workers, so total income is assessed to ensure fairness and accuracy in eligibility, as noted in [Document 1] and [Document 2].",
+  "input_tokens": 383,
+  "output_tokens": 79,
+  "seconds": 10.036612000003515,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2104.21484375
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_82",
+  "doc_id": "PB_7929dbd00d14667dbd16",
+  "query_type": "ICA_134",
+  "query": "Will my PR status be revoked if I divorce my spouse who sponsored my Singapore Permanent Residence (PR) application?",
+  "reference_answer": "Any cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.",
+  "corpus_query_index": 283,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_7929dbd00d14667dbd16",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_16464034b8fc8059eece",
+    "PB_d98d322f2936df748ef1",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c1eaa950af148ecb8071939ebebfae45730a2c0e4632241021323974d8392bb0",
+  "answer": "If you divorce, your PR status won't be automatically revoked. It will be assessed based on your own merits. There's no specific provision to reinstate PR status after divorce. [Document 1]",
+  "input_tokens": 548,
+  "output_tokens": 42,
+  "seconds": 5.560446599993156,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

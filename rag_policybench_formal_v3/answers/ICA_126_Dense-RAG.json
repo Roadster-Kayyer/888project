@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_126",
+  "doc_id": "PB_ab2a764b892b10ef7a10",
+  "query_type": "ICA_134",
+  "query": "How do I apply for Singapore Permanent Residence (PR) and what are the eligibility criteria for PR application?",
+  "reference_answer": "You may refer to the ICA website for more information on the eligibility criteria for PR application.",
+  "corpus_query_index": 198,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 3]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 4]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 5]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_b155e67f12a868a1d32b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "47779b6b9982e8abd2166a1efd6ab4d58d962cd77d9b14870434283d6a378938",
+  "answer": "To apply for Singapore Permanent Residence (PR), you need a valid Re-Entry Permit (REP). Eligibility includes being a Singapore citizen to sponsor parents. Applications generally take about 6 months, with updates available online. [Document 1-5]",
+  "input_tokens": 422,
+  "output_tokens": 52,
+  "seconds": 6.863891300003161,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

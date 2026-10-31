@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_101",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that PR status is not required to apply for citizenship and accurately reflects the two-year waiting period after obtaining PR status."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states no PR requirement for initial application and includes the two-year waiting period post-PR status acquisition, supported by Document 2.\",\n}",
+      "input_tokens": 638,
+      "output_tokens": 73,
+      "seconds": 5.988693200008129,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states that PR status is not required to apply for citizenship and accurately reflects the two-year waiting period after obtaining PR status.\"}\n\nIn the provided candidate answer, the correctness score is 2 because the answer is correct and covers the main reference fact that a Permanent Resident status is not required to apply for Singapore citizenship. The relevance score is 2 because the answer directly addresses the question by discussing the applicability of Singapore citizenship without the need for PR status and the subsequent requirement of a two-year waiting period after obtaining PR status. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which states that one may apply for Singapore Citizenship without the need to be a Perman",
+      "input_tokens": 678,
+      "output_tokens": 192,
+      "seconds": 14.989117100005387,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

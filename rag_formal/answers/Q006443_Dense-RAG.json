@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006443",
+  "doc_id": "277",
+  "query_type": "casual",
+  "query": "Any tips on how to tell someone about domestic abuse?",
+  "corpus_query_index": 6442,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.",
+  "context": "[Document 1]\nReporting Child Abuse:\nTo report child abuse, call the Childline helpline at 1098 or visit your local police station. Provide details of the incident, and the police will take necessary action.\n\n[Document 2]\nWitnessing Child Abuse:\nIf you witness child abuse, immediately contact the police (100) or the Childline (1098). Provide as much information as possible about the incident, including the location and the people involved. You can also report anonymously.\n\n[Document 3]\nReporting Abuse in Childcare Institutions:\nTo report abuse, contact the local police station or call the Childline helpline (1098). Provide details of the incident, and the police will investigate and take necessary action.\n\n[Document 4]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 5]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.",
+  "retrieved_doc_ids": [
+    "826",
+    "298",
+    "489",
+    "277",
+    "70"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3607d262ed800564b238f95726054c9eaa42ae353149d301d17dbc237320fc4a",
+  "answer": "To report domestic violence, call the Tamil Nadu Police helpline (1091) or the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process. [Document 4] & [Document 5]",
+  "input_tokens": 390,
+  "output_tokens": 58,
+  "seconds": 7.459962099999757,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

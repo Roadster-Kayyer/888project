@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_64",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need for LOC and work pass, addresses the relevance of PMLA for Singapore citizens, and accurately reflects the processing time from Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need for LOC and work pass, addresses the relevance of PMLA for Singapore citizens, and accurately reflects the processing time from Document 4.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}",
+      "input_tokens": 942,
+      "output_tokens": 192,
+      "seconds": 14.330326299997978,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

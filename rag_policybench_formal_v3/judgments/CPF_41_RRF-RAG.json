@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_41",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects both old and new evaluation criteria for CPFIS, including relevant details from the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects both old and new evaluation criteria for CPFIS, including relevant details from the reference documents.\"\n}",
+      "input_tokens": 1432,
+      "output_tokens": 68,
+      "seconds": 5.7015565000037896,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

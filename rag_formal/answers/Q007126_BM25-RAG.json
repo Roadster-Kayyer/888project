@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007126",
+  "doc_id": "40",
+  "query_type": "original",
+  "query": "What are my rights if I am arrested?",
+  "corpus_query_index": 7125,
+  "system": "BM25-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 4]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 5]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination",
+  "retrieved_doc_ids": [
+    "46",
+    "284",
+    "40",
+    "35",
+    "846"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e011207ecb6598474910105f5bc1915dc2c3a51a5fe0f7a837bad05626a7b62f",
+  "answer": "When arrested, you have several rights including knowing the reason for arrest, contacting a lawyer, remaining silent, and requesting medical attention if needed. [Document 5]",
+  "input_tokens": 381,
+  "output_tokens": 34,
+  "seconds": 4.345094599999356,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

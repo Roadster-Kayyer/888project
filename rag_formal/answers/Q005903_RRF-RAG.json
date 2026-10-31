@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005903",
+  "doc_id": "2060",
+  "query_type": "casual",
+  "query": "How do I tell the city folks about broken traffic lights in TN?",
+  "corpus_query_index": 5902,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.",
+  "context": "[Document 1]\nDigital Platform for Reporting Traffic Congestion:\nYou can use the \"Tamil Nadu Police\" mobile app or the \"TN Police\" website to report traffic congestion. You can also use social media platforms like Twitter to report traffic issues using specific hashtags.\n\n[Document 2]\nReporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.\n\n[Document 3]\nReporting Unauthorized Parking:\nTo report unauthorized parking, call the Tamil Nadu Police helpline (100) or visit the nearest police station. Provide details of the vehicle and location. You can also use the TN Police mobile app or contact your local traffic police to report the issue.\n\n[Document 4]\nFiling a Complaint about Communal Tension:\nTo file a complaint, visit your local police station and provide details of the incident. You can also call the Tamil Nadu Police helpline (100) or use the TN Police mobile app to report the issue.\n\n[Document 5]\nReporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions, call the Tamil Nadu Police helpline (100) or contact the local traffic police station. You can also report online through the Tamil Nadu Police website or mobile app, providing the location and details of the malfunction.",
+  "retrieved_doc_ids": [
+    "1355",
+    "2060",
+    "2064",
+    "895",
+    "167"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c52faacfa6031bbf98d942bb894d1cbc9f99a00606b590faaedb70cca9ade19d",
+  "answer": "To report broken traffic lights in TN, call the police control room (100), or use the Tamil Nadu Police mobile app/website to report the issue. [Document 2] & [Document 5]",
+  "input_tokens": 415,
+  "output_tokens": 45,
+  "seconds": 5.7597788000002765,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

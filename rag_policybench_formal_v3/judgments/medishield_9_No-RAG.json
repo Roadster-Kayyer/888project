@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_9",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer differs from the reference fact."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer differs from the reference fact.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the correctness score is 0 because the candidate's answer is factually incorrect as it states 5 years instead of the correct 2 years mentioned in the reference. Relevance is 0 because the candidate's answer, although related to the question, does not accurately reflect the factual information from the reference. Faithfulness is null due to the incorrect factual claim in the candidate's answer.",
+      "input_tokens": 342,
+      "output_tokens": 152,
+      "seconds": 11.56858999999531,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_43",
+  "doc_id": "PB_ac14b71f364c9fc1e15b",
+  "query_type": "ICA_134",
+  "query": "How long will the passport application process take?",
+  "reference_answer": "The processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.",
+  "corpus_query_index": 240,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.\n\n[Document 2]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 3]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 4]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_e0f7b3c7aacb50023519",
+    "PB_b155e67f12a868a1d32b",
+    "PB_4db518930267429b7a6f",
+    "PB_b57a1848f1c7ce667389",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "bd94872cd59e28d9072c3fea710467b9a12f5e24e2a1fe889be197fb25d97860",
+  "answer": "Based on Document 1 and Document 3, the passport application process takes 3 working days, excluding the day of submission. However, some applications may take longer, especially during peak periods. [Document 1] and [Document 3]",
+  "input_tokens": 468,
+  "output_tokens": 51,
+  "seconds": 6.791199700004654,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

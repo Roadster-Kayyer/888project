@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_6",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing evidence from Document 3 for the reporting process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing evidence from Document 3 for the reporting process.\",\n  \"evidence\": \"Document 3 outlines the steps to update your registered address via ICA e-Service, which is the correct procedure to report a potential misuse of your address.\"\n}",
+      "input_tokens": 899,
+      "output_tokens": 103,
+      "seconds": 8.154887400000007,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

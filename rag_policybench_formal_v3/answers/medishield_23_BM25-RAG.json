@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_23",
+  "doc_id": "PB_d600f5b60cee68821fae",
+  "query_type": "medishield",
+  "query": "What is the amount range of the deductible under MediShield Life based on age and ward class?",
+  "reference_answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.",
+  "corpus_query_index": 318,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 5]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_602681b75becd57cfb35",
+    "PB_1dca0c51ba1dc68b6aca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3a8ff0f08ca51dd74191b852dfac4ff0605f0603fca3184462916081a6e3f082",
+  "answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and ward class choice. [Document 1]",
+  "input_tokens": 301,
+  "output_tokens": 40,
+  "seconds": 5.232724000001326,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

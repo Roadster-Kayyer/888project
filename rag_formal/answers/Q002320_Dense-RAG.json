@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002320",
+  "doc_id": "1415",
+  "query_type": "hard",
+  "query": "What norms dictate the actions of law enforcement personnel in Tamil Nadu?",
+  "corpus_query_index": 2319,
+  "system": "Dense-RAG",
+  "reference_answer": "Code of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.",
+  "context": "[Document 1]\nEthical Guidelines for Police Behavior in Tamil Nadu:\nThe Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.\n\n[Document 2]\nEthical Considerations in Using Force:\nThe Tamil Nadu Police follows the guidelines set by the Indian Police Act and the National Human Rights Commission. Police personnel are trained to use minimal force necessary to effect an arrest, respecting the human rights and dignity of the individual.\n\n[Document 3]\nCode of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.\n\n[Document 4]\nEthics Committee Structure in Tamil Nadu Police:\nThe Tamil Nadu Police has a Professional Standards and Ethics Committee to oversee police conduct. It consists of senior officers and external members, ensuring accountability and transparency.\n\n[Document 5]\nEthical Conduct during Public Protests:\nThe Tamil Nadu Police ensures ethical conduct during public protests by following the Tamil Nadu Police Act and guidelines on crowd control. Police personnel are trained to respect citizens' rights, maintain public order, and use minimal force. The police also establish communication channels with protest organizers to ensure peaceful gatherings.",
+  "retrieved_doc_ids": [
+    "1414",
+    "1417",
+    "1415",
+    "1426",
+    "1443"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "022275e5d848db520b7db8c2e0602c4233c24326062acac408dcbd9e31014ca8",
+  "answer": "The norms dictate actions of law enforcement personnel in Tamil Nadu through the Indian Police Code of Conduct, emphasizing integrity, impartiality, and respect for human rights. Additionally, the Tamil Nadu Police follows guidelines from the Indian Police Act and National Human Rights Commission, focusing on using minimal force and respecting human rights. [Document 1-5]",
+  "input_tokens": 397,
+  "output_tokens": 68,
+  "seconds": 8.727667399998609,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

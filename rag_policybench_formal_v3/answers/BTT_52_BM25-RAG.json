@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_52",
+  "doc_id": "PB_786ca90f3ae19fb193e3",
+  "query_type": "BTT",
+  "query": "What is indicated by merging arrows drawn on the road in Singapore's Basic Theory Test?",
+  "reference_answer": "Merging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.",
+  "corpus_query_index": 48,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 4]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_786ca90f3ae19fb193e3",
+    "PB_043f86bad043c042932a",
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_445d301435d07072a252",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c36bf35e55016fe78416fc445b4d62b5014b87486307c14aa634beb5e62cf8c1",
+  "answer": "Merging arrows on the road in Singapore's Basic Theory Test indicate that two traffic lanes are merging into one, giving motorists advance warning of this situation. [Document 1]",
+  "input_tokens": 347,
+  "output_tokens": 36,
+  "seconds": 4.606092400004854,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

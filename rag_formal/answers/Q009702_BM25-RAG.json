@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009702",
+  "doc_id": "864",
+  "query_type": "formal",
+  "query": "How can one access the pink police patrol service?",
+  "corpus_query_index": 9701,
+  "system": "BM25-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nAccessing Tamil Nadu Police Public Service Portal:\nYou can access the Tamil Nadu Police public service portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or through the Tamil Nadu Police mobile app.\n\n[Document 3]\nOne Stop Crisis Center:\nThe One Stop Crisis Center (OSCC) provides support to women victims of violence. It offers medical aid, counseling, and legal assistance. To access OSCC services, call 181 (women's helpline) or visit the nearest center.\n\n[Document 4]\nTamil Nadu Highway Patrol Service Conditions:\nHighway Patrol officers work in shifts, including night shifts, and are required to be on call. They are entitled to benefits like uniform allowance, travel allowance, and medical benefits. For detailed information, visit the Tamil Nadu Police website.\n\n[Document 5]\nPolice Patrol Request:\nYes, you can request police patrol in your locality by:\n- Contacting your local police station\n- Calling the police control room (100)\n- Filing a request through the Tamil Nadu Police website or mobile app",
+  "retrieved_doc_ids": [
+    "864",
+    "309",
+    "443",
+    "1496",
+    "276"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eefb9a621133a326c3a11c83f8590d691ab51418a128d97f99622306fd573455",
+  "answer": "To access the Pink Police Patrol, call 94981 95555 or use the Tamil Nadu Police Emergency Number 100. [Document 1] Additionally, you can visit the Tamil Nadu Police public service portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in). [Document 2]",
+  "input_tokens": 409,
+  "output_tokens": 76,
+  "seconds": 9.92869520000022,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

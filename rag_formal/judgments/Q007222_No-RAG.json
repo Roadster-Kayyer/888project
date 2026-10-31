@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007222",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it suggests contacting the agency's internal complaints department or the district administration office, which aligns with the reference's suggestion to contact the District Collector or the concerned department's headquarters. However, the answer does not directly quote or paraphrase the reference, which would have been necessary for a higher faithfulness score. The absence of evidence from the reference text (which is marked as null) prevents us from assigning a faithfulness score. The correctness score is 1 because the candidate's answer is partly correct but omits the",
+      "input_tokens": 406,
+      "output_tokens": 192,
+      "seconds": 14.463567099999636,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_11",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate correctly identifies dental coverage for accidental injuries but omits other medical expenses."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate correctly identifies dental coverage for accidental injuries but omits other medical expenses.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nIn the provided answer, the candidate correctly identifies that dental work due to accidental injuries is covered under the MediShield Life Scheme, which aligns with the reference that dental work is covered only if required due to accidental injuries (Document 1). The answer is relevant as it directly addresses the question about medical expenses related to accidents. However, the candidate fails to mention other medical expenses, which is a significant omission given the question's scope. The evidence provided (Document 1) supports the claim about dental coverage but",
+      "input_tokens": 560,
+      "output_tokens": 192,
+      "seconds": 14.663689400011208,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

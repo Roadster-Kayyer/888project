@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_63",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly reflects the reference, but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly reflects the reference, but lacks direct evidence from the provided reference.\",\n  \"answer\": \"Your CPFIS investments will not be sold or liquidated when you apply to withdraw them based on CPF withdrawal conditions.\"\n}",
+      "input_tokens": 408,
+      "output_tokens": 92,
+      "seconds": 7.039956600012374,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

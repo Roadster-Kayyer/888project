@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_7",
+  "doc_id": "PB_5524a72cc3bbbca92a03",
+  "query_type": "CPF_111",
+  "query": "Why are my discounted Singtel shares not reflected in my Central Depository (CDP) statement?",
+  "reference_answer": "Your discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.",
+  "corpus_query_index": 134,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 4]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.\n\n[Document 5]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.",
+  "retrieved_doc_ids": [
+    "PB_5524a72cc3bbbca92a03",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_10b7557459105ffc6c3e",
+    "PB_8b587c7ab32751210874",
+    "PB_dfb47de04d492b3b972f"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "480660c03e96cd54415f3ac0f9b44619462169c17e3bb403d6c5c6c613f72337",
+  "answer": "Based on Document 1 and Document 2, your discounted Singtel shares should be reflected in your CPF Statement of Account. However, they need to be part of your Full Retirement Sum (FRS) in your Retirement Account (RA) before you can withdraw them. Ensure you've met the CPF withdrawal conditions, including setting aside the FRS by age 55, or consider selling them instead. [Document 1]",
+  "input_tokens": 711,
+  "output_tokens": 87,
+  "seconds": 11.376980900007766,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

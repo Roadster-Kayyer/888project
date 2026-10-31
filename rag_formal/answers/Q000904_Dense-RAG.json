@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000904",
+  "doc_id": "116",
+  "query_type": "search",
+  "query": "What is the minimum age for criminal liability under Indian law?",
+  "corpus_query_index": 903,
+  "system": "Dense-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nForgery of Documents:\nUnder the Indian Penal Code (IPC), forgery is punishable under Section 467. The penalty can be imprisonment for up to 10 years and a fine.\n\n[Document 3]\nLegal Consequences for Minor Public Indecency:\nMinor public indecency can result in a fine of up to ₹500 and/or imprisonment for up to 15 days under the Indian Penal Code (IPC) Section 294A.\n\n[Document 4]\nThreatening Government Officials:\nPenalty can range from 1-7 years imprisonment and a fine, under the Indian Penal Code, Sections 186, 189, and 506.\n\n[Document 5]\nAge Limit:\nThe age limit for joining Tamil Nadu Police is:\n- 18-24 years for general candidates\n- Relaxations apply for reserved categories (SC/ST, BC, etc.) as per government rules",
+  "retrieved_doc_ids": [
+    "116",
+    "607",
+    "512",
+    "558",
+    "990"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "69034c6e4da43581b5581c5323ef0e39adc8d25884226c5f90406d6fb32cd008",
+  "answer": "The minimum age for criminal liability under Indian law is 18 years for adults. For heinous crimes, it's 16-18 years. [Document 1]",
+  "input_tokens": 375,
+  "output_tokens": 38,
+  "seconds": 4.925114700001359,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

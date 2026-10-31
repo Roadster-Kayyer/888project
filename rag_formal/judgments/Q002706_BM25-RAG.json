@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002706",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the benefits of joining Tamil Nadu Police, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the benefits of joining Tamil Nadu Police, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Benefits of Joining Tamil Nadu Police: Joining Tamil Nadu Police offers benefits like competitive salary, job security, and opportunities for growth. It also provides a chance to serve the community and uphold law and order in the state.\"\n}",
+      "input_tokens": 986,
+      "output_tokens": 192,
+      "seconds": 15.144156199999998,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_17",
+  "doc_id": "PB_94d4cd30132bb6864607",
+  "query_type": "BTT",
+  "query": "What is crucial before pulling out to pass another vehicle to alert other road users of your intention?",
+  "reference_answer": "Give a clear signal in good time.",
+  "corpus_query_index": 9,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 2]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 3]\nMembers who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.\n\n[Document 4]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 5]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.",
+  "retrieved_doc_ids": [
+    "PB_46950c4cff6ad431d048",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_7b930eae03f82435afed",
+    "PB_ee19c47e62eb004069ad",
+    "PB_89b49e1ae6fc2845f85e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8b791dcd49a6a3e5d48d46dde084191e818325c25b44023087e23ec80160291b",
+  "answer": "Before passing, motorists should signal to alert other road users of their intention. [Document 1] mentions signaling, though it's not directly related to passing.",
+  "input_tokens": 519,
+  "output_tokens": 33,
+  "seconds": 4.392654799994489,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004303",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the process for handling missing foreign tourists in Tamil Nadu, directly addressing the question with evidence from the documents, and all factual claims are supported."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the process for handling missing foreign tourists, referencing the provided documents and offering specific details on the procedures and resources available.\",\n}",
+      "input_tokens": 884,
+      "output_tokens": 71,
+      "seconds": 5.743466299998545,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the process for handling missing foreign tourists in Tamil Nadu, directly addressing the question with evidence from the documents, and all factual claims are supported.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the question with specific details from the documents, and there are no unsupported claims or omissions. The reason is succinct and accurately reflects the quality of the candidate's response.",
+      "input_tokens": 924,
+      "output_tokens": 143,
+      "seconds": 11.186325999999099,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

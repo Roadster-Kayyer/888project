@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004014",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific legal bodies and procedures mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but omits specific legal bodies and procedures mentioned in the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it suggests several avenues for seeking justice, which aligns with the reference's indication of various options available to victims. However, it lacks the specificity of the reference, which details the State Human Rights Commission, National Human Rights Commission, Superintendent of Police, District Collector, High Court, and Section 154 of the CrPC as specific entities and procedures to follow. The faithfulness score is null because the candidate's answer does not directly support or contradict the substantive factual claims in the reference, and there is no provided evidence to",
+      "input_tokens": 434,
+      "output_tokens": 192,
+      "seconds": 14.816846899997472,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

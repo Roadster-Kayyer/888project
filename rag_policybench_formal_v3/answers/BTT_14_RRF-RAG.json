@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_14",
+  "doc_id": "PB_4e13954ab54d10e3d48d",
+  "query_type": "BTT",
+  "query": "What are the two sections mentioned in the document related to the Parts and Controls of a Car?",
+  "reference_answer": "Front View and Rear View.",
+  "corpus_query_index": 6,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nIt indicates the centre line of a two-way road.\n\n[Document 5]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_8d18fc446288ee1e6348",
+    "PB_776de7439758761e5c43",
+    "PB_619765030c2c1f6e27b8",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_9deeca336ae5c6e38cd1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "62ec2bbccffb96f28cf0ce3b5f11ecc154a4681e3052ddaabd97ee5a109001ed",
+  "answer": "Based on Document 3, the two sections mentioned are the \"two-second rule\" and the \"stopping distance\". [Document 3]",
+  "input_tokens": 466,
+  "output_tokens": 30,
+  "seconds": 3.934860800000024,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

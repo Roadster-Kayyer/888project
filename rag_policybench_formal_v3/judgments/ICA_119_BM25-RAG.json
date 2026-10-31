@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_119",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the necessity of SGAC submission and potential delays, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the necessity of SGAC submission and potential delays, supported by Document 1.\",\n  \"evidence\": \"[Document 1] Travellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\"\n}",
+      "input_tokens": 1117,
+      "output_tokens": 131,
+      "seconds": 10.511698899994371,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

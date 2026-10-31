@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_25",
+  "system": "RRF-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 617,
+      "output_tokens": 192,
+      "seconds": 14.6020043999888,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by Document 1.\"}\n\n(Note: The reason provided in the first JSON object is the same as in the second, but for the sake of the task, I've included it separately in each JSON object as per the instructions. In practice, the reason would be the same in both objects.)",
+      "input_tokens": 657,
+      "output_tokens": 146,
+      "seconds": 10.957759400000214,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 161)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

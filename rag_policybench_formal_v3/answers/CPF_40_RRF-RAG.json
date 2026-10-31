@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_40",
+  "doc_id": "PB_68186a4dadd329687464",
+  "query_type": "CPF_111",
+  "query": "What documents must I provide when I lodge a report regarding CPF non/under-payment?",
+  "reference_answer": "You should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "corpus_query_index": 102,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 2]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 3]\nPlease refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.\n\n[Document 4]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 5]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.",
+  "retrieved_doc_ids": [
+    "PB_68186a4dadd329687464",
+    "PB_28996cba71bdbe7d5436",
+    "PB_c258c2cbaf7491b2d9b3",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_67fb3c3d8e5dd0d5de24"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "65fdcfd4bf0561b2a83e3a5187a34d39910f5a920c9a6a94e68dc2ff1f4a6f3a",
+  "answer": "When reporting CPF non/under-payment, you need to provide your employment contract or pay slips for verification. Ensure the contract includes key employment terms and essential clauses. Original documents and official translations are needed for applications, especially if they're not in English. [Document 1] & [Document 2]",
+  "input_tokens": 634,
+  "output_tokens": 62,
+  "seconds": 8.135578600005829,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

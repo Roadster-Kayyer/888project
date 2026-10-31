@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_36",
+  "doc_id": "PB_e57446a6e3d763a70f04",
+  "query_type": "BTT",
+  "query": "Which category of traffic signs must be followed without exception?",
+  "reference_answer": "Mandatory signs are compulsory signs.",
+  "corpus_query_index": 30,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMandatory signs are compulsory signs.\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 5]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.",
+  "retrieved_doc_ids": [
+    "PB_e57446a6e3d763a70f04",
+    "PB_2858faae83bda4331fb6",
+    "PB_716429660f2efd24efb8",
+    "PB_786ca90f3ae19fb193e3",
+    "PB_4479f84c1b73422f7e24"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b943f77357bc049404e5ef6f7f6e13fc65e17752d251d42c164d5460f1e16acc",
+  "answer": "Mandatory signs must be followed without exception [Document 1].",
+  "input_tokens": 269,
+  "output_tokens": 14,
+  "seconds": 199.10768870000175,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

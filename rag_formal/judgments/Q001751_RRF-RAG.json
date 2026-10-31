@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001751",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the procedure and includes necessary details and evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the procedure and includes necessary details and evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 793,
+      "output_tokens": 192,
+      "seconds": 14.944634399998904,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

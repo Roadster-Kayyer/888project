@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_2",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the minimum tread depth from Document 1 and is directly relevant and faithful to the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the minimum tread depth from Document 1 and is directly relevant and faithful to the evidence provided.\",\n  \"evidence\": \"[Document 1]Tyres should be replaced if their tread depth is less than 1.6mm.\"\n}",
+      "input_tokens": 690,
+      "output_tokens": 96,
+      "seconds": 7.610239199988428,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

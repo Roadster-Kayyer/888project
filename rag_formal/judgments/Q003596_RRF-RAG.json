@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003596",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the reforms for the complaints filing process and is supported by evidence from multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the reforms for the complaints filing process and is supported by evidence from multiple documents.\"\n}",
+      "input_tokens": 1231,
+      "output_tokens": 71,
+      "seconds": 5.8378130000019155,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

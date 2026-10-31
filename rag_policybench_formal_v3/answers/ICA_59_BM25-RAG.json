@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_59",
+  "doc_id": "PB_0c264676a8242018a9a0",
+  "query_type": "ICA_134",
+  "query": "Can I travel with my current passport while my new passport application is still being processed?",
+  "reference_answer": "You may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.",
+  "corpus_query_index": 257,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "retrieved_doc_ids": [
+    "PB_0c264676a8242018a9a0",
+    "PB_09222d548a5f63af648a",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_2fa0c09e016af1fec874"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2494091b9908674466d0b6b4e10bea45ecd71b0fe7408ccbfa1572e00e5738b3",
+  "answer": "Yes, you can travel with your current passport if it’s valid for at least 6 months and not damaged. Your current passport will be invalidated only upon issuance of the new one. [Document 1]",
+  "input_tokens": 873,
+  "output_tokens": 43,
+  "seconds": 5.748921100006555,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

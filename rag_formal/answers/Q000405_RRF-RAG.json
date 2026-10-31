@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000405",
+  "doc_id": "107",
+  "query_type": "hard",
+  "query": "What kind of responsibilities do Child Welfare Police Officers have?",
+  "corpus_query_index": 404,
+  "system": "RRF-RAG",
+  "reference_answer": "3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 3]\nPolice Welfare Board:\nThe Police Welfare Board supports officers and their families by providing financial assistance, medical aid, and educational scholarships. It also offers help during emergencies and natural disasters.\n\n[Document 4]\nInterviewing Child Witnesses:\nThe Tamil Nadu Police follows special procedures for interviewing child witnesses, including using trained child-friendly officers and conducting interviews in a safe and comfortable environment. The Juvenile Justice Act, 2015, also provides guidelines for interviewing child witnesses to minimize trauma.\n\n[Document 5]\nApproaching the Child Welfare Committee:\nTo approach the Child Welfare Committee, contact the District Child Protection Unit or the local police station. They will direct you to the Committee, which will assess the situation and provide necessary support and guidance. You can also reach out to NGOs working with children for assistance.",
+  "retrieved_doc_ids": [
+    "107",
+    "108",
+    "1582",
+    "491",
+    "1167"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "765e418a2bb203c8906f190424151b464b665d426baba0dfdfa5542800a07b59",
+  "answer": "Child Welfare Police Officers handle cases related to children, investigate child abuse and exploitation, and provide support and counseling to child victims. They coordinate with the Child Welfare Committee and follow special procedures for interviewing child witnesses. [Document 1]",
+  "input_tokens": 412,
+  "output_tokens": 47,
+  "seconds": 6.054493700000421,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

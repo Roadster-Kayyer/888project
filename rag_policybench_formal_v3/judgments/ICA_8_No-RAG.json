@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_8",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the reference, which advises updating passport photos when significant facial changes occur."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference, which advises updating passport photos when significant facial changes occur.\",\n  \"evidence\": \"Document 1 recommends updating passport photos for significant facial changes to ensure accuracy and avoid potential issues with identity verification.\"\n}\n\n\nNote: The evidence key is included to demonstrate the link between the candidate answer and the reference, even though the actual evidence (Document 1) is not provided in the text. In a real-world scenario, the evidence would be a direct quote or paraphrase from the reference material.",
+      "input_tokens": 422,
+      "output_tokens": 165,
+      "seconds": 12.612712800008012,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

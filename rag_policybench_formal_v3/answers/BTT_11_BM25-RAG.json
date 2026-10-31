@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_11",
+  "doc_id": "PB_50b7e744316cb05299f8",
+  "query_type": "BTT",
+  "query": "What does the acronym 'SH' stand for in Singapore's Expressway Monitoring and Advisory Systems (EMAS)?",
+  "reference_answer": "Shoulder",
+  "corpus_query_index": 3,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 2]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 3]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 4]\nThey must travel along the left-hand lane of the expressway.\n\n[Document 5]\nThe preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error",
+  "retrieved_doc_ids": [
+    "PB_c4889c17ceec12f1516c",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_5c3115538294339c3ac4",
+    "PB_d22ee6af2962a7277884"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9261c49ffe20cad80060f8c266c1559c4a60c912464eb61786af0f9445a9c1a8",
+  "answer": "SH likely stands for \"Stay Home\" in the context of EMAS, though this interpretation relies on contextual inference rather than direct evidence. [Document 1] discusses child-related documents but doesn't directly relate to EMAS acronyms.",
+  "input_tokens": 494,
+  "output_tokens": 49,
+  "seconds": 6.239896499995666,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

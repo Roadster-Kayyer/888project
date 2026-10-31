@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000244",
+  "doc_id": "1040",
+  "query_type": "search",
+  "query": "Can you guide me through the criminal case filing procedure?",
+  "corpus_query_index": 243,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling Cases under SC/ST Prevention of Atrocities Act:\nTo file a case, report the incident to the nearest police station or the District Superintendent of Police. The police will register an FIR and investigate. You can also approach the Special Court or the District Magistrate for assistance.\n\n[Document 3]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 4]\nFiling a case in the SC/ST Special Court:\nTo file a case in the SC/ST Special Court, report the incident to the local police station. They will register an FIR under the SC/ST (Prevention of Atrocities) Act. The case will then be investigated and transferred to the SC/ST Special Court. You can also approach the court directly with a complaint, supported by relevant documents and evidence.\n\n[Document 5]\nFiling a Case in CBI Court:\nTo file a case in CBI Court, follow these steps:\n1. Lodge a complaint with the Central Bureau of Investigation (CBI).\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet in the CBI Court.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1961",
+    "1116",
+    "1170",
+    "1172"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "42a977e155f8a37a08f6fbb147e8af514cd0c6b5d5a7a69ccd6e3b8411f3feb8",
+  "answer": "To file a criminal case, follow these general steps:\n1. File a complaint with the police [1].\n2. The police investigate and file a chargesheet [1].\n3. The court takes up the case [1].\nFor specific acts like SC/ST atrocity cases, report to the nearest police station or District Superintendent of Police [2]. For CBI cases, lodge a complaint with the CBI [5]. Always provide supporting documents and evidence [5]. [Document 1-5] provide detailed procedures.",
+  "input_tokens": 474,
+  "output_tokens": 108,
+  "seconds": 13.593087899999773,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

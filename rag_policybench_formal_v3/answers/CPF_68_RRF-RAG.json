@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_68",
+  "doc_id": "PB_b530c3042e7202136bc5",
+  "query_type": "CPF_111",
+  "query": "How will the restriction on investments for the first $20,000 in Ordinary Account and the first $40,000 in Special Account affect me?",
+  "reference_answer": "The first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "corpus_query_index": 132,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 2]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 3]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 4]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 5]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.",
+  "retrieved_doc_ids": [
+    "PB_b530c3042e7202136bc5",
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_55387403dc004065b043",
+    "PB_d3d5f861b3deec1e8c73"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d0972ffde6fcf4af5566b7e544fa00763e702676e1eeee135fddb6344e59445f",
+  "answer": "The restriction means that only amounts over $20,000 in your Ordinary Account and over $40,000 in your Special Account can be invested. However, you can still service agent bank fees and regular insurance policies, even if your account balances fall below these limits. [Document 1]",
+  "input_tokens": 908,
+  "output_tokens": 65,
+  "seconds": 8.738759700005176,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

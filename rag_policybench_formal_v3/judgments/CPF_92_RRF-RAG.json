@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_92",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states submission deadline for tax relief eligibility and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states submission deadline for tax relief eligibility and is supported by Document 1.\",\n  \"evidence\": \"Document 1: 'Your online top-up application and payment will need to reach us by 31 December of the year. It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.'\"\n}",
+      "input_tokens": 1444,
+      "output_tokens": 131,
+      "seconds": 10.496876699995482,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

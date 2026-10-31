@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008853",
+  "doc_id": "710",
+  "query_type": "casual",
+  "query": "So what happens if you split up my grandma's stuff without asking?",
+  "corpus_query_index": 8852,
+  "system": "RRF-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegal Subdivision of Agricultural Holdings:\nThe Tamil Nadu Land Reforms Act prohibits the subdivision of agricultural holdings without permission. The penalty can include a fine of up to ₹25,000 and/or imprisonment for up to 6 months.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nSelling Agricultural Land:\nSelling agricultural land without proper conversion can attract a penalty of up to ₹1 lakh and/or imprisonment under the Tamil Nadu Land Reforms Act.\n\n[Document 4]\nDealing with Unauthorized Photography:\nIf someone is taking photos without consent in public:\n* Politely ask them to stop\n* Report to nearest police station or dial 100\n* Note the perpetrator's details, if possible\n\n[Document 5]\nSuspected Family Member Involvement:\nIf you suspect a family member is involved in drug trafficking, contact the Tamil Nadu Police anonymously or visit the nearest police station to report your concerns. You can also call the police helpline (100) for assistance.",
+  "retrieved_doc_ids": [
+    "740",
+    "46",
+    "725",
+    "1893",
+    "130"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "21cb8e1a7494f80fa2c2898c7061006ae6723a3aa05c16af2618980597e5d5b7",
+  "answer": "If you split up your grandma's stuff without asking, it might be considered illegal under Tamil Nadu's Land Reforms Act, which prohibits subdividing agricultural holdings without permission. However, the specific issue of splitting up personal belongings isn't addressed by these documents. [Document 1]",
+  "input_tokens": 374,
+  "output_tokens": 57,
+  "seconds": 7.191453600000386,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

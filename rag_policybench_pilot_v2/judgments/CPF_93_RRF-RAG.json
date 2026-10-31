@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_93",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 2 to support the inclusion of overtime pay and bonuses in the WIS assessment."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and 2 to support the inclusion of overtime pay and bonuses in WIS assessment for eligibility determination.\",\n}",
+      "input_tokens": 802,
+      "output_tokens": 192,
+      "seconds": 14.649347500002477,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2683.49658203125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 2 to support the inclusion of overtime pay and bonuses in the WIS assessment.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is supported by the evidence provided in Document 1 and Document 2, which directly relate to the question about why overtime pay and bonuses are included in the WIS assessment. There are no unsupported claims or contradictions in the answer.",
+      "input_tokens": 842,
+      "output_tokens": 136,
+      "seconds": 10.81235210000159,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2683.49658203125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

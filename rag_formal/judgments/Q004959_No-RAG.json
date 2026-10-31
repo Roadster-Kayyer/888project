@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004959",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer_text\": \"To communicate effectively with domestic violence support workers in Tamil Nadu, use simple language, be clear about your situation, and express your needs directly.\"\n}",
+      "input_tokens": 425,
+      "output_tokens": 92,
+      "seconds": 7.156723599997349,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

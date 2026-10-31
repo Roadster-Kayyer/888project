@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004301",
+  "doc_id": "1773",
+  "query_type": "original",
+  "query": "How does Tamil Nadu Police handle cases of missing foreign tourists?",
+  "corpus_query_index": 4300,
+  "system": "BM25-RAG",
+  "reference_answer": "Handling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.",
+  "context": "[Document 1]\nHandling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.\n\n[Document 2]\nMissing Foreign Workers:\nIn cases of missing foreign workers, the Tamil Nadu Police:\n1. Registers a missing person complaint.\n2. Investigates the matter.\n3. Coordinates with the worker's embassy or consulate.\n\n[Document 3]\nContacting Tamil Nadu Police's Missing Persons Bureau:\nTo contact the Missing Persons Bureau, call the Tamil Nadu Police helpline at 100 or visit the nearest police station. You can also file a missing person complaint online through the Tamil Nadu Police website.\n\n[Document 4]\nInformation about Missing Children:\nFor information about missing children, contact the local police station or the Tamil Nadu Police Missing Persons Cell at 044-28447777. You can also check the Tamil Nadu Police website or the National Tracking System for Missing Children.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "1773",
+    "1799",
+    "2014",
+    "113",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "79955c066f4e965c058499003067ad63a20462fc3b69233e30c64dd47f02c94d",
+  "answer": "The Tamil Nadu Police handles missing foreign tourists by launching a search operation, filing a missing person report, and coordinating with the tourist's embassy and local authorities [Document 1]. They also investigate the case to ensure the tourist's safe return. [Document 1] & [Document 2]",
+  "input_tokens": 403,
+  "output_tokens": 60,
+  "seconds": 7.861512700001185,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

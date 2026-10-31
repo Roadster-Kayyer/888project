@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_132",
+  "doc_id": "PB_aa5916ddd19af121154f",
+  "query_type": "ICA_134",
+  "query": "What can I do if I cannot change my address details in the application form for Singapore citizenship, Permanent Residence and/or Long-Term Visit Pass?",
+  "reference_answer": "The address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.",
+  "corpus_query_index": 205,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 2]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 3]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_cb5d04a689bc8ce22058",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_a5deb8741f88193f4891",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d5db49d3368a13a95e025ffde368e083a81edd970bbcdf632be51fbbc8784dc3",
+  "answer": "If your Re-Entry Permit (REP) is still valid, transfer its remaining validity from your old passport to your new one using Singpass through ICA e-Service. For other types of passes, update your new passport details with relevant centers. If unsuccessful, submit a new application citing reasons and ensure all details are correct. [Document 1]",
+  "input_tokens": 767,
+  "output_tokens": 72,
+  "seconds": 9.19831749999139,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

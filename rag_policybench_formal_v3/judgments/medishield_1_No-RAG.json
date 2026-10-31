@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_1",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate lacks specific evidence from the reference to calculate co-insurance."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate lacks specific evidence from the reference to calculate co-insurance.\",\n  \"answer\": \"Cannot provide exact co-insurance rate without policy document evidence.\"\n}",
+      "input_tokens": 439,
+      "output_tokens": 192,
+      "seconds": 14.574382099992363,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

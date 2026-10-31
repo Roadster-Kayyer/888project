@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007127",
+  "doc_id": "40",
+  "query_type": "formal",
+  "query": "Under what circumstances do I have legal rights during an arrest?",
+  "corpus_query_index": 7126,
+  "system": "BM25-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.\n\n[Document 2]\nCitizen Rights During Investigations:\nCitizens have the right to remain silent, seek legal counsel, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation, with protection against torture, cruel, or inhuman treatment.\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nRights of an Accused:\nDuring police interrogation, an accused has the right to:\n- Remain silent\n- Consult a lawyer\n- Be informed of the grounds of arrest\n- Be produced before a magistrate within 24 hours\n\n[Document 5]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority",
+  "retrieved_doc_ids": [
+    "2033",
+    "1418",
+    "35",
+    "1848",
+    "253"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6536bdc97b67f314061a804720a5f414c21edbf1009e6fa0ff3c819460fe09bd",
+  "answer": "During an arrest, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation. [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 42,
+  "seconds": 5.608793900000819,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

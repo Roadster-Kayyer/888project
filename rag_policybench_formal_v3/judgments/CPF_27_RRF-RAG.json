@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_27",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, covering main facts about the treatment of unused CPF transfers and cash top-ups upon demise or account closure."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering main facts about the treatment of unused CPF transfers and cash top-ups upon demise or account closure.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 1202,
+      "output_tokens": 192,
+      "seconds": 14.829631000000518,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

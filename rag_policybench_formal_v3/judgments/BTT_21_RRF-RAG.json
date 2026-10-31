@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_21",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly cites Document 2 for air-conditioning advice and references Document 1 for additional fuel efficiency tip."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly cites Document 2 for air-conditioning advice and references Document 1 for additional fuel efficiency tip.\",\n  \"evidence\": \"[Document 2, Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by providing specific advice from Document 2 and corroborates with a related fact from Document 1, which is about driving in the right gear to increase fuel efficiency. The evidence provided is directly related to the question, and the answer is both correct and faithful to the supplied documents.",
+      "input_tokens": 816,
+      "output_tokens": 151,
+      "seconds": 11.772127400006866,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

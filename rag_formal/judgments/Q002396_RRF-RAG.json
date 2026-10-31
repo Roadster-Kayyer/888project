@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002396",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific types of evidence to preserve and the necessity of reporting to the police, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, preserving all relevant evidence types and correctly including reporting to the police as part of the process, as supported by Document 1 and Document 2.\",\n}",
+      "input_tokens": 768,
+      "output_tokens": 192,
+      "seconds": 15.02521809999962,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific types of evidence to preserve and the necessity of reporting to the police, supported by Document 1 and Document 2.\"}",
+      "input_tokens": 808,
+      "output_tokens": 60,
+      "seconds": 4.970459899999696,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

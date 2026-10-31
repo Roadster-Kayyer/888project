@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001908",
+  "doc_id": "1341",
+  "query_type": "casual",
+  "query": "So, how do the police in Tamil Nadu use tech stuff to solve crimes?",
+  "corpus_query_index": 1907,
+  "system": "RRF-RAG",
+  "reference_answer": "Digital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.",
+  "context": "[Document 1]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 2]\nDigital Crime Tips:\nTo use the digital platform for anonymous crime tips, citizens can visit the Tamil Nadu Police website or download the \"Citizen Portal\" mobile app, where they can submit tips and information anonymously, helping the police department prevent and solve crimes.\n\n[Document 3]\nReporting Tech Support Scams:\nTo report tech support scams, contact the Cyber Crime Police Station or the nearest police station. Provide details of the scam, including phone numbers, emails, and payment transactions. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 4]\nReporting Suspicious Activities:\nYou can use the \"Citizen Portal\" digital platform to report suspicious activities to the Tamil Nadu Police. This platform allows citizens to file complaints, report crimes, and provide tips to the police. You can access it through the Tamil Nadu Police website or mobile app.\n\n[Document 5]\nReporting Illegal Activities Anonymously:\nCall the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.",
+  "retrieved_doc_ids": [
+    "1705",
+    "1359",
+    "921",
+    "1335",
+    "2088"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "035ee559dc6b8231734f026e6138c4348afa4708f37d9b4cf0843477d56346c7",
+  "answer": "In Tamil Nadu, police use tech tools like the Cyber Crime Cell and Cyberdome to enhance cybersecurity. Citizens can report crimes anonymously via websites, apps, or by calling the helpline. They can also submit tips and details of scams using these platforms. [Document 1-5]",
+  "input_tokens": 436,
+  "output_tokens": 59,
+  "seconds": 7.72010169999885,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

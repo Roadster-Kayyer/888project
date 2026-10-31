@@ -1,0 +1,38 @@
+{
+  "query_id": "Q008681",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 781,
+      "output_tokens": 192,
+      "seconds": 14.827934299995832,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is factually correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1, which mentions the specific IPC sections related to violence during bandhs or strikes.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1, which spec",
+      "input_tokens": 821,
+      "output_tokens": 192,
+      "seconds": 14.812234199998784,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required",
+  "parsing_recovery": {
+    "policy": "first complete valid JSON; all additional complete objects must agree on scores; ignore unfinished trailing duplicate; no score inference",
+    "attempt_index": 1,
+    "original_error": "Extra data: line 3 column 1 (char 156)",
+    "parser_sha256": "348e579869b5347d18a4f0f1307c96468eb1e061566fe3bf0be85140b8f2c590",
+    "utc": "2026-10-23T22:42:12.483002+00:00"
+  }
+}

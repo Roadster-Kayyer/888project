@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006280",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses crowd control and safety measures for different scenarios, supported by evidence from Documents 4 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses crowd control and safety measures for different scenarios, supported by evidence from Documents 4 and 5.\",\n  \"evidence\": \"Document 4 and 5 provide specific examples of how the Tamil Nadu Police ensures safety during rural festivals and offers protection during civil unrest, which are directly relevant to the question.\"\n}",
+      "input_tokens": 872,
+      "output_tokens": 114,
+      "seconds": 9.262696699996013,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

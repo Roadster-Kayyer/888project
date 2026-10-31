@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008030",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies specific sanctions for street vendors and related issues, directly addressing the question with evidence from the documents.\n}",
+      "input_tokens": 871,
+      "output_tokens": 192,
+      "seconds": 14.815977700003714,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence.\"}",
+      "input_tokens": 911,
+      "output_tokens": 46,
+      "seconds": 3.872601900002337,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

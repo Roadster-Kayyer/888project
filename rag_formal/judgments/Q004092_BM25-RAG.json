@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004092",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the factual claims about the presumption of innocence in India."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the factual claims about the presumption of innocence in India.\",\n  \"evidence\": \"[Document 1] - Presumption of Innocence: The legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\"\n}",
+      "input_tokens": 806,
+      "output_tokens": 158,
+      "seconds": 12.101612800001021,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_7",
+  "doc_id": "PB_1ae5109ccdd4da32aa0b",
+  "query_type": "medishield",
+  "query": "What is the slogan of Singapore's MediShield program that emphasizes the program's goal of enhanced coverage?",
+  "reference_answer": "Better Protection, For All, For Life.",
+  "corpus_query_index": 328,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 2]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 5]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.",
+  "retrieved_doc_ids": [
+    "PB_3808b698344f1c773560",
+    "PB_d600f5b60cee68821fae",
+    "PB_af1247343974a8960a93",
+    "PB_602681b75becd57cfb35",
+    "PB_c4889c17ceec12f1516c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "af1d891bacb2a1170677a7a1ccfc8c32b577f764f27af1845d4b8cd371f47c2a",
+  "answer": "[Document 1] mentions that the MediShield program's slogan likely emphasizes enhancing coverage, but no direct slogan is provided. [Document 4] states that MediShield Life Scheme booklet contains key features, suggesting the program aims to improve coverage. [Document 3] discusses total income, implying MediShield focuses on comprehensive support. Therefore, the MediShield program's slogan probably highlights \"comprehensive health coverage.\"",
+  "input_tokens": 418,
+  "output_tokens": 83,
+  "seconds": 10.710717800000566,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

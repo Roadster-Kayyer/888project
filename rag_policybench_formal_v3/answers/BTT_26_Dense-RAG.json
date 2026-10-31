@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_26",
+  "doc_id": "PB_3ac354fb318e3ce2a4f3",
+  "query_type": "BTT",
+  "query": "What is prohibited for pedal cyclists, including trishaws, tricycles, and bicycles, beyond the point marked by certain signs?",
+  "reference_answer": "The riding of pedal-cycles, including trishaws, tricycles, and bicycles, is prohibited.",
+  "corpus_query_index": 19,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe riding of pedal-cycles, including trishaws, tricycles, and bicycles, is prohibited.\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 4]\nThree yellow reflective markings.\n\n[Document 5]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+  "retrieved_doc_ids": [
+    "PB_3ac354fb318e3ce2a4f3",
+    "PB_33b32af818c8c4223f8f",
+    "PB_4479f84c1b73422f7e24",
+    "PB_f93c36f8738a815fe887",
+    "PB_cfbeecc8e8bd16153256"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "74adb3bc5e46a2771e30cfa6392000dc3b433d321983ad42f4ab7fbaa9e81773",
+  "answer": "Based on Document 1, pedal cyclists, including trishaws, tricycles, and bicycles, are prohibited beyond the point marked by certain signs. [Document 1]",
+  "input_tokens": 350,
+  "output_tokens": 37,
+  "seconds": 14.778702999996312,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

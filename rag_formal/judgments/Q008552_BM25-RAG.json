@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008552",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the penalties for domestic violence as stated in the reference documents, with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states penalties under the Protection of Women from Domestic Violence Act, 2005, supported by Document 1.\",\n}",
+      "input_tokens": 765,
+      "output_tokens": 75,
+      "seconds": 5.84936779999407,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the penalties for domestic violence as stated in the reference documents, with evidence from Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) because it accurately reflects the information given in the reference documents regarding the penalties for domestic violence under the Protection of Women from Domestic Violence Act, 2005. The reason is succinct and accurately summarizes the evaluation.",
+      "input_tokens": 805,
+      "output_tokens": 143,
+      "seconds": 11.315459999997984,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

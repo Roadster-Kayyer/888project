@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_109",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question, is relevant to the reference, and is supported by the implied restriction in the reference for CPF use within immediate family."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question, is relevant to the reference, and is supported by the implied restriction in the reference for CPF use within immediate family.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder since the actual evidence is not provided in the text. In a real scenario, the evidence would need to be a specific reference to a document or source that supports the candidate's answer.)",
+      "input_tokens": 444,
+      "output_tokens": 146,
+      "seconds": 11.157412499989732,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

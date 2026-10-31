@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_72",
+  "doc_id": "PB_70b5d47d6063963e4051",
+  "query_type": "CPF_111",
+  "query": "What happens if I have incentives accrued across a few months but only paid later? When will the payments attract CPF contribution?",
+  "reference_answer": "Platform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.",
+  "corpus_query_index": 137,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 2]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 3]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 4]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_70b5d47d6063963e4051",
+    "PB_0b2919dbf107215d276f",
+    "PB_bb4198b52a9a38049310",
+    "PB_463ffaad763bace6d774",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "19ef047fc52e1c18c9ef927498af3d0aaf010372c676f60fbbc8c65d84b774ee",
+  "answer": "If incentives are accrued over months but paid later, CPF contributions will be calculated based on the payment's due date, not when accrued. They attract CPF when due and payable, not when earned. [Document 1]",
+  "input_tokens": 975,
+  "output_tokens": 45,
+  "seconds": 6.319102699999348,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

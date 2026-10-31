@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005952",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the verification process and is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the verification process and is supported by all documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate's answer is correct, directly addresses the question, and is fully supported by the provided documents. The evidence from Document 1 and Document 5 corroborates the verification process described in the candidate's answer.",
+      "input_tokens": 760,
+      "output_tokens": 137,
+      "seconds": 10.462099399999715,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

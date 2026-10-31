@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007120",
+  "doc_id": "399",
+  "query_type": "hard",
+  "query": "What strategies are there for reporting a hospital employee who insists on receiving gifts in exchange for services?",
+  "corpus_query_index": 7119,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\nReporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.\n\n[Document 2]\nReporting Misconduct by State Transport Corporation Employee:\nTo report misconduct, contact the State Transport Corporation's customer care or visit their website for the complaint procedure. You can also file a complaint at the nearest police station or with the Transport Department.\n\n[Document 3]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.\n\n[Document 4]\nAssistance for Foreign Scam Victims:\nThe Tamil Nadu Police assists foreigners who are victims of scams by:\n* Providing a dedicated tourist police unit\n* Offering support and guidance in filing complaints\n* Coordinating with embassies and consulates for necessary assistance\n\n[Document 5]\nComplaint against Employment Exchange Official:\nFile a complaint with the District Employment Officer or the Commissioner of Employment and Training. You can also contact the local police station or submit a grievance through the Tamil Nadu Government's online portal.",
+  "retrieved_doc_ids": [
+    "399",
+    "418",
+    "958",
+    "1789",
+    "430"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d8018f5c076b0ade4575ea76f22ae4f3644486f87b70f239789881ec5c7e9b67",
+  "answer": "For reporting a hospital employee demanding gifts, follow these steps:\n1. Visit the nearest police station and file a complaint.\n2. Provide details like the date, nature of the gift, and the hospital/doctor involved.\n3. Contact the Tamil Nadu Medical Council for further guidance. [Document 3]",
+  "input_tokens": 411,
+  "output_tokens": 62,
+  "seconds": 8.162301500000467,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_65",
+  "doc_id": "PB_cb5d04a689bc8ce22058",
+  "query_type": "ICA_134",
+  "query": "Can I enter as a PR if my Re-Entry Permit is tagged to my old passport instead of my new passport?",
+  "reference_answer": "You may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "corpus_query_index": 264,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 2]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 3]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 4]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 5]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.",
+  "retrieved_doc_ids": [
+    "PB_cb5d04a689bc8ce22058",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_6a37eec904475577f862"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f1d41b866bbc52a9b8a13397aca5b81048b99c17600256e2dd961ad1449b7474",
+  "answer": "Yes, you can enter as a PR if your Re-Entry Permit is on your old passport. However, you need to transfer its validity to your new passport using Singpass through ICA e-Service. [Document 1]",
+  "input_tokens": 546,
+  "output_tokens": 48,
+  "seconds": 6.288931899995077,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

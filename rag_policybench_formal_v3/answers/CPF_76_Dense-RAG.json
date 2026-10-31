@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_76",
+  "doc_id": "PB_c258c2cbaf7491b2d9b3",
+  "query_type": "CPF_111",
+  "query": "What are the service standards for processing applications relating to employees' CPF Matters?",
+  "reference_answer": "Please refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.",
+  "corpus_query_index": 141,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nPlease refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.\n\n[Document 2]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days\n\n[Document 3]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 4]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 5]\nThe employer who had entered into an employment contract with you is required to pay the CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_c258c2cbaf7491b2d9b3",
+    "PB_2c2c8f4f1646ae7f07d7",
+    "PB_68186a4dadd329687464",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_e05e627156f03d97ac97"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0c29948bc2f874ab3331db67412de97a87d422b1b7804f41b5718a2c91732a52",
+  "answer": "Service standards include normal processing times like 5 working days for employer-reported CPF issues [Document 1]. For self-employed persons, processing can take up to 15 working days [Document 2]. Contributions depend on employment status and nature of engagement [Document 4]. Documents like pay slips and contracts are needed for accurate CPF contributions [Document 3]. [Document 1] provides specific times for processing applications.",
+  "input_tokens": 630,
+  "output_tokens": 85,
+  "seconds": 10.950656299988623,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

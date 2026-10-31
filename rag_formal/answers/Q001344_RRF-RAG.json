@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001344",
+  "doc_id": "124",
+  "query_type": "search",
+  "query": "Can you tell me about the NDPS Act and the crimes it tackles?",
+  "corpus_query_index": 1343,
+  "system": "RRF-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 3]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 4]\nOperation TASHA:\nOperation TASHA (Tamil Nadu Anti-Drug Special Action) is a crackdown on drug trafficking and peddling by the Tamil Nadu Police. It aims to identify and arrest those involved in drug-related crimes and create a drug-free environment in the state.\n\n[Document 5]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.",
+  "retrieved_doc_ids": [
+    "124",
+    "131",
+    "129",
+    "134",
+    "1564"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3ca4a7ab4945268f7cbe3b511ea3401918f2a0c96be3a91d504daba7a4de6bba",
+  "answer": "The NDPS Act tackles crimes related to drug abuse, trafficking, and possession. It covers offenses like possession, sale, purchase, and manufacturing of banned substances. The Tamil Nadu Police handle cannabis cultivation cases under this act, seizing plants and arresting suspects. It also deals with drug seizures and an operation called Operation TASHA against drug trafficking. [Document 1]",
+  "input_tokens": 416,
+  "output_tokens": 74,
+  "seconds": 9.430572799999936,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

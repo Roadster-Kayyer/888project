@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005958",
+  "doc_id": "2070",
+  "query_type": "casual",
+  "query": "Can I find out if a car is stolen in Tamil Nadu before buying it?",
+  "corpus_query_index": 5957,
+  "system": "BM25-RAG",
+  "reference_answer": "Verifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.",
+  "context": "[Document 1]\nReporting a Stolen Vehicle:\nTo report a stolen vehicle, visit the nearest police station and provide required documents: vehicle registration, insurance, and ID proof. Fill out the FIR form and submit it to the officer in charge.\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nMinors and Arrest in Tamil Nadu\nIn Tamil Nadu, minors (below 18 years) can be apprehended, but not arrested. They are dealt with under the Juvenile Justice Act. If a minor is involved in a crime, they will be produced before the Juvenile Justice Board.\n\n[Document 4]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "63",
+    "35",
+    "45",
+    "1432",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2f3b3d1284abd0d37fcbfbcfafcb247c3e5cfbdfd2aa4d6af85d642430a62202",
+  "answer": "Yes, you can find out if a car is stolen in Tamil Nadu by visiting the nearest police station and reporting it. [Document 1]",
+  "input_tokens": 413,
+  "output_tokens": 30,
+  "seconds": 3.877468900000167,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

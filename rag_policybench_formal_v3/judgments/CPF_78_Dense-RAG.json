@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_78",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the purpose of the combined tax relief cap and aligns with evidence from Document 1 regarding the change for consistency and alignment of tax relief conditions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the purpose of the combined tax relief cap and aligns with evidence from Document 1 regarding the change for consistency and alignment of tax relief conditions.\"\n}",
+      "input_tokens": 1573,
+      "output_tokens": 77,
+      "seconds": 6.251322099997196,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

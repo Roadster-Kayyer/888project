@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_5",
+  "doc_id": "PB_cc7693f77f325d09a3b3",
+  "query_type": "BTT",
+  "query": "What precaution should motorcycle owners take to prevent theft even during short durations?",
+  "reference_answer": "Motorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.",
+  "corpus_query_index": 45,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMotorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.\n\n[Document 2]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_cc7693f77f325d09a3b3",
+    "PB_3300f78e0c7cee359492",
+    "PB_8d18fc446288ee1e6348",
+    "PB_70527c7dfb085e57dd22",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cf7846b119e261ab7eba19c9a46fa84a50ebbd52a2ee0e3ca3eafab86e582189",
+  "answer": "Motorcycle owners should remove ignition keys and lock their motorcycles even for short durations to prevent theft. [Document 1]",
+  "input_tokens": 560,
+  "output_tokens": 25,
+  "seconds": 3.34864940000989,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

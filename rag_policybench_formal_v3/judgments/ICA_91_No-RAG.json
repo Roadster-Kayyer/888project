@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_91",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer provides a general timeframe but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer provides a general timeframe but lacks specific evidence from the reference.\",\n  \"answer\": \"The candidate answer is relevant but not fully correct as it does not directly reference the provided evidence, which specifies 1 week for renewals and 3 working days for transfers.\"\n}\n\n\n\n## Instruction 2 (More Diff00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_tokens": 405,
+      "output_tokens": 192,
+      "seconds": 14.46777529999963,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

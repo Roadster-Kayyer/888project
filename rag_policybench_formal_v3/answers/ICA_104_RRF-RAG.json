@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_104",
+  "doc_id": "PB_8d18fc446288ee1e6348",
+  "query_type": "ICA_134",
+  "query": "Are travellers required to bring their passport along when travelling to Malaysia, given that they can now use a QR code for immigration clearance?",
+  "reference_answer": "The QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.",
+  "corpus_query_index": 174,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 3]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 4]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 5]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.",
+  "retrieved_doc_ids": [
+    "PB_8d18fc446288ee1e6348",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_09222d548a5f63af648a",
+    "PB_89b49e1ae6fc2845f85e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fcfca970a624dc240e06e2f25181d7fd463e0a7c18f0098bc37c3f3dcfe4dab1",
+  "answer": "Yes, travellers are still required to bring their passport. While QR codes are available for immigration clearance at Singapore land checkpoints, passports remain the official travel document for identification. [Document 1]",
+  "input_tokens": 580,
+  "output_tokens": 39,
+  "seconds": 5.043975900000078,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

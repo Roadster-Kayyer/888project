@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000243",
+  "doc_id": "1040",
+  "query_type": "casual",
+  "query": "So, how do I get my criminal case started?",
+  "corpus_query_index": 242,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "799",
+    "255",
+    "849",
+    "1432",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "30d5606ba162aa10b3f5eed23c73bc515913bc570eea74a8ab329eecd0b714f0",
+  "answer": "To start your criminal case, go to the nearest police station and file a First Information Report (FIR). The police will ask for details and provide a copy of the FIR for you to keep. [Document 2]",
+  "input_tokens": 429,
+  "output_tokens": 46,
+  "seconds": 5.975380099999711,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007133",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing specific offices to contact for reporting a BDO."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing specific offices to contact for reporting a BDO.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 1, which directly instructs how to report a BDO. The evidence supports the factual claims made in the candidate answer, and the reason succinctly explains the scores.",
+      "input_tokens": 773,
+      "output_tokens": 129,
+      "seconds": 10.04375920000166,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

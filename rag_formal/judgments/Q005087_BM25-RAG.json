@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005087",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct details from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists specific online crimes the Cyber Crime Wing handles and is directly supported by the retrieved evidence documents.\n}",
+      "input_tokens": 703,
+      "output_tokens": 192,
+      "seconds": 14.879869000000326,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct details from all documents.\"}",
+      "input_tokens": 743,
+      "output_tokens": 35,
+      "seconds": 2.8984471000003396,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

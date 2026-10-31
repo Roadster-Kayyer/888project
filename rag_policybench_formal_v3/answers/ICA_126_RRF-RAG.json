@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_126",
+  "doc_id": "PB_ab2a764b892b10ef7a10",
+  "query_type": "ICA_134",
+  "query": "How do I apply for Singapore Permanent Residence (PR) and what are the eligibility criteria for PR application?",
+  "reference_answer": "You may refer to the ICA website for more information on the eligibility criteria for PR application.",
+  "corpus_query_index": 198,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nYou may refer to the ICA website for more information on the eligibility criteria for PR application.\n\n[Document 4]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 5]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_ab2a764b892b10ef7a10",
+    "PB_16464034b8fc8059eece",
+    "PB_cb5d04a689bc8ce22058"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e1c7a184daa333c1f4f7a4ba8777eea4b2b1888c63850589a202e67dabba9147",
+  "answer": "To apply for Singapore Permanent Residence (PR), visit the ICA website [Document 5] for eligibility criteria. Eligibility includes being a Singapore citizen to sponsor parents [Document 2], and having a valid Re-Entry Permit (REP). PR holders must renew their permit using Singpass [Document 5]. There's no reinstatement for voluntary renunciation [Document 4]. Citizenship can be applied for 2 years after PR status [Document 1]. [Document 3] provides more info.",
+  "input_tokens": 342,
+  "output_tokens": 103,
+  "seconds": 13.023871700002928,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

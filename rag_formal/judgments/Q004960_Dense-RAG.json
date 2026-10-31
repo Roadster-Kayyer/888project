@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004960",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 5.\",\n  \"retrieved_evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. It correctly outlines the methods for approaching authorities to protect against family abuse in Tamil Nadu, including contacting the police or helpline, providing details of the abuse, and seeking a protection officer. The answer also correctly references the appropriate helplines for elderly and child abuse, as well as online reporting options, which are all supported by the documents. The reason succinctly explains the scores, noting that the candidate",
+      "input_tokens": 960,
+      "output_tokens": 192,
+      "seconds": 14.795169199998782,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_72",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by Document 1.\",\n  \"evidence\": \"[Document 1] - 'You have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.'\"\n}",
+      "input_tokens": 958,
+      "output_tokens": 192,
+      "seconds": 15.169544799995492,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

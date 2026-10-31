@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002723",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer\": \"To apply for the Tamil Nadu Police's dog handler job, visit the official recruitment website and fill out the online application, attend selection tests.\"\n}\n\n\nIn the provided candidate answer, the process of applying for the job is correctly described, which aligns with the reference's instructions for applying through the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website. However, the answer does not directly reference the need to meet eligibility criteria or the specific steps of filling out an online application and attending written and physical tests as mentioned in the reference. Therefore, the correctness score is",
+      "input_tokens": 430,
+      "output_tokens": 192,
+      "seconds": 14.752666299998964,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

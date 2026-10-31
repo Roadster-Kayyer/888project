@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007391",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific helpline numbers and instructions for reporting, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific helpline numbers and instructions for reporting, supported by evidence from all documents.\"\n}\n\n\nThe candidate answer is correct in stating the helpline numbers for reporting forced or child marriages and dowry harassment, which aligns with the information provided in the reference documents. The answer is relevant as it directly responds to the question about reporting these incidents to the police. The faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence provided in the documents, which include the helpline numbers and the process of reporting. The reason succinctly explains the scores, indicating that the candidate's answer is accurate, directly relevant,",
+      "input_tokens": 862,
+      "output_tokens": 192,
+      "seconds": 14.83773680000013,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

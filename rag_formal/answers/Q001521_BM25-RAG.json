@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001521",
+  "doc_id": "1272",
+  "query_type": "original",
+  "query": "What is the procedure for reporting canal breaches to PWD?",
+  "corpus_query_index": 1520,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nReporting Bridge Damage to PWD:\nTo report bridge damage, contact the nearest PWD office or call the PWD helpline. Provide details of the damage, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 3]\nReporting Unauthorized Water Tapping:\nTo report unauthorized water tapping from PWD sources, call the PWD helpline or visit the nearest PWD office. Provide details of the location and nature of the tapping.\n\n[Document 4]\nReporting Road Damage:\nTo report road damage, contact the PWD helpline or visit the nearest PWD office. You can also submit a complaint through the Tamil Nadu Government's online grievance portal or use the PWD's mobile app to report the issue.\n\n[Document 5]\nRental of PWD Rest Houses:\nTo apply for rental of PWD rest houses in Tamil Nadu, visit the Tamil Nadu Public Works Department (PWD) website or contact the nearest PWD office. Fill out the application form, providing required documents and payment. Approval is subject to availability and eligibility.",
+  "retrieved_doc_ids": [
+    "1272",
+    "1270",
+    "1286",
+    "1268",
+    "1273"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "180037ee26a4798d403f91f05f2e67f5da607125212e0a4260e7db79b75a74ad",
+  "answer": "To report a canal breach to PWD, contact the nearest PWD office or call their helpline. Provide details like the breach's location and your contact info. You can also report online via the PWD website or app. [Document 1]",
+  "input_tokens": 405,
+  "output_tokens": 52,
+  "seconds": 6.633770500000537,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

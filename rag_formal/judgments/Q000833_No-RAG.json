@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000833",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the reference, it is stated that a No Due Certificate is obtained by filing a petition with the court and providing required documents, which does not necessarily involve presenting compelling reasons for leniency. The candidate answer introduces the concept of presenting reasons for leniency, which is not mentioned in the reference, hence the faithfulness score is null due to the lack of direct evidence from the provided reference.",
+      "input_tokens": 404,
+      "output_tokens": 153,
+      "seconds": 12.00657190000129,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

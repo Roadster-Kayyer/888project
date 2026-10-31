@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008066",
+  "doc_id": "57",
+  "query_type": "original",
+  "query": "Can police force me to sign any document?",
+  "corpus_query_index": 8065,
+  "system": "BM25-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nReporting a Lost Document or Item:\nTo report a lost document or item, visit the nearest police station and file a complaint (FIR). Provide a detailed description of the lost item and any relevant documents. You can also use the TN Police mobile app to report a lost item.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nProcedure for Will Registration:\nTo register a will, visit the Sub-Registrar's office with:\n- The will document\n- Two witnesses\n- Identity proof\nThe testator (will maker) must sign the will in the presence of the Sub-Registrar and witnesses.\n\n[Document 5]\nUse of Force by Police:\nThe use of force by police in Tamil Nadu is governed by the CrPC and the Indian Penal Code (IPC). Police can use force in self-defense or to prevent a crime, but it must be proportionate and reasonable. Excessive use of force can lead to criminal charges against the police officer. The police must also follow guidelines set by the National Human Rights Commission (NHRC) and the Supreme Court.",
+  "retrieved_doc_ids": [
+    "57",
+    "77",
+    "253",
+    "1082",
+    "1728"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "36467e3a5bdb9532324aba72eb32c163bb8a2fe648adc12d811b6c5d9c5cfb68",
+  "answer": "No, the police cannot force you to sign any document. You have the right to read and understand its contents before signing. [Document 1]",
+  "input_tokens": 430,
+  "output_tokens": 31,
+  "seconds": 4.076861800000188,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

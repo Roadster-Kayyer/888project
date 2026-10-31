@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_17",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is correct and directly addresses the question, which is why it receives a correctness score of 2. It is relevant as it pertains to the action of alerting other road users before passing, which is the essence of the question. However, the reference suggests that a clear signal is crucial, which the candidate answer does not explicitly mention, hence the faithfulness score of 1. The evidence is marked as null because the candidate answer does not directly quote or reference the provided text.",
+      "input_tokens": 347,
+      "output_tokens": 177,
+      "seconds": 13.388449800011585,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

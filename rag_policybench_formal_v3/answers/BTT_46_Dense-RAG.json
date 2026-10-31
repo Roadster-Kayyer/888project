@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_46",
+  "doc_id": "PB_d52d8afcd0f078500080",
+  "query_type": "BTT",
+  "query": "How does driving a vehicle in the right gear impact fuel efficiency and emissions?",
+  "reference_answer": "Driving the vehicle in the right gear will increase fuel efficiency and reduce emissions.",
+  "corpus_query_index": 41,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nAvoid dragging the engine by using the correct gear.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_043f86bad043c042932a",
+    "PB_4a5e366a1e27905d0545",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_15b5d9c0851609d354e4"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "41e38631fbd0c29e43bcf542aea6502448c2b21d74191ffb7a3599d34c31012c",
+  "answer": "Driving in the right gear improves fuel efficiency and reduces emissions by avoiding unnecessary engine drag [Document 3]. This practice helps the engine run more efficiently, thus saving fuel and lowering emissions [Document 1].",
+  "input_tokens": 203,
+  "output_tokens": 42,
+  "seconds": 5.369113200009451,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

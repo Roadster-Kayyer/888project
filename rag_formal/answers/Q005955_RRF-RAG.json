@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005955",
+  "doc_id": "207",
+  "query_type": "hard",
+  "query": "What's the certification procedure for people who clean houses?",
+  "corpus_query_index": 5954,
+  "system": "RRF-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department. Submit required documents, including proof of tribal identity, residence, and ancestry. The application will be verified and certified by the concerned authorities.\n\n[Document 2]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department in Tamil Nadu. Submit required documents, including proof of tribal identity, residence, and community certificate, to initiate the certification process.\n\n[Document 3]\nPrivate Forest Certification:\nTo apply for private forest certification in Tamil Nadu, contact the Tamil Nadu Forest Department. Submit an application with required documents, including land ownership proof and forest management plan. The department will verify and inspect your forest area before issuing certification.\n\n[Document 4]\nPolice Verification for Government Contractors:\nThe procedure involves submitting an application to the local police station with required documents, including a contract copy and ID proof. The police will then conduct a background check and issue a verification report.\n\n[Document 5]\nPrivate Forest Certification in Tamil Nadu:\nTo apply, contact the Tamil Nadu Forest Department. Submit an application with required documents, including land ownership proof and forest management plan. The department will inspect and verify your forest management practices.",
+  "retrieved_doc_ids": [
+    "1257",
+    "1239",
+    "1249",
+    "217",
+    "1231"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "716d48af1782e0f10144295bade7b1a3a1ecf036579bba8ea0555c7004560c96",
+  "answer": "The document does not provide specific details about the certification procedure for house cleaners. [Document 1] and [Document 2] are about tribal rights certification, which is unrelated. For house cleaning certification, we would need information from other documents or sources. [Document 3] and others do not pertain to house cleaning certifications.",
+  "input_tokens": 381,
+  "output_tokens": 68,
+  "seconds": 8.831530600000406,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

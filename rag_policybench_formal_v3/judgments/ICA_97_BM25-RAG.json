@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_97",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the evidence provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by Document 1.\",\n}",
+      "input_tokens": 868,
+      "output_tokens": 192,
+      "seconds": 14.354305100001511,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the evidence provided in the documents.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes the process of changing the collection venue to an overseas mission.\n- Relevance: The answer directly addresses the question about changing the collection venue to an overseas mission.\n- Faithfulness: The answer is faithful as it is supported by the information provided in Document 1, which instructs applicants to log into e-Services and select the closest Singapore Overseas Mission for the collection venue.\n- Reason: The candidate answer is accurate, relevant, and faithful to the evidence provided, hence the scores are all at the maximum level.",
+      "input_tokens": 908,
+      "output_tokens": 183,
+      "seconds": 14.09586099999433,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

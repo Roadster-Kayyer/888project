@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004095",
+  "doc_id": "1735",
+  "query_type": "hard",
+  "query": "What conditions lead to the application of the presumption of innocence in judicial processes?",
+  "corpus_query_index": 4094,
+  "system": "BM25-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nModifying Bail Conditions\nYes, bail conditions can be modified after they are set. The accused or the prosecution can apply to the court to modify or cancel the bail conditions, and the court will decide based on the circumstances.\n\n[Document 3]\nPermission for Educational Trips to Forests:\nTo obtain permission for educational trips to forests, submit an application to the District Forest Officer with details of the trip, including date, time, and number of participants. The application should be made at least 15 days in advance. Permission will be granted subject to certain conditions and guidelines to ensure safety and conservation of the forest ecosystem.\n\n[Document 4]\nConditions of Conditional Bail:\nConditions may include:\n* Appearing in court as required\n* Not leaving the country without permission\n* Not contacting the victim or witnesses\n* Depositing a surety amount\n* Regularly reporting to the police station\n\n[Document 5]\nWithdrawing a Complaint:\nTo withdraw your complaint, submit a written application to the police station where you filed the FIR. The application should state your intention to withdraw the complaint and sign it. The police will then follow the procedure as per law and guidelines. Note: Withdrawal is subject to certain conditions and may require court approval.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1029",
+    "1242",
+    "1804",
+    "11"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5cfb9c693c3037e940836152a59b8a28809775150b2cb89d44598a6a786a24fc",
+  "answer": "The presumption of innocence leads to the assumption that an accused is innocent until proven guilty, as stated in [Document 1]. Judicial processes require the prosecution to prove the accused's guilt beyond reasonable doubt, as outlined in [Document 1].",
+  "input_tokens": 445,
+  "output_tokens": 49,
+  "seconds": 6.2191090999986045,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

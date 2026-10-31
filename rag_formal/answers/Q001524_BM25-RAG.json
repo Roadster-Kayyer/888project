@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001524",
+  "doc_id": "1272",
+  "query_type": "search",
+  "query": "Can someone guide me on how to inform the PWD about a canal break?",
+  "corpus_query_index": 1523,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nReporting Dam Safety Issues:\nTo report dam safety issues, contact the Tamil Nadu PWD's Dam Safety Organization or the nearest PWD office. You can also call the PWD helpline or submit a complaint online through the PWD website. Provide detailed information about the issue for prompt action.\n\n[Document 4]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 5]\nUsing Public Restrooms:\nTo safely use public restrooms in unfamiliar places:\n* Choose well-lit and crowded areas\n* Avoid isolated restrooms\n* Inform someone about your whereabouts",
+  "retrieved_doc_ids": [
+    "1272",
+    "46",
+    "1274",
+    "849",
+    "1905"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "00b7ecbd6254cb5262ad9744cfd41a73be24d374c1ca8a127d63ef26768cf0ee",
+  "answer": "To inform the PWD about a canal break, contact the nearest PWD office or call the PWD helpline immediately. Provide details like the location and your contact info. You can also report online through the PWD website or app. [Document 1]",
+  "input_tokens": 395,
+  "output_tokens": 54,
+  "seconds": 6.924475900001198,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_63",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the documents, stating no liquidation upon withdrawal."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the documents, stating no liquidation upon withdrawal.\"\n}",
+      "input_tokens": 1345,
+      "output_tokens": 192,
+      "seconds": 15.105673600002774,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

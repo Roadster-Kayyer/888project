@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_34",
+  "doc_id": "PB_807b1e4dfc132f9b1786",
+  "query_type": "CPF_111",
+  "query": "How can I make recurring monthly or yearly top-ups conveniently via GIRO?",
+  "reference_answer": "You can make small and recurring cash top-ups via GIRO by following the steps below:Step 1:Set up a GIRO arrangementStep 2: Please allow one day for your GIRO bank account to be updated in the Board's record. Thereafter, please submit a request to makerecurring cash top-ups for retirement.Please note that you must completebothsteps for recurring cash top-ups via GIRO to be successful.Currently, the online application to set up a GIRO arrangement is only available for theseparticipating banks.If you encounter any difficulties in setting up GIRO, you maywrite to usfor assistance.",
+  "corpus_query_index": 95,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can make small and recurring cash top-ups via GIRO by following the steps below:Step 1:Set up a GIRO arrangementStep 2: Please allow one day for your GIRO bank account to be updated in the Board's record. Thereafter, please submit a request to makerecurring cash top-ups for retirement.Please note that you must completebothsteps for recurring cash top-ups via GIRO to be successful.Currently, the online application to set up a GIRO arrangement is only available for theseparticipating banks.If you encounter any difficulties in setting up GIRO, you maywrite to usfor assistance.\n\n[Document 2]\nIf you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.\n\n[Document 3]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).\n\n[Document 4]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_807b1e4dfc132f9b1786",
+    "PB_8ebe3f6918bf6e508aca",
+    "PB_474d6298f86507ebfa6a",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dd6ec4be526a6ed3b6d77847e7701f9e24f488d14a33643b724e6285da61877d",
+  "answer": "To make recurring monthly or yearly top-ups via GIRO, first set up a GIRO arrangement [Document 1]. Allow one day for updates, then request recurring cash top-ups [Document 1]. For changes, delete the old arrangement and create a new one [Document 2]. Ensure you're up-to-date with your MediSave payable to make top-ups conveniently [Document 3]. Remember, MRSS grants require top-ups by 31 Dec of eligibility year [Document 5].",
+  "input_tokens": 678,
+  "output_tokens": 101,
+  "seconds": 12.961222400001134,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

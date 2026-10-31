@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005955",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not directly address the specific certification procedure mentioned in the reference, and there is no evidence provided to support the claims made."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not align with the reference, which specifies police-based verification, not training or licensing.\",\n}",
+      "input_tokens": 385,
+      "output_tokens": 66,
+      "seconds": 5.087302700001601,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer does not directly address the specific certification procedure mentioned in the reference, and there is no evidence provided to support the claims made.\"}",
+      "input_tokens": 425,
+      "output_tokens": 54,
+      "seconds": 4.279607400003442,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

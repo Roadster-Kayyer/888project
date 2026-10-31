@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_89",
+  "doc_id": "PB_9a542ab9b413f1095ed3",
+  "query_type": "ICA_134",
+  "query": "Do I need to update my new passport details if the registered passport for automated clearance has expired?",
+  "reference_answer": "For Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.",
+  "corpus_query_index": 290,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 2]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 3]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.\n\n[Document 4]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 5]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "retrieved_doc_ids": [
+    "PB_9a542ab9b413f1095ed3",
+    "PB_6a37eec904475577f862",
+    "PB_e0f7b3c7aacb50023519",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_09222d548a5f63af648a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dac6b5624066f3a6ede9456afe9923efb9f618ff768c8f869d5d26773732ee9d",
+  "answer": "For Singapore passport holders, you don't need to update your new passport details separately when renewing your passport. However, if your facial appearance has changed significantly, you should apply for a new passport with an updated photo. [Document 1]",
+  "input_tokens": 574,
+  "output_tokens": 50,
+  "seconds": 6.561843800009228,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

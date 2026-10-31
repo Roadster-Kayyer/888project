@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_84",
+  "doc_id": "PB_a35c9d503b3d542d8880",
+  "query_type": "ICA_134",
+  "query": "Can I apply for a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently?",
+  "reference_answer": "Both LTVP and PR may be applied concurrently.",
+  "corpus_query_index": 285,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 2]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 3]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 4]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 5]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.",
+  "retrieved_doc_ids": [
+    "PB_552a298a8583e182f7ef",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_c6456fad7242c379cac1",
+    "PB_492d1cc19d42b1bac512"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "278b15a8da5d4b96d910972084840a9430f46af87fd0749d8e3ea851c5dcaada",
+  "answer": "No, you cannot apply for both a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently. LTVP is for dependants of Singapore citizens/PR holders, while PR sponsorship requires being a Singapore citizen [Document 3]. Applying for PR depends on your citizenship status, not just having an LTVP.",
+  "input_tokens": 525,
+  "output_tokens": 69,
+  "seconds": 9.002258199994685,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

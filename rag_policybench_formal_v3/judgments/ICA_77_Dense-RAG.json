@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_77",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly states the method to request changes but fails to mention the inflexible schedule of the ceremony."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly states the method to request changes but fails to mention the inflexible schedule of the ceremony.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 4]\"\n}\n\n\nThe candidate answer is correct in terms of the procedure to request changes to the citizenship ceremony (faithfulness score of 2), as it aligns with the information provided in Document 1. The answer is also relevant (score of 2) because it directly addresses the question about rescheduling the ceremony. However, the answer lacks in correctness (score of 2) because it does not fully convey the inflexible nature of the ceremony's scheduling as indicated in Document 2 and Document",
+      "input_tokens": 650,
+      "output_tokens": 192,
+      "seconds": 15.264924900009646,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

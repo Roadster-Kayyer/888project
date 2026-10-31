@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005085",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the law enforcement duties of the Economic Offences Wing in Tamil Nadu, correctly stating the jurisdiction over economic crimes exceeding ₹1 crore, and accurately describes the investigation and chargesheet filing process, supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference facts about the jurisdiction and duties of the Economic Offences Wing in Tamil Nadu, supported by evidence from Documents 1 and 5.\",\n}",
+      "input_tokens": 790,
+      "output_tokens": 192,
+      "seconds": 14.815170999998372,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the law enforcement duties of the Economic Offences Wing in Tamil Nadu, correctly stating the jurisdiction over economic crimes exceeding ₹1 crore, and accurately describes the investigation and chargesheet filing process, supported by all documents.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer is fully supported by the retrieved evidence, which confirms the jurisdiction, types of cases, and the process of handling such cases by the Economic Offences Wing. The evidence provided in the documents directly backs up the factual claims made in the candidate's answer.",
+      "input_tokens": 830,
+      "output_tokens": 161,
+      "seconds": 12.757976900000358,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

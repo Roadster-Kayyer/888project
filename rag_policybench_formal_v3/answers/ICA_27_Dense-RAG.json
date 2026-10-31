@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_27",
+  "doc_id": "PB_465eff7f00e2e9a755e4",
+  "query_type": "ICA_134",
+  "query": "What is Immigration Exemption Order (IEO)?",
+  "reference_answer": "IEO or Immigration Exemption Order allows persons accredited as diplomats, consular representatives or visiting forces, and their dependants to apply to stay and work in Singapore under the Immigration Act.",
+  "corpus_query_index": 222,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIEO or Immigration Exemption Order allows persons accredited as diplomats, consular representatives or visiting forces, and their dependants to apply to stay and work in Singapore under the Immigration Act.\n\n[Document 2]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 3]\nA holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.\n\n[Document 4]\nA Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.\n\n[Document 5]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.",
+  "retrieved_doc_ids": [
+    "PB_465eff7f00e2e9a755e4",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_5155cca92728746c93bf",
+    "PB_3d3983332a6d398052ec",
+    "PB_1d2f0adc9590216ed0ca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7aaa2a1fc4a9365eb76e0cd18136576c128ede3ca34d1911e00ab10b21fbab84",
+  "answer": "The Immigration Exemption Order (IEO) allows diplomats, consular representatives, and visiting forces, along with their dependants, to stay and work in Singapore under the Immigration Act without needing a Student's Pass for certain educational activities. [Document 1]",
+  "input_tokens": 522,
+  "output_tokens": 53,
+  "seconds": 6.964519000001019,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003276",
+  "system": "Dense-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively reflects the reference's description of the museum's preservation methods, including artifacts, documents, and programs.\",\n}",
+      "input_tokens": 667,
+      "output_tokens": 75,
+      "seconds": 5.821651000002021,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the preservation methods of the Police Academy Museum, supported by evidence from Documents 1, 2, and 5.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the provided documents.\"}\n\n(Note: The \"reason\" is a brief explanation and can be adjusted based on the actual analysis of the evidence. The scores provided are based on the assumption that the candidate's answer is accurate, directly relevant, and fully supported by the evidence provided in the documents.)",
+      "input_tokens": 707,
+      "output_tokens": 159,
+      "seconds": 12.464413299996522,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 216)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

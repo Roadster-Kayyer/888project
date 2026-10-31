@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_27",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes IEO, relevant to the question, and supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes IEO, relevant to the question, and supported by Document 1.\",\n  \"evidence\": \"[Document 1] IEO or Immigration Exemption Order allows persons accredited as diplomats, consular representatives or visiting forces, and their dependants to apply to stay and work in Singapore under the Immigration Act.\"\n}",
+      "input_tokens": 897,
+      "output_tokens": 192,
+      "seconds": 13.892342899998766,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

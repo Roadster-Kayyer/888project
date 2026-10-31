@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_3",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is relevant as it pertains to the control used to clear the windshield during rain, which is the function of the wipers. However, there is no evidence provided in the retrieved evidence to directly support the claim that the wiper switch is the specific control used for this purpose. Therefore, the correctness score is 1 for being partly correct but missing important details, and faithfulness is null due to the absence of supporting evidence.",
+      "input_tokens": 343,
+      "output_tokens": 165,
+      "seconds": 12.251730599993607,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

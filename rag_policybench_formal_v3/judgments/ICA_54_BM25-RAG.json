@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_54",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the procedure for a passport number change affecting ABTC and aligns with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the procedure for a passport number change affecting ABTC and aligns with the evidence provided.\",\n  \"evidence_references\": [\"Document 1\", \"Document 3\", \"Document 4\"]\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in the documents. The answer correctly explains the procedure for handling a change in passport number in relation to the ABTC and the need to apply for a replacement after obtaining a new passport. The evidence from Document 1, Document 3, and Document 4 directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 842,
+      "output_tokens": 179,
+      "seconds": 13.973865799998748,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

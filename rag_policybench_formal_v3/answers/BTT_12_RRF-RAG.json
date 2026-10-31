@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_12",
+  "doc_id": "PB_1bd233e28127cfee0c86",
+  "query_type": "BTT",
+  "query": "What should drivers do if the traffic lights turn red while they are in the yellow box junction?",
+  "reference_answer": "Drivers should proceed to complete their turn and clear the junction.",
+  "corpus_query_index": 4,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 2]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 5]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+  "retrieved_doc_ids": [
+    "PB_1bd233e28127cfee0c86",
+    "PB_445d301435d07072a252",
+    "PB_716429660f2efd24efb8",
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_c41b88860662185c50b1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "98bc606a898a3595e452cb6ad171e54c932dcf2e2a57aa37846f47748947985e",
+  "answer": "Drivers should proceed to complete their turn and clear the junction. [Document 1] warns that once traffic lights turn red, they should continue through the yellow box junction to finish their turn.",
+  "input_tokens": 265,
+  "output_tokens": 39,
+  "seconds": 5.081253500000457,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_108",
+  "doc_id": "PB_c4f12e1a849b705fc8a2",
+  "query_type": "CPF_111",
+  "query": "I am a self-employed person. Can I contribute to my MediSave together with my employees' CPF using the CPF Payment Form (CPF 91)?",
+  "reference_answer": "You’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.",
+  "corpus_query_index": 66,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 2]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 5]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).",
+  "retrieved_doc_ids": [
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_dc08990660488c2ed4e8",
+    "PB_474d6298f86507ebfa6a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c96ccbe81eab5bde7077fb69615611a7e98d42b0d17158e1607bba9b980af588",
+  "answer": "Yes, as a self-employed person, you can contribute to your MediSave separately from your employees' CPF using the Manage your MediSave payable form or GIRO. However, contributions must be made separately; using the CPF Payment Form (CPF 91) will be credited as employer contributions and won't be recognized as self-employed payments. [Document 1]",
+  "input_tokens": 699,
+  "output_tokens": 74,
+  "seconds": 9.894002400003956,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

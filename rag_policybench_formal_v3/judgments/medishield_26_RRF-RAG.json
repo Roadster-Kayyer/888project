@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_26",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the CPF Board's authority and references the relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the CPF Board's authority and references the relevant documents.\",\n  \"evidence\": \"Document 1, Document 2\"\n}\n\n\nThe candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2, which state the CPF Board's authority under the legislation. The answer is relevant and correct, and the evidence provided is directly related to the claim made.",
+      "input_tokens": 625,
+      "output_tokens": 132,
+      "seconds": 10.212063900005887,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

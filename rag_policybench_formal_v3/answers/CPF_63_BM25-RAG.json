@@ -1,0 +1,30 @@
+{
+  "query_id": "CPF_63",
+  "doc_id": "PB_a9eb17a0bc6c61e006d2",
+  "query_type": "CPF_111",
+  "query": "Will my CPF Investment Scheme (CPFIS) investments be sold or liquidated when I apply to withdraw my CPFIS investments upon meeting CPF withdrawal conditions?",
+  "reference_answer": "Applying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.",
+  "corpus_query_index": 127,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 2]\nApplying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.\n\n[Document 3]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nFor CPF Investment Scheme-Ordinary Account (CPFIS-OA)Please apply for the bonds and T-bills through your CPFIS-OA agent bank. Application is restricted to your CPFIS-OA agent bank to facilitate the settlement process for bonds and T-bills purchased under CPFIS-OA.DBS/POSB: Apply through DBS/POSB's internet banking portal or digibank mobile.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply for SGS bonds in person at any UOB branch. Apply for T-bills through UOB’s internet banking portalFor step-by-step guide on how to submit your application through your CPFIS-OA agent bank’s electronic portal, you may visit their website,DBS(scroll to dropdown menu “How to apply?”),OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”) andUOB(scroll to section \"Things you should know\").After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be",
+  "retrieved_doc_ids": [
+    "PB_55387403dc004065b043",
+    "PB_a9eb17a0bc6c61e006d2",
+    "PB_18205d295d37e73b6d4f",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_42402669fab955f6129f"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_42402669fab955f6129f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0017d92dab663406dd5bba34dc38fecedeca5856d563da34eff7691627d3ae18",
+  "answer": "No, your CPFIS investments won't be sold or liquidated when you apply to withdraw them. Upon approval, your agent bank and/or product providers will handle the transfer of your investments to you. [Document 2]",
+  "input_tokens": 996,
+  "output_tokens": 46,
+  "seconds": 6.295638199997484,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

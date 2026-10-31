@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001343",
+  "doc_id": "124",
+  "query_type": "casual",
+  "query": "So, what's the NDPS Act all about, and what bad stuff does it stop?",
+  "corpus_query_index": 1342,
+  "system": "RRF-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 3]\nPrevention of Corruption Act:\nThe Prevention of Corruption Act, 1988, applies to police officials in Tamil Nadu. It prohibits bribery, corruption, and misuse of power by public servants, including police officers.\n\n[Document 4]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 5]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.",
+  "retrieved_doc_ids": [
+    "124",
+    "131",
+    "1739",
+    "129",
+    "800"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "93851d741d2eb32c6cef17f2c483b5fb85bce6a80d86dd77feccda03d2f89c3c",
+  "answer": "The NDPS Act stops drug abuse, trafficking, and possession. It covers offenses like possession, sale, purchase, and manufacturing of banned substances. For example, cannabis cultivation cases are handled under this act. It also prevents corruption among police officials. Drug seizures follow this act, with seized items documented and analyzed. [Document 1]",
+  "input_tokens": 426,
+  "output_tokens": 68,
+  "seconds": 9.007692099999986,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

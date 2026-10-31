@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007130",
+  "doc_id": "40",
+  "query_type": "hard",
+  "query": "How does the law protect me when police decide to detain me?",
+  "corpus_query_index": 7129,
+  "system": "Dense-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or friend\n* Consult a lawyer\n* Be produced before a magistrate within 24 hours\n* Remain silent and avoid self-incrimination\n\n[Document 2]\nDetention Time Limit\nThe police can detain you for up to 24 hours before producing you before a magistrate, as per the Code of Criminal Procedure (CrPC).\n\n[Document 3]\nArticle 21 and Police Procedures:\nArticle 21 protects the right to life and personal liberty. It affects police procedures by:\n* Requiring arrest warrants or reasonable grounds for arrest\n* Ensuring prompt production of arrested persons before a magistrate\n* Prohibiting torture and cruel treatment\n\n[Document 4]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 5]\nPolice Custody Conditions:\nCitizens have the right to:\n* Be treated humanely in police custody\n* Have access to basic amenities like food, water, and medical care\n* Be produced before a magistrate within 24 hours of arrest\n* Contact family members or a lawyer",
+  "retrieved_doc_ids": [
+    "846",
+    "42",
+    "1715",
+    "40",
+    "1457"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "955a2a8f448213197811f609c196e89167217d5310cd3f792f28a593046f16fe",
+  "answer": "When arrested, you have the right to know the reason for arrest, contact a lawyer, remain silent, and request medical attention. You must be produced before a magistrate within 24 hours. Additionally, Article 21 protects against torture and ensures humane treatment in custody. [Document 1, Document 2, Document 5]",
+  "input_tokens": 393,
+  "output_tokens": 69,
+  "seconds": 8.981074000001172,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

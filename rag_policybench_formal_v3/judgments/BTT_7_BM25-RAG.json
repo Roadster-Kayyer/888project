@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_7",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 0,
+    "reason": "Candidate answer partially addresses the question but lacks specific details about short-term parking lots and does not fully support the claim with evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details about short-term parking lots and does not fully support the claim with evidence.\",\n  \"evidence\": \"None of the documents directly address the specific time frame for free parking in short-term parking lots on Sundays and public holidays.\"\n}",
+      "input_tokens": 904,
+      "output_tokens": 192,
+      "seconds": 14.877453699999023,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

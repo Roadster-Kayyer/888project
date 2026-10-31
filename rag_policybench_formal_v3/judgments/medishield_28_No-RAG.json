@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_28",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but is relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but is relevant to the question.\",\n  \"answer\": \"Eligibility for Medishield subsidies for high-value residences is not specified.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the eligibility for subsidies under the Medishield program for a specific group of residents. However, it does not directly quote or provide evidence from the reference material, which is why the faithfulness score is null. The reason succinctly explains the scores, indicating that while the candidate's answer is relevant, it lacks direct evidence from the provided reference.",
+      "input_tokens": 406,
+      "output_tokens": 176,
+      "seconds": 13.227459299989277,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

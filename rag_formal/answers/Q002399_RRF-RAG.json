@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002399",
+  "doc_id": "143",
+  "query_type": "search",
+  "query": "What kind of evidence is needed to prove social media harassment?",
+  "corpus_query_index": 2398,
+  "system": "RRF-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 2]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 3]\nHarassment using Fake Social Media Profiles:\nPunishment under the IT Act, 2000, and IPC sections. Imprisonment up to 3 years and/or fine up to ₹1 lakh.\n\n[Document 4]\nAction Against Abusive Posts:\nIf you receive abusive or threatening social media posts, report them to the platform's administrators. You can also file a complaint with the Cyber Crime Wing or the local police station under the IT Act and IPC sections related to harassment and threatening behavior.\n\n[Document 5]\nSocial Media Monitoring:\nThe Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.",
+  "retrieved_doc_ids": [
+    "143",
+    "1196",
+    "553",
+    "155",
+    "1327"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7945e37a45a36dbee66efc99744b41df400b3f713d32bfa7485a87d2826a0cbc",
+  "answer": "To prove social media harassment, preserve screenshots, URLs, and messages [Document 1], save emails, chat logs, and digital communications [Document 1], and provide evidence like screenshots and messages when filing a harassment case [Document 2]. Additionally, report abusive posts to the platform and local police [Document 4]. [Document 1] and [Document 2] offer comprehensive guidance.",
+  "input_tokens": 401,
+  "output_tokens": 81,
+  "seconds": 10.34708750000027,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

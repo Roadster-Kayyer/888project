@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002399",
+  "doc_id": "143",
+  "query_type": "search",
+  "query": "What kind of evidence is needed to prove social media harassment?",
+  "corpus_query_index": 2398,
+  "system": "BM25-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nSocial Media Monitoring:\nThe Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.\n\n[Document 2]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 3]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 4]\nHarassment using Fake Social Media Profiles:\nPunishment under the IT Act, 2000, and IPC sections. Imprisonment up to 3 years and/or fine up to ₹1 lakh.\n\n[Document 5]\nEthical Guidelines for Police Social Media Use:\nThe Tamil Nadu Police follows guidelines to maintain transparency and professionalism on social media. These include:\n* Verifying information before posting\n* Avoiding sensitive or personal information\n* Respecting citizen privacy and dignity\n* Following Tamil Nadu Government's social media policy",
+  "retrieved_doc_ids": [
+    "1327",
+    "143",
+    "1196",
+    "553",
+    "1462"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "34a0331ce04b80764e99709a3cf9b6e72ba1be5133077b2205a782e3e3f5f6fa",
+  "answer": "To prove social media harassment, preserve screenshots, URLs, and messages [Document 1][Document 2]. Visit a police station with evidence like screenshots and messages [Document 3]. Ethical guidelines by the Tamil Nadu Police ensure proper handling of such cases [Document 5]. [Document 4] outlines legal punishments.",
+  "input_tokens": 407,
+  "output_tokens": 66,
+  "seconds": 8.456241100000625,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

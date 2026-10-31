@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003153",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from the reference.\",\n  \"evidence\": \"The reference states the Bureau collects, analyzes, and maintains crime data to aid investigations, which is consistent with the candidate's answer about maintaining a database to connect suspects with past offenses.\"\n}",
+      "input_tokens": 388,
+      "output_tokens": 108,
+      "seconds": 8.322873200002505,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

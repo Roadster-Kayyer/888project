@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_90",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the distinction between employee and self-employed contributions to CPF/MediSave based on the nature of the relationship with the company and the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the distinction between employee and self-employed contributions to CPF/MediSave based on the nature of the relationship with the company and the evidence provided.\"\n}",
+      "input_tokens": 1228,
+      "output_tokens": 192,
+      "seconds": 15.143402899993816,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

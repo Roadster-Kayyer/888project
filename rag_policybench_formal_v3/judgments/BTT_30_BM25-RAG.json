@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_30",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer does not address the sequence for looking at a junction and lacks factual support from the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the sequence for junction navigation but lacks direct reference to the sequence 'Look right, then left, then right again.'\",\n  \"evidence\": \"[Document 1]\n\n\"\n}",
+      "input_tokens": 981,
+      "output_tokens": 192,
+      "seconds": 15.157229000004008,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate answer does not address the sequence for looking at a junction and lacks factual support from the provided documents.\"}",
+      "input_tokens": 1021,
+      "output_tokens": 48,
+      "seconds": 3.9304820999968797,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

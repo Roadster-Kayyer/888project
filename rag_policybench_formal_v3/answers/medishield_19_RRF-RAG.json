@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_19",
+  "doc_id": "PB_3ccce1f4da948035fd36",
+  "query_type": "medishield",
+  "query": "What is the percentage of additional Merdeka Generation Subsidies provided to seniors aged 76 years and above?",
+  "reference_answer": "10%",
+  "corpus_query_index": 313,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 3]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 4]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 5]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_377d7608d12421ff652e",
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_5970b9dd48a067a0363d",
+    "PB_d3d5f861b3deec1e8c73"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8c09a67cff45f9a84c4ffb74a3726bd0f4a25d08d8be6120bec7930068fd8bf1",
+  "answer": "Based on Document 2, the Government has increased the annual matching grant amount to $2,000 for seniors aged 70 and above, starting from 2025. However, the specific percentage of additional Merdeka Generation Subsidies for seniors 76+ is not detailed in the provided documents. [Document 2]",
+  "input_tokens": 620,
+  "output_tokens": 73,
+  "seconds": 9.304773700001533,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

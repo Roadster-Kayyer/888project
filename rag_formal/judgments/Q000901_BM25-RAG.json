@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000901",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the age of criminal responsibility in India and is directly supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the age of criminal responsibility in India and is directly supported by Document 1.\",\n  \"evidence\": \"[Document 1] - Age of Criminal Responsibility:\\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\"\n}",
+      "input_tokens": 750,
+      "output_tokens": 136,
+      "seconds": 10.427891700001055,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

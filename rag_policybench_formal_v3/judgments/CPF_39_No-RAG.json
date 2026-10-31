@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_39",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\nIn a more complete answer, evidence from the reference should be included to demonstrate the direct impact of reduced TER caps on CPF investors' savings, such as the example provided showing increased savings due to lower expense ratios.",
+      "input_tokens": 564,
+      "output_tokens": 113,
+      "seconds": 8.816714400003548,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

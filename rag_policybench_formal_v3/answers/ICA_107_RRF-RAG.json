@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_107",
+  "doc_id": "PB_4db518930267429b7a6f",
+  "query_type": "ICA_134",
+  "query": "What is the processing time for visa application?",
+  "reference_answer": "The processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.",
+  "corpus_query_index": 177,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 2]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 3]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 4]\nThe processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.\n\n[Document 5]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.",
+  "retrieved_doc_ids": [
+    "PB_14d73bad1d062f8a0a27",
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_6cdb1150c49584cda270",
+    "PB_ac14b71f364c9fc1e15b",
+    "PB_4db518930267429b7a6f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a479e7b0f28811e10c01f51f5f299700f18d7cc4cd5e590ce71a9a83e0d9031d",
+  "answer": "The processing time for a visa application is typically within 3 working days (excluding the submission day), but can take longer, up to 7 working days if including a passport application. [Document 1] & [Document 2]",
+  "input_tokens": 489,
+  "output_tokens": 49,
+  "seconds": 6.422562699997798,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007133",
+  "doc_id": "400",
+  "query_type": "casual",
+  "query": "So how do I report a BDO?",
+  "corpus_query_index": 7132,
+  "system": "BM25-RAG",
+  "reference_answer": "Complaint against Block Development Officer (BDO):\nTo file a complaint against a BDO, contact the District Collector's office or the local Tahsildar office. You can also submit a written complaint to the Revenue Divisional Officer (RDO) or the District Revenue Officer (DRO).",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 5]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.",
+  "retrieved_doc_ids": [
+    "255",
+    "849",
+    "35",
+    "799",
+    "933"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "89b7e6fb8b2ecf3a4efd99e69db0bada67804dc0a2a73d4b702e0c8adb4b9c7e",
+  "answer": "To report a BDO (Burglary, Dishonesty, or Other), go to the nearest police station and provide details. File a First Information Report (FIR). Get a copy of the FIR for reference [Document 1].",
+  "input_tokens": 435,
+  "output_tokens": 51,
+  "seconds": 6.469987799999217,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

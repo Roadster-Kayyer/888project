@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_37",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the treatment of maturity proceeds for CPFIS-OA and CPFIS-SA policies after reaching 55, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the handling of maturity proceeds for both CPFIS-OA and CPFIS-SA policies after age 55, supported by Document 1.\",\n}",
+      "input_tokens": 1578,
+      "output_tokens": 82,
+      "seconds": 6.7237697999953525,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the treatment of maturity proceeds for CPFIS-OA and CPFIS-SA policies after reaching 55, supported by evidence from Documents 1 and 5.\"}",
+      "input_tokens": 1618,
+      "output_tokens": 72,
+      "seconds": 6.022493099997519,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

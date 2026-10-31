@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001908",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the use of tech tools by the Tamil Nadu Police, and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the use of technology by Tamil Nadu Police in crime-solving, supported by evidence from all documents.\",\n}",
+      "input_tokens": 844,
+      "output_tokens": 71,
+      "seconds": 5.836050500001875,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the use of tech tools by the Tamil Nadu Police, and is supported by evidence from all documents.\"}\n**Note:** The scores provided in the JSON object are based on the information given in the candidate answer and the reference documents. The candidate answer is deemed correct (2) as it accurately reflects the use of technology by the Tamil Nadu Police in crime-solving, as described in the reference documents. The relevance score is also 2 because the answer directly addresses the question about how the police use technology to solve crimes. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents, which detail the various technological methods and systems used by the Tamil Nadu Police. The",
+      "input_tokens": 884,
+      "output_tokens": 192,
+      "seconds": 15.397947899997234,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

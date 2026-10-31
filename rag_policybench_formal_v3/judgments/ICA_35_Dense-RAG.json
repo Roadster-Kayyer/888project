@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_35",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference for bus travel and specifies the input for 'Vehicle Number'."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference for bus travel and specifies the input for 'Vehicle Number'.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nNote: The evidence key in the JSON object refers to the document that supports the candidate answer. In this case, Document 1 directly supports the candidate answer by providing instructions for bus travel and the corresponding input for 'Vehicle Number'.",
+      "input_tokens": 1266,
+      "output_tokens": 127,
+      "seconds": 9.808649099999457,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

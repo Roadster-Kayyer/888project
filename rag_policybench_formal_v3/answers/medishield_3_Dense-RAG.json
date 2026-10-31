@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_3",
+  "doc_id": "PB_147ee7a2086de2af862b",
+  "query_type": "medishield",
+  "query": "What is the pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma?",
+  "reference_answer": "67%",
+  "corpus_query_index": 324,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 2]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 5]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_d98d322f2936df748ef1",
+    "PB_7929dbd00d14667dbd16",
+    "PB_756caeff044567542744"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5c6a47b4de75a296108eae3375ff467430baedc384e52d3b9f9193c320bd8345",
+  "answer": "[Document 1] discusses CPF contribution rates for Singapore Permanent Residents but does not mention a pro-ration factor for subsidised treatments. Information about the pro-ration factor for subsidised treatments for bone marrow transplant is not provided in the given documents. [Document 5] talks about CPF contribution rates for platform workers but also does not address the specific treatment question. Missing information.",
+  "input_tokens": 693,
+  "output_tokens": 77,
+  "seconds": 10.055142099998193,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

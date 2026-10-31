@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004836",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details about the procedure and relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details about the procedure and relevant documents.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it pertains to reporting check bouncing as a criminal offense, but it does not directly address the main reference facts such as the need to file a complaint with the police or the specific documents required. The correctness score is 1 because the candidate's answer is partly correct but omits important details. Faithfulness is null because the candidate's answer does not contain any substantive factual claims that can be directly supported or contradicted by the supplied evidence. The reason succinctly explains the scores by",
+      "input_tokens": 419,
+      "output_tokens": 192,
+      "seconds": 15.104147300000477,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

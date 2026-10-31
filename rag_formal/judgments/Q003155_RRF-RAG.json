@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003155",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly summarizes the role of the State Crime Records Bureau, and is supported by evidence from the documents provided.\",\n}",
+      "input_tokens": 758,
+      "output_tokens": 71,
+      "seconds": 5.579471500001091,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the provided evidence.\"}",
+      "input_tokens": 798,
+      "output_tokens": 40,
+      "seconds": 3.3691986999983783,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

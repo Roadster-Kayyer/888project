@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003589",
+  "system": "Dense-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies bulletproof vests, helmets, and communication devices, and accurately includes additional gear like water cannons, tear gas, drones, and body cameras, all supported by the retrieved evidence.\",\n}",
+      "input_tokens": 693,
+      "output_tokens": 93,
+      "seconds": 7.1964396000003035,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies bulletproof vests, helmets, communication devices, water cannons, tear gas, drones, and body cameras as provided gear for police protection, supported by evidence from Documents 1 and 2.\"}\n}\n\nPlease note that the \"faithfulness\" score is not null because the candidate's answer contains substantive factual claims that are directly supported by the evidence provided in the documents. The reason given is concise and accurately reflects the evaluation.",
+      "input_tokens": 733,
+      "output_tokens": 135,
+      "seconds": 10.414846899999247,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 285)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

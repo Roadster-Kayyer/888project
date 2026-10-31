@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003196",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the role of the Police Radio Branch, citing relevant documents and maintaining factual consistency."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the role of the Police Radio Branch, citing relevant documents and maintaining factual consistency.\",\n  \"evidence\": \"Document 1, Document 2, Document 5\"\n}\n\n\nThe candidate's answer is correct (2), as it directly addresses the role of the Police Radio Branch in communication systems, which is to provide real-time connectivity between police units for swift responses and operation coordination. The answer also correctly includes the maintenance of communication networks, technical support, and community safety broadcasts, which are all mentioned in the retrieved evidence documents. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 because the candidate's answer",
+      "input_tokens": 698,
+      "output_tokens": 192,
+      "seconds": 14.700601599997754,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

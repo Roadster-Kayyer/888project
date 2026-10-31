@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002957",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is partially supported by the reference, which outlines the roles of police units and law and order restoration."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is partially supported by the reference, which outlines the roles of police units and law and order restoration.\",\n  \"evidence\": \"System response aligns with reference's mention of law enforcement deployment and law and order restoration, but lacks specific details on non-lethal measures and coordination with other agencies.\"\n}",
+      "input_tokens": 423,
+      "output_tokens": 123,
+      "seconds": 9.448481900002662,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

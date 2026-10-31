@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_10",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1] Avoid dragging the engine by using the correct gear. [Document 2] Driving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\"\n}",
+      "input_tokens": 515,
+      "output_tokens": 111,
+      "seconds": 8.604109299994889,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

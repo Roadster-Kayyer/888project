@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009703",
+  "doc_id": "864",
+  "query_type": "casual",
+  "query": "Can you tell me about the pink police patrol and how to reach them?",
+  "corpus_query_index": 9702,
+  "system": "BM25-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 3]\nRoad Safety Patrol:\nThe Road Safety Patrol is a Tamil Nadu Police program to promote road safety. Students can participate by:\n* Joining the patrol team\n* Participating in awareness campaigns\n* Helping to monitor and report traffic violations\n\n[Document 4]\nLocating an Arrested Person\nTo find someone who has been arrested, contact the local police station where the arrest was made. You can also check the Tamil Nadu Police website or visit the police station in person to inquire about the person's whereabouts and the charges against them.\n\n[Document 5]\nGPS Tracking for Patrol Vehicles:\nThe Tamil Nadu Police uses GPS tracking to monitor patrol vehicles in real-time, enhancing response times and improving patrol efficiency. This system helps track vehicle locations and movements.",
+  "retrieved_doc_ids": [
+    "864",
+    "57",
+    "1674",
+    "47",
+    "1337"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80bce92ef4e8cb737e437aa597ebb0fa76aa77703c28fffb58ce8b9e1da8dd59",
+  "answer": "The Pink Police Patrol is a women's safety unit in Tamil Nadu. Contact them at 94981 95555 or 100. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 41,
+  "seconds": 5.5739619999985734,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

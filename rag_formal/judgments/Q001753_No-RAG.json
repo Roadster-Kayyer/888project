@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001753",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly refers to the process but lacks direct evidence; however, it correctly advises seeking official assistance."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly refers to the process but lacks direct evidence; however, it correctly advises seeking official assistance.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate's answer is relevant as it addresses the process of cancelling GST registration in Tamil Nadu, which aligns with the reference provided. The correctness score is 1 because the candidate does not provide the detailed process of filing Form GST REG-16 but mentions it as a necessary step, which is a key omission. Faithfulness is rated as 2 because the candidate's answer does not contradict the reference but instead correctly suggests that official channels should be used for such actions, which is supported by",
+      "input_tokens": 420,
+      "output_tokens": 192,
+      "seconds": 14.511685900000884,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

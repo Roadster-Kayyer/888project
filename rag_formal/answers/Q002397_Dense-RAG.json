@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002397",
+  "doc_id": "143",
+  "query_type": "formal",
+  "query": "What types of documentation are essential for substantiating a complaint of social media harassment?",
+  "corpus_query_index": 2396,
+  "system": "Dense-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nFiling a Case Against Online Harassment:\nTo file a case against online harassment, collect evidence of the harassment, such as screenshots or messages. Approach the nearest police station or a cyber crime cell and file a complaint under Section 67 of the IT Act or Section 354 of the IPC. The police will guide you through the process.\n\n[Document 2]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 3]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 4]\nReporting Harassment in Educational Institutions:\nReport harassment in educational institutions to the institution's Internal Complaints Committee (ICC) or the District Education Officer. You can also contact the National Commission for Women (NCW) or the Tamil Nadu State Commission for Women for assistance.\n\n[Document 5]\nFiling a Complaint about Online Harassment:\nTo file a complaint, visit the nearest police station or cyber crime cell. Provide details of the harassment, including screenshots and URLs. You can also file a complaint online through the Tamil Nadu Police website or the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "1089",
+    "143",
+    "1196",
+    "469",
+    "877"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "65fd69f0118f7fe3d94751db8df02ae43cf34b0f62d36260974227e13beeab8c",
+  "answer": "Essential documentation includes screenshots, messages, URLs, and digital communications. Collect these and report to the nearest police station or cyber crime cell. [Document 1, Document 2]",
+  "input_tokens": 441,
+  "output_tokens": 38,
+  "seconds": 4.978949199999988,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

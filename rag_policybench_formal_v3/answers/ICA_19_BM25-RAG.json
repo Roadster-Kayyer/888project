@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_19",
+  "doc_id": "PB_a5deb8741f88193f4891",
+  "query_type": "ICA_134",
+  "query": "How should I appeal if my extension of stay application is unsuccessful?",
+  "reference_answer": "If your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "corpus_query_index": 213,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 2]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 3]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.",
+  "retrieved_doc_ids": [
+    "PB_a5deb8741f88193f4891",
+    "PB_b9f29dbf832927f97985",
+    "PB_c4889c17ceec12f1516c",
+    "PB_cc60baad4cbf9560588b",
+    "PB_b57a1848f1c7ce667389"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "523485b99364fca3e011e2bcba6ab32679c4e28615016fff80274d26340aad39",
+  "answer": "If your extension of stay application is unsuccessful, you can submit a new application via the e-Service, providing accurate details. Ensure all information is correct, including your DE number and name. [Document 1] Additionally, check the Immigration & Checkpoints Authority (ICA) website for extension guidelines, as rules vary depending on your passport type. [Document 2] For Chinese passport holders, extensions can be done online within 14 days before your STVP expires. [Document 1] Always verify eligibility and requirements on the ICA website. [Document 3] For other cases, follow the specific document's instructions. [Document 4] and [Document 5] do not directly relate to your question.",
+  "input_tokens": 796,
+  "output_tokens": 147,
+  "seconds": 19.35922469999059,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

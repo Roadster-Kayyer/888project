@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_68",
+  "doc_id": "PB_b530c3042e7202136bc5",
+  "query_type": "CPF_111",
+  "query": "How will the restriction on investments for the first $20,000 in Ordinary Account and the first $40,000 in Special Account affect me?",
+  "reference_answer": "The first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "corpus_query_index": 132,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 2]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 3]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 4]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 5]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.",
+  "retrieved_doc_ids": [
+    "PB_b530c3042e7202136bc5",
+    "PB_ee588d3fa5445377e2bc",
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_55387403dc004065b043",
+    "PB_18205d295d37e73b6d4f"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6a71af17fe02f1811131e2737ceb73209226f0bc3a8a4242c6d1271698700634",
+  "answer": "The restriction means only excess funds over $20,000 in Ordinary Account and $40,000 in Special Account can be invested. This affects earning extra interest. However, you can still manage regular expenses and insurance payments, even if balances fall below these limits. [Document 1]",
+  "input_tokens": 724,
+  "output_tokens": 64,
+  "seconds": 8.380496300000232,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

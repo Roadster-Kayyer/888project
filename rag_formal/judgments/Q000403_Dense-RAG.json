@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000403",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the role of Child Welfare Police Officers, directly addresses the question, and is supported by evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the role of Child Welfare Police Officers, directly addresses the question, and is supported by evidence from Document 1.\",\n}",
+      "input_tokens": 788,
+      "output_tokens": 73,
+      "seconds": 5.89619440000024,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the role of Child Welfare Police Officers, directly addresses the question, and is supported by evidence from Documents 1 and 4.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer includes all substantive factual claims about the role of Child Welfare Police Officers that are supported by the evidence provided in Documents 1 and 4. The answer covers their responsibilities, their role in coordination with the Child Welfare Committee, and their involvement in child custody disputes, all of which are directly supported by the evidence.",
+      "input_tokens": 828,
+      "output_tokens": 159,
+      "seconds": 12.787603299999319,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

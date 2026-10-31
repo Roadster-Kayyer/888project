@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003400",
+  "doc_id": "161",
+  "query_type": "hard",
+  "query": "What credentials do I need to have with me when I drive in Tamil Nadu?",
+  "corpus_query_index": 3399,
+  "system": "RRF-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nVerifying Lawyer Credentials:\nTo verify a lawyer's credentials in Tamil Nadu:\n1. Check the Tamil Nadu Bar Council website\n2. Verify their enrollment number\n3. Check for any disciplinary actions\n\n[Document 2]\nPolice Verification for Passport:\nFor police verification of a passport in Tamil Nadu, you will need to provide documents such as:\n- Application form\n- Passport copy\n- Address proof (e.g., Aadhaar card, voter ID)\n- Identity proof (e.g., PAN card, driving license)\n\n[Document 3]\nCharacter Certificate:\nTo apply for a character certificate in Tamil Nadu, visit your local police station and submit a written application. You will need to provide ID proof, address proof, and a fee of ₹200. The certificate will be issued after verification.\n\n[Document 4]\nEligibility Criteria for Police Constable in Tamil Nadu:\nTo be eligible, candidates must:\n* Be Indian citizens\n* Be between 18-24 years old\n* Have passed 10th standard (for some posts) or higher secondary (for others)\n* Meet physical standards set by the Tamil Nadu Police Department\n* Pass the recruitment exam and interview\n\n[Document 5]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"",
+  "retrieved_doc_ids": [
+    "2036",
+    "816",
+    "1832",
+    "1464",
+    "1432"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cec17b5a77f9bb347fca378925ea099330b4131606a69a43937a26eb37618a08",
+  "answer": "When driving in Tamil Nadu, you need to carry an identity proof like a driving license or Aadhaar card, and address proof like an Aadhaar card or voter ID. [Document 2]",
+  "input_tokens": 426,
+  "output_tokens": 40,
+  "seconds": 5.493720000000394,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

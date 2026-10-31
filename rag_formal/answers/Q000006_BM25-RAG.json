@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000006",
+  "doc_id": "1",
+  "query_type": "original",
+  "query": "Can I file an FIR online in Tamil Nadu?",
+  "corpus_query_index": 5,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 2]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.\n\n[Document 3]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to give a written statement, and the police will register your complaint and provide an FIR number.\n\n[Document 4]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station, provide details of the incident, and submit a written complaint. The police will register the complaint and provide a copy of the FIR.\n\n[Document 5]\nQ3: Can I file an FIR at any police station regardless of where the crime occurred?\nYes, you can file an FIR at any police station, but it's called a Zero FIR. The police station will then forward the report to the relevant station where the crime occurred, for further investigation.",
+  "retrieved_doc_ids": [
+    "796",
+    "1",
+    "793",
+    "0",
+    "801"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cd5d03d547cedd9d1747fcedef1f4dec0871644ec42137e4d42360963b6be066",
+  "answer": "Yes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime online through the Tamil Nadu Police website or mobile app [Document 1, Document 2]. However, filing an FIR also involves visiting a police station to provide a written statement [Document 3, Document 4].",
+  "input_tokens": 379,
+  "output_tokens": 67,
+  "seconds": 8.771046500000011,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2047.30029296875
+}

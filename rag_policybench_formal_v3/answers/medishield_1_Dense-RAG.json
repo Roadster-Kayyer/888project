@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_1",
+  "doc_id": "PB_ee588d3fa5445377e2bc",
+  "query_type": "medishield",
+  "query": "How much is the co-insurance for the first $5,000 claimable amount if the deductible is $2,000?",
+  "reference_answer": "The co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.",
+  "corpus_query_index": 303,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 2]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 3]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 4]\n$200,000\n\n[Document 5]\n$1,326.00 per annum.",
+  "retrieved_doc_ids": [
+    "PB_ee588d3fa5445377e2bc",
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_f82c1895a8af22f06c29",
+    "PB_8a7dfd1ae93a6b5afa1d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3ed95ad8ddbf1ce558ce666fcec4112b6a0bf5d4de12d628fe5f90f4fbaa261",
+  "answer": "The co-insurance for the first $5,000 claimable amount is $300. [Document 1]",
+  "input_tokens": 300,
+  "output_tokens": 28,
+  "seconds": 3.789537000004202,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

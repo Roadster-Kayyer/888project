@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_93",
+  "doc_id": "PB_281c77b1cca45bc9951f",
+  "query_type": "ICA_134",
+  "query": "What should I do after my Singapore Permanent Residence (PR) application is approved?",
+  "reference_answer": "Once your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "corpus_query_index": 295,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.\n\n[Document 4]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 5]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "retrieved_doc_ids": [
+    "PB_9bcc03600abfbc3227e6",
+    "PB_d98d322f2936df748ef1",
+    "PB_3579b1ce15984a462107",
+    "PB_c6456fad7242c379cac1",
+    "PB_281c77b1cca45bc9951f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f4fa3cc9f1ffe3873c0b49bd98fe572107e8d2c5558792d33d780e43dbc8ff2c",
+  "answer": "After your Singapore Permanent Residence (PR) application is approved, you should visit the ICA Services Centre with all required documents as per the In-Principle Approval (IPA) letter. You can also check the status of your application through the ICA e-Service. [Document 5]",
+  "input_tokens": 375,
+  "output_tokens": 60,
+  "seconds": 7.7315716999873985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

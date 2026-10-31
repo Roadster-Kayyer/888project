@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007483",
+  "doc_id": "464",
+  "query_type": "casual",
+  "query": "How do they keep the names of people who report being harassed secret in Tamil Nadu?",
+  "corpus_query_index": 7482,
+  "system": "BM25-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nDealing with Harassment Calls/ Messages:\nIf being harassed by phone calls or messages, report to:\n* Tamil Nadu Police Cyber Cell: 1930 (toll-free)\n* Local police station\n* Block the caller's number\n* Save evidence (messages, call logs)\n\n[Document 3]\nWitnessing Harassment:\nIf you witness a woman being harassed, stay calm and:\n* Intervene safely, if possible\n* Call 100 (Tamil Nadu Police helpline) or 1091 (Women's Helpline)\n* Provide support to the victim\n\n[Document 4]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "107",
+    "1896",
+    "1904",
+    "1021",
+    "1022"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "016d9b9104297014892781889af629b8324f157bf66bb0179f3037908a3102ec",
+  "answer": "Names of people who report harassment are kept confidential by reporting to Tamil Nadu Police Cyber Cell (1930), local police station, or blocking the harasser's number. [Document 2]",
+  "input_tokens": 600,
+  "output_tokens": 41,
+  "seconds": 5.338773100000253,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

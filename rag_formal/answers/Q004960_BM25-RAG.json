@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004960",
+  "doc_id": "1891",
+  "query_type": "hard",
+  "query": "What methods should be used to speak with authorities that protect against family abuse in Tamil Nadu?",
+  "corpus_query_index": 4959,
+  "system": "BM25-RAG",
+  "reference_answer": "Approaching Domestic Violence Protection Officers in Tamil Nadu:\nTo approach domestic violence protection officers:\n* Contact the nearest police station or women's helpline (181)\n* Provide details of the abuse and seek protection\n* Ask for a protection officer to assist with filing a complaint\n* Seek help from NGOs or counseling services if needed",
+  "context": "[Document 1]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 2]\nPepper Sprays:\nYes, pepper sprays are legal for women to carry in Tamil Nadu, but they should be used responsibly and only in self-defense situations.\n\n[Document 3]\nSafety at Cultural Festivals:\nTo stay safe at cultural festivals in Tamil Nadu, women should:\n* Attend with a group of friends or family\n* Stay in well-lit and crowded areas\n* Keep valuables secure and be aware of surroundings\n* Follow festival rules and instructions from authorities\n\n[Document 4]\nAppealing a Family Court Judgment in Tamil Nadu:\nTo appeal a Family Court judgment, file a petition within 30 days from the date of judgment with the High Court of Madras. The appeal should be in the prescribed format, with a certified copy of the judgment and a statement of grounds for appeal.\n\n[Document 5]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.",
+  "retrieved_doc_ids": [
+    "253",
+    "1872",
+    "2001",
+    "1952",
+    "106"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d102bf9c5c5ae3ebf94d6813479a7709757b53aae904476ebd441ab87ae173f9",
+  "answer": "If police refuse to help, ask to speak to a senior officer, file a complaint, or contact the Tamil Nadu Police Complaint Authority [Document 1]. For safety at cultural festivals, attend with a group, stay in well-lit areas, keep valuables secure, and follow festival rules [Document 3]. To appeal a Family Court judgment, file a petition within 30 days with the High Court of Madras [Document 4]. For child victims, statements should be recorded by a trained officer in a child-friendly environment [Document 5]. [Document 1-5]",
+  "input_tokens": 428,
+  "output_tokens": 120,
+  "seconds": 15.012865199998487,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_89",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference information for Singapore passport holders and includes relevant details about updating passport details for significant facial changes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference information for Singapore passport holders and includes relevant details about updating passport details for significant facial changes.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}",
+      "input_tokens": 1045,
+      "output_tokens": 192,
+      "seconds": 14.772078300011344,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

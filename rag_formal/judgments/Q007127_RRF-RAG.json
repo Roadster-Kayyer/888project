@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007127",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses all rights during arrest and is supported by evidence from Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses all rights during arrest and is supported by evidence from Document 4.\",\n  \"evidence\": \"[Document 4] - 'If arrested, you have the right to: Know the reason for arrest, Contact a family member or lawyer, Remain silent, Request medical attention, if needed.'\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given. The evidence provided is a direct quote from the candidate's answer that matches the information in Document 4, which supports the faithfulness score. The correctness and relevance scores are given based on the candidate's answer covering all the rights mentioned in the reference documents and directly addressing the question.",
+      "input_tokens": 706,
+      "output_tokens": 187,
+      "seconds": 14.627652000002854,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

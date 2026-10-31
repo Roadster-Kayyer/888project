@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_85",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate information from the documents that incorrect passport details must be edited through the profile, and the QR code's validity is tied to the passport's expiration, which is supported by the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the consequences of submitting wrong passport information, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 1039,
+      "output_tokens": 70,
+      "seconds": 5.411156900008791,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate information from the documents that incorrect passport details must be edited through the profile, and the QR code's validity is tied to the passport's expiration, which is supported by the documents.\"}",
+      "input_tokens": 1079,
+      "output_tokens": 80,
+      "seconds": 6.357831899993471,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

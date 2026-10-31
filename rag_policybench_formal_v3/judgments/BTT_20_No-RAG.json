@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_20",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer contradicts the reference, which states that such vehicles must travel along the left-hand lane of the expressway."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer contradicts the reference, which states that such vehicles must travel along the left-hand lane of the expressway.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this case, the correctness score is 0 because the candidate answer is incorrect and does not align with the reference information. The relevance score is 0 because the candidate answer does not directly address the question about the location for vehicles with specific speed limits on an expressway. Faithfulness is marked as null due to the absence of evidence supporting the candidate's claim, and the answer contradicts the reference. The reason succinctly explains the scores.",
+      "input_tokens": 355,
+      "output_tokens": 173,
+      "seconds": 13.285193699994124,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

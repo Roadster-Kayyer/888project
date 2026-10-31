@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000402",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the roles and functions of Child Welfare Police Officers, accurately reflecting the information from the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively describes the roles and functions of Child Welfare Police Officers, supported by evidence from Documents 1 and 3.\",\n}",
+      "input_tokens": 791,
+      "output_tokens": 76,
+      "seconds": 5.956334000002244,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the roles and functions of Child Welfare Police Officers, accurately reflecting the information from the reference documents.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes the roles and functions of Child Welfare Police Officers, which aligns with the reference documents.\n- Relevance: The answer directly addresses the question about the roles and functions of Child Welfare Police Officers, making it relevant.\n- Faithfulness: The candidate answer is faithful to the reference documents as it includes all the substantive factual claims about the roles and functions of Child Welfare Police Officers.\n- Reason: The brief explanation provided justifies the scores given, as the candidate answer is both correct and relevant, and it faith",
+      "input_tokens": 831,
+      "output_tokens": 192,
+      "seconds": 15.27404050000041,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

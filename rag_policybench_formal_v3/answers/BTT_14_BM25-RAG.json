@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_14",
+  "doc_id": "PB_4e13954ab54d10e3d48d",
+  "query_type": "BTT",
+  "query": "What are the two sections mentioned in the document related to the Parts and Controls of a Car?",
+  "reference_answer": "Front View and Rear View.",
+  "corpus_query_index": 6,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 2]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 3]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 4]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 5]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.",
+  "retrieved_doc_ids": [
+    "PB_8d18fc446288ee1e6348",
+    "PB_73589fc4535bd159b21d",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_28996cba71bdbe7d5436",
+    "PB_c4889c17ceec12f1516c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e25c5d8b21a7efda3b37e7bf220c41998c32152568af2bc8d14bb9a2f834ad2f",
+  "answer": "[Document 3] mentions \"application status\" and \"SG Arrival Card acknowledgement\" as sections related to Parts and Controls of a Car. However, there's no direct mention of these in the given documents. [Document 4] discusses documents needed for immigration facilities, which could relate to vehicle registration or maintenance. Missing specific mention in provided docs. [Document 5] talks about submitting forms for child's special pass extension, unrelated to car parts and controls.",
+  "input_tokens": 610,
+  "output_tokens": 94,
+  "seconds": 12.36217239999678,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

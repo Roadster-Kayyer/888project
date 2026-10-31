@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_31",
+  "doc_id": "PB_a1d3a7486832c187b833",
+  "query_type": "BTT",
+  "query": "What must vehicles approaching a Police Officer from the front and behind do?",
+  "reference_answer": "They must stop.",
+  "corpus_query_index": 25,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt indicates that a motorist can drive on ahead.\n\n[Document 2]\nGive way to vehicles from the side road entering the main road.\n\n[Document 3]\nFront View and Rear View.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "retrieved_doc_ids": [
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_4e13954ab54d10e3d48d",
+    "PB_89b7e5350f270a309ba9",
+    "PB_15b5d9c0851609d354e4"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "eeab2d39ebcb2f5c85320586f1cc52c997b4856e94b0b3bae7b02f81c52d841d",
+  "answer": "Vehicles must give way to a Police Officer from both the front and behind, allowing enough room to stop safely if needed [Document 4]. Approaching from the side, they should also yield to vehicles entering the main road [Document 2].",
+  "input_tokens": 204,
+  "output_tokens": 51,
+  "seconds": 20.317384000001766,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

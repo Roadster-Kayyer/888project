@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000403",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the role and responsibilities of Child Welfare Police Officers and aligns with the information provided in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the role of Child Welfare Police Officers, directly addresses the question, and is supported by the retrieved evidence.\",\n}",
+      "input_tokens": 819,
+      "output_tokens": 71,
+      "seconds": 5.583508400002756,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the role and responsibilities of Child Welfare Police Officers and aligns with the information provided in the reference documents.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly addresses the question, and is fully supported by the evidence provided in the reference documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 859,
+      "output_tokens": 107,
+      "seconds": 8.524040000000241,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

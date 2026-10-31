@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004606",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the procedure but omits details about checking challan details and specifies a Magistrate instead of the police website or station."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the procedure but omits details about checking challan details and specifies a Magistrate instead of the police website or station.\",\n  \"evidence\": \"Document 1\"\n}",
+      "input_tokens": 429,
+      "output_tokens": 83,
+      "seconds": 6.422546400001011,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

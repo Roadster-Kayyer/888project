@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006276",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the question, covering all main points from the reference documents regarding crowd management techniques, technology use, and ethical conduct."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about crowd management strategies and equipment used by the Tamil Nadu Police during festivals.\",\n}",
+      "input_tokens": 812,
+      "output_tokens": 192,
+      "seconds": 15.068055799994909,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the question, covering all main points from the reference documents regarding crowd management techniques, technology use, and ethical conduct.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly relevant to the question, and fully supported by the evidence provided in the reference documents. The reason given is a concise summary of the evaluation.",
+      "input_tokens": 852,
+      "output_tokens": 108,
+      "seconds": 8.594919900002424,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

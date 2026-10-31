@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_120",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1, which explains the interim arrangement during processing."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question, directly references Document 1, and is supported by the evidence provided in the documents.\n}",
+      "input_tokens": 1049,
+      "output_tokens": 72,
+      "seconds": 5.776979200003552,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by Document 1, which explains the interim arrangement during processing.\"}\n\nNote: The scores are based on the provided candidate answer and the retrieved evidence. The candidate answer is correct (2) as it accurately reflects the information in Document 1. It is relevant (2) because it directly answers the question about the pending status of the LTVP application. The candidate answer is faithful (2) as it contains substantive factual claims that are directly supported by the evidence in Document 1. The reason is concise and accurately summarizes the evaluation.",
+      "input_tokens": 1089,
+      "output_tokens": 151,
+      "seconds": 11.716215400010697,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

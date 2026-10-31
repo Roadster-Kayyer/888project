@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_89",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference information for both Singapore and non-Singapore passport holders regarding the need to update passport details after expiration."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference information for both Singapore and non-Singapore passport holders regarding the need to update passport details after expiration.\"\n}",
+      "input_tokens": 1278,
+      "output_tokens": 192,
+      "seconds": 14.910884299999452,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

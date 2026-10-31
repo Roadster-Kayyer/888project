@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_78",
+  "doc_id": "PB_73d82fe26c9a986d734d",
+  "query_type": "ICA_134",
+  "query": "I have submitted my SG Arrival Card (SGAC) with health declaration? How can I retrieve my submitted SGAC with health declaration if I did not print the acknowledgement?",
+  "reference_answer": "Upon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.",
+  "corpus_query_index": 278,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.\n\n[Document 2]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 3]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 4]\nA holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_73d82fe26c9a986d734d",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_5155cca92728746c93bf",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8d32cae248f850a457fe2ffd6adff508ef8490950a4e595b4e15fe6a52292cc4",
+  "answer": "To retrieve your submitted SGAC with health declaration, check your email for an acknowledgement email containing your DE number. This email will include information about your arrival declarations. If you don't receive it, look in your spam/junk folder. [Document 1]",
+  "input_tokens": 807,
+  "output_tokens": 53,
+  "seconds": 7.24900080000225,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

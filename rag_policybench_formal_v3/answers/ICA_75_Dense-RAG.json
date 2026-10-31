@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_75",
+  "doc_id": "PB_33baa53374acc136fba4",
+  "query_type": "ICA_134",
+  "query": "When will I receive the final outcome letter after completing the Singapore citizenship journey?",
+  "reference_answer": "After you have completed the last component of the Singapore citizenship journey, you should be able to view your letter online within the next two to three weeks.",
+  "corpus_query_index": 275,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAfter you have completed the last component of the Singapore citizenship journey, you should be able to view your letter online within the next two to three weeks.\n\n[Document 2]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 3]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 4]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 5]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.",
+  "retrieved_doc_ids": [
+    "PB_33baa53374acc136fba4",
+    "PB_04de2d145d0ff95654be",
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_763506fa65f40c0150d3",
+    "PB_46ec4c9c421699906017"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "95753e179bd2c99074bda758adb3ad8570a046e45313fc34338f6d58149d990d",
+  "answer": "You should be able to view your final outcome letter online within the next two to three weeks after completing the Singapore citizenship journey. [Document 1]",
+  "input_tokens": 376,
+  "output_tokens": 31,
+  "seconds": 4.072128200001316,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

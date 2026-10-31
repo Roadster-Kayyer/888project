@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_12",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies eligible MediSave contributions for DAS co-contribution and the methods to make contributions, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies eligible MediSave contributions for DAS co-contribution and the methods to make contributions, supported by Document 1.\"\n}",
+      "input_tokens": 1235,
+      "output_tokens": 73,
+      "seconds": 5.825375000000349,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

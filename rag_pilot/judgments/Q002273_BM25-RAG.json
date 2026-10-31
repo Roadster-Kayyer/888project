@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002273",
+  "system": "BM25-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence from Document 1, covering all main reference facts about Tamil Nadu Police's approach to human-animal conflicts.\",\n}",
+      "input_tokens": 789,
+      "output_tokens": 76,
+      "seconds": 5.786475400000199,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2667.1162109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents.\"}\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided.\"}\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided.\"}\n\n(Note: The \"reason\" field in the JSON object is a brief explanation of the scores. The actual scores provided in the JSON object are based on the candidate answer being correct, directly relevant, and fully supported by the evidence, hence the scores are all 2. The \"reason\" explanation is consistent across all instances.)",
+      "input_tokens": 829,
+      "output_tokens": 191,
+      "seconds": 14.502401100000498,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2667.1162109375
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 169)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

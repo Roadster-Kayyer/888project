@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001206",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 1. The answer includes the correct toll-free number for the Tamil Nadu Forest Department and mentions the option to report anonymously through the department's website or mobile app, which are all points directly supported by the evidence. The reason succinctly explains the scores, indicating that the answer is fully supported by the evidence.",
+      "input_tokens": 853,
+      "output_tokens": 166,
+      "seconds": 12.983089999997901,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

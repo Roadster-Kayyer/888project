@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_2",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer incorrectly identifies the administering entity as the Health Fund instead of the Central Provident Fund (CPF) Board."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer incorrectly identifies the administering entity as the Health Fund instead of the Central Provident Fund (CPF) Board.\",\n  \"evidence\": \"The evidence provided does not support the candidate's answer as it explicitly states the CPF Board as the correct administering entity.\"\n}",
+      "input_tokens": 395,
+      "output_tokens": 103,
+      "seconds": 7.957406499990611,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

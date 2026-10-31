@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_76",
+  "doc_id": "PB_cf24a4bb229a845e92d4",
+  "query_type": "ICA_134",
+  "query": "I am currently overseas and require a new passport. How should I apply for it?",
+  "reference_answer": "Please submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.",
+  "corpus_query_index": 276,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 2]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 3]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 4]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 5]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.",
+  "retrieved_doc_ids": [
+    "PB_6a37eec904475577f862",
+    "PB_8171046f23dbdf9c0430",
+    "PB_cf24a4bb229a845e92d4",
+    "PB_0c264676a8242018a9a0",
+    "PB_f8ef7d9186905c0df18a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5bb86f6b5cd7226ae66a74492e1f39c689ce659feab5cfb35d773228551ec33f",
+  "answer": "To apply for a new passport, go online or to the nearest Singapore Overseas Mission. Ensure your new passport has at least 6 months validity and update your ABTC if needed. Always carry an updated photo for clear immigration checks. [Document 3] [Document 1]",
+  "input_tokens": 597,
+  "output_tokens": 58,
+  "seconds": 7.6186304000002565,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

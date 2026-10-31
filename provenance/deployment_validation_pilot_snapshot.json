@@ -1,0 +1,29 @@
+{
+  "Experiment_1_Retrieval_Supplement.ipynb": {
+    "executed_code_cells": 4,
+    "error_outputs": 0
+  },
+  "Experiment_2_RAG_Generation_Evaluation.ipynb": {
+    "executed_code_cells": 7,
+    "error_outputs": 0
+  },
+  "resume_generation": true,
+  "resume_judging": true,
+  "pilot": {
+    "queries": 20,
+    "answers": 80,
+    "judge_records": 80,
+    "valid_judgments": 79,
+    "invalid_judgments": 1,
+    "generation_seconds": 573.2142072999923,
+    "judge_seconds_including_retries": 1089.5803577999977,
+    "generation_peak_allocated_mb": 2133.796875,
+    "judge_peak_allocated_mb": 2794.69970703125,
+    "output_token_cap_hits": 0
+  },
+  "original_single_gold_metrics_reproduced": true,
+  "formal_sampling_checked_400_queries_80_faqs_no_pilot_overlap": true,
+  "human_review_completed": false,
+  "formal_400_query_generation_executed": false,
+  "nz_case_study_executed": false
+}

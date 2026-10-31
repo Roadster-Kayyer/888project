@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_28",
+  "doc_id": "PB_3808b698344f1c773560",
+  "query_type": "medishield",
+  "query": "What is the eligibility for subsidies under Singapore's Medishield program for residents living in residences with an Annual Value above $31,000?",
+  "reference_answer": "Residents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "corpus_query_index": 323,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 2]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 3]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 4]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_3808b698344f1c773560",
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_4bd71ffc7b87577275da",
+    "PB_d600f5b60cee68821fae",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fccdaf1cb7b075a761dc3b0d83efac89fde780aa0c72d821d2989643fbf2cdc2",
+  "answer": "Residents with an Annual Value above $31,000 are not eligible for subsidies under Singapore's Medishield program. [Document 1]",
+  "input_tokens": 547,
+  "output_tokens": 32,
+  "seconds": 4.357279700008803,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

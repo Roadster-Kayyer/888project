@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000008",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate information from the documents about filing an e-FIR online and traditional FIR at the Tamil Nadu Police, with evidence supporting all factual claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing evidence from documents that support online filing of e-FIR and traditional police station filing procedures for specific crimes.\",\n}",
+      "input_tokens": 761,
+      "output_tokens": 192,
+      "seconds": 15.151899799999228,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2608.517578125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate information from the documents about filing an e-FIR online and traditional FIR at the Tamil Nadu Police, with evidence supporting all factual claims.\"}",
+      "input_tokens": 801,
+      "output_tokens": 69,
+      "seconds": 5.523137800002587,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2611.8232421875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

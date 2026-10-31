@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007119",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "The candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police as contact points, mentions the toll-free helpline 1064, and refers to filing a complaint online on the TN Government website, all of which are supported by the retrieved evidence documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"The candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police as contact points, mentions the toll-free helpline 1064, and refers to filing a complaint online on the TN Government website, all of which are supported by the retrieved evidence documents.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nNote: The \"evidence\" key in the JSON object refers to the document that contains the information used to evaluate the candidate's answer. In this case, Document 1 is the source of the evidence that supports the answer provided. The reason is a concise explanation of the scores, which is based on the correctness, relev",
+      "input_tokens": 874,
+      "output_tokens": 192,
+      "seconds": 14.859029200000805,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

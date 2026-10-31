@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_18",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence, though it correctly implies higher premiums for serious conditions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence, though it correctly implies higher premiums for serious conditions.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partially correct (1) as it acknowledges that individuals with serious pre-existing conditions may face higher premiums, which aligns with the reference that suggests a higher premium. However, the answer does not provide a specific percentage (which the reference indicates is around 30%), and there is no evidence provided to support the claim (evidence is null). Therefore, the faithfulness score is null due to the absence of evidence. The reason succinctly explains the scores.",
+      "input_tokens": 397,
+      "output_tokens": 176,
+      "seconds": 13.049647799998638,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

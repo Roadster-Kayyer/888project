@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_45",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question but lacks specific instructions related to the recovery process after reporting the loss, which is missing in the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer partially addresses the question but lacks specific instructions related to the recovery process after reporting the loss, which is missing in the evidence.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is partially correct as it advises contacting the institution after finding the lost IC, which is relevant to the question. However, it does not directly address the instructions for handling the found IC after reporting its loss, which is a critical part of the reference. The faithfulness score is null because there is no evidence provided in the candidate's answer to support the specific steps that should be taken after finding the lost IC, as outlined in the reference. The reason succinctly explains the scores, noting the lack of specific",
+      "input_tokens": 395,
+      "output_tokens": 192,
+      "seconds": 14.86134960000345,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

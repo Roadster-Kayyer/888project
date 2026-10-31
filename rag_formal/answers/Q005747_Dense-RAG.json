@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005747",
+  "doc_id": "2032",
+  "query_type": "formal",
+  "query": "What methods can be used to authenticate legal notices delivered by mail in Tamil Nadu?",
+  "corpus_query_index": 5746,
+  "system": "Dense-RAG",
+  "reference_answer": "Verifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "context": "[Document 1]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 2]\nServing a Legal Notice in Tamil Nadu:\nTo serve a legal notice, hire a lawyer to draft the notice. It should be sent to the recipient via registered post or courier with acknowledgement due. You can also engage a process server or a court-appointed officer to serve the notice.\n\n[Document 3]\nSubmitting Electronic Evidence:\nTo submit electronic evidence in Tamil Nadu courts, follow these steps:\n1. Ensure the evidence is in a readable format.\n2. Verify the evidence with a digital signature or affidavit.\n3. Submit it to the court through a CD/DVD or USB drive, as per court instructions.\n\n[Document 4]\nReporting Fake Court Orders or Notices:\nTo report fake court orders or notices, contact the Tamil Nadu Police Cyber Cell or your local police station. Provide details of the fake document, and they will guide you through the process.\n\n[Document 5]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.",
+  "retrieved_doc_ids": [
+    "2032",
+    "1042",
+    "1138",
+    "1192",
+    "1191"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a12eac6c405b116fa01f7df7978caa0f5faa6018dfc2f297b5ca81875790664b",
+  "answer": "To authenticate legal notices in Tamil Nadu, check for an official seal and signature (Document 1). Serve notices via registered post/courier with acknowledgment (Document 2). For electronic notices, verify with digital signatures or affidavits (Document 3). Report fakes to the Tamil Nadu Police Cyber Cell (Document 4). Lastly, contact the issuing court or state department for judicial document verification (Document 5) [Document 1-5].",
+  "input_tokens": 405,
+  "output_tokens": 93,
+  "seconds": 12.294452500000261,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

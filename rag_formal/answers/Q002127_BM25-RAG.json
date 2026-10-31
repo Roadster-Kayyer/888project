@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002127",
+  "doc_id": "1381",
+  "query_type": "formal",
+  "query": "What measures do law enforcement agencies implement to address forest rights infringements within indigenous communities?",
+  "corpus_query_index": 2126,
+  "system": "BM25-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nIntelligence Gathering:\nTamil Nadu Police has improved its intelligence gathering capabilities by:\n* Establishing a dedicated Intelligence Bureau\n* Implementing advanced surveillance systems\n* Enhancing cybercrime cells to monitor online activities\n* Collaborating with other law enforcement agencies\n\n[Document 3]\nIntellectual Property Rights Enforcement Cell:\nThe Intellectual Property Rights Enforcement Cell handles cases related to copyright, trademark, and patent violations, including piracy, counterfeiting, and other intellectual property crimes.\n\n[Document 4]\nIntelligence Collection by Police Special Branch:\nThe Police Special Branch collects intelligence through:\n* Human sources (informants, undercover agents)\n* Surveillance and monitoring\n* Analysis of data and reports\n* Collaboration with other law enforcement agencies\n\n[Document 5]\nTribal Area Postings Training\nTamil Nadu Police officers receive special training on tribal customs, language, and culture to effectively interact with tribal communities. This training includes understanding local laws, forest rights, and social norms.",
+  "retrieved_doc_ids": [
+    "1381",
+    "1633",
+    "2024",
+    "1603",
+    "1378"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6ba376805e0d9d5329c221492e2d0992d373f1b69cea0536f5b544b2e3044a60",
+  "answer": "Law enforcement agencies implement various measures to address forest rights infringements in indigenous communities, such as registering complaints, collaborating with forest departments, and protecting tribal rights under the Forest Rights Act [Document 1]. They also enhance intelligence gathering through specialized cells and human sources [Document 4], and provide training for officers to understand tribal customs [Document 5]. However, specific details about direct interactions with indigenous communities are not provided in the given evidence. [Document 1] [Document 4] [Document 5]",
+  "input_tokens": 386,
+  "output_tokens": 104,
+  "seconds": 13.120918900000106,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001550",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process and includes necessary steps and documents, consistent with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process and includes necessary steps and documents, consistent with the reference.\",\n  \"evidence\": \"[Document 4]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps to initiate a project application for road width enhancement with the Tamil Nadu Public Works Department. It mentions visiting the PWD website or office, submitting a request, and providing necessary documents, which aligns with the process described in Document 4. The answer is correct, relevant, and faithful to the evidence provided in the reference.",
+      "input_tokens": 844,
+      "output_tokens": 159,
+      "seconds": 12.527442999999039,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

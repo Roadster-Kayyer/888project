@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008697",
+  "doc_id": "683",
+  "query_type": "formal",
+  "query": "What sanctions are imposed on individuals who engage in violent behavior at sports matches?",
+  "corpus_query_index": 8696,
+  "system": "Dense-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 3]\nPublic Fighting:\nCausing public fighting can lead to imprisonment for up to 1 year and/or a fine, under Section 160 of the IPC.\n\n[Document 4]\nMob Violence:\nMob violence can lead to punishment under Section 147-149 of the IPC, with imprisonment up to 3 years and/or a fine. In severe cases, it can also lead to charges under Section 307 (attempt to murder) with imprisonment up to 10 years.\n\n[Document 5]\nAssault on Foreign Nationals:\nThe penalty for assault on foreign nationals can lead to imprisonment of up to 7 years and a fine under the Indian Penal Code (IPC), Section 325.",
+  "retrieved_doc_ids": [
+    "683",
+    "680",
+    "671",
+    "650",
+    "685"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ca7642fd2cfff565deb396a44278e70bd79e2899663e969ed33926b1fbb4a4c3",
+  "answer": "Individuals engaging in violent behavior at sports matches can face up to 1 year in prison and a fine under the Tamil Nadu Public Order Act and IPC. For more severe offenses like mob violence, they could receive up to 3 years in prison and a fine, or even up to 10 years if charged under Section 307 (attempt to murder). Assaulting foreign nationals leads to up to 7 years in prison and a fine. [Document 1-5]",
+  "input_tokens": 377,
+  "output_tokens": 99,
+  "seconds": 12.404325699997571,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

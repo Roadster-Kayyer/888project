@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008523",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific punishments and reporting mechanisms from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states punishments for assault and ragging, and provides information on reporting mechanisms, supported by Documents 1, 2, 3, 4, and 5.\",\n}",
+      "input_tokens": 827,
+      "output_tokens": 192,
+      "seconds": 14.69249629999831,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific punishments and reporting mechanisms from the documents.\"}",
+      "input_tokens": 867,
+      "output_tokens": 48,
+      "seconds": 4.08514990000549,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

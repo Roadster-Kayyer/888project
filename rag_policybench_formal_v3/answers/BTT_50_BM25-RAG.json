@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_50",
+  "doc_id": "PB_01b63f26bd4e5c682e57",
+  "query_type": "BTT",
+  "query": "How many steps are involved in the specified process for overtaking another vehicle safely according to Singapore's Basic Theory Test?",
+  "reference_answer": "12 steps",
+  "corpus_query_index": 46,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 4]\nFor CPF Investment Scheme-Ordinary Account (CPFIS-OA)Please apply for the bonds and T-bills through your CPFIS-OA agent bank. Application is restricted to your CPFIS-OA agent bank to facilitate the settlement process for bonds and T-bills purchased under CPFIS-OA.DBS/POSB: Apply through DBS/POSB's internet banking portal or digibank mobile.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply for SGS bonds in person at any UOB branch. Apply for T-bills through UOB’s internet banking portalFor step-by-step guide on how to submit your application through your CPFIS-OA agent bank’s electronic portal, you may visit their website,DBS(scroll to dropdown menu “How to apply?”),OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”) andUOB(scroll to section \"Things you should know\").After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be\n\n[Document 5]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+  "retrieved_doc_ids": [
+    "PB_89b7e5350f270a309ba9",
+    "PB_043f86bad043c042932a",
+    "PB_b155e67f12a868a1d32b",
+    "PB_42402669fab955f6129f",
+    "PB_af1247343974a8960a93"
+  ],
+  "trimmed_doc_ids": [
+    "PB_42402669fab955f6129f"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e0a5fd3865e726fd235fb590a157c74ff6d6160d35e2a030b9aa34d35b5c002e",
+  "answer": "According to Document 1, for overtaking safely, there are 2 steps: allowing enough room to stop safely if the vehicle stops abruptly. [Document 1]",
+  "input_tokens": 578,
+  "output_tokens": 35,
+  "seconds": 4.566044899998815,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

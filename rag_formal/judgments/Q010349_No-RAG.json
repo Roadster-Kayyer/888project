@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010349",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific details about reporting to the Tamil Nadu Police Department or Vigilance Department."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific details about reporting to the Tamil Nadu Police Department or Vigilance Department.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests contacting local police, which is a correct step in reporting theft. However, it does not mention the specific Tamil Nadu Police Department's helpline or the Vigilance Department, which are crucial for the procedure as per the reference. The faithfulness score is null because there is no substantive factual claim in the candidate's answer that can be directly supported or contradicted by the supplied evidence. The reason succinctly explains the scores.",
+      "input_tokens": 373,
+      "output_tokens": 184,
+      "seconds": 14.263029200003075,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_49",
+  "doc_id": "PB_492ee6967a595605ddf6",
+  "query_type": "BTT",
+  "query": "What must a driver do before moving off to ensure safety and comply with regulations?",
+  "reference_answer": "Fasten the seat belt and look in the mirrors.",
+  "corpus_query_index": 44,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 4]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_cfbeecc8e8bd16153256",
+    "PB_619765030c2c1f6e27b8",
+    "PB_7929dbd00d14667dbd16",
+    "PB_e29140d6b3a201be99ba",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "26840d79160c638d3e016da315b5b9346b1444509531b278ac2ce79deebda90b",
+  "answer": "Before moving off, a driver must ensure they can clearly see the road ahead and maintain a safe following distance. [Document 1] and [Document 2] provide these safety guidelines.",
+  "input_tokens": 500,
+  "output_tokens": 39,
+  "seconds": 5.215593499990064,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

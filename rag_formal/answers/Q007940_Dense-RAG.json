@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007940",
+  "doc_id": "546",
+  "query_type": "hard",
+  "query": "What fines might someone face for sending menacing text messages?",
+  "corpus_query_index": 7939,
+  "system": "Dense-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.\n\n[Document 3]\nThreatening to Expose Private Information:\nUnder the IT Act, threatening to expose private information can lead to imprisonment up to 3 years and/or a fine up to ₹10,000.\n\n[Document 4]\nHarassment using Fake Social Media Profiles:\nPunishment under the IT Act, 2000, and IPC sections. Imprisonment up to 3 years and/or fine up to ₹1 lakh.\n\n[Document 5]\nCyber Intimidation:\nPunishment for cyber intimidation can range from 3 to 7 years imprisonment and/or fine, under the IT Act and IPC sections.",
+  "retrieved_doc_ids": [
+    "546",
+    "545",
+    "571",
+    "553",
+    "565"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "57c404cbb3fba01b6fb214e39b08538183a65c7ca8160f30db54aba69620ba4b",
+  "answer": "For threatening text messages, fines can be up to ₹10,000 and up to 3 years imprisonment. [Document 1]",
+  "input_tokens": 342,
+  "output_tokens": 31,
+  "seconds": 4.184142899997823,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

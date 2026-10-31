@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_77",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from the documents, which state the necessity of declaring actual NTI to IRAS/CBP for MediSave computation and tax relief eligibility."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from the documents, which state the necessity of declaring actual NTI to IRAS/CBP for MediSave computation and tax relief eligibility.\"\n}",
+      "input_tokens": 1503,
+      "output_tokens": 192,
+      "seconds": 14.863602899989928,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

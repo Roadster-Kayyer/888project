@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002710",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate speculates on potential unique perks without direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate speculates on potential unique perks without direct evidence from the reference.\",\n  \"answer\": \"Candidate partially addresses the question with speculative unique perks but lacks direct evidence from the provided reference.\"\n}",
+      "input_tokens": 420,
+      "output_tokens": 192,
+      "seconds": 14.819384899998113,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

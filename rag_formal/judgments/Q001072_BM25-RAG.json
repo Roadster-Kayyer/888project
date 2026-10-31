@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001072",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process of verifying a judicial decree and aligns with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process of verifying a judicial decree and aligns with evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the process of filing an execution petition with the issuing court, which is a method to verify the genuineness of a judicial decree. This directly corresponds to the information provided in Document 1, which discusses the execution of a court decree and the court's role in verifying its authenticity. The answer is correct, relevant, and faithful to the evidence provided, as it includes the necessary steps and mentions the court's role in the process. The reason succinct",
+      "input_tokens": 746,
+      "output_tokens": 192,
+      "seconds": 14.992636300001323,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007392",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for reporting forced/child marriage, supported by evidence from Documents 1 and 2, and correctly mentions obtaining a court marriage certificate as per Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for reporting forced/child marriage, supported by evidence from Documents 1 and 2, and correctly mentions obtaining a court marriage certificate as per Document 5.\"\n}",
+      "input_tokens": 874,
+      "output_tokens": 192,
+      "seconds": 15.310557299999346,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

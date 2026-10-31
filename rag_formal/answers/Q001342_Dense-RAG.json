@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001342",
+  "doc_id": "124",
+  "query_type": "formal",
+  "query": "What legislation governs narcotic drug production and supply, and which crimes does it encompass?",
+  "corpus_query_index": 1341,
+  "system": "Dense-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nNarcotics Control Bureau (NCB):\nThe NCB is a central agency that works with local police to prevent and investigate drug-related crimes. They share intelligence and coordinate efforts to combat drug trafficking and abuse.\n\n[Document 3]\nPenalties for Drug Possession:\nPenalties vary based on the quantity and type of drug. Generally, possession of small quantities may lead to imprisonment (up to 1 year) and fines. Larger quantities can result in imprisonment (up to 10-20 years) and heavier fines, under the Narcotic Drugs and Psychotropic Substances Act, 1985.\n\n[Document 4]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 5]\nSigns of Illegal Drug Manufacturing:\nReport suspicious activities like strong chemical smells, unusual equipment, or frequent visitors at odd hours. Other signs include blacked-out windows, excessive security, and unusual waste disposal.",
+  "retrieved_doc_ids": [
+    "124",
+    "121",
+    "122",
+    "129",
+    "132"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e66297c20e9d969c3a53f3a9ab0e6df96507dd05419a84dacf731e411f3cbd20",
+  "answer": "The NDPS Act governs narcotic drug production and supply, encompassing offenses like possession, sale, purchase, and manufacture of banned substances. It includes various penalties based on drug quantity and type, up to 10-20 years in prison for larger amounts. The Narcotics Control Bureau (NCB) works to prevent and investigate drug crimes. [Document 1, Document 3]",
+  "input_tokens": 428,
+  "output_tokens": 82,
+  "seconds": 10.695111999999426,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

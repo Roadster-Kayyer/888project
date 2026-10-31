@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007940",
+  "doc_id": "546",
+  "query_type": "hard",
+  "query": "What fines might someone face for sending menacing text messages?",
+  "corpus_query_index": 7939,
+  "system": "BM25-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 4]\nFailing to Appear in Court:\nIf you fail to appear in court after receiving a summons, a warrant may be issued for your arrest. You may also face penalties, fines, or contempt of court charges.\n\n[Document 5]\nThreatening Calls/Messages:\nIf you receive threatening calls or messages:\n1. Save the messages or call records as evidence.\n2. Visit your local police station and file a complaint.\n3. Provide the evidence to the police for further action.",
+  "retrieved_doc_ids": [
+    "546",
+    "46",
+    "848",
+    "1845",
+    "876"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7e9e7f7394cde35bf8ffcc63d4749ea12425825c5cc3e7d67d412882eae18610",
+  "answer": "Someone facing threats through menacing text messages could be fined up to 3 years and/or fined under Section 506 of the IPC and the IT Act, 2000 [Document 1].",
+  "input_tokens": 375,
+  "output_tokens": 43,
+  "seconds": 5.6051361999998335,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

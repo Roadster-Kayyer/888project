@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008067",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the question by mentioning compulsion related to false cases, but lacks other circumstances. Evidence supports the relevance of false case compulsion."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question by mentioning compulsion related to false cases, but lacks other circumstances. Evidence supports the relevance of false case compulsion.\",\n  \"evidence\": \"[Document 2, Document 3, Document 4, Document 5]\"\n}\n\n\nThe candidate answer correctly identifies a scenario where law enforcement might compel a signature (threatening to file false cases), which is relevant to the question about when law enforcement can compel an individual to affix their signature to a document. The evidence provided from Document 2 supports the claim about false cases, while Documents 3, 4, and 5, although not directly related to compulsion, are relevant to the bro",
+      "input_tokens": 717,
+      "output_tokens": 192,
+      "seconds": 14.683882700002869,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

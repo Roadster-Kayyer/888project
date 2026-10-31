@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003600",
+  "doc_id": "1646",
+  "query_type": "hard",
+  "query": "How did they simplify the method of reporting grievances?",
+  "corpus_query_index": 3599,
+  "system": "BM25-RAG",
+  "reference_answer": "Tamil Nadu Police Improvements\n\n1. Data Analysis for Predictive Policing: Tamil Nadu Police has improved data analysis by implementing a Crime and Criminal Tracking Network System (CCTNS), which helps in collecting, storing, and analyzing crime data to predict and prevent crimes.\n\n2. Complaints Filing Process: Reforms include introducing online complaint filing systems, such as the \"Citizen Portal\" and \"Lost and Found\" portals, to streamline the process and reduce paperwork.\n\n3. Dealing with Drug Offenses: Tamil Nadu Police has modernized its approach by setting up specialized narcotics cells, increasing awareness programs, and collaborating with other agencies to tackle drug trafficking and abuse effectively.",
+  "context": "[Document 1]\nReligious Tensions:\nThe Tamil Nadu Police has implemented community policing initiatives and established a dedicated team to handle religious tensions. They also conduct regular meetings with community leaders to promote harmony and address grievances.\n\n[Document 2]\nDNA Sample Rights:\nCitizens have the right to know why their DNA sample is being collected and how it will be used. They must provide informed consent before giving a sample. The sample will be stored securely and used only for the purpose stated.\n\n[Document 3]\nAddressing Tribal Women's Grievances:\nThe Tamil Nadu Police has a system in place to address tribal women's grievances through dedicated women's desks and cells. These desks and cells receive and investigate complaints, providing support and counseling to tribal women in need.\n\n[Document 4]\nObtaining Honey Collection Permission:\nTo obtain honey collection permission in Tamil Nadu forests, apply to the District Forest Officer with required documents, including identity proof and a proposal outlining the collection area and method. Permission is granted subject to forest rules and regulations.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "1643",
+    "1451",
+    "1412",
+    "1220",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "287fb5df4ef983f6e485bf4c53fcfa6f292033e33a0d8d37481deb00790e90f1",
+  "answer": "They simplified reporting grievances by establishing dedicated desks and cells for tribal women's grievances, which provides support and counseling [Document 3]. Additionally, communities are encouraged to meet regularly to address grievances and promote harmony. [Document 1] Also, filing a First Information Report (FIR) at the nearest police station allows for easy reporting of missing persons [Document 5].",
+  "input_tokens": 388,
+  "output_tokens": 75,
+  "seconds": 9.778712400000586,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

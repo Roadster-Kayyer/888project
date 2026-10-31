@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_5",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the application of FEDA based on transport mode and references Document 1 accurately."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the application of FEDA based on transport mode and references Document 1 accurately.\",\n  \"evidence\": \"Document 1 directly supports the candidate's answer by providing specific examples of how FEDA is applied based on the mode of transport.\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is not a numerical value but a textual explanation. In a real-world scenario, the \"evidence\" would be a direct quote or paraphrase from the retrieved documents that substantiates the scores given. However, since the task specifies to return only one JSON object and not to include the actual evidence text, it is represented as a textual explanation.)",
+      "input_tokens": 1844,
+      "output_tokens": 191,
+      "seconds": 15.071766900000512,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

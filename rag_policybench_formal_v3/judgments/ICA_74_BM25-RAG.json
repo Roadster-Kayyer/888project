@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_74",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the use of ICA e-Service for status checks and correctly mentions the need for a reference number, but it inaccurately suggests that SingPass is required for initial application submission, which is not supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the use of ICA e-Service with reference number for status check and acknowledges the need for SingPass for initial application, supported by Document 1 and Document 5.\",\n}",
+      "input_tokens": 1325,
+      "output_tokens": 83,
+      "seconds": 6.783889400001499,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":1, \"relevance\":2, \"faithfulness\":2, \"reason\":\"Candidate answer correctly identifies the use of ICA e-Service for status checks and correctly mentions the need for a reference number, but it inaccurately suggests that SingPass is required for initial application submission, which is not supported by the evidence provided.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 1 because the candidate answer is partly correct but includes an important omission regarding the necessity of SingPass for initial application submission. The relevance score is 2 because the candidate answer directly addresses the question of how to check the status of applications. The faithfulness score is 2 because the candidate answer is supported by the evidence provided, specifically Document 1, which mentions logging in with a reference number to check the status. The brief",
+      "input_tokens": 1365,
+      "output_tokens": 192,
+      "seconds": 14.877076300006593,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

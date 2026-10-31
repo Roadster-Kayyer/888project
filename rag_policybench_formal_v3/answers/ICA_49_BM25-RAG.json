@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_49",
+  "doc_id": "PB_5e87133ca7da061eb257",
+  "query_type": "ICA_134",
+  "query": "What are the documents required for IC collection?",
+  "reference_answer": "You must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.",
+  "corpus_query_index": 246,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 2]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 3]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 4]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 5]\nYou are not required to book an appointment for oath-taking. You may proceed to ICA Services Centre and obtain an 'Oath-taking' queue ticket at the self-service kiosks. Please ensure you have the required documents to complete your Oath of Renunciation, Allegiance and Loyalty (ORAL).",
+  "retrieved_doc_ids": [
+    "PB_6a73d290ca55b1465a81",
+    "PB_2e64264f3a3803434cab",
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_c4889c17ceec12f1516c",
+    "PB_1a415c32f0198d4b1595"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0cf76defc4bb87a7f2a3caf9c55ccd72baf85711dce45b1a77fcbc8663e8b33e",
+  "answer": "For yourself: IC, current passport. For your child: Child's birth certificate, IC of consenting parent, child's current passport. Additional for child's collection: Signed authorisation letter, authorised person's IC.",
+  "input_tokens": 652,
+  "output_tokens": 44,
+  "seconds": 6.035681699999259,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

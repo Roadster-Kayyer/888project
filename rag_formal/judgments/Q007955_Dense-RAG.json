@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007955",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly cites penalties from various documents, directly addressing the question about fines and jail time for different types of threats.\",\n}",
+      "input_tokens": 820,
+      "output_tokens": 73,
+      "seconds": 5.738858999997319,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence.\"}",
+      "input_tokens": 860,
+      "output_tokens": 42,
+      "seconds": 3.468793600004574,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005955",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not address the question about house cleaning certification; all documents are irrelevant to the query."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not address the question about house cleaning certification; all documents are irrelevant to the query.\",\n  \"evidence\": \"[Document 1-5]\"\n}",
+      "input_tokens": 768,
+      "output_tokens": 192,
+      "seconds": 14.868394099998113,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

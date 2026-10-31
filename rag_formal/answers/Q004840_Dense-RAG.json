@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004840",
+  "doc_id": "187",
+  "query_type": "hard",
+  "query": "How can someone formally accuse banks of negligence for bounced checks?",
+  "corpus_query_index": 4839,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nFiling a Complaint about ATM Fraud:\nTo file a complaint about ATM fraud, contact your bank's customer care and report the incident. Then, visit the nearest police station and provide a written complaint with details of the fraud. The police will guide you through the process.\n\n[Document 2]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 3]\nFiling a Complaint about Investor Fraud:\nTo file a complaint about investor fraud, contact your local police station or the CB-CID Economic Offences Wing directly. Provide detailed information about the fraud, including documents and evidence. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 4]\nReporting Financial Crimes\n\n1. Ponzi Scheme Victim: \nIf you're a victim, file a complaint at the nearest police station or with the Economic Offences Wing (EOW) of the Tamil Nadu Police.\n\n2. Unauthorized Chit Funds or Finance Schemes: \nReport to the Registrar of Chits or the local police station. You can also contact the EOW for assistance.\n\n3. Loan Sharks or Illegal Moneylenders: \nFile a complaint with the local police station or the Tamil Nadu Police's EOW. Provide as much evidence as possible, such as documents or witness statements.\n\n[Document 5]\nReporting Financial Crimes\n\n1. Ponzi Scheme Victim: \nIf you're a victim, file a complaint at the nearest police station or with the Economic Offences Wing (EOW) of the Tamil Nadu Police.\n\n2. Unauthorized Chit Funds or Finance Schemes: \nReport to the Registrar of Chits or the local police station. You can also contact the EOW for assistance.\n\n3. Loan Sharks or Illegal Moneylenders: \nFile a complaint with the local police station or the Tamil Nadu Police's EOW. Provide as much evidence as possible, such as documents or witness statements.",
+  "retrieved_doc_ids": [
+    "911",
+    "187",
+    "196",
+    "183",
+    "184"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "919e96ea2b9b05d0d38381a27cda4c3f61f538fb0683ccc565973dea054fb3d9",
+  "answer": "To formally accuse banks of negligence for bounced checks, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will investigate and may register a case under the Negotiable Instruments Act [Document 2].",
+  "input_tokens": 565,
+  "output_tokens": 69,
+  "seconds": 8.751209400001244,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

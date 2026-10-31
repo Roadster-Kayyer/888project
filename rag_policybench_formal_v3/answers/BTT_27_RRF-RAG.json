@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_27",
+  "doc_id": "PB_905df234754f5b501b5d",
+  "query_type": "BTT",
+  "query": "Under what circumstances is it permissible to drive, move, or stop on the road shoulder or verge?",
+  "reference_answer": "It is permissible only in the event of a breakdown, accident, or emergency.",
+  "corpus_query_index": 20,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_89b7e5350f270a309ba9",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_905df234754f5b501b5d",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "774139d3af0a2b474f65db8b5a1221fe70f3e00cf69877b1dc93aca401a7d422",
+  "answer": "It is permissible to drive, move, or stop on the road shoulder or verge only in the event of a breakdown, accident, or emergency [Document 4]. Otherwise, it must be done with caution to allow for safe stopping space [Document 1]. Motorists can also proceed if necessary [Document 2], and they must give way when a side road enters a main road [Document 5]. However, driving on a centerline is not allowed [Document 3].",
+  "input_tokens": 215,
+  "output_tokens": 98,
+  "seconds": 38.99499559999822,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

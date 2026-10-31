@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_95",
+  "doc_id": "PB_f07373f2f002f0f7b2ed",
+  "query_type": "ICA_134",
+  "query": "How do I report the loss of a physical Long-Term Visit Pass card?",
+  "reference_answer": "With effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.",
+  "corpus_query_index": 297,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 2]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 5]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.",
+  "retrieved_doc_ids": [
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_d36aa50f901554971814",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_552a298a8583e182f7ef",
+    "PB_bd4cd5b4c56b0c9ef30b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b69b8bd3a3b1572304c655a812f74a563e37a6fd277e2846a57bbf2d7a4bc0cf",
+  "answer": "If you lose your LTVP physical card after 27 Feb 2023, you don't need to report to ICA. Use your digital LTVP in the Singpass app instead. Only those under 15 or unable to use Singpass can report to ICA Services Centre for a digital replacement. [Document 1]",
+  "input_tokens": 607,
+  "output_tokens": 71,
+  "seconds": 9.172960299998522,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

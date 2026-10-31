@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_25",
+  "doc_id": "PB_287a02c335eda3a87f5d",
+  "query_type": "ICA_134",
+  "query": "Can I travel if my passport is valid for less than 6 months?",
+  "reference_answer": "Generally, a passport is only acceptable for travel if it has a validity period of at least 6 months.",
+  "corpus_query_index": 220,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nGenerally, a passport is only acceptable for travel if it has a validity period of at least 6 months.\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 4]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_287a02c335eda3a87f5d",
+    "PB_09222d548a5f63af648a",
+    "PB_0c264676a8242018a9a0",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6d3dadfd6d4a8b761e9af1937d02d99a6d714a4669145c0e4cdc3b11953c2094",
+  "answer": "If your passport is valid for less than 6 months, you can still travel but must renew it before your trip. Your current passport will be invalidated upon issuing a new one. Ensure your new passport is valid for at least 6 months. [Document 1]",
+  "input_tokens": 753,
+  "output_tokens": 55,
+  "seconds": 7.144528300006641,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

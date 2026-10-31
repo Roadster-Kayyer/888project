@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001208",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly details the process of reporting illegal mining and includes relevant documents as evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details the process of reporting illegal mining and includes relevant documents as evidence.\",\n  \"evidence\": \"[Document 4], [Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question by specifying the actions to take (contacting the local police station or district mining office, providing details, and filing a written complaint with evidence) and is supported by evidence from Document 4 and Document 5. The answer is correct, relevant, and faithful to the provided evidence.",
+      "input_tokens": 805,
+      "output_tokens": 146,
+      "seconds": 11.401689299997088,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

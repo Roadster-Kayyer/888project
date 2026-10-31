@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_74",
+  "doc_id": "PB_c6456fad7242c379cac1",
+  "query_type": "ICA_134",
+  "query": "How do I check the status of my Singapore citizenship, Permanent Residence and/or Long-Term Visit Pass application if I do not have SingPass?",
+  "reference_answer": "If you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.",
+  "corpus_query_index": 274,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 2]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 3]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_c6456fad7242c379cac1",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c36083958aa98e58b23496077ea5b894f95d60acdbdfb7b6b67f9e130abcc211",
+  "answer": "To check the status of your application, log in with your reference number using ICA e-Service. However, you need a SingPass for this process. [Document 1]",
+  "input_tokens": 694,
+  "output_tokens": 38,
+  "seconds": 5.170868500004872,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

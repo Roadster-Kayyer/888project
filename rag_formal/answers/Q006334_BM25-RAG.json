@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006334",
+  "doc_id": "257",
+  "query_type": "search",
+  "query": "Can you guide me on how to find out the current status of my missing relative?",
+  "corpus_query_index": 6333,
+  "system": "BM25-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nChecking Court Case Status Online:\nTo check your court case status online, visit the e-Courts services portal (ecourts.gov.in) and click on \"Case Status\". Enter your case number, and you will be able to view the current status of your case.\n\n[Document 3]\nMissing Persons Information:\nTo find information about missing persons online, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) and click on the \"Missing Persons\" or \"Citizen Services\" section. You can also check the National Crime Records Bureau (NCRB) website (ncrb.gov.in) for missing persons data.\n\n[Document 4]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 5]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "retrieved_doc_ids": [
+    "849",
+    "1051",
+    "314",
+    "255",
+    "257"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dea398436b53f558e80c25363cea25858e882d2c77ef769b6b467e804204726f",
+  "answer": "To find out the status of a missing relative, visit the Tamil Nadu Police Department's official website (tnpolice.gov.in) under \"Missing Persons\" or \"Citizen Services\". Alternatively, check the National Crime Records Bureau (ncrb.gov.in). For arrests, go to the local police station or their website. [Document 1-5]",
+  "input_tokens": 423,
+  "output_tokens": 72,
+  "seconds": 9.293104099999255,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

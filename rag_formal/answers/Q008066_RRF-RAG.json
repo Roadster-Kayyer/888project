@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008066",
+  "doc_id": "57",
+  "query_type": "original",
+  "query": "Can police force me to sign any document?",
+  "corpus_query_index": 8065,
+  "system": "RRF-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nPolice Report for Lost Documents:\nTo get a police report, file a complaint at the police station and provide required details. The police will issue a report, known as a \"Lost Document Report\" or \"Non-Cognizable Report\" (NCR), which can be used to obtain duplicate documents.\n\n[Document 5]\nDocuments to Carry:\nWhen visiting a police station, carry a valid ID proof (Aadhaar card, voter ID, etc.), a copy of your complaint or petition, and any relevant documents related to your case.",
+  "retrieved_doc_ids": [
+    "57",
+    "35",
+    "253",
+    "840",
+    "38"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "48ae97c76f20ba89c9e0decedd0acc189de834a61ea3f8b6f538bc0beb2a61d5",
+  "answer": "The police cannot force you to sign any document. You have the right to read and understand its contents before signing it. [Document 1]",
+  "input_tokens": 393,
+  "output_tokens": 30,
+  "seconds": 4.016703600002074,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

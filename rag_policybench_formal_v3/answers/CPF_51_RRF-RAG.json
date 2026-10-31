@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_51",
+  "doc_id": "PB_a21e1d4d27c9faa2c51a",
+  "query_type": "CPF_111",
+  "query": "How can I receive SMS notifications and stop receiving hardcopy notifications for the Workfare Income Supplement (WIS) scheme?",
+  "reference_answer": "To receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.",
+  "corpus_query_index": 114,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTo receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.\n\n[Document 2]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.\n\n[Document 3]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 4]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 5]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.",
+  "retrieved_doc_ids": [
+    "PB_a21e1d4d27c9faa2c51a",
+    "PB_cc9c3dfe3c902d1137c0",
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1f8f16dd44f43bfc4bf5922a1e3837aa15cd0059820fb0f05899f39a91f2e124",
+  "answer": "To receive SMS notifications for WIS, register your mobile number with CPF Board using Singpass. To switch from hardcopy to SMS, log into e-Services with Singpass and opt-in to SMS notifications. [Document 1]",
+  "input_tokens": 418,
+  "output_tokens": 48,
+  "seconds": 6.132992900005775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

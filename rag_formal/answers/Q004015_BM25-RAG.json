@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004015",
+  "doc_id": "1720",
+  "query_type": "hard",
+  "query": "What recourse does society have against law enforcement negligence?",
+  "corpus_query_index": 4014,
+  "system": "BM25-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.\n\n[Document 2]\nCausing Death by Negligence:\nCausing death by negligence is punishable under Section 304A IPC, with imprisonment for up to 2 years and/or a fine.\n\n[Document 3]\nPolice Credit Cooperative Society Information:\nInformation about the police credit cooperative society can be found on the official Tamil Nadu Police Department website ([www.tnpolice.gov.in](http://www.tnpolice.gov.in)) or by visiting the nearest police station.\n\n[Document 4]\n1. Police Motor Transport Workshop:\nThe Police Motor Transport Workshop is responsible for maintaining and repairing police vehicles, ensuring they are in good condition for law enforcement duties.\n\n[Document 5]\nIntelligence Collection by Police Special Branch:\nThe Police Special Branch collects intelligence through:\n* Human sources (informants, undercover agents)\n* Surveillance and monitoring\n* Analysis of data and reports\n* Collaboration with other law enforcement agencies",
+  "retrieved_doc_ids": [
+    "958",
+    "663",
+    "382",
+    "1588",
+    "1603"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a4f743be34f4ce40445360d8476f33d432d1a5c1b0a30642e0db7eea9fba63ef",
+  "answer": "Society can report medical negligence to the nearest police station with details of the incident, which may lead to legal action under Section 304A IPC. For police misconduct, one can use the Police Credit Cooperative Society or seek intelligence through the Special Branch. [Document 1] & [Document 2]",
+  "input_tokens": 361,
+  "output_tokens": 64,
+  "seconds": 8.01864310000019,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

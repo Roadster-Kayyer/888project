@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007225",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the procedure for DRDA complaints and references relevant documents, aligning with the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the procedure for DRDA complaints and references relevant documents, aligning with the provided evidence.\"\n}\n\n\nIn the given scenario, the candidate's answer is directly relevant to the question about addressing issues with a DRDA representative. The answer correctly identifies the primary methods of contacting a DRDA officer (contacting the District Collector or the concerned department's headquarters, filing an online complaint, and visiting a police station) and references the correct documents that support these procedures. The answer is comprehensive and directly addresses the question, which is why it receives a high score in both relevance and correctness. The faithfulness score is also high because the candidate's answer is fully supported by",
+      "input_tokens": 779,
+      "output_tokens": 192,
+      "seconds": 15.075596000002406,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

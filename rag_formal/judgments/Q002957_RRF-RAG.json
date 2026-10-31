@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002957",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the main points from the reference documents, providing specific actions taken during emergencies and mentioning coordination with other services, which is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly covers main reference facts about emergency response procedures during riots, including deployment of police units, non-lethal measures, and protection of life and property. It also mentions coordination with other services, as evidenced by Document 1 and Document 5.\",\n}",
+      "input_tokens": 868,
+      "output_tokens": 100,
+      "seconds": 7.858827100000781,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the main points from the reference documents, providing specific actions taken during emergencies and mentioning coordination with other services, which is supported by the evidence provided.\"}",
+      "input_tokens": 908,
+      "output_tokens": 64,
+      "seconds": 5.0145268999986,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

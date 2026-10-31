@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001908",
+  "doc_id": "1341",
+  "query_type": "casual",
+  "query": "So, how do the police in Tamil Nadu use tech stuff to solve crimes?",
+  "corpus_query_index": 1907,
+  "system": "BM25-RAG",
+  "reference_answer": "Digital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.",
+  "context": "[Document 1]\nDigital Crime Tips:\nTo use the digital platform for anonymous crime tips, citizens can visit the Tamil Nadu Police website or download the \"Citizen Portal\" mobile app, where they can submit tips and information anonymously, helping the police department prevent and solve crimes.\n\n[Document 2]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 3]\nReporting Illegal Activities Anonymously:\nCall the Tamil Nadu Police helpline (1090) or use the 'Citizen Portal' on the Tamil Nadu Police website to report illegal activities anonymously. You can also contact your local police station or use the 'Tamil Nadu Police' mobile app to report crimes discreetly.\n\n[Document 4]\nFingerprint Bureau Function:\nThe Fingerprint Bureau in Tamil Nadu Police collects, analyzes, and matches fingerprints found at crime scenes with those in the database. This helps identify suspects, solve crimes, and maintain fingerprint records.\n\n[Document 5]\nCB-CID Role:\nThe CB-CID (Crime Branch-Criminal Investigation Department) in Tamil Nadu Police investigates serious crimes like murder, robbery, and kidnapping. They collect evidence, analyze clues, and help solve complex cases.",
+  "retrieved_doc_ids": [
+    "1359",
+    "1705",
+    "2088",
+    "1921",
+    "220"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "76c3bc62a53637441643b3ff2a5b1c2430683d12b2717bdc7069fa147b3d969a",
+  "answer": "In Tamil Nadu, police use various tech tools to solve crimes. They have an anonymous crime tip system on their website or app [Document 1], collaborate with tech professionals [Document 2], and use a fingerprint bureau to match crime scene prints [Document 4]. The CB-CID investigates serious crimes [Document 5]. Citizens can report crimes anonymously via helplines, apps, or local stations [Document 3].",
+  "input_tokens": 403,
+  "output_tokens": 87,
+  "seconds": 10.956362999999328,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

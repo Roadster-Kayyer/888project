@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001071",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question about verifying the authenticity of a court order. The answer includes the recommended actions of visiting the official website or contacting the court directly, which are explicitly stated in Document 1. The relevance score is 2 because the answer directly addresses the question without omitting key information. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which includes the same steps for verifying a court order's authenticity",
+      "input_tokens": 743,
+      "output_tokens": 192,
+      "seconds": 15.023229099999298,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

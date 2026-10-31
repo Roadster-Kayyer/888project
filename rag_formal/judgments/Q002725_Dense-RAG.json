@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002725",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states eligibility criteria, age, educational qualification, and recruitment process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states eligibility criteria, age, educational qualification, and recruitment process.\",\n  \"evidence\": \"[Document 4], [Document 5]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly identifying the eligibility criteria, age, and educational qualifications as well as the recruitment process. The evidence provided from Document 4 and Document 5 supports the factual claims made in the candidate's answer, confirming its faithfulness. The answer is not only relevant but also correct and fully supported by the evidence, hence the scores of 2 in all categories.",
+      "input_tokens": 817,
+      "output_tokens": 172,
+      "seconds": 13.278430499998649,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

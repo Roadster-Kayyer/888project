@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003586",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided in the text to support or refute the candidate's answer."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided in the text to support or refute the candidate's answer.\",\n  \"answer\": \"The provided evidence does not contain information about modern equipment given to officers for personal safety.\"\n}",
+      "input_tokens": 359,
+      "output_tokens": 79,
+      "seconds": 6.102057700001751,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

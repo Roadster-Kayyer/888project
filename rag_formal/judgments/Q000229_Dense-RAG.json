@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000229",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists essential documents for a civil action and is supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists essential documents for a civil action and is supported by the retrieved evidence.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer directly addresses the question by listing the essential legal documents required for a civil action and is relevant to the provided reference. The answer is correct as it includes all the main points from the reference, such as proof of identity and address, relevant contracts or agreements, evidence supporting the claim, and an affidavit if required. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which is directly related to the question. The reason succinctly explains the scores, indicating that the candidate'",
+      "input_tokens": 774,
+      "output_tokens": 192,
+      "seconds": 14.993204099999275,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

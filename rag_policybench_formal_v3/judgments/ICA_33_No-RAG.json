@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_33",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not accurately reflect the specific instructions for updating employment or salary information for a PR application as outlined in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer does not accurately reflect the process described in the reference, and no evidence is provided.\",\n}",
+      "input_tokens": 541,
+      "output_tokens": 63,
+      "seconds": 4.9661595999932615,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer does not accurately reflect the specific instructions for updating employment or salary information for a PR application as outlined in the reference.\"}",
+      "input_tokens": 581,
+      "output_tokens": 55,
+      "seconds": 4.4696899999980815,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

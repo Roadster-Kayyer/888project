@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009459",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided, cannot assess correctness or relevance."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided, cannot assess correctness or relevance.\"\n}",
+      "input_tokens": 366,
+      "output_tokens": 51,
+      "seconds": 3.9625481999974,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

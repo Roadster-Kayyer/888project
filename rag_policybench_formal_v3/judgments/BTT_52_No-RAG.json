@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_52",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer incorrectly identifies merging arrows as indicating a roundabout, which is not supported by the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer incorrectly identifies merging arrows as indicating a roundabout, which is not supported by the provided reference.\",\n  \"evidence\": \"Merging arrows indicate that two traffic lanes are merging into one traffic lane, not a roundabout.\"\n}",
+      "input_tokens": 355,
+      "output_tokens": 97,
+      "seconds": 7.526450100005604,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

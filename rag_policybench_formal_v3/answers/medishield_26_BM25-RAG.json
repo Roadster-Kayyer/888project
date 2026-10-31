@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_26",
+  "doc_id": "PB_25927e8ab4491744b345",
+  "query_type": "medishield",
+  "query": "What kind of authority does the CPF Board have regarding the terms and conditions of the MediShield Life scheme?",
+  "reference_answer": "The CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.",
+  "corpus_query_index": 321,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 2]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 3]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 4]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.\n\n[Document 5]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.",
+  "retrieved_doc_ids": [
+    "PB_25927e8ab4491744b345",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_602681b75becd57cfb35",
+    "PB_eacf65b60e2998442b5a",
+    "PB_8b587c7ab32751210874"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "51dc6de89fa65ae9796ab94477e0430994070e3545db3f28fa5e9ea63e0808c4",
+  "answer": "The CPF Board has authority to impose and vary the terms and conditions of the MediShield Life scheme as per legislation [Document 1]. It administers the scheme under the MediShield Life Scheme Act 2015 [Document 2].",
+  "input_tokens": 327,
+  "output_tokens": 50,
+  "seconds": 6.440557699999772,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008683",
+  "doc_id": "680",
+  "query_type": "casual",
+  "query": "So if people get violent during strikes, what happens to them?",
+  "corpus_query_index": 8682,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nAction Against Abusive Posts:\nIf you receive abusive or threatening social media posts, report them to the platform's administrators. You can also file a complaint with the Cyber Crime Wing or the local police station under the IT Act and IPC sections related to harassment and threatening behavior.\n\n[Document 3]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 4]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "680",
+    "155",
+    "683",
+    "679",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0c70a6cfa19ef74e5bd6dab24d397a750fa5e4561bcd2e34de20a82071264a13",
+  "answer": "During strikes, violence can lead to imprisonment up to 3 years and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). [Document 1] Additionally, assault during labor disputes carries the same penalties. [Document 5]",
+  "input_tokens": 393,
+  "output_tokens": 64,
+  "seconds": 8.38289480000094,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

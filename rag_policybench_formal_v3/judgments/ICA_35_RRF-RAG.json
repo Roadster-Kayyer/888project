@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_35",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the input for 'Vehicle Number' without transport details, as per Document 1, and is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the input for 'Vehicle Number' without transport details, as per Document 1, and is supported by the evidence provided.\"\n}",
+      "input_tokens": 1429,
+      "output_tokens": 192,
+      "seconds": 15.431433100005961,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

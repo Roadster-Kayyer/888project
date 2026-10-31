@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_13",
+  "doc_id": "PB_f93c36f8738a815fe887",
+  "query_type": "BTT",
+  "query": "What is the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement?",
+  "reference_answer": "Three yellow reflective markings.",
+  "corpus_query_index": 5,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThree yellow reflective markings.\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nA Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.\n\n[Document 4]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 5]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+  "retrieved_doc_ids": [
+    "PB_f93c36f8738a815fe887",
+    "PB_33b32af818c8c4223f8f",
+    "PB_3d3983332a6d398052ec",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_c41b88860662185c50b1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ebbbb29e6d7dc8b704775e84ba83c1cdfac9a3bbd367550decb0d09182f2b1a5",
+  "answer": "Based on Document 1, the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement is 3. [Document 1]",
+  "input_tokens": 457,
+  "output_tokens": 34,
+  "seconds": 4.328177700001106,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

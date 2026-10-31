@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003277",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the methods used by the Police Academy Museum to conserve its historical significance, supported by evidence from all relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the methods used by the Police Academy Museum, supported by evidence from Documents 1, 2, 3, 4, and 5.\",\n}",
+      "input_tokens": 686,
+      "output_tokens": 79,
+      "seconds": 6.157707700000174,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the methods used by the Police Academy Museum to conserve its historical significance, supported by evidence from all relevant documents.\"}\n\nIn this case, the candidate answer is correct (2) as it directly addresses the question and covers the main points about the methods used by the Police Academy Museum. The relevance score is 2 because the answer directly addresses the question and includes specific methods mentioned in the reference documents. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents, which detail the methods of preservation and showcasing used by the museum. The reason is succinct and accurately summarizes the evaluation.",
+      "input_tokens": 726,
+      "output_tokens": 167,
+      "seconds": 12.718485000001237,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

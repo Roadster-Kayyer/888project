@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_22",
+  "doc_id": "PB_b155e67f12a868a1d32b",
+  "query_type": "ICA_134",
+  "query": "What is the processing time for Singapore Permanent Residence (PR) applications?",
+  "reference_answer": "Generally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.",
+  "corpus_query_index": 217,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 4]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 5]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.",
+  "retrieved_doc_ids": [
+    "PB_b155e67f12a868a1d32b",
+    "PB_d98d322f2936df748ef1",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_4db518930267429b7a6f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6d1eafee2614309e699857dc764516f508e0342f264a553d8f5004b962d46130",
+  "answer": "According to [Document 1], Singapore PR applications generally take about six months to process, [Document 1]. However, some cases may take longer, up to six months. [Document 1] also states that applicants will be informed via email or post.",
+  "input_tokens": 410,
+  "output_tokens": 54,
+  "seconds": 6.9816234999889275,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

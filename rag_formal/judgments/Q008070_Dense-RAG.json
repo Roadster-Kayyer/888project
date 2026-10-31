@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008070",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly details conditions for police and court-related paper signings, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details conditions for police and court-related paper signings, supported by evidence from documents.\",\n  \"evidence\": \"[Document 1, Document 3, Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining specific scenarios where authorities may require a signature on a piece of paper, such as court orders, police verifications, and administrative actions. The evidence provided from the documents supports the factual claims made in the candidate answer, indicating that the process involves filing an application and providing necessary documents. The scores reflect that the answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 818,
+      "output_tokens": 172,
+      "seconds": 13.644942099999753,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003741",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the Women Safety Committee's functions and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the Women Safety Committee's functions and is supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 800,
+      "output_tokens": 192,
+      "seconds": 15.472105000000738,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

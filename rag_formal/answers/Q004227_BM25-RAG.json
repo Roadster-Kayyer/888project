@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004227",
+  "doc_id": "176",
+  "query_type": "formal",
+  "query": "How can one address the situation of having a vehicle towed?",
+  "corpus_query_index": 4226,
+  "system": "BM25-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 2]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 3]\nFiling a Private Complaint:\nTo file a private complaint, approach the court having jurisdiction over the matter. Submit a written complaint, stating the facts and relief sought. The court will then examine the complaint and may issue summons to the accused.\n\n[Document 4]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 5]\nE-filing Registration for Income Tax in Tamil Nadu:\nTo register for e-filing, visit the Income Tax Department's e-filing portal and click on \"Register Yourself\". Fill in the required details, such as PAN, name, and address, and create a username and password. Verify your account through a one-time password sent to your registered mobile number and email ID.",
+  "retrieved_doc_ids": [
+    "833",
+    "176",
+    "1118",
+    "2070",
+    "1302"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "31cf5d8087ac58b6830990298ec464dd6a50bef113629840c5f41e5535317fc1",
+  "answer": "To reclaim a towed vehicle, visit the nearest police station or towing station with your vehicle's documents and ID. Pay fees and fill out forms. [Document 1] For a towed vehicle, contact the traffic police station or towing company, provide registration documents, and pay fees to retrieve your vehicle. [Document 2]",
+  "input_tokens": 444,
+  "output_tokens": 68,
+  "seconds": 8.87716089999958,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_23",
+  "doc_id": "PB_e12438e446c271b6f34f",
+  "query_type": "BTT",
+  "query": "What actions should people take during an emergency in Fort Canning Tunnel and Woodsville Tunnel?",
+  "reference_answer": "People should head for the tunnel entrance or exit, whichever is safer.",
+  "corpus_query_index": 16,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPeople should head for the tunnel entrance or exit, whichever is safer.\n\n[Document 2]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.\n\n[Document 3]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 4]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 5]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).",
+  "retrieved_doc_ids": [
+    "PB_e12438e446c271b6f34f",
+    "PB_f36114baa5e370122326",
+    "PB_3300f78e0c7cee359492",
+    "PB_905df234754f5b501b5d",
+    "PB_ee4845fffddb5f8c7d77"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "34da38223e58b924d92a26c674fba8cbd5e46e5beaae7911b22b1510f265c9c3",
+  "answer": "During an emergency in Fort Canning Tunnel or Woodsville Tunnel, people should head for the nearest tunnel entrance or exit, whichever is safer [Document 1]. For other situations, the provided documents do not offer specific advice.",
+  "input_tokens": 647,
+  "output_tokens": 46,
+  "seconds": 23.514737600002263,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

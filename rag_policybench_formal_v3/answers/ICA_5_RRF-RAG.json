@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_5",
+  "doc_id": "PB_04745399e49d55ad64a3",
+  "query_type": "ICA_134",
+  "query": "Why is ICA removing the departure endorsement?",
+  "reference_answer": "The removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.",
+  "corpus_query_index": 247,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nICA no longer issues departure endorsements. You may use proxy documents, such as boarding passes as indicators of your exit record.\n\n[Document 2]\nThe removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.\n\n[Document 3]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 4]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_35db64afc4b771d4dfd8",
+    "PB_04745399e49d55ad64a3",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "07fc666d9bf90305b6aeac8ea082dd3cb81357bc4059356c505fba4bbcbb32ea",
+  "answer": "ICA is removing the departure endorsement to streamline procedures and facilitate faster immigration clearance. This change is part of ongoing efforts by ICA to improve efficiency at checkpoints. It allows for the use of proxy documents like boarding passes to indicate exit records instead of traditional endorsements. [Document 1] & [Document 2]",
+  "input_tokens": 692,
+  "output_tokens": 63,
+  "seconds": 8.1772978999943,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

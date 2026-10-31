@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007839",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses fines and removal of performance areas, which are related to the penalties for illegal street performances. However, it does not directly quote or reference the specific fine amount (₹1,000) or the possibility of arrest mentioned in the reference, hence the correctness score is 1. Faithfulness is scored as null because the candidate's answer does not contain direct evidence from the provided reference, which is required for a full score. The reason succinctly explains the scores given.",
+      "input_tokens": 388,
+      "output_tokens": 186,
+      "seconds": 14.233434199995827,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

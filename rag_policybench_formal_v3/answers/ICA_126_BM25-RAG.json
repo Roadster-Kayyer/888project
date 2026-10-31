@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_126",
+  "doc_id": "PB_ab2a764b892b10ef7a10",
+  "query_type": "ICA_134",
+  "query": "How do I apply for Singapore Permanent Residence (PR) and what are the eligibility criteria for PR application?",
+  "reference_answer": "You may refer to the ICA website for more information on the eligibility criteria for PR application.",
+  "corpus_query_index": 198,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou may refer to the ICA website for more information on the eligibility criteria for PR application.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 5]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "retrieved_doc_ids": [
+    "PB_ab2a764b892b10ef7a10",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_d98d322f2936df748ef1",
+    "PB_16464034b8fc8059eece",
+    "PB_281c77b1cca45bc9951f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "81ab51733605b67e6cfba35fbb9cb5209fc40aa784a2ff8b5d5102b05163acc6",
+  "answer": "To apply for Singapore Permanent Residence (PR), visit the ICA website for eligibility criteria [Document 1]. Sponsorship is limited to Singapore citizens [Document 2]. After approval, receive an In-Principle Approval (IPA) letter and attend ICA services center to finalize [Document 5]. Note that PR status cannot be reinstated after voluntary renunciation [Document 4]. [Document 3] outlines eligibility for Singapore Citizenship after PR.",
+  "input_tokens": 362,
+  "output_tokens": 92,
+  "seconds": 11.716569099997287,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

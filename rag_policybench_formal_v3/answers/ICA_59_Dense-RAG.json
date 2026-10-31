@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_59",
+  "doc_id": "PB_0c264676a8242018a9a0",
+  "query_type": "ICA_134",
+  "query": "Can I travel with my current passport while my new passport application is still being processed?",
+  "reference_answer": "You may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.",
+  "corpus_query_index": 257,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 2]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 3]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 4]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 5]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.",
+  "retrieved_doc_ids": [
+    "PB_0c264676a8242018a9a0",
+    "PB_6a37eec904475577f862",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_8171046f23dbdf9c0430",
+    "PB_8b8122292438794b78bb"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "619c6a934d81047418427881fe5fbc81e6c366cfe00e7bd6043aca3fc3c5b124",
+  "answer": "Yes, you can travel with your current passport if it meets the conditions: it must be valid for at least 6 months and not damaged. However, it will be invalidated upon issuance of the new passport. [Document 1]",
+  "input_tokens": 650,
+  "output_tokens": 48,
+  "seconds": 6.327848800006905,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

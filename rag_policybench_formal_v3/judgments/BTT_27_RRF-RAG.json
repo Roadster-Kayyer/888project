@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_27",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and all factual claims are supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies permissible circumstances and references documents 1, 2, 4, and 5, but could elaborate on 'with caution'.\",\n}",
+      "input_tokens": 542,
+      "output_tokens": 83,
+      "seconds": 6.523790300008841,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and all factual claims are supported by the evidence provided.\"}",
+      "input_tokens": 582,
+      "output_tokens": 48,
+      "seconds": 4.045841099999961,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

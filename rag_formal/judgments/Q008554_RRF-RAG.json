@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008554",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the legal repercussions of domestic abuse, supported by evidence from Documents 3 and 4, and mentions relevant services and procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states legal repercussions and supports them with evidence from Documents 3 and 4, and mentions support services and police handling of disputes from Document 5.\",\n}",
+      "input_tokens": 854,
+      "output_tokens": 192,
+      "seconds": 15.09733199999755,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the legal repercussions of domestic abuse, supported by evidence from Documents 3 and 4, and mentions relevant services and procedures.\"}",
+      "input_tokens": 894,
+      "output_tokens": 57,
+      "seconds": 4.656542600001558,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

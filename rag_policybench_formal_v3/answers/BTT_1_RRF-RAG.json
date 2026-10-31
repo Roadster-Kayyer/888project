@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_1",
+  "doc_id": "PB_57b4cb852a1cc98f4ad5",
+  "query_type": "BTT",
+  "query": "What does a broken white line indicate on a two-way road?",
+  "reference_answer": "It indicates the centre line of a two-way road.",
+  "corpus_query_index": 1,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIt indicates the centre line of a two-way road.\n\n[Document 2]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 3]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 4]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 5]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "retrieved_doc_ids": [
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_786ca90f3ae19fb193e3",
+    "PB_4479f84c1b73422f7e24",
+    "PB_cfbeecc8e8bd16153256",
+    "PB_619765030c2c1f6e27b8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04f8cdce492f89d7cf74ec17784607b08788b1cc5f1733eeb8ea9f8a369c05f2",
+  "answer": "A broken white line on a two-way road indicates the centre line of the road. [Document 1]",
+  "input_tokens": 271,
+  "output_tokens": 23,
+  "seconds": 3.1592849000007845,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000833",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 2.\",\n  \"evidence\": \"[Document 2]\"\n}\n\n\nIn the provided candidate answer, the response directly addresses the question about obtaining a No Due Certificate from the judge. The answer includes the necessary steps of filing a petition with the court, providing case details, and identity proof, which are all mentioned in Document 2. The evidence (Document 2) directly supports the factual claims made in the candidate answer, confirming its correctness, relevance, and faithfulness. The reason succinctly explains the scores, indicating that the candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 773,
+      "output_tokens": 190,
+      "seconds": 14.655355200000486,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

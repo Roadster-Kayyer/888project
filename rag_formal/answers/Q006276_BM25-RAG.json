@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006276",
+  "doc_id": "247",
+  "query_type": "original",
+  "query": "How does Tamil Nadu Police handle crowd management during festivals?",
+  "corpus_query_index": 6275,
+  "system": "BM25-RAG",
+  "reference_answer": "Crowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring",
+  "context": "[Document 1]\nCrowd Management:\nTamil Nadu Police handles crowd management during festivals by:\n* Deploying adequate personnel\n* Implementing traffic management plans\n* Conducting crowd control drills\n* Using technology for surveillance and monitoring\n\n[Document 2]\nPolice Help during Rural Festivals:\nTo get police help during rural festivals:\n* Dial 100 or the local police station number\n* Inform the police about the festival and expected crowd\n* Provide details of any potential law and order issues\n* Police will deploy personnel to maintain security and order\n\n[Document 3]\nMounted Horse Unit:\nThe Mounted Horse Unit in Tamil Nadu Police is responsible for crowd control, patrolling, and maintaining law and order in crowded areas, especially during festivals and public events. They also assist in search and rescue operations.\n\n[Document 4]\nTamil Nadu Special Police Youth Brigade:\nThe Tamil Nadu Special Police Youth Brigade is a volunteer force that assists the police in maintaining law and order, and helps in crowd control and traffic management.\n\n[Document 5]\nRiot Control and Crowd Management:\nThe Tamil Nadu Police has introduced modern equipment such as:\n* Water cannons\n* Tear gas launchers\n* Drones for surveillance\n* Body cameras for police personnel",
+  "retrieved_doc_ids": [
+    "247",
+    "1382",
+    "1936",
+    "1934",
+    "1618"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b69b85ae808e70ce3258129f64d51544e35577e33966b9b2775a453fc26cac3f",
+  "answer": "Tamil Nadu Police handles crowd management during festivals through:\n- Adequate personnel deployment\n- Traffic management plans\n- Crowd control drills\n- Technology use for surveillance [Document 1]\nAdditionally, they have specialized units like the Mounted Horse Unit and the Tamil Nadu Special Police Youth Brigade for crowd control and maintenance of law and order. Modern equipment like water cannons, tear gas launchers, drones, and body cameras are also used. [Document 5]",
+  "input_tokens": 371,
+  "output_tokens": 92,
+  "seconds": 11.321901000001162,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005697",
+  "system": "Dense-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for contacting the Anti-Counterfeiting Currency Wing, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 862,
+      "output_tokens": 71,
+      "seconds": 5.792785699999513,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for contacting the Anti-Counterfeiting Currency Wing, supported by evidence from Document 1.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from Document 1.\"}\n\n(Note: The \"reason\" field is a brief explanation, and the exact wording can be adjusted based on the specific details of the evidence provided. The scores are consistent with the candidate answer being correct, directly relevant, and fully supported by the evidence.)",
+      "input_tokens": 902,
+      "output_tokens": 154,
+      "seconds": 12.175970899999811,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 217)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

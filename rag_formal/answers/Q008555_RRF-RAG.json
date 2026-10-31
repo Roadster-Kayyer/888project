@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008555",
+  "doc_id": "657",
+  "query_type": "hard",
+  "query": "What criminal charges result from assaulting a family member?",
+  "corpus_query_index": 8554,
+  "system": "RRF-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nAssaulting Persons with Disabilities:\nThe penalty for assaulting persons with disabilities can lead to imprisonment of up to 5 years and a fine, as per the Rights of Persons with Disabilities Act, 2016.\n\n[Document 2]\nSuspected Family Member Involvement:\nIf you suspect a family member is involved in drug trafficking, contact the Tamil Nadu Police anonymously or visit the nearest police station to report your concerns. You can also call the police helpline (100) for assistance.\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\nAssault on Elderly Persons:\nAssaulting elderly persons (above 60 years) is punishable under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007. The punishment can include imprisonment up to 3 years and a fine up to ₹5,000, depending on the severity of the offense.",
+  "retrieved_doc_ids": [
+    "655",
+    "130",
+    "40",
+    "46",
+    "654"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "3575cbb183f2f75fa827903aa883cd3bf46477185ed20fe064a9494bcf528931",
+  "answer": "Criminal charges for assaulting a family member vary. Assaulting an elderly family member (above 60 years) can result in up to 3 years' imprisonment and a fine of up to ₹5,000, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 [Document 5]. For other family members, specific details are not provided in the given evidence. [Document 1] discusses assault against persons with disabilities.",
+  "input_tokens": 394,
+  "output_tokens": 96,
+  "seconds": 12.191921600002388,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_94",
+  "doc_id": "PB_8ebe3f6918bf6e508aca",
+  "query_type": "CPF_111",
+  "query": "How do I change or delete my recurring cash top-up arrangement to receive the matching grant under Matched Retirement Savings Scheme?",
+  "reference_answer": "If you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.",
+  "corpus_query_index": 161,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.\n\n[Document 2]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 3]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.\n\n[Document 4]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_8ebe3f6918bf6e508aca",
+    "PB_0e779c5155a62f56c06e",
+    "PB_283925c4e94ab32680ac",
+    "PB_194e6b030eea394ac1a9",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "930aeed12a91f8b32a5eb1ef85ce37f1aa695a0d2eb500304b1944a5bcbd1b44",
+  "answer": "To change or delete a recurring cash top-up arrangement, go to the Manage recurring cash top-ups for retirement form. [Document 1] To delete, create a new one with revised details. [Document 1] Ensure you're eligible for the Matched Retirement Savings Scheme and understand cash top-ups are irreversible. [Document 2]",
+  "input_tokens": 616,
+  "output_tokens": 69,
+  "seconds": 9.281496199997491,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

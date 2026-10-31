@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000245",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the process outlined in Document 1 and is directly relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the process outlined in Document 1 and is directly relevant to the question.\"\n}",
+      "input_tokens": 1127,
+      "output_tokens": 192,
+      "seconds": 14.997669500000484,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

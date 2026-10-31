@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_80",
+  "doc_id": "PB_28af97b74168a5b5beb0",
+  "query_type": "CPF_111",
+  "query": "I have made a PayNow QR payment but I am not able to see an immediate update to my CPF balance(s). Why is my CPF account balance(s) not updated immediately?",
+  "reference_answer": "Such cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.",
+  "corpus_query_index": 146,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 2]\nThe application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.\n\n[Document 3]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 4]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 5]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.",
+  "retrieved_doc_ids": [
+    "PB_28af97b74168a5b5beb0",
+    "PB_bc2b027060817e0f3bc3",
+    "PB_aba31460334fd65c7b41",
+    "PB_e625576111e2a18d5ef0",
+    "PB_f06f7bf4b4cb01868d1c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b087add3c27618383ec9ffeaabd3c5375d91b5ebda1bccc37bd355e50f8990f2",
+  "answer": "Such cases are rare and may be due to network connectivity issues. Your CPF balance might not update immediately (within 3-5 working days). You'll receive a notification if you registered your email. Check your balance after 3-5 days and alert if needed. [Document 1]",
+  "input_tokens": 802,
+  "output_tokens": 60,
+  "seconds": 7.9853840000141645,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

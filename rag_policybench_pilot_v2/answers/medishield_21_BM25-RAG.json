@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_21",
+  "doc_id": "PB_25ba54369b4af95adaad",
+  "query_type": "medishield",
+  "query": "What category of expenses are non-subsidised bills pro-rated for under the Medishield program?",
+  "reference_answer": "Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.",
+  "corpus_query_index": 316,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNon-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\n\n[Document 2]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 5]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.",
+  "retrieved_doc_ids": [
+    "PB_25ba54369b4af95adaad",
+    "PB_3808b698344f1c773560",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_a5a49f4a8cf45baa57c5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "91c17954d0c503358ffa861d56dd5b029106af0cfa598fba27201c289180da4d",
+  "answer": "Under the Medishield program, non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition [Document 1]. No specific category of expenses is mentioned for non-subsidised bills other than these two treatments.",
+  "input_tokens": 324,
+  "output_tokens": 51,
+  "seconds": 6.417034700003569,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2163.20947265625
+}

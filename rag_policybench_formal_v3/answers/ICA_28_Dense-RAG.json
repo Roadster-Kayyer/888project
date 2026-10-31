@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_28",
+  "doc_id": "PB_5ddf7c95efdb8392ffd9",
+  "query_type": "ICA_134",
+  "query": "What should I do if I did not receive the email on retrieving my digital Student's Pass (STP)?",
+  "reference_answer": "For STP holders who are required to complete formalities at ICA, you should receive the email within 30 minutes after the completion of formalities. If you did not receive the email after 30 minutes:Check the spam or junk folder of your email accountEnsure that your email inbox folder is not fullEnsure that you have an active internet connection on your deviceFor STP holders who had their biometrics enrolled at the ir school, you will receive the email no more than seven (7) working days from the date of your enrolment.If you are unable to locate the email after performing the above checks, you may contact us via the enquiry form for assistance.",
+  "corpus_query_index": 223,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nFor STP holders who are required to complete formalities at ICA, you should receive the email within 30 minutes after the completion of formalities. If you did not receive the email after 30 minutes:Check the spam or junk folder of your email accountEnsure that your email inbox folder is not fullEnsure that you have an active internet connection on your deviceFor STP holders who had their biometrics enrolled at the ir school, you will receive the email no more than seven (7) working days from the date of your enrolment.If you are unable to locate the email after performing the above checks, you may contact us via the enquiry form for assistance.\n\n[Document 2]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nUpon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in the SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.Foreign visitors may also retrieve the e-Pass issued to them via the e-Pass Enquiry Portal. The portal is accessible via the SG Arrival Card e-Service or via the direct URL: https://eservices.ica.gov.sg/sgarrivalcard/epassenquiry.Foreign visitors will need to key in their Disembarkation/Embarkation (DE) Number, or passport details to retrieve their e-Pass. The DE Number is provided to foreign visitors after submitting their SG Arrival Card prior to arrival immigration clearance.You may submit your enquiry should you require further assistance on your DE number or e-Pass retrieval.\n\n[Document 5]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.",
+  "retrieved_doc_ids": [
+    "PB_5ddf7c95efdb8392ffd9",
+    "PB_c1a387ce75f3f9c696bf",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_6732dd0aa3a7e05ba70d",
+    "PB_f07373f2f002f0f7b2ed"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0dd17b571aa796cb770a0f1a41ac9d33ecce205c97145c08e735e92fac558e92",
+  "answer": "If you didn't receive the email, check your spam/junk folder, ensure your inbox isn't full, and make sure you have an active internet connection. For STP holders, if it's been over 30 minutes, you can also contact the enquiry form. Otherwise, check your email address for accuracy and avoid phishing scams. [Document 1]",
+  "input_tokens": 828,
+  "output_tokens": 74,
+  "seconds": 9.87299790000543,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

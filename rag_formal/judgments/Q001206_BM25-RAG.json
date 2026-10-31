@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001206",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 1, which directly instructs how to report illegal mining in Tamil Nadu's forest areas. The evidence (Document 1) is used to justify the scores.",
+      "input_tokens": 831,
+      "output_tokens": 133,
+      "seconds": 10.276960499999404,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

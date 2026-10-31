@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_37",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the handling of maturity proceeds for both CPFIS-OA and CPFIS-SA, and mentions the possibility of top-ups, all supported by the evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the handling of maturity proceeds for both CPFIS-OA and CPFIS-SA, and mentions the possibility of top-ups, all supported by the evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\n(Note: The \"faithfulness\" score is set to 2 because the candidate answer directly addresses the substantive factual claims about the handling of maturity proceeds and the process for top-ups, which are supported by the evidence provided in Document 1. There are no claims in the candidate answer that contradict the evidence, hence the faithfulness is fully supported.)",
+      "input_tokens": 1954,
+      "output_tokens": 180,
+      "seconds": 14.146708600004786,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

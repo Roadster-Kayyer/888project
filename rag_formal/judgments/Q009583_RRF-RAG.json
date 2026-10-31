@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009583",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Servant Verification process involves submitting an application to the local police station with servant's ID proof, address, and employment details for a background check and verification report.\"\n}\n\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is directly supported by the evidence provided in Document 1, which states the exact process for servant verification. There are no unsupported or contradicted claims in the candidate's answer. The reason is concise and accurately reflects the evaluation.",
+      "input_tokens": 721,
+      "output_tokens": 183,
+      "seconds": 14.53844879999815,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

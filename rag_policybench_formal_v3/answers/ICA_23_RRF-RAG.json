@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_23",
+  "doc_id": "PB_9e513aa79957841bf9fc",
+  "query_type": "ICA_134",
+  "query": "How do I apply for a birth extract if I lost my birth certificate?",
+  "reference_answer": "You may refer to the ICA website for more information on the application, processing time and download of a birth extract.",
+  "corpus_query_index": 218,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou may refer to the ICA website for more information on the application, processing time and download of a birth extract.\n\n[Document 2]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 3]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.\n\n[Document 4]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 5]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.",
+  "retrieved_doc_ids": [
+    "PB_9e513aa79957841bf9fc",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_67fb3c3d8e5dd0d5de24",
+    "PB_6a73d290ca55b1465a81",
+    "PB_5ae2776cd5bb7bd71a02"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a90c6359a37bdc72464008ec698da5f2d247247f6c275cb1c5f6e60d12cef642",
+  "answer": "To apply for a birth extract if you lost your birth certificate, visit the ICA website for details on application process and download options. [Document 1] Additionally, ensure you register the birth in the country of birth and get a copy from there before applying. [Document 2]",
+  "input_tokens": 569,
+  "output_tokens": 59,
+  "seconds": 7.522732400000677,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

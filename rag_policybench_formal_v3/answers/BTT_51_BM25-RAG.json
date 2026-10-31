@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_51",
+  "doc_id": "PB_cfbeecc8e8bd16153256",
+  "query_type": "BTT",
+  "query": "Under what circumstances must a driver refrain from crossing the center line of the road?",
+  "reference_answer": "A driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+  "corpus_query_index": 47,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_cfbeecc8e8bd16153256",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_716429660f2efd24efb8",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1ad87f6f674c4cf69c13264a059d456afbec29c5a4b49d97b594deba8076e3cf",
+  "answer": "A driver must refrain from crossing the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead [Document 1].",
+  "input_tokens": 412,
+  "output_tokens": 36,
+  "seconds": 4.716449699990335,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

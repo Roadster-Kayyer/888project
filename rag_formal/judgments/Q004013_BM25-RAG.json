@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004013",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer covers main reference facts and provides direct actions to take, supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer covers main reference facts and provides direct actions to take, supported by evidence from Document 3.\",\n  \"evidence\": \"[Document 3] What to Do if I witness police brutality? If you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\"\n}",
+      "input_tokens": 795,
+      "output_tokens": 141,
+      "seconds": 11.243601400001353,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

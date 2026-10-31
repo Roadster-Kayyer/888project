@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_10",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate speculates on the subsidy reduction rate without direct evidence, which is not fully substantiated."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate speculates on the subsidy reduction rate without direct evidence, which is not fully substantiated.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the question about the subsidy reduction rate for a specific Annual Value range. However, the correctness score is only 1 because the candidate fails to provide direct evidence from the reference material, which is necessary to support the claim about the subsidy reduction rate. The faithfulness score is null due to the lack of substantive factual claims supported by supplied evidence. The reason succinctly explains the scores, noting the speculative nature of the answer without direct evidence.",
+      "input_tokens": 439,
+      "output_tokens": 188,
+      "seconds": 14.314511799995671,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

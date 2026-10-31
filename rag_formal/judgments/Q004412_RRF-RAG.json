@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004412",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the methods employed by the Tamil Nadu Police to support foreign researchers and citizens."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the methods employed by the Tamil Nadu Police to support foreign researchers and citizens.\",\n  \"retrieved_evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}",
+      "input_tokens": 1006,
+      "output_tokens": 110,
+      "seconds": 8.55782470000122,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

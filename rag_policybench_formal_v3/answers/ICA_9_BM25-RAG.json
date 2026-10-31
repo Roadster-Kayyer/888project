@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_9",
+  "doc_id": "PB_fdd274ee47983db43f69",
+  "query_type": "ICA_134",
+  "query": "Will e-Services that do not require Singpass login still be available?",
+  "reference_answer": "e-Services that do not require Singpass will continue to be available on the ICA website.",
+  "corpus_query_index": 291,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\ne-Services that do not require Singpass will continue to be available on the ICA website.\n\n[Document 2]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 3]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_fdd274ee47983db43f69",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_2140a6169b3f40aa828c",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "097784e804b00f1e886a0c9d2cf297187d587eadeaf6bf10ea6270d1683f35f9",
+  "answer": "Yes, e-Services that do not require Singpass login will still be available on the ICA website [Document 1].",
+  "input_tokens": 403,
+  "output_tokens": 27,
+  "seconds": 3.4419216999958735,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

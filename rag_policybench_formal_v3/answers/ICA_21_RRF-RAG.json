@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_21",
+  "doc_id": "PB_bae89a527e0df10a772e",
+  "query_type": "ICA_134",
+  "query": "How do I book/change/cancel my appointment in MyICA?",
+  "reference_answer": "You will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.",
+  "corpus_query_index": 216,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 3]\nYou are not required to book an appointment for oath-taking. You may proceed to ICA Services Centre and obtain an 'Oath-taking' queue ticket at the self-service kiosks. Please ensure you have the required documents to complete your Oath of Renunciation, Allegiance and Loyalty (ORAL).\n\n[Document 4]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 5]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_558188a8bd115503280d",
+    "PB_1a415c32f0198d4b1595",
+    "PB_ffb44a115e698c779310",
+    "PB_b5339301e0857337a248"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bf9aa98254c3f9870f9d593f5a9ded0d1c2d5cd41f5ac2160838707ed73f1efb",
+  "answer": "To book, change, or cancel an appointment, go to 'e-Services' under 'e-Appointment'. For changes, log in to ICA e-Service at least 3 days before your appointment. [Document 1] & [Document 2]",
+  "input_tokens": 512,
+  "output_tokens": 55,
+  "seconds": 7.43038420000812,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

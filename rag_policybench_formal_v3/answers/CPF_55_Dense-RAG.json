@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_55",
+  "doc_id": "PB_ba8da7916c6aa6ff3ddd",
+  "query_type": "CPF_111",
+  "query": "I am not a self-employed person. Why did I receive a Notice of Computation (NOC) from IRAS?",
+  "reference_answer": "You are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.",
+  "corpus_query_index": 118,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 2]\nThe Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File\n\n[Document 3]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.\n\n[Document 4]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 5]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.",
+  "retrieved_doc_ids": [
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_18ed14021ef1cf64ad15",
+    "PB_af7358262394319e226a",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_bc0f9bb0658c9b927d99"
+  ],
+  "trimmed_doc_ids": [
+    "PB_18ed14021ef1cf64ad15"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "073c048998cb30d276e921b6ea7c74ce8025208bb6eca1b3fa23408ed83de722",
+  "answer": "You received an NOC because you are registered as a self-employed person (SEP) even though you're not one. IRAS requires SEPs to declare their net trade income, leading to this notice. [Document 1]",
+  "input_tokens": 1004,
+  "output_tokens": 47,
+  "seconds": 6.412319700000808,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002708",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses a potential benefit (Tamil language proficiency) of being in the Tamil Nadu Police, which is related to the state's linguistic focus. However, it does not directly support the claim with evidence from the provided reference, hence the faithfulness score is null. The correctness score is 1 because it is partly correct in addressing the question but omits other benefits mentioned in the reference such as competitive salary, job security, and opportunities for growth. The relevance score is 1 as the answer is related to the question but does",
+      "input_tokens": 409,
+      "output_tokens": 192,
+      "seconds": 14.956059299998742,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

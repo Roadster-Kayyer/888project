@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_31",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question, correctly distinguishes between business and social visas, and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly distinguishes between business and social visas, directly addresses the reference, and is supported by evidence from Document 1.\",\n}",
+      "input_tokens": 752,
+      "output_tokens": 69,
+      "seconds": 5.074703700011014,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question, correctly distinguishes between business and social visas, and is supported by evidence from Documents 1 and 2.\"}\n\nNote: The scores are based on the candidate's answer being correct (2), relevant (2), and faithful (2) to the evidence provided in the documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 792,
+      "output_tokens": 100,
+      "seconds": 7.464957699994557,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

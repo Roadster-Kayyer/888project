@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_4",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer mentions relevant safety measures but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer mentions relevant safety measures but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses safety measures that are indeed used in school zones, such as reduced speed limits, flashing lights, and pedestrian crosswalks. However, it does not directly reference the specific measures listed in the reference (school zone signs, traffic calming measures, parking restrictions, railings, and red-textured surfaces), hence the correctness score is 1 for partly correct but with important omissions. Faithfulness is scored as null because there is no substantive factual claim in the candidate answer that can be directly supported or contradicted by the supplied evidence",
+      "input_tokens": 378,
+      "output_tokens": 192,
+      "seconds": 15.009892000001855,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

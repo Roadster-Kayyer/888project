@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000901",
+  "doc_id": "116",
+  "query_type": "original",
+  "query": "What is the age of criminal responsibility in India?",
+  "corpus_query_index": 900,
+  "system": "Dense-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nThreatening Government Officials:\nPenalty can range from 1-7 years imprisonment and a fine, under the Indian Penal Code, Sections 186, 189, and 506.\n\n[Document 3]\nPenalties for Crimes in Tamil Nadu:\nIn Tamil Nadu, penalties vary by crime category. \n- Minor offenses: Fines or imprisonment up to 3 years\n- Serious crimes: Imprisonment from 3-10 years\n- Heinous crimes: Life imprisonment or death penalty\n\n[Document 4]\nForgery of Documents:\nUnder the Indian Penal Code (IPC), forgery is punishable under Section 467. The penalty can be imprisonment for up to 10 years and a fine.\n\n[Document 5]\nAge Limit:\nThe age limit for joining Tamil Nadu Police is:\n- 18-24 years for general candidates\n- Relaxations apply for reserved categories (SC/ST, BC, etc.) as per government rules",
+  "retrieved_doc_ids": [
+    "116",
+    "558",
+    "1829",
+    "607",
+    "990"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4fc128cbcef33fc56978982faee361538f20ac84508fa2e1142c31e02ac8bab3",
+  "answer": "The age of criminal responsibility in India is 18 years for adults. For heinous crimes, it's 16-18 years. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 36,
+  "seconds": 4.592921299999944,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

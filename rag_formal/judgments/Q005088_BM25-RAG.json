@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005088",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies types of cyber crimes handled by the Cyber Crime Wing and is supported by Document 1 and Document 5.\",\n}",
+      "input_tokens": 770,
+      "output_tokens": 72,
+      "seconds": 5.810309399999824,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question and is supported by all documents.\"}",
+      "input_tokens": 810,
+      "output_tokens": 35,
+      "seconds": 2.9060508999973536,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

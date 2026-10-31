@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002241",
+  "doc_id": "1401",
+  "query_type": "original",
+  "query": "How do police handle cases of exploitation of tribal artisans?",
+  "corpus_query_index": 2240,
+  "system": "BM25-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 3]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 4]\nReligious Conversion Conflicts:\nIn tribal areas, police handle cases of religious conversion conflicts by:\n* Registering complaints\n* Investigating incidents\n* Maintaining law and order\n* Ensuring protection of individual rights\n\n[Document 5]\nMigration-related Issues in Tribal Areas:\nThe police handle migration-related issues by:\n* Conducting regular checks and verification\n* Collaborating with local authorities and tribal leaders\n* Providing assistance and support to migrants\n* Ensuring compliance with labor laws and regulations",
+  "retrieved_doc_ids": [
+    "1401",
+    "1381",
+    "107",
+    "1405",
+    "1389"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ccdc1cc6396495d58d88163e51e16925c6a6c71f2dc7ea4740892b973db1e9d9",
+  "answer": "The Tamil Nadu Police handle cases of exploitation of tribal artisans by registering complaints, investigating, and collaborating with tribal welfare departments and NGOs. They protect artisans and take action against exploiters [Document 1]. For other issues like forest rights violations, child welfare, religious conversion conflicts, and migration, they follow similar processes [Documents 2-5].",
+  "input_tokens": 413,
+  "output_tokens": 70,
+  "seconds": 8.88608479999857,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_85",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate correctly states expense declaration is separate from CPF contributions, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly states expense declaration is separate from CPF contributions, but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}",
+      "input_tokens": 521,
+      "output_tokens": 71,
+      "seconds": 5.454964999997173,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

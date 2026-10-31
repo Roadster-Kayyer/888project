@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_76",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the provided documents, which outline the process for applying for a new passport and the conditions under which it is valid."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate information from the reference documents about applying for a new passport and updating the ABTC, with evidence from Documents 3 and 1.\",\n}",
+      "input_tokens": 981,
+      "output_tokens": 192,
+      "seconds": 15.08746660000179,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the provided documents, which outline the process for applying for a new passport and the conditions under which it is valid.\"}",
+      "input_tokens": 1021,
+      "output_tokens": 59,
+      "seconds": 4.935794300006819,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

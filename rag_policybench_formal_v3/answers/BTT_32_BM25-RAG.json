@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_32",
+  "doc_id": "PB_2a793f15196b974cd4da",
+  "query_type": "BTT",
+  "query": "What is the penalty for exceeding the speed limit of a vehicle by 1 to 20 kilometres per hour?",
+  "reference_answer": "It is considered an offence.",
+  "corpus_query_index": 26,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 2]\nThere is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.\n\n[Document 3]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 4]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 5]\nThe 96-hour Visa Free Transit Facility (VFTF) may be available to nationals of the Commonwealth of Independent States (CIS)[1], Georgia, India, Turkmenistan and Ukraine; as well as selected[2] Nationals of the People's Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports.Transit travellers who satisfy the criteria for VFTF will have to meet the prevailing entry requirements before they are allowed entry into Singapore. Assessment for entry is determined by the ICA officers at the point of entry. Extension of stay for transit travellers under VFTF is strictly not allowed.Please refer to ICA websites for more information on the following:Visa Free Transit FacilityCheck if You Need an Entry Visa[1] CIS refers to: Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan.[2] These include holder of the PRC Travel Document, Hong Kong Special Administrative Region (SAR) Document of Identity (DOI) and Macau SAR Travel Permit. Holder of ordinary, diplomatic, public affairs and service PRC passports are excluded.",
+  "retrieved_doc_ids": [
+    "PB_111b71b487c94f59fe3c",
+    "PB_836a1574dc33ade45124",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_743c2b7ca9ad487e0937"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9f082fc1ee62ffc52428feecf6852ab065e09a8970db0901f57482a911b32183",
+  "answer": "[Document 1] does not provide information about speeding penalties. The document discusses fines for using a mobile phone while driving, but not speeding.",
+  "input_tokens": 974,
+  "output_tokens": 30,
+  "seconds": 632.4264333999963,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

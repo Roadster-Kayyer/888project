@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_79",
+  "doc_id": "PB_603be4b797f377a91761",
+  "query_type": "ICA_134",
+  "query": "What are the responsibilities of a Local Contact if a visa applicant breached the law in Singapore?",
+  "reference_answer": "The Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.",
+  "corpus_query_index": 279,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.\n\n[Document 2]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 3]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 4]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 5]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.",
+  "retrieved_doc_ids": [
+    "PB_603be4b797f377a91761",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_a5deb8741f88193f4891",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_89b49e1ae6fc2845f85e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0a5ae15dbe91ad05f92614ea64a4fa7f73e2b0a325e59210ba569cd823fc0373",
+  "answer": "If a visa applicant breaches the law in Singapore, the Local Contact may be interviewed to assist in the investigation. They can also provide a letter of support on behalf of their company, but must include their NRIC details. If the application is unsuccessful, the applicant must ensure all details are accurate and may need to obtain a Re-Entry Permit if leaving Singapore. [Document 1]",
+  "input_tokens": 477,
+  "output_tokens": 78,
+  "seconds": 10.121689000006882,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

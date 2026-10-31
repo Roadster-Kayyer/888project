@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000905",
+  "doc_id": "116",
+  "query_type": "hard",
+  "query": "According to Indian statutes, at what chronological juncture does one become accountable for criminal actions?",
+  "corpus_query_index": 904,
+  "system": "RRF-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nPolice Accountability:\nThe Tamil Nadu Police Department is accountable under the Tamil Nadu Police Act, 2013, and the Indian Police Act, 1861. The State Police Complaints Authority and the National Human Rights Commission oversee police conduct.\n\n[Document 2]\nIllegally Collecting Rent from Disputed Property:\nThe person can be charged under Section 206 of the Indian Penal Code (IPC) for criminal breach of trust, and may face imprisonment up to 3 years and/or a fine.\n\n[Document 3]\nPolice Accountability in Tamil Nadu:\nThe Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.\n\n[Document 4]\nThreatening Political Opponents:\nThreatening political opponents can be considered a criminal offense under the Indian Penal Code (IPC). The punishment can range from imprisonment for up to 2 years, or a fine, or both, under Section 506 (Criminal Intimidation).\n\n[Document 5]\nPlea Bargaining:\nPlea bargaining is not a part of the Indian legal system. However, Section 320 of the Criminal Procedure Code (CrPC) allows for compounding of offenses, where the accused and victim reach a mutual agreement.",
+  "retrieved_doc_ids": [
+    "1750",
+    "719",
+    "1419",
+    "580",
+    "1741"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0deec899d28dc3a5c4c51f44fc4d5ff78b7d487800f2c6252462537150784be6",
+  "answer": "According to Indian statutes, one becomes accountable for criminal actions upon committing them. [Document 1] provides context about police accountability but doesn't specify the exact age or stage of accountability. Criminal actions are punishable under various sections of the IPC, with potential punishments ranging from fines to imprisonment. [Document 2] and [Document 3] detail specific crimes and their penalties, indicating accountability starts at the moment of commission.",
+  "input_tokens": 422,
+  "output_tokens": 85,
+  "seconds": 11.071636399999988,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009703",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer correctly identifies the Pink Police Patrol and provides accurate contact information, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer correctly identifies the Pink Police Patrol and provides accurate contact information, supported by Document 1.\",\n  \"evidence\": \"[Document 1] Pink Police Patrol:\\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\\n- 94981 95555 (Pink Police Patrol Helpline)\\n- 100 (Tamil Nadu Police Emergency Number)\"\n}",
+      "input_tokens": 753,
+      "output_tokens": 147,
+      "seconds": 11.374561399999948,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

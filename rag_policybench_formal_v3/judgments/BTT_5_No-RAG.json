@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_5",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests practical precautions for motorcycle theft prevention, but it does not directly support its claims with evidence from the provided reference. The reference specifically mentions removing keys and locking the motorcycle, which is not addressed in the candidate answer. Therefore, the correctness is rated as 1 for partly correct but important omissions. Faithfulness is rated as null due to the absence of evidence directly linking the candidate answer to the reference.",
+      "input_tokens": 360,
+      "output_tokens": 166,
+      "seconds": 12.672646799997892,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

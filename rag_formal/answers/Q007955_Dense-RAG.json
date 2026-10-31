@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007955",
+  "doc_id": "549",
+  "query_type": "hard",
+  "query": "What fines or jail time could I get for saying someone will die?",
+  "corpus_query_index": 7954,
+  "system": "Dense-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nCausing Death by Negligence:\nCausing death by negligence is punishable under Section 304A IPC, with imprisonment for up to 2 years and/or a fine.\n\n[Document 2]\nMaking Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.\n\n[Document 3]\nSuicide Threats:\nMaking suicide threats is a punishable offense. Under Section 506 of the IPC, it can lead to imprisonment up to 7 years and/or a fine.\n\n[Document 4]\nCulpable Homicide Not Amounting to Murder:\nThe penalty for culpable homicide not amounting to murder is imprisonment for up to 10 years and a fine, as per Section 304 IPC.\n\n[Document 5]\nThreatening People with Disabilities:\nThreatening people with disabilities can be considered a form of harassment under the Rights of Persons with Disabilities Act, 2016. The punishment can range from 6 months to 5 years of imprisonment and a fine, as per the Act.",
+  "retrieved_doc_ids": [
+    "663",
+    "549",
+    "584",
+    "661",
+    "569"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0f8850f099d538179b2bd92dc3ee08cbe172ad9fe029fbd473556b943cd090a1",
+  "answer": "The penalties vary depending on the jurisdiction and severity. Under Section 304A IPC, causing death by negligence carries up to 2 years in prison and a fine. Making death threats can result in 2-7 years in prison and a fine (Tamil Nadu). For suicide threats, it's up to 7 years in prison and a fine. Culpable homicide not amounting to murder can lead to up to 10 years in prison and a fine. Threatening people with disabilities may result in 6 months to 5 years in prison and a fine, according to the Rights of Persons with Disabilities Act, 2016. [Document 1-5]",
+  "input_tokens": 365,
+  "output_tokens": 142,
+  "seconds": 17.553703400000813,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

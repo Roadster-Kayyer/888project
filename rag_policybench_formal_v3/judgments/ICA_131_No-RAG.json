@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_131",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The answer incorrectly states the time frame for citizenship application and lacks supporting evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The answer incorrectly states the time frame for citizenship application and lacks supporting evidence.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this case, the candidate's answer is incorrect as it states five years instead of the two years mentioned in the reference. There is no evidence provided in the candidate's answer, hence faithfulness cannot be assessed. The reason succinctly explains the correctness and relevance issues.",
+      "input_tokens": 362,
+      "output_tokens": 128,
+      "seconds": 9.702806000001146,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

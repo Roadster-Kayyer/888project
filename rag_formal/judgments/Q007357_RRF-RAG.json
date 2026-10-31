@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007357",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the steps for reporting misconduct, including contacting college administration, filing a written complaint, and providing details, as supported by Documents 2 and 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the steps for reporting misconduct, including contacting college administration, filing a written complaint, and providing details, as supported by Documents 2 and 1.\",\n  \"evidence\": \"[Document 2], [Document 1]\"\n}",
+      "input_tokens": 1028,
+      "output_tokens": 192,
+      "seconds": 14.971278100005293,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

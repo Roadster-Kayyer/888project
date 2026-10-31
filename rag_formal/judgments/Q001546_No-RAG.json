@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001546",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific details about the application process and does not directly reference the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer lacks specific details about the application process and does not directly reference the provided reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is only partially relevant as it suggests contacting PWD but fails to mention the need to submit a proposal to the PWD Divisional Office with required documents, which is a key point from the reference. The correctness score is 1 because the answer is related to the question but omits important details about the process. Faithfulness is scored as 0 because the candidate's answer does not support the factual claims made in the reference, which outlines the specific steps and requirements for the application process. There is no evidence provided in the candidate's answer to support",
+      "input_tokens": 427,
+      "output_tokens": 192,
+      "seconds": 14.685953899999731,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

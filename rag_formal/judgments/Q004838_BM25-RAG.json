@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004838",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly instructs on reporting bounced checks to police and obtaining an FIR, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly instructs on reporting bounced checks to police and obtaining an FIR, supported by Document 2.\",\n  \"evidence\": \"[Document 2]\"\n}",
+      "input_tokens": 789,
+      "output_tokens": 192,
+      "seconds": 14.698039899998548,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

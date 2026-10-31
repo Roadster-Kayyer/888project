@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001342",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies a relevant law but lacks evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly identifies a relevant law but lacks evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it correctly identifies the Controlled Substances Act as the legislation governing narcotic drug production and supply in the United States, which is pertinent to the question. However, the correctness score is not a full 2 because the answer does not directly reference the NDPS Act from the provided reference, which is the specific law mentioned. Faithfulness is marked as null because there is no evidence provided from the reference to support the factual claims made in the candidate answer. The reason succinctly explains the scores, noting the relevance",
+      "input_tokens": 441,
+      "output_tokens": 192,
+      "seconds": 14.90186249999897,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

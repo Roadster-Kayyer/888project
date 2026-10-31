@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007938",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the punishment for sending threatening texts, directly referencing the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the punishment for sending threatening texts, directly referencing the provided documents.\",\n  \"evidence\": \"[Document 4]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, accurately reflecting the information provided in Document 4. The answer is correct, as it matches the facts stated in the reference material about the legal consequences of sending threatening text messages. The evidence provided (Document 4) supports the factual claims made in the candidate's answer, demonstrating faithfulness to the supplied evidence. The reason succinctly explains the scores, indicating that the answer is both correct and directly relevant to the question.",
+      "input_tokens": 750,
+      "output_tokens": 178,
+      "seconds": 13.908252500004892,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

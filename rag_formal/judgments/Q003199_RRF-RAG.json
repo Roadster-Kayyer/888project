@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003199",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflecting the role of the Police Radio Branch in maintaining and coordinating communication networks, and is supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 741,
+      "output_tokens": 192,
+      "seconds": 14.581392399999459,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2.\"}\n```\nNote: The \"faithfulness\" score of 2 is given because the candidate answer includes specific details about how the Police Radio Branch facilitates communication networks, which are directly supported by the evidence provided in Documents 1 and 2. There are no unsupported or contradicted factual claims in the candidate answer.\n```",
+      "input_tokens": 781,
+      "output_tokens": 117,
+      "seconds": 9.04718590000266,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

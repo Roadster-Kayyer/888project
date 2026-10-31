@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_3",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Wiper Switch as the device used to clear the windshield when it's raining, directly addressing the question and supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 3.\",\n}",
+      "input_tokens": 528,
+      "output_tokens": 58,
+      "seconds": 4.566166900011012,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Wiper Switch as the device used to clear the windshield when it's raining, directly addressing the question and supported by evidence from Document 3.\"}",
+      "input_tokens": 568,
+      "output_tokens": 66,
+      "seconds": 5.379254100000253,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008069",
+  "doc_id": "57",
+  "query_type": "search",
+  "query": "Is it legal for the police to require someone to sign a document?",
+  "corpus_query_index": 8068,
+  "system": "Dense-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 3]\nProtocol for Police Visit:\nIf a police officer visits your residence, they must:\n* Identify themselves and show their badge\n* Explain the purpose of their visit\n* Provide a warrant or written permission, if required\n* Respect your privacy and rights\n\n[Document 4]\nUnder Section 161 of the CrPC, the police must inform the accused of their right to remain silent. The recording of police interrogations is mandatory under Section 167(1) of the CrPC.\n\n[Document 5]\nUnder Section 161 of the CrPC, the police must inform the accused of their right to remain silent. The recording of police interrogations is mandatory under Section 167(1) of the CrPC.",
+  "retrieved_doc_ids": [
+    "57",
+    "34",
+    "39",
+    "1744",
+    "1745"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ddbec7f5f072289a20bff0ce047b8bc5c99ee9de5c485b61c262855a735bd9b1",
+  "answer": "According to [Document 1], the police cannot legally force someone to sign any document. However, they can request signatures under certain circumstances, such as in background checks or for official purposes like passport applications. [Document 2] and [Document 3] provide context for when police requests might be necessary, but they do not grant the police authority to compel signatures without consent. [Document 4] and [Document 5] relate to police interrogations and informing suspects of their rights, which are separate from requiring signatures.",
+  "input_tokens": 371,
+  "output_tokens": 107,
+  "seconds": 13.633994499999972,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

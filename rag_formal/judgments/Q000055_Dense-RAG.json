@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000055",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 4.\",\n  \"evidence\": \"Document 1 and Document 4\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. It accurately describes the process of locating past traffic infractions by visiting the Tamil Nadu Police Department's official website or using the e-Challan portal and entering the vehicle number or driving license number. The answer also correctly mentions checking fines through the same portal, as indicated in Document 4. The evidence directly supports the factual claims made in the candidate answer, and the reason succinctly explains the scores.",
+      "input_tokens": 748,
+      "output_tokens": 189,
+      "seconds": 14.532378800002334,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

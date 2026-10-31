@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_76",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer_explanation\": \"While the answer is relevant to the question, it does not directly reference the Singapore Overseas Mission process described in the reference.\"\n}",
+      "input_tokens": 414,
+      "output_tokens": 91,
+      "seconds": 6.8608383999962825,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

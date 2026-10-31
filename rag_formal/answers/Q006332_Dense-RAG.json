@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006332",
+  "doc_id": "257",
+  "query_type": "formal",
+  "query": "What methods are available to monitor the progress of a reported missing person case?",
+  "corpus_query_index": 6331,
+  "system": "Dense-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nReporting a Missing Person Online:\nYes, you can report a missing person online through the Tamil Nadu Police Department's website or the National Police Portal. You can also visit the nearest police station to file a report in person.\n\n[Document 2]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nReporting a Missing Person in Tamil Nadu:\nTo report a missing person, visit your local police station and provide details about the missing person, including:\n- Name and age\n- Last seen location and time\n- Contact information of family members or friends\n- Any other relevant information\nYou can also call 100 (Tamil Nadu Police Helpline) for assistance.\n\n[Document 5]\nPolice Search for Missing Persons:\nThe Tamil Nadu Police search for missing persons by:\n* Filing a missing person report\n* Conducting investigations and gathering information\n* Using surveillance and technology to track the missing person\n* Collaborating with other agencies and departments",
+  "retrieved_doc_ids": [
+    "265",
+    "257",
+    "255",
+    "62",
+    "260"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a8c36d0374898bd1710ddea2c196022b8bd56cbf7c4cab5cfb0ff028ebbfc5af",
+  "answer": "Methods to monitor missing person cases include reporting online via websites like the Tamil Nadu Police Department's portal, tracking status through their website, visiting police stations, and using helplines. Police conduct investigations, gather information, use surveillance, and collaborate with other agencies. [Document 1-5]",
+  "input_tokens": 416,
+  "output_tokens": 60,
+  "seconds": 7.895978800001103,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005090",
+  "doc_id": "1914",
+  "query_type": "hard",
+  "query": "By what means does the Cyber Crime Wing of Tamil Nadu Police intervene?",
+  "corpus_query_index": 5089,
+  "system": "BM25-RAG",
+  "reference_answer": "Cyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.",
+  "context": "[Document 1]\nCyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.\n\n[Document 2]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.\n\n[Document 3]\nFiling a Cyber Crime Complaint:\nTo file a complaint with the Cyber Crime Wing in Tamil Nadu, visit the nearest cyber crime police station or submit a complaint online through the Tamil Nadu Police website. Provide detailed information about the incident, including evidence and supporting documents.\n\n[Document 4]\nCyber Crime Wing Role:\nThe Cyber Crime Wing in Tamil Nadu investigates and prevents cyber crimes, such as hacking, online fraud, and identity theft. They also provide technical assistance to other police units.\n\n[Document 5]\nAssistance to Foreign Businesses:\nTamil Nadu Police provides security assistance to foreign businesses through its Economic Offences Wing and Cyber Crime Wing. They offer guidance on security measures and protocols to prevent economic crimes and cyber threats. Foreign businesses can contact the Tamil Nadu Police Headquarters for more information.",
+  "retrieved_doc_ids": [
+    "1914",
+    "1564",
+    "1915",
+    "153",
+    "1783"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b4e86505262cc1ff322a16779099356b103da17814b945fc0f8516740ebbe4e6",
+  "answer": "The Cyber Crime Wing of Tamil Nadu Police intervenes by handling cases related to online crimes like hacking, phishing, cyber fraud, and cyber stalking. They investigate and prosecute these crimes, providing technical assistance to other police units. [Document 1, Document 2]",
+  "input_tokens": 371,
+  "output_tokens": 54,
+  "seconds": 6.747691000000486,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_98",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states investment conditions and references the need to apply through an agent bank, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states investment conditions and references the need to apply through an agent bank, supported by Document 1.\",\n  \"evidence\": \"Document 1 supports the candidate's answer by stating that shares can be included under CPFIS with the condition of meeting the inclusion criteria and the necessity to apply through an agent bank.\"\n}",
+      "input_tokens": 1620,
+      "output_tokens": 111,
+      "seconds": 9.022456799997599,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

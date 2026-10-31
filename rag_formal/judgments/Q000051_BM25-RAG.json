@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000051",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Traffic Violation History:\\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \\\"Check Traffic Violation\\\" and enter your vehicle number or driving license number to access your records.\"\n}",
+      "input_tokens": 736,
+      "output_tokens": 130,
+      "seconds": 11.956447399999888,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

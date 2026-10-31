@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_108",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the inability to use CPF 91 for combined contributions, aligning with the reference, but lacks direct evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the inability to use CPF 91 for combined contributions, aligning with the reference, but lacks direct evidence.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 452,
+      "output_tokens": 81,
+      "seconds": 6.3487480000039795,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

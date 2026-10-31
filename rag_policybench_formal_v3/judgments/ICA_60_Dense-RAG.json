@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_60",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the replacement of arrival stamps with e-Pass and the importance of passport validity, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the replacement of arrival stamps with e-Pass and the importance of valid passports for long-term pass holders, supported by Documents 1, 4, and 5.\",\n}",
+      "input_tokens": 1129,
+      "output_tokens": 192,
+      "seconds": 14.731505599993397,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the replacement of arrival stamps with e-Pass and the importance of passport validity, supported by documents.\"}",
+      "input_tokens": 1169,
+      "output_tokens": 53,
+      "seconds": 4.3851173000002746,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002397",
+  "doc_id": "143",
+  "query_type": "formal",
+  "query": "What types of documentation are essential for substantiating a complaint of social media harassment?",
+  "corpus_query_index": 2396,
+  "system": "RRF-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 2]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 3]\nReporting Social Media Misuse:\nTo report social media misuse, contact the Cyber Crime Cell or visit the nearest police station. Provide details of the incident, including screenshots and URLs. You can also file a complaint online through the National Cyber Crime Reporting Portal.\n\n[Document 4]\nAction Against Abusive Posts:\nIf you receive abusive or threatening social media posts, report them to the platform's administrators. You can also file a complaint with the Cyber Crime Wing or the local police station under the IT Act and IPC sections related to harassment and threatening behavior.\n\n[Document 5]\nFiling a Case Against Online Harassment:\nTo file a case against online harassment, collect evidence of the harassment, such as screenshots or messages. Approach the nearest police station or a cyber crime cell and file a complaint under Section 67 of the IT Act or Section 354 of the IPC. The police will guide you through the process.",
+  "retrieved_doc_ids": [
+    "1196",
+    "143",
+    "924",
+    "155",
+    "1089"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "511c6590ec3b14cb0948a7d72a662eb5a120ed2e80f9ef2778d35fbcb5acf324",
+  "answer": "Essential documentation includes screenshots, messages, URLs, emails, and chat logs. They should be preserved and provided to authorities, such as the police or cyber crime cells. [Document 1, Document 2]",
+  "input_tokens": 434,
+  "output_tokens": 44,
+  "seconds": 5.784456299999874,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

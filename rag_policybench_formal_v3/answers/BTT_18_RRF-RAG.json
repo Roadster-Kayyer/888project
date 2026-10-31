@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_18",
+  "doc_id": "PB_445d301435d07072a252",
+  "query_type": "BTT",
+  "query": "What is the purpose of bus-stop separator areas being painted red?",
+  "reference_answer": "The red paint alerts motorists to the presence of merging vehicles from bus-stops.",
+  "corpus_query_index": 10,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 2]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 3]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 4]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 5]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.",
+  "retrieved_doc_ids": [
+    "PB_445d301435d07072a252",
+    "PB_89b7e5350f270a309ba9",
+    "PB_46950c4cff6ad431d048",
+    "PB_716429660f2efd24efb8",
+    "PB_3de6df26cfd351caa37e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2b63754d6707fc73403927722677d875d6bb1eb7e8cba72a3f51df716994d5e6",
+  "answer": "The red paint on bus-stop separator areas alerts motorists to the presence of merging vehicles from bus-stops and allows them to slow down and watch out for buses pulling out safely. [Document 1] Additionally, it helps motorists recognize these areas to stop safely if necessary. [Document 2]",
+  "input_tokens": 251,
+  "output_tokens": 60,
+  "seconds": 7.918947300000582,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

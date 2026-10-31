@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_129",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 2 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 2 and Document 3.\",\n  \"evidence\": \"[Document 2], [Document 3]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. The answer directly addresses the question about appealing a rejected PR application by suggesting a fresh application if circumstances change, which is corroborated by Document 2. Furthermore, the instructions on how to check the status of an application are provided by Document 3, which adds to the faithfulness of the response. The evidence provided is sufficient and directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 851,
+      "output_tokens": 178,
+      "seconds": 13.524430999998003,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

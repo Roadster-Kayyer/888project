@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_31",
+  "doc_id": "PB_a1d3a7486832c187b833",
+  "query_type": "BTT",
+  "query": "What must vehicles approaching a Police Officer from the front and behind do?",
+  "reference_answer": "They must stop.",
+  "corpus_query_index": 25,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nGive way to vehicles from the side road entering the main road.\n\n[Document 2]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 3]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.\n\n[Document 4]\nFront View and Rear View.\n\n[Document 5]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.",
+  "retrieved_doc_ids": [
+    "PB_66d3da627b3ea10f22bd",
+    "PB_445d301435d07072a252",
+    "PB_2140a6169b3f40aa828c",
+    "PB_4e13954ab54d10e3d48d",
+    "PB_5ae2776cd5bb7bd71a02"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cfaf7a456f4274c800ef3b2092fd258f02c0f3370d23ead771ca10d9f19f64b5",
+  "answer": "When approaching a Police Officer from the front, vehicles must give way to vehicles entering the main road from side roads [Document 1]. For vehicles from the side, they must also yield [Document 1]. In the rear view, drivers must ensure they can see the Police Officer's lights and sirens, indicating they must stop if necessary [Document 4].",
+  "input_tokens": 260,
+  "output_tokens": 74,
+  "seconds": 29.675048400000378,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

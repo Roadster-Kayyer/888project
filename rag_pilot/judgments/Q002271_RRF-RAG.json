@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002271",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the methods used by Tamil Nadu Police to address human-animal conflict and provides correct procedures for reporting incidents, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about Tamil Nadu Police's approach to human-animal conflict and reporting mechanisms.\",\n}",
+      "input_tokens": 830,
+      "output_tokens": 76,
+      "seconds": 5.9075166000002355,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2658.115234375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the methods used by Tamil Nadu Police to address human-animal conflict and provides correct procedures for reporting incidents, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 870,
+      "output_tokens": 69,
+      "seconds": 5.6321592000003875,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2658.115234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

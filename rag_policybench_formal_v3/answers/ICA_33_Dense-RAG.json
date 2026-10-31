@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_33",
+  "doc_id": "PB_70e279a2efefc3723a97",
+  "query_type": "ICA_134",
+  "query": "How do I update my latest employment or salary information for PR application?",
+  "reference_answer": "Applications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.",
+  "corpus_query_index": 229,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 2]\nYes. Regardless of your current preference, you can update your preference anytime by completing thenotification preference form.Your updated notification preference will take effect for any subsequent notice of CPF contributions for self-employed persons thereafter.\n\n[Document 3]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 4]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.",
+  "retrieved_doc_ids": [
+    "PB_70e279a2efefc3723a97",
+    "PB_6d000586fdceb4c25b65",
+    "PB_16464034b8fc8059eece",
+    "PB_b155e67f12a868a1d32b",
+    "PB_3579b1ce15984a462107"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "99366378da6869439489098681794615839c094cad64e6db8a477d5497814d28",
+  "answer": "For applications submitted before 26 June 2024, send a letter explaining the change and relevant proof via 'Ad-hoc submission' using ICA e-Service. For applications on or after 26 June 2024, log into MyICA as a Singpass user or use your application ID to update information directly. [Document 1]",
+  "input_tokens": 538,
+  "output_tokens": 77,
+  "seconds": 9.929581100004725,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

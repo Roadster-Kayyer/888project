@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_24",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the importance of safe following distance, citing relevant documents and aligning with the road code's two-second rule and stopping distance considerations."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the importance of safe following distance, citing relevant documents and aligning with the road code's two-second rule and stopping distance considerations.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3]\"\n}",
+      "input_tokens": 628,
+      "output_tokens": 95,
+      "seconds": 7.437090699997498,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

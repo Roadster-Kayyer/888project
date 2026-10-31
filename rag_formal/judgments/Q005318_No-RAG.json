@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005318",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence and procedural details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence and procedural details.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests actions to take after receiving a false police call, but it does not directly address the legal process or provide evidence as required by the reference. The correctness score is 1 because it is partly correct but omits important procedural steps and legal references. Faithfulness is null due to the absence of substantive factual claims supported by evidence. The reason succinctly explains the scores.",
+      "input_tokens": 431,
+      "output_tokens": 157,
+      "seconds": 12.182062500000029,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

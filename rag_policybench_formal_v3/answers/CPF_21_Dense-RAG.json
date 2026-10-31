@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_21",
+  "doc_id": "PB_b8d7490c53cdbaf5d7d0",
+  "query_type": "CPF_111",
+  "query": "Do all CPF Investment Scheme (CPFIS)-included Unit Trusts/ILP sub-funds charge trailer fees?",
+  "reference_answer": "Trailer fees is subjected to the business agreements between product providers and their distributors (including financial advisors). Some funds may not have trailer fees payable to distributors.",
+  "corpus_query_index": 81,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTrailer fees is subjected to the business agreements between product providers and their distributors (including financial advisors). Some funds may not have trailer fees payable to distributors.\n\n[Document 2]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 3]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.\n\n[Document 4]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 5]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.",
+  "retrieved_doc_ids": [
+    "PB_b8d7490c53cdbaf5d7d0",
+    "PB_b530c3042e7202136bc5",
+    "PB_8b587c7ab32751210874",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_18205d295d37e73b6d4f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7606cfc22994d94729119aa265a7f7f9117f16640ee57085e98ece9f702f9e9",
+  "answer": "No, not all CPFIS-included Unit Trusts/ILP sub-funds charge trailer fees. Some funds may not have them, as it depends on the business agreements between product providers and their distributors. [Document 1]",
+  "input_tokens": 607,
+  "output_tokens": 48,
+  "seconds": 6.3002020999992965,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

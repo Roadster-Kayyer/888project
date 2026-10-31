@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001713",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the TDS filing procedure and the process for obtaining a lower TDS certificate, directly addressing the question with evidence from Documents 3 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the TDS filing procedure and the process for obtaining a lower TDS certificate, directly addressing the question with evidence from Documents 3 and 5.\"\n}\n\n\nThe candidate answer is correct in its relevance and faithfulness to the provided reference documents, as it directly addresses the process for obtaining a TDS cut-off in Tamil Nadu by referring to the necessary forms and procedures outlined in Documents 3 and 5. The answer could be slightly improved by explicitly stating that obtaining a TDS cut-off may involve negotiation or specific circumstances, as hinted at in Document 4, but it does not contradict or misrepresent the facts provided. The reason succ",
+      "input_tokens": 918,
+      "output_tokens": 192,
+      "seconds": 15.001390299999912,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

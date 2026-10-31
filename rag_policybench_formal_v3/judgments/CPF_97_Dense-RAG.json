@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_97",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the normal processing time and provides the correct method to check the status, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the normal processing time and provides the correct method to check the status, supported by Document 1.\"\n}",
+      "input_tokens": 1291,
+      "output_tokens": 68,
+      "seconds": 5.616121999992174,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

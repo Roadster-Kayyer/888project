@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002319",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, Indian laws, and accountability mechanisms, supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, Indian laws, and accountability mechanisms, supported by all documents.\"\n}\n\n\nThe candidate's answer is correct as it directly addresses the rules that police officers in Tamil Nadu must follow, including adherence to the Indian Police Code of Conduct, the Indian Evidence Act, and the Code of Criminal Procedure. It also mentions the importance of fair treatment, humane interrogation methods, and accountability to the State Government and public, which are all supported by the retrieved evidence documents. The reason for the scores is that the candidate's answer is correct, directly relevant, and fully supported by the evidence provided.",
+      "input_tokens": 859,
+      "output_tokens": 190,
+      "seconds": 14.712490800000523,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

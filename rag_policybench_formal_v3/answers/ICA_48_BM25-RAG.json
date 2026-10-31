@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_48",
+  "doc_id": "PB_2442511cbf8a98e91232",
+  "query_type": "ICA_134",
+  "query": "My Re-Entry Permit (REP) was renewed for one year only. Can I request for a longer duration of Re-Entry Permit (REP)?",
+  "reference_answer": "All REP renewal applications are being carefully assessed, taking into consideration all relevant factors, before a decision is made. If there are fresh facts and circumstances to support your request for a longer REP validity, you may furnish them to us for consideration at your next REP renewal.",
+  "corpus_query_index": 245,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 2]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).\n\n[Document 3]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "retrieved_doc_ids": [
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_6c6fcaa3d9ba8be58b7b",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_cb5d04a689bc8ce22058"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "7995871178e5ea879c01beb01541a9e2c5c9af58ecde51a146cea20d28680da4",
+  "answer": "Yes, you can request a longer duration for your Re-Entry Permit (REP). However, you need to renew it through the ICA e-Service using your Singpass. [Document 4]",
+  "input_tokens": 441,
+  "output_tokens": 42,
+  "seconds": 5.519970599998487,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

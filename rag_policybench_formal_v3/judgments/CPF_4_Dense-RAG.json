@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_4",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states tax relief is for immediate family, tied to calendar year, and differentiates between retirement savings and MediSave top-ups."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states tax relief is for immediate family, tied to calendar year, and differentiates between retirement savings and MediSave top-ups.\"\n}",
+      "input_tokens": 1293,
+      "output_tokens": 73,
+      "seconds": 5.890281900006812,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

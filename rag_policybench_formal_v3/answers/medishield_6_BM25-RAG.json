@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_6",
+  "doc_id": "PB_80e973f5b5e509f178b3",
+  "query_type": "medishield",
+  "query": "What percentage of the incurred bill is used to compute the MediShield Life claim for daily ward and treatment charges?",
+  "reference_answer": "27%",
+  "corpus_query_index": 327,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 3]\nThe CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.\n\n[Document 4]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 5]\nUnlike employees, platform workers may incur significant work expenses which are not reimbursed (e.g. fuel cost). Hence, the computation of CPF will be based on net earnings after taking into consideration such expenses. The net earnings will be based on gross earnings minus the Fixed Expense Deduction Amount (FEDA). The use of FEDA reflects expenses for the vast majority of platform workers.The FEDA takes reference from the Fixed Expense Deduction Ratio developed by IRAS for the computation of net earnings for tax purposes. This is based on actual expense ratios, including industry feedback and surveys on the expenses of workers. Some of the common allowable business expenses incurred by delivery workers and PHC/ taxi drivers include:Rental costsFuel/charging costsRepairs and maintenance costsParkingService fees paid to operatorsMobile phone subscription planRoad taxThe use of FEDA provides significant convenience for both you and your platform operators. You will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_25927e8ab4491744b345",
+    "PB_602681b75becd57cfb35",
+    "PB_682ac5aab8172c05b6af"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "501200f2df5a548ddc6ba4250205598c3d87cf779012e198e28e815f773a8481",
+  "answer": "Based on Document 1, MediShield Life claims for daily ward and treatment charges do not mention a specific percentage for computing the claim. [Document 1] discusses the deductible range but not the claim percentage.",
+  "input_tokens": 679,
+  "output_tokens": 43,
+  "seconds": 5.812713200008147,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

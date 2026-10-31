@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007396",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific helpline numbers and types of services mentioned in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific helpline numbers and types of services mentioned in the reference documents.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe candidate answer is directly relevant to the question, as it lists specific helpline numbers and types of services (counseling, legal aid, and shelter) that are mentioned in the reference documents. The correctness score is 2 because the answer is correct and covers the main facts from the reference. The relevance score is 2 because the answer directly addresses the question about support services for women facing domestic abuse during pregnancy. The faithfulness score is 2 because the candidate's answer is fully supported by",
+      "input_tokens": 845,
+      "output_tokens": 192,
+      "seconds": 15.47493299999769,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

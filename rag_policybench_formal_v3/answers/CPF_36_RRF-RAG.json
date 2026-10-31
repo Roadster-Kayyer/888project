@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_36",
+  "doc_id": "PB_1d9c2ab7fd656dcb2b40",
+  "query_type": "CPF_111",
+  "query": "My child is below 16 years old. How do I transfer his Ordinary Account savings to his Special Account on his behalf?",
+  "reference_answer": "If your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.",
+  "corpus_query_index": 97,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.\n\n[Document 2]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 3]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 4]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 5]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "retrieved_doc_ids": [
+    "PB_1d9c2ab7fd656dcb2b40",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_2e64264f3a3803434cab",
+    "PB_b530c3042e7202136bc5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "68f2092193e0556d4be2d1f8a23ffee855907cc670c8590de51e9fc6ebc3ed8d",
+  "answer": "To transfer his Ordinary Account savings to his Special Account, you can complete the application on his behalf. [Document 1] It states you can do this if he's under 16. Ensure you follow any additional requirements like collecting his passport in person. [Document 4]",
+  "input_tokens": 680,
+  "output_tokens": 58,
+  "seconds": 7.515460299997358,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_23",
+  "doc_id": "PB_d600f5b60cee68821fae",
+  "query_type": "medishield",
+  "query": "What is the amount range of the deductible under MediShield Life based on age and ward class?",
+  "reference_answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.",
+  "corpus_query_index": 318,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.\n\n[Document 5]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_ffdb8da43be014161737",
+    "PB_a5a49f4a8cf45baa57c5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "374769cf431233d8f46502dec515258bf25dd8776ed61b0fb1788442eb6cf0a1",
+  "answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and ward class. [Document 1]",
+  "input_tokens": 456,
+  "output_tokens": 39,
+  "seconds": 5.254704799997853,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

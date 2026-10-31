@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005747",
+  "doc_id": "2032",
+  "query_type": "formal",
+  "query": "What methods can be used to authenticate legal notices delivered by mail in Tamil Nadu?",
+  "corpus_query_index": 5746,
+  "system": "BM25-RAG",
+  "reference_answer": "Verifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "context": "[Document 1]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 2]\nPepper Sprays:\nYes, pepper sprays are legal for women to carry in Tamil Nadu, but they should be used responsibly and only in self-defense situations.\n\n[Document 3]\nTamil Nadu Legal Services Authority:\nThe Tamil Nadu State Legal Services Authority (TLSA) is a government agency that provides free legal aid to eligible individuals, including marginalized communities. It aims to promote access to justice and resolve disputes through alternative dispute resolution methods.\n\n[Document 4]\nResponse to Income Tax Notice in Tamil Nadu:\nTo respond to an income tax notice, log in to the Income Tax Department's e-filing portal and submit a response online. You can also reply by mail or in person at the address specified in the notice. Ensure you provide all required documents and information.\n\n[Document 5]\nCCTNS in Tamil Nadu:\nThe Crime and Criminal Tracking Network & Systems (CCTNS) is a digital platform used by the Tamil Nadu Police to track and manage crime records, criminal data, and investigation processes. It helps in efficient policing and crime prevention.",
+  "retrieved_doc_ids": [
+    "2032",
+    "1872",
+    "1061",
+    "1300",
+    "1318"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3c322ae84f7089010659cefd3151cf56ee551a1b81c29e657538116d4a5363d8",
+  "answer": "To authenticate legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority [Document 1]. Additionally, contact the concerned police station or court to confirm the notice [Document 1].",
+  "input_tokens": 391,
+  "output_tokens": 43,
+  "seconds": 6.010934500000076,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008697",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Answer lacks information on sanctions for sports violence; documents do not contain relevant evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Answer lacks information on sanctions for sports violence; documents do not contain relevant evidence.\"\n}",
+      "input_tokens": 769,
+      "output_tokens": 192,
+      "seconds": 14.680689100001473,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

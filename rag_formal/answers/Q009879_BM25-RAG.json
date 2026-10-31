@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009879",
+  "doc_id": "896",
+  "query_type": "search",
+  "query": "What steps should I take to file a complaint about caste discrimination?",
+  "corpus_query_index": 9878,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.",
+  "context": "[Document 1]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 2]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 3]\nAddressing Caste-Based Discrimination:\nThe Tamil Nadu Police addresses caste-based discrimination through the SC/ST Helpline (14416) and the District Human Rights Cells. Victims can report incidents, and the police will take action under the SC/ST (Prevention of Atrocities) Act, 1989.\n\n[Document 4]\nFiling a Discrimination Case at Workplace:\nTo file a discrimination case, follow these steps:\n1. Report the incident to your HR department or supervisor.\n2. File a complaint with the Tamil Nadu State Commission for Women or the Tamil Nadu State Commission for SC/ST.\n3. Provide supporting documents and evidence.\n4. Cooperate with the investigation.\n\n[Document 5]\nReporting Discrimination against Transgender Women:\nTo report discrimination, contact the Tamil Nadu Police's dedicated helpline or visit the nearest police station. You can also file a complaint online through the Tamil Nadu Police website. Provide details of the incident, and the police will take necessary action.",
+  "retrieved_doc_ids": [
+    "253",
+    "35",
+    "1391",
+    "1096",
+    "462"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f0318c8fb0d69b264902d9b366a8d0ec07191ebd964c05e4e120634e3f5f2e70",
+  "answer": "For caste discrimination, report the incident to HR or a supervisor, then file a complaint with Tamil Nadu State Commissions for Women/SC/ST. [Document 4] & [Document 1] provide guidance on reporting police refusal and brutality. Use supporting documents and cooperate with the investigation. [Document 3] states the Tamil Nadu Police handles such cases under the SC/ST Act. [Document 1] advises speaking to a senior officer if police refuse help.",
+  "input_tokens": 454,
+  "output_tokens": 96,
+  "seconds": 12.652398099999118,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

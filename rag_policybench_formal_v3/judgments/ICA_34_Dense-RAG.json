@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_34",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes SGAC, its purpose, and the process, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes SGAC, its purpose, and the process, supported by evidence from Documents 1 and 5.\",\n}",
+      "input_tokens": 988,
+      "output_tokens": 70,
+      "seconds": 5.92792419999023,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes SGAC, its purpose, and the process, supported by evidence from all documents.\"}",
+      "input_tokens": 1028,
+      "output_tokens": 49,
+      "seconds": 4.042452699999558,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

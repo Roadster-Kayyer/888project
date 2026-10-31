@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_40",
+  "doc_id": "PB_68186a4dadd329687464",
+  "query_type": "CPF_111",
+  "query": "What documents must I provide when I lodge a report regarding CPF non/under-payment?",
+  "reference_answer": "You should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "corpus_query_index": 102,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 2]\nThe CPF system is meant to provide for and safeguard your individual retirement adequacy. Hence we must be careful when considering allowing CPF transfers to extended family members, beyond immediate family members such as your parents, spouse and siblings. Meanwhile, you can consider using cash to top up to your extended family member's CPF account instead.\n\n[Document 3]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 4]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 5]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+  "retrieved_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_56c2efe6aef990703447",
+    "PB_28996cba71bdbe7d5436",
+    "PB_bb4198b52a9a38049310",
+    "PB_68186a4dadd329687464"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "019ba68e947c6dd0c60806fe4d803e3d178a8363e189714726fa5c02e58c181d",
+  "answer": "When lodging a report regarding CPF non/under-payment, you do not need to provide specific documents related to the report itself. However, you may need to provide documents like pay slips or employment contracts to determine your CPF contributions, as per [Document 5]. [Document 1] discusses various types of top-ups but doesn't relate directly to reporting underpayment.",
+  "input_tokens": 732,
+  "output_tokens": 74,
+  "seconds": 9.700896400012425,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

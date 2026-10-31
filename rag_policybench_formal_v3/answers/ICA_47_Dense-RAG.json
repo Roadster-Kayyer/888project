@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_47",
+  "doc_id": "PB_459d0a3b9e1ad4c022cb",
+  "query_type": "ICA_134",
+  "query": "Who should the employment letter from my employer be addressed to for my citizenship application?",
+  "reference_answer": "Your letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "corpus_query_index": 244,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 2]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 3]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 4]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 5]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.",
+  "retrieved_doc_ids": [
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_68186a4dadd329687464",
+    "PB_70e279a2efefc3723a97",
+    "PB_2e64264f3a3803434cab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b6fa68a6b15a31247f22ad99b029981f1e20d2791a35f025348c78e5d50abf5b",
+  "answer": "The employment letter should be addressed to ICA Services Centre [Document 1]. It should be dated within three months of applying for citizenship and include details like occupation, employment date, and monthly salary. [Document 1] & [Document 2]",
+  "input_tokens": 698,
+  "output_tokens": 52,
+  "seconds": 7.007420199995977,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

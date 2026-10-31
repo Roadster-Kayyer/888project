@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003587",
+  "doc_id": "1644",
+  "query_type": "formal",
+  "query": "How have modern devices been supplied to law enforcement for security purposes?",
+  "corpus_query_index": 3586,
+  "system": "RRF-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 2]\nModern Surveillance Systems:\nThe Tamil Nadu Police has implemented:\n* CCTV cameras in public areas\n* Intelligent Traffic Management Systems\n* Facial recognition technology in urban areas to enhance security and surveillance.\n\n[Document 3]\nMobile Data Terminals:\nThe Tamil Nadu Police uses mobile data terminals in patrol vehicles to access real-time information, such as vehicle registration details and criminal records, to enhance law enforcement and improve response times.\n\n[Document 4]\nModern Communication Systems:\nThe Tamil Nadu Police has implemented modern communication systems, including a dedicated police helpline (100), social media integration, and mobile apps (e.g., \"Tamil Nadu Police\" app) to facilitate public interaction and emergency response.\n\n[Document 5]\nIntelligence Gathering:\nTamil Nadu Police has improved its intelligence gathering capabilities by:\n* Establishing a dedicated Intelligence Bureau\n* Implementing advanced surveillance systems\n* Enhancing cybercrime cells to monitor online activities\n* Collaborating with other law enforcement agencies",
+  "retrieved_doc_ids": [
+    "1644",
+    "1632",
+    "1357",
+    "1626",
+    "1633"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3315cd7f3888fac9259460ad14d92493b75c6e9ff5970b79eb26f2afb9789799",
+  "answer": "Modern devices supplied to law enforcement include bulletproof vests, helmets, and communication devices for personal safety. Surveillance systems like CCTV cameras, facial recognition, and traffic management systems are used. Mobile data terminals and modern communication systems, along with enhanced intelligence gathering, are also implemented. [Document 1-5]",
+  "input_tokens": 359,
+  "output_tokens": 62,
+  "seconds": 7.799396099999285,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

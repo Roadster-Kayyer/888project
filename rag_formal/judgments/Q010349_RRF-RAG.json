@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010349",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the procedure for reporting theft of public transport and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the procedure for reporting theft of public transport and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]Reporting Misuse of Government Vehicles:\\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.\"\n}",
+      "input_tokens": 784,
+      "output_tokens": 130,
+      "seconds": 10.288301900000079,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

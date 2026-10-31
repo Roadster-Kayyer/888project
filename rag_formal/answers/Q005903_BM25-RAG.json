@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005903",
+  "doc_id": "2060",
+  "query_type": "casual",
+  "query": "How do I tell the city folks about broken traffic lights in TN?",
+  "corpus_query_index": 5902,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 4]\nPhishing Email:\nIf you receive a phishing email, do not respond or click on any links. Report it to the Cyber Crime Cell at 1930 or [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in). Delete the email and keep your personal information secure.\n\n[Document 5]\nPolice Recruitment in Tamil Nadu:\nFor information about police recruitment in Tamil Nadu, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website at [www.tnusrb.tn.gov.in](http://www.tnusrb.tn.gov.in) or the Tamil Nadu Police Department's official website at [www.tnpolice.gov.in](http://www.tnpolice.gov.in).",
+  "retrieved_doc_ids": [
+    "849",
+    "255",
+    "1432",
+    "252",
+    "308"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8f09f250beba3bd92989db61870c39caea755a7a3cced146dec9660e5d29809e",
+  "answer": "Visit the local police station and provide details about the broken traffic lights. Ask to speak with an officer who can file a report and possibly update the city’s records. [Document 1]",
+  "input_tokens": 452,
+  "output_tokens": 39,
+  "seconds": 5.19607250000081,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

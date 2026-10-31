@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000404",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes duties, includes coordination with the Child Welfare Committee, and mentions addressing child marriage and gender-sensitive reforms, all supported by retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes duties, includes coordination with the CWC, addresses child marriage and gender-sensitive policing, supported by Document 1.\",\n}",
+      "input_tokens": 815,
+      "output_tokens": 75,
+      "seconds": 6.034388100000797,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes duties, includes coordination with the Child Welfare Committee, and mentions addressing child marriage and gender-sensitive reforms, all supported by retrieved evidence.\"}",
+      "input_tokens": 855,
+      "output_tokens": 63,
+      "seconds": 5.1700512999996135,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

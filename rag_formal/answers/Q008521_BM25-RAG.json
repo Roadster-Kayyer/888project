@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008521",
+  "doc_id": "651",
+  "query_type": "original",
+  "query": "What are the legal consequences for assault in educational institutions?",
+  "corpus_query_index": 8520,
+  "system": "BM25-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 2]\nAdmission Fraud in Educational Institutions:\nThe penalty for admission fraud in educational institutions can include imprisonment up to 3 years and a fine under the IPC Section 420 and the Tamil Nadu Educational Institutions (Prohibition of Capitation Fee) Act, 1992.\n\n[Document 3]\nReporting Harassment in Educational Institutions:\nReport harassment in educational institutions to the institution's Internal Complaints Committee (ICC) or the District Education Officer. You can also contact the National Commission for Women (NCW) or the Tamil Nadu State Commission for Women for assistance.\n\n[Document 4]\nReporting Drug Use in Educational Institutions:\nStudents can report drug use in educational institutions by informing their school/college authorities, such as the principal or counselor, who will then contact the police or a designated anti-drug helpline. Reports can be made anonymously to protect the student's identity.\n\n[Document 5]\nReporting Unauthorized Educational Institutions:\nReport unauthorized educational institutions to the District Collector or the Director of Government Examinations, Tamil Nadu. You can also contact the local police station or the Tamil Nadu Police Department's helpline.",
+  "retrieved_doc_ids": [
+    "651",
+    "611",
+    "469",
+    "125",
+    "956"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a036ded483be56b889df26aa34a4866cb3e3430d685b6c1a1f086a115d2de77d",
+  "answer": "In educational institutions, assault can lead to imprisonment up to 3 years and/or a fine, according to the Tamil Nadu Prohibition of Harassment of Women Act and IPC laws [Document 1]. However, penalties for other issues like admission fraud are different, involving up to 3 years in prison and a fine under IPC Sections 420 and related acts [Document 2]. For reporting harassment, follow the institution's ICC or seek help from NCW/State Commission for Women [Document 3]. For drug use, inform school authorities and report anonymously if needed [Document 4]. Unauthorized institutions should be reported to local authorities [Document 5]. [Document 1]",
+  "input_tokens": 399,
+  "output_tokens": 140,
+  "seconds": 18.266806700001325,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

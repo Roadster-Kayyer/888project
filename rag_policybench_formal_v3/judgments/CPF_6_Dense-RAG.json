@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_6",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the processing times for the Self-Employed Scheme as stated in Document 1 and Document 2, with minor discrepancies in the range of working days."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the processing times for the Self-Employed Scheme as stated in Document 1 and Document 2, with minor discrepancies in the range of working days.\"\n}",
+      "input_tokens": 1346,
+      "output_tokens": 192,
+      "seconds": 15.343660200000159,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

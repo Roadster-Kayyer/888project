@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008854",
+  "doc_id": "710",
+  "query_type": "search",
+  "query": "How do legal systems handle disputes over dividing family-owned property without consent?",
+  "corpus_query_index": 8853,
+  "system": "RRF-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.\n\n[Document 3]\nMatrimonial Disputes\nMatrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.\n\n[Document 4]\nProperty Rights Violations:\nWomen can report property rights violations by family members at the nearest police station or the Mahila Police Station. They can also approach the District Collector or the Revenue Divisional Officer for assistance. The police will investigate and take action to protect the woman's property rights.\n\n[Document 5]\nDamaging Public Infrastructure:\nDamaging public infrastructure during property disputes can lead to imprisonment up to 5 years and/or a fine under the Tamil Nadu Public Property (Prevention of Damage and Loss) Act, 1992.",
+  "retrieved_doc_ids": [
+    "710",
+    "713",
+    "95",
+    "476",
+    "736"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2993ef2f8e3b064481b3adf409d19b4bf3c3553420e8f9acbb93385cbd441ee3",
+  "answer": "Disputes over family-owned property without consent are handled through various legal means. Civil suits and penalties under the Hindu Succession Act can arise from illegal division. For property damage, compensation and penalties under the IPC may apply. Matrimonial disputes involve police counseling and referral to family centers or courts. Women can report violations to police or seek help from district officials. Damaging public infrastructure leads to fines and possible imprisonment under specific acts. [Document 1-5]",
+  "input_tokens": 396,
+  "output_tokens": 95,
+  "seconds": 12.514242900000681,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

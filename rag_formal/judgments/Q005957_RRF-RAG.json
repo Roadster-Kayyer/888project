@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005957",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Documents 1 and 2, and mentions an additional relevant method from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Documents 1 and 2, and mentions an additional relevant method from Document 2.\",\n  \"evidence\": \"Document 1 and 2 provide evidence of methods to check vehicle status, including contacting the Tamil Nadu Transport Department, using the VAHAN portal, and checking the Tamil Nadu Police website.\"\n}",
+      "input_tokens": 852,
+      "output_tokens": 124,
+      "seconds": 9.416208800001186,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

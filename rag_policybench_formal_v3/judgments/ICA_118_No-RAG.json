@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_118",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the SGAC date of arrival as the arrival date in Singapore, not the embarkation date, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly identifies the SGAC date of arrival as the arrival date in Singapore, not the embarkation date, but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is deemed partly correct (1 for correctness) as it correctly states that the SGAC date of arrival refers to the arrival date in Singapore. However, it does not directly quote or paraphrase the reference, which is necessary for full correctness (2). The relevance score is 2 because the candidate answer directly addresses the question about the SGAC date of arrival. Faithfulness is scored as null because there is no evidence provided in the candidate answer to support",
+      "input_tokens": 399,
+      "output_tokens": 192,
+      "seconds": 15.033639800007222,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

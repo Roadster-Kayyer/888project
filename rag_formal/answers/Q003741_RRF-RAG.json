@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003741",
+  "doc_id": "1672",
+  "query_type": "original",
+  "query": "What is the Women Safety Committee and how does it function?",
+  "corpus_query_index": 3740,
+  "system": "RRF-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nSchool Safety Committee:\nThe School Safety Committee is a joint initiative between schools and the Tamil Nadu Police. Its purpose is to ensure a safe environment for students. The committee:\n* Identifies potential safety risks\n* Develops safety plans\n* Conducts regular drills and training\n\n[Document 3]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 4]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 5]\nCommunity Safety Groups for Women:\nTo form a community safety group:\n* Gather like-minded women in the residential area\n* Discuss concerns and goals\n* Elect a leader to coordinate efforts\n* Collaborate with local police and authorities",
+  "retrieved_doc_ids": [
+    "1672",
+    "1684",
+    "1682",
+    "108",
+    "1902"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "288a6ef5ee76e5c1bc511154c773f42ece9f6b3a3b66202b2893e7bab9b1684a",
+  "answer": "The Women Safety Committee is a Tamil Nadu Police initiative to enhance women's safety. It addresses women's complaints, provides counseling, and conducts awareness programs. [Document 1]",
+  "input_tokens": 408,
+  "output_tokens": 36,
+  "seconds": 4.683263199998692,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

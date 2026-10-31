@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_115",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct timing and method of receiving ceremony details, supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 687,
+      "output_tokens": 192,
+      "seconds": 15.167639400009648,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct timing and method of receiving ceremony details, supported by all documents.\"}\n\nExplanation:\n- Correctness: The candidate's answer is correct as it accurately reflects the information provided in the reference documents regarding the timing of the ceremony and the method of receiving further details.\n- Relevance: The answer directly addresses the question about knowing when the citizenship ceremony will be held and how to receive further information.\n- Faithfulness: The candidate's answer is fully supported by the evidence provided in the documents, which all confirm the timing and the method of communication for the ceremony details.\n- Reason: The answer is correct, relevant, and faithful to the evidence, making it a comprehensive response to the question.",
+      "input_tokens": 727,
+      "output_tokens": 183,
+      "seconds": 14.113043100005598,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

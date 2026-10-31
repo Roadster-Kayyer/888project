@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_9",
+  "doc_id": "PB_fdd274ee47983db43f69",
+  "query_type": "ICA_134",
+  "query": "Will e-Services that do not require Singpass login still be available?",
+  "reference_answer": "e-Services that do not require Singpass will continue to be available on the ICA website.",
+  "corpus_query_index": 291,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\ne-Services that do not require Singpass will continue to be available on the ICA website.\n\n[Document 2]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 3]\nIf you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.\n\n[Document 4]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 5]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.",
+  "retrieved_doc_ids": [
+    "PB_fdd274ee47983db43f69",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_92313e7a80bef01e6c14",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_70e279a2efefc3723a97"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2856b9d7381b947e21163ce45d2f9b2ac9364128381e6c33f81c9b345b6a5d26",
+  "answer": "Yes, e-Services that don't require Singpass login will still be available on the ICA website [Document 1].",
+  "input_tokens": 582,
+  "output_tokens": 27,
+  "seconds": 3.56821779999882,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007128",
+  "doc_id": "40",
+  "query_type": "casual",
+  "query": "So, what's up with my rights when they're trying to arrest me?",
+  "corpus_query_index": 7127,
+  "system": "BM25-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 2]\nArrest without Warrant:\nPolice can arrest without a warrant in certain situations, such as:\n* If they witness a crime\n* If you're suspected of a serious offense\n* If you're a threat to public safety\nNote: The police must follow Tamil Nadu Police guidelines and the Code of Criminal Procedure, 1973.\n\n[Document 3]\nRights of Foreign Nationals:\nForeign nationals have the right to contact their embassy or consulate when interacting with the Tamil Nadu Police. They are also entitled to an interpreter, if needed, and must be treated with dignity and respect. The police follow standard procedures to ensure their rights are protected.\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.",
+  "retrieved_doc_ids": [
+    "253",
+    "41",
+    "1442",
+    "46",
+    "34"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "26daf767aee3901fe48d603d245bb3054a2859fb8404ace701174a249d3ab0db",
+  "answer": "When police arrest you, you can ask to speak to a senior officer, file a complaint, or contact the Tamil Nadu Police Complaint Authority. Police can arrest without warrant if witnessing a crime, suspecting serious offenses, or if you pose a threat. Ensure you're treated with dignity and respect, and have the right to an interpreter. If someone is arrested, inform them and get a lawyer involved. [Document 1] [Document 2]",
+  "input_tokens": 422,
+  "output_tokens": 91,
+  "seconds": 11.675590000000739,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

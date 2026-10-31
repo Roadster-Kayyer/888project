@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002271",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, covering all main points about Tamil Nadu Police's approach to human-animal conflict in forest borders."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about Tamil Nadu Police's approach to human-animal conflict in forest borders.\"\n}",
+      "input_tokens": 861,
+      "output_tokens": 75,
+      "seconds": 5.830844799998886,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2634.42919921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

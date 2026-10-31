@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_49",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific reference to IC verification and replacement context."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but omits specific reference to IC verification and replacement context.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses documents typically required for tax collection, which is related to the reference question about IC collection. However, it does not directly address the specifics of the reference, such as the need for a current IC for verification or the scenario of collecting a replacement for a lost IC. Therefore, the correctness score is 1, indicating partial correctness with important omissions. Faithfulness is scored as null because there is no substantive factual claim directly supported or contradicted by the supplied evidence, which in this case is absent",
+      "input_tokens": 348,
+      "output_tokens": 192,
+      "seconds": 14.424939700009418,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

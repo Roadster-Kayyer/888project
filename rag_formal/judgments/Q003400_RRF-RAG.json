@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003400",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer correctly identifies the need for identity and address proof, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly identifies the need for identity and address proof, supported by Document 2.\",\n  \"evidence\": \"Document 2: Police Verification for Passport - requires ID proof and address proof.\"\n}",
+      "input_tokens": 798,
+      "output_tokens": 192,
+      "seconds": 14.681947000000946,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008698",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Reference documents discuss punishments for harassment and intimidation, not specifically for mean behavior in games, but relevant information on punishments is provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Reference documents discuss punishments for harassment and intimidation, not specifically for mean behavior in games, but relevant information on punishments is provided.\",\n  \"candidate_answer_faithfulness\": \"Candidate answer partially addresses the relevance of punishments for harassment, which can be analogous to mean behavior in games, but lacks direct information on punishments for such behavior.\"\n}",
+      "input_tokens": 841,
+      "output_tokens": 192,
+      "seconds": 14.839613700001792,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

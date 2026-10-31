@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008029",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states fines and imprisonment for street vendor harassment and mentions other relevant documents for different harassment scenarios, supported by the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states fines and imprisonment for street vendor harassment and mentions other relevant documents for different harassment scenarios, supported by the provided evidence.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 827,
+      "output_tokens": 192,
+      "seconds": 15.10686369999894,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

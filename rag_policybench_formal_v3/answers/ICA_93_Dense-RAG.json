@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_93",
+  "doc_id": "PB_281c77b1cca45bc9951f",
+  "query_type": "ICA_134",
+  "query": "What should I do after my Singapore Permanent Residence (PR) application is approved?",
+  "reference_answer": "Once your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "corpus_query_index": 295,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 3]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 4]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_b155e67f12a868a1d32b",
+    "PB_22431a3a1e46e2ace7dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4d496f6bccff99e22f5b7ba9d40f541dd5d08ad9a129d87fe6e20e2248050da6",
+  "answer": "After approval, you should apply for a Re-Entry Permit (REP) to allow re-entry into Singapore. Ensure your REP is transferred to your new passport for convenience. Your PR status does not expire but requires a valid REP each time traveling abroad. [Document 2] [Document 3]",
+  "input_tokens": 479,
+  "output_tokens": 61,
+  "seconds": 7.994196600004216,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

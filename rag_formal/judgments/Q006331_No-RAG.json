@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006331",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly suggests contacting the local police department and is supported by the reference's advice to use the police station for status updates."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly suggests contacting the local police department and is supported by the reference's advice to use the police station for status updates.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question about tracking the status of a missing person complaint. The relevance score is also 2 because the answer directly relates to the reference's instructions on using the local police department for updates. Faithfulness is rated as 2 since the answer is consistent with the reference's guidance and is supported by the notion of contacting the police department, which is implied as the source of accurate information. The reason",
+      "input_tokens": 392,
+      "output_tokens": 192,
+      "seconds": 14.455245999997715,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

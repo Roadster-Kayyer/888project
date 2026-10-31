@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_13",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies WHO EUL vaccines and lists specific manufacturers, aligning with the reference's indication of no entry requirements but encouraging vaccination."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies WHO EUL vaccines and lists specific manufacturers, aligning with the reference's indication of no entry requirements but encouraging vaccination.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a placeholder for the actual evidence supporting the candidate's answer. Since the instruction specifies not to use the reference or personal knowledge, in this hypothetical example, I'm assuming that \"Document 1\" is the evidence provided by the candidate.)",
+      "input_tokens": 431,
+      "output_tokens": 164,
+      "seconds": 12.620194000002812,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

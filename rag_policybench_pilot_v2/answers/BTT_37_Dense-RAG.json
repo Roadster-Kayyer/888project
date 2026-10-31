@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_37",
+  "doc_id": "PB_948ae064c30e06542701",
+  "query_type": "BTT",
+  "query": "What action should be taken when encountering a situation that requires reduced speed to ensure safety?",
+  "reference_answer": "Slow down.",
+  "corpus_query_index": 31,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 2]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 3]\nAvoid dragging the engine by using the correct gear.\n\n[Document 4]\nSlow down.\n\n[Document 5]\nIt is permissible only in the event of a breakdown, accident, or emergency.",
+  "retrieved_doc_ids": [
+    "PB_2858faae83bda4331fb6",
+    "PB_89b7e5350f270a309ba9",
+    "PB_4a5e366a1e27905d0545",
+    "PB_948ae064c30e06542701",
+    "PB_905df234754f5b501b5d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2c9152179e5aff31d5424e40a76781e53af7f0855e45d011f8417424a0f1e26c",
+  "answer": "When encountering a situation requiring reduced speed for safety, slow down, keep left, and be aware of oncoming traffic [Document 1]. Ensure there's enough space to stop safely if needed [Document 2]. Avoid dragging the engine by using the right gear [Document 3]. The primary action is to simply reduce speed [Document 4]. This is permitted only in emergencies like breakdowns, accidents, or when safety is at risk [Document 5].",
+  "input_tokens": 203,
+  "output_tokens": 94,
+  "seconds": 11.702991199999815,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2104.21484375
+}

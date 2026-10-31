@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001754",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for GST registration cancellation in Tamil Nadu, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for GST registration cancellation in Tamil Nadu, supported by evidence from Document 1.\"\n}",
+      "input_tokens": 864,
+      "output_tokens": 70,
+      "seconds": 5.479329900001176,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006233",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly summarizes the role of the Social Justice and Human Rights Wing, and is supported by all documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the functions of the Social Justice and Human Rights Wing, references relevant documents, and aligns with the evidence provided.\",\n}",
+      "input_tokens": 844,
+      "output_tokens": 192,
+      "seconds": 14.984046300000045,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly summarizes the role of the Social Justice and Human Rights Wing, and is supported by all documents provided.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate, relevant, and fully supported by the evidence provided in the documents. The \"correctness\" score of 2 indicates that the answer is correct and covers the main points about the Social Justice and Human Rights Wing's functions. The \"relevance\" score of 2 indicates that the answer directly addresses the question. The \"faithfulness\" score of 2 indicates that the candidate's answer is fully supported by the evidence provided in the documents, with no claims made that are unsupported or contradicted. The \"reason\" is a brief explanation of the scores.",
+      "input_tokens": 884,
+      "output_tokens": 191,
+      "seconds": 14.815308299999742,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_105",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question using evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Document 1.\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the information provided in Document 1, which states that individuals eligible for collection at SingPost will not be able to book an appointment at ICA Services Centre. The relevance (2) is high because the answer directly addresses the question about the inability to book an appointment at ICA Services Centre. The faithfulness (2) is also high as the candidate's answer is fully supported by the evidence provided in Document 1. The reason succinctly explains the scores, indicating that the candidate's answer is accurate and directly relevant to the question.",
+      "input_tokens": 767,
+      "output_tokens": 189,
+      "seconds": 14.95557920000283,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

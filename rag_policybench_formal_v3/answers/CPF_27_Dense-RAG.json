@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_27",
+  "doc_id": "PB_15679d0d69b1e1e17f1d",
+  "query_type": "CPF_111",
+  "query": "What happens to my unused CPF transfers and cash top-ups to my recipient upon his demise or if he closes his CPF account upon leaving Singapore?",
+  "reference_answer": "Cash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.",
+  "corpus_query_index": 87,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nCash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.\n\n[Document 2]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 3]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 4]\nApplying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.\n\n[Document 5]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.",
+  "retrieved_doc_ids": [
+    "PB_15679d0d69b1e1e17f1d",
+    "PB_dfb47de04d492b3b972f",
+    "PB_0e779c5155a62f56c06e",
+    "PB_a9eb17a0bc6c61e006d2",
+    "PB_67fb3c3d8e5dd0d5de24"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "024f35a4f9f4528eae379c0af965e4982e820c299ca475cd31231656c8c6a4ec",
+  "answer": "Unused CPF transfers and cash top-ups to the recipient will be paid to their beneficiaries upon death or withdrawn by the recipient if they close their CPF account and withdraw savings. Safeguards prevent premature withdrawals. However, cash top-ups are irreversible and cannot be refunded. [Document 1]",
+  "input_tokens": 605,
+  "output_tokens": 58,
+  "seconds": 7.756727700005285,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

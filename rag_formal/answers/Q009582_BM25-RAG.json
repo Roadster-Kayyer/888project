@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009582",
+  "doc_id": "842",
+  "query_type": "formal",
+  "query": "How does one verify a servant?",
+  "corpus_query_index": 9581,
+  "system": "BM25-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nE-filing Registration for Income Tax in Tamil Nadu:\nTo register for e-filing, visit the Income Tax Department's e-filing portal and click on \"Register Yourself\". Fill in the required details, such as PAN, name, and address, and create a username and password. Verify your account through a one-time password sent to your registered mobile number and email ID.\n\n[Document 3]\nProtection Order\nA protection order is a court order to protect a person from domestic violence or harassment. You can get one by filing a petition under the Protection of Women from Domestic Violence Act, 2005, at a local court or through a women's cell at a police station.\n\n[Document 4]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 5]\nFiling a Recusal Application:\nTo file a recusal application against a judge, you must submit a written petition to the court, stating the reasons for recusal. The petition should be filed through your lawyer, if you have one. The court will then consider your application and make a decision.",
+  "retrieved_doc_ids": [
+    "842",
+    "1302",
+    "94",
+    "255",
+    "1144"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "193e0f95c7d61b340b4aa4a574745fea237713e9a48b2f846566acf2b27d867d",
+  "answer": "To verify a servant, submit an application to the local police station with their ID proof, address, and employment details. The police will conduct a background check and provide a verification report. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 43,
+  "seconds": 6.3085185999989335,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

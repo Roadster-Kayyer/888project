@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003435",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Community policing, transparency, cultural sensitivity training, and de-escalation techniques are strategies for better police-public relations, though specific reference evidence is missing.\"\n}",
+      "input_tokens": 408,
+      "output_tokens": 98,
+      "seconds": 7.5569795000010345,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

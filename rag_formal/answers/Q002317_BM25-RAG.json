@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002317",
+  "doc_id": "1415",
+  "query_type": "formal",
+  "query": "What guidelines govern the behavior of police officers in Tamil Nadu?",
+  "corpus_query_index": 2316,
+  "system": "BM25-RAG",
+  "reference_answer": "Code of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.",
+  "context": "[Document 1]\nCode of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.\n\n[Document 2]\nEthical Guidelines for Police Behavior in Tamil Nadu:\nThe Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.\n\n[Document 3]\nProbation Period for Newly Recruited Police Officers:\nThe probation period for newly recruited police officers in Tamil Nadu is 2 years.\n\n[Document 4]\nSpecialized Courses for Serving Police Officers:\nServing police officers in Tamil Nadu can undergo specialized courses such as forensic science, cybercrime investigation, and counter-terrorism at the Tamil Nadu Police Academy or other authorized institutions.\n\n[Document 5]\nRetired Police Officers' Association:\nFor contact information, visit the Tamil Nadu Police Department's official website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in) and look for the \"Retired Police Officers' Association\" or \"Welfare\" section.",
+  "retrieved_doc_ids": [
+    "1415",
+    "1414",
+    "1480",
+    "1482",
+    "370"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e8d6ea630885e9a2e2f4643263ac10f24c9d3f210f33180fcb77b53810041d10",
+  "answer": "The behavior of police officers in Tamil Nadu is governed by the Tamil Nadu Police Code of Conduct, emphasizing principles like honesty, courtesy, and accountability. Additionally, they follow the Indian Police Code of Conduct, focusing on integrity, impartiality, and respect for human rights. [Document 1] & [Document 2]",
+  "input_tokens": 368,
+  "output_tokens": 65,
+  "seconds": 8.324668299999757,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_93",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"answer\": \"After your Singapore PR application is approved, you should apply for your work permit and prepare to enter Singapore within 3 months.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it suggests actions to take after the approval of a Singapore PR application, which is directly related to the question. However, the answer is only partly correct because it does not cover all the main reference facts, such as the need to be present in person at ICA Services Centre to complete formalities and the requirement to submit all requirements as stated in the IPA letter. The faithfulness score is null because there is no substantive factual claim in",
+      "input_tokens": 439,
+      "output_tokens": 192,
+      "seconds": 14.564102999996976,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

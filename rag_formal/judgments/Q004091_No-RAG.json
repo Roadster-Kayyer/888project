@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004091",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly and directly addresses the reference, accurately explaining the presumption of innocence and the burden of proof."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, accurately explaining the presumption of innocence and the burden of proof.\",\n  \"evidence\": \"The candidate answer is directly supported by the reference, which states that the presumption of innocence is a legal principle where the accused is considered innocent until proven guilty, and the burden of proof lies with the prosecution.\"\n}",
+      "input_tokens": 420,
+      "output_tokens": 121,
+      "seconds": 9.247337799999514,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

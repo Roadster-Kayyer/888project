@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_103",
+  "doc_id": "PB_d36aa50f901554971814",
+  "query_type": "ICA_134",
+  "query": "Can I request for a Long-Term Visit Pass (LTVP) physical card after 27 Feb 2023?",
+  "reference_answer": "ICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.",
+  "corpus_query_index": 173,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 2]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 3]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 4]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.\n\n[Document 5]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.",
+  "retrieved_doc_ids": [
+    "PB_d36aa50f901554971814",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_b57a1848f1c7ce667389",
+    "PB_efc8a8e9bd021e1f3ab7"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7e48976cd0b911e793b9e9b4265d6e38f93fbf6ba1acdea7d9dd923a7f99afe9",
+  "answer": "Yes, you can request a digital LTVP physical card after 27 Feb 2023. [Document 1] states that LTVP physical cards were ceased from issuance on that date and are now issued digitally only. [Document 2] confirms that replacements are also done digitally without needing to report to ICA.",
+  "input_tokens": 544,
+  "output_tokens": 68,
+  "seconds": 9.202443200003472,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

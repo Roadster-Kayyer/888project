@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_70",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the processing time from Document 1 and acknowledges the lack of specific IC processing time in Documents 2 and 3. It correctly references Document 4 for passport processing time and suggests checking the ICA website as per Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the processing time from Document 1 and acknowledges the lack of specific IC processing time in Documents 2 and 3. It correctly references Document 4 for passport processing time and suggests checking the ICA website as per Document 5.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 717,
+      "output_tokens": 127,
+      "seconds": 10.09282130000065,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

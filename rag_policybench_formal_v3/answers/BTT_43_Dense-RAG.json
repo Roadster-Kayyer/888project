@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_43",
+  "doc_id": "PB_66d3da627b3ea10f22bd",
+  "query_type": "BTT",
+  "query": "When approaching a side road, what should drivers do regarding vehicles entering from it?",
+  "reference_answer": "Give way to vehicles from the side road entering the main road.",
+  "corpus_query_index": 38,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nGive way to vehicles from the side road entering the main road.\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 4]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 5]\nBasic theory of driving.",
+  "retrieved_doc_ids": [
+    "PB_66d3da627b3ea10f22bd",
+    "PB_2858faae83bda4331fb6",
+    "PB_1bd233e28127cfee0c86",
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_043f86bad043c042932a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "11cac6f47cbc235f5631c2c74012b806c41847b27ce3fc3cd890f8e3116c2ab5",
+  "answer": "When approaching a side road, drivers should give way to vehicles entering the main road [Document 1]. They should also slow down, keep left, and be cautious of oncoming traffic [Document 2]. Additionally, they need to proceed to clear the junction and be aware that the road may narrow on one side, requiring caution and possible lane adjustments [Document 4].",
+  "input_tokens": 212,
+  "output_tokens": 76,
+  "seconds": 9.809944900000119,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

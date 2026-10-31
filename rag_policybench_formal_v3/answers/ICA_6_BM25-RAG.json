@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_6",
+  "doc_id": "PB_9a8bc39406bbc966061a",
+  "query_type": "ICA_134",
+  "query": "How do I report a potential misuse of my address?",
+  "reference_answer": "You can submit a report on the misuse of your address.",
+  "corpus_query_index": 258,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can submit a report on the misuse of your address.\n\n[Document 2]\nIC holders are required to report a change of address within 28 days of moving to the new address.\n\n[Document 3]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.",
+  "retrieved_doc_ids": [
+    "PB_9a8bc39406bbc966061a",
+    "PB_3c57126fedeef060902b",
+    "PB_aa5916ddd19af121154f",
+    "PB_cc60baad4cbf9560588b",
+    "PB_2a66fea5f046058537db"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e3fd4c398cf5adf82ddb847fb6e9cc53cd2cb4199de8092cd4bf1b855bfd5c2d",
+  "answer": "To report a potential misuse of your address, visit the ICA e-Service website [Document 3]. Follow the steps outlined there to update your registered address. This ensures the misuse is reported promptly.",
+  "input_tokens": 600,
+  "output_tokens": 42,
+  "seconds": 5.493892500002403,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

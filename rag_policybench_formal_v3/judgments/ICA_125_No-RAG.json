@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_125",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct as it provides alternative ways to extend stay in Singapore (Work Permit, Entrepreneur Pass, Employment Pass, S Pass), which is relevant to the question. However, it does not directly reference the process of applying online via e-Service, the processing time, or the holistic assessment mentioned in the reference, hence the lack of faithfulness. The evidence provided is not present in the candidate answer, which is why faithfulness is marked as null. The reason succinctly explains the scores.",
+      "input_tokens": 477,
+      "output_tokens": 180,
+      "seconds": 14.08697740000207,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

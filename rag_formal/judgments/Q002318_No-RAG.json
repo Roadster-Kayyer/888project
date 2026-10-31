@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002318",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"null\"\n}\n\n\n\nIn this evaluation, the candidate's answer is relevant as it directly addresses the behavior of police officers in Tamil Nadu by mentioning professionalism, ethical standards, and adherence to guidelines. However, it does not directly quote or paraphrase the specific principles outlined in the Tamil Nadu Police Code of Conduct, which is necessary for a higher faithfulness score. The absence of direct evidence from the provided reference results in a faithfulness score of null. The reason succinctly explains the scores given.",
+      "input_tokens": 423,
+      "output_tokens": 179,
+      "seconds": 13.674311299997498,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

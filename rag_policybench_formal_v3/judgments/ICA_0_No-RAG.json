@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_0",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the need to update the QR code to match the actual number of attendees, directly addressing the question and supported by the reference's advice on using different QR codes for different numbers of profiles."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need to update the QR code to match the actual number of attendees, directly addressing the question and supported by the reference's advice on using different QR codes for different numbers of profiles.\",\n  \"evidence\": \"The retrieved evidence is null, but the candidate answer is consistent with the advice given in the reference, which implies that the candidate's answer is based on the implicit understanding of the reference's guidance.\"\n}",
+      "input_tokens": 493,
+      "output_tokens": 139,
+      "seconds": 10.543905300000915,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_1",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the broken white line as the center line and correctly mentions the rules about crossing it, supported by Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the function of a broken white line and includes relevant safety rules, supported by Document 1 and Document 3.\",\n}",
+      "input_tokens": 526,
+      "output_tokens": 70,
+      "seconds": 5.359207699992112,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the broken white line as the center line and correctly mentions the rules about crossing it, supported by Documents 1 and 3.\"}\n\nNote: The reason is a brief explanation of the scores. The candidate answer is directly relevant to the question, correctly identifies the function of a broken white line, and is supported by the evidence provided in the documents. Therefore, all scores are at the maximum level.",
+      "input_tokens": 566,
+      "output_tokens": 113,
+      "seconds": 8.90445620000537,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

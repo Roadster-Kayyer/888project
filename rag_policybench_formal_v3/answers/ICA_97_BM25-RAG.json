@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_97",
+  "doc_id": "PB_f51f66ccea224b52929b",
+  "query_type": "ICA_134",
+  "query": "During the passport application, I had selected Singapore as my collection centre. How do I change the collection venue to an overseas mission subsequently?",
+  "reference_answer": "Please contact us via the enquiry form for assistance.",
+  "corpus_query_index": 299,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 2]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 3]\nIf your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.\n\n[Document 4]\nYou have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.\n\n[Document 5]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.",
+  "retrieved_doc_ids": [
+    "PB_cf24a4bb229a845e92d4",
+    "PB_6a73d290ca55b1465a81",
+    "PB_018edecf2d72972f45b3",
+    "PB_927c6923e7588158fb23",
+    "PB_2e64264f3a3803434cab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "22bc8b93428ad6fd80b1aee0a8f418fe485bddf9f3931d22f972dbd2436c8734",
+  "answer": "To change the collection venue to an overseas mission, log into e-Services and select the closest Singapore Overseas Mission for the new collection venue. [Document 1]",
+  "input_tokens": 576,
+  "output_tokens": 35,
+  "seconds": 4.691847900001449,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

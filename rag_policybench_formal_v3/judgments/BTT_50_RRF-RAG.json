@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_50",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer does not mention the number of steps for overtaking, which is not provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer does not mention the number of steps for overtaking, which is not provided in the documents.\",\n  \"answer\": \"The documents do not specify the number of steps for overtaking safely.\"\n}",
+      "input_tokens": 858,
+      "output_tokens": 192,
+      "seconds": 14.973013700000593,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

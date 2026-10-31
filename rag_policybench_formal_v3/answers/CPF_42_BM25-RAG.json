@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_42",
+  "doc_id": "PB_44fcf2efe098f2e0edc3",
+  "query_type": "CPF_111",
+  "query": "I am on no-pay/study/medical/maternity leave. Will I be considered as employed to qualify for Workfare Income Supplement?",
+  "reference_answer": "For the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.",
+  "corpus_query_index": 104,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 2]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 3]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_af1247343974a8960a93",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13e7daeed9354d6b86c81e999408006bb8f158a2e664c16f7e73f7535bc37fa0",
+  "answer": "Yes, if you are on study/medical/maternity leave and still receiving a salary and CPF contributions, you will be considered as employed to qualify for Workfare Income Supplement (WIS). Your eligibility depends on your total income, including your basic salary, overtime pay, and bonuses. CPF contributions are part of your total income, helping determine your eligibility for WIS. [Document 1]",
+  "input_tokens": 927,
+  "output_tokens": 80,
+  "seconds": 10.489461599994684,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

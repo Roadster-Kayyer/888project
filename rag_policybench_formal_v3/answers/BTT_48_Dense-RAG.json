@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_48",
+  "doc_id": "PB_46950c4cff6ad431d048",
+  "query_type": "BTT",
+  "query": "What action should motorists take when they notice buses pulling out of the bus bay?",
+  "reference_answer": "Motorists should slow down and watch out for buses pulling out of the bus bay.",
+  "corpus_query_index": 43,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 2]\nIt indicates a mandatory give-way to buses area.\n\n[Document 3]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 4]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 5]\nSlow down, keep left, and beware of oncoming traffic.",
+  "retrieved_doc_ids": [
+    "PB_46950c4cff6ad431d048",
+    "PB_6bc60367a9acd22488f7",
+    "PB_1bd233e28127cfee0c86",
+    "PB_445d301435d07072a252",
+    "PB_2858faae83bda4331fb6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a8dfa5bd59a4d668ec5bd5e867a397b11eaa52279c148e10396a3fa3ce3f1b98",
+  "answer": "Motorists should slow down and watch out for buses pulling out of the bus bay. [Document 1] and [Document 4] indicate this.",
+  "input_tokens": 215,
+  "output_tokens": 32,
+  "seconds": 4.191209500000696,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

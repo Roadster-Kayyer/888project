@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_22",
+  "doc_id": "PB_9407386fab4b4f1d13c5",
+  "query_type": "BTT",
+  "query": "What type of background and border colors are used for directional signs that provide information on non-expressway roads?",
+  "reference_answer": "Green backgrounds with white borders.",
+  "corpus_query_index": 15,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 2]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 3]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 4]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 5]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.",
+  "retrieved_doc_ids": [
+    "PB_4479f84c1b73422f7e24",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_33b32af818c8c4223f8f",
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_28996cba71bdbe7d5436"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "53e438bfb2fad0cdc2bcdb5b72864e88947a11a2309c588985698987ebfec426",
+  "answer": "[Document 1] mentions warning signs for non-expressway roads, but it doesn't specify background or border colors. Therefore, based on the given information, no specific background or border color details are available for these signs. [Document 5] discusses sign language but not relevant here.",
+  "input_tokens": 657,
+  "output_tokens": 60,
+  "seconds": 29.93209840000054,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

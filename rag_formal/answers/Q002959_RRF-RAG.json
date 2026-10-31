@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002959",
+  "doc_id": "1530",
+  "query_type": "search",
+  "query": "Can you guide me through the steps for responding to riots or civil unrest?",
+  "corpus_query_index": 2958,
+  "system": "RRF-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.\n\n[Document 3]\nAssault during Communal Riots:\nThe penalty for assault during communal riots can lead to imprisonment for up to 3 years and/or a fine, under the Tamil Nadu Public Order Act and the Indian Penal Code (IPC).\n\n[Document 4]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 5]\nResponding to Harassment in Public Transport:\nIf harassed in public transport, women should:\n* Stay calm and alert others nearby\n* Report the incident to the transport authorities or police\n* Note the details of the incident, including time and location",
+  "retrieved_doc_ids": [
+    "1530",
+    "1778",
+    "670",
+    "1534",
+    "2000"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "01764dc44d3b116b5e1613248d872bd7006c0506dc1e29f120d9fcd96840fdc1",
+  "answer": "For responding to riots or civil unrest in Tamil Nadu:\n- Deploy riot control police units and use non-lethal measures.\n- Restore law and order and protect life and property.\n- For foreigners, contact local police or FRO for protection.\n- Ensure public safety and prevent escapes in prisons.\n- Women should stay calm, report harassment, and note details. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 77,
+  "seconds": 9.871385000000373,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

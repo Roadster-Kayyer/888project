@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_103",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies the issue with outstanding MediSave payable but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the issue with outstanding MediSave payable but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is correct in stating that outstanding MediSave payable prevents voluntary top-ups to CPF accounts or on another person's behalf. However, the answer does not directly quote or paraphrase the reference, which would have provided the necessary evidence for a higher faithfulness score. The relevance score is 1 because the answer addresses the question but could be more directly tied to the reference's specific instructions. The absence of evidence is noted, which would have been necessary for a higher faithfulness score.",
+      "input_tokens": 508,
+      "output_tokens": 186,
+      "seconds": 14.370006299999659,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

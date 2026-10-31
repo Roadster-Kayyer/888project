@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_25",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence is indicated as \"Document 1\" because in a real-world scenario, the actual document would be provided as evidence. However, since this is a hypothetical example, \"Document 1\" serves as a placeholder for the missing evidence. In a real evaluation, the evidence would need to be a specific reference to a document that directly supports the claim made in the candidate answer.",
+      "input_tokens": 348,
+      "output_tokens": 155,
+      "seconds": 11.033765400003176,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

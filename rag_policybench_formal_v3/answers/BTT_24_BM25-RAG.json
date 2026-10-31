@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_24",
+  "doc_id": "PB_89b7e5350f270a309ba9",
+  "query_type": "BTT",
+  "query": "Why is it important to keep a safe following distance from the vehicle in front?",
+  "reference_answer": "To allow enough room to stop safely if the vehicle stops abruptly.",
+  "corpus_query_index": 17,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 2]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 3]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 4]\nYour online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.\n\n[Document 5]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.",
+  "retrieved_doc_ids": [
+    "PB_619765030c2c1f6e27b8",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_ee0f8ff38ba535d4384c",
+    "PB_5ae2776cd5bb7bd71a02"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "86666e93955fa4616bc780fe72b22890b0f524cf50e9e42019a6e3848a5f288c",
+  "answer": "Keeping a safe following distance is crucial per the road code, which includes the two-second rule and considering stopping distances increase on wet roads, ensuring you have enough time to stop safely before the vehicle in front. [Document 1] & [Document 2]",
+  "input_tokens": 436,
+  "output_tokens": 53,
+  "seconds": 18.951258000000962,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

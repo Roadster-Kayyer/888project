@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001422",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details on how to report and the importance of providing evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details on how to report and the importance of providing evidence.\",\n  \"evidence\": \"The reference provides specific actions to report illegal tourism, such as contacting the Tamil Nadu Forest Department or local police, but the candidate answer does not include these details or the importance of evidence.\"\n}",
+      "input_tokens": 397,
+      "output_tokens": 111,
+      "seconds": 8.604022700001224,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

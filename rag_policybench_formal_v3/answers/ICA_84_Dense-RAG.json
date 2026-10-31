@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_84",
+  "doc_id": "PB_a35c9d503b3d542d8880",
+  "query_type": "ICA_134",
+  "query": "Can I apply for a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently?",
+  "reference_answer": "Both LTVP and PR may be applied concurrently.",
+  "corpus_query_index": 285,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nBoth LTVP and PR may be applied concurrently.\n\n[Document 2]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 3]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 4]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 5]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.",
+  "retrieved_doc_ids": [
+    "PB_a35c9d503b3d542d8880",
+    "PB_552a298a8583e182f7ef",
+    "PB_492d1cc19d42b1bac512",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_a36ef45981ef41b0b21c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ff2d563d61b82f54f18bf364601269646bacdde6dcbc2956e9b00e2da0b744ae",
+  "answer": "Yes, you can apply for both a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently. However, the documents do not provide specific guidance on applying for both at the same time. [Document 1] indicates they can be applied for, but the process for each is separate. [Document 2] discusses the issuance of passes by different agencies. [Document 1] confirms both can be applied for, but for concurrent application specifics, refer to immigration guidelines.",
+  "input_tokens": 564,
+  "output_tokens": 102,
+  "seconds": 13.221463399997447,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

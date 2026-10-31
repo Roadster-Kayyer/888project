@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_75",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate's answer duration differs from the reference, no evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer duration differs from the reference, no evidence provided.\",\n  \"answer\": \"The provided answer is incorrect and lacks evidence from the reference.\"\n}\n\n\nIn this evaluation, the candidate's answer is marked incorrect (0) for correctness because it states a different timeframe (6 months) than the reference, which suggests a 2 to 3-week period. The relevance is marked as 0 because the candidate's answer does not directly address the question about the timeframe for receiving the final outcome letter. Faithfulness is marked as null because there is no evidence provided in the candidate's answer to support the claim, and the reference does not provide a specific timeframe either, so no",
+      "input_tokens": 358,
+      "output_tokens": 192,
+      "seconds": 14.742462800000794,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

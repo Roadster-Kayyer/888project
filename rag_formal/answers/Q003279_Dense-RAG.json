@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003279",
+  "doc_id": "1589",
+  "query_type": "search",
+  "query": "Can you tell me how the Police Academy Museum maintains its role in preserving police history?",
+  "corpus_query_index": 3278,
+  "system": "Dense-RAG",
+  "reference_answer": "2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.",
+  "context": "[Document 1]\n2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.\n\n[Document 2]\nPolice Heritage Museum in Tamil Nadu\nThe Police Heritage Museum showcases the history and evolution of the Tamil Nadu Police. It preserves and displays artifacts, uniforms, and equipment used by the police over the years.\n\n[Document 3]\nPolice Documentation Center:\nThe Police Documentation Center archives historical records by collecting, preserving, and maintaining documents, photographs, and other materials related to the history of the Tamil Nadu Police Department.\n\n[Document 4]\nPolice Heritage Buildings:\nVisit the Tamil Nadu Police Department's official website or contact the Police Museum in Chennai for information on police heritage buildings.\n\n[Document 5]\nPolice Heritage Walk Program:\nThe Police Heritage Walk program is an initiative to showcase the history and heritage of policing in historic cities. It aims to educate the public about the evolution of law enforcement and promote community engagement.",
+  "retrieved_doc_ids": [
+    "1589",
+    "2018",
+    "1607",
+    "376",
+    "1690"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4f84bf9abb124b2a17ba36e611ff48851c59880a2b7d739e6be6bc165cd25fb9",
+  "answer": "The Police Academy Museum (and related Police Heritage Museum, Documentation Center, and Heritage Walk) preserves police history through displaying artifacts, uniforms, and documents. It educates visitors about the Tamil Nadu Police's evolution with exhibits and a Heritage Walk program. [Document 1]",
+  "input_tokens": 326,
+  "output_tokens": 55,
+  "seconds": 7.079036399998586,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

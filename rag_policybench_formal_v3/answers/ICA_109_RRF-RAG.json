@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_109",
+  "doc_id": "PB_5c63bf49bc0ed64dccba",
+  "query_type": "ICA_134",
+  "query": "Can I access the e-Service to reprint my Re-Entry Permit (REP)?",
+  "reference_answer": "You can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.",
+  "corpus_query_index": 179,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 2]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).\n\n[Document 3]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 4]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 5]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.",
+  "retrieved_doc_ids": [
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_6c6fcaa3d9ba8be58b7b",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_22431a3a1e46e2ace7dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c5ad6c178be75133b31833af9aa2d3791d9866ca6058760ae821ec727aaf41f7",
+  "answer": "Yes, you can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). It's free of charge. [Document 1]",
+  "input_tokens": 368,
+  "output_tokens": 38,
+  "seconds": 5.018207500004792,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

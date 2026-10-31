@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007837",
+  "doc_id": "528",
+  "query_type": "formal",
+  "query": "What sanctions might authorities impose on individuals or groups engaging in unauthorized street performances?",
+  "corpus_query_index": 7836,
+  "system": "BM25-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 4]\nPolice-Artist Partnership:\nThe Police-Artist Partnership uses culture to raise awareness about social issues and promote community policing. It brings together police and artists to create engaging content, such as street plays, music, and art, to educate the public about various topics, including crime prevention and safety.\n\n[Document 5]\nCommunity Safety Groups for Women:\nTo form a community safety group:\n* Gather like-minded women in the residential area\n* Discuss concerns and goals\n* Elect a leader to coordinate efforts\n* Collaborate with local police and authorities",
+  "retrieved_doc_ids": [
+    "528",
+    "507",
+    "494",
+    "1703",
+    "1902"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bdce17d90b48b1feb10b7d8f2be8c9eb2c3fd4682f884635796757c6adbf840a",
+  "answer": "Authorities might impose fines of up to ₹1,000 for unauthorized street performances under the Tamil Nadu City Police Act. They could also be arrested for causing public nuisance. [Document 1] Additionally, they may face fines of up to ₹500 and have their goods seized for unauthorized street vending. Minor street fights can lead to up to 1 month's imprisonment or a fine of up to ₹1,000. [Document 3] Enforcement includes using culture to raise awareness through the Police-Artist Partnership. [Document 4] Public safety groups are formed by local women to address concerns collectively. [Document 5]",
+  "input_tokens": 403,
+  "output_tokens": 133,
+  "seconds": 16.81359800000064,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

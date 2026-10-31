@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008700",
+  "doc_id": "683",
+  "query_type": "hard",
+  "query": "What repercussions do authorities take against spectators who start fights at games?",
+  "corpus_query_index": 8699,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 2]\nPolice-Public Sports Meet:\nThe Police-Public Sports Meet is an event organized by the Tamil Nadu Police to promote harmony and friendship between the police and the public. It is usually held annually, featuring various sports and games.\n\n[Document 3]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 4]\nViolence against Animal Rights Activists:\nViolence against animal rights activists can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 323 (voluntarily causing hurt) or Section 325 (grievous hurt), depending on the severity of the assault.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "494",
+    "1694",
+    "35",
+    "681",
+    "1021"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "566d1b21fd73c929fc38259991c43501f1040b7680b17e14cff68dfb42d717e1",
+  "answer": "Authorities can charge spectators who cause minor street fights with Section 151 or 160 IPC, punishable by up to 1 month in prison or ₹1,000 fine [Document 1]. For police-public sports meet events, they aim to promote harmony but may still enforce law [Document 2]. Witnessing police brutality requires staying safe, documenting, and reporting it; violence against animal rights activists face up to 3 years in prison [Document 4]. No direct repercussions for game-related fights are detailed. [Document 1] provides minor street fight punishments.",
+  "input_tokens": 509,
+  "output_tokens": 120,
+  "seconds": 15.207423100000597,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003399",
+  "doc_id": "161",
+  "query_type": "search",
+  "query": "What identification is needed for car driving in Tamil Nadu?",
+  "corpus_query_index": 3398,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 2]\nPolice Verification for Passport:\nFor police verification of a passport in Tamil Nadu, you will need to provide documents such as:\n- Application form\n- Passport copy\n- Address proof (e.g., Aadhaar card, voter ID)\n- Identity proof (e.g., PAN card, driving license)\n\n[Document 3]\nObtaining International Driving Permits:\nTo obtain an international driving permit through Tamil Nadu RTO, submit an application with required documents, including a valid driving license, passport, and proof of address. Visit the RTO website for the application form and procedures. The permit is usually issued within a few days.\n\n[Document 4]\nGun License Application in Tamil Nadu:\nApply through the Tamil Nadu Police website or at the local District Arms Office. Submit required documents (e.g., ID, address proof, character certificate). The application will be verified, and a license may be issued if eligible.\n\n[Document 5]\nArms License Application in Tamil Nadu:\nTo apply for an arms license, visit the official website of the Tamil Nadu Police or the District Collector's office. Fill out the application form, attach required documents (ID proof, address proof, character certificate), and submit it to the District Collector's office. Pay the prescribed fee and undergo a police verification.",
+  "retrieved_doc_ids": [
+    "161",
+    "816",
+    "2058",
+    "837",
+    "2080"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5702389a65dd9ccd00bea5e874fadf0e9eee9167989e95a55ac0d74844b5a410",
+  "answer": "For car driving in Tamil Nadu, you need:\n- Valid driving license [Document 1]\n- Vehicle registration certificate [Document 1]\n- Insurance certificate [Document 1]\n- Pollution under control certificate [Document 1]\n- Vehicle fitness certificate (if applicable) [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 60,
+  "seconds": 7.705793499999345,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

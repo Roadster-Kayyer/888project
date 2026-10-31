@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003151",
+  "system": "Dense-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the role of the State Crime Records Bureau, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 705,
+      "output_tokens": 69,
+      "seconds": 5.394826700001431,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and completely reflects the role of the State Crime Records Bureau as described in the reference documents, with direct support from the provided evidence.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is directly relevant and factually consistent with the reference documents, fully supported by the evidence provided.\"}\n\n(Note: The \"reason\" field is a brief explanation and can be adjusted based on the actual analysis of the candidate's answer. The scores provided here are based on the assumption that the candidate's answer is accurate and fully supported by the evidence. If there were any inaccuracies or lack of support, the scores would be adjusted accordingly.)",
+      "input_tokens": 745,
+      "output_tokens": 180,
+      "seconds": 13.796715500000573,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 244)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

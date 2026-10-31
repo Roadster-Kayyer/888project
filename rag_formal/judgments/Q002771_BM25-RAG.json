@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002771",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the recruitment process as described in Document 1, with all key steps mentioned."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the recruitment process as described in Document 1, with all key steps mentioned.\",\n  \"evidence\": \"[Document 1, Document 3, Document 4, Document 5]\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully supported by the evidence provided in the documents. The recruitment process for ministerial staff in the Tamil Nadu Police Department is accurately described, including all the main steps: written examination, skill test (if required), interview, document verification, and medical fitness check. The evidence from Document 1 directly supports this claim, and while Documents 3, 4, and 5 provide additional context and details",
+      "input_tokens": 807,
+      "output_tokens": 192,
+      "seconds": 14.957897699998284,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

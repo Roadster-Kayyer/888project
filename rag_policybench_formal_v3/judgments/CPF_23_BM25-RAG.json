@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_23",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the requirement to settle MediSave payable from Document 1 and accurately reflects the basis for MediSave payable from Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the requirement to settle MediSave payable from Document 1 and accurately reflects the basis for MediSave payable from Document 5.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}",
+      "input_tokens": 1252,
+      "output_tokens": 98,
+      "seconds": 7.78571219999867,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

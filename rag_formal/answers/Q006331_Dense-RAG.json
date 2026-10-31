@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006331",
+  "doc_id": "257",
+  "query_type": "original",
+  "query": "How can I track my missing person complaint status?",
+  "corpus_query_index": 6330,
+  "system": "Dense-RAG",
+  "reference_answer": "Tracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.",
+  "context": "[Document 1]\nTracking Missing Person Complaint Status:\nYou can track your missing person complaint status by visiting the Tamil Nadu Police Department's website, using the complaint number, or by contacting the police station where you filed the complaint.\n\n[Document 2]\nOnline Complaint Status Tracking Portal:\nThe Tamil Nadu Police Department has an online portal called \"Citizen Portal\" where you can track the status of your complaint using a complaint number.\n\n[Document 3]\nFiling a Missing Vehicle Complaint:\nTo file a missing vehicle complaint, visit the nearest police station with your vehicle's registration documents and a valid ID. Provide details about your vehicle, including make, model, and last seen location. The police will register an FIR and provide a complaint number.\n\n[Document 4]\nReporting a Missing Person Online:\nYes, you can report a missing person online through the Tamil Nadu Police Department's website or the National Police Portal. You can also visit the nearest police station to file a report in person.\n\n[Document 5]\nReporting a Missing Senior Citizen:\nTo report a missing senior citizen, contact the local police station (100) and provide details. You can also file a missing person complaint online on the Tamil Nadu Police website or visit the nearest police station with required documents.",
+  "retrieved_doc_ids": [
+    "257",
+    "1354",
+    "866",
+    "265",
+    "900"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9080c87efc55acc39b2eaadf67b41e27216a601080aa0517b56526dd7cb3294b",
+  "answer": "Visit the Tamil Nadu Police Department’s website or go to a police station to track your missing person complaint status using the complaint number. [Document 1] & [Document 2]",
+  "input_tokens": 371,
+  "output_tokens": 38,
+  "seconds": 4.944131700000071,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

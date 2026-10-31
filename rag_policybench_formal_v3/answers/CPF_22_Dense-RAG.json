@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_22",
+  "doc_id": "PB_a7303cb661139b377001",
+  "query_type": "CPF_111",
+  "query": "Can the minimum income criterion be waived for workers who want to work more but are unable to?",
+  "reference_answer": "The minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.",
+  "corpus_query_index": 82,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.\n\n[Document 2]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nYou will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.\n\n[Document 5]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.",
+  "retrieved_doc_ids": [
+    "PB_a7303cb661139b377001",
+    "PB_4bd71ffc7b87577275da",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_c8a0224d2eb26ce19db5",
+    "PB_44fcf2efe098f2e0edc3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b2c0159fb1d108e220f986d856c9e7f3ccfcf6288a7ee3a8c6ee4b6e80cbf1ba",
+  "answer": "Yes, the minimum income criterion of $500 per month can be waived for workers who want to work more but are unable to due to personal circumstances, such as Persons with Disabilities, ComCare recipients, and caregivers. [Document 1]",
+  "input_tokens": 714,
+  "output_tokens": 51,
+  "seconds": 6.804688100004569,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

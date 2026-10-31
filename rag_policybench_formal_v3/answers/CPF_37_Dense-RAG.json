@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_37",
+  "doc_id": "PB_55387403dc004065b043",
+  "query_type": "CPF_111",
+  "query": "How does the Board treat the maturity proceeds by the insurer after I reached 55 years old?",
+  "reference_answer": "The maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.For policies that have already been transferred to your name when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.",
+  "corpus_query_index": 98,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 2]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 3]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 4]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 5]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject",
+  "retrieved_doc_ids": [
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_737eb8e9312fbade39a9",
+    "PB_377d7608d12421ff652e",
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_55387403dc004065b043"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "38cb89b99c70f7f93b439fe110b2e7d688e476a3efbb87a43aa7d43eaeb1967b",
+  "answer": "After reaching 55 years old, the maturity proceeds from your insurance policies under CPFIS-OA are refunded to your CPF Investment Account with your agent bank. You can then transfer these funds back to your CPF Ordinary Account or withdraw them according to CPF withdrawal rules. For CPFIS-SA policies, the proceeds are directly paid to you by the insurance company. [Document 1]",
+  "input_tokens": 758,
+  "output_tokens": 77,
+  "seconds": 9.922000799997477,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

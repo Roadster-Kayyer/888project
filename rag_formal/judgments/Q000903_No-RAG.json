@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000903",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nExplanation: The candidate answer correctly identifies that individuals under 18 are not typically held criminally liable in India, which aligns with the reference stating the age of criminal responsibility is 18. However, the answer does not directly cite the Juvenile Justice Act or the specific age range for heinous crimes (16-18 years), thus lacking complete faithfulness to the provided reference. The evidence score is null because there is no supplied evidence to directly support the factual claims made in the candidate answer.",
+      "input_tokens": 406,
+      "output_tokens": 179,
+      "seconds": 13.736412700000074,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

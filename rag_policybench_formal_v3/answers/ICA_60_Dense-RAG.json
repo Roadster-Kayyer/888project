@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_60",
+  "doc_id": "PB_a49ff041193717d466d2",
+  "query_type": "ICA_134",
+  "query": "Why is there no arrival endorsement in my passport after I enter Singapore as a foreign visitor?",
+  "reference_answer": "ICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.",
+  "corpus_query_index": 259,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 2]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 3]\nICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.\n\n[Document 4]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 5]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.",
+  "retrieved_doc_ids": [
+    "PB_8171046f23dbdf9c0430",
+    "PB_6f67feecf50543bb14eb",
+    "PB_a49ff041193717d466d2",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_19512072066023768385"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "64e0e0a31db362044c07508559b47aeaa72abff1512eddf449897dcdc11c5713",
+  "answer": "Singapore now uses electronic Visit Pass (e-Pass) instead of arrival stamps. Long-term pass holders should ensure their passports are valid for at least six months. [Document 1] [Document 4] [Document 5]",
+  "input_tokens": 696,
+  "output_tokens": 48,
+  "seconds": 6.30147059999581,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

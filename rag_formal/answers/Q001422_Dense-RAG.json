@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001422",
+  "doc_id": "1254",
+  "query_type": "formal",
+  "query": "How can one report instances of illegal tourism within forested regions?",
+  "corpus_query_index": 1421,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.\n\n[Document 2]\nReporting Illegal Tourism Activities in Forest Areas:\nReport to the nearest Forest Range Office or police station. Provide details of the activity, location, and any evidence. You can also contact the Tamil Nadu Forest Department's helpline or submit a complaint online through their official website.\n\n[Document 3]\nReporting Illegal Construction:\nTo report illegal construction in forest buffer zones, contact the Tamil Nadu Forest Department or local police station. Provide details of the location and construction activity. You can also file a complaint online through the Tamil Nadu Government's public grievance portal or the Forest Department's website.\n\n[Document 4]\nReporting Illegal Diversion of Forest Land:\nTo report illegal diversion of forest land in Tamil Nadu, contact the Tamil Nadu Forest Department or local police station. You can also file a complaint on the Tamil Nadu Government's online grievance portal or call the Forest Department's helpline.\n\n[Document 5]\nReporting Illegal Tree Cutting:\nTo report illegal tree cutting in forest borders, contact the local Forest Department or police station. Provide details of the location and incident. You can also call the Tamil Nadu Forest Department's helpline or file a complaint online.",
+  "retrieved_doc_ids": [
+    "1254",
+    "1236",
+    "1251",
+    "1225",
+    "1396"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "482bbd0d0cef7e773756e6c377d6a290adf47795ece5abed44f98fa5e79517e3",
+  "answer": "You can report illegal tourism in forested regions by contacting the Tamil Nadu Forest Department or local police station. Provide details like activity, location, and evidence. Complaints can be submitted online or via helplines [Document 1-5].",
+  "input_tokens": 414,
+  "output_tokens": 50,
+  "seconds": 6.474354300000414,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

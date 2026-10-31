@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_51",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses how to receive SMS notifications for WIS, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details the process for receiving SMS notifications and is directly supported by Document 1.\",\n  \"evidence\": \"[Document 1] To receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.\n}",
+      "input_tokens": 938,
+      "output_tokens": 192,
+      "seconds": 14.719718499996816,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses how to receive SMS notifications for WIS, supported by evidence from Document 1.\"}",
+      "input_tokens": 978,
+      "output_tokens": 50,
+      "seconds": 4.1118952999968315,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

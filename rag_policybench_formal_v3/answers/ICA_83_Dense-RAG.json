@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_83",
+  "doc_id": "PB_3b19e2f31a18bd457d3a",
+  "query_type": "ICA_134",
+  "query": "What should I do if I need to travel urgently but I do not have a valid passport?",
+  "reference_answer": "Singapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.",
+  "corpus_query_index": 284,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 2]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 3]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 4]\nGenerally, a passport is only acceptable for travel if it has a validity period of at least 6 months.\n\n[Document 5]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.",
+  "retrieved_doc_ids": [
+    "PB_0c264676a8242018a9a0",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_8171046f23dbdf9c0430",
+    "PB_287a02c335eda3a87f5d",
+    "PB_6a37eec904475577f862"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eecba43a60c051ef4f8b9497ce390f64abd08e3c14a7863ccb6aab7ba31a40dd",
+  "answer": "If your current passport is valid for at least 6 months and undamaged, you can travel. However, you must provide evidence of urgent travel need and recent photos. For urgent travel, contact service ambassadors at ICA Services Centre with required documents. [Document 1] & [Document 2]",
+  "input_tokens": 688,
+  "output_tokens": 62,
+  "seconds": 8.10668359999545,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

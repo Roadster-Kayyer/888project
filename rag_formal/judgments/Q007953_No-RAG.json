@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007953",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence from the reference and does not provide a factual outcome based on the law."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence from the reference and does not provide a factual outcome based on the law.\",\n  \"evidence\": null\n}",
+      "input_tokens": 401,
+      "output_tokens": 71,
+      "seconds": 5.694471299997531,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

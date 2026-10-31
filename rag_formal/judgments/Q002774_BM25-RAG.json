@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002774",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the hiring procedure, lacks specific details, but is supported by the role of DGP in oversight."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the hiring procedure, lacks specific details, but is supported by the role of DGP in oversight.\"\n}",
+      "input_tokens": 767,
+      "output_tokens": 192,
+      "seconds": 14.92688089999865,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

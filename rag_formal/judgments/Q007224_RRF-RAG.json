@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007224",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Complaint against DRDA Officer:\\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\"\n}",
+      "input_tokens": 1159,
+      "output_tokens": 128,
+      "seconds": 10.331565400003456,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

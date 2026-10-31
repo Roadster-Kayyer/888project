@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003200",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate's answer is correct, relevant, and faithful to the evidence provided, as it directly addresses the role of the Police Radio Branch in supporting communication infrastructure and is corroborated by the information in Document 1 and Document 2. The evidence clearly indicates that the branch maintains communication networks, coordinates operations, and provides technical support, all of which are essential functions for supporting the communication infrastructure within the police force. The reason succinctly explains the scores, indicating that the answer is comprehensive and well-supported by the documents.",
+      "input_tokens": 678,
+      "output_tokens": 188,
+      "seconds": 14.32652009999947,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

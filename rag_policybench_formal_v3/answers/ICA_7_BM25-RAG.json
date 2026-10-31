@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_7",
+  "doc_id": "PB_763506fa65f40c0150d3",
+  "query_type": "ICA_134",
+  "query": "When can I collect my citizenship certificate after registration?",
+  "reference_answer": "As a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.",
+  "corpus_query_index": 269,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 2]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 3]\nChildren age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.\n\n[Document 4]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_763506fa65f40c0150d3",
+    "PB_46ec4c9c421699906017",
+    "PB_a8cd1e2cca8ee87c6824",
+    "PB_8b8122292438794b78bb",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9451628cce50b06d53f62536e0bb16249f7bfd24e15cd892279864bb9f52c867",
+  "answer": "You can collect your citizenship certificate after attending the citizenship ceremony, which typically takes place about 3 to 6 months after your registration date. [Document 1]",
+  "input_tokens": 599,
+  "output_tokens": 34,
+  "seconds": 4.628429200005485,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002316",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, covering honesty, courtesy, accountability, integrity, impartiality, respect for human rights, fair treatment, protection of citizens, and maintaining public trust as outlined in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, covering honesty, courtesy, accountability, integrity, impartiality, respect for human rights, fair treatment, protection of citizens, and maintaining public trust, as evidenced by Documents 1, 2, and 3.\",\n}",
+      "input_tokens": 802,
+      "output_tokens": 111,
+      "seconds": 8.74061889999939,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the Tamil Nadu Police Code of Conduct, covering honesty, courtesy, accountability, integrity, impartiality, respect for human rights, fair treatment, protection of citizens, and maintaining public trust as outlined in the reference documents.\"}",
+      "input_tokens": 842,
+      "output_tokens": 85,
+      "seconds": 6.788971099998889,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

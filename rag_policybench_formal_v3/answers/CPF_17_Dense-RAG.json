@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_17",
+  "doc_id": "PB_a5b402d61a78d4a9da45",
+  "query_type": "CPF_111",
+  "query": "I am registered with the Accounting and Corporate Regulatory Authority (ACRA) as a partner for my business. Am I considered a self-employed person or an employee of the partnership?",
+  "reference_answer": "For more information on Partnerships, please visit theInland Revenue Authority of Singapore (IRAS) website.",
+  "corpus_query_index": 76,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 2]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 3]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.\n\n[Document 4]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 5]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.",
+  "retrieved_doc_ids": [
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_2a66fea5f046058537db",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_f96012ec2f1365efa6ef"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e19c07da41129d8f1089f466ec8f8232ff41da75d1e1106c75dfe0bd0b3765aa",
+  "answer": "Based on Document 1 and Document 2, you are considered a self-employed person (SEP) as a partner in your business. You are receiving commission for your services, which classifies you as a SEP. However, your specific contribution to CPF (as an employee vs. SEP) depends on your formal employment contract with the company. [Document 1, Document 2]",
+  "input_tokens": 728,
+  "output_tokens": 78,
+  "seconds": 10.29102389999025,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

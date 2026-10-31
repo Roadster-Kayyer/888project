@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000903",
+  "doc_id": "116",
+  "query_type": "casual",
+  "query": "How old do you have to be to get in trouble for crimes in India?",
+  "corpus_query_index": 902,
+  "system": "RRF-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nEligibility Criteria for Police Constable in Tamil Nadu:\nTo be eligible, candidates must:\n* Be Indian citizens\n* Be between 18-24 years old\n* Have passed 10th standard (for some posts) or higher secondary (for others)\n* Meet physical standards set by the Tamil Nadu Police Department\n* Pass the recruitment exam and interview\n\n[Document 2]\nPenalties for Crimes in Tamil Nadu:\nIn Tamil Nadu, penalties vary by crime category. \n- Minor offenses: Fines or imprisonment up to 3 years\n- Serious crimes: Imprisonment from 3-10 years\n- Heinous crimes: Life imprisonment or death penalty\n\n[Document 3]\nTamil Nadu Special Police Youth Brigade:\nTo join, you must be between 15-22 years old. Apply through the Tamil Nadu Police website or visit your local police station. Selection is based on physical fitness, education, and character.\n\n[Document 4]\nJoining the Tamil Nadu Special Police Youth Brigade:\nTo join, you must be between 15-22 years old, meet physical standards, and pass a written exam. Apply through the Tamil Nadu Police Department's website or at local police stations.\n\n[Document 5]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "retrieved_doc_ids": [
+    "1464",
+    "1829",
+    "991",
+    "1477",
+    "116"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80003fce8d95d4da6512651c1f6ecb570d43bdcfab17853085b94c4dcd4efee4",
+  "answer": "The minimum age to get in trouble for crimes in India varies by crime type. For serious crimes, you must be 18 years old [Document 5]. For heinous crimes, it's 16-18 years old [Document 5]. Minor offenses don't specify an age but are still punishable.",
+  "input_tokens": 435,
+  "output_tokens": 66,
+  "seconds": 8.518290500000148,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

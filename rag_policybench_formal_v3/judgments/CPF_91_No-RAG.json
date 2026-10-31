@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_91",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate's answer lacks specific details about the transfer order and does not directly reference the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer lacks specific details about the transfer order and does not directly reference the provided evidence.\",\n  \"evidence\": null\n}\n\n\nIn the given scenario, the candidate's answer does not accurately reflect the transfer order outlined in the reference, which specifies the transfer sequence from Special Account (SA) to Ordinary Account (OA) and then to loved ones. The answer also fails to directly utilize the evidence provided, which would be necessary for a higher faithfulness score.",
+      "input_tokens": 534,
+      "output_tokens": 145,
+      "seconds": 11.145547300009639,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

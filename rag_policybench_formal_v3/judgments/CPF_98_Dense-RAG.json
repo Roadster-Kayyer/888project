@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_98",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the conditions for investing in SGX shares under CPFIS and refers to documents for verification and withdrawal procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the conditions for investing in SGX shares under CPFIS and refers to documents for verification and withdrawal procedures.\",\n  \"evidence\": \"Document 1, Document 5\"\n}",
+      "input_tokens": 1511,
+      "output_tokens": 192,
+      "seconds": 14.988880999997491,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

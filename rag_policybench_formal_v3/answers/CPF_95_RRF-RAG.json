@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_95",
+  "doc_id": "PB_4dcd99c8330400f4101b",
+  "query_type": "CPF_111",
+  "query": "Why is PayNow (excluding PayNow Mobile Number and Virtual Payments Address) the default mode of bank payments moving forward?",
+  "reference_answer": "PayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.",
+  "corpus_query_index": 162,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.\n\n[Document 2]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 3]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 4]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 5]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.",
+  "retrieved_doc_ids": [
+    "PB_4dcd99c8330400f4101b",
+    "PB_aba31460334fd65c7b41",
+    "PB_e625576111e2a18d5ef0",
+    "PB_28af97b74168a5b5beb0",
+    "PB_f36114baa5e370122326"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bb6c1c95c12a04a8d62e86232e410bb15b06590bbbc71598b02e97bb0c8bb175",
+  "answer": "PayNow (excluding PayNow Mobile Number and Virtual Payments Address) is the default mode of bank payments moving forward due to the government's digital transformation goals and to promote digital adoption. It secures payments by avoiding the need for bank account details, aligning with Smart Nation initiatives. Citizens are encouraged to register for PayNow-NRIC for government benefits like CPF payments, ensuring secure and convenient transactions. [Document 1]",
+  "input_tokens": 770,
+  "output_tokens": 85,
+  "seconds": 11.09622630001104,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

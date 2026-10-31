@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007952",
+  "doc_id": "549",
+  "query_type": "formal",
+  "query": "What legal consequences arise from issuing death threats?",
+  "corpus_query_index": 7951,
+  "system": "BM25-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nMaking Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.\n\n[Document 2]\nHonor Killings:\nThe legal consequences for honor killings in Tamil Nadu can lead to the death penalty or imprisonment for life, as per the IPC Section 302.\n\n[Document 3]\nLegal Heir Certificate through Court:\nTo obtain a legal heir certificate through court, file a petition with the District Court or a tribunal in Tamil Nadu. Submit required documents, such as the death certificate, birth certificate, and proof of relationship. The court will verify the documents and conduct an inquiry before issuing the certificate, which confirms the legal heir's status.\n\n[Document 4]\nClaiming Inheritance in Tamil Nadu:\nTo claim inheritance, you need to:\n1. Obtain a death certificate\n2. Get a succession certificate from the court\n3. Apply for a legal heirship certificate from the Tahsildar office\n\n[Document 5]\nEstate Administration after Death:\nFor estate administration, the legal heir or executor can apply for a Succession Certificate from the District Court under the Tamil Nadu Court-Fees and Suits Valuation Act, 1955. They must submit required documents, such as death certificate, will (if any), and proof of relationship.",
+  "retrieved_doc_ids": [
+    "549",
+    "660",
+    "1086",
+    "1841",
+    "1965"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "325ca5f54e82379f609519bc6fa2ac4346c9c6f3ced7bc3f0f1a22d68a0ee0eb",
+  "answer": "Issuing death threats can result in 2 to 7 years of imprisonment and a fine, according to Section 506 of the Indian Penal Code in Tamil Nadu [Document 1]. Honor killings can lead to death penalty or life imprisonment, as per Section 302 of the IPC [Document 2]. Legal consequences vary; for example, claiming inheritance requires obtaining a death certificate and a succession certificate from the court [Documents 4 & 5].",
+  "input_tokens": 405,
+  "output_tokens": 95,
+  "seconds": 12.23864180000237,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

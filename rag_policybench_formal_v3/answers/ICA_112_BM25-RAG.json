@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_112",
+  "doc_id": "PB_558188a8bd115503280d",
+  "query_type": "ICA_134",
+  "query": "I have booked an appointment to collect my passport. Can I change my existing appointment?",
+  "reference_answer": "You may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.",
+  "corpus_query_index": 183,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 3]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 4]\nYou have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_558188a8bd115503280d",
+    "PB_8b8122292438794b78bb",
+    "PB_927c6923e7588158fb23",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b8b823568e39f49cccb895179ad769d8e6ee4294c8144fa743e2203b84a24716",
+  "answer": "You can change your existing appointment if you've booked one. Log in to ICA e-Service to do so at least 3 working days before your current appointment. [Document 2]",
+  "input_tokens": 583,
+  "output_tokens": 40,
+  "seconds": 5.332453900002292,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

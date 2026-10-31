@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_7",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer acknowledges the reference but lacks specific evidence from the reference about the exact timing."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer acknowledges the reference but lacks specific evidence from the reference about the exact timing.\",\n  \"answer\": \"The exact timing for collecting a citizenship certificate post-registration depends on local procedures, which are not specified in the given information.\"\n}\n\n\nIn this evaluation, the candidate's answer is partially correct (1) as it acknowledges the reference's information about the citizenship ceremony taking place three to six months after registration. However, it fails to directly address the question about the exact timing (1), and there is no substantive factual claim made that is supported by the evidence provided in the reference (null). The reason succinctly explains the scores, noting the lack of specific evidence in the answer.",
+      "input_tokens": 410,
+      "output_tokens": 192,
+      "seconds": 14.557690600006026,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004303",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer\": \"Candidate answer generally addresses the question but does not directly cite the reference's details on police coordination and investigations.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant to the question as it pertains to the handling of lost foreign tourists in Tamil Nadu. However, it does not directly quote or paraphrase the specific procedures outlined in the reference, such as the involvement of the police, tourist's embassy, and local authorities, as well as the filing of a missing person report and investigations. Therefore, the correctness score is 1, indicating that the",
+      "input_tokens": 425,
+      "output_tokens": 192,
+      "seconds": 14.695277399998304,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_111",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the requirements for maintaining PR status, supported by evidence from Documents 3 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the requirements for maintaining PR status, supported by evidence from Documents 3 and 4.\",\n  \"evidence\": \"[Document 3, Document 4]\"\n}",
+      "input_tokens": 775,
+      "output_tokens": 192,
+      "seconds": 14.731852800003253,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

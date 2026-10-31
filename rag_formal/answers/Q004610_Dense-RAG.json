@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004610",
+  "doc_id": "1828",
+  "query_type": "hard",
+  "query": "How can I dispute a parking violation in Tamil Nadu?",
+  "corpus_query_index": 4609,
+  "system": "Dense-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nReporting Illegal Parking or Encroachment:\nTo report illegal parking or encroachment, call the Tamil Nadu Police helpline (100) or contact your local police station. You can also report online through the Tamil Nadu Police website or mobile app.\n\n[Document 2]\nReporting Unauthorized Parking:\nTo report unauthorized parking, call the Tamil Nadu Police helpline (100) or visit the nearest police station. Provide details of the vehicle and location. You can also use the TN Police mobile app or contact your local traffic police to report the issue.\n\n[Document 3]\nFiling a Complaint about Reproductive Rights Violations\nTo file a complaint, visit the nearest police station or contact the Tamil Nadu State Health Department. You can also call the National Health Helpline (104) for guidance and support. Provide detailed information about the incident, and the authorities will take necessary action.\n\n[Document 4]\nComplaints against Auto-Rickshaw or Taxi Overcharging:\nTo register complaints, call the Tamil Nadu Police helpline (100) or visit the nearest police station. You can also use the TN Police mobile app or file a complaint online through the Tamil Nadu Government website.\n\n[Document 5]\nFiling a Complaint Against Illegal Constructions:\nTo file a complaint, contact your local Municipal Corporation or Town Planning Office. Provide details of the illegal construction, including location and nature of the violation. You can also submit a complaint online through the Tamil Nadu Government's portal or mobile app.",
+  "retrieved_doc_ids": [
+    "171",
+    "2064",
+    "455",
+    "2062",
+    "1972"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6e3d64a4e925d41c5714ca5c5e1d08f23247ff1bf2900400e4b690aa19c6be07",
+  "answer": "You can report a parking violation by calling the Tamil Nadu Police helpline (100), visiting a police station, or using the TN Police mobile app. [Document 1]",
+  "input_tokens": 428,
+  "output_tokens": 38,
+  "seconds": 4.981791500000327,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

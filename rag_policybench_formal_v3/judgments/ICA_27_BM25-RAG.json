@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_27",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes IEO, relevant to the question, and supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes IEO, relevant to the question, and supported by Document 1.\",\n}",
+      "input_tokens": 928,
+      "output_tokens": 192,
+      "seconds": 13.948781500002951,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes IEO, relevant to the question, and supported by Document 1.\"}",
+      "input_tokens": 968,
+      "output_tokens": 46,
+      "seconds": 3.6716213999898173,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

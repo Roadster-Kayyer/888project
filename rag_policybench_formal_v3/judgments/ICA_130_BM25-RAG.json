@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_130",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, which provide detailed steps for renewing REP while overseas."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific instructions for renewing REP using ICA e-Service and Singpass, and mentions the importance of validating REP before traveling, as supported by Document 1-5.\",\n}",
+      "input_tokens": 992,
+      "output_tokens": 192,
+      "seconds": 14.743186099993181,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from all documents, which provide detailed steps for renewing REP while overseas.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and complete, and that all the information provided in the documents is correct and relevant to the question. The \"faithfulness\" score of 2 indicates that the candidate's answer is fully supported by the evidence provided in the documents.",
+      "input_tokens": 1032,
+      "output_tokens": 122,
+      "seconds": 9.717000999997254,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

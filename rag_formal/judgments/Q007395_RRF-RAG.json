@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007395",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for reporting forced or child marriages, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for reporting forced/child marriages, supported by evidence from Document 1 and 5.\",\n}",
+      "input_tokens": 911,
+      "output_tokens": 75,
+      "seconds": 6.07446969999728,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for reporting forced or child marriages, supported by evidence from Documents 1 and 5.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate answer includes all substantive factual claims about the procedure for reporting forced or child marriages, as evidenced by the provided documents. The answer correctly cites the Tamil Nadu Police helpline numbers and the process of providing details to the police, which aligns with the information in Document 1. Additionally, the mention of contacting Childline 1098 for child marriages is directly supported by Document 5. There are no unsupported claims or omissions in the candidate's answer.",
+      "input_tokens": 951,
+      "output_tokens": 182,
+      "seconds": 14.406660400003602,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

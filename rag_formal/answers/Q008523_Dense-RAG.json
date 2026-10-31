@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008523",
+  "doc_id": "651",
+  "query_type": "casual",
+  "query": "How do schools punish people who hit others?",
+  "corpus_query_index": 8522,
+  "system": "Dense-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nReporting Corporal Punishment in Schools:\nTo report corporal punishment in schools, you can contact the Tamil Nadu State Commission for Protection of Child Rights or the District Education Officer. You can also file a complaint with the local police station or the school management. The Right to Education Act (2009) prohibits corporal punishment in schools.\n\n[Document 2]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 3]\nRagging in Educational Institutions:\nPunishment for ragging can include imprisonment up to 2 years and a fine of up to ₹10,000. In severe cases, it can lead to expulsion from the institution.\n\n[Document 4]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 5]\nReporting Misconduct by a Government School Teacher:\nTo report misconduct, contact the school principal or the District Education Officer. You can also file a complaint with the Tamil Nadu School Education Department through their official website or visit the nearest Block Education Office.",
+  "retrieved_doc_ids": [
+    "485",
+    "651",
+    "577",
+    "680",
+    "396"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "538ff191d816e73ccbe551e692dddc11aac02c41ad4cb0134e96227efa1a499a",
+  "answer": "Schools can punish assault in educational institutions with up to 3 years in prison and a fine [Document 1][Document 2]. For ragging, punishments include up to 2 years in prison and a fine of up to ₹10,000 [Document 3]. Violence during strikes can result in up to 3 years in prison and a fine [Document 4]. Misconduct can be reported to school officials or the government department [Document 5]. [Document 1] provides information on reporting corporal punishment.",
+  "input_tokens": 407,
+  "output_tokens": 111,
+  "seconds": 14.378563999998732,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

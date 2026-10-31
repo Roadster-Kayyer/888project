@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006209",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes PEW's methods and includes evidence from documents 1-5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes PEW's methods and includes evidence from documents 1-5.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question about the operational methods of the Prohibition Enforcement Wing and is supported by evidence from the provided documents. The answer includes all the key operational methods mentioned in the reference (raids, seizures, arrests, destruction of illicit liquor, and prevention of smuggling and sales) and also correctly mentions the use of specialized techniques like forensic accounting and intelligence gathering, which are consistent with the functions of the PEW",
+      "input_tokens": 807,
+      "output_tokens": 192,
+      "seconds": 15.25100829999974,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002399",
+  "doc_id": "143",
+  "query_type": "search",
+  "query": "What kind of evidence is needed to prove social media harassment?",
+  "corpus_query_index": 2398,
+  "system": "Dense-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 2]\nFiling a Case Against Online Harassment:\nTo file a case against online harassment, collect evidence of the harassment, such as screenshots or messages. Approach the nearest police station or a cyber crime cell and file a complaint under Section 67 of the IT Act or Section 354 of the IPC. The police will guide you through the process.\n\n[Document 3]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 4]\nHarassment using Fake Social Media Profiles:\nPunishment under the IT Act, 2000, and IPC sections. Imprisonment up to 3 years and/or fine up to ₹1 lakh.\n\n[Document 5]\nReporting Online Harassment:\nTo report online harassment or cyberstalking, visit the nearest police station or cybercrime cell and file a complaint. You can also report incidents to the National Cyber Crime Reporting Portal or call the cybercrime helpline.",
+  "retrieved_doc_ids": [
+    "143",
+    "1089",
+    "1196",
+    "553",
+    "97"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "345d3b4c5d0e8f736229dda54303bfb7cea349c9aed9da0fc9689e9f73bc29c1",
+  "answer": "To prove social media harassment, preserve screenshots, URLs, and messages [Document 1], collect digital communication [Document 1], and gather evidence like screenshots and messages [Document 2, Document 3]. File a complaint at a police station or use online portals [Document 2, Document 3]. Collecting these evidences helps in proving the harassment [Document 1].",
+  "input_tokens": 420,
+  "output_tokens": 78,
+  "seconds": 9.792950499999279,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

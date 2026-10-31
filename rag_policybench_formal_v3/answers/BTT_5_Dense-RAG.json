@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_5",
+  "doc_id": "PB_cc7693f77f325d09a3b3",
+  "query_type": "BTT",
+  "query": "What precaution should motorcycle owners take to prevent theft even during short durations?",
+  "reference_answer": "Motorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.",
+  "corpus_query_index": 45,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMotorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 4]\nAvoid dragging the engine by using the correct gear.\n\n[Document 5]\nIt indicates that a motorist can drive on ahead.",
+  "retrieved_doc_ids": [
+    "PB_cc7693f77f325d09a3b3",
+    "PB_2858faae83bda4331fb6",
+    "PB_89b7e5350f270a309ba9",
+    "PB_4a5e366a1e27905d0545",
+    "PB_a6f8d6ad745a1e028eb1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a5866a607eda646d33e0be3480267c806e52fcf36c49b434a8a2837ad7a936d9",
+  "answer": "Motorcycle owners should remove ignition keys and lock their motorcycles even for short durations to prevent theft. [Document 1]",
+  "input_tokens": 209,
+  "output_tokens": 25,
+  "seconds": 3.3238679000060074,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

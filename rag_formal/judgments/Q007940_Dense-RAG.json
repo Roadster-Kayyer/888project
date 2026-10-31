@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007940",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate correctly states fines and imprisonment for threatening text messages, but the fine amount differs from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate correctly states fines and imprisonment for threatening text messages, but the fine amount differs from the reference.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nNote: The faithfulness score is 1 because the candidate's answer contains a factual claim that is supported by the evidence (Document 1), but the fine amount mentioned (₹10,000) does not match the fine amount in the reference (up to ₹1 lakh). The reason succinctly explains the discrepancy in the fine amount.",
+      "input_tokens": 661,
+      "output_tokens": 159,
+      "seconds": 12.388927300002251,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

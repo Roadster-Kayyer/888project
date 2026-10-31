@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_9",
+  "doc_id": "PB_92b9ca8b9a7a3195d282",
+  "query_type": "CPF_111",
+  "query": "Can I take a policy loan on my Academic Staff Provident Fund Approved Investment Scheme (ASPFAIS) Part V insurance policy?",
+  "reference_answer": "Policy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+  "corpus_query_index": 156,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.\n\n[Document 2]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_92b9ca8b9a7a3195d282",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5f8452e9bca8f45240da8647f62e5b5b3b3559f45b96ca4bc5a27e4245a38cbe",
+  "answer": "No, you cannot take a policy loan on your ASPFAIS Part V insurance policy. According to [Document 1], policy loans are not allowed for these policies. Instead, consider other options like using cash to pay premiums, changing payment frequencies, reducing the sum assured, or converting the policy to a paid-up policy. [Document 2] provides detailed advice on alternative methods to manage your insurance policy's premiums.",
+  "input_tokens": 826,
+  "output_tokens": 85,
+  "seconds": 11.14768809999805,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_104",
+  "doc_id": "PB_5ceab13899c08229e914",
+  "query_type": "CPF_111",
+  "query": "Can I use my CPF savings for the same property after effecting a voluntary housing refund to my account?",
+  "reference_answer": "You can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.",
+  "corpus_query_index": 62,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.\n\n[Document 2]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).\n\n[Document 3]\nYou can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.\n\n[Document 4]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 5]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.",
+  "retrieved_doc_ids": [
+    "PB_5ceab13899c08229e914",
+    "PB_463ffaad763bace6d774",
+    "PB_aa985d2195d6653bfb7f",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_dfb47de04d492b3b972f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9c32dffdc59796b806e18de557ec02880439ad292fbfdc355b30b063b9944982",
+  "answer": "Yes, you can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account, provided you still have an outstanding loan. [Document 1]",
+  "input_tokens": 737,
+  "output_tokens": 38,
+  "seconds": 5.001761099993018,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

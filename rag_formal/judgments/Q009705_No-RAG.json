@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009705",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer suggests a method to find the information but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer suggests a method to find the information but lacks direct evidence from the reference.\",\n  \"answer\": \"The candidate answer is relevant as it suggests a way to find the information but is not directly supported by the provided evidence.\"\n}",
+      "input_tokens": 412,
+      "output_tokens": 87,
+      "seconds": 6.8520729999945615,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007398",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing relevant helplines and services, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing relevant helplines and services, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Support for Domestic Abuse:\\nFor women facing domestic abuse during pregnancy, support services include:\\n* Tamil Nadu Police helpline: 1091 or 181\\n* National Domestic Violence Helpline: 181\\n* Local NGOs and counseling services. These services provide emotional support, counseling, and legal aid.\"\n}",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 15.330802500000573,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

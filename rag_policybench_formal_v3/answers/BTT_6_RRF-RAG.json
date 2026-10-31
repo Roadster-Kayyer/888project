@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_6",
+  "doc_id": "PB_b187f7c8ea87d0fd7e96",
+  "query_type": "BTT",
+  "query": "What action must a licence holder take to have their demerit points expunged?",
+  "reference_answer": "Maintain a 12-month period free of scheduled offences.",
+  "corpus_query_index": 51,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.\n\n[Document 2]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 3]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 4]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 5]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.",
+  "retrieved_doc_ids": [
+    "PB_183b9bc3c7d1d8eee2cf",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_e29140d6b3a201be99ba",
+    "PB_5b5856d1886897cce5a3",
+    "PB_b136e24f78206e70b3ee"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5823750a3332f47c8a9bbb1060796193423272dcd94577e574ab4a948610343a",
+  "answer": "Based on Document 1, a licence holder must first ensure all outstanding MediSave payable is cleared, even if they don't intend to renew their licence. [Document 1]",
+  "input_tokens": 524,
+  "output_tokens": 37,
+  "seconds": 5.145778599995538,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

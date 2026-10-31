@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_69",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate answer partially addresses the question by mentioning the need to renew a foreign passport for long-term pass holders but fails to directly address the scenario of renewing a Singapore passport while renouncing foreign citizenship."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer partially addresses the question by mentioning the need to renew a foreign passport for long-term pass holders but fails to directly address the scenario of renewing a Singapore passport while renouncing foreign citizenship.\",\n  \"evidence\": \"Document 3: 'As long as long-term passes are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.'\"\n}",
+      "input_tokens": 1662,
+      "output_tokens": 139,
+      "seconds": 10.762318699999014,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001546",
+  "doc_id": "1277",
+  "query_type": "original",
+  "query": "How do I apply for road widening proposals to PWD in Tamil Nadu?",
+  "corpus_query_index": 1545,
+  "system": "Dense-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nApplying for Road Safety Measures from PWD:\nTo apply for road safety measures, submit a request to the Tamil Nadu PWD through their website or visit the nearest PWD office. Provide details of the location and proposed safety measures. The PWD will review and process your request.\n\n[Document 2]\nApplying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.\n\n[Document 3]\nBuilding Plan Approval:\nTo obtain building plan approval from PWD in Tamil Nadu, submit your building plan to the nearest PWD office or local authority. Ensure compliance with Tamil Nadu PWD building regulations and pay the required fees. The application will be reviewed, and approval will be granted if the plan meets the regulations.\n\n[Document 4]\nFlood Relief Measures:\nTo apply for flood relief measures from PWD in Tamil Nadu, contact your local PWD office or the Tamil Nadu PWD website. Submit an application with required documents, such as proof of residence and damage assessment.\n\n[Document 5]\nRental of PWD Rest Houses:\nTo apply for rental of PWD rest houses in Tamil Nadu, visit the Tamil Nadu Public Works Department (PWD) website or contact the nearest PWD office. Fill out the application form, providing required documents and payment. Approval is subject to availability and eligibility.",
+  "retrieved_doc_ids": [
+    "1289",
+    "1277",
+    "1275",
+    "1285",
+    "1273"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "57eb37614cbaa1392e97906e73f77637710f2b5506dc7ebf65ea5cf7399f6aed",
+  "answer": "To apply for road widening proposals in Tamil Nadu, submit a proposal to the concerned PWD Divisional Office along with required documents like land ownership records and a detailed project report. [Document 2]",
+  "input_tokens": 426,
+  "output_tokens": 41,
+  "seconds": 5.563662200000181,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_17",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is relevant as it directly addresses the question about the status of a partner registered with ACRA. However, the answer lacks direct evidence from the reference, which is why faithfulness is marked as null. The reason succinctly explains the scores.",
+      "input_tokens": 382,
+      "output_tokens": 123,
+      "seconds": 9.357720900006825,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

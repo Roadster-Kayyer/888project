@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000403",
+  "doc_id": "107",
+  "query_type": "casual",
+  "query": "So, what's the deal with Child Welfare Police Officers? What do they actually do?",
+  "corpus_query_index": 402,
+  "system": "BM25-RAG",
+  "reference_answer": "3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 5]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.",
+  "retrieved_doc_ids": [
+    "107",
+    "46",
+    "253",
+    "35",
+    "933"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4eaebdea19c9959b779215d292c7eb2b72b7a4439f214b332f91bb6ab24b06bc",
+  "answer": "Child Welfare Police Officers are specially trained police officers who handle cases related to children, ensuring their safety and well-being. They investigate child abuse and exploitation and provide support to victims. [Document 1]",
+  "input_tokens": 429,
+  "output_tokens": 41,
+  "seconds": 5.204774499999985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

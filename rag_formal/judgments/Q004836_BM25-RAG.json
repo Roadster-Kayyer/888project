@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004836",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for reporting check bouncing as a criminal offense, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for reporting check bouncing as a criminal offense, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 855,
+      "output_tokens": 70,
+      "seconds": 5.4747993999990285,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for reporting check bouncing as a criminal offense, supported by evidence from Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it accurately reflects the procedure described in the reference documents without omission or contradiction. The brief explanation in the \"reason\" field succinctly justifies the scores.",
+      "input_tokens": 895,
+      "output_tokens": 124,
+      "seconds": 9.447823999998946,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

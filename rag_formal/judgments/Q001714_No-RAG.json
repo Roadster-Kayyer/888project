@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001714",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly describes the procedure and includes necessary details, but lacks specific reference to Form 13 and the official income tax website."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the procedure and includes necessary details, but lacks specific reference to Form 13 and the official income tax website.\",\n  \"evidence\": \"The candidate answer is faithful as it instructs to fill out an application form and submit it with necessary documents, which aligns with the reference. However, it does not directly cite the reference's mention of Form 13, the official website, or the specific documents required, hence the score is not perfect.\"\n}",
+      "input_tokens": 418,
+      "output_tokens": 142,
+      "seconds": 10.937509899998986,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

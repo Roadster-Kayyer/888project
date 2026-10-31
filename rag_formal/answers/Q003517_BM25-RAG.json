@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003517",
+  "doc_id": "1631",
+  "query_type": "formal",
+  "query": "What reforms has the Tamil Nadu Police implemented in their strategy for women's safety?",
+  "corpus_query_index": 3516,
+  "system": "BM25-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.\n\n[Document 3]\nReforms to Address Corruption:\nTo address corruption, Tamil Nadu Police has implemented:\n* Online complaint registration and tracking systems\n* Increased transparency in police procedures\n* Regular internal audits and disciplinary actions\n\n[Document 4]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 5]\nReforms for Working Hours:\nTamil Nadu Police has implemented reforms to ensure better working hours for officers, including:\n* Rotating shifts to reduce fatigue\n* Increasing personnel strength to manage workload\n* Introducing breaks and leave policies\n* Implementing a 8-hour duty schedule",
+  "retrieved_doc_ids": [
+    "1631",
+    "1616",
+    "1628",
+    "1009",
+    "1658"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f617d958123c1dcc4b93728445b2e4109e92ebb14c4ecda49f5266be1f4ef74d",
+  "answer": "The Tamil Nadu Police has reformed its strategy for women's safety by establishing all-women police stations, creating a dedicated women's helpline (181), and increasing female police personnel. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 45,
+  "seconds": 5.649752199999057,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

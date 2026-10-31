@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_35",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the topic of Basic theory of driving and is directly supported by Document 1. Other documents are not relevant to driving theory but to immigration and travel procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the topic of Basic theory of driving and is directly supported by Document 1. Other documents are not relevant to driving theory but to immigration and travel procedures.\",\n  \"evidence\": \"[Document 1] - Basic theory of driving.\"\n}",
+      "input_tokens": 942,
+      "output_tokens": 96,
+      "seconds": 7.503134200000204,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

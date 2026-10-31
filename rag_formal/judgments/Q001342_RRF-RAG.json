@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001342",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly identifies the NDPS Act as the governing legislation, and accurately describes the crimes it encompasses, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the NDPS Act as the governing legislation and accurately describes the types of crimes it encompasses, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 973,
+      "output_tokens": 192,
+      "seconds": 15.107554000001983,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly identifies the NDPS Act as the governing legislation, and accurately describes the crimes it encompasses, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 1013,
+      "output_tokens": 72,
+      "seconds": 5.886945999998716,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

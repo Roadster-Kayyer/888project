@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002772",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the recruitment process and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the recruitment process and is supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 1. The answer includes all the main steps of the recruitment process mentioned in the reference: written examination, skill test (if required), interview, and verification of documents and medical fitness. The reason for the high score is that the evidence directly supports the factual claims made in the candidate's answer.",
+      "input_tokens": 798,
+      "output_tokens": 164,
+      "seconds": 12.587790099998529,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

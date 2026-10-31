@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005083",
+  "doc_id": "1913",
+  "query_type": "casual",
+  "query": "How much power does the EOW in TN have?",
+  "corpus_query_index": 5082,
+  "system": "RRF-RAG",
+  "reference_answer": "Economic Offences Wing Jurisdiction:\nThe Economic Offences Wing in Tamil Nadu has jurisdiction over cases related to economic crimes, such as cheating, forgery, and financial frauds, that exceed ₹1 crore.",
+  "context": "[Document 1]\nMajor Power Outage Response:\nIn case of a major power outage, the public can contact the Tamil Nadu Electricity Board (TNEB) helpline or the police (100) to report the issue. The police will coordinate with TNEB to restore power and maintain public safety.\n\n[Document 2]\nCorporate Fraud:\nThe Tamil Nadu Police handles corporate fraud cases through its Economic Offences Wing (EOW). If you suspect corporate fraud, file a complaint with the EOW or your local police station. They will investigate and take necessary action.\n\n[Document 3]\nEconomic Offences Wing (EOW):\nThe Economic Offences Wing (EOW) handles cases related to economic crimes, such as cheating, forgery, and financial fraud. They investigate cases involving large-scale financial losses and white-collar crimes.\n\n[Document 4]\nApproaching Economic Offences Court:\nTo approach the Economic Offences Court in Tamil Nadu, follow these steps:\n1. File a complaint with the Economic Offences Wing (EOW) of the Tamil Nadu Police.\n2. Provide details of the alleged economic offence.\n3. Submit supporting documents and evidence.\n4. The EOW will investigate and file a chargesheet in the Economic Offences Court.\n\n[Document 5]\nReporting Online Exploitation of Children:\nTo report online exploitation of children, contact the Cyber Crime Cell of Tamil Nadu Police at 1930 (toll-free) or email: cybercrime@tn.gov.in. You can also report to the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "1560",
+    "198",
+    "181",
+    "1173",
+    "111"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "49854b7f56bdd3e30486d930af9f75e780e9bb67b48e480ca14ebeeb696f2ddb",
+  "answer": "The EOW in TN has investigative powers but not significant public utility power like TNEB. [Document 3]",
+  "input_tokens": 435,
+  "output_tokens": 25,
+  "seconds": 3.4181412999987515,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

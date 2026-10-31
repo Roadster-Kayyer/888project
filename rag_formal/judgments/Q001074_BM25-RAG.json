@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001074",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for confirming the validity of a legal document issued by a court, as evidenced by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for confirming a court-issued document's validity, supported by evidence from Document 2.\",\n}",
+      "input_tokens": 789,
+      "output_tokens": 72,
+      "seconds": 5.897178200000781,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the steps for confirming the validity of a legal document issued by a court, as evidenced by Document 2.\"}\n\nNote: The \"faithfulness\" score of 2 is based on the fact that the candidate answer includes all substantive factual claims about the process of verifying a court-issued document, which are supported by the evidence provided in Document 2. There is no indication of unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 829,
+      "output_tokens": 132,
+      "seconds": 10.394974900002126,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

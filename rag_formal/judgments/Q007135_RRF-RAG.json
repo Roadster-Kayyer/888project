@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007135",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for submitting a dispute to a BDO, supported by evidence from Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the procedure for filing a property dispute against a BDO, supported by evidence from Documents 1 and 3.\",\n}",
+      "input_tokens": 818,
+      "output_tokens": 71,
+      "seconds": 5.877573400000983,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for submitting a dispute to a BDO, supported by evidence from Documents 1 and 3.\"}",
+      "input_tokens": 858,
+      "output_tokens": 56,
+      "seconds": 4.543844399995578,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

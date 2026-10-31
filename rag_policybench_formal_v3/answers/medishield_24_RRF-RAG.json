@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_24",
+  "doc_id": "PB_df715fdfa6a8fbea4c7d",
+  "query_type": "medishield",
+  "query": "What percentage range do Pioneer Generation Subsidies cover for premiums, and are they influenced by household income or the Annual Value of residences?",
+  "reference_answer": "Pioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.",
+  "corpus_query_index": 319,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 2]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 3]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 4]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 5]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "retrieved_doc_ids": [
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_4bd71ffc7b87577275da",
+    "PB_fd10bc60905030393bfb",
+    "PB_3808b698344f1c773560"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80118937aa76e389821d98a5db4f8acdaf56b917b2460fa53dc790ff9b6320a1",
+  "answer": "Pioneer Generation Subsidies cover 40% to 60% of premiums. They are not influenced by household income but are affected by the Annual Value of residences; those with an Annual Value over $31,000 are ineligible. [Document 1]",
+  "input_tokens": 442,
+  "output_tokens": 58,
+  "seconds": 7.4136513999983435,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004228",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct and relevant information, fully supported by Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question, correctly states the steps to retrieve a towed vehicle, and is supported by Documents 1 and 2.\",\n}",
+      "input_tokens": 737,
+      "output_tokens": 192,
+      "seconds": 14.906022700000904,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct and relevant information, fully supported by Documents 1 and 2.\"}",
+      "input_tokens": 777,
+      "output_tokens": 45,
+      "seconds": 3.687529099999665,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

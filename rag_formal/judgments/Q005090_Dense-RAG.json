@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005090",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the intervention methods of the Cyber Crime Wing, directly addresses the reference, and is supported by all documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the intervention methods of the Cyber Crime Wing, directly addresses the reference, and is supported by all documents provided.\",\n  \"evidence\": \"Documents 1, 2, and 3 provide evidence of the Cyber Crime Wing's role in investigating and preventing cyber crimes, handling cases related to online crimes, and providing technical assistance.\"\n}",
+      "input_tokens": 756,
+      "output_tokens": 192,
+      "seconds": 14.848265000000538,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

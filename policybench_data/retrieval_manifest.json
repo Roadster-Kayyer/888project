@@ -1,0 +1,19 @@
+{
+  "protocol": "policybench-faq-answer-corpus-v1",
+  "corpus_sha256": "22282714b3c289fd4c5a326e281213e239450012d97b60b54a778f534afd2f00",
+  "queries_sha256": "86f1c4c81744c17e9d7a763f87f004240ada1ce0446c8cd583ec4e018e0a76b9",
+  "dense_model": "BAAI/bge-small-en-v1.5",
+  "dense_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "instruction": "Represent this sentence for searching relevant passages: ",
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "rrf_k": 60,
+  "code_sha256": "287840f7b64e63c5a13a34bf5cb01c5de2ed623d0d360086a03ebb66cab49b95",
+  "versions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.3",
+    "rank-bm25": "0.2.2",
+    "sentence-transformers": "5.7.0",
+    "transformers": "4.57.6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003598",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the process for different types of complaints and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the process for different types of complaints and is supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question about changes made to ease the complaint filing process, and it is relevant to all types of complaints mentioned in the reference. The answer is correct as it reflects the information provided in the documents, which detail the specific steps for filing various complaints and the option to withdraw a complaint. The evidence provided (Documents 1-5) supports the factual claims made in the candidate answer, confirming its faithfulness.",
+      "input_tokens": 937,
+      "output_tokens": 190,
+      "seconds": 14.890704299999925,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_40",
+  "doc_id": "PB_492d1cc19d42b1bac512",
+  "query_type": "ICA_134",
+  "query": "How do I apply for a Pre-Marriage LTVP Assessment (PMLA)?",
+  "reference_answer": "A Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.",
+  "corpus_query_index": 237,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 2]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.\n\n[Document 3]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 4]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 5]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.",
+  "retrieved_doc_ids": [
+    "PB_492d1cc19d42b1bac512",
+    "PB_e0f7b3c7aacb50023519",
+    "PB_2fa0c09e016af1fec874",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_1d2f0adc9590216ed0ca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "da2f3a7ec1e2e24ed882b29c6e96c3e5388357acb2f1ef3762db7128493b5294",
+  "answer": "To apply for a PMLA, couples should submit it before marriage. It clarifies eligibility for a long-term stay in Singapore. Ensure to update your new passport number in the online application form for your LTVP. [Document 1] & [Document 2]",
+  "input_tokens": 647,
+  "output_tokens": 56,
+  "seconds": 7.4744056000054115,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

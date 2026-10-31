@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004015",
+  "doc_id": "1720",
+  "query_type": "hard",
+  "query": "What recourse does society have against law enforcement negligence?",
+  "corpus_query_index": 4014,
+  "system": "Dense-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.\n\n[Document 2]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.\n\n[Document 3]\nEthical Framework for Discretionary Powers:\nThe Tamil Nadu Police follows a framework based on the Police Act, 1861, and the Code of Conduct. Officers must use discretion fairly, impartially, and in the public interest, respecting human rights and dignity.\n\n[Document 4]\nCitizen Rights During Investigations:\nCitizens have the right to remain silent, seek legal counsel, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation, with protection against torture, cruel, or inhuman treatment.\n\n[Document 5]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights",
+  "retrieved_doc_ids": [
+    "1753",
+    "2033",
+    "1447",
+    "1418",
+    "2029"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9c3e5edeb45f20d34bfc4964ecd494358a752fb7f842d424a1b0cd520ecf328b",
+  "answer": "Society can hold law enforcement accountable through vicarious liability, ensuring departments are responsible for officer actions. Citizens also have legal rights during investigations, including the right to remain silent, consult a lawyer, and be informed of the grounds of arrest, and a fair investigation. Additionally, there are bodies like the Protection of Civil Rights Wing in Tamil Nadu Police to handle such cases. [Document 1, Document 2, Document 5]",
+  "input_tokens": 380,
+  "output_tokens": 88,
+  "seconds": 11.269529500001227,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

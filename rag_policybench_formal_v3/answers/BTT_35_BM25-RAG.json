@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_35",
+  "doc_id": "PB_043f86bad043c042932a",
+  "query_type": "BTT",
+  "query": "What is a topic discussed when learning the basic theory of driving in Singapore?",
+  "reference_answer": "Basic theory of driving.",
+  "corpus_query_index": 29,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 3]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 4]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 5]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_5b5856d1886897cce5a3",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_459d0a3b9e1ad4c022cb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1207dd00dcc52c1547277b9b3ec7869b5452e55520bc0790632565c089b478c7",
+  "answer": "A topic discussed is Basic theory of driving [Document 1].",
+  "input_tokens": 331,
+  "output_tokens": 14,
+  "seconds": 267.0949862999987,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

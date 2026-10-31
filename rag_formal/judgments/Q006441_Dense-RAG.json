@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006441",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific helpline numbers and mentioning police guidance, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 812,
+      "output_tokens": 192,
+      "seconds": 14.587941999998293,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific helpline numbers and mentioning police guidance, supported by Document 1.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer includes all substantive factual claims about reporting domestic violence, which are directly supported by the evidence provided in Document 1. There is no evidence suggesting unsupported or contradicted claims, hence there is no need to set \"faithfulness\" to null. The \"correctness\" and \"relevance\" scores are both 2 because the answer is correct, fully addresses the question, and is directly relevant to the reference provided.",
+      "input_tokens": 852,
+      "output_tokens": 164,
+      "seconds": 12.69120059999841,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002773",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately describes the recruitment process, including written exams, interviews, and document verification, and references multiple documents supporting the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the recruitment process, including written exams, interviews, and document verification, and references multiple documents supporting the process.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 5]\"\n}",
+      "input_tokens": 830,
+      "output_tokens": 94,
+      "seconds": 7.271556799998507,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

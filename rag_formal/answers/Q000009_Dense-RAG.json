@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000009",
+  "doc_id": "1",
+  "query_type": "search",
+  "query": "What's the process to file an online FIR in Tamil Nadu?",
+  "corpus_query_index": 8,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 2]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.\n\n[Document 3]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station, provide details of the incident, and submit a written complaint. The police will register the complaint and provide a copy of the FIR.\n\n[Document 4]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to:\n* Give a written complaint\n* Provide identification and contact information\n* Cooperate with the investigation\n\n[Document 5]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to give a written statement, and the police will register your complaint and provide an FIR number.",
+  "retrieved_doc_ids": [
+    "796",
+    "1",
+    "0",
+    "1802",
+    "793"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b12b4a978f7f4758f6ced4599471f5c04b6a9f152ed1a69e53163328300e4add",
+  "answer": "To file an online FIR in Tamil Nadu, visit the Tamil Nadu Police website or mobile app for crimes like theft, loss of documents, and cyber crimes. Alternatively, go to a police station, provide details, give a written complaint, and cooperate with the investigation. [Document 1, Document 2]",
+  "input_tokens": 372,
+  "output_tokens": 63,
+  "seconds": 8.192564200000561,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2051.58203125
+}

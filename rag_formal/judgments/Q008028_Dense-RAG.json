@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008028",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the process for filing a complaint related to street vendors, aligning with the reference's guidance on property disputes and involving police investigation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the process for filing a complaint related to street vendors, aligning with the reference's guidance on property disputes and involving police investigation.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe candidate answer is directly relevant to the question about getting in trouble for bothering street sellers, as it outlines the process of filing a complaint, which is a common consequence for such behavior. The answer is correct in stating that one must visit the local police station and provide details and supporting documents, which is consistent with the information provided in the reference documents. The faithfulness score is",
+      "input_tokens": 750,
+      "output_tokens": 192,
+      "seconds": 14.784635199997865,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

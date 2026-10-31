@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001712",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for obtaining a reduced TDS certificate in Tamil Nadu, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and accurately reflects the steps outlined in Document 2 for obtaining a reduced TDS certificate in Tamil Nadu.\",\n}",
+      "input_tokens": 857,
+      "output_tokens": 75,
+      "seconds": 6.057544000002963,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the steps for obtaining a reduced TDS certificate in Tamil Nadu, supported by evidence from Document 2.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 2, which directly supports the factual claims made in the answer. The reason is a concise explanation of the scores.",
+      "input_tokens": 897,
+      "output_tokens": 99,
+      "seconds": 7.781725300003018,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

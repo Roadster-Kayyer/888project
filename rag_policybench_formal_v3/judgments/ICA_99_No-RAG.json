@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_99",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the necessity but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the necessity but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses the purpose of the SG Arrival Card and health declaration in relation to health checks and early detection of health risks. However, it does not directly cite the reference's mention of disease control and the legal consequences of false declarations, hence the correctness score is 1. Faithfulness is scored as null because there is no substantive factual claim directly supported by the supplied evidence, which in this case is absent. The reason succinctly explains the scores, noting the relevance but lack of direct evidence.",
+      "input_tokens": 406,
+      "output_tokens": 188,
+      "seconds": 14.269284800000605,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

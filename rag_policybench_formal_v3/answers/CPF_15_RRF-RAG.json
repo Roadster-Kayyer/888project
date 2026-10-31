@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_15",
+  "doc_id": "PB_9f4f545378e55cf7e6a1",
+  "query_type": "CPF_111",
+  "query": "What will CPF Board do with members or third parties who are found to have conducted manipulative transactions?",
+  "reference_answer": "Under the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.",
+  "corpus_query_index": 74,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 2]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 3]\nIn the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gr\n\n[Document 4]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 5]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.",
+  "retrieved_doc_ids": [
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_bd1ee881d60bea761ac7",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_c1a387ce75f3f9c696bf"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2c0324674b2adcccf897fbf457566c50ccf8fa4b0068b39ff385f3be6dfc70d0",
+  "answer": "The CPF Board will recover CPF savings and impose a one-year withdrawal ban on members involved in manipulative transactions. Third parties will face charges under the Penal Code, and may be issued a Notice to Attend Court (NTA). [Document 1]",
+  "input_tokens": 901,
+  "output_tokens": 51,
+  "seconds": 6.856764600001043,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

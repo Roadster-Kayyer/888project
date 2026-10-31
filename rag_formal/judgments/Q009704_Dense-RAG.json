@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009704",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies services and contact methods for Pink Police Patrol and provides accurate contact information, directly addressing the question with evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies services and contact methods for Pink Police Patrol, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 832,
+      "output_tokens": 70,
+      "seconds": 5.825260999998136,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies services and contact methods for Pink Police Patrol and provides accurate contact information, directly addressing the question with evidence from Documents 1 and 2.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer includes all substantive factual claims supported by the supplied evidence, specifically the contact numbers and services offered by the Pink Police Patrol. There is no evidence of unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 872,
+      "output_tokens": 131,
+      "seconds": 10.572181499999715,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

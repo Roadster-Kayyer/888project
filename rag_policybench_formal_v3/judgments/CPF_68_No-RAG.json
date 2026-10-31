@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_68",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly explains the investment restrictions and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the investment restrictions and is supported by the reference.\",\n  \"evidence\": \"The reference clearly states the investment limits for OA and SA, which the candidate answer accurately reflects.\"\n}",
+      "input_tokens": 549,
+      "output_tokens": 87,
+      "seconds": 6.852548300012131,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

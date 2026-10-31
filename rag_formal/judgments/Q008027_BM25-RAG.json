@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008027",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1, Document 3, Document 4, Document 5]\"\n}\n\n\nThe candidate's answer is correct (2) as it accurately lists the circumstances under which street vendors might face legal penalties, which are harassment, unauthorized street vending, and keeping shops open during a bandh. The relevance (2) is high because the answer directly addresses the question and is supported by the provided documents. Faithfulness (2) is also high as the candidate's answer is substantiated by evidence from the documents, specifically Document 1, Document 3",
+      "input_tokens": 787,
+      "output_tokens": 192,
+      "seconds": 15.123221500005457,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

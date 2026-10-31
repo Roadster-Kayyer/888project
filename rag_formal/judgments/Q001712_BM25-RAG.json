@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001712",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for obtaining a reduced TDS certificate, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for obtaining a reduced TDS certificate, supported by evidence from Document 2.\",\n  \"evidence\": \"Document 2 provides the exact steps and required documents for applying for a lower TDS certificate in Tamil Nadu, which the candidate answer accurately reflects.\"\n}",
+      "input_tokens": 862,
+      "output_tokens": 192,
+      "seconds": 14.764882299998135,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

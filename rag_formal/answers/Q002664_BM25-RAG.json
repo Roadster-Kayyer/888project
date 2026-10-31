@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002664",
+  "doc_id": "1478",
+  "query_type": "search",
+  "query": "Career paths available to someone who becomes a constable?",
+  "corpus_query_index": 2663,
+  "system": "BM25-RAG",
+  "reference_answer": "Career Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.",
+  "context": "[Document 1]\nCareer Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nLocating an Arrested Person\nTo find someone who has been arrested, contact the local police station where the arrest was made. You can also check the Tamil Nadu Police website or visit the police station in person to inquire about the person's whereabouts and the charges against them.\n\n[Document 4]\nRequesting a Specific Officer:\nNo, you cannot request a specific officer to investigate your case. The officer in charge will assign the case to an available officer based on workload and expertise.\n\n[Document 5]\nAddressing Police Officers:\nWhen interacting with police officers, address them by their rank, such as:\n- Constable: Constable/PC (Police Constable)\n- Sub-Inspector: SI (Sub-Inspector)\n- Inspector: Inspector\n- Senior Officers: Sir/Ma'am or their designated title.",
+  "retrieved_doc_ids": [
+    "1478",
+    "46",
+    "47",
+    "65",
+    "32"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "76e63e557da3df3bf302f4c40189874636931c8ab8606a84c55d89e5cc5a09c7",
+  "answer": "After becoming a constable, one can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. [Document 1]",
+  "input_tokens": 389,
+  "output_tokens": 37,
+  "seconds": 5.024475100000927,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

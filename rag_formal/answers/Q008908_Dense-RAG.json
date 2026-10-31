@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008908",
+  "doc_id": "720",
+  "query_type": "casual",
+  "query": "How do you get in trouble for putting the same house on the books twice?",
+  "corpus_query_index": 8907,
+  "system": "Dense-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nDouble Jeopardy:\nDouble jeopardy refers to being tried twice for the same offense. In India, Article 20(2) of the Constitution protects individuals from double jeopardy. If a person is acquitted or convicted of an offense, they cannot be tried again for the same offense.\n\n[Document 2]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 3]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 4]\nContesting a Will in Court:\nTo contest a will, file a petition in the District Court or High Court, citing grounds such as:\n- Undue influence\n- Lack of mental capacity\n- Fraud\n- Invalid execution\nSeek legal advice from a qualified lawyer to proceed with the case.\n\n[Document 5]\nFiling a Complaint about Real Estate Fraud:\nTo file a complaint, visit the nearest police station and submit a written complaint with supporting documents. You can also contact the Tamil Nadu Police's Economic Offences Wing (EOW) for guidance.",
+  "retrieved_doc_ids": [
+    "1733",
+    "720",
+    "710",
+    "1083",
+    "192"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4a34a492cd9b9376067bf11041a68e41299b1239ecf761367c3eded62213f56",
+  "answer": "Putting the same house on the books twice can lead to legal consequences. Under Section 467 of the IPC, it can result in imprisonment up to 7 years and/or a fine. Additionally, it violates the principle of double jeopardy, where being tried twice for the same offense is prohibited. [Document 2]",
+  "input_tokens": 415,
+  "output_tokens": 66,
+  "seconds": 8.538425099999586,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

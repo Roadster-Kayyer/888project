@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010348",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly instructs on reporting a missing car and checking arrest status, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly instructs on reporting a missing car and checking arrest status, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"Documents 1 and 2 provide the necessary steps for reporting a missing person and checking arrest status, which are directly relevant to the question.\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully supported by the evidence provided in the documents. The instructions given in the answer align with the procedures outlined in Documents 1 and 2 for reporting a missing person and checking arrest status. The answer also correctly mentions the option to obtain a copy of the FIR, which is supported by Document 3. The reason succinctly explains the scores, indicating",
+      "input_tokens": 803,
+      "output_tokens": 192,
+      "seconds": 14.938821499999904,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

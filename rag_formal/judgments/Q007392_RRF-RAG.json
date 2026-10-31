@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007392",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the helpline numbers and the need to provide incident details, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the helpline numbers and the need to provide incident details, supported by Document 1.\",\n  \"evidence\": \"[Document 1] and [Document 2]\"\n}\n\n\nThe candidate answer directly addresses the question by providing the necessary helpline numbers and the procedure for reporting, which is corroborated by the evidence in Document 1. The answer also correctly includes the need to provide details about the incident, which is a key part of the process as indicated in the reference. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which matches the reference's instructions for reporting such cases. There are no unsupported claims or om",
+      "input_tokens": 829,
+      "output_tokens": 192,
+      "seconds": 15.217688299999281,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_25",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1, 3, and 5, which all state the importance of a passport being valid for at least 6 months for travel."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that a passport must be valid for at least 6 months to travel and must be renewed if less than 6 months remain, supported by Document 1 and Document 3.\",\n}",
+      "input_tokens": 1148,
+      "output_tokens": 192,
+      "seconds": 13.948140699998476,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1, 3, and 5, which all state the importance of a passport being valid for at least 6 months for travel.\"}",
+      "input_tokens": 1188,
+      "output_tokens": 69,
+      "seconds": 5.2914074000000255,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

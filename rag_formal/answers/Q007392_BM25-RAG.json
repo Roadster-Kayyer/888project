@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007392",
+  "doc_id": "448",
+  "query_type": "formal",
+  "query": "What steps are necessary to report a case of forced marriage or child marriage to the police?",
+  "corpus_query_index": 7391,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 2]\nReporting Child Marriage:\nTo report child marriage, contact the local police station or call 100 (Tamil Nadu Police Helpline). Provide details about the marriage, including date, time, location, and parties involved. You can also contact the Childline at 1098 for assistance.\n\n[Document 3]\nMatrimonial Disputes\nMatrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.\n\n[Document 4]\nChild Marriage in Tribal Communities:\nThe Tamil Nadu Police addresses child marriage in tribal communities through awareness programs and collaboration with tribal welfare departments. They conduct regular checks and raids to prevent child marriages, and work with NGOs to educate communities about the ill effects of child marriage.\n\n[Document 5]\nCourt Marriage Certificate:\nTo get a court marriage certificate in Tamil Nadu, follow these steps:\n1. Fill the court marriage application form.\n2. Submit required documents (age proof, ID proof, etc.).\n3. Appear before the Marriage Registrar with witnesses.\n4. Receive the marriage certificate after registration.",
+  "retrieved_doc_ids": [
+    "448",
+    "901",
+    "95",
+    "1399",
+    "1967"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b80006fd1b2665ca32c8f43faf2ce5bfb5300ff9992e3a555e2adc4ce06263fe",
+  "answer": "To report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. Provide details about the incident, and the police will take action. For child marriage, contact the local police station or Childline (1098/1098). Court marriage certificates can be obtained by following specific steps outlined in the process. [Document 1-5]",
+  "input_tokens": 454,
+  "output_tokens": 86,
+  "seconds": 11.21847020000132,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

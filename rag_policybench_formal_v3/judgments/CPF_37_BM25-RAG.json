@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_37",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the treatment of maturity proceeds for CPFIS-OA and CPFIS-SA policies as described in Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the treatment of maturity proceeds for CPFIS-OA and CPFIS-SA policies as described in Document 3.\",\n  \"evidence\": \"Document 3: 'For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank, which can then be transferred back to your CPF Ordinary Account. For CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account.'\"\n}",
+      "input_tokens": 1755,
+      "output_tokens": 192,
+      "seconds": 15.082444699990447,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

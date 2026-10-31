@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002723",
+  "doc_id": "1489",
+  "query_type": "casual",
+  "query": "So, how do I sign up for the Tamil Nadu Police's dog handler job?",
+  "corpus_query_index": 2722,
+  "system": "RRF-RAG",
+  "reference_answer": "Tamil Nadu Police Dog Handler Positions:\nTo apply, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website for notifications. Meet the eligibility criteria, fill out the online application, and appear for the written exam and physical tests.",
+  "context": "[Document 1]\nTamil Nadu Police Dog Handler Positions:\nTo apply, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website for notifications. Meet the eligibility criteria, fill out the online application, and appear for the written exam and physical tests.\n\n[Document 2]\nDog Squad Role:\nThe Dog Squad in Tamil Nadu Police assists in crime detection, tracking, and search operations. Trained dogs help locate missing persons, detect narcotics, and track suspects.\n\n[Document 3]\nRegistration on Tamil Nadu Police Citizen Portal:\nTo register, visit the portal website, click on \"Register\" or \"Sign Up\", and fill in the required details such as name, address, and contact information. You will receive a verification email or SMS to complete the registration process.\n\n[Document 4]\nReporting Job Recruitment Scams:\nTo report job recruitment scams, file a complaint at the nearest police station or contact the Cyber Crime Cell. Provide details of the scam, such as emails, messages, or websites used. You can also call the Tamil Nadu Police's helpline number for guidance.\n\n[Document 5]\nBenefits of Joining Tamil Nadu Police:\nJoining Tamil Nadu Police offers benefits like competitive salary, job security, and opportunities for growth. It also provides a chance to serve the community and uphold law and order in the state.",
+  "retrieved_doc_ids": [
+    "1489",
+    "1920",
+    "998",
+    "917",
+    "1486"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e4721d6c013ef1c73ef2419f74ae7662ae49ca474a178bd2f32cacb80b38e696",
+  "answer": "Visit TNUSRB website for notifications. Apply online with eligibility criteria. Complete registration on Tamil Nadu Police Citizen Portal. [Document 1]",
+  "input_tokens": 394,
+  "output_tokens": 29,
+  "seconds": 3.733584300000075,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006276",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly cites documents, and faithfully reflects the evidence provided about crowd management techniques and technology use."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly cites documents, and faithfully reflects the evidence provided about crowd management techniques and technology use.\",\n  \"evidence\": \"[Document 1][Document 2][Document 5]\"\n}\n\n\nThe candidate's answer is correct as it directly addresses the question about how Tamil Nadu Police handle crowd management during festivals. It correctly cites the relevant documents that discuss the deployment of personnel, traffic management, drills, and the use of technology like drones for surveillance and monitoring. The answer also touches upon the ethical conduct during protests and the use of modern equipment for riot control, which are relevant to the broader context of crowd management. The faithful",
+      "input_tokens": 787,
+      "output_tokens": 192,
+      "seconds": 15.294671600000584,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

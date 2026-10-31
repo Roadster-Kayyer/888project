@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005700",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the exact contact details as found in Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing the exact contact details as found in Document 1.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifying the methods to contact the Anti-Counterfeit Currency Wing in Tamil Nadu's police department, and the evidence provided (Document 1) supports the factual claims made in the answer. The scores for correctness, relevance, and faithfulness are all 2, indicating a fully correct and relevant response that is fully supported by the evidence.",
+      "input_tokens": 836,
+      "output_tokens": 166,
+      "seconds": 13.015169400001469,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

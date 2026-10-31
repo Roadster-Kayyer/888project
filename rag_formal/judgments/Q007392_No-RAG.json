@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007392",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific contact numbers and procedures for immediate action."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant but omits specific contact numbers and procedures for immediate action.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer correctly addresses the need to report a case of forced or child marriage to the police but lacks the specific details provided in the reference, such as the exact helpline numbers and the importance of prioritizing the victim's safety. The faithfulness score is 1 because the candidate's answer contains mixed support; it correctly identifies the need to contact local law enforcement but does not provide the specific evidence (helpline numbers) from the reference. The reason succinctly explains the scores, noting the omission of specific details.",
+      "input_tokens": 436,
+      "output_tokens": 185,
+      "seconds": 14.529153199997381,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

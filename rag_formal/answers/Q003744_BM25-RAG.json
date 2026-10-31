@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003744",
+  "doc_id": "1672",
+  "query_type": "search",
+  "query": "Can you tell me about the structure and functions of the Women Safety Committee?",
+  "corpus_query_index": 3743,
+  "system": "BM25-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nSchool Safety Committee:\nThe School Safety Committee is a joint initiative between schools and the Tamil Nadu Police. Its purpose is to ensure a safe environment for students. The committee:\n* Identifies potential safety risks\n* Develops safety plans\n* Conducts regular drills and training\n\n[Document 3]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 4]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 5]\nEthics Committee Structure in Tamil Nadu Police:\nThe Tamil Nadu Police has a Professional Standards and Ethics Committee to oversee police conduct. It consists of senior officers and external members, ensuring accountability and transparency.",
+  "retrieved_doc_ids": [
+    "1672",
+    "1684",
+    "108",
+    "1682",
+    "1426"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "16fcbbd922ee23e59aa83b9b8b9813b8eaf85a8e4ad8e09f72c20cc354d2d9fa",
+  "answer": "The Women Safety Committee addresses women's complaints, provides counseling, and conducts awareness programs. It operates under the Tamil Nadu Police to ensure women's safety. [Document 1]",
+  "input_tokens": 404,
+  "output_tokens": 36,
+  "seconds": 4.61167419999947,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004094",
+  "doc_id": "1735",
+  "query_type": "search",
+  "query": "Can you explain how the presumption of innocence operates in court systems?",
+  "corpus_query_index": 4093,
+  "system": "Dense-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nSentencing Procedure:\nAfter conviction, the court hears arguments on sentencing from both the prosecution and defense. The judge considers factors like the severity of the crime, the accused's background, and mitigating circumstances. The sentence is then pronounced, and the accused is informed of their rights to appeal.\n\n[Document 3]\nFirst Hearing of a Criminal Case:\nAt the first hearing, the court reads out the charges to the accused, who then pleads guilty or not guilty. The judge may grant bail or remand the accused, and the case is posted for further hearing.\n\n[Document 4]\nDeclaration of Hostile Witnesses:\nIf a witness's testimony contradicts their previous statement, the court declares them hostile. The prosecutor can then cross-examine the witness. The court's permission is required to treat a witness as hostile, and the process is governed by the Indian Evidence Act, 1872, and the Code of Criminal Procedure, 1973.\n\n[Document 5]\nArticle 21 and Police Procedures:\nArticle 21 protects the right to life and personal liberty. It affects police procedures by:\n* Requiring arrest warrants or reasonable grounds for arrest\n* Ensuring prompt production of arrested persons before a magistrate\n* Prohibiting torture and cruel treatment",
+  "retrieved_doc_ids": [
+    "1735",
+    "757",
+    "1822",
+    "783",
+    "1715"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "80622966eb06eba0825fd09bfde08330cbcb1392cb0eb293bd51b077f05e8a1b",
+  "answer": "The presumption of innocence means an accused is presumed innocent until proven guilty. This is a fundamental principle in many legal systems, including India, where it's outlined in the Constitution and CrPC. The burden of proof lies with the prosecution to show guilt beyond reasonable doubt. After conviction, the court considers various factors for sentencing. This system ensures fairness and protects the accused's rights. [Document 1]",
+  "input_tokens": 450,
+  "output_tokens": 81,
+  "seconds": 10.54553279999891,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

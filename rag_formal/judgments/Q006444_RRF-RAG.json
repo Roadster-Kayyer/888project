@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006444",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process and includes contact information for support services, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process and includes contact information for support services, supported by Document 1.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 1. The answer includes the necessary steps for filing a complaint and mentions additional support resources, which aligns with the information in the reference. The reason succinctly explains the scores, indicating that the answer is accurate, relevant, and faithful to the evidence.",
+      "input_tokens": 827,
+      "output_tokens": 153,
+      "seconds": 11.876798600002076,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

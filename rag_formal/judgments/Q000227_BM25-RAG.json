@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000227",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies necessary documents and court procedures, supported by Documents 4 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies necessary documents and court procedures, supported by Documents 4 and 5.\",\n  \"evidence\": \"[Document 4], [Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question by mentioning the need to visit the court with required documents and consulting a lawyer, which aligns with the reference's indication to consult a lawyer for specific document requirements. The mention of property deeds and agreements corresponds to the reference's examples of evidence supporting a claim (Document 5). The answer is relevant as it pertains to the initiation of a civil lawsuit, and the faithfulness is high because the candidate's answer is supported by the provided evidence (Documents 4",
+      "input_tokens": 781,
+      "output_tokens": 192,
+      "seconds": 14.53586279999945,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

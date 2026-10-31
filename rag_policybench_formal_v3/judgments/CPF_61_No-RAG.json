@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_61",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the evidence provided.\",\n  \"evidence\": \"Document N\"\n}\n\nIn this case, the candidate answer is correct (1) as it acknowledges the lack of information on the cancellation process but correctly implies that the user should seek assistance from customer service. The relevance (2) is high because the answer directly addresses the question about payment cancellation. Faithfulness (2) is rated high because the candidate's answer is based on the evidence provided, which is a document (Document N) suggesting that the user should contact customer service for cancellations. The reason succinctly explains the scores, indicating that the answer is well-grounded in the available evidence",
+      "input_tokens": 376,
+      "output_tokens": 192,
+      "seconds": 14.673894699997618,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

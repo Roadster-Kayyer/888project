@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008555",
+  "doc_id": "657",
+  "query_type": "hard",
+  "query": "What criminal charges result from assaulting a family member?",
+  "corpus_query_index": 8554,
+  "system": "BM25-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nSuspected Family Member Involvement:\nIf you suspect a family member is involved in drug trafficking, contact the Tamil Nadu Police anonymously or visit the nearest police station to report your concerns. You can also call the police helpline (100) for assistance.\n\n[Document 3]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 4]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed\n\n[Document 5]\nStages of a Criminal Trial:\nThe stages of a criminal trial in Tamil Nadu are:\n1. Filing of FIR\n2. Investigation\n3. Charge sheet submission\n4. Framing of charges\n5. Trial\n6. Judgment and sentencing.",
+  "retrieved_doc_ids": [
+    "46",
+    "130",
+    "284",
+    "40",
+    "744"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "067203773d5c9c321dd9679bfea9bd04fb4e9213905a548a71a078615fc20ae4",
+  "answer": "Assaulting a family member can result in charges such as assault, which typically involves criminal charges like battery or domestic violence, depending on local laws. [Document 1] mentions these but does not specify exact charges.",
+  "input_tokens": 373,
+  "output_tokens": 45,
+  "seconds": 5.893224499999633,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

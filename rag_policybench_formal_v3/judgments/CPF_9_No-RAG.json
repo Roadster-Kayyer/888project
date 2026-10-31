@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_9",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference stating policy loans are not allowed for Part V insurance policies."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference stating policy loans are not allowed for Part V insurance policies.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence key is included to indicate that the answer is based on a document, even though the actual document is not provided in the text. In a real-world scenario, the evidence would be the specific text from the document that supports the answer.",
+      "input_tokens": 367,
+      "output_tokens": 134,
+      "seconds": 10.351054500002647,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_54",
+  "doc_id": "PB_bc0f9bb0658c9b927d99",
+  "query_type": "CPF_111",
+  "query": "I am an employer or platform operator who made cash top-ups to my employees or platform workers’ CPF Accounts on their behalf. How do I claim corporate tax deductions?",
+  "reference_answer": "Cash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.",
+  "corpus_query_index": 117,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 4]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.\n\n[Document 5]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:",
+  "retrieved_doc_ids": [
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501",
+    "PB_756caeff044567542744",
+    "PB_f2859c1fb9b873b9f305"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b92561bc9d8096bff55aabad819b1eaff3a8b62fe0b93b26cbb36b99cf1c76f2",
+  "answer": "To claim corporate tax deductions for cash top-ups to CPF accounts, ensure they are made on behalf of employees or platform workers. You can claim them as allowable business expenses when filing your income tax return. Refer to IRAS for detailed eligibility and limits [Document 1].",
+  "input_tokens": 1065,
+  "output_tokens": 55,
+  "seconds": 7.39065390000178,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

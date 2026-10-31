@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002114",
+  "doc_id": "1379",
+  "query_type": "search",
+  "query": "Can you tell me about the methods used by Tamil Nadu's police to interact with local village officials?",
+  "corpus_query_index": 2113,
+  "system": "BM25-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nTamil Nadu Police Citizen Portal:\nThe Tamil Nadu Police Citizen Portal is an online platform that allows citizens to interact with the police department, access various services, and report incidents.\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nEthical Framework for Police Intelligence Gathering:\nThe Tamil Nadu Police follows a framework based on the Indian Constitution and laws. Intelligence gathering is guided by principles of necessity, proportionality, and respect for human rights. Police must ensure that methods used are lawful and do not infringe on individual rights.\n\n[Document 4]\nFiling a Complaint about Stalking:\nTo file a complaint about stalking, visit the local police station and provide details about the incidents, including dates, times, and locations. You can also call 100 (Tamil Nadu Police Helpline) or 181 (Tamil Nadu Women's Helpline) for assistance.\n\n[Document 5]\nNeighborhood Watch Program Collaboration\n\nCitizen groups can collaborate with the Tamil Nadu Police by:\n* Registering with the local police station\n* Forming a neighborhood watch committee\n* Sharing information on suspicious activities\n* Participating in regular meetings with police officials\n* Reporting crimes and incidents promptly\n\nFor more information, contact your local police station or visit the Tamil Nadu Police Department website.",
+  "retrieved_doc_ids": [
+    "997",
+    "253",
+    "1453",
+    "903",
+    "249"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "83a0fcc5267900c01708628729ce33e57c2eb28f5ce5598d8a6531e171dd0e78",
+  "answer": "Tamil Nadu's police use an online portal for citizen interaction. They also guide officers through ethical frameworks ensuring lawful methods without infringing on rights. For complaints, they offer multiple reporting options like visiting local stations, calling helplines, or filing online. Police encourage collaboration with neighborhood watch programs. [Document 1-5]",
+  "input_tokens": 445,
+  "output_tokens": 67,
+  "seconds": 8.654509800000596,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006207",
+  "doc_id": "234",
+  "query_type": "formal",
+  "query": "What mechanisms does the Prohibition Enforcement Wing utilize in its operations?",
+  "corpus_query_index": 6206,
+  "system": "Dense-RAG",
+  "reference_answer": "Prohibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales",
+  "context": "[Document 1]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 2]\nProhibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales\n\n[Document 3]\n2. Police Intelligence Wing:\nThe Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.\n\n[Document 4]\nEconomic Offences Wing:\nThe Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.\n\n[Document 5]\nPolitical Investigation Wing:\nThe Political Investigation Wing functions to:\n* Monitor and investigate political activities\n* Gather intelligence on potential threats to law and order\n* Provide security for VIPs and sensitive events",
+  "retrieved_doc_ids": [
+    "1926",
+    "234",
+    "1613",
+    "1565",
+    "1568"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a563a5ad8d115b30504726173ebd3c6937f803aa51ea1d8cd86f1042fa3d351c",
+  "answer": "The Prohibition Enforcement Wing utilizes:\n- Conducting raids and seizures\n- Arresting offenders\n- Destroying illicit liquor\n- Preventing smuggling and sales [Document 2]",
+  "input_tokens": 358,
+  "output_tokens": 37,
+  "seconds": 4.540900699999838,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

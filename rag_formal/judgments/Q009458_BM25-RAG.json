@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009458",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies crimes handled by All Women Police Stations and references documents supporting this fact."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies crimes handled by All Women Police Stations and references documents supporting this fact.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4]\"\n}\n\n\nThe reason for the scores is that the candidate's answer is correct (2), directly addresses the question (2), and is fully supported by the evidence provided in the documents (2). The answer includes specific crimes that the stations handle and references the documents that corroborate this information. There are no omissions or unsupported claims in the candidate's response.",
+      "input_tokens": 771,
+      "output_tokens": 168,
+      "seconds": 13.164926999997988,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

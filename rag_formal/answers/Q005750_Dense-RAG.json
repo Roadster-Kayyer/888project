@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005750",
+  "doc_id": "2032",
+  "query_type": "hard",
+  "query": "Verification techniques for official mailings concerning laws in Tamil Nadu?",
+  "corpus_query_index": 5749,
+  "system": "Dense-RAG",
+  "reference_answer": "Verifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "context": "[Document 1]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 2]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 3]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).\n\n[Document 5]\nPolice Verification for Tenant Verification in Tamil Nadu:\nTo obtain police verification for tenant verification, submit a request to the local police station with required documents (tenant's ID proof, address proof, rental agreement). The police will verify the tenant's details and provide a clearance certificate. You can also use the Tamil Nadu Police's online portal for tenant verification.",
+  "retrieved_doc_ids": [
+    "2032",
+    "1191",
+    "1190",
+    "345",
+    "2082"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "01170e3a4351021eb40a22900d225d1d16cb2954f59b0853f94d068318878306",
+  "answer": "To verify official mailings concerning laws in Tamil Nadu, check for the official seal and signature of the issuing authority. Alternatively, contact the concerned police station or court to confirm the notice. [Document 1] provides detailed steps including contacting the issuing court or Tamil Nadu State Judicial Department for judicial documents. For police summonses, visit the official Tamil Nadu Police website or use their online portal. [Document 4] and [Document 5] offer specific guidance for police verification.",
+  "input_tokens": 402,
+  "output_tokens": 97,
+  "seconds": 12.444561999998768,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

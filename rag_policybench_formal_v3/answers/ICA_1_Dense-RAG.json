@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_1",
+  "doc_id": "PB_3d3983332a6d398052ec",
+  "query_type": "ICA_134",
+  "query": "What is a Foreign Identification Number (FIN) or FIN card?",
+  "reference_answer": "A Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.",
+  "corpus_query_index": 168,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.\n\n[Document 2]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).\n\n[Document 3]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 4]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 5]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "retrieved_doc_ids": [
+    "PB_3d3983332a6d398052ec",
+    "PB_6c6fcaa3d9ba8be58b7b",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_066794289dd14caa73dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "955a0819bf4920c81b71dcda77daa40402c11a2710a85834cb7556259af84a95",
+  "answer": "A Foreign Identification Number (FIN) is a 9-character alphanumeric code for foreigners with long-term passes in Singapore, issued by ICA or MOM. It's unique to each pass type like Student's Pass, Visit Pass, etc. [Document 1]",
+  "input_tokens": 556,
+  "output_tokens": 53,
+  "seconds": 7.227004800006398,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007954",
+  "doc_id": "549",
+  "query_type": "search",
+  "query": "What are the repercussions of threatening to kill someone?",
+  "corpus_query_index": 7953,
+  "system": "BM25-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nThreatening Religious Conversion:\nForcing or threatening someone to undergo religious conversion is a serious offense. The penalty can range from imprisonment for 1-5 years and/or a fine, under the Tamil Nadu Prohibition of Forcible Conversion of Religion Act, 2002, and the IPC.\n\n[Document 3]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 4]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 5]\nThreatening to Damage Property:\nAccording to the Indian Penal Code (IPC), threatening to damage property is punishable under Section 506. The punishment can be imprisonment up to 2 years, or a fine, or both.",
+  "retrieved_doc_ids": [
+    "46",
+    "591",
+    "848",
+    "107",
+    "550"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "1a3a8663a69144d83aae34f356a435ee7a445c6525ee3f2e36c67e0600348405",
+  "answer": "The repercussions of threatening to kill someone depend on local laws but generally include imprisonment and fines. In some places, threatening religious conversion is also illegal with potential penalties. [Document 1] provides information on legal actions following an arrest. Threats to damage property can result in up to 2 years in prison and a fine. [Document 5] cites IPC Section 506.",
+  "input_tokens": 405,
+  "output_tokens": 79,
+  "seconds": 10.523869900000136,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

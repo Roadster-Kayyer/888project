@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007839",
+  "doc_id": "528",
+  "query_type": "search",
+  "query": "What penalties are typically applied to those performing on public streets illegally?",
+  "corpus_query_index": 7838,
+  "system": "Dense-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nLegal Consequences for Causing Minor Public Disturbances:\nCausing minor public disturbances can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month under the Tamil Nadu Police Act, 1859.\n\n[Document 3]\nPublic Obstruction:\nCreating public obstruction is punishable under Section 283 of the Indian Penal Code. The penalty can include a fine of up to ₹200 and/or imprisonment for up to 3 months.\n\n[Document 4]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 5]\nPenalty for Loitering in Restricted Areas:\nLoitering in restricted areas can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month under the Tamil Nadu Police Act.",
+  "retrieved_doc_ids": [
+    "528",
+    "515",
+    "505",
+    "578",
+    "511"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1291f6030866a34401644463a30c45e475498533e3b47f1f821392f909ee5c86",
+  "answer": "Typically, unauthorized street performers face fines of up to ₹1,000 under the Tamil Nadu City Police Act, and may be arrested for causing public nuisance. They could also face up to ₹1,000 fine and up to 1 month in prison for minor public disturbances. Creating public obstruction leads to a fine of up to ₹200 and/or up to 3 months in prison. Threatening public performers can result in up to 3 years in prison and a fine of up to ₹5,000. Loitering in restricted areas can incur a fine of up to ₹1,000 and up to 1 month in prison. [Document 1-5]",
+  "input_tokens": 387,
+  "output_tokens": 147,
+  "seconds": 18.59376440000051,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

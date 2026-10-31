@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_21",
+  "doc_id": "PB_bae89a527e0df10a772e",
+  "query_type": "ICA_134",
+  "query": "How do I book/change/cancel my appointment in MyICA?",
+  "reference_answer": "You will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.",
+  "corpus_query_index": 216,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 3]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 4]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 5]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_558188a8bd115503280d",
+    "PB_ffb44a115e698c779310",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_ebd58cc24fe004fbabd6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a16ba16125766fcdad9c11a1dc98e1721d74a81f0966604d95868d853514fb96",
+  "answer": "To book, change, or cancel an appointment, use 'e-Services' under 'e-Appointment'. For changes, log in to ICA e-Service at least 3 working days before your appointment. [Document 1] & [Document 2]",
+  "input_tokens": 719,
+  "output_tokens": 55,
+  "seconds": 7.442871799998102,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

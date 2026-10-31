@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_39",
+  "doc_id": "PB_16464034b8fc8059eece",
+  "query_type": "ICA_134",
+  "query": "How do I get back my Permanent Residence (PR) status if I had previously renounced PR?",
+  "reference_answer": "There is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.",
+  "corpus_query_index": 235,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 2]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 3]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 4]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 5]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.",
+  "retrieved_doc_ids": [
+    "PB_16464034b8fc8059eece",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_7929dbd00d14667dbd16"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "70fe74efa8505dfc6e9a7ebbcef80e69f32d93acdbd73106666c83d70fdf6899",
+  "answer": "To regain Permanent Residence (PR) status after renouncing it, you must apply anew. There's no provision to reinstate it. Ensure you have a valid Re-Entry Permit (REP) at all times when traveling abroad. [Document 1]",
+  "input_tokens": 474,
+  "output_tokens": 52,
+  "seconds": 6.726933400001144,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

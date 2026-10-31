@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006487",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant methods but omits specific local and federal resources mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer includes relevant methods but omits specific local and federal resources mentioned in the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct as it mentions relevant methods for reporting online fraud but fails to directly address the specific methods provided in the reference, such as the Tamil Nadu Police website, the Cyber Crime Helpline, and the importance of providing transaction details and supporting documents. The faithfulness score is null because the candidate's answer does not contain any substantive factual claims that can be directly supported or contradicted by the supplied evidence, which in this case is absent. The reason succinctly explains the scores, noting the relevance of the answer but its lack of",
+      "input_tokens": 395,
+      "output_tokens": 192,
+      "seconds": 14.82799270000396,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

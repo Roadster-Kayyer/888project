@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_99",
+  "doc_id": "PB_0ef2de268e8e14db8c6f",
+  "query_type": "CPF_111",
+  "query": "As a taxi driver who takes both ride-hail and street-hail jobs, how should I make CPF contributions for my earnings?",
+  "reference_answer": "You will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.",
+  "corpus_query_index": 166,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 4]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 5]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.",
+  "retrieved_doc_ids": [
+    "PB_0ef2de268e8e14db8c6f",
+    "PB_dc08990660488c2ed4e8",
+    "PB_0b2919dbf107215d276f",
+    "PB_70b5d47d6063963e4051",
+    "PB_78fc5f010e94bc79c15a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eb0f517e80ef0b0b7120f8098b503a78cd3a427673f505bfa14a9b8d73f44d3f",
+  "answer": "For ride-hail earnings, the platform operator will handle CPF contributions. For street-hail earnings, you must declare your net trade income to IRAS and make MediSave contributions yourself the following year. [Document 1]",
+  "input_tokens": 705,
+  "output_tokens": 46,
+  "seconds": 6.2175375999941025,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

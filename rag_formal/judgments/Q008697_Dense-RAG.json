@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008697",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the sanctions for violence at sports matches and related offenses as per the provided documents, with correct references to specific sections of the IPC and corresponding penalties.\",\n}",
+      "input_tokens": 775,
+      "output_tokens": 192,
+      "seconds": 14.988326799997594,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct and relevant information from the documents, fully supported by evidence.\"}",
+      "input_tokens": 815,
+      "output_tokens": 42,
+      "seconds": 3.370118300001195,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

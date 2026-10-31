@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001711",
+  "doc_id": "1306",
+  "query_type": "original",
+  "query": "How do I apply for lower TDS certificate in Tamil Nadu?",
+  "corpus_query_index": 1710,
+  "system": "Dense-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 2]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 3]\nApplying for Police Certificates\nTo apply for certificates, visit the Tamil Nadu Police website (tnpolice.gov.in) or the official portal for citizen services. Click on the \"Certificate\" section, select the type of certificate, fill in the application form, and upload required documents. Pay the fee online and submit the application.\n\n[Document 4]\nCharacter Certificate:\nTo apply for a character certificate in Tamil Nadu, visit your local police station and submit a written application. You will need to provide ID proof, address proof, and a fee of ₹200. The certificate will be issued after verification.\n\n[Document 5]\nCharacter Certificate:\nTo obtain a character certificate in Tamil Nadu, visit the local police station with required documents (ID proof, address proof, and passport-sized photos). Fill out the application form, pay the prescribed fee, and submit it to the police. The certificate will be issued after verification.",
+  "retrieved_doc_ids": [
+    "1306",
+    "1297",
+    "1002",
+    "1832",
+    "2077"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1d4931f6f7389b6f57817cfbec9a44b839f4b51c5f1b09949850e7da119a43b4",
+  "answer": "To apply for a lower TDS certificate in Tamil Nadu, download Form 13 from the income tax website or visit an office. Submit it along with your PAN card and income proof to the Income Tax Department. [Document 1]",
+  "input_tokens": 472,
+  "output_tokens": 49,
+  "seconds": 6.288628899999821,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

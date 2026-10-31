@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003587",
+  "doc_id": "1644",
+  "query_type": "formal",
+  "query": "How have modern devices been supplied to law enforcement for security purposes?",
+  "corpus_query_index": 3586,
+  "system": "Dense-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nModern Surveillance Systems:\nThe Tamil Nadu Police has implemented:\n* CCTV cameras in public areas\n* Intelligent Traffic Management Systems\n* Facial recognition technology in urban areas to enhance security and surveillance.\n\n[Document 2]\nBorder Security Technologies:\nThe Tamil Nadu Police use various technologies for border security, including:\n* CCTV cameras\n* Drones\n* GPS tracking systems\n* Intelligent surveillance systems\n\n[Document 3]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 4]\nPolice Verification Technologies:\nThe Tamil Nadu Police uses modern technologies like biometric authentication, online application portals, and digital verification systems to streamline police verification processes. These technologies enhance efficiency, transparency, and speed of verification.\n\n[Document 5]\nTechnology in Crime Investigation:\nTamil Nadu Police uses technology like CCTV surveillance, digital forensics, and mobile apps to investigate crimes. This helps in faster evidence collection, tracking, and solving cases.",
+  "retrieved_doc_ids": [
+    "1632",
+    "1324",
+    "1644",
+    "1656",
+    "1615"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "91fb445ff9392e21e748c01849fc7813586d6c8610e8bad0b17c0abc95f5dab5",
+  "answer": "Modern devices supplied to law enforcement include CCTV cameras, facial recognition technology, drones, GPS tracking, bulletproof vests, helmets, and communication devices. Technologies also aid crime investigation through digital forensics and mobile apps. [Document 1-5]",
+  "input_tokens": 333,
+  "output_tokens": 51,
+  "seconds": 6.639180899999701,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

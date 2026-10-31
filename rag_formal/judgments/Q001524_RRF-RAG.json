@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001524",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and completely covers the reference facts about reporting canal breaches to PWD."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and completely covers the reference facts about reporting canal breaches to PWD.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by providing the necessary steps to report a canal break to PWD, which are to contact the nearest PWD office or call the PWD helpline, provide details of the breach, location, and personal contact information, and report online through the PWD website or app. The evidence from Document 1 supports these factual claims, confirming the correctness and relevance of the candidate's answer. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the reference documents.",
+      "input_tokens": 795,
+      "output_tokens": 190,
+      "seconds": 14.730052099999739,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

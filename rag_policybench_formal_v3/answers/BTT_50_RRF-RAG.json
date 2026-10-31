@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_50",
+  "doc_id": "PB_01b63f26bd4e5c682e57",
+  "query_type": "BTT",
+  "query": "How many steps are involved in the specified process for overtaking another vehicle safely according to Singapore's Basic Theory Test?",
+  "reference_answer": "12 steps",
+  "corpus_query_index": 46,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 3]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 4]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_89b7e5350f270a309ba9",
+    "PB_33b32af818c8c4223f8f",
+    "PB_b155e67f12a868a1d32b",
+    "PB_ebd58cc24fe004fbabd6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0718917607d16a593c470c04af7e1610cca68a9674940162060dcd7b4dc850f7",
+  "answer": "The document does not specify the overtaking steps. [Document 1]",
+  "input_tokens": 589,
+  "output_tokens": 16,
+  "seconds": 2.334527999992133,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

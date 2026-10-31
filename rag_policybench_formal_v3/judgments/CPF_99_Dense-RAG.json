@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_99",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, accurately reflecting the information from the references regarding CPF contributions for ride-hail and street-hail jobs."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the information from the references regarding CPF contributions for ride-hail and street-hail jobs.\"\n}",
+      "input_tokens": 1155,
+      "output_tokens": 192,
+      "seconds": 14.719737699997495,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

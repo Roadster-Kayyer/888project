@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_107",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the processing time and acknowledges variability, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states processing time and acknowledges possible delays, supported by Document 2 and Document 1.\",\n  \"evidence\": \"Document 2: 'The processing time of a visa application is within three working days (excluding the day of submission)...' and Document 1: 'The expected processing time for IC application is seven (7) working days...'\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is supported by the evidence provided in the documents. The processing time for a visa application is indeed within three working days, as stated in Document 2, and the possibility of longer processing times is acknowledged, which is consistent with the information in Document 1. The reason",
+      "input_tokens": 777,
+      "output_tokens": 192,
+      "seconds": 14.854278900005738,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the processing time and acknowledges variability, supported by Document 2.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 2, which directly supports the factual claims made in the candidate's answer. The candidate's answer is both correct and relevant, and all substantive factual claims are supported by the evidence, hence the scores are all at the maximum level of 2.",
+      "input_tokens": 817,
+      "output_tokens": 117,
+      "seconds": 9.246866999994381,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009704",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies services offered by Pink Police Patrol and provides accurate contact information, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies services and contact numbers for Pink Police Patrol and general police services, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 806,
+      "output_tokens": 74,
+      "seconds": 5.898115800002415,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies services offered by Pink Police Patrol and provides accurate contact information, supported by evidence from Documents 1 and 5.\"}\n**Note:** The scores are based on the candidate's answer being correct, relevant, and faithful to the evidence provided in the documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 846,
+      "output_tokens": 97,
+      "seconds": 7.909279400002561,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

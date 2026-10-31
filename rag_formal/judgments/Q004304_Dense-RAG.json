@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004304",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference's description of police actions for missing foreign tourists."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference's description of police actions for missing foreign tourists.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question and is supported by the evidence provided in Document 1, which outlines the police's actions in such cases. The answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 755,
+      "output_tokens": 120,
+      "seconds": 9.33080390000032,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

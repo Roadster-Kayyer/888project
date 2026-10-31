@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002114",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the methods used by Tamil Nadu's police to interact with local village officials, directly referencing the provided documents and including all substantive factual claims about regular meetings, joint patrols, digital platforms, and modern communication tools."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the methods used by Tamil Nadu's police to interact with local village officials, directly referencing the provided documents and including all substantive factual claims about regular meetings, joint patrols, digital platforms, and modern communication tools.\"\n}",
+      "input_tokens": 832,
+      "output_tokens": 96,
+      "seconds": 7.4479839999985415,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

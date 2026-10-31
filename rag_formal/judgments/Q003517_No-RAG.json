@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003517",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate mentions relevant reforms but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions relevant reforms but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\n\nIn this evaluation, the candidate's answer is relevant as it directly addresses the question about reforms for women's safety by the Tamil Nadu Police. However, the correctness score is 1 because the candidate fails to mention specific reforms like all-women police stations, a dedicated women's helpline, and increased female police personnel, which are crucial details provided in the reference. Faithfulness is marked as null because there is no substantive factual claim in the candidate's answer that can be directly supported or contradicted by the evidence provided. The reason succinctly explains the",
+      "input_tokens": 434,
+      "output_tokens": 192,
+      "seconds": 14.908579300001293,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

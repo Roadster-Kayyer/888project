@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_33",
+  "doc_id": "PB_76cedb96dcf8bd5508e7",
+  "query_type": "CPF_111",
+  "query": "Is there a minimum interest rate for CPF Investment Scheme Fixed Deposit (FD) that FD Banks must offer?",
+  "reference_answer": "With effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.",
+  "corpus_query_index": 94,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nWith effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.\n\n[Document 2]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.\n\n[Document 3]\nThe agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.\n\n[Document 4]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 5]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+  "retrieved_doc_ids": [
+    "PB_76cedb96dcf8bd5508e7",
+    "PB_c0fec916295a83585eb1",
+    "PB_f36114baa5e370122326",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_92b9ca8b9a7a3195d282"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8d15cc95bd32ce55cde9eae8954b62955615b2616abae3e49e62443a6cfa2ab6",
+  "answer": "Yes, there is a minimum interest rate for CPF Investment Scheme Fixed Deposits (FD). As of 1 May 2007, FD Banks must offer a minimum effective interest rate at least equal to the prevailing CPF interest rate for new placements or roll overs. This ensures members are not worse off than keeping their money in CPF Accounts. [Document 1]",
+  "input_tokens": 541,
+  "output_tokens": 75,
+  "seconds": 10.107234700000845,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

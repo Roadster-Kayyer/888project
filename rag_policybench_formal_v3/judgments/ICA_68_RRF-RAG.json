@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_68",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies a possible reason for rejection based on the reference documents and directly addresses the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies a possible reason for rejection based on the reference documents and directly addresses the question.\"\n}\n\n\nThe candidate answer is correct (2) as it directly references the requirement from Document 2 that applicants must be accepted into a full-time course by a recognized institution in Singapore. The answer is relevant (2) because it directly addresses the question by suggesting a reason for the rejection that is supported by the evidence provided in the documents. The faithfulness (2) is confirmed as the candidate's answer is based on the specific information given in the reference documents, which state the necessity of acceptance into a recognized full-time course for a Student's Pass application. The reason succinctly explains the scores,",
+      "input_tokens": 871,
+      "output_tokens": 192,
+      "seconds": 14.97125600000436,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

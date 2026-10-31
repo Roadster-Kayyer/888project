@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008910",
+  "doc_id": "720",
+  "query_type": "hard",
+  "query": "What repercussions occur when the same real estate is filed with multiple authorities?",
+  "corpus_query_index": 8909,
+  "system": "BM25-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nApproaching the Real Estate Appellate Tribunal in Tamil Nadu:\nTo approach the Real Estate Appellate Tribunal, file an appeal within 60 days of receiving the order from the Real Estate Regulatory Authority (RERA). Submit the appeal in person or through an authorized representative, along with the required fees and documents.\n\n[Document 2]\nReal Estate Title Fraud:\nThe legal consequences for real estate title fraud in Tamil Nadu include imprisonment up to 7 years and a fine under the Indian Penal Code (IPC) Section 420.\n\n[Document 3]\nReporting Real Estate Fraud:\nTo report real estate fraud, visit the nearest police station and file a complaint. Provide documents related to the transaction, such as property papers and payment receipts. You can also contact the Tamil Nadu Police's Economic Offences Wing (EOW) for assistance.\n\n[Document 4]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 5]\nQuestion 3: Charge Sheet\nA charge sheet is a document filed by the police with the court, detailing the charges against the accused. It is filed after the investigation is complete, usually within 60-90 days, and when the police have sufficient evidence to proceed with the case.",
+  "retrieved_doc_ids": [
+    "1189",
+    "640",
+    "916",
+    "800",
+    "68"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8d0a762cd4017ed74b0a6b88980bae4135111b9659879a599ad5217c01167bd7",
+  "answer": "When the same real estate is filed with multiple authorities, it may lead to delays and inconsistencies in the process. The Real Estate Appellate Tribunal requires appeals to be filed within 60 days of receiving an RERA order. However, if the same property is reported as fraudulent, legal consequences like up to 7 years in prison and a fine under IPC Section 420 could occur, according to Document 2. Additionally, filing a Zero FIR at any police station allows reporting of crimes outside their jurisdiction, but it must be forwarded to the relevant station, as per Document 4. [Document 1] and [Document 2] provide context on real estate filings and potential legal repercussions.",
+  "input_tokens": 427,
+  "output_tokens": 143,
+  "seconds": 18.151228200000332,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

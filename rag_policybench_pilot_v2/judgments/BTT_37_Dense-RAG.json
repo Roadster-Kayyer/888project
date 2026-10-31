@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_37",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies slowing down as the primary action and includes relevant safety precautions from the documents, aligning with the reference and evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies slowing down as the primary action and includes relevant safety precautions from the documents, aligning with the reference and evidence provided.\",\n  \"document_evidence\": \"All substantive factual claims in the candidate answer are supported by the documents, which instruct to slow down, keep left, and be aware of traffic, and to ensure enough space to stop safely, as well as the permissible conditions for slowing down.\"\n}",
+      "input_tokens": 516,
+      "output_tokens": 136,
+      "seconds": 10.025174399997923,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2670.556640625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

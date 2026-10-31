@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_18",
+  "doc_id": "PB_445d301435d07072a252",
+  "query_type": "BTT",
+  "query": "What is the purpose of bus-stop separator areas being painted red?",
+  "reference_answer": "The red paint alerts motorists to the presence of merging vehicles from bus-stops.",
+  "corpus_query_index": 10,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.",
+  "retrieved_doc_ids": [
+    "PB_445d301435d07072a252",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_46950c4cff6ad431d048",
+    "PB_89b7e5350f270a309ba9",
+    "PB_70e279a2efefc3723a97"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a19ab143359d7db9558451c3e43c0e350b3fca244e68d373b7bdc6267061bf84",
+  "answer": "The red paint on bus-stop separator areas alerts motorists to the presence of merging vehicles from bus-stops [Document 1].",
+  "input_tokens": 456,
+  "output_tokens": 26,
+  "seconds": 3.509932299995853,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003516",
+  "doc_id": "1631",
+  "query_type": "original",
+  "query": "How has Tamil Nadu Police reformed its approach to handling women's safety issues?",
+  "corpus_query_index": 3515,
+  "system": "RRF-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nReform in Handling Juvenile Offenders:\nThe Tamil Nadu Police has reformed its approach by:\n* Establishing juvenile units in police stations\n* Providing counseling and rehabilitation programs\n* Implementing child-friendly procedures\n\n[Document 3]\nReforming Approach to White-Collar Crimes:\nThe Tamil Nadu Police has reformed its approach to handling white-collar crimes by:\n* Setting up a specialized Economic Offences Wing\n* Using advanced technology and forensic tools\n* Collaborating with financial institutions and regulatory agencies\n\n[Document 4]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 5]\nTourist Safety:\nTamil Nadu Police has modernized its approach to tourist safety by:\n* Launching a dedicated Tourist Police Unit\n* Introducing multilingual helplines and signage\n* Increasing police presence in tourist areas and providing safety guides",
+  "retrieved_doc_ids": [
+    "1631",
+    "1619",
+    "1661",
+    "1009",
+    "1653"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "765d92cd65d60bbb0470d4981086f1f1b96c0e4b5c6a3a7b650a4184d2a57a2f",
+  "answer": "The Tamil Nadu Police has reformed its approach to handling women's safety issues through:\n- Establishing all-women police stations [Document 1]\n- Creating a dedicated women's helpline (181) [Document 1]\n- Increasing female police personnel [Document 1] [Document 4]",
+  "input_tokens": 386,
+  "output_tokens": 64,
+  "seconds": 7.6244463000002725,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

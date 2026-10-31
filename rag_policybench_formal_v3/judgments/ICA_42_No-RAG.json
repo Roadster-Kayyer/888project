@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_42",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate answer lacks specific details on the cancellation process, which is not supported by the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer lacks specific details on the cancellation process, which is not supported by the provided evidence.\",\n  \"evidence\": \"The provided reference does not contain information on the cancellation process of the STVP.\"\n}",
+      "input_tokens": 398,
+      "output_tokens": 85,
+      "seconds": 6.750358700010111,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

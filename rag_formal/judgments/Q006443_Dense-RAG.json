@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006443",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate helpline numbers and describing the process, supported by Documents 4 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer correctly and directly addresses the question, supported by evidence from Documents 4 and 5.\",\n}",
+      "input_tokens": 767,
+      "output_tokens": 60,
+      "seconds": 4.85432540000329,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate helpline numbers and describing the process, supported by Documents 4 and 5.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the retrieved documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it accurately reflects the information from the documents without omission or contradiction. The reason is a succinct summary of the evaluation.",
+      "input_tokens": 807,
+      "output_tokens": 121,
+      "seconds": 9.699910399998771,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

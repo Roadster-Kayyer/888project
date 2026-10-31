@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_0",
+  "doc_id": "PB_9c27ce47f88ef02aeefc",
+  "query_type": "BTT",
+  "query": "What is the impact of leaving a vehicle engine running when stationary for reasons other than traffic conditions under the Environmental Protection and Management (Vehicular Emissions) Regulations?",
+  "reference_answer": "It is an offence, and offenders are liable to a fine of up to $5,000 if convicted in court.",
+  "corpus_query_index": 0,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 2]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 3]\nAvoid dragging the engine by using the correct gear.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nSlow down, keep left, and beware of oncoming traffic.",
+  "retrieved_doc_ids": [
+    "PB_89b7e5350f270a309ba9",
+    "PB_d52d8afcd0f078500080",
+    "PB_4a5e366a1e27905d0545",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_2858faae83bda4331fb6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "7e4d269b41bada010f159a6e0a1e1bce7bb0287827891f97e95a32f66efcaeeb",
+  "answer": "Leaving a vehicle's engine running idly is prohibited under the regulations. It increases fuel consumption and emissions, as stated in Document 2. Additionally, it can be dangerous as it may lead to dragging the engine, which is against the rules as per Document 3. Furthermore, it can cause traffic issues, as indicated in Document 4. Lastly, it poses risks like stopping suddenly without warning, as mentioned in Document 1.",
+  "input_tokens": 226,
+  "output_tokens": 89,
+  "seconds": 11.490769900003215,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

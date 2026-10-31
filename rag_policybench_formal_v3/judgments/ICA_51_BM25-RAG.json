@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_51",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process for obtaining a Long-Term Pass after course completion, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]Upon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable",
+      "input_tokens": 1226,
+      "output_tokens": 192,
+      "seconds": 14.644195899993065,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1.\"}\n\n(Note: The \"faithfulness\" score of 2 is based on the assumption that the candidate's answer is factually correct and directly supported by the evidence provided in Document 1, which states the process for obtaining a long-term stay after course completion. However, if the candidate's answer lacked specific details or was not fully supported by the documents, the faithfulness score would be adjusted accordingly.)",
+      "input_tokens": 1266,
+      "output_tokens": 131,
+      "seconds": 10.116906999988714,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

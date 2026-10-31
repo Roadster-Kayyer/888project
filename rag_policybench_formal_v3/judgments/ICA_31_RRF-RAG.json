@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_31",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly distinguishes between business and social visas, aligns with reference documents, and includes relevant details about applicant requirements."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly distinguishes between business and social visas, aligns with reference documents, and includes relevant details about applicant requirements.\"\n}\n\n\nThe candidate answer directly addresses the question, correctly differentiates between the two types of visas, and is supported by evidence from the documents provided. The answer also includes relevant details about the requirements for each type of visa application, which is consistent with the information in Document 2. There are no omissions or unsupported claims in the candidate's response.",
+      "input_tokens": 911,
+      "output_tokens": 145,
+      "seconds": 11.394644300002255,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

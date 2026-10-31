@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009878",
+  "doc_id": "896",
+  "query_type": "casual",
+  "query": "Can you tell me how to report casteism?",
+  "corpus_query_index": 9877,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 5]\nCommunity Emergency Response Team (CERT) Training:\nThe CERT training is a program that educates citizens on disaster preparedness and response. It teaches individuals how to respond to emergencies, such as natural disasters, and provides them with the skills to assist their communities during crisis situations.",
+  "retrieved_doc_ids": [
+    "57",
+    "253",
+    "255",
+    "799",
+    "1704"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "48cb3d67856364b75d29760210df3a7f1d7f5d207fe5a467e75bbc957ad916b9",
+  "answer": "You cannot report casteism directly to the police. However, if you face discrimination, you can report it to the police if they refuse to help. For missing persons, go to the nearest police station and file a First Information Report (FIR). [Document 3] For more community support, consider CERT training which can empower you to handle emergencies effectively. [Document 5]",
+  "input_tokens": 413,
+  "output_tokens": 78,
+  "seconds": 9.944709599996713,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

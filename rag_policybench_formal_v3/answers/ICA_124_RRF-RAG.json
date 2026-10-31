@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_124",
+  "doc_id": "PB_a8cd1e2cca8ee87c6824",
+  "query_type": "ICA_134",
+  "query": "Who is required to be present during my child's Singapore citizenship registration?",
+  "reference_answer": "Children age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.",
+  "corpus_query_index": 196,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nA child born in Singapore to legally married parents who are both Singapore citizens (or either one is a Singapore citizen) at the time of child's birth, is automatically a Singapore Citizen.\n\n[Document 2]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 3]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 4]\nChildren age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.\n\n[Document 5]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.",
+  "retrieved_doc_ids": [
+    "PB_18afcc43a443719b9c31",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_46ec4c9c421699906017",
+    "PB_a8cd1e2cca8ee87c6824",
+    "PB_bcdfbf4db75a59af04ef"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2b281517db58976cd010907e81124591860ee7147f49029c6c1f8102114b6b4a",
+  "answer": "According to [Document 4], children aged 15 and above are required to be present during the citizenship registration, accompanied by the main sponsor. [Document 1] confirms that all Singapore-born children are automatically citizens. However, for registration, [Document 4] specifies the attendance requirement.",
+  "input_tokens": 473,
+  "output_tokens": 61,
+  "seconds": 7.756384500011336,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

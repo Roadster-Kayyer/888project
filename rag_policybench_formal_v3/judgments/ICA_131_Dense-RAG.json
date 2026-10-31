@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_131",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the timeline for applying for citizenship and references the processing time, ceremony timeline, and the need for a Re-Entry Permit, all supported by the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the timeline for applying for citizenship and references the processing time, ceremony timeline, and the need for a Re-Entry Permit, all supported by the documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate's answer directly addresses the question by providing the correct timeline for applying for citizenship (two years after being granted PR status) and also includes relevant information about the processing time, ceremony timeline, and the need for a Re-Entry Permit, all of which are corroborated by the evidence provided in the documents. The",
+      "input_tokens": 818,
+      "output_tokens": 192,
+      "seconds": 14.578711999987718,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

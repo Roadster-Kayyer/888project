@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004015",
+  "doc_id": "1720",
+  "query_type": "hard",
+  "query": "What recourse does society have against law enforcement negligence?",
+  "corpus_query_index": 4014,
+  "system": "RRF-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nCausing Death by Negligence:\nCausing death by negligence is punishable under Section 304A IPC, with imprisonment for up to 2 years and/or a fine.\n\n[Document 2]\nCitizen Rights During Investigations:\nCitizens have the right to remain silent, seek legal counsel, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation, with protection against torture, cruel, or inhuman treatment.\n\n[Document 3]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.\n\n[Document 4]\nIntellectual Property Rights Enforcement Cell:\nThe Intellectual Property Rights Enforcement Cell handles cases related to copyright, trademark, and patent violations, including piracy, counterfeiting, and other intellectual property crimes.\n\n[Document 5]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.",
+  "retrieved_doc_ids": [
+    "663",
+    "1418",
+    "958",
+    "2024",
+    "1926"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a71e5ecd62d63ed35861cf197c935938bdfcc31e625ae190b4ef070b47513f89",
+  "answer": "Society can report medical negligence by visiting a police station and filing a complaint, or contact the Tamil Nadu Medical Council. For law enforcement negligence, if causing death, it's punishable under Section 304A IPC with up to 2 years in prison. Citizens also have rights during investigations like seeking legal counsel and being protected against torture. [Document 1-5]",
+  "input_tokens": 356,
+  "output_tokens": 77,
+  "seconds": 9.88213050000013,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

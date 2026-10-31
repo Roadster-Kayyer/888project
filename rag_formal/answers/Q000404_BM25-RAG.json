@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000404",
+  "doc_id": "107",
+  "query_type": "search",
+  "query": "Can you tell me about the duties of Child Welfare Police Officers?",
+  "corpus_query_index": 403,
+  "system": "BM25-RAG",
+  "reference_answer": "3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 3]\nApproaching the Child Welfare Committee:\nTo approach the Child Welfare Committee, contact the District Child Protection Unit or the local police station. They will direct you to the Committee, which will assess the situation and provide necessary support and guidance. You can also reach out to NGOs working with children for assistance.\n\n[Document 4]\nChild Marriage in Tribal Communities:\nThe Tamil Nadu Police addresses child marriage in tribal communities through awareness programs and collaboration with tribal welfare departments. They conduct regular checks and raids to prevent child marriages, and work with NGOs to educate communities about the ill effects of child marriage.\n\n[Document 5]\nGender-Sensitive Policing:\nReforms include:\n* All-women police stations\n* Special cells for women and child welfare\n* Training for officers on gender sensitivity",
+  "retrieved_doc_ids": [
+    "107",
+    "108",
+    "1167",
+    "1399",
+    "1640"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eb891a3ddb1331b1e3e6c4cb88e0064049ff482c38d4e1add05d8eecff271ac5",
+  "answer": "Child Welfare Police Officers investigate cases of child abuse and exploitation, support child victims, and coordinate with the Child Welfare Committee. They also address issues like child marriage in tribal communities and implement gender-sensitive policing reforms. [Document 1]",
+  "input_tokens": 409,
+  "output_tokens": 47,
+  "seconds": 5.932678799999849,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

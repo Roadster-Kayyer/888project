@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005320",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the procedure but lacks specific evidence and details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the procedure but lacks specific evidence and details.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the candidate's answer, the procedure to challenge an incorrect police report is mentioned but without the specific evidence or details that would be required to fully support the claims, such as the need to file a complaint with the police or the court, provide evidence, apply for quashing of the FIR under Section 482 CrPC, and consult a lawyer. The absence of evidence and the lack of detailed procedural steps in the answer result in a score of 1 for correctness and relevance, with a null score for faithfulness due to the lack of substantive factual claims supported by evidence.",
+      "input_tokens": 429,
+      "output_tokens": 192,
+      "seconds": 14.929631299997709,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

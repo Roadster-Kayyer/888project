@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_111",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need for a valid REP to maintain PR status and accurately reflects the consequences of losing the REP as per the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need for a valid REP and its role in maintaining PR status, supported by Document 4 and Document 2.\",\n}",
+      "input_tokens": 813,
+      "output_tokens": 73,
+      "seconds": 5.923918100001174,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the need for a valid REP to maintain PR status and accurately reflects the consequences of losing the REP as per the documents.\"}\n\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question about maintaining PR status. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents. The reason is a succinct explanation of the scores.",
+      "input_tokens": 853,
+      "output_tokens": 153,
+      "seconds": 11.731000700005097,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_102",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the reference documents. The answer correctly states the need for acceptance into a full-time course and the method of renewal (online e-Service), which is directly supported by the information in Document 1. There are no omissions or unsupported claims in the candidate's answer.",
+      "input_tokens": 917,
+      "output_tokens": 136,
+      "seconds": 10.852161200004048,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

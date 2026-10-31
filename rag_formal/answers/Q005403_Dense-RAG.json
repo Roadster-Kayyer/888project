@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005403",
+  "doc_id": "1971",
+  "query_type": "casual",
+  "query": "So, how do I legally adopt a kid in Tamil Nadu?",
+  "corpus_query_index": 5402,
+  "system": "Dense-RAG",
+  "reference_answer": "Adopting a Child:\nTo adopt a child legally, contact a recognized adoption agency in Tamil Nadu. File an application with the agency, providing required documents, including age and income proof. The agency will guide you through the adoption process, which includes home study, counseling, and court proceedings.",
+  "context": "[Document 1]\nAdopting a Child:\nTo adopt a child legally, contact a recognized adoption agency in Tamil Nadu. File an application with the agency, providing required documents, including age and income proof. The agency will guide you through the adoption process, which includes home study, counseling, and court proceedings.\n\n[Document 2]\nApplying for Probate of a Will in Tamil Nadu:\nTo apply for probate:\n1. File a petition with the District Court\n2. Submit the original will and death certificate\n3. Pay the required court fees\n\n[Document 3]\nReporting Illegal Adoption or Child Trafficking:\nTo report illegal adoption or child trafficking, contact the Tamil Nadu Police Department's Childline at 1098 or the local police station. You can also reach out to the District Child Protection Unit (DCPU) or the State Adoption Resource Agency (SARA).\n\n[Document 4]\nApproaching Children's Court:\nTo approach the Children's Court, contact the court directly or consult a lawyer. You can also reach out to the Tamil Nadu State Legal Services Authority for guidance. They will help you with the necessary procedures and documentation.\n\n[Document 5]\nReporting Illegal Adoption:\nTo report illegal adoption, contact the local police station or the Tamil Nadu State Adoption Resource Agency (TNSARA). Provide details of the incident, and they will guide you through the process.",
+  "retrieved_doc_ids": [
+    "1971",
+    "1842",
+    "117",
+    "1165",
+    "964"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f214dfc62c949f2d3d189927ae7da4deebcf3a47a8ac1b01bfef33990efd0eed",
+  "answer": "To legally adopt a child in Tamil Nadu, contact a recognized adoption agency. File an application with them, providing necessary documents like age and income proof. The agency guides through home study, counseling, and court proceedings. [Document 1]",
+  "input_tokens": 402,
+  "output_tokens": 49,
+  "seconds": 6.29315250000036,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

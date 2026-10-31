@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005955",
+  "doc_id": "207",
+  "query_type": "hard",
+  "query": "What's the certification procedure for people who clean houses?",
+  "corpus_query_index": 5954,
+  "system": "Dense-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nHiring Household Help:\nWhen hiring household help:\n* Verify their identity and references\n* Conduct a thorough background check\n* Inform your local police station about new hires\n\n[Document 2]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nCommunity Security Audit Process:\nThe Community Security Audit process involves a team of police officials and community members assessing the security needs of a neighborhood or area. They identify potential security risks, inspect infrastructure, and provide recommendations for improvement.\n\n[Document 4]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 5]\nPolice Verification for Tenants:\nTo get police verification for tenants, submit a request to the local police station with required documents, including tenant's ID proof, address proof, and rental agreement. The police will verify the tenant's background and issue a clearance certificate.",
+  "retrieved_doc_ids": [
+    "1906",
+    "207",
+    "1711",
+    "1193",
+    "204"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3eae620e3c2b149909864259c23dfb0c48766b705c6b5b53b0eb8201976dfc04",
+  "answer": "The certification procedure for house cleaners typically involves verifying their identity and conducting a background check. This can be done through local police stations by submitting required documents like ID proofs and declarations, which are then verified and reported back. [Document 1, Document 2]",
+  "input_tokens": 374,
+  "output_tokens": 53,
+  "seconds": 6.713824499998736,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

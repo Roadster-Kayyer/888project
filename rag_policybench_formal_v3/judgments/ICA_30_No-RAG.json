@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_30",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the use of QR codes for immigration clearance but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly addresses the use of QR codes for immigration clearance but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\n(Note: The \"evidence\" key is set to null because the provided candidate answer does not contain direct evidence from the reference text. In a real-world scenario, the evidence would be a direct quote or paraphrase from the reference that supports the candidate answer.)",
+      "input_tokens": 416,
+      "output_tokens": 131,
+      "seconds": 9.529544200006058,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

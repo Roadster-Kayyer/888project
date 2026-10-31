@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008552",
+  "doc_id": "657",
+  "query_type": "formal",
+  "query": "What penalties can be imposed for acts of domestic violence?",
+  "corpus_query_index": 8551,
+  "system": "Dense-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 3]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 4]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.\n\n[Document 5]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.",
+  "retrieved_doc_ids": [
+    "657",
+    "680",
+    "581",
+    "679",
+    "688"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "25c386d819292cdc92c87893a3efb5e896374bb8b447b4de147485d85a9dbca1",
+  "answer": "For domestic violence, penalties include up to 3 years in prison and/or a fine under the Protection of Women from Domestic Violence Act, 2005. [Document 1] Additionally, harassment of divorced women can result in up to 3 years in prison and/or a fine. [Document 3] Assaults during labor disputes can lead to up to 3 years in prison and/or a fine. [Document 4] Assaults with sexual intent can result in 1-5 years in prison. [Document 5] [Document 2] details violence during strikes but doesn't specify additional penalties.",
+  "input_tokens": 394,
+  "output_tokens": 127,
+  "seconds": 16.33745210000052,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

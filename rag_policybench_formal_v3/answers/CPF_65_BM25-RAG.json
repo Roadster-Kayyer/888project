@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_65",
+  "doc_id": "PB_377d7608d12421ff652e",
+  "query_type": "CPF_111",
+  "query": "I was ineligible for Matched Retirement Savings Scheme for the past few years after turning 71 years old. With the lifting of the age cap of 70 from 2025, will my eligibility be revised for the past few years?",
+  "reference_answer": "No, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+  "corpus_query_index": 129,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 2]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 3]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 4]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 5]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.",
+  "retrieved_doc_ids": [
+    "PB_377d7608d12421ff652e",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_5b5856d1886897cce5a3",
+    "PB_95a5467e7a1008fc8501",
+    "PB_5970b9dd48a067a0363d"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4d40a839b9a62a61bf203aabf86b964c7e14db514282c10098c4b25ed40f726f",
+  "answer": "Based on Document 1, eligibility for the MRSS matching grant starts from 2025 for seniors above 70. Since the enhancement took effect from 2025, your past years' ineligibility due to the age cap does not get revised. You'll need to wait until 2025 onwards to be eligible. [Document 1]",
+  "input_tokens": 909,
+  "output_tokens": 78,
+  "seconds": 10.46890490000078,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_16",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer suggests a possible system delay but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer suggests a possible system delay but lacks direct evidence from the reference.\",\n  \"answer\": \"The deduction might be due to a delay in updating the system. It can take some time for changes to be reflected in all records.\"\n}\n\n\nIn this evaluation, the candidate's answer is partly correct (1) as it addresses the issue of the deduction continuing post-deletion, which is relevant to the question (1). However, the answer does not directly reference the specific instructions from the reference material that state the deduction will proceed if deleted within three working days, hence the faithfulness score is null due to the lack of direct evidence. The reason succinctly explains the scores.",
+      "input_tokens": 377,
+      "output_tokens": 186,
+      "seconds": 14.000324799999362,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

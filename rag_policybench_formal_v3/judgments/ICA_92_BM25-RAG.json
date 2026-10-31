@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_92",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly distinguishes between visa and visit pass, directly addresses the question, and is supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly distinguishes between visa and visit pass, addressing both pre-entry and point-of-entry aspects, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] A valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore)",
+      "input_tokens": 1505,
+      "output_tokens": 192,
+      "seconds": 14.972828300000401,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly distinguishes between visa and visit pass, directly addresses the question, and is supported by evidence from Documents 1 and 5.\"}\n\n(Note: The \"faithfulness\" score of 2 is based on the candidate answer being supported by evidence from Document 1, which explains the difference between a visa and a visit pass, and Document 5, which provides an example of a visa exemption and the process for extending a visit pass. The reason is concise and accurately reflects the evaluation.)",
+      "input_tokens": 1545,
+      "output_tokens": 137,
+      "seconds": 10.868581599992467,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002242",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects law enforcement strategies for exploitation of tribal artisans and other related issues, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects law enforcement strategies for exploitation of tribal artisans and other related issues, supported by evidence from all documents.\"\n}",
+      "input_tokens": 892,
+      "output_tokens": 74,
+      "seconds": 5.793584800001554,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

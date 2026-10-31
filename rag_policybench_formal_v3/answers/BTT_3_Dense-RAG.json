@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_3",
+  "doc_id": "PB_44fecebdc3e9128be8a9",
+  "query_type": "BTT",
+  "query": "What driving control can be used to switch on a device to clear the windshield when it is raining?",
+  "reference_answer": "The Wiper Switch.",
+  "corpus_query_index": 23,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe Wiper Switch.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 4]\nBasic theory of driving.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_44fecebdc3e9128be8a9",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_d52d8afcd0f078500080",
+    "PB_043f86bad043c042932a",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b05245c7d7eb772233f0a8e2b819cb91250b1ac1a819162a7eafd007e8d820b4",
+  "answer": "According to [Document 1], the Wiper Switch can be used to switch on a device that clears the windshield when it's raining.",
+  "input_tokens": 200,
+  "output_tokens": 29,
+  "seconds": 11.717271399997117,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

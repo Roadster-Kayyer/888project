@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004094",
+  "doc_id": "1735",
+  "query_type": "search",
+  "query": "Can you explain how the presumption of innocence operates in court systems?",
+  "corpus_query_index": 4093,
+  "system": "RRF-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nSurrendering in Court:\nTo surrender in court:\n1. Appear before the court with a lawyer, if possible.\n2. Inform the court that you want to surrender.\n3. The court will then take you into custody and proceed with the case.\n\n[Document 3]\nProduction Warrants for Accused in Custody:\nThe police file a production warrant application with the court, stating the reason for producing the accused. The court issues a warrant, and the accused is produced before the court. The police must follow court guidelines and ensure the accused's rights are protected.\n\n[Document 4]\nPlea Bargaining Procedure:\nTo plea bargain, the accused must apply to the court. The court will then consider the application and may allow the accused to plead guilty in exchange for a reduced sentence. The accused must agree to the terms, and the court must approve the agreement.\n\n[Document 5]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1035",
+    "782",
+    "1117",
+    "1040"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "266eef01376cdb42a2cefa94282a7f98675a035a1fd619a0f6c53fb06175034f",
+  "answer": "The presumption of innocence means an accused is presumed innocent until proven guilty. This is upheld by law in India, as per the Constitution and CrPC. The burden lies with the prosecution to prove guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 49,
+  "seconds": 6.30357980000008,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

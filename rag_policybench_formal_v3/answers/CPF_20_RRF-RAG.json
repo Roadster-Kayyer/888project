@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_20",
+  "doc_id": "PB_066794289dd14caa73dd",
+  "query_type": "CPF_111",
+  "query": "I lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+  "reference_answer": "It is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "corpus_query_index": 80,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.\n\n[Document 2]\nYou can help a beneficiary with medical condition (e.g. who is physically immobile or mentally incapacitated) to withdraw their GovCash monies if you are:Aged 21 years and above; andA next-of-kin, or caregiver, or appointed donee under the Lasting Power of Attorney (LPA), or court-appointed Deputy of the beneficiaryTo help with the withdrawal of the GovCash monies, please bring the following documents and visit anyOCBC-New ATMduring branch operating hours, where OCBC Digital Ambassadors will be available to render assistance:a) Original documentary evidence stating the beneficiary's medical condition (e.g. doctor's memorandum, medical report or court order). The date of the document(s) should not be more than 1 year from the withdrawal date, unless it specifically states that the patient's condition is permanent or the condition is known to be permanent (e.g. bedridden, immobile, physically incapacitated, disabled, intellectually disabled, autism, down syndrome, cerebral palsy, etc);b) A photocopy of the beneficiary’s NRIC;c) Your original NRIC; andd) Beneficiary’s GovCash Payment Reference Number (PRN\n\n[Document 3]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 4]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\n\n[Document 5]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs",
+  "retrieved_doc_ids": [
+    "PB_066794289dd14caa73dd",
+    "PB_a37dbdc80a96908914ec",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_5ae2776cd5bb7bd71a02",
+    "PB_aee729ae9fbc3265b81f"
+  ],
+  "trimmed_doc_ids": [
+    "PB_a37dbdc80a96908914ec",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fdd6d54e5d5ae9e03d4083251c163263dfe19011f10c20e026e387ac42072dae",
+  "answer": "No one else can withdraw your money. To access your GovCash, you need your Payment Reference Number (PRN) and undergo Singpass Face Verification. This ensures only you can withdraw your Government benefits. [Document 1]",
+  "input_tokens": 887,
+  "output_tokens": 47,
+  "seconds": 6.33805449999636,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

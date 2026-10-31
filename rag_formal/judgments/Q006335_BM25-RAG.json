@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006335",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "The candidate answer directly addresses the question and is supported by evidence from Documents 3 and 5, which provide the steps for reporting a missing person and tracking the complaint status."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for tracking a missing person, supported by evidence from Documents 3 and 5.\",\n}",
+      "input_tokens": 796,
+      "output_tokens": 68,
+      "seconds": 5.36183329999767,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"The candidate answer directly addresses the question and is supported by evidence from Documents 3 and 5, which provide the steps for reporting a missing person and tracking the complaint status.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 because all substantive factual claims in the candidate answer are supported by the evidence provided in the documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 836,
+      "output_tokens": 153,
+      "seconds": 12.131371900002705,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007951",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe correctness score is 1 because the candidate answer is relevant to the question but omits the specific range of penalties mentioned in the reference (2 to 7 years of imprisonment and a fine). The relevance score is 1 because the candidate answer addresses the topic of penalties for making death threats but does not provide the specific details from the reference. Faithfulness is null because there is no substantive factual claim in the candidate answer that can be directly supported or contradicted by the supplied evidence, which in this case is absent. The reason succinctly explains the scores given.",
+      "input_tokens": 370,
+      "output_tokens": 192,
+      "seconds": 14.847943000000669,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

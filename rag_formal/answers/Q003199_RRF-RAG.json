@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003199",
+  "doc_id": "1574",
+  "query_type": "search",
+  "query": "In what way does the Police Radio Branch facilitate communication networks?",
+  "corpus_query_index": 3198,
+  "system": "RRF-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\nEmergency Communications during Network Outages:\nIn case of a network outage, the Tamil Nadu Police uses:\n* Alternative communication channels like satellite phones and two-way radios\n* Backup power systems to maintain communication hubs\n* Pre-established protocols for emergency messaging and coordination\n\n[Document 4]\nTamil Nadu Police Radio Branch Recruitment:\nRecruitment for the Tamil Nadu Police Radio Branch is done through the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB). Candidates must meet eligibility criteria, pass a written exam, and undergo physical and medical tests to be selected.\n\n[Document 5]\nModern Communication Systems:\nThe Tamil Nadu Police has implemented modern communication systems, including a dedicated police helpline (100), social media integration, and mobile apps (e.g., \"Tamil Nadu Police\" app) to facilitate public interaction and emergency response.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1536",
+    "1487",
+    "1626"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "aaddf2b5d5fe9a426c42a77a925eccd00017f1f37c150c6f40958f7e7e9ddbf7",
+  "answer": "The Police Radio Branch facilitates communication networks by maintaining and coordinating police operations through wireless communication, using backup systems like satellite phones and two-way radios, and implementing modern tools like a dedicated police helpline and mobile apps. [Document 1, Document 2]",
+  "input_tokens": 375,
+  "output_tokens": 52,
+  "seconds": 6.9230981999990036,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

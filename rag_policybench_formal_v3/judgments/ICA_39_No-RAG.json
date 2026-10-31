@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_39",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the reference, which suggests applying for a new PR visa."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference, which suggests applying for a new PR visa.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key refers to the hypothetical document that would contain the detailed steps and requirements for reapplying for PR status, which is not provided in the text but is implied to exist and be relevant. In a real-world scenario, the actual evidence would need to be included in the JSON object to fully comply with the instructions.",
+      "input_tokens": 415,
+      "output_tokens": 154,
+      "seconds": 11.622010999999475,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_30",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the question, but omits the specific sequence of 'look right, then left, then right again'."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question, but omits the specific sequence of 'look right, then left, then right again'.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nIn this evaluation, the candidate answer is deemed partially correct (1) as it refers to the correct document (Document 2) that advises drivers to complete their turn and clear the junction. However, it fails to mention the specific sequence of looking right, then left, then right again as suggested by the reference (Document 1). The relevance score is 1 because the candidate answer does address the question of the recommended sequence to look at a junction, but it does not fully cover the main reference facts. The",
+      "input_tokens": 707,
+      "output_tokens": 192,
+      "seconds": 14.695625100008328,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_127",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the consequences of not having a valid REP and maintains Singapore citizenship with a valid passport, supported by Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the consequences of not having a valid REP and maintains Singapore citizenship with a valid passport, supported by Documents 1 and 2.\"\n}\n\n\nThe candidate answer is correct in stating that lacking a valid REP results in loss of PR status, which is directly supported by Document 2. It also correctly addresses the possibility of retaining citizenship with a valid passport, which aligns with the advice in Document 4. The answer is relevant as it directly responds to the question about losing citizenship when living overseas. The faithfulness is high as the candidate's answer is substantiated by the evidence provided in the documents, specifically Documents 1 and 2. The",
+      "input_tokens": 865,
+      "output_tokens": 192,
+      "seconds": 14.646106000000145,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

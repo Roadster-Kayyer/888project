@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_10",
+  "doc_id": "PB_d3d5f861b3deec1e8c73",
+  "query_type": "CPF_111",
+  "query": "Does the raising of the Enhanced Retirement Sum (ERS) affect my Basic Retirement Sum (BRS) and Full Retirement Sum (FRS)?",
+  "reference_answer": "No, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.",
+  "corpus_query_index": 57,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 4]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 5]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.",
+  "retrieved_doc_ids": [
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_737eb8e9312fbade39a9",
+    "PB_ffdb8da43be014161737"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d1027c13de0f79211176cd50ab17ea40146d62add000bfb226bcaaafcd977930",
+  "answer": "The raising of the Enhanced Retirement Sum (ERS) affects your potential monthly payouts in retirement, but not your Basic Retirement Sum (BRS) and Full Retirement Sum (FRS). It increases the amount you can top up to your Retirement Account (RA) to receive higher monthly payouts. [Document 1]",
+  "input_tokens": 859,
+  "output_tokens": 63,
+  "seconds": 7.986650400009239,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

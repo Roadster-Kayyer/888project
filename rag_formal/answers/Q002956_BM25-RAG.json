@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002956",
+  "doc_id": "1530",
+  "query_type": "original",
+  "query": "What is the procedure for emergency response to riots or civil unrest?",
+  "corpus_query_index": 2955,
+  "system": "BM25-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.\n\n[Document 3]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 4]\nComplaint against Civil Supplies Department Official:\nTo file a complaint, contact the District Supply Officer or the Commissioner of Civil Supplies. You can also visit the Tamil Nadu Civil Supplies Department website for the online complaint procedure or file a complaint at the nearest police station.\n\n[Document 5]\nAssault during Communal Riots:\nThe penalty for assault during communal riots can lead to imprisonment for up to 3 years and/or a fine, under the Tamil Nadu Public Order Act and the Indian Penal Code (IPC).",
+  "retrieved_doc_ids": [
+    "1530",
+    "1778",
+    "1534",
+    "419",
+    "670"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "37df67ab10632c0f0e190d066c1e9eb3268c9342a734b285f57494ad634cc85e",
+  "answer": "The procedure for emergency response to riots or civil unrest in Tamil Nadu includes deploying riot control police units, using non-lethal crowd control measures, restoring law and order, and protecting life and property. [Document 1] Additionally, foreigners can seek protection by contacting local police stations or embassies, while prison riots involve alerting police stations and containing the situation. [Document 3] For assaults, penalties include up to 3 years in prison and a fine. [Document 5] [Document 1] and [Document 3] provide specific details.",
+  "input_tokens": 429,
+  "output_tokens": 115,
+  "seconds": 14.835872700001346,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

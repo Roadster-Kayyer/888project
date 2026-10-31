@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_21",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies pro-rated expenses for non-subsidised bills under Medishield, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies pro-rated expenses for non-subsidised bills under Medishield, supported by Document 1.\",\n  \"evidence\": \"[Document 1] Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly identifying the specific expenses pro-rated for non-subsidised bills under the Medishield program, and the evidence from Document 1 directly supports this factual claim. The answer is fully faithful to the evidence provided, with no contradictions or unsupported claims. The reason succinctly explains the scores",
+      "input_tokens": 653,
+      "output_tokens": 192,
+      "seconds": 14.525507099999231,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2762.0341796875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

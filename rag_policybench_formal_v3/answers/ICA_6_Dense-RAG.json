@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_6",
+  "doc_id": "PB_9a8bc39406bbc966061a",
+  "query_type": "ICA_134",
+  "query": "How do I report a potential misuse of my address?",
+  "reference_answer": "You can submit a report on the misuse of your address.",
+  "corpus_query_index": 258,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can submit a report on the misuse of your address.\n\n[Document 2]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.\n\n[Document 3]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 4]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 5]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.",
+  "retrieved_doc_ids": [
+    "PB_9a8bc39406bbc966061a",
+    "PB_c1a387ce75f3f9c696bf",
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_aa5916ddd19af121154f",
+    "PB_af7358262394319e226a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "134fc571b2700cea262a47eb28548941225239567dbd9720c6c8f61ca0272493",
+  "answer": "You can report a potential misuse of your address by submitting a report on the misuse of your address [Document 1]. For other issues, verify emails from official domains and use ICA online forms for immigration-related reports [Document 3]. For tax declarations, visit the IRAS website or use myTax Mail [Document 5]. Ensure all communications are secure and check email legitimacy to avoid phishing scams [Document 2].",
+  "input_tokens": 651,
+  "output_tokens": 86,
+  "seconds": 11.579483800000162,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

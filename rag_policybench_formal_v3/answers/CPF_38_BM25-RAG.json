@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_38",
+  "doc_id": "PB_32f2b09e4d17d1cf6a68",
+  "query_type": "CPF_111",
+  "query": "I have transferred money from Investment Account back into my CPF Ordinary Account. When does the CPF interest computation start?",
+  "reference_answer": "When you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.",
+  "corpus_query_index": 99,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 4]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 5]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.",
+  "retrieved_doc_ids": [
+    "PB_32f2b09e4d17d1cf6a68",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_55387403dc004065b043",
+    "PB_18205d295d37e73b6d4f",
+    "PB_7056bc0f8ffd2e5c1abc"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ec0188da02f40aaf983809146f39433cfd9a37fc887bc4d19b4343feb75b05df",
+  "answer": "The CPF interest computation starts from the following month after transferring money from your Investment Account to your Ordinary Account. [Document 1]",
+  "input_tokens": 875,
+  "output_tokens": 27,
+  "seconds": 3.671455000003334,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_13",
+  "doc_id": "PB_f93c36f8738a815fe887",
+  "query_type": "BTT",
+  "query": "What is the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement?",
+  "reference_answer": "Three yellow reflective markings.",
+  "corpus_query_index": 5,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThree yellow reflective markings.\n\n[Document 2]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 3]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_f93c36f8738a815fe887",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_e0f7b3c7aacb50023519",
+    "PB_33b32af818c8c4223f8f",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "47c685dfe953d462e8a5df414453b7f36e83647802000e4589d85b5e92d44889",
+  "answer": "According to [Document 1], the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement is 3. [Document 3] doesn't relate to vehicle markings but confirms other details about travel declarations.",
+  "input_tokens": 681,
+  "output_tokens": 49,
+  "seconds": 6.1629873999991105,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

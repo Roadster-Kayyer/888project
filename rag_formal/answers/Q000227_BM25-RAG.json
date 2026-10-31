@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000227",
+  "doc_id": "1038",
+  "query_type": "formal",
+  "query": "What are the necessary papers needed to initiate a civil lawsuit?",
+  "corpus_query_index": 226,
+  "system": "BM25-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nComplaint against Civil Supplies Department Official:\nTo file a complaint, contact the District Supply Officer or the Commissioner of Civil Supplies. You can also visit the Tamil Nadu Civil Supplies Department website for the online complaint procedure or file a complaint at the nearest police station.\n\n[Document 2]\nReporting a Missing Pregnant Woman:\nTo report a missing pregnant woman, contact the nearest police station or dial 100. Provide details such as her name, age, and last seen location. The police will initiate a search and investigation.\n\n[Document 3]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.\n\n[Document 4]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 5]\nFiling a Case for Recovery of Possession of Property in Tamil Nadu:\nTo file a case for recovery of possession, approach the Civil Court or District Court in Tamil Nadu with jurisdiction over the property. File a suit for recovery of possession, providing documents such as property deeds, agreements, and proof of ownership. Follow court procedures and seek legal counsel if needed.",
+  "retrieved_doc_ids": [
+    "419",
+    "465",
+    "1778",
+    "1037",
+    "1980"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cad0b5b74ce88d722355150c01a0dba388f569abf54eb6d71b3979cdac038812",
+  "answer": "To initiate a civil lawsuit in Tamil Nadu, visit the court with required documents like property deeds and agreements. Consult a lawyer for guidance and follow court procedures. [Document 4] & [Document 5]",
+  "input_tokens": 425,
+  "output_tokens": 43,
+  "seconds": 5.690463699999782,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2054.322265625
+}

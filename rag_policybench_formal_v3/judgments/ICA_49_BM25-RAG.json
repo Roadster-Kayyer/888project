@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_49",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately lists required documents for IC collection and includes additional details for specific scenarios."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately lists required documents for IC collection and includes additional details for children's collection with authorised person, consistent with provided evidence.\",\n}",
+      "input_tokens": 982,
+      "output_tokens": 71,
+      "seconds": 5.869015999996918,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately lists required documents for IC collection and includes additional details for specific scenarios.\"}\n\nExplanation:\n- Correctness: The candidate answer correctly identifies the documents required for both self and child IC collection, which aligns with the reference.\n- Relevance: The answer directly addresses the question about the documents needed for IC collection.\n- Faithfulness: The candidate answer includes all the substantive factual claims from the retrieved evidence, such as the need for the consenting parent's IC and the signed authorisation letter for a child's collection by another person.\n- Reason: The explanation succinctly justifies the scores based on the accuracy, directness, and completeness of the candidate's answer.",
+      "input_tokens": 1022,
+      "output_tokens": 182,
+      "seconds": 14.359454199991887,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

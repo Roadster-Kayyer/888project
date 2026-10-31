@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001715",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, following the procedure outlined in Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, following the procedure outlined in Document 1.\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the process for acquiring a diminished TDS endorsement in Tamil Nadu, which involves submitting Form 13 to the Income Tax Department as stated in Document 1. The answer is relevant (2) because it directly addresses the question by specifying the necessary form and the process to follow. The faithfulness (2) is confirmed by the evidence provided in Document 1, which supports the factual claims made in the candidate answer. The reason succinctly explains the scores, indicating that the candidate's answer is accurate, directly relevant, and",
+      "input_tokens": 843,
+      "output_tokens": 192,
+      "seconds": 15.112411900001462,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

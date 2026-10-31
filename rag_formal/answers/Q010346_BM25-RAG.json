@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010346",
+  "doc_id": "980",
+  "query_type": "original",
+  "query": "What is the process for reporting unauthorized use of government vehicles?",
+  "corpus_query_index": 10345,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nReporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.\n\n[Document 2]\nReporting Unauthorized Use of Government Symbols:\nReport unauthorized use of government symbols to your local police station or call the Tamil Nadu Police Department's helpline (103). Provide details of the incident, including location and time.\n\n[Document 3]\nReporting Unauthorized Educational Institutions:\nReport unauthorized educational institutions to the District Collector or the Director of Government Examinations, Tamil Nadu. You can also contact the local police station or the Tamil Nadu Police Department's helpline.\n\n[Document 4]\nReporting Unauthorized Parking:\nTo report unauthorized parking, call the Tamil Nadu Police helpline (100) or visit the nearest police station. Provide details of the vehicle and location. You can also use the TN Police mobile app or contact your local traffic police to report the issue.\n\n[Document 5]\nReporting Unauthorized Constructions on PWD Land:\nTo report unauthorized constructions, contact the local PWD office or the Tamil Nadu Police Department. Provide details of the location and construction. You can also file a complaint online through the Tamil Nadu Government's portal or mobile app.",
+  "retrieved_doc_ids": [
+    "980",
+    "941",
+    "956",
+    "2064",
+    "1282"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "884f18be5242ea60ef7956a871470c9069d0759c3eca0a0f1bb2e955c9e5de5a",
+  "answer": "For unauthorized use of government vehicles, report it to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide details like vehicle number plate, location, and time of the incident. [Document 1]",
+  "input_tokens": 382,
+  "output_tokens": 46,
+  "seconds": 6.126801700000215,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

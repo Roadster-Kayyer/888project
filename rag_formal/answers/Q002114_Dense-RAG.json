@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002114",
+  "doc_id": "1379",
+  "query_type": "search",
+  "query": "Can you tell me about the methods used by Tamil Nadu's police to interact with local village officials?",
+  "corpus_query_index": 2113,
+  "system": "Dense-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nPolice-Public Interface Meetings:\nTo find information about police-public interface meetings in your area, visit the Tamil Nadu Police Department's official website or contact your local police station. You can also check the department's social media pages for updates on meeting schedules and locations.\n\n[Document 2]\nDigital Police-Public Interface Meetings:\nTo participate in digital police-public interface meetings, citizens can use the \"Citizen Portal\" on the Tamil Nadu Police website or mobile app. They can also follow social media handles of local police stations to stay updated on meeting schedules and join online sessions.\n\n[Document 3]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 4]\nModern Communication Systems:\nThe Tamil Nadu Police has implemented modern communication systems, including a dedicated police helpline (100), social media integration, and mobile apps (e.g., \"Tamil Nadu Police\" app) to facilitate public interaction and emergency response.\n\n[Document 5]\nLocal Police Station Contact:\nYou can find the contact information of your local police station on the Tamil Nadu Police website ([www.tnpolice.gov.in](http://www.tnpolice.gov.in)) or by visiting the police station in person. You can also call the police control room at 100 for assistance.",
+  "retrieved_doc_ids": [
+    "378",
+    "1347",
+    "1379",
+    "1626",
+    "302"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "08030fb33a9c85544dcec4199c5225a4275e322ad773df894b086e436628fce3",
+  "answer": "Tamil Nadu's police interact with local village officials through various methods:\n- Regular meetings and joint patrols with village administrative officers (VAOs).\n- Digital platforms like the \"Citizen Portal\" and social media.\n- Modern communication tools such as a dedicated helpline and mobile apps.\n- Police stations maintain contact information for public inquiries.\n[Document 3] [Document 4]",
+  "input_tokens": 431,
+  "output_tokens": 77,
+  "seconds": 9.883503700000801,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

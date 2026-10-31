@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001909",
+  "doc_id": "1341",
+  "query_type": "search",
+  "query": "Can you tell me about the use of digital forensics by the Tamil Nadu Police in their work?",
+  "corpus_query_index": 1908,
+  "system": "RRF-RAG",
+  "reference_answer": "Digital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.",
+  "context": "[Document 1]\nDigital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.\n\n[Document 2]\nModern Investigative Techniques:\nThe Tamil Nadu Police has adopted techniques like:\n* DNA analysis and forensic science\n* Cybercrime investigation and digital forensics\n* Data analytics and intelligence-led policing\n\n[Document 3]\nDigital Forensic Laboratory:\nThe digital forensic laboratory of Tamil Nadu Police is the Cyber Crime Lab, which analyzes digital evidence to aid in crime investigations.\n\n[Document 4]\nTechnology in Crime Investigation:\nTamil Nadu Police uses technology like CCTV surveillance, digital forensics, and mobile apps to investigate crimes. This helps in faster evidence collection, tracking, and solving cases.\n\n[Document 5]\nDigital Tools for Crime Scene Documentation:\nThe Tamil Nadu Police use digital tools such as:\n- Mobile Data Terminal (MDT) devices\n- CCTV cameras\n- Drones (in some cases)\n- Mobile apps for evidence collection and documentation.",
+  "retrieved_doc_ids": [
+    "1341",
+    "1638",
+    "1360",
+    "1615",
+    "1330"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5ebccb0fab3bc30e62670b6ea0a77e03f258973d039ac1ac4a862f60f9850414",
+  "answer": "The Tamil Nadu Police employs digital forensics to analyze digital evidence, aiding in investigations. They use a digital forensic laboratory, including a Cyber Crime Lab, to process data from devices like mobiles, computers, and other electronics. This helps in collecting, preserving, and solving cases efficiently. Additionally, they utilize various technologies like CCTV surveillance and mobile apps for evidence collection. [Document 1] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 364,
+  "output_tokens": 95,
+  "seconds": 12.07973200000015,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002662",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by Document 1.\",\n  \"evidence\": \"Document 1: After joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.\"\n}",
+      "input_tokens": 879,
+      "output_tokens": 124,
+      "seconds": 9.675128899998526,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

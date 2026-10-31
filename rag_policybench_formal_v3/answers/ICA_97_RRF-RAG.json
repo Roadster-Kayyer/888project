@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_97",
+  "doc_id": "PB_f51f66ccea224b52929b",
+  "query_type": "ICA_134",
+  "query": "During the passport application, I had selected Singapore as my collection centre. How do I change the collection venue to an overseas mission subsequently?",
+  "reference_answer": "Please contact us via the enquiry form for assistance.",
+  "corpus_query_index": 299,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 2]\nIf your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.\n\n[Document 3]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 4]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 5]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.",
+  "retrieved_doc_ids": [
+    "PB_cf24a4bb229a845e92d4",
+    "PB_018edecf2d72972f45b3",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_93b665013679b839e21c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4e0b8bdc41ff246970c165c8c222f87f60da8f7fe3da9bc02bbd0ab36e155c2b",
+  "answer": "To change the collection venue to an overseas mission, log into e-Services and select the closest Singapore Overseas Mission for the new collection venue. Alternatively, visit the nearest overseas mission in person. [Document 1]",
+  "input_tokens": 425,
+  "output_tokens": 45,
+  "seconds": 5.830548400001135,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

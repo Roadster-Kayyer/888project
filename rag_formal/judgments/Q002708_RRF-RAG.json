@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002708",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects the benefits and structures mentioned in the references, and provides specific factual claims supported by the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the reference facts about the benefits and structure of the Tamil Nadu Police, and is supported by evidence from Document 4.\",\n}",
+      "input_tokens": 1121,
+      "output_tokens": 192,
+      "seconds": 15.297684900000604,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, accurately reflects the benefits and structures mentioned in the references, and provides specific factual claims supported by the evidence.\"}",
+      "input_tokens": 1161,
+      "output_tokens": 56,
+      "seconds": 4.655224599999201,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_20",
+  "doc_id": "PB_066794289dd14caa73dd",
+  "query_type": "CPF_111",
+  "query": "I lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+  "reference_answer": "It is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "corpus_query_index": 80,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 2]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.\n\n[Document 3]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 4]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 5]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "retrieved_doc_ids": [
+    "PB_aba31460334fd65c7b41",
+    "PB_af7358262394319e226a",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_066794289dd14caa73dd"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bc6f6b397047ecd9ea42bef8b7886ba0c70eefc28164a5cfd371ff5cc64d03c9",
+  "answer": "To withdraw money, you need Singpass Face Verification using the Payment Reference Number (PRN). Someone else cannot access your money without this security feature. [Document 5]",
+  "input_tokens": 874,
+  "output_tokens": 36,
+  "seconds": 5.006229499995243,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

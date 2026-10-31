@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_76",
+  "doc_id": "PB_cf24a4bb229a845e92d4",
+  "query_type": "ICA_134",
+  "query": "I am currently overseas and require a new passport. How should I apply for it?",
+  "reference_answer": "Please submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.",
+  "corpus_query_index": 276,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 2]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 3]\nUnder the Singapore Constitution, minors who are Singapore Citizens by descent or registration must take the Oath of Renunciation, Allegiance and Loyalty (ORAL) upon attaining 21 years of age and before attaining 22 years of age. Minor is required to take the ORAL on or after 21st birthday date and no later than 22nd birthday.Once the minor has completed his/her oath taking formalities, he/she may apply for Singapore passport. Nonetheless, should the minor require to extend the validity of his/her Singapore Passport before taking the Oath, and in need to travel, he/she may apply for a new passport with a validity one day before his/her 22nd birthday. The passport can only be extended to its full 10-year after the minor has taken the ORAL.You may contact us via the enquiry form if you require further clarifications on passport renewal.\n\n[Document 4]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 5]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.",
+  "retrieved_doc_ids": [
+    "PB_6a37eec904475577f862",
+    "PB_8171046f23dbdf9c0430",
+    "PB_9f4c61a84436b24e8a5d",
+    "PB_09222d548a5f63af648a",
+    "PB_cf24a4bb229a845e92d4"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0177dc72c92114d2c6abe04fff366aac297846616ee04751bcb2f79065cdc99f",
+  "answer": "To apply for a new passport, visit the nearest Singapore Overseas Mission. Ensure your photo is updated if your appearance has changed significantly. Apply online or in person. [Document 5]",
+  "input_tokens": 803,
+  "output_tokens": 39,
+  "seconds": 5.490625399994315,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

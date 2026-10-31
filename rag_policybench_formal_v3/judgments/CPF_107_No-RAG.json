@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_107",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Uncertainty exists without specific information; the reference suggests a floor rate but does not confirm future rates.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the question about the maintenance of interest rates at a floor rate for the specified accounts. However, the answer is not fully correct because it does not directly confirm the continuation of the floor rate, which is the main point of the reference. The reference clearly states that there is a decision to extend the 4% floor rate, but the candidate's answer does not provide this factual claim, hence the faithfulness score is null due to the absence of a substantive",
+      "input_tokens": 444,
+      "output_tokens": 192,
+      "seconds": 14.868772799993167,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

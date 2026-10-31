@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004734",
+  "doc_id": "1850",
+  "query_type": "search",
+  "query": "What's the process to submit a writ petition at the Madras High Court?",
+  "corpus_query_index": 4733,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Writ Petition in Madras High Court:\nTo file a writ petition, approach the Madras High Court with a petition prepared by a lawyer. The petition should state the grounds for the writ and the relief sought. Submit the petition to the Registry, pay the required fee, and wait for the court to list the case for hearing.",
+  "context": "[Document 1]\nFiling a Writ Petition in the Madras High Court:\nTo file a writ petition, approach the Madras High Court with a duly drafted petition. You can engage a lawyer or file in person. Submit the petition to the Registry, pay the required fee, and follow the court's procedures.\n\n[Document 2]\nFiling a Writ Petition in Madras High Court:\nTo file a writ petition, approach the Madras High Court with a petition prepared by a lawyer. The petition should state the grounds for the writ and the relief sought. Submit the petition to the Registry, pay the required fee, and wait for the court to list the case for hearing.\n\n[Document 3]\nFiling a Habeas Corpus Petition in Madras High Court:\nTo file a habeas corpus petition, hire a lawyer or file in person at the Madras High Court. Provide details of the detention, including the date, time, and place. Attach supporting documents, such as affidavits and medical reports, if applicable. The petition should be filed in the High Court's writ jurisdiction, following the court's rules and procedures.\n\n[Document 4]\nFiling a PIL in Madras High Court:\nTo file a Public Interest Litigation (PIL) in Madras High Court, submit a petition to the Registrar's office. The petition should state the public interest issue, facts, and relief sought. Attach relevant documents and affidavits. The court will review and decide on the petition.\n\n[Document 5]\nFiling a Quo Warranto Petition:\nTo file a quo warranto petition, approach the Madras High Court. You'll need to:\n* Challenge a person holding a public office without authority\n* File a petition with the court, stating the grounds and praying for the issue of a writ of quo warranto.",
+  "retrieved_doc_ids": [
+    "1099",
+    "1850",
+    "1858",
+    "1975",
+    "1103"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ead5d9302d83850d22c8c59770e539e98ad17d229fc9f224dae78aa8bdef4d88",
+  "answer": "To file a writ petition at the Madras High Court, draft a petition, either with or without a lawyer's help. File it at the court's Registry, pay the fee, and follow the court's procedures. [Document 1] [Document 2]",
+  "input_tokens": 503,
+  "output_tokens": 55,
+  "seconds": 7.197283700001208,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

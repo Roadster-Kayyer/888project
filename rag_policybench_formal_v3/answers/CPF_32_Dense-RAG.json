@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_32",
+  "doc_id": "PB_756caeff044567542744",
+  "query_type": "CPF_111",
+  "query": "Why is the Workfare Income Supplement (WIS) for platform workers aligned to that of employees only in 2029 when the increased CPF contributions for platform workers is implemented in 2025?",
+  "reference_answer": "CPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+  "corpus_query_index": 93,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.\n\n[Document 2]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 5]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.",
+  "retrieved_doc_ids": [
+    "PB_756caeff044567542744",
+    "PB_44fcf2efe098f2e0edc3",
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_c843ce7aefae882d4bbe"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "57cff4d0f77b3c673caf78157338f82f51b3207d92b478648f8893126d04ee53",
+  "answer": "The Workfare Income Supplement (WIS) aligns with employees' benefits because platform workers' CPF contributions are gradually increased from 2025 to 2029. By 2029, their CPF contributions will match those of employees, making WIS suitable for them. This ensures consistency in support for lower-income workers. [Document 1]",
+  "input_tokens": 623,
+  "output_tokens": 76,
+  "seconds": 9.825066100005643,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_14",
+  "doc_id": "PB_51abc1b31808d773e226",
+  "query_type": "CPF_111",
+  "query": "What constitutes a second property for Workfare Income Supplement (WIS) scheme?",
+  "reference_answer": "All types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.",
+  "corpus_query_index": 73,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.\n\n[Document 2]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 5]\nFor the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.",
+  "retrieved_doc_ids": [
+    "PB_51abc1b31808d773e226",
+    "PB_cc9c3dfe3c902d1137c0",
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_44fcf2efe098f2e0edc3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ceaadd8568c5e566c439a911deadfc3780aeaca12a9783b4a1235326c60ea8a6",
+  "answer": "Properties such as Housing Development Board flats, private properties, and non-residential properties are considered in determining WIS eligibility. However, the focus is on a worker's total income, including basic salary, overtime pay, and bonuses, to assess their eligibility. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 57,
+  "seconds": 7.2870205999934115,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008525",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific information on fines or bans for hitting students."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific information on fines or bans for hitting students.\"\n}",
+      "input_tokens": 834,
+      "output_tokens": 192,
+      "seconds": 14.241093500000716,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

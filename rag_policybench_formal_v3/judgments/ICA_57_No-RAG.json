@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_57",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn the reference, it is suggested to update the new passport number in the online application form during the LTVP application, but it does not explicitly state that informing ICA is not required. The candidate answer is correct in its general assertion but does not fully align with the reference's implication.",
+      "input_tokens": 397,
+      "output_tokens": 130,
+      "seconds": 10.243356299994048,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

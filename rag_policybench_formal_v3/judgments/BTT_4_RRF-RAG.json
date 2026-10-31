@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_4",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses key road safety measures in school zones and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses key road safety measures in school zones and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Key road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given. The evidence provided from Document 1 is used to justify the faithfulness score, as it directly supports the factual claims made in the candidate answer. The correctness and relevance scores are both 2 because the candidate answer is correct and directly",
+      "input_tokens": 613,
+      "output_tokens": 192,
+      "seconds": 14.937307900007,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

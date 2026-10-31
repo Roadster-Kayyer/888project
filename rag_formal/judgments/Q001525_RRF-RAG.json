@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001525",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing all necessary details for reporting a canal leakage."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing all necessary details for reporting a canal leakage.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nNote: The evidence key in the JSON object refers to the document that contains the correct procedure for reporting a canal leakage, which the candidate's answer accurately reflects. The reason succinctly explains why the candidate's answer is correct and relevant.",
+      "input_tokens": 794,
+      "output_tokens": 129,
+      "seconds": 9.962718200000381,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

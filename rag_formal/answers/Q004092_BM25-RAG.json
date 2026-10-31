@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004092",
+  "doc_id": "1735",
+  "query_type": "formal",
+  "query": "Under what circumstances is the presumption of innocence applied in legal proceedings?",
+  "corpus_query_index": 4091,
+  "system": "BM25-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nLegal Fees for Divorce Proceedings:\nThe legal fees for divorce proceedings in Tamil Nadu vary depending on the complexity of the case and the lawyer's expertise. On average, fees range from ₹20,000 to ₹1 lakh or more.\n\n[Document 3]\nJuvenile Offenses:\nWhen a juvenile commits an offense, they are dealt with by the Juvenile Justice Board. The board aims to rehabilitate and reform the juvenile, rather than punish them. The juvenile's age, circumstances, and best interests are considered in the proceedings.\n\n[Document 4]\nArmed Forces Special Powers Act:\nThe Armed Forces Special Powers Act (AFSPA) is not applicable in Tamil Nadu, as it is primarily enforced in areas like Jammu and Kashmir, and parts of the Northeast. However, if applied, it grants special powers to armed forces in disturbed areas.\n\n[Document 5]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1812",
+    "104",
+    "1751",
+    "710"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7a6547546f9fee22235727f8b252eba2345aad6332ea0593733453a6a0fe1ef6",
+  "answer": "The presumption of innocence applies when an accused is presumed innocent until proven guilty, as stated in [Document 1]. This principle is upheld by the Constitution and CrPC in India.",
+  "input_tokens": 422,
+  "output_tokens": 37,
+  "seconds": 4.822309500001211,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

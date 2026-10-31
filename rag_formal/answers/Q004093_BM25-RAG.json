@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004093",
+  "doc_id": "1735",
+  "query_type": "casual",
+  "query": "So, what's the deal with the 'innocent until proven guilty' rule?",
+  "corpus_query_index": 4092,
+  "system": "BM25-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nFirst Hearing of a Criminal Case:\nAt the first hearing, the court reads out the charges to the accused, who then pleads guilty or not guilty. The judge may grant bail or remand the accused, and the case is posted for further hearing.\n\n[Document 3]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 4]\nTriple Talaq Law:\nUnder the Muslim Women (Protection of Rights on Marriage) Act, 2019, Muslim women can file complaints of Triple Talaq at the nearest police station. Special provisions include protection from arrest of the accused until the magistrate's order and provision of subsistence allowance to the victim.\n\n[Document 5]\nImmediate Action After a Road Accident:\nMove to a safe location, call the police (100) and report the incident. Provide basic first aid if needed, and do not leave the scene until the police arrive.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1822",
+    "933",
+    "475",
+    "835"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "30718c2ab34c5cc7a270a32514cbd28eae04ccc64f11c537ce482a14e7298f18",
+  "answer": "The 'innocent until proven guilty' rule, known as the Presumption of Innocence, ensures that accused individuals are considered innocent until proven guilty by the prosecution. This principle is legally upheld in India under the Constitution and CrPC, where the prosecution must prove the accused's guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 67,
+  "seconds": 8.78379330000098,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

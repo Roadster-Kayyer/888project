@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_86",
+  "doc_id": "PB_bc945ef27bfe4a4e76b0",
+  "query_type": "ICA_134",
+  "query": "Do I have to cancel my Dependant's pass before Student's Pass is issued?",
+  "reference_answer": "Upon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.",
+  "corpus_query_index": 287,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nUpon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.\n\n[Document 2]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 3]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 4]\nWe regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.\n\n[Document 5]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.",
+  "retrieved_doc_ids": [
+    "PB_bc945ef27bfe4a4e76b0",
+    "PB_552a298a8583e182f7ef",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_c1aaea57c1b02e2e8590",
+    "PB_9a542ab9b413f1095ed3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5f0e76021e89f1c455e1aed10537f0171b5f6062e3b92512b4788923dde422f0",
+  "answer": "No, you don't have to cancel your Dependant's pass before getting a Student's Pass. Upon issuing a Student's pass, your Dependant's Pass will be automatically cancelled. [Document 1]",
+  "input_tokens": 511,
+  "output_tokens": 43,
+  "seconds": 5.643463199987309,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

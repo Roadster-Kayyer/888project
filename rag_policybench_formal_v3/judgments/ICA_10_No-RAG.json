@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_10",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer does not directly address the method of printing a receipt after payment, and there is no provided evidence to support the claim."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate answer does not directly address the method of printing a receipt after payment, and there is no provided evidence to support the claim.\",\n  \"evidence\": null\n}",
+      "input_tokens": 424,
+      "output_tokens": 74,
+      "seconds": 5.78241369999887,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

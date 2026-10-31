@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003197",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the reference facts about the role and functions of the Police Radio Branch in Tamil Nadu, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively reflects the role of the Police Radio Branch as described in the reference documents, supported by evidence from all provided documents.\",\n}",
+      "input_tokens": 702,
+      "output_tokens": 74,
+      "seconds": 5.944921400001476,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the reference facts about the role and functions of the Police Radio Branch in Tamil Nadu, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 742,
+      "output_tokens": 63,
+      "seconds": 4.97663360000297,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

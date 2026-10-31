@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008029",
+  "doc_id": "562",
+  "query_type": "search",
+  "query": "What kind of fines or bans can street vendors receive for harassment?",
+  "corpus_query_index": 8028,
+  "system": "Dense-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nHarassing Public Transport Staff:\nHarassing public transport staff is an offense under the IPC and the Tamil Nadu Public Transport Corporations Act. The punishment can range from 1 year to 3 years of imprisonment and/or a fine.\n\n[Document 4]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 5]\nReporting Harassment in Public Places:\nTo report harassment in public places, call 100 or visit the nearest police station. You can also use the Tamil Nadu Police's mobile app to report incidents. Provide details of the incident, and the police will take necessary action.",
+  "retrieved_doc_ids": [
+    "562",
+    "507",
+    "561",
+    "578",
+    "86"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bf407b2b139648cfe5945d7851f8e9c5c212146a9fe25d3b54a6813b4795bbaa",
+  "answer": "Street vendors can face fines and bans including up to ₹5,000 and up to 3 years in prison for harassment, according to [Document 1]. Unauthorized vending can result in a ₹500 fine and goods seizure, with repeat offenders facing higher penalties, as stated in [Document 2]. For other forms of harassment, see [Document 3] and [Document 4]. For reporting, refer to [Document 5].",
+  "input_tokens": 391,
+  "output_tokens": 93,
+  "seconds": 11.827799099999538,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

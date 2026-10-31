@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_12",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies designated lanes and their applicability, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies designated lanes and their applicability, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] There will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.\"\n}",
+      "input_tokens": 974,
+      "output_tokens": 192,
+      "seconds": 14.640797599990037,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

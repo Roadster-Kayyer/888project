@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005401",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the procedure but lacks specific details about the steps and evidence required."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the procedure but lacks specific details about the steps and evidence required.\",\n  \"evidence\": null\n}\n\n\nIn the provided candidate answer, the procedure for adopting a child in Tamil Nadu is mentioned, which is relevant to the question. However, the answer does not fully cover the main reference facts such as the need for contacting a recognized adoption agency, filing an application, providing required documents, and the involvement of the District Child Welfare Committee (DCWC). The absence of specific details about the steps, evidence, and the mention of the process taking several months without elaboration on the court proceedings or home study, results in a score of 1 for correctness. The",
+      "input_tokens": 427,
+      "output_tokens": 192,
+      "seconds": 14.952878399999463,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

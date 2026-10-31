@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_35",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer suggests direct contact with authorities but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer suggests direct contact with authorities but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it advises contacting the appropriate agency, which is a part of the process described in the reference. However, it does not directly address the faithfulness criterion because it does not include the specific evidence required (original documents, NRIC, PRN, and Letter of Indemnity) as outlined in the reference. The reason succinctly explains the lack of faithfulness due to missing evidence.",
+      "input_tokens": 710,
+      "output_tokens": 155,
+      "seconds": 12.05627730001288,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_8",
+  "doc_id": "PB_6a37eec904475577f862",
+  "query_type": "ICA_134",
+  "query": "Should I update the photo in the current passport if my/my child's facial appearance has changed?",
+  "reference_answer": "Regardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.",
+  "corpus_query_index": 280,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 2]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 3]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 4]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 5]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "retrieved_doc_ids": [
+    "PB_6a37eec904475577f862",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_6a73d290ca55b1465a81",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_09222d548a5f63af648a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "620a2b996c80f188c42eb89beef858593ba9fd7c665a6ee20a06a169c8c81a4a",
+  "answer": "Yes, you should update the photo in your/current child's passport if your facial appearance has changed significantly. This ensures clear identification and helps with immigration processes. [Document 1]",
+  "input_tokens": 730,
+  "output_tokens": 37,
+  "seconds": 4.994959899995592,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

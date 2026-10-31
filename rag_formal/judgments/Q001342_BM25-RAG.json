@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001342",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the NDPS Act and related offenses, supported by Documents 1 and 2, and mentions application and penalties as per Documents 3, 4, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the NDPS Act and related offenses, supported by Documents 1 and 2, and mentions application and penalties as per Documents 3, 4, and 5.\"\n}",
+      "input_tokens": 894,
+      "output_tokens": 192,
+      "seconds": 14.887427400000888,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

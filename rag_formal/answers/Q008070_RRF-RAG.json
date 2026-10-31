@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008070",
+  "doc_id": "57",
+  "query_type": "hard",
+  "query": "What conditions allow authorities to get you to write your name on a piece of paper?",
+  "corpus_query_index": 8069,
+  "system": "RRF-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\nPolice Verification for Business Establishment:\nTo get police verification for a business, submit an application to your local police station with required documents (ID proof, address proof, and business registration papers). Police will conduct a background check and issue a verification report, which is usually required for licensing and registration purposes.\n\n[Document 2]\nFiling a Petition:\nTo file a petition, visit the police commissioner's or DGP's office during working hours. Submit a written petition with your name, address, and contact details. Clearly state the issue and provide supporting documents.\n\n[Document 3]\nAnonymous Complaints:\nNo, anonymous complaints are not accepted. You must provide your name and contact details to file a complaint. However, your identity will be kept confidential if you request it.\n\n[Document 4]\nCitizen Rights: Police Identification Procedures\nCitizens have the right to know the name, designation, and station of the police officer. They can also ask for identification and can refuse to answer questions without a valid reason. Citizens can file complaints if they feel their rights are violated.\n\n[Document 5]\nConditions of Conditional Bail:\nConditions may include:\n* Appearing in court as required\n* Not leaving the country without permission\n* Not contacting the victim or witnesses\n* Depositing a surety amount\n* Regularly reporting to the police station",
+  "retrieved_doc_ids": [
+    "212",
+    "36",
+    "14",
+    "1448",
+    "1804"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "c277ff8f631cf2fa4f1a0dae90f654fbf1124f9b3fd8a6d639fd099947ef65af",
+  "answer": "Conditions allowing authorities to get you to write your name on a piece of paper include filing a petition, where you need to provide your name and contact details, [Document 1-2]. For police verification, you must submit your ID proof and address proof, [Document 1]. Anonymous complaints are not accepted and require your name and contact details, [Document 2-3]. Conditions of conditional bail may also require writing your name, [Document 5].",
+  "input_tokens": 399,
+  "output_tokens": 94,
+  "seconds": 12.445528800002648,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

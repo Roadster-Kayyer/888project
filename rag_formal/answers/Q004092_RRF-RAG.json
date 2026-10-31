@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004092",
+  "doc_id": "1735",
+  "query_type": "formal",
+  "query": "Under what circumstances is the presumption of innocence applied in legal proceedings?",
+  "corpus_query_index": 4091,
+  "system": "RRF-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 3]\nSentencing Procedure:\nAfter conviction, the court hears arguments on sentencing from both the prosecution and defense. The judge considers factors like the severity of the crime, the accused's background, and mitigating circumstances. The sentence is then pronounced, and the accused is informed of their rights to appeal.\n\n[Document 4]\nRecording of Confessions:\nThe legal provision for recording confessions is under Section 164 of the CrPC and Section 25 of the Indian Evidence Act. Confessions must be recorded by a magistrate, in the presence of a lawyer, and with the accused's consent.\n\n[Document 5]\nPolice Seizing Property:\nYes, police can seize property during investigation with a warrant or under certain circumstances. A receipt is given, and the property is returned if not used as evidence.",
+  "retrieved_doc_ids": [
+    "1735",
+    "579",
+    "757",
+    "1724",
+    "50"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d39c0c243c923d9e08c57b19f8d2efd3b00cf614a5b6c386803450cb6d3a5272",
+  "answer": "The presumption of innocence applies when an accused is presumed innocent until proven guilty by the prosecution, who bears the burden of proving guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 407,
+  "output_tokens": 35,
+  "seconds": 4.802397600000404,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

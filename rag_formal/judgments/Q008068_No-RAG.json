@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008068",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by legal principles regarding consent."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by legal principles regarding consent.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: The \"evidence\" key is included to indicate that the candidate's answer is based on a document, even though the actual content of \"Document 1\" is not provided in the instruction. In a real-world scenario, the evidence would need to be explicitly referenced to fully justify the score.)",
+      "input_tokens": 367,
+      "output_tokens": 138,
+      "seconds": 10.505224400003499,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

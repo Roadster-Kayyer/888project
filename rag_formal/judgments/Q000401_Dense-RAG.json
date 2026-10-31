@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000401",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the role and responsibilities of Child Welfare Police Officers and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the role of Child Welfare Police Officers, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 766,
+      "output_tokens": 67,
+      "seconds": 5.426956799998152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the role and responsibilities of Child Welfare Police Officers and is supported by evidence from Document 1.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly addresses the question, and that Document 1 contains the necessary information to support the factual claims made in the candidate's answer. The reason provided is a brief explanation of the scores. In a real-world scenario, the actual content of Document 1 would need to be reviewed to confirm the faithfulness score.",
+      "input_tokens": 806,
+      "output_tokens": 140,
+      "seconds": 11.103359799999453,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_22",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the general processing time and acknowledges exceptions, supported by Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the general processing time and acknowledges exceptions, supported by Document 5.\",\n  \"evidence\": \"Document 5\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully faithful to the evidence provided in Document 5, which states the general processing time for Singapore PR applications and the possibility of longer processing for complex cases. The answer also correctly references the method of receiving updates on the application status.",
+      "input_tokens": 744,
+      "output_tokens": 131,
+      "seconds": 9.510927700001048,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

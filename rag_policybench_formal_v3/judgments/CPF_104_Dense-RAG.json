@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_104",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1, which states the condition for using Ordinary Account savings after a voluntary housing refund."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1, which states the condition for using Ordinary Account savings after a voluntary housing refund.\"\n}",
+      "input_tokens": 1138,
+      "output_tokens": 75,
+      "seconds": 6.17213819999597,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

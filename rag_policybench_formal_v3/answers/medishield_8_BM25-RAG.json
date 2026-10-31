@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_8",
+  "doc_id": "PB_b9aebe55fbad5f72dcba",
+  "query_type": "medishield",
+  "query": "For Mr. A's 1st hospitalisation in the policy year 1 Apr 2026 – 31 Mar 2027, what is the claimable amount and does it exceed the deductible?",
+  "reference_answer": "The claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+  "corpus_query_index": 329,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 2]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 3]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 4]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 5]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+  "retrieved_doc_ids": [
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_ee588d3fa5445377e2bc",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_b8fa647c38cb9cfface8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8b02dd709da50925b2c99d61ba8f0174aaf1137df891e0b1cd27358f83469226",
+  "answer": "The claimable amount is $1,000, which is less than the deductible of $2,000, so there is no payout from MediShield Life. The answer is provided in [Document 1].",
+  "input_tokens": 645,
+  "output_tokens": 47,
+  "seconds": 6.361151599994628,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_126",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses eligibility and application process, supported by evidence from ICA documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses eligibility and application process, supported by evidence from ICA documents.\",\n  \"evidence_references\": [\"Document 1\", \"Document 2\", \"Document 3\", \"Document 4\", \"Document 5\"]\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the question about applying for Singapore Permanent Residence (PR) and the eligibility criteria, which is the main reference point. The answer is relevant (2) because it refers to the ICA website for eligibility criteria, which is mentioned in the reference. The answer is faithful (2) as it includes all substantive factual claims about the application process and eligibility criteria, which",
+      "input_tokens": 710,
+      "output_tokens": 192,
+      "seconds": 14.716365799991763,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

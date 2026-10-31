@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_58",
+  "doc_id": "PB_10b7557459105ffc6c3e",
+  "query_type": "CPF_111",
+  "query": "Where can I find more information on Singtel's Scrip Dividend Scheme, as announced by Singtel on 12 November 2020?",
+  "reference_answer": "For financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share",
+  "corpus_query_index": 121,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 4]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 5]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future",
+  "retrieved_doc_ids": [
+    "PB_10b7557459105ffc6c3e",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_5524a72cc3bbbca92a03",
+    "PB_70e279a2efefc3723a97",
+    "PB_aba31460334fd65c7b41"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e630b8c254611c1ddb700b2df2783822553532fb39f4529080bf7fb2e0ee5dec",
+  "answer": "You can find more information on Singtel's Scrip Dividend Scheme through [Document 1]. It provides details about the interim dividend, offer price, and how to calculate the number of scrip shares issued. [Document 1] also mentions visiting the Singtel website for further information.",
+  "input_tokens": 994,
+  "output_tokens": 60,
+  "seconds": 8.047575299991877,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

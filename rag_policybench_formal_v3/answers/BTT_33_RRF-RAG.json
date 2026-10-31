@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_33",
+  "doc_id": "PB_15b5d9c0851609d354e4",
+  "query_type": "BTT",
+  "query": "What does the signal \"Means \\\"GO\\\" for straight ahead vehicles and \\\"GO\\\" for right turn vehicles\" indicate?",
+  "reference_answer": "It indicates that vehicles can proceed straight ahead as well as make a right turn.",
+  "corpus_query_index": 27,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 2]\nGive way to vehicles from the side road entering the main road.\n\n[Document 3]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nDrivers should proceed to complete their turn and clear the junction.",
+  "retrieved_doc_ids": [
+    "PB_15b5d9c0851609d354e4",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_d52d8afcd0f078500080",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_1bd233e28127cfee0c86"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e4ca988ee19bf8452174585096a33456cb8a1fcd8b5698b6e906d5f5ec122f0b",
+  "answer": "This signal means vehicles can go straight ahead or make a right turn. [Document 1] cites this indication clearly.",
+  "input_tokens": 278,
+  "output_tokens": 25,
+  "seconds": 288.42173020000337,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

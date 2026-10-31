@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007129",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects rights upon arrest, supported by multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects rights upon arrest, supported by multiple documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately lists the rights upon arrest, which are supported by all the documents provided. The answer is relevant (2) because it directly addresses the question about legal protections upon being taken into custody. The faithfulness (2) is confirmed by the fact that all substantive factual claims in the candidate answer are supported by the evidence from the documents. The reason succinctly explains the scores, noting that the candidate's answer is accurate and directly relevant to the question",
+      "input_tokens": 768,
+      "output_tokens": 192,
+      "seconds": 14.671691000003193,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

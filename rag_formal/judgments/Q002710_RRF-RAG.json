@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002710",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the unique perks of joining Tamil Nadu Police."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the unique perks of joining Tamil Nadu Police.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4]\"\n}\n\n\nThe reason for the scores is:\n\n- Correctness: The candidate's answer is factually correct and covers the main points mentioned in the reference documents.\n\n- Relevance: The answer directly addresses the question by listing the unique perks of joining the Tamil Nadu Police.\n\n- Faithfulness: The answer is fully supported by the evidence provided in the documents, which mention retirement benefits, medical and housing",
+      "input_tokens": 872,
+      "output_tokens": 192,
+      "seconds": 14.993194599999697,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

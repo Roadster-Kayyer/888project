@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001908",
+  "doc_id": "1341",
+  "query_type": "casual",
+  "query": "So, how do the police in Tamil Nadu use tech stuff to solve crimes?",
+  "corpus_query_index": 1907,
+  "system": "Dense-RAG",
+  "reference_answer": "Digital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.",
+  "context": "[Document 1]\nTechnology in Crime Investigation:\nTamil Nadu Police uses technology like CCTV surveillance, digital forensics, and mobile apps to investigate crimes. This helps in faster evidence collection, tracking, and solving cases.\n\n[Document 2]\nDigital Forensics in Investigations:\nThe Tamil Nadu Police uses digital forensics to analyze digital evidence, such as mobile devices, computers, and other electronic data, to aid in investigations. This helps in collecting and preserving evidence, tracking cybercrimes, and solving cases efficiently.\n\n[Document 3]\nModern Investigative Techniques:\nThe Tamil Nadu Police has adopted techniques like:\n* DNA analysis and forensic science\n* Cybercrime investigation and digital forensics\n* Data analytics and intelligence-led policing\n\n[Document 4]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 5]\nTamil Nadu Police and Artificial Intelligence:\nThe Tamil Nadu Police uses artificial intelligence (AI) in predictive policing to analyze crime patterns and identify potential hotspots. This helps in proactive policing and crime prevention.",
+  "retrieved_doc_ids": [
+    "1615",
+    "1341",
+    "1638",
+    "1705",
+    "1333"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "03231b7997cec2e03738d9591120d386530d249d3128a20221933ca881983817",
+  "answer": "Tamil Nadu Police employs various technologies including CCTV surveillance, digital forensics, and AI for crime-solving. They use digital forensics to analyze digital evidence, enhancing case resolution. Additionally, they leverage AI for predictive policing, analyzing crime patterns to prevent crimes proactively. [Document 1-5]",
+  "input_tokens": 374,
+  "output_tokens": 63,
+  "seconds": 8.078413900000669,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

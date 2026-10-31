@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004094",
+  "doc_id": "1735",
+  "query_type": "search",
+  "query": "Can you explain how the presumption of innocence operates in court systems?",
+  "corpus_query_index": 4093,
+  "system": "BM25-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nCourt Order for Handwriting Verification:\nTo get a court order for handwriting verification:\n1. File an application in the court.\n2. Explain the reason for verification.\n3. The court will issue an order if it deems necessary.\n\n[Document 3]\nFiling a Contempt of Court Petition:\nTo file a contempt of court petition, you must submit an application to the court that issued the original order. Provide evidence of non-compliance and explain why the respondent's actions constitute contempt. The court will review and decide on the petition.\n\n[Document 4]\nSenior Citizen Safety:\nThe Senior Citizen Safety program operates through:\n* Dedicated helplines and emergency response systems\n* Regular home visits and check-ins by police personnel\n* Safety awareness and self-defense training sessions\n* Collaboration with senior citizen associations and community groups\n\n[Document 5]\nModern Surveillance Systems:\nThe Tamil Nadu Police has implemented:\n* CCTV cameras in public areas\n* Intelligent Traffic Management Systems\n* Facial recognition technology in urban areas to enhance security and surveillance.",
+  "retrieved_doc_ids": [
+    "1735",
+    "1134",
+    "1055",
+    "1671",
+    "1632"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "768869cb4877fa904f898f7d8efb3287c897aba8f75a31610285df1e91fc970f",
+  "answer": "The presumption of innocence means an accused is presumed innocent until proven guilty. In India, this is legally upheld by the Constitution and CrPC, where the prosecution bears the burden of proving guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 400,
+  "output_tokens": 47,
+  "seconds": 6.281630999999834,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

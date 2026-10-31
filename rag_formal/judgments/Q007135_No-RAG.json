@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007135",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the question and lacks relevant information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the question and lacks relevant information.\",\n  \"evidence\": null\n}",
+      "input_tokens": 400,
+      "output_tokens": 62,
+      "seconds": 4.719902100005129,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_96",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate information from the reference documents about updating the profile in the MyICA app and ensuring QR code accuracy for travel."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate information from the reference documents about updating the profile in the MyICA app and ensuring QR code accuracy for travel.\",\n  \"evidence\": \"[Document 2]\"\n}",
+      "input_tokens": 1108,
+      "output_tokens": 95,
+      "seconds": 7.705534599997918,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

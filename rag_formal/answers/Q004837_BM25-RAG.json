@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004837",
+  "doc_id": "187",
+  "query_type": "formal",
+  "query": "How can one report bounced checks as a criminal act?",
+  "corpus_query_index": 4836,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 2]\nFiling a Cheque Bounce Case:\nTo file a cheque bounce case, send a demand notice to the drawer within 30 days of cheque return. If unpaid, file a complaint under Section 138 of the Negotiable Instruments Act at the concerned court in Tamil Nadu, along with required documents, such as the bounced cheque and demand notice.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nProtection Order\nA protection order is a court order to protect a person from domestic violence or harassment. You can get one by filing a petition under the Protection of Women from Domestic Violence Act, 2005, at a local court or through a women's cell at a police station.\n\n[Document 5]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.",
+  "retrieved_doc_ids": [
+    "187",
+    "1074",
+    "255",
+    "94",
+    "799"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9e743e93194ea2e03ab3b6c7db8852d5f3256fa2fdfbc33e1f8a18c63be670a3",
+  "answer": "To report bounced checks as a criminal act, file a complaint with the police station where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will investigate and may register a case under the Negotiable Instruments Act [Document 1]. Alternatively, send a demand notice to the drawer and file a complaint under Section 138 of the Negotiable Instruments Act at the concerned court in Tamil Nadu [Document 2].",
+  "input_tokens": 469,
+  "output_tokens": 102,
+  "seconds": 13.289437999999791,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

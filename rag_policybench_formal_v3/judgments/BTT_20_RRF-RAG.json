@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_20",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from Document 1 and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 1.\",\n}",
+      "input_tokens": 606,
+      "output_tokens": 192,
+      "seconds": 15.179730699994252,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from Document 1 and is fully supported by the evidence provided.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question, and that the evidence provided (Document 1) is reliable and directly supports the factual claim made in the candidate's answer. Since the instruction specifies to use actual scores and the evidence is assumed to be valid, the scores are set to their maximum values. In a real-world scenario, the faithfulness score would require verification of the evidence's authenticity and relevance.",
+      "input_tokens": 646,
+      "output_tokens": 150,
+      "seconds": 11.730814599999576,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

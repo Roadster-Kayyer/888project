@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008854",
+  "doc_id": "710",
+  "query_type": "search",
+  "query": "How do legal systems handle disputes over dividing family-owned property without consent?",
+  "corpus_query_index": 8853,
+  "system": "Dense-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nMatrimonial Disputes\nMatrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.\n\n[Document 3]\nProperty Attachment:\nDuring trials, property attachment is done through a court order. The police can seize properties under Section 102 of the CrPC. The process involves:\n* Court order issuance\n* Police seizure of property\n* Property documentation and storage\n\n[Document 4]\nCompromise in Compoundable Offenses:\nTo apply for compromise:\n1. Ensure the offense is compoundable\n2. Obtain consent from the complainant and accused\n3. Submit a compromise petition to the court\n4. Court approval is required for the compromise to be valid.\n\n[Document 5]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.",
+  "retrieved_doc_ids": [
+    "710",
+    "95",
+    "763",
+    "770",
+    "714"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "85efdba6099835488052dce1390ccb94da6ee257a3d3804eed2f0bec2b97df98",
+  "answer": "Legal systems handle disputes over family-owned property without consent through courts issuing property attachment orders under the CrPC. Civil suits and penalties may also apply, as per the Hindu Succession Act. For matrimonial disputes, police mediate but can escalate to courts under relevant acts like the Hindu Marriage Act or Domestic Violence Act. In cases of trespass or criminal intimidation, offenders face imprisonment and fines. [Document 3] [Document 1] [Document 2] [Document 5]",
+  "input_tokens": 407,
+  "output_tokens": 98,
+  "seconds": 13.06382929999927,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

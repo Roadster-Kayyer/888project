@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007936",
+  "system": "Dense-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the penalty and references the correct documents.\",\n  \"evidence\": \"[Document 1]\n}",
+      "input_tokens": 671,
+      "output_tokens": 192,
+      "seconds": 14.864603100002569,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from the evidence.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is factually correct, directly relevant, and fully supported by the evidence provided.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"The answer is correct, directly relevant, and fully supported by the evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"The answer is correct, directly relevant, and fully supported by the evidence from Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"The answer is correct,",
+      "input_tokens": 711,
+      "output_tokens": 192,
+      "seconds": 14.90357529999892,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 144)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

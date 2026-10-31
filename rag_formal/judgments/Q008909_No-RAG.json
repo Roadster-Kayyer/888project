@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008909",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses penalties for duplicating a property's registration, which is related to the reference. However, it does not directly quote or paraphrase the specific penalties mentioned in the reference (imprisonment up to 7 years and/or a fine under Section 467 of the IPC and penalties under the Registration Act, 1908). Therefore, the faithfulness score is null due to the absence of direct evidence from the provided reference.",
+      "input_tokens": 409,
+      "output_tokens": 177,
+      "seconds": 13.905105199999525,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_33",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly interprets the signal and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the signal and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] It indicates that vehicles can proceed straight ahead as well as make a right turn.\"\n}",
+      "input_tokens": 503,
+      "output_tokens": 84,
+      "seconds": 6.460378600007971,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

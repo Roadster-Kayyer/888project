@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007116",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "The answer correctly suggests contacting anti-corruption offices or police but omits specific contact details and online complaint procedures mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"The answer correctly suggests contacting anti-corruption offices or police but omits specific contact details and online complaint procedures mentioned in the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it advises contacting the appropriate authorities to report bribery, which aligns with the reference's instructions. However, it lacks the specificity of the reference, such as the toll-free helpline number and the online complaint system, which are crucial for a complete response. The faithfulness score is 1 because the candidate's answer contains a substantive claim about reporting to authorities but does not fully support it with the detailed evidence provided in the reference. The reason succ",
+      "input_tokens": 421,
+      "output_tokens": 192,
+      "seconds": 14.572478900001443,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_29",
+  "doc_id": "PB_2ebeefd2f2bd36471481",
+  "query_type": "ICA_134",
+  "query": "How can I apply for or renew APEC Business Travel Card (ABTC)?",
+  "reference_answer": "All APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.",
+  "corpus_query_index": 224,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nAll APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.\n\n[Document 2]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 3]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 4]\nYou must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.\n\n[Document 5]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.",
+  "retrieved_doc_ids": [
+    "PB_2ebeefd2f2bd36471481",
+    "PB_f8ef7d9186905c0df18a",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_9b3d1195e8f4641e640b",
+    "PB_3cbaa138ec3ecea4e962"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d4d9b0c32707f168f994341cec7a867fd164bc89c72c568c10d8da787ff627f7",
+  "answer": "To apply or renew an APEC Business Travel Card (ABTC), visit the e-Service website. Applications must be online. The card is mailed by registered post. For a replacement due to a changed passport, apply with a new passport. Renewal requires being accepted into a Singapore education institution for students. Update arrival information in the SG Arrival Card e-service if needed. [Document 1-5]",
+  "input_tokens": 495,
+  "output_tokens": 83,
+  "seconds": 10.749335400003474,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

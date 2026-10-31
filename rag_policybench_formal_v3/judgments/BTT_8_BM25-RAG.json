@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_8",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the required action after an accident."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, with evidence from Document 1 supporting the required action after an accident.\",\n  \"evidence\": \"[Document 1]Report the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\"\n}",
+      "input_tokens": 831,
+      "output_tokens": 192,
+      "seconds": 14.693026200009626,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003589",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No documents mention new gear for police protection; all documents are unrelated to police gear."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No documents mention new gear for police protection; all documents are unrelated to police gear.\"\n}",
+      "input_tokens": 885,
+      "output_tokens": 60,
+      "seconds": 4.657008999998652,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

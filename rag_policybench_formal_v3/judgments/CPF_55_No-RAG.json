@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_55",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate's answer lacks evidence and does not directly address the reasons for receiving an NOC based on employment status."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer lacks evidence and does not directly address the reasons for receiving an NOC based on employment status.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is marked incorrect (0) for correctness because it fails to accurately reflect the reference's information that a Notice of Computation (NOC) is specifically sent to self-employed individuals (SEPs) who receive commission income. The relevance score is 0 because the answer does not directly address the question about why a non-self-employed person would receive an NOC, which is not the case according to the reference. Faithfulness is marked as null due to the lack of substant",
+      "input_tokens": 551,
+      "output_tokens": 192,
+      "seconds": 14.52519279999251,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

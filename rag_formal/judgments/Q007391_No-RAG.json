@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007391",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific reference to the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific reference to the provided evidence.\",\n  \"evidence\": \"The provided evidence suggests calling the Tamil Nadu Police helpline or Childline, which is not mentioned in the candidate answer.\"\n}",
+      "input_tokens": 407,
+      "output_tokens": 89,
+      "seconds": 6.861563799997384,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

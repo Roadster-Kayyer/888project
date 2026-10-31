@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001907",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, 3, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the methods used by the Tamil Nadu Police, and is supported by evidence from Document 5.\",\n}",
+      "input_tokens": 758,
+      "output_tokens": 74,
+      "seconds": 5.75842510000075,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, 3, and 5.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct as it accurately describes the methods used by the Tamil Nadu Police in digital forensics, which includes the analysis of digital evidence and the use of a dedicated Cyber Crime Lab.\n- Relevance: The answer is directly relevant to the question as it specifically mentions the use of digital forensics in the context of the Tamil Nadu Police's investigative methods.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in the documents, which detail the use of digital forensics, the existence of a Cyber Crime Lab, and the modernization of",
+      "input_tokens": 798,
+      "output_tokens": 192,
+      "seconds": 14.449683700000605,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

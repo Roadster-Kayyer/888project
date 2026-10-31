@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007119",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police station as points of contact, and mentions the option to file a complaint online on the TN Government website, which aligns with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the Vigilance and Anti-Corruption Department and local police station as points of contact, and mentions the online filing option, all supported by Document 1.\",\n}",
+      "input_tokens": 1143,
+      "output_tokens": 192,
+      "seconds": 14.950376900000265,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police station as points of contact, and mentions the option to file a complaint online on the TN Government website, which aligns with the reference documents.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate answer includes all substantive factual claims supported by the supplied evidence, which in this case are the methods of reporting corruption as outlined in the reference documents. The evidence directly supports the claims made in the candidate answer.",
+      "input_tokens": 1183,
+      "output_tokens": 145,
+      "seconds": 11.343293899997661,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

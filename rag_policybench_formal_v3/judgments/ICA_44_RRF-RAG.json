@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_44",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 5, and accurately reflects the procedures and limitations described in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 5, and accurately reflects the procedures and limitations described in the reference documents.\"\n}",
+      "input_tokens": 971,
+      "output_tokens": 192,
+      "seconds": 15.009035099996254,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

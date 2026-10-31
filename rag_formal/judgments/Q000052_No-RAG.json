@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000052",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"The reference specifies visiting the Tamil Nadu Police Department's website or the e-Challan portal, which is not mentioned in the candidate answer.\"\n}",
+      "input_tokens": 398,
+      "output_tokens": 95,
+      "seconds": 7.1346307000021625,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "medishield_20",
+  "doc_id": "PB_8a7dfd1ae93a6b5afa1d",
+  "query_type": "medishield",
+  "query": "What is the annual premium in 2025 for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap?",
+  "reference_answer": "$1,326.00 per annum.",
+  "corpus_query_index": 315,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 2]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 3]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 4]\nThe Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File\n\n[Document 5]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+  "retrieved_doc_ids": [
+    "PB_377d7608d12421ff652e",
+    "PB_4bd71ffc7b87577275da",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_18ed14021ef1cf64ad15",
+    "PB_b8fa647c38cb9cfface8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_18ed14021ef1cf64ad15"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b15fc9fe0fb9d0f0da552dacd3959bf40e11304f92b1906143987fee2bd27f6b",
+  "answer": "Based on Document 1, the annual matching grant amount increases to $2,000 starting from 2025. However, without specific premium details, we cannot determine the exact annual premium for an insured 67-year-old lower-income Singapore Citizen in 2025. [Document 1]",
+  "input_tokens": 936,
+  "output_tokens": 66,
+  "seconds": 8.625290399999358,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

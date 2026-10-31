@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004959",
+  "doc_id": "1891",
+  "query_type": "search",
+  "query": "How can I communicate effectively with domestic violence support workers in Tamil Nadu?",
+  "corpus_query_index": 4958,
+  "system": "Dense-RAG",
+  "reference_answer": "Approaching Domestic Violence Protection Officers in Tamil Nadu:\nTo approach domestic violence protection officers:\n* Contact the nearest police station or women's helpline (181)\n* Provide details of the abuse and seek protection\n* Ask for a protection officer to assist with filing a complaint\n* Seek help from NGOs or counseling services if needed",
+  "context": "[Document 1]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.\n\n[Document 2]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 3]\nApproaching Domestic Violence Protection Officers in Tamil Nadu:\nTo approach domestic violence protection officers:\n* Contact the nearest police station or women's helpline (181)\n* Provide details of the abuse and seek protection\n* Ask for a protection officer to assist with filing a complaint\n* Seek help from NGOs or counseling services if needed\n\n[Document 4]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint in Tamil Nadu, visit the nearest police station or a women's police station. Provide a written complaint with details of the incident. The police will register an FIR and guide you through the process.\n\n[Document 5]\nFiling a Domestic Violence Case:\nTo file a domestic violence case in Tamil Nadu:\n1. Contact the local police station or a women's helpline.\n2. File a complaint (FIR) with the police.\n3. Provide evidence and witness statements.\n4. The police will investigate and forward the case to court.",
+  "retrieved_doc_ids": [
+    "70",
+    "277",
+    "1891",
+    "1815",
+    "1068"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d9a1ee9d4e5d57ad913f5388ac5a0f8e29eb70d1a8a7b67d10d12b20173e524e",
+  "answer": "Contact local police stations or women's helplines (1091, 181) for support. Provide details of abuse and ask for a protection officer. For formal complaints, visit police stations and file a written complaint with evidence. [Document 3, Document 4, Document 5]",
+  "input_tokens": 436,
+  "output_tokens": 64,
+  "seconds": 8.28942090000055,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

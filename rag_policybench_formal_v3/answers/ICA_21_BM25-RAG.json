@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_21",
+  "doc_id": "PB_bae89a527e0df10a772e",
+  "query_type": "ICA_134",
+  "query": "How do I book/change/cancel my appointment in MyICA?",
+  "reference_answer": "You will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.",
+  "corpus_query_index": 216,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 3]\nIf you are eligible for collection at SingPost, you will only be offered this option and will not be able to book an appointment at ICA Services Centre.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nYou are not required to book an appointment for oath-taking. You may proceed to ICA Services Centre and obtain an 'Oath-taking' queue ticket at the self-service kiosks. Please ensure you have the required documents to complete your Oath of Renunciation, Allegiance and Loyalty (ORAL).",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_558188a8bd115503280d",
+    "PB_e2674473ab2ca705d2e2",
+    "PB_cc60baad4cbf9560588b",
+    "PB_1a415c32f0198d4b1595"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b6097a7cbe07483b80b9f9ad4bb9b1c3c6b482b18e256cf662ba68af8977df5b",
+  "answer": "To book, change, or cancel an appointment, go to 'e-Services' under 'e-Appointment'. You can also view instructions in 'Notifications'. Changes must be made at least 3 days in advance using ICA e-Service. [Document 1] & [Document 2]",
+  "input_tokens": 582,
+  "output_tokens": 62,
+  "seconds": 8.232507599997916,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

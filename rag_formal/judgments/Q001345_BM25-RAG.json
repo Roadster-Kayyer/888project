@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001345",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the regulation of illegal narcotics trade and specific felonies targeted by the NDPS Act, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the regulation of illegal narcotics trade and felonies targeted by the NDPS Act, supported by evidence from Documents 1 and 5.\",\n}",
+      "input_tokens": 1142,
+      "output_tokens": 192,
+      "seconds": 15.724292799997784,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2756.09326171875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the regulation of illegal narcotics trade and specific felonies targeted by the NDPS Act, supported by evidence from Documents 1 and 5.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it accurately reflects the content of the documents regarding the NDPS Act's regulation of illegal narcotics trade and the felonies it targets, with no claims contradicted by the evidence. The brief explanation justifies the scores given.",
+      "input_tokens": 1182,
+      "output_tokens": 156,
+      "seconds": 12.395449700001336,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

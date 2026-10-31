@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_19",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies non-scheduled buses as permitted, excludes prohibited vehicles, and aligns with documents 1, 3, 4, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies non-scheduled buses as permitted, excludes prohibited vehicles, and aligns with documents 1, 3, 4, and 5.\",\n  \"evidence\": \"Document 1, Document 3, Document 4, Document 5\"\n}",
+      "input_tokens": 776,
+      "output_tokens": 192,
+      "seconds": 15.378603300006944,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

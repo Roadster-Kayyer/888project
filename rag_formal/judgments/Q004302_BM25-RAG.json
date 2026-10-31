@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004302",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the Tamil Nadu Police's measures for missing foreign tourists and workers, and includes coordination with embassies, investigations, and legal protections, all supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the Tamil Nadu Police's measures for missing foreign tourists and workers, and includes coordination with embassies, investigations, and legal protections, all supported by the provided documents.\"\n}",
+      "input_tokens": 876,
+      "output_tokens": 192,
+      "seconds": 15.027280900001642,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

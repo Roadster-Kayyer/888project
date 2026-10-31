@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008551",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is fully supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the legal consequences of domestic violence, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 771,
+      "output_tokens": 67,
+      "seconds": 5.457111600000644,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question and is fully supported by the provided documents.\"}",
+      "input_tokens": 811,
+      "output_tokens": 38,
+      "seconds": 3.2447680000041146,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

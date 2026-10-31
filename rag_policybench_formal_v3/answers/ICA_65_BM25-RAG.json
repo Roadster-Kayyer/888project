@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_65",
+  "doc_id": "PB_cb5d04a689bc8ce22058",
+  "query_type": "ICA_134",
+  "query": "Can I enter as a PR if my Re-Entry Permit is tagged to my old passport instead of my new passport?",
+  "reference_answer": "You may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "corpus_query_index": 264,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 4]\nForm 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_cb5d04a689bc8ce22058",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_09f08389f279dd1828ad",
+    "PB_2b9abc3bd3c87651113d",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f0cacfd3623cf7f4d5186bff92b4056007b45654f9bb57b13bf7f0ca2d6f0d0a",
+  "answer": "Yes, you can enter as a PR if your Re-Entry Permit (REP) is valid. However, you need to transfer the remaining validity of your REP from your old passport to your new one using Singpass. [Document 1]",
+  "input_tokens": 791,
+  "output_tokens": 50,
+  "seconds": 6.787642799987225,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

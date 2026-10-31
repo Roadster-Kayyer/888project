@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_35",
+  "doc_id": "PB_a37dbdc80a96908914ec",
+  "query_type": "CPF_111",
+  "query": "How can I help a beneficiary with medical condition (e.g. physically immobile or mentally incapacitated) to withdraw their GovCash monies?",
+  "reference_answer": "You can help a beneficiary with medical condition (e.g. who is physically immobile or mentally incapacitated) to withdraw their GovCash monies if you are:Aged 21 years and above; andA next-of-kin, or caregiver, or appointed donee under the Lasting Power of Attorney (LPA), or court-appointed Deputy of the beneficiaryTo help with the withdrawal of the GovCash monies, please bring the following documents and visit anyOCBC-New ATMduring branch operating hours, where OCBC Digital Ambassadors will be available to render assistance:a) Original documentary evidence stating the beneficiary's medical condition (e.g. doctor's memorandum, medical report or court order). The date of the document(s) should not be more than 1 year from the withdrawal date, unless it specifically states that the patient's condition is permanent or the condition is known to be permanent (e.g. bedridden, immobile, physically incapacitated, disabled, intellectually disabled, autism, down syndrome, cerebral palsy, etc);b) A photocopy of the beneficiary’s NRIC;c) Your original NRIC; andd) Beneficiary’s GovCash Payment Reference Number (PRN)You may be required to sign a Letter of Indemnity at the bank, witnessed by the bank officer.",
+  "corpus_query_index": 96,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can help a beneficiary with medical condition (e.g. who is physically immobile or mentally incapacitated) to withdraw their GovCash monies if you are:Aged 21 years and above; andA next-of-kin, or caregiver, or appointed donee under the Lasting Power of Attorney (LPA), or court-appointed Deputy of the beneficiaryTo help with the withdrawal of the GovCash monies, please bring the following documents and visit anyOCBC-New ATMduring branch operating hours, where OCBC Digital Ambassadors will be available to render assistance:a) Original documentary evidence stating the beneficiary's medical condition (e.g. doctor's memorandum, medical report or court order). The date of the document(s) should not be more than 1 year from the withdrawal date, unless it specifically states that the patient's condition is permanent or the condition is known to be permanent (e.g. bedridden, immobile, physically incapacitated, disabled, intellectually disabled, autism, down syndrome, cerebral palsy, etc);b) A photocopy of the beneficiary’s NRIC;c) Your original NRIC; andd) Beneficiary’s GovCash Payment Reference Number (PRN\n\n[Document 2]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.\n\n[Document 3]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 4]\nNo, your GovCash balance will be deducted upon successful payment.\n\n[Document 5]\nYou can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).",
+  "retrieved_doc_ids": [
+    "PB_a37dbdc80a96908914ec",
+    "PB_066794289dd14caa73dd",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_f95f71d1b02137e5eb5f",
+    "PB_3e1f1f7b75f5e180073d"
+  ],
+  "trimmed_doc_ids": [
+    "PB_a37dbdc80a96908914ec"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dc89760a84d9fc504bb9866d91988215fbba48ad953f33cb5a98d5f17f2a8762",
+  "answer": "To help a beneficiary withdraw GovCash, ensure you meet eligibility criteria and bring necessary documents: beneficiary's medical condition proof, NRIC, and Payment Reference Number. Visit an OCBC ATM during operating hours. Face verification is used, so bring your own NRIC too. [Document 1]",
+  "input_tokens": 679,
+  "output_tokens": 60,
+  "seconds": 7.754942899991875,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

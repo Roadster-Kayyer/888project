@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_98",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks specific details from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks specific details from the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 455,
+      "output_tokens": 67,
+      "seconds": 5.069016699999338,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

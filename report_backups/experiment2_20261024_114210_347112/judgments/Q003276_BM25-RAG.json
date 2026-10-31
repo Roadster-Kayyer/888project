@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003276",
+  "system": "BM25-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the preservation of policing heritage, supported by evidence from Documents 1 and 4.\",\n}",
+      "input_tokens": 675,
+      "output_tokens": 192,
+      "seconds": 14.871068999997078,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the preservation of policing heritage at the Police Academy Museum, supported by evidence from Documents 1 and 4.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by evidence from the provided documents.\"}\n\n(Note: The \"reason\" is a brief explanation of the scores. The exact wording can be adjusted for clarity or conciseness as needed.)",
+      "input_tokens": 715,
+      "output_tokens": 138,
+      "seconds": 10.70397149999917,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 225)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

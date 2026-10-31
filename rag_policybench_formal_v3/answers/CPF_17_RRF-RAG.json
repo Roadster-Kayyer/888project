@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_17",
+  "doc_id": "PB_a5b402d61a78d4a9da45",
+  "query_type": "CPF_111",
+  "query": "I am registered with the Accounting and Corporate Regulatory Authority (ACRA) as a partner for my business. Am I considered a self-employed person or an employee of the partnership?",
+  "reference_answer": "For more information on Partnerships, please visit theInland Revenue Authority of Singapore (IRAS) website.",
+  "corpus_query_index": 76,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 2]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 3]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days\n\n[Document 4]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.\n\n[Document 5]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.",
+  "retrieved_doc_ids": [
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_f79fde53917b7a3dd93a",
+    "PB_2c2c8f4f1646ae7f07d7",
+    "PB_2a66fea5f046058537db",
+    "PB_bc0f9bb0658c9b927d99"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a22b4c58b1115e7e39b268eee06aa549a365ea72aa3082eb61072a42a28eeaec",
+  "answer": "Based on Document 1 and Document 2, as a partner registered with ACRA, you are considered a self-employed person (SEP) because you receive net trade income and are classified as a Commission Agent. Your self-employed status means you contribute to MediSave instead of CPF, unlike an employee [Document 1, Document 2].",
+  "input_tokens": 840,
+  "output_tokens": 69,
+  "seconds": 9.343203500000527,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_97",
+  "doc_id": "PB_f51f66ccea224b52929b",
+  "query_type": "ICA_134",
+  "query": "During the passport application, I had selected Singapore as my collection centre. How do I change the collection venue to an overseas mission subsequently?",
+  "reference_answer": "Please contact us via the enquiry form for assistance.",
+  "corpus_query_index": 299,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 2]\nIf your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.\n\n[Document 3]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 4]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 5]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "retrieved_doc_ids": [
+    "PB_cf24a4bb229a845e92d4",
+    "PB_018edecf2d72972f45b3",
+    "PB_28ec022d3591816d8720",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_ebd58cc24fe004fbabd6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9caa52b0718d6d7a28bf6bb9ef0a81cb5478c1f7d08c305067e891d9807c6a9e",
+  "answer": "To change the collection venue to an overseas mission, log in to the e-Services and select the closest Singapore Overseas Mission for the new collection venue. [Document 1]",
+  "input_tokens": 555,
+  "output_tokens": 37,
+  "seconds": 4.739903300011065,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

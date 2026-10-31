@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_44",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, mentioning almost immediate processing and potential delay due to network issues."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, mentioning almost immediate processing and potential delay due to network issues.\",\n  \"evidence\": \"[Document 1] and [Document 1]\"\n}",
+      "input_tokens": 1387,
+      "output_tokens": 192,
+      "seconds": 14.755784299995867,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

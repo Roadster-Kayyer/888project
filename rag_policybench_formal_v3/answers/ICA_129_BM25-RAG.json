@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_129",
+  "doc_id": "PB_3579b1ce15984a462107",
+  "query_type": "ICA_134",
+  "query": "How can I appeal if my Singapore Permanent Residence (PR) application is rejected or unsuccessful?",
+  "reference_answer": "You may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.",
+  "corpus_query_index": 201,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 2]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.\n\n[Document 3]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_9bcc03600abfbc3227e6",
+    "PB_3579b1ce15984a462107",
+    "PB_c6456fad7242c379cac1",
+    "PB_d98d322f2936df748ef1",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "921e7d28826d56c376f0ee25d6784a12153a9e692e2eaa64ac85394b2446982d",
+  "answer": "If your PR application was rejected, you can submit a new application online if circumstances change. For applications submitted after 26 June 2024, log in with your reference number to check status. [Document 3] & [Document 2]",
+  "input_tokens": 522,
+  "output_tokens": 54,
+  "seconds": 7.247498500000802,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

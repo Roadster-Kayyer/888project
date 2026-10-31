@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_108",
+  "doc_id": "PB_6c6fcaa3d9ba8be58b7b",
+  "query_type": "ICA_134",
+  "query": "How do I check if a person is a Singapore Permanent Resident (PR)?",
+  "reference_answer": "You may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).",
+  "corpus_query_index": 178,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 2]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 3]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.\n\n[Document 4]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 5]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.",
+  "retrieved_doc_ids": [
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_bcdfbf4db75a59af04ef",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_d98d322f2936df748ef1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "c68b5f26c9bc25a21ef8b74e3ca7873052c3a34f37ac9937965a0a088bba913d",
+  "answer": "To check if someone is a Singapore Permanent Resident (PR), verify their Re-Entry Permit (REP) is still valid. They can use Singpass to transfer their REP's remaining validity to their new passport. [Document 1-4]",
+  "input_tokens": 334,
+  "output_tokens": 50,
+  "seconds": 6.589389600005234,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

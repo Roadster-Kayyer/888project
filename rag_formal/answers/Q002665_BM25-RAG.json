@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002665",
+  "doc_id": "1478",
+  "query_type": "hard",
+  "query": "What options are there for rising through the ranks after starting as a constable?",
+  "corpus_query_index": 2664,
+  "system": "BM25-RAG",
+  "reference_answer": "Career Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.",
+  "context": "[Document 1]\nCareer Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.\n\n[Document 2]\nEducational Qualifications for Police Ranks:\nThe required educational qualifications for police ranks in Tamil Nadu are:\n- Constable: 10th standard pass\n- Sub-Inspector: Bachelor's degree\n- Inspector: Bachelor's degree\n\n[Document 3]\nFIR Time Limit:\nThere is no specific time limit for filing an FIR in Tamil Nadu. However, it's recommended to file a complaint as soon as possible after the incident. Delaying may affect the investigation.\n\n[Document 4]\nApplying for Specialized Units:\nTo apply for specialized units like the Cyber Crime division, you must first join the Tamil Nadu Police as a constable or sub-inspector. After gaining experience, you can apply for specialized units through internal postings or departmental exams. Check the official Tamil Nadu Police website for vacancies and eligibility criteria.\n\n[Document 5]\nWaiting Period for Filing a Report:\nThere is no specific waiting period to file a missing person report in Tamil Nadu. You can report a missing person as soon as you realize they are missing and are unable to contact them.",
+  "retrieved_doc_ids": [
+    "1478",
+    "1468",
+    "10",
+    "1473",
+    "815"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "877868ba467da7681128c4523e29eb1fd604c1070bcdf5c7742b91d328e7b139",
+  "answer": "After becoming a constable, you can advance to Head Constable, Sub-Inspector, and Inspector through promotions, exams, and training. Key factors include experience and performance. Additionally, consider applying for specialized units within the Tamil Nadu Police. [Document 4]",
+  "input_tokens": 396,
+  "output_tokens": 54,
+  "seconds": 7.008305199999086,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

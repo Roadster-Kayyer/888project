@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007395",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific contact details and procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant but omits specific contact details and procedures.\",\n  \"evidence\": \"Retrieved evidence does not directly support the candidate answer, but it aligns with the general procedure of contacting law enforcement.\"\n}\n\n\nIn the provided candidate answer, the information is relevant as it correctly suggests contacting law enforcement or child protection services to report coerced or underage marriages. However, it lacks the specific details that are crucial for someone in need of immediate assistance, such as the phone numbers for the Tamil Nadu Police helpline and Childline, which are explicitly mentioned in the reference. The faithfulness score is 1 because the candidate answer does not contradict the reference but also does",
+      "input_tokens": 435,
+      "output_tokens": 192,
+      "seconds": 14.750525099996594,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

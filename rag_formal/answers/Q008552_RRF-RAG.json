@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008552",
+  "doc_id": "657",
+  "query_type": "formal",
+  "query": "What penalties can be imposed for acts of domestic violence?",
+  "corpus_query_index": 8551,
+  "system": "RRF-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 2]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 3]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 4]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 5]\nRoad Rage Violence:\nRoad rage violence can lead to imprisonment for up to 2 years and/or a fine, under Section 325 of the IPC. Additionally, the offender's driving license may be suspended or revoked.",
+  "retrieved_doc_ids": [
+    "657",
+    "581",
+    "688",
+    "680",
+    "672"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6f15239d241ba65ba7f4560edac6bc7345f1f393edeca1ecdac729996c728d7b",
+  "answer": "Penalties for domestic violence include up to 3 years in prison and/or a fine under the Protection of Women from Domestic Violence Act, 2005. Assault with sexual intent can result in 1-5 years in prison under Section 354 of the IPC. Violent behavior during strikes can lead to up to 3 years in prison and/or a fine under the IPC. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 396,
+  "output_tokens": 106,
+  "seconds": 13.545909500000562,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

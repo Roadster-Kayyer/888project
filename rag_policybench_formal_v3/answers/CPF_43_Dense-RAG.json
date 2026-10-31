@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_43",
+  "doc_id": "PB_e05e627156f03d97ac97",
+  "query_type": "CPF_111",
+  "query": "Are CPF contributions payable by the holding company or the subsidiary company if I am seconded from the former to latter?",
+  "reference_answer": "The employer who had entered into an employment contract with you is required to pay the CPF contributions.",
+  "corpus_query_index": 105,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 2]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 3]\nFor the convenience of both platform workers and platform operators, CPF contributions will be based on gross earnings less Fixed Expense Deduction Amount (FEDA), and are not based on declared expenses.This benefits both platform workers and platform operators as you will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will also not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.FEDA is applied to all platform workers to simplify the computation of CPF contribution for both platform operators and platform workers, regardless of income levels and delivery modes. As such, we will not adjust the CPF contributions based on declared expenses.\n\n[Document 4]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 5]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.",
+  "retrieved_doc_ids": [
+    "PB_f79fde53917b7a3dd93a",
+    "PB_0b2919dbf107215d276f",
+    "PB_0a58ed0f170d5073ce90",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_70b5d47d6063963e4051"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "6476a90a9b81b2e456b124e59ec4540930f5a740310097dd772aac96f39e0cfa",
+  "answer": "If you're a Board Member or Director under a contract of employment, you must contribute to CPF as an employee. However, if you're engaged in a business as a Director, you contribute to MediSave as a self-employed person (SEP). [Document 1]",
+  "input_tokens": 777,
+  "output_tokens": 55,
+  "seconds": 7.359072899998864,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_30",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and directly addresses the question, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct and directly addresses the question, but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}",
+      "input_tokens": 396,
+      "output_tokens": 67,
+      "seconds": 5.195305300003383,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

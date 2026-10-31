@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004414",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the evidence, covering security assistance, embassy coordination, registration services, emergency support, and cultural sensitivity, all of which are mentioned in the retrieved documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence, covering security assistance, embassy coordination, registration services, emergency support, and cultural sensitivity, all of which are mentioned in the retrieved documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 1041,
+      "output_tokens": 192,
+      "seconds": 15.290683400002308,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

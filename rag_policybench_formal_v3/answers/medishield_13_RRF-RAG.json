@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_13",
+  "doc_id": "PB_e3c25d5d6d3228d33a57",
+  "query_type": "medishield",
+  "query": "What is the relationship between members paying premiums during their working ages under MediShield Life and the benefits they receive?",
+  "reference_answer": "Members pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.",
+  "corpus_query_index": 307,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.\n\n[Document 2]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 3]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 4]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 5]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.",
+  "retrieved_doc_ids": [
+    "PB_e3c25d5d6d3228d33a57",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_d600f5b60cee68821fae",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_fd10bc60905030393bfb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0b27b6e77152e286270dad3a66184d92ff6371c76e6e44d36e08d1aead058aaf",
+  "answer": "Members paying premiums during their working ages under MediShield Life receive premium rebates during their older ages. However, they also benefit from additional MediSave top-ups for serious pre-existing conditions, ensuring coverage even for older generations. [Document 5] Additionally, older individuals with higher deductibles may still face costs, but they can use their MediSave savings or MediShield Life premiums for assistance. [Document 1]",
+  "input_tokens": 429,
+  "output_tokens": 84,
+  "seconds": 10.6665248000063,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

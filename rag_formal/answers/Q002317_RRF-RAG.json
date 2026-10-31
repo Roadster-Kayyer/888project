@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002317",
+  "doc_id": "1415",
+  "query_type": "formal",
+  "query": "What guidelines govern the behavior of police officers in Tamil Nadu?",
+  "corpus_query_index": 2316,
+  "system": "RRF-RAG",
+  "reference_answer": "Code of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.",
+  "context": "[Document 1]\nEthical Guidelines for Police Behavior in Tamil Nadu:\nThe Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.\n\n[Document 2]\nCode of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.\n\n[Document 3]\nEthics Committee Structure in Tamil Nadu Police:\nThe Tamil Nadu Police has a Professional Standards and Ethics Committee to oversee police conduct. It consists of senior officers and external members, ensuring accountability and transparency.\n\n[Document 4]\nTraining in Ethical Decision Making:\nTamil Nadu police officers receive training at the Tamil Nadu Police Academy, which includes modules on ethics, human rights, and professional conduct. This training equips officers to make informed, ethical decisions in complex situations, prioritizing public safety and well-being.\n\n[Document 5]\nTransfer Policy:\nThe Tamil Nadu Police transfer policy is based on the Tamil Nadu Police Transfer Guidelines. Transfers are typically done on a periodic basis, considering factors like seniority, performance, and administrative requirements. Officers can apply for transfer through their respective unit heads, and the decision is made by the concerned authority.",
+  "retrieved_doc_ids": [
+    "1414",
+    "1415",
+    "1426",
+    "1416",
+    "1483"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fe95f30d2e1782e7a925a651641f516345d1a3d3f90c9f138671d5a014543619",
+  "answer": "The Tamil Nadu Police follows the Indian Police Code of Conduct, emphasizing integrity, impartiality, and respect for human rights. Officers are guided by the Tamil Nadu Police Code of Conduct, which includes principles like honesty, courtesy, and accountability. Training in ethical decision-making is provided at the Tamil Nadu Police Academy. [Document 1-5]",
+  "input_tokens": 399,
+  "output_tokens": 69,
+  "seconds": 8.737791400000788,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

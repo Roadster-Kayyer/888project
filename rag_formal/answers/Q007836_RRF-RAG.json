@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007836",
+  "doc_id": "528",
+  "query_type": "original",
+  "query": "What punishment can be given for unauthorized street performances?",
+  "corpus_query_index": 7835,
+  "system": "RRF-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 4]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 5]\nUnauthorized Layouts:\nDeveloping unauthorized layouts is an offense under the Tamil Nadu Town and Country Planning Act. The penalty can include a fine of up to ₹50,000 and/or imprisonment for up to 1 year, as well as demolition of the unauthorized structure.",
+  "retrieved_doc_ids": [
+    "528",
+    "507",
+    "562",
+    "494",
+    "741"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "94f0781a830d1548f9e09a67426ddc61aab677b31b7d2118422309a900031f3e",
+  "answer": "Under the Tamil Nadu City Police Act, unauthorized street performances can result in a fine of up to ₹1,000. [Document 1]",
+  "input_tokens": 400,
+  "output_tokens": 32,
+  "seconds": 4.124931500002276,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

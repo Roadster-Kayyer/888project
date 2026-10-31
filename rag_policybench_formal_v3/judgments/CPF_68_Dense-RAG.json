@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_68",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, correctly stating the investment restrictions and their implications for future premiums and policy servicing, and is supported by the evidence provided.\",\n}",
+      "input_tokens": 1171,
+      "output_tokens": 192,
+      "seconds": 14.917924900000799,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3137.83544921875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the evidence provided.\"}",
+      "input_tokens": 1211,
+      "output_tokens": 39,
+      "seconds": 3.480103499998222,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

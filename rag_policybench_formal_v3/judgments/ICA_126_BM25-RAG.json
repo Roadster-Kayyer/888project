@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_126",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly references the ICA website for eligibility criteria, mentions the limitation of sponsorship to Singapore citizens, and correctly describes the post-approval process including the IPA letter and ICA services center visit. It also correctly states that PR status cannot be reinstated after voluntary renunciation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly references the ICA website for eligibility criteria, mentions the limitation of sponsorship to Singapore citizens, and correctly describes the post-approval process including the IPA letter and ICA services center visit. It also correctly states that PR status cannot be reinstated after voluntary renunciation.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4, Document 5\"\n}",
+      "input_tokens": 724,
+      "output_tokens": 134,
+      "seconds": 10.484935100001167,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

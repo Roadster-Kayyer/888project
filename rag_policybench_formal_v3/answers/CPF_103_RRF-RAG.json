@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_103",
+  "doc_id": "PB_474d6298f86507ebfa6a",
+  "query_type": "CPF_111",
+  "query": "I have outstanding MediSave payable. Why am I not able to make voluntary top-ups to my CPF accounts or on another person's behalf?",
+  "reference_answer": "As a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).",
+  "corpus_query_index": 61,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).\n\n[Document 2]\nThe application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 5]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.",
+  "retrieved_doc_ids": [
+    "PB_474d6298f86507ebfa6a",
+    "PB_bc2b027060817e0f3bc3",
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501",
+    "PB_bc0f9bb0658c9b927d99"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "019a4dc8960506b5fb8340c1ba52cef748fb4604b060cdd944df56a94712e306",
+  "answer": "To make voluntary top-ups to your CPF accounts or on another person's behalf, you must first be up-to-date with your MediSave payable. [Document 1] Additionally, you can request an instalment plan or make full payment via the Manage your MediSave payable form. [Document 1] Once up-to-date, you can make the top-ups almost immediately. [Document 2] However, there might be a delay if the payment isn't reflected in your CPF account balance within five working days. [Document 2]",
+  "input_tokens": 977,
+  "output_tokens": 109,
+  "seconds": 14.514502200006973,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

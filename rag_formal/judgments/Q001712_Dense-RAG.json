@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001712",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the steps for obtaining a reduced TDS certificate, including submitting Form 13 and attaching necessary documents, which aligns with the reference information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the steps for obtaining a reduced TDS certificate, including submitting Form 13 and attaching necessary documents, which aligns with the reference information.\"\n}",
+      "input_tokens": 852,
+      "output_tokens": 79,
+      "seconds": 6.355891100000008,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

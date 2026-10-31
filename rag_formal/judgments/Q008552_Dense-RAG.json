@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008552",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies penalties for domestic violence under the Protection of Women from Domestic Violence Act, 2005, and other relevant documents support the specific penalties, including imprisonment up to 3 years and/or a fine, and additional penalties for related offenses."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies penalties for domestic violence under the Protection of Women from Domestic Violence Act, 2005, and IPC, supported by Document 1 and Document 3. It also correctly mentions penalties for harassment of divorced women and assault during labor disputes, supported by Document 3 and Document 4. However, it accurately specifies the range of imprisonment for assault with sexual intent under IPC, supported by Document 5.\",\n}",
+      "input_tokens": 828,
+      "output_tokens": 151,
+      "seconds": 11.449240800000553,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies penalties for domestic violence under the Protection of Women from Domestic Violence Act, 2005, and other relevant documents support the specific penalties, including imprisonment up to 3 years and/or a fine, and additional penalties for related offenses.\"}\n\nIn this case, the candidate answer is correct (2) as it accurately reflects the penalties for domestic violence as stated in the reference documents. The answer is relevant (2) because it directly addresses the question about penalties for acts of domestic violence and cites the appropriate legal references. The faithfulness (2) is confirmed by the evidence provided in the documents, which all support the factual claims made in the candidate answer about the penalties for domestic violence and related",
+      "input_tokens": 868,
+      "output_tokens": 192,
+      "seconds": 14.738580099998217,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

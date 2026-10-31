@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001424",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence but generally addresses the procedure for flagging illegal tourism."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence but generally addresses the procedure for flagging illegal tourism.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is partially correct as it generally describes the process of reporting and investigating illegal tourism in national parks, which aligns with the reference's guidance on reporting illegal activities. However, the answer does not directly reference the specific procedures outlined in the reference, such as contacting the Tamil Nadu Forest Department or using the helpline and online complaint system. The faithfulness score is null because there is no substantive factual claim supported by the supplied evidence, which in this case is the absence of evidence. The reason succinctly explains",
+      "input_tokens": 437,
+      "output_tokens": 192,
+      "seconds": 14.907758299999841,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

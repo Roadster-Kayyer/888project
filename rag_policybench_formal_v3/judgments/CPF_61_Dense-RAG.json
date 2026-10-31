@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_61",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the deduction of GovCash balance post-payment confirmation, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the deduction of GovCash balance post-payment confirmation, supported by Document 1.\",\n  \"evidence\": \"[Document 1] No, your GovCash balance will be deducted upon successful payment.\"\n}",
+      "input_tokens": 1043,
+      "output_tokens": 94,
+      "seconds": 7.385811800006195,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

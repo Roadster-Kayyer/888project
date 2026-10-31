@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003743",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the functions of the Women Safety Committee, is relevant to the question, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the functions of the Women Safety Committee and relates it to other safety initiatives, supported by Document 1.\",\n}",
+      "input_tokens": 822,
+      "output_tokens": 71,
+      "seconds": 5.657452999999805,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the functions of the Women Safety Committee, is relevant to the question, and is supported by evidence from Document 1.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate, relevant, and supported by the provided evidence. The \"faithfulness\" score of 2 indicates that the candidate's answer makes substantive factual claims that are directly supported by the evidence from Document 1. The \"correctness\" and \"relevance\" scores of 2 also indicate that the candidate's answer is correct and directly addresses the question. The \"reason\" is a brief explanation of the scores.",
+      "input_tokens": 862,
+      "output_tokens": 163,
+      "seconds": 12.957931799999642,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

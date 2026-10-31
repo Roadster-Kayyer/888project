@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_6",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific percentage information from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific percentage information from the documents.\",\n  \"evidence\": \"None of the documents provide the exact percentage used to compute the claim from the incurred bill.\"\n}",
+      "input_tokens": 627,
+      "output_tokens": 192,
+      "seconds": 14.90487579999899,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

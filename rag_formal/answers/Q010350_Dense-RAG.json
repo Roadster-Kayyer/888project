@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010350",
+  "doc_id": "980",
+  "query_type": "hard",
+  "query": "How can I inform authorities about misused municipal vehicles?",
+  "corpus_query_index": 10349,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nReporting Misuse of VIP Vehicles:\nTo report misuse of VIP vehicles, dial 100 or contact the local police station. Provide the vehicle's registration number and details of the misuse. You can also report anonymously.\n\n[Document 2]\nReporting Abandoned Vehicles:\nTo report abandoned vehicles, contact your local police station or call the helpline (100). Provide the vehicle's location and description. The police will verify and take necessary action.\n\n[Document 3]\nReporting Illegal Modifications to Vehicles:\nTo report illegal modifications to vehicles, contact the Regional Transport Office (RTO) or the local police station. Provide the vehicle's registration number and details of the modifications. You can also dial 100 for assistance.\n\n[Document 4]\nReporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.\n\n[Document 5]\nReporting Abandoned Vehicles:\nTo report an abandoned vehicle in Tamil Nadu, contact the local police station or call the police helpline (100). Provide the vehicle's details, such as make, model, and location. You can also report online through the Tamil Nadu Police website.",
+  "retrieved_doc_ids": [
+    "977",
+    "172",
+    "978",
+    "980",
+    "2057"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3003baeecf3846a026706276d5b1a92cad31255d04a1708f7b83271cca8c083f",
+  "answer": "To report misuse of municipal vehicles, contact the local police station or use the Tamil Nadu Police Department's helpline (100). Provide the vehicle's registration number and details of misuse. [Document 1]",
+  "input_tokens": 379,
+  "output_tokens": 44,
+  "seconds": 5.715589200000977,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

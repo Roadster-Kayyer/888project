@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_81",
+  "doc_id": "PB_6d000586fdceb4c25b65",
+  "query_type": "CPF_111",
+  "query": "I have previously chosen to receive my notice of CPF contributions for self-employed persons in hardcopy. Can I still change my preference?",
+  "reference_answer": "Yes. Regardless of your current preference, you can update your preference anytime by completing thenotification preference form.Your updated notification preference will take effect for any subsequent notice of CPF contributions for self-employed persons thereafter.",
+  "corpus_query_index": 147,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYes. Regardless of your current preference, you can update your preference anytime by completing thenotification preference form.Your updated notification preference will take effect for any subsequent notice of CPF contributions for self-employed persons thereafter.\n\n[Document 2]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 3]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 4]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 5]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days",
+  "retrieved_doc_ids": [
+    "PB_6d000586fdceb4c25b65",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_2c2c8f4f1646ae7f07d7"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1f183e0c5d46a1ab4b12865947b7148c4b28053293d23c1f593a5876949e5bc7",
+  "answer": "Yes, you can change your preference to receive your CPF contributions in electronic format. You can update your preference by completing the notification preference form. [Document 1]",
+  "input_tokens": 784,
+  "output_tokens": 34,
+  "seconds": 4.685307899999316,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

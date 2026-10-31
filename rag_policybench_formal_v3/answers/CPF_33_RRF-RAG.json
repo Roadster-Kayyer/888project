@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_33",
+  "doc_id": "PB_76cedb96dcf8bd5508e7",
+  "query_type": "CPF_111",
+  "query": "Is there a minimum interest rate for CPF Investment Scheme Fixed Deposit (FD) that FD Banks must offer?",
+  "reference_answer": "With effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.",
+  "corpus_query_index": 94,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nWith effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.\n\n[Document 2]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.\n\n[Document 3]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 4]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_76cedb96dcf8bd5508e7",
+    "PB_c0fec916295a83585eb1",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_32f2b09e4d17d1cf6a68",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "17b3e08150f97ba7c0b52ca733a1afe2eda731e84e4d6dcab8d597c0b729b155",
+  "answer": "Yes, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate. As of now, this rate is at least 4% per annum, as per Document 1 and Document 2.",
+  "input_tokens": 591,
+  "output_tokens": 51,
+  "seconds": 7.083332399997744,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

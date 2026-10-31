@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007938",
+  "doc_id": "546",
+  "query_type": "casual",
+  "query": "How much do you get in trouble for sending scary texts?",
+  "corpus_query_index": 7937,
+  "system": "RRF-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 3]\nPhishing Email:\nIf you receive a phishing email, do not respond or click on any links. Report it to the Cyber Crime Cell at 1930 or [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in). Delete the email and keep your personal information secure.\n\n[Document 4]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 5]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.",
+  "retrieved_doc_ids": [
+    "546",
+    "933",
+    "252",
+    "255",
+    "799"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e5b1146041b9cd71c1d2df8968a02073d6804d73d66ba2e2880a8a7b94aeac66",
+  "answer": "Sending scary texts can lead to imprisonment up to 3 years and/or a fine, under IPC and IT Act, [Document 1].",
+  "input_tokens": 437,
+  "output_tokens": 29,
+  "seconds": 3.8338240000011865,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

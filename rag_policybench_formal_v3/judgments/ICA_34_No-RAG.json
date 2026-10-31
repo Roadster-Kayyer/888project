@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_34",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies SGAC as a form for immigration but lacks specific reference to its electronic nature and the provision of a D/E number."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly identifies SGAC as a form for immigration but lacks specific reference to its electronic nature and the provision of a D/E number.\",\n  \"retrieved_evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is correct in stating that SGAC is a form required by Immigration at Changi Airport in Singapore upon arrival, which aligns with the reference that mentions it as a basic entry requirement. The answer is relevant as it directly addresses the question about SGAC or SG Arrival Card. However, the faithfulness score is not perfect because the candidate answer does not mention the electronic version of the card (SGAC) or the fact that it is free of charge",
+      "input_tokens": 448,
+      "output_tokens": 192,
+      "seconds": 14.6134369999927,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

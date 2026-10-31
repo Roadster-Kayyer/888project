@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007392",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for reporting forced/child marriage, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for reporting forced/child marriage, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - To report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. Provide details about the incident, and the police will take necessary action.\"\n}\n\n\nNote: The \"faithfulness\" score is 2 because the candidate's answer is directly supported by the evidence provided in Document 1, which states the exact helpline numbers and the procedure for reporting. There are no unsupported claims or contradictions in the candidate's answer.",
+      "input_tokens": 822,
+      "output_tokens": 186,
+      "seconds": 14.833964799996465,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

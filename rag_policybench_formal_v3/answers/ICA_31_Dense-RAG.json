@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_31",
+  "doc_id": "PB_197ecc94e6c4cbcb96e9",
+  "query_type": "ICA_134",
+  "query": "What is the difference between a business visa and a social visa?",
+  "reference_answer": "A business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.",
+  "corpus_query_index": 227,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.",
+  "retrieved_doc_ids": [
+    "PB_197ecc94e6c4cbcb96e9",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_ee19c47e62eb004069ad",
+    "PB_cc60baad4cbf9560588b",
+    "PB_98e41a7d780bc8508f25"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4a5f006df928178ebf3c7361ee46e0feb7ea63e6ec3dc981cec860c93649b647",
+  "answer": "A business visa is applied by a company for business purposes, while a social visa is applied by an individual or family for social visits. [Document 1]",
+  "input_tokens": 748,
+  "output_tokens": 33,
+  "seconds": 4.467852200003108,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

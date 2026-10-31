@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001522",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but omits specific details about contacting the PWD office or helpline, which are crucial for reporting a canal breach."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question but omits specific details about contacting the PWD office or helpline, which are crucial for reporting a canal breach.\",\n  \"evidence\": \"The retrieved evidence does not directly support the candidate's answer, as it lacks specific instructions and contact information provided in the reference.\"\n}",
+      "input_tokens": 393,
+      "output_tokens": 109,
+      "seconds": 8.507826999997633,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

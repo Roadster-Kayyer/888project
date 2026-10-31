@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010349",
+  "doc_id": "980",
+  "query_type": "search",
+  "query": "What's the procedure to report theft of public transport?",
+  "corpus_query_index": 10348,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nReporting Misconduct by State Transport Corporation Employee:\nTo report misconduct, contact the State Transport Corporation's customer care or visit their website for the complaint procedure. You can also file a complaint at the nearest police station or with the Transport Department.\n\n[Document 2]\nResponding to Harassment in Public Transport:\nIf harassed in public transport, women should:\n* Stay calm and alert others nearby\n* Report the incident to the transport authorities or police\n* Note the details of the incident, including time and location\n\n[Document 3]\nHarassing Public Transport Staff:\nHarassing public transport staff is an offense under the IPC and the Tamil Nadu Public Transport Corporations Act. The punishment can range from 1 year to 3 years of imprisonment and/or a fine.\n\n[Document 4]\nReporting Misconduct by a Transport Department Officer:\nTo report misconduct, contact the Transport Department's grievance cell or file a complaint with the State Transport Authority. You can also submit a complaint online through the Tamil Nadu Government's portal or visit the nearest Regional Transport Office (RTO).\n\n[Document 5]\nReporting Identity Theft:\nTo report identity theft, file a complaint at the nearest police station. Provide proof of identity and documents related to the theft. You can also contact the Cyber Crime Cell of the Tamil Nadu Police for assistance.",
+  "retrieved_doc_ids": [
+    "418",
+    "2000",
+    "561",
+    "402",
+    "914"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "40f8f2151419935efdcf32a543b352023e3d39ce9a564fa8dd6d218ec4ef917c",
+  "answer": "To report theft of public transport, follow these steps:\n- For misconduct by employees, contact the State Transport Corporation's customer care or website.\n- For harassment, report to transport authorities or police.\n- For staff harassment, note details and report to authorities.\n- For misconduct by officers, contact Transport Department's grievance cell or RTO.\n- For identity theft, file a complaint at the police station or Cyber Crime Cell. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 387,
+  "output_tokens": 111,
+  "seconds": 14.266877800000657,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

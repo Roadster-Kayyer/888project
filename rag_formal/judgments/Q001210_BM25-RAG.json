@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001210",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly details the reporting procedure and includes punishment information, aligning with Document 1 and Document 4. It also indirectly references the response to accidents as per Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details the reporting procedure and includes punishment information, aligning with Document 1 and Document 4. It also indirectly references the response to accidents as per Document 4.\",\n  \"evidence\": \"[Document 1, Document 4]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. It accurately describes the process for reporting unlicensed mining and includes the punishment for illegal activities, which is directly supported by Document 1. The mention of quarry or mining accidents and the response process is consistent with the information in Document 4, although it is not directly about reporting unlicensed mining, it is relevant to the context of",
+      "input_tokens": 927,
+      "output_tokens": 192,
+      "seconds": 15.266991399999824,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

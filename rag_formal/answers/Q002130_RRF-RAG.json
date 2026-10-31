@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002130",
+  "doc_id": "1381",
+  "query_type": "hard",
+  "query": "What strategies do law enforcers use to combat forest rights violations affecting native communities?",
+  "corpus_query_index": 2129,
+  "system": "RRF-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nDispute Resolution with Tribal Councils:\nThe Tamil Nadu Police coordinates with tribal councils through regular meetings and dialogue. They work together to resolve disputes and address issues affecting tribal communities, ensuring their rights and interests are protected.\n\n[Document 3]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.\n\n[Document 4]\nJoint Forest Management Program:\nTo apply for Joint Forest Management programs, contact the Tamil Nadu Forest Department or the local Forest Range Officer. The program involves collaboration between the forest department and local communities to manage and conserve forests sustainably. Application procedures and guidelines are available on the Tamil Nadu Forest Department's website.\n\n[Document 5]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights",
+  "retrieved_doc_ids": [
+    "1381",
+    "1393",
+    "1413",
+    "1218",
+    "2029"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1dbd372a99e90f52b6ef604f1646525d7bca47157f61e6ca3e5e12fa9fe67a09",
+  "answer": "Law enforcers combat forest rights violations affecting native communities by registering complaints, investigating cases, collaborating with forest departments, and protecting tribal rights under the Forest Rights Act [Document 1]. They also coordinate with tribal councils and the Forest Department for dispute resolution and joint forest management programs [Documents 2, 3, 4]. Additionally, they protect civil rights, including those of SC/ST communities [Document 5].",
+  "input_tokens": 406,
+  "output_tokens": 86,
+  "seconds": 10.810758800000258,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

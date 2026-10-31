@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002320",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the general norms that law enforcement personnel in Tamil Nadu are expected to follow. However, it does not directly cite the Tamil Nadu Police Code of Conduct, which is the specific reference provided. Therefore, the correctness score is 1, indicating that the answer is partly correct but omits important details from the reference. Faithfulness is scored as null because the candidate does not provide evidence from the reference to support their claims. The reason succinctly explains the scores, noting the relevance of the",
+      "input_tokens": 428,
+      "output_tokens": 192,
+      "seconds": 14.696817200001533,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

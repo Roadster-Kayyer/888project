@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008553",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific references from the documents that support the claim of potential imprisonment and fines for hitting someone at home, and outlines the process for filing complaints."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly cites relevant laws and procedures for domestic violence and filing complaints, supported by evidence from Documents 1 and 4.\",\n}",
+      "input_tokens": 797,
+      "output_tokens": 72,
+      "seconds": 5.754147699997702,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific references from the documents that support the claim of potential imprisonment and fines for hitting someone at home, and outlines the process for filing complaints.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the question with evidence from the documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 837,
+      "output_tokens": 128,
+      "seconds": 10.023459199997887,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

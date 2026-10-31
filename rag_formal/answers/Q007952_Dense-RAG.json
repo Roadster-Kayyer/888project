@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007952",
+  "doc_id": "549",
+  "query_type": "formal",
+  "query": "What legal consequences arise from issuing death threats?",
+  "corpus_query_index": 7951,
+  "system": "Dense-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nSuicide Threats:\nMaking suicide threats is a punishable offense. Under Section 506 of the IPC, it can lead to imprisonment up to 7 years and/or a fine.\n\n[Document 2]\nExtortion Threats:\nMaking extortion threats can lead to 2-7 years imprisonment and/or fine, under IPC sections 383-389.\n\n[Document 3]\nMaking Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.\n\n[Document 4]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 5]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.",
+  "retrieved_doc_ids": [
+    "584",
+    "566",
+    "549",
+    "546",
+    "545"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6ad59cf4b6cf9ed1d0750e57959e1ab8d89ee21805b98e96d5a4f519397c5d51",
+  "answer": "Issuing death threats can lead to imprisonment ranging from 2 to 7 years and a fine, according to Section 506 of the Indian Penal Code (IPC), as detailed in [Document 1-5].",
+  "input_tokens": 332,
+  "output_tokens": 46,
+  "seconds": 5.909701700002188,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

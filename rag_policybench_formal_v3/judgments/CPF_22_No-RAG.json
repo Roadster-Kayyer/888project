@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_22",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks direct evidence from the reference; however, it aligns with the document's stipulations on eligibility."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks direct evidence from the reference; however, it aligns with the document's stipulations on eligibility.\",\n  \"evidence\": \"The document states that workers who earn less than $500 per month due to personal circumstances or greater need of support will still qualify for concessionary WIS, implying that the minimum income criterion is not solely based on the desire to work more.\"\n}",
+      "input_tokens": 577,
+      "output_tokens": 140,
+      "seconds": 10.90368450000824,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

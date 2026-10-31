@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_36",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer incorrectly identifies regulatory signs as the category to be followed without exception, but lacks evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer incorrectly identifies regulatory signs as the category to be followed without exception, but lacks evidence.\",\n  \"evidence\": null\n}\n\nExplanation: The candidate answer is relevant as it addresses the question about which category of traffic signs must be followed without exception. However, it is not fully correct because it incorrectly identifies regulatory signs instead of mandatory signs, which are the correct category as per the reference. There is no evidence provided to support the claim, hence faithfulness is null. The reason succinctly explains the scores.",
+      "input_tokens": 325,
+      "output_tokens": 154,
+      "seconds": 11.59435339999618,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

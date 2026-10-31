@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002272",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which detail the collaboration with the Forest Department and the process for reporting conflicts."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the measures taken by Tamil Nadu Police for human-animal conflict resolution, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 839,
+      "output_tokens": 77,
+      "seconds": 6.0535225000003265,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2667.1162109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which detail the collaboration with the Forest Department and the process for reporting conflicts.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate answer includes specific actions taken by the Tamil Nadu Police (collaboration with the Forest Department, responding to distress calls, and providing support for relocation or compensation when needed) that are directly supported by the evidence provided in Documents 1 and 2. There are no unsupported or contradicted claims in the candidate answer.",
+      "input_tokens": 879,
+      "output_tokens": 151,
+      "seconds": 11.656044699999256,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2667.1162109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

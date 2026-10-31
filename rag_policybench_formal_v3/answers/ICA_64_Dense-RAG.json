@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_64",
+  "doc_id": "PB_963bfe00032464e36f8d",
+  "query_type": "ICA_134",
+  "query": "What is required for a LTVP holder to work in Singapore?",
+  "reference_answer": "LTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.",
+  "corpus_query_index": 263,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nLTVP/LTVP+ holders may only commence work after they are issued a valid Letter of Consent (LOC) from Ministry of Manpower, along with a valid LTVP. You may continue to work if you have been issued with a valid work pass from Ministry of Manpower separately.\n\n[Document 2]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 3]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 4]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.",
+  "retrieved_doc_ids": [
+    "PB_963bfe00032464e36f8d",
+    "PB_552a298a8583e182f7ef",
+    "PB_492d1cc19d42b1bac512",
+    "PB_2fa0c09e016af1fec874",
+    "PB_22431a3a1e46e2ace7dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "11054f8435adab5205fd40c6a00dd6426fc279a633f47388b69ba55e5b7b833e",
+  "answer": "LTVP holders need a Letter of Consent (LOC) from the Ministry of Manpower and a valid work pass from the Ministry of Manpower to work in Singapore. They also need to ensure their intended non-resident spouse qualifies for an LTVP if they are a Singapore citizen. Processing times can vary, but typically LTVP applications are processed within 6 weeks if all required documents are submitted. [Document 1]",
+  "input_tokens": 539,
+  "output_tokens": 85,
+  "seconds": 10.94568450000952,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

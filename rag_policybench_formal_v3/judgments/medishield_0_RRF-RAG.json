@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_0",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately states the annual MediSave top-up amount and its use, supported by Document 1, and correctly notes the start of enhancements in 2025 with increased MRSS matching grant from Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately states the annual MediSave top-up amount and its use, supported by Document 1, and correctly notes the start of enhancements in 2025 with increased MRSS matching grant from Document 5.\"\n}",
+      "input_tokens": 1397,
+      "output_tokens": 91,
+      "seconds": 7.405174400002579,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

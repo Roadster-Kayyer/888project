@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_87",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence from the reference, which states the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer lacks direct evidence from the reference, which states the process.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is not correct (0) because it fails to accurately reflect the process described in the reference, which allows for the use of excess CAYE contributions to offset outstanding MediSave payables. The relevance score is 1 because the candidate answer addresses the question of using CAYE contributions to offset MediSave payables, but it does not provide a correct explanation. Faithfulness is scored as 0 because there is no substantive factual claim in the candidate answer that is supported by the reference. The reason succinctly explains the scores: the candidate answer is not",
+      "input_tokens": 510,
+      "output_tokens": 192,
+      "seconds": 14.54290800000308,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

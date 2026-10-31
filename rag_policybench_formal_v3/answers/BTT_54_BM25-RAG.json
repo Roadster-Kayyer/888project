@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_54",
+  "doc_id": "PB_2858faae83bda4331fb6",
+  "query_type": "BTT",
+  "query": "What does the 'Two-way traffic ahead' sign instruct drivers to do?",
+  "reference_answer": "Slow down, keep left, and beware of oncoming traffic.",
+  "corpus_query_index": 50,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt indicates the centre line of a two-way road.\n\n[Document 2]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 3]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 4]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_786ca90f3ae19fb193e3",
+    "PB_1bd233e28127cfee0c86",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "dd013119b3669f42c08eb52a7799c019d67f9cb05ed37d693efe2c4c4d58dbe1",
+  "answer": "The 'Two-way traffic ahead' sign instructs drivers to merge into the single-lane ahead, be cautious of narrowed road conditions, and prepare to clear the junction after completing their turn. [Document 3] & [Document 4]",
+  "input_tokens": 227,
+  "output_tokens": 50,
+  "seconds": 6.456548899994232,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004303",
+  "doc_id": "1773",
+  "query_type": "casual",
+  "query": "How do they deal with lost foreign tourists in Tamil Nadu?",
+  "corpus_query_index": 4302,
+  "system": "RRF-RAG",
+  "reference_answer": "Handling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.",
+  "context": "[Document 1]\nHandling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.\n\n[Document 2]\nAssistance for Foreign Citizens:\n\nThe Tamil Nadu Police assists foreign citizens through:\n\n* Foreigners' Registration Offices (FRO) in major cities\n* Tourist police units at airports and tourist areas\n* Dedicated helplines for foreign nationals\n* Assistance with reporting crimes, lost passports, and other emergencies\n\nFor more information, foreign citizens can contact the local police station or the Tamil Nadu Police website.\n\n[Document 3]\nTourist Police Jurisdiction:\nThe Tourist Police in Tamil Nadu have jurisdiction in areas with high tourist activity, such as beaches, monuments, and major cities. They assist tourists, provide security, and help with language and cultural issues.\n\n[Document 4]\nMissing Foreign Workers:\nIn cases of missing foreign workers, the Tamil Nadu Police:\n1. Registers a missing person complaint.\n2. Investigates the matter.\n3. Coordinates with the worker's embassy or consulate.\n\n[Document 5]\nReporting Lost Articles:\nTo report lost articles in Tamil Nadu, visit the nearest police station and provide details of the lost item, including description, date, and place of loss. Fill out a complaint form (FIR) and submit it to the police. Keep a copy of the FIR for future reference.",
+  "retrieved_doc_ids": [
+    "1773",
+    "1801",
+    "1933",
+    "1799",
+    "2073"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "153b9ce908950c75b3364e49b03d9d239709b14289d59a47d5b2593b1298c4a3",
+  "answer": "In Tamil Nadu, if a foreign tourist goes missing, the Tamil Nadu Police initiates a search operation and coordinates with the tourist's embassy and local authorities. They file a missing person report and conduct investigations to ensure the tourist's safe return [Document 1]. For assistance, tourists can use the Tourist Police units at airports and tourist areas, or contact the Tamil Nadu Police website or local police station [Document 2]. Lost articles should be reported to the nearest police station with details provided [Document 5].",
+  "input_tokens": 425,
+  "output_tokens": 104,
+  "seconds": 13.44634380000025,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

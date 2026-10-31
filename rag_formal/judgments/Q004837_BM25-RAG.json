@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004837",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing evidence from Documents 1 and 2 that align with the reference's instructions for reporting bounced checks as a criminal act."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing evidence from Documents 1 and 2 that align with the reference's instructions for reporting bounced checks as a criminal act.\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly outlines the process of reporting a bounced check as a criminal act, and is supported by evidence from the provided documents. The answer is comprehensive and faithful to the reference, hence the scores for correctness, relevance, and faithfulness are all 2. The reason succinctly encapsulates the evaluation.",
+      "input_tokens": 921,
+      "output_tokens": 161,
+      "seconds": 12.580849099998886,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

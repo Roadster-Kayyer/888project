@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_50",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which specifies that only direct contributions qualify for the matching grant."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which specifies that only direct contributions qualify for the matching grant.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to the actual document containing the evidence. Since this is a hypothetical example, I've used a placeholder text. In practice, the evidence would need to be a direct quote or a paraphrased fact from the actual document.)",
+      "input_tokens": 442,
+      "output_tokens": 152,
+      "seconds": 11.634734399995068,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

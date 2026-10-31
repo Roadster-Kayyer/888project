@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_126",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the need for a valid REP and eligibility to sponsor parents, aligning with Document 2 and Document 4. Process time and online updates are mentioned, consistent with Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the need for a valid REP and eligibility to sponsor parents, aligning with Document 2 and Document 4. Process time and online updates are mentioned, consistent with Document 5.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe reason is succinctly summarized in the evidence provided by the documents, which directly support the factual claims made in the candidate answer. The answer is relevant as it directly addresses the process of applying for PR and the eligibility criteria. The correctness is rated as 2 because the candidate answer is correct and covers the main points from the reference documents. Faithfulness is",
+      "input_tokens": 737,
+      "output_tokens": 192,
+      "seconds": 14.690953800003626,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

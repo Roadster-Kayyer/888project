@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_37",
+  "doc_id": "PB_8b8122292438794b78bb",
+  "query_type": "ICA_134",
+  "query": "Will I be able to make a single appointment to collect all documents (e.g. passport, identity card)?",
+  "reference_answer": "Separate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.",
+  "corpus_query_index": 233,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 2]\nYou have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.\n\n[Document 3]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 4]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 5]\nIf you are eligible for collection at SingPost, you will only be offered this option and will not be able to book an appointment at ICA Services Centre.",
+  "retrieved_doc_ids": [
+    "PB_8b8122292438794b78bb",
+    "PB_927c6923e7588158fb23",
+    "PB_2e64264f3a3803434cab",
+    "PB_bae89a527e0df10a772e",
+    "PB_e2674473ab2ca705d2e2"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "19a54112239f4b9a0475235bbf120e01f92ccf25e6ee7ae50ab8ac7f547e80dd",
+  "answer": "No, separate appointments are needed. However, if you have re-registered for an ID card while applying for a passport, you can collect both in one appointment. [Document 1]",
+  "input_tokens": 495,
+  "output_tokens": 39,
+  "seconds": 5.216750499996124,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

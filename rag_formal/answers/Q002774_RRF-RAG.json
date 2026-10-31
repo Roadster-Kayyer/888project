@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002774",
+  "doc_id": "1498",
+  "query_type": "search",
+  "query": "Can you tell me about the hiring procedure for high-ranking officers in police forces?",
+  "corpus_query_index": 2773,
+  "system": "RRF-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\n3. Police Recruitment Wing Role:\nThe Police Recruitment Wing attracts candidates by advertising job vacancies, conducting recruitment drives, and overseeing the selection process to ensure a fair and transparent hiring process for police positions in Tamil Nadu.\n\n[Document 2]\n3. Role of the Director General of Police (DGP):\nThe Director General of Police (DGP) is the highest-ranking police officer in the state. The DGP's role includes:\n- Overseeing the entire state police force\n- Formulating police policies\n- Coordinating with other departments and agencies\n\n[Document 3]\nProbation Period for Newly Recruited Police Officers:\nThe probation period for newly recruited police officers in Tamil Nadu is 2 years.\n\n[Document 4]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nPolice Training College Function in Tamil Nadu:\nThe Police Training College provides training to police personnel, including recruits and in-service officers. They offer courses on law, procedure, and skills to enhance policing capabilities.",
+  "retrieved_doc_ids": [
+    "1602",
+    "1020",
+    "1480",
+    "253",
+    "1945"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "b7b346bac9ffb21801837d56eca5e04e5fb367eec6e4b407cf1cf23aa6fad469",
+  "answer": "The hiring procedure for high-ranking officers like the Director General of Police involves formulating policies and coordinating with other departments. For regular police officers, the Police Recruitment Wing handles the hiring process through advertising, recruitment drives, and a 2-year probation period. [Document 1] & [Document 3]",
+  "input_tokens": 375,
+  "output_tokens": 62,
+  "seconds": 7.925747200000842,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_23",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the requirement to settle MediSave payable, directly addresses the question, and is supported by the reference, despite the lack of specific evidence in the provided text."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the requirement to settle MediSave payable, directly addresses the question, and is supported by the reference, despite the lack of specific evidence in the provided text.\",\n  \"evidence\": \"Document N\"\n}\n\n\nNote: The evidence key is set to \"Document N\" as a placeholder since the actual evidence was stated to be null. In a real-world scenario, the evidence would be a specific reference to the document or source that supports the candidate's answer.",
+      "input_tokens": 381,
+      "output_tokens": 144,
+      "seconds": 11.119566400011536,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

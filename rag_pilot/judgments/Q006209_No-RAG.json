@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006209",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer acknowledges the lack of evidence but fails to directly address the operational methods."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer acknowledges the lack of evidence but fails to directly address the operational methods.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 445,
+      "output_tokens": 68,
+      "seconds": 5.355973199999426,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

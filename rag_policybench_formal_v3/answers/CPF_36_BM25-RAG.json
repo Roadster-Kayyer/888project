@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_36",
+  "doc_id": "PB_1d9c2ab7fd656dcb2b40",
+  "query_type": "CPF_111",
+  "query": "My child is below 16 years old. How do I transfer his Ordinary Account savings to his Special Account on his behalf?",
+  "reference_answer": "If your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.",
+  "corpus_query_index": 97,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.\n\n[Document 2]\nCash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.\n\n[Document 3]\nPlease bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of application).For your child (aged below 16 at the point of application) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of application).If the consenting parent is unable to accompany the child for the collection, another person may do so on his/her behalf with the following additional documents (for Collection at ICA Services Centre only):• Signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child;• IC of the authorised person\n\n[Document 4]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 5]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups",
+  "retrieved_doc_ids": [
+    "PB_1d9c2ab7fd656dcb2b40",
+    "PB_15679d0d69b1e1e17f1d",
+    "PB_6a73d290ca55b1465a81",
+    "PB_2e64264f3a3803434cab",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6b6c3e6d7637875b73fcaca98e279f53fbc5a21e0d775f617e787401fa6afa41",
+  "answer": "To transfer his Ordinary Account savings to his Special Account, you need to complete the application on his behalf. You should bring along his original birth certificate, your IC, and the IC of the parent who consented to his passport application. [Document 1]",
+  "input_tokens": 796,
+  "output_tokens": 53,
+  "seconds": 7.253384700001334,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

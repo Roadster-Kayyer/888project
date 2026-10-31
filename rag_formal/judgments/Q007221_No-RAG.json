@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007221",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate's answer is partly correct, relevant, and faithful to the reference, but lacks specific details about the Tamil Nadu Government's grievance portal."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"The candidate's answer is partly correct, relevant, and faithful to the reference, but lacks specific details about the Tamil Nadu Government's grievance portal.\",\n  \"evidence\": \"The candidate's answer aligns with the reference's suggestion to contact the district administration office or the state government's official complaints portal, which is a correct method to complain against a DRDA officer.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 127,
+      "seconds": 9.86194300000352,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002275",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies Tamil Nadu Police's protocols for various emergencies and reporting illegal activities, but lacks specific strategies for human-animal interactions in forested zones, which are not detailed in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies Tamil Nadu Police's protocols for various emergencies and reporting illegal activities, but lacks specific strategies for human-animal interactions in forested zones, which are not detailed in the documents.\"\n}",
+      "input_tokens": 1233,
+      "output_tokens": 91,
+      "seconds": 7.657071600000563,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

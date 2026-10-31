@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003400",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need for a valid driving license and vehicle registration, which are directly supported by the reference documents, and is relevant to the question asked."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies driver's license and vehicle registration as required credentials but omits other documents like insurance, pollution, and vehicle fitness certificates. However, the answer is factually consistent with the reference.\n}",
+      "input_tokens": 995,
+      "output_tokens": 93,
+      "seconds": 7.534355499999947,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":1,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the need for a valid driving license and vehicle registration, which are directly supported by the reference documents, and is relevant to the question asked.\"}",
+      "input_tokens": 1035,
+      "output_tokens": 58,
+      "seconds": 4.911544999999023,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_100",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and provides evidence from Documents 1 and 2, which are relevant and faithful to the instructions given in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and provides evidence from Documents 1 and 2, which are relevant and faithful to the instructions given in the reference.\"\n}",
+      "input_tokens": 1480,
+      "output_tokens": 73,
+      "seconds": 5.999949600009131,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_17",
+  "doc_id": "PB_98e41a7d780bc8508f25",
+  "query_type": "ICA_134",
+  "query": "How many visa applications can the local contact/ sponsor apply?",
+  "reference_answer": "There is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.",
+  "corpus_query_index": 211,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 4]\nAll applications for LTVP applications are carefully considered and reviewed by ICA.The LTVP applications will be processed within six weeks* if all the required documents are submitted. Some applications may take more than six weeks to process. We seek your patience while we consider your application.*For spouse of Singapore citizen who did not submit a Pre-Marriage LTVP Assessment (PMLA), the LTVP application will be processed within six months.You will be informed of the outcome via email. Meanwhile, you or your local sponsor may check the status of your LTVP application through the e-Service.New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nThe Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.",
+  "retrieved_doc_ids": [
+    "PB_98e41a7d780bc8508f25",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_2fa0c09e016af1fec874",
+    "PB_603be4b797f377a91761"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7b45aa57ce68e934f12e7eb8c0c1e7cc1bb6c5840757710da4ead80697a748a7",
+  "answer": "There is no restriction on the number of visa applications a local contact/sponsor can apply. Each application is assessed individually. [Document 1]",
+  "input_tokens": 520,
+  "output_tokens": 30,
+  "seconds": 3.851614500003052,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

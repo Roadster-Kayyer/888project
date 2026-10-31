@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000053",
+  "doc_id": "1006",
+  "query_type": "casual",
+  "query": "Can I check my traffic tickets online somewhere?",
+  "corpus_query_index": 52,
+  "system": "RRF-RAG",
+  "reference_answer": "Traffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.",
+  "context": "[Document 1]\nVerifying Traffic Violation Challans Online:\nYou can verify traffic violation challans online through the Tamil Nadu Police Department's official website or the e-Challan portal. Enter your challan number or vehicle number to check the status.\n\n[Document 2]\nTraffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.\n\n[Document 3]\nChecking Traffic Fines:\nTo check your traffic fines, visit the Tamil Nadu Police website or the e-Challan portal. You can also check at the nearest police station or through the 'Digital Traffic/Transport Enforcement Solution' app.\n\n[Document 4]\nPaying Traffic Fines Online in Tamil Nadu:\nThe website to pay traffic fines online in Tamil Nadu is [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or [https://echallan.parivahan.gov.in](https://echallan.parivahan.gov.in). You can also use the Tamil Nadu Police Department's mobile app.\n\n[Document 5]\nPaying Traffic Fines Online:\nTo pay traffic fines online in Tamil Nadu, visit the Tamil Nadu Police website (tnpolice.gov.in) or the Government of Tamil Nadu's online payment portal. Click on \"E-Challan\" or \"Fine Payment\" and enter your challan number or vehicle details. Follow the prompts to make the payment using a debit/credit card or net banking.",
+  "retrieved_doc_ids": [
+    "306",
+    "1006",
+    "264",
+    "307",
+    "832"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2b9252a464c5fec18a9200d00d07051afc38218146e60c5dc570591fb137c76b",
+  "answer": "Yes, you can check your traffic tickets online through the Tamil Nadu Police Department's official website or the e-Challan portal. Enter your challan number or vehicle number to check the status. [Document 1]",
+  "input_tokens": 443,
+  "output_tokens": 45,
+  "seconds": 5.75907079999979,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2054.322265625
+}

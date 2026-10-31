@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008029",
+  "doc_id": "562",
+  "query_type": "search",
+  "query": "What kind of fines or bans can street vendors receive for harassment?",
+  "corpus_query_index": 8028,
+  "system": "BM25-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 3]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 4]\nRights under Sexual Harassment Act:\nWomen have the right to a safe workplace, free from sexual harassment. They can file a complaint with the ICC, seek compensation, and receive protection from retaliation.\n\n[Document 5]\nReporting Street Light Issues:\nTo report street light issues, contact the Public Works Department (PWD) through their helpline or website. Provide the location and details of the issue. You can also submit a complaint at the nearest PWD office or local municipal office.",
+  "retrieved_doc_ids": [
+    "562",
+    "494",
+    "507",
+    "1884",
+    "1280"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "df5dc652692dd9de6c1df47550e98613c0b64078b1098b1429fdededf241d825",
+  "answer": "Street vendors can face fines up to ₹5,000 and imprisonment up to 3 years for harassment, according to [Document 1]. For unauthorized vending, they can be fined up to ₹500 and have goods seized, [Document 3] states. Minor street fights can lead to up to 1 month in prison or a fine of ₹1,000, [Document 2] notes. Women have rights under the Sexual Harassment Act, [Document 4] explains.",
+  "input_tokens": 391,
+  "output_tokens": 106,
+  "seconds": 13.53903640000135,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_26",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer contradicts the reference, which states that multiple scans will result in a refund, not just re-verification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer contradicts the reference, which states that multiple scans will result in a refund, not just re-verification.\",\n  \"evidence\": null\n}",
+      "input_tokens": 421,
+      "output_tokens": 77,
+      "seconds": 6.003110300007393,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

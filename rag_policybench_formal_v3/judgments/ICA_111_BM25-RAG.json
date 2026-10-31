@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_111",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the need for citizenship after two years or reapplication for changed circumstances, aligning with Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the need for citizenship after two years or reapplication for changed circumstances, aligning with Document 5.\",\n  \"evidence\": \"[Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question about maintaining PR status and is supported by the evidence provided in Document 5. The answer correctly mentions the two-year citizenship application after PR acquisition and the lack of reinstatement for voluntary renunciation, which are key points in the reference. The reason succinctly explains the scores, indicating that the answer is both correct and relevant, and is fully supported by the evidence.",
+      "input_tokens": 671,
+      "output_tokens": 171,
+      "seconds": 13.453606700000819,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

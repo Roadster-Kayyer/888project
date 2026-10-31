@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003745",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Women Safety Committee as a Tamil Nadu Police initiative and accurately describes its duties, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the Women Safety Committee as a Tamil Nadu Police initiative and accurately describes its duties, supported by Document 1.\",\n  \"evidence\": \"[Document 1] Women Safety Committee: The Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by: * Addressing women's complaints and grievances * Providing counseling and support * Conducting awareness programs on women's rights and safety\"\n}\n\n\nThe reason for the scores is as follows:\n\n- Correctness: The candidate's answer is factually correct and directly aligns with the information provided in Document 1, which describes",
+      "input_tokens": 804,
+      "output_tokens": 192,
+      "seconds": 14.80810190000193,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

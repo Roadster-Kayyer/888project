@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008699",
+  "doc_id": "683",
+  "query_type": "search",
+  "query": "What penalties are applied to those who act violently at sporting events?",
+  "corpus_query_index": 8698,
+  "system": "Dense-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 3]\nAssault during Religious Gatherings:\nThe penalty for assault during religious gatherings can lead to imprisonment up to 3 years and/or a fine, under Section 295 of the Indian Penal Code (IPC) and other relevant laws.\n\n[Document 4]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.\n\n[Document 5]\nCriminal Intimidation (Section 506 IPC):\nThe penalty for criminal intimidation under Section 506 IPC can include imprisonment for up to 7 years and a fine, or both. This applies to threats to cause death, injury, or harm to a person or their property.",
+  "retrieved_doc_ids": [
+    "683",
+    "680",
+    "649",
+    "592",
+    "576"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a671d8123d9237f1cd87281c52c478a31b2fcf15373cdf9b3cc54eb27631f934",
+  "answer": "Violent behavior at sporting events can result in up to 1 year imprisonment and/or a fine, according to the Tamil Nadu Public Order Act and IPC. For bandhs or strikes, it can lead to up to 3 years imprisonment and/or a fine, under IPC Sections 307 and 325. Assaults during religious gatherings carry up to 3 years imprisonment and/or a fine, under Section 295 IPC. Threatening cultural performers can be punished with up to 7 years imprisonment and a fine, under Section 506 IPC. [Document 1]",
+  "input_tokens": 402,
+  "output_tokens": 122,
+  "seconds": 15.540021100001468,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

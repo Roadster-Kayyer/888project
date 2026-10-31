@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001549",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the procedure using evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the procedure using evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps to request funding for road expansion, which is consistent with the information provided in Document 1. The answer is relevant as it pertains directly to the procedure for funding road expansion, and it is faithful to the evidence because it accurately reflects the content of Document 1 without any unsupported claims. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to the provided evidence.",
+      "input_tokens": 828,
+      "output_tokens": 172,
+      "seconds": 13.286603000000468,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

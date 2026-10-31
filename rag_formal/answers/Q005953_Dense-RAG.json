@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005953",
+  "doc_id": "207",
+  "query_type": "casual",
+  "query": "So, how do you check if a domestic worker is legit?",
+  "corpus_query_index": 5952,
+  "system": "Dense-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nReporting Suspected Child Labor:\nTo report suspected child labor in domestic settings, you can contact the Childline (1098) or the Labour Department's helpline. You can also file a complaint with the local police station or the District Child Protection Unit.\n\n[Document 4]\nHiring Household Help:\nWhen hiring household help:\n* Verify their identity and references\n* Conduct a thorough background check\n* Inform your local police station about new hires\n\n[Document 5]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "484",
+    "1906",
+    "842"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5213e7b30e189534920b67429933b7f9bd652d48b0c36374c4a7968f7161169b",
+  "answer": "To verify a domestic worker, submit an application to the local police station with their ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 367,
+  "output_tokens": 46,
+  "seconds": 5.945492700000614,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

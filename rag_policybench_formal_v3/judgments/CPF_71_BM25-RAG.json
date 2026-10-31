@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_71",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer includes all required documents with correct details from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer includes all required documents with correct details from the reference.\"\n}\n\n\nThe candidate answer directly addresses the question by listing the specific supporting documents needed for a first-time CPF transfer to loved ones, as outlined in the reference documents. The answer is correct in terms of the types of documents required (marriage certificate, birth certificates for siblings and parents, and overseas marriage certificate with birth certificates for parent-in-laws and grandparent-in-laws), which aligns with the information provided in Document 1. The answer is relevant as it pertains directly to the question asked. The faithfulness is rated as 2 because the candidate answer is supported by the evidence provided in the reference",
+      "input_tokens": 1643,
+      "output_tokens": 192,
+      "seconds": 14.778477500003646,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_77",
+  "doc_id": "PB_25b3bc98a8dc2f9afd1c",
+  "query_type": "CPF_111",
+  "query": "Will I get into trouble if my actual income declared to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board in the following year is different from the income estimated on Contribute As You Earn (CAYE) digital services?",
+  "reference_answer": "No, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.",
+  "corpus_query_index": 142,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNo, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.\n\n[Document 2]\nIf you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.\n\n[Document 3]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 4]\nThe Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File\n\n[Document 5]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.",
+  "retrieved_doc_ids": [
+    "PB_25b3bc98a8dc2f9afd1c",
+    "PB_af7358262394319e226a",
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_18ed14021ef1cf64ad15",
+    "PB_29b07e8c3007efc0cd16"
+  ],
+  "trimmed_doc_ids": [
+    "PB_18ed14021ef1cf64ad15"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1a1a7d205a26795af5a5e6ab84669354efe1f6a058330166618050fdda278d8d",
+  "answer": "Yes, you will get into trouble if your actual income differs from the estimated income on CAYE. You must declare your actual Net Trade Income to IRAS/CPF Board to compute your MediSave payable. IRAS will assess your income and send a revised NOC with updated MediSave payable. Misdeclaration can lead to incorrect MediSave contributions and potential tax implications. [Document 1]",
+  "input_tokens": 982,
+  "output_tokens": 80,
+  "seconds": 10.495684699999401,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002960",
+  "doc_id": "1530",
+  "query_type": "hard",
+  "query": "What methods should authorities employ in case of riots or civil disturbances?",
+  "corpus_query_index": 2959,
+  "system": "Dense-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.\n\n[Document 3]\nEmergency Response to Communal Violence:\nThe Tamil Nadu Police handles communal violence through:\n* Rapid deployment of personnel to affected areas\n* Establishing communication with community leaders to calm tensions\n* Implementing curfews and other measures to maintain law and order\n\n[Document 4]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 5]\nReporting Communal Tensions:\nTo report communal tensions in rural areas, citizens can:\n1. Call the local police station or 100 (emergency number)\n2. Inform the village revenue officer or panchayat leader\n3. Submit a complaint at the nearest police station\nReports are investigated promptly, and necessary actions are taken to maintain law and order.",
+  "retrieved_doc_ids": [
+    "1530",
+    "1778",
+    "1545",
+    "1534",
+    "1374"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "afd9303ea854eac633fd6b95a3d3617561a28def3d22105de6d52cce1f4fd675",
+  "answer": "Authorities should deploy riot control police units, use non-lethal crowd control measures, restore law and order, and protect life and property. [Document 1] Additionally, they can provide protection to foreigners and handle communal violence and prison riots with specific protocols. [Document 3-4] For reporting tensions, citizens can call the police or local officials. [Document 5]",
+  "input_tokens": 458,
+  "output_tokens": 77,
+  "seconds": 9.71412220000093,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

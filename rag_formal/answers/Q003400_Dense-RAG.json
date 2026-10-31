@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003400",
+  "doc_id": "161",
+  "query_type": "hard",
+  "query": "What credentials do I need to have with me when I drive in Tamil Nadu?",
+  "corpus_query_index": 3399,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 2]\nObtaining International Driving Permits:\nTo obtain an international driving permit through Tamil Nadu RTO, submit an application with required documents, including a valid driving license, passport, and proof of address. Visit the RTO website for the application form and procedures. The permit is usually issued within a few days.\n\n[Document 3]\nObtaining Learner's License:\nTo obtain a learner's license in Tamil Nadu, apply online through the Tamil Nadu Transport Department website or visit the nearest RTO office. Fill the application form, attach required documents, and pass a computer-based test.\n\n[Document 4]\nPolice Verification for Passport:\nFor police verification of a passport in Tamil Nadu, you will need to provide documents such as:\n- Application form\n- Passport copy\n- Address proof (e.g., Aadhaar card, voter ID)\n- Identity proof (e.g., PAN card, driving license)\n\n[Document 5]\nCommercial Vehicle Permits:\nTo obtain permits for commercial vehicles in Tamil Nadu:\n1. Register your vehicle at the RTO office.\n2. Obtain a fitness certificate.\n3. Apply for a permit using Form 45 or 46.\n4. Pay the required fees.\n5. Renew permits as required.",
+  "retrieved_doc_ids": [
+    "161",
+    "2058",
+    "2063",
+    "816",
+    "2055"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "32a134f90e2cf5b6cfda26b56e8271fd284f44e6b0473881c60c988dc671f164",
+  "answer": "When driving in Tamil Nadu, carry a valid driving license, vehicle registration certificate, insurance certificate, pollution under control certificate, and vehicle fitness certificate (if applicable) [Document 1]. For international driving permits, additional documents like a passport and proof of address are needed [Document 2]. Learners licenses can be obtained by applying online or visiting an RTO office [Document 3]. Police verification requires documents like an application form, passport, address proof, and identity proof [Document 4]. Commercial vehicle permits involve registering your vehicle, obtaining a fitness certificate, and applying for a permit [Document 5].",
+  "input_tokens": 424,
+  "output_tokens": 124,
+  "seconds": 15.566393799999787,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_4",
+  "doc_id": "PB_42a5b57352687c45eed8",
+  "query_type": "medishield",
+  "query": "What is the highest premium increase one would experience by the end of the third year in the next review cycle, compared to premiums in 2024?",
+  "reference_answer": "35%",
+  "corpus_query_index": 325,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 2]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 3]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 4]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 5]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.",
+  "retrieved_doc_ids": [
+    "PB_b8fa647c38cb9cfface8",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_4bd71ffc7b87577275da",
+    "PB_5970b9dd48a067a0363d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e30a60dbd18f207de712729988f4f8f69926eeca9b32ad7dbe5514dba9e825a9",
+  "answer": "[Document 1] suggests that the highest premium increase one might face is related to the OSA increase, but specific details are not provided. [Document 2] indicates a 25% offset for 2028, implying a potential 75% or 50% decrease in the OSA increase, but no exact highest increase is stated. Premiums in 2024 are not directly compared. [Document 1] mentions options like reducing the sum assured or changing payment frequencies, but does not specify the highest possible increase. [Document 3] and [Document 4] are unrelated to premium increases. [Document 5] discusses retirement savings increases, not premium hikes. Missing is a clear highest premium increase figure for the next review cycle.",
+  "input_tokens": 913,
+  "output_tokens": 160,
+  "seconds": 20.902331300007063,
+  "hit_token_limit": true,
+  "peak_allocated_mb": 2365.2490234375
+}

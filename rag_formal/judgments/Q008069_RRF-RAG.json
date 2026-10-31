@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008069",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the reference, directly addresses the legality of police-induced signatures, and is supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 719,
+      "output_tokens": 192,
+      "seconds": 14.868236599999364,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from the reference documents.\"}",
+      "input_tokens": 759,
+      "output_tokens": 36,
+      "seconds": 3.2206953999993857,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

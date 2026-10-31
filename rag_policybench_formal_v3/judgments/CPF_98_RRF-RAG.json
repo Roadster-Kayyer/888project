@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_98",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"Document 1 confirms that shares on SGX can be included under CPFIS if they meet the criteria, but CPF savings cannot be used for these shares. It also outlines the process for investing and withdrawing, including the requirement to set aside the FRS.\"\n}",
+      "input_tokens": 1656,
+      "output_tokens": 121,
+      "seconds": 9.630687800003216,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

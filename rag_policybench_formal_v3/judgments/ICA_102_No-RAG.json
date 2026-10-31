@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_102",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference, which specifies online renewal, not in-person visits."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not align with the reference, which specifies online renewal, not in-person visits.\",\n  \"evidence\": null\n}\n\n\nIn the provided answer, there is no evidence given, and the method of renewal described does not match the reference information, which indicates that renewal should be done online. Therefore, the correctness score is 0, as the answer is incorrect and does not cover the main reference facts. The relevance score is also 0, as the answer does not address the question of how to renew the Student's Pass before expiry as per the reference. Faithfulness cannot be assessed due to the lack of evidence, and the reason succinctly explains the discre",
+      "input_tokens": 378,
+      "output_tokens": 192,
+      "seconds": 14.695045500004198,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

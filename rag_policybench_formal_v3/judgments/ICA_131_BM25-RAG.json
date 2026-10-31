@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_131",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by Document 1.\",\n}",
+      "input_tokens": 660,
+      "output_tokens": 192,
+      "seconds": 14.426236699990113,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by Document 1.\"}\n\nIn this case, the candidate answer is correct (2), directly addresses the question (2), and is fully supported by the evidence provided in Document 1 (2). There is no evidence to contradict the candidate's answer, so the faithfulness score is also 2. The reason is succinct and accurately summarizes the evaluation.",
+      "input_tokens": 700,
+      "output_tokens": 115,
+      "seconds": 8.853185399988433,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

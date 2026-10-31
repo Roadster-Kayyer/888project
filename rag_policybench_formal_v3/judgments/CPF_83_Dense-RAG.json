@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_83",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states top-ups are possible without reaching the Enhanced Retirement Sum and includes relevant restrictions and benefits from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states top-ups are possible without reaching the Enhanced Retirement Sum and includes relevant restrictions and benefits from Document 3.\",\n  \"evidence\": \"Document 3 directly supports the candidate's factual claims about top-ups, MRSS grants, and tax relief.\"\n}",
+      "input_tokens": 956,
+      "output_tokens": 192,
+      "seconds": 14.715121100001852,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

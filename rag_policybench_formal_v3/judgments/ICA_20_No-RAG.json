@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_20",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference about retrieving Form 5 or Form 5A."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference about retrieving Form 5 or Form 5A.\",\n  \"answer\": \"To download or retrieve Form 5 or Form 5A, check with the relevant government agency or department where you need to submit it. Forms are usually available on their official website or can be requested through email or postal service.\"\n}",
+      "input_tokens": 409,
+      "output_tokens": 119,
+      "seconds": 8.687181799992686,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

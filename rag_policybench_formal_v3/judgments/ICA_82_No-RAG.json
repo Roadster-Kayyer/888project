@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_82",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and is supported by the reference, which states that PR status is not revoked due to divorce but requires reporting to ICA."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the question and is supported by the reference, which states that PR status is not revoked due to divorce but requires reporting to ICA.\",\n  \"retrieved_evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate answer is deemed correct (2) as it directly addresses the question about the revocation of PR status upon divorce, and it is relevant (2) because it pertains to the specific situation described in the reference. The answer is faithful (2) because it is consistent with the reference, which implies that while the PR status itself is not revoked due to divorce, there is a procedural requirement to report the divorce to the ICA.",
+      "input_tokens": 437,
+      "output_tokens": 192,
+      "seconds": 14.76212050000322,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

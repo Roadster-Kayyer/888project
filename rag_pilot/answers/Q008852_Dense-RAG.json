@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008852",
+  "doc_id": "710",
+  "query_type": "formal",
+  "query": "What legal repercussions result from the unauthorized partitioning of communal assets?",
+  "corpus_query_index": 8851,
+  "system": "Dense-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nIllegal Conversion of Land Use:\nConsequences include fines, imprisonment, and restoration of land to its original use. The Tamil Nadu Town and Country Planning Act imposes penalties for unauthorized land use changes.\n\n[Document 3]\nCeiling Surplus Land:\nThe penalty for illegal occupation of ceiling surplus land is governed by the Tamil Nadu Land Reforms (Ceiling on Holdings) Act, 1961. It may include a fine, eviction, and/or confiscation of the land, with penalties varying depending on the specific circumstances.\n\n[Document 4]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.\n\n[Document 5]\nEncroaching Common Areas:\nEncroaching common areas in apartment complexes can lead to legal consequences under the Tamil Nadu Apartment Ownership Act, 1994. The penalty may include a fine and/or eviction from the premises, as well as restoration of the encroached area.",
+  "retrieved_doc_ids": [
+    "710",
+    "701",
+    "723",
+    "714",
+    "722"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "762770ef6729b88e401fc32f41c763fcf1857e20c749db21383e05c1538d3beb",
+  "answer": "Unauthorized partitioning of communal assets can lead to legal repercussions, including civil suits, fines, imprisonment, fines, eviction, confiscation, and restoration of the asset under various laws like the Hindu Succession Act, Tamil Nadu Town and Country Planning Act, Land Reforms Act, IPC, and Apartment Ownership Act. [Document 1-5]",
+  "input_tokens": 393,
+  "output_tokens": 70,
+  "seconds": 9.189631699999154,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

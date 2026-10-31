@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004840",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Steps for accusing banks of negligence are correctly outlined, relevant to Tamil Nadu, and supported by provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Steps for accusing banks of negligence are correctly outlined, relevant to Tamil Nadu, and supported by provided documents.\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the process for formally accusing banks of negligence for bounced checks, which is relevant to the reference provided. The answer includes the necessary steps of sending a demand notice to the drawer and filing a complaint with the Judicial Magistrate Court, as well as reporting the issue to the police station, which aligns with the reference documents. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence in Document 1 and Document 2, which detail the process for filing a complaint",
+      "input_tokens": 896,
+      "output_tokens": 192,
+      "seconds": 14.757896700000856,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

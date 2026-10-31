@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_5",
+  "doc_id": "PB_cc7693f77f325d09a3b3",
+  "query_type": "BTT",
+  "query": "What precaution should motorcycle owners take to prevent theft even during short durations?",
+  "reference_answer": "Motorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.",
+  "corpus_query_index": 45,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMotorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.\n\n[Document 2]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 5]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.",
+  "retrieved_doc_ids": [
+    "PB_cc7693f77f325d09a3b3",
+    "PB_3300f78e0c7cee359492",
+    "PB_8d18fc446288ee1e6348",
+    "PB_4db518930267429b7a6f",
+    "PB_f96012ec2f1365efa6ef"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4137e35a3c7a5e9f944d44367d444dd35d6a519375b95ac6be1056b822b23576",
+  "answer": "Motorcycle owners should remove the ignition key and lock their motorcycles even for short durations to prevent theft. [Document 1]",
+  "input_tokens": 632,
+  "output_tokens": 26,
+  "seconds": 3.5894747000129428,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

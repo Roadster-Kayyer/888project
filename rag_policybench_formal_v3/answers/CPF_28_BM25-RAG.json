@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_28",
+  "doc_id": "PB_78fc5f010e94bc79c15a",
+  "query_type": "CPF_111",
+  "query": "Can I apply for refund on CPF contributions paid above the CPF annual ceiling of $102,000?",
+  "reference_answer": "If your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.",
+  "corpus_query_index": 88,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).\n\n[Document 4]\nContribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.\n\n[Document 5]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "retrieved_doc_ids": [
+    "PB_78fc5f010e94bc79c15a",
+    "PB_cc60baad4cbf9560588b",
+    "PB_463ffaad763bace6d774",
+    "PB_bb4198b52a9a38049310",
+    "PB_3808b698344f1c773560"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "832384dab9e0bae77c83d6b4402ea0c3dec6aff24d3e430dfb16541eef1137c3",
+  "answer": "Yes, if your total net earnings exceed $102,000, your platform operator will apply for a refund from CPF Board. However, you need to check your Home Ownership Dashboard for the specific amount to be refunded. [Document 1]",
+  "input_tokens": 799,
+  "output_tokens": 53,
+  "seconds": 6.980210599998827,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

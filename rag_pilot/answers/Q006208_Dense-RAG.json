@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006208",
+  "doc_id": "234",
+  "query_type": "casual",
+  "query": "So, how do they run the Prohibition Enforcement Wing?",
+  "corpus_query_index": 6207,
+  "system": "Dense-RAG",
+  "reference_answer": "Prohibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales",
+  "context": "[Document 1]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 2]\nProhibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales\n\n[Document 3]\n2. Police Intelligence Wing:\nThe Police Intelligence Wing gathers strategic information through surveillance, informants, and data analysis to prevent and investigate crimes, and maintain law and order.\n\n[Document 4]\nPolitical Investigation Wing:\nThe Political Investigation Wing functions to:\n* Monitor and investigate political activities\n* Gather intelligence on potential threats to law and order\n* Provide security for VIPs and sensitive events\n\n[Document 5]\nCB-CID Economic Offences Wing:\nThe CB-CID Economic Offences Wing is a specialized unit of the Tamil Nadu Police that investigates economic crimes, including fraud, cheating, and other financial offenses.",
+  "retrieved_doc_ids": [
+    "1926",
+    "234",
+    "1613",
+    "1568",
+    "195"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3101d4ef3f188001113e6737fdc66e777de60ca139105b6114dd83ab6e2109e",
+  "answer": "The Prohibition Enforcement Wing (PEW) runs by conducting raids and seizures, arresting offenders, destroying illicit liquor, preventing smuggling and sales. It operates under the Tamil Nadu Police, using police intelligence and gathering strategic info to enforce prohibition laws. [Document 1, Document 2]",
+  "input_tokens": 354,
+  "output_tokens": 58,
+  "seconds": 7.193098900001132,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

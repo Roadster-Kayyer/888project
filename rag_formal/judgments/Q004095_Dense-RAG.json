@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004095",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the principle of presumption of innocence, and accurately relates conditions of bail to the principle, supported by evidence from Documents 1, 5, and references to Article 21 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the presumption of innocence principle and relates it to bail conditions and Article 21, supported by evidence from Documents 1, 5, 4, and 3.\",\n}",
+      "input_tokens": 820,
+      "output_tokens": 192,
+      "seconds": 14.971229100003256,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the principle of presumption of innocence, and accurately relates conditions of bail to the principle, supported by evidence from Documents 1, 5, and references to Article 21 and Document 3.\"}\n\nPlease note that the \"faithfulness\" score of 2 is based on the assumption that the candidate's answer is factually accurate and directly supported by the evidence provided in the documents. If the documents contained specific details that were not mentioned in the candidate's answer, the faithfulness score might be adjusted accordingly. However, based on the information given, the candidate's answer appears to be well-supported by the evidence.",
+      "input_tokens": 860,
+      "output_tokens": 172,
+      "seconds": 13.409276800000953,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

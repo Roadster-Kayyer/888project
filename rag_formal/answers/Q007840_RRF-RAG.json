@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007840",
+  "doc_id": "528",
+  "query_type": "hard",
+  "query": "How do local authorities usually handle street performers who aren't officially licensed?",
+  "corpus_query_index": 7839,
+  "system": "RRF-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.\n\n[Document 3]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 4]\nFiling a Police Complaint:\nNo, you don't need a lawyer to file a police complaint. You can file a complaint directly at your local police station or through the online portal. However, if you need guidance, you can consult a lawyer.\n\n[Document 5]\nPolice Verification for Business Establishment:\nTo get police verification for a business, submit an application to your local police station with required documents (ID proof, address proof, and business registration papers). Police will conduct a background check and issue a verification report, which is usually required for licensing and registration purposes.",
+  "retrieved_doc_ids": [
+    "528",
+    "592",
+    "578",
+    "287",
+    "212"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "af90d8b0494d3a5c3e129577f655e7ccb0ae3cc7a1659c9c0eb412ab82e87b35",
+  "answer": "Local authorities typically impose fines ranging from ₹1,000 to up to ₹5,000 for unauthorized street performances under Tamil Nadu laws. They may also arrest performers causing public nuisance or threatening cultural performers, with punishments including up to 7 years in prison for the latter. [Document 1]",
+  "input_tokens": 411,
+  "output_tokens": 64,
+  "seconds": 8.253511200000503,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

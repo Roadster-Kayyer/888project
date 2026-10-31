@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001549",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer_text\": \"To request funding for expanding roads in Tamil Nadu PWD, you should contact the department's office directly and submit a formal proposal detailing the need, benefits, and feasibility of the expansion project.\"\n}",
+      "input_tokens": 414,
+      "output_tokens": 107,
+      "seconds": 8.221313099998952,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

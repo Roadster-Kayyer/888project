@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_46",
+  "doc_id": "PB_d52d8afcd0f078500080",
+  "query_type": "BTT",
+  "query": "How does driving a vehicle in the right gear impact fuel efficiency and emissions?",
+  "reference_answer": "Driving the vehicle in the right gear will increase fuel efficiency and reduce emissions.",
+  "corpus_query_index": 41,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nAvoid dragging the engine by using the correct gear.\n\n[Document 3]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 4]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 5]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_4a5e366a1e27905d0545",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_619765030c2c1f6e27b8",
+    "PB_e2328e4bd80a947d76a0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "eebef2a042734044b171fc0288df9a5d21d8ce06ef111a63fbe4be62757aba46",
+  "answer": "Driving in the right gear increases fuel efficiency and reduces emissions [Document 1]. It also helps avoid overworking the engine, which can lower fuel consumption and decrease emissions [Document 2].",
+  "input_tokens": 448,
+  "output_tokens": 39,
+  "seconds": 5.1970982999919215,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

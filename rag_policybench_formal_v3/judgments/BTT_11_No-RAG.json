@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_11",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks evidence, cannot confirm 'SH' stands for 'Speed Hazard.'"
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks evidence, cannot confirm 'SH' stands for 'Speed Hazard.'\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is not correct (0) because there is no evidence provided to support the claim that 'SH' stands for 'Speed Hazard.' The answer is partially relevant (1) as it attempts to address the question, but it fails to provide the necessary evidence to be considered faithful (null). The reason succinctly explains the scores, indicating the lack of evidence as the primary issue.",
+      "input_tokens": 360,
+      "output_tokens": 156,
+      "seconds": 11.820919799996773,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

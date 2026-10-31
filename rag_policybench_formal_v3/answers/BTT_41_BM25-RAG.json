@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_41",
+  "doc_id": "PB_5b5856d1886897cce5a3",
+  "query_type": "BTT",
+  "query": "What is the minimum age requirement to qualify for a driving licence in Singapore?",
+  "reference_answer": "The minimum age requirement to qualify for a driving licence in Singapore is 18 years old.",
+  "corpus_query_index": 36,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 2]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 3]\nThe minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.\n\n[Document 4]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 5]\nNo, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+  "retrieved_doc_ids": [
+    "PB_5b5856d1886897cce5a3",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_a7303cb661139b377001",
+    "PB_492d1cc19d42b1bac512",
+    "PB_373f4b82c5a184b889d8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "524542c3c55da4453361675534f29e2fee0c100611a6e2edd4574821ce8a9274",
+  "answer": "The minimum age requirement to qualify for a driving licence in Singapore is 18 years old. [Document 1]",
+  "input_tokens": 857,
+  "output_tokens": 25,
+  "seconds": 914.4070992000052,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

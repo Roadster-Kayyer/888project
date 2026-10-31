@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002665",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses career advancement after constable, supported by documents on promotions, exams, training, and specialized units."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses career advancement from constable to higher ranks, supported by evidence from Documents 1 and 4.\",\n}",
+      "input_tokens": 775,
+      "output_tokens": 70,
+      "seconds": 5.521221099999821,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses career advancement after constable, supported by documents on promotions, exams, training, and specialized units.\"}",
+      "input_tokens": 815,
+      "output_tokens": 52,
+      "seconds": 4.1803115000002435,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

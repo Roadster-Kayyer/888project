@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003587",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 4.\",\n  \"evidence\": \"Document 1 mentions bulletproof vests, helmets, and communication devices; Document 4 discusses CCTV cameras, intelligent traffic management systems, and facial recognition technology.\"\n}",
+      "input_tokens": 742,
+      "output_tokens": 192,
+      "seconds": 15.120514400001412,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

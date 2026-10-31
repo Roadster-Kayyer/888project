@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004011",
+  "doc_id": "1720",
+  "query_type": "original",
+  "query": "What are the legal remedies for police misconduct?",
+  "corpus_query_index": 4010,
+  "system": "Dense-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nLegal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.\n\n[Document 2]\nFiling Complaint Against Police Misconduct:\nTo file a complaint, \n1. Visit the local police station or SP office\n2. Submit a written complaint with details\n3. Alternatively, contact the Tamil Nadu Police Complaint Authority\n\n[Document 3]\nReporting Police Misconduct:\nTo report police misconduct or corruption in Tamil Nadu, contact the local police station, or file a complaint with the Tamil Nadu Police Complaints Authority or the Anti-Corruption Bureau. Complaints can also be made online through the Tamil Nadu Police website or mobile app.\n\n[Document 4]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 5]\nReporting Ethical Violations:\nEthical violations by police officers can be reported to the Superintendent of Police or the Tamil Nadu Police Complaints Authority. Complaints can also be filed online or through the National Human Rights Commission. Reported violations are investigated, and action is taken against officers found guilty of misconduct.",
+  "retrieved_doc_ids": [
+    "1720",
+    "1830",
+    "2076",
+    "35",
+    "1422"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0e0555d22cc4f7e186dbc366f1a3a19325683b42a7252ff281e07a27b0cc77d5",
+  "answer": "The legal remedies for police misconduct include filing complaints with state human rights commissions, approaching superintendents of police or district collectors, or filing writ petitions in the High Court. You can also report misconduct to local police stations, Tamil Nadu Police Complaint Authority, or online platforms. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 431,
+  "output_tokens": 81,
+  "seconds": 10.346060699999725,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

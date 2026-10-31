@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001550",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific reference to the Tamil Nadu Public Works Department's process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific reference to the Tamil Nadu Public Works Department's process.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer does not directly reference the Tamil Nadu Public Works Department's process as described in the reference, which suggests submitting a proposal to the PWD Divisional Office. The answer also introduces an online application form and environmental impact assessments, which are not mentioned in the reference. Therefore, while the answer is relevant to the topic of applying for road widening projects, it is not fully correct according to the specific instructions provided in the reference. The lack of evidence directly from the reference to support the claim that one should visit the department's official website",
+      "input_tokens": 425,
+      "output_tokens": 192,
+      "seconds": 14.630797800000437,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000245",
+  "doc_id": "1040",
+  "query_type": "hard",
+  "query": "What's the official method for submitting a criminal complaint?",
+  "corpus_query_index": 244,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Complaint against a Revenue Department Official:\nTo file a complaint against a Revenue Department official, you can:\n1. Visit the Revenue Divisional Office or District Collector's office.\n2. Submit a written complaint to the official's higher authority.\n3. File a complaint online through the Tamil Nadu Government's grievance portal or contact the Vigilance and Anti-Corruption Department.\n\n[Document 2]\nFiling a Complaint against a Municipal Corporation Officer:\nTo file a complaint, visit the Municipal Corporation's official website or contact the Municipal Commissioner's office. You can also file a complaint in person at the nearest Municipal Corporation office or through the Tamil Nadu Government's online complaint portal.\n\n[Document 3]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 4]\nComplaining against a PWD Official:\nTo complain against a PWD official, contact the PWD Department's vigilance cell or file a complaint with the Tamil Nadu Public Works Department through their official website. You can also visit the nearest PWD office or contact the Superintendent Engineer.\n\n[Document 5]\nFiling a Complaint against a Forest Department Official:\nTo file a complaint, contact the Forest Department's grievance cell or the nearest Forest Range Office. You can also submit a complaint online through the Tamil Nadu Government's portal or write to the Principal Chief Conservator of Forests.",
+  "retrieved_doc_ids": [
+    "395",
+    "398",
+    "1040",
+    "397",
+    "408"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2e4f489be36d0b83460b93543899920db2d8626866e71d946aef63d107a85ab2",
+  "answer": "The official method for filing a criminal complaint varies by department but generally involves:\n- Filing with the police (Document 1, Document 2, Document 3).\n- Police investigation and filing of chargesheet (Document 3).\n- Court taking up the case (Document 3).\n\n[Document 3] provides the most comprehensive method: File a complaint with the police, which they will investigate and charge-sheet, then the court takes it up.",
+  "input_tokens": 441,
+  "output_tokens": 92,
+  "seconds": 11.740233399999852,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

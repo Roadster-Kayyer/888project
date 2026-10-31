@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_48",
+  "doc_id": "PB_46950c4cff6ad431d048",
+  "query_type": "BTT",
+  "query": "What action should motorists take when they notice buses pulling out of the bus bay?",
+  "reference_answer": "Motorists should slow down and watch out for buses pulling out of the bus bay.",
+  "corpus_query_index": 43,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMotorists should slow down and watch out for buses pulling out of the bus bay.\n\n[Document 2]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 3]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nNon-scheduled buses, such as school and factory buses, are permitted to use bus lanes during restricted hours.",
+  "retrieved_doc_ids": [
+    "PB_46950c4cff6ad431d048",
+    "PB_445d301435d07072a252",
+    "PB_ee80f8d345424676a47b",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_277c0b6ab5b094bffdee"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9150ba40cc9c80920273b1d85ef177198a75054d618af280b4118a0ca52b73d0",
+  "answer": "Motorists should slow down and watch out for buses pulling out of the bus bay. [Document 1]",
+  "input_tokens": 340,
+  "output_tokens": 23,
+  "seconds": 3.06395650000195,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_62",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The answer is incorrect and irrelevant, and there is no evidence provided to support any factual claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The answer is incorrect and irrelevant, and there is no evidence provided to support any factual claims.\",\n  \"evidence\": null\n}",
+      "input_tokens": 373,
+      "output_tokens": 66,
+      "seconds": 5.136404999997467,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

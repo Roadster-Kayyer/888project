@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_128",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not accurately reflect the reference process for updating SG Arrival Card details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not accurately reflect the reference process for updating SG Arrival Card details.\",\n  \"evidence\": null\n}",
+      "input_tokens": 472,
+      "output_tokens": 67,
+      "seconds": 5.092288800005917,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

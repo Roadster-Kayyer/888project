@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_70",
+  "doc_id": "PB_bd9e1d99b2ef0d938c8a",
+  "query_type": "ICA_134",
+  "query": "What is the expected processing time for an IC application?",
+  "reference_answer": "The expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.",
+  "corpus_query_index": 270,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 2]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 3]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 4]\nThe processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.\n\n[Document 5]\nYou may refer to the ICA website for more information on the application, processing time and download of a birth extract.",
+  "retrieved_doc_ids": [
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_14d73bad1d062f8a0a27",
+    "PB_4db518930267429b7a6f",
+    "PB_ac14b71f364c9fc1e15b",
+    "PB_9e513aa79957841bf9fc"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05d8dd6ea19d9ee0cc65fe869d20f88db277782175f7e6e920300bc97e33dfbf",
+  "answer": "According to [Document 1], the expected processing time for an IC application is 7 working days. [Document 2] and [Document 3] do not specify the processing time for IC applications. [Document 4] states that a passport processing time is around 1 to 2 weeks. [Document 5] suggests checking the ICA website for more details. [Document 1] provides the specific processing time for IC applications. [1]",
+  "input_tokens": 376,
+  "output_tokens": 95,
+  "seconds": 12.430558199994266,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

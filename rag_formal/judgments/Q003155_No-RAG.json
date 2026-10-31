@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003155",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference's description of the Bureau's functions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference's description of the Bureau's functions.\",\n  \"evidence\": \"The provided candidate answer is consistent with the reference's description of the Bureau's role in collecting, analyzing, and maintaining crime data, as well as providing intelligence and support to police units.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 113,
+      "seconds": 8.692521500001021,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

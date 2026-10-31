@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_50",
+  "doc_id": "PB_283925c4e94ab32680ac",
+  "query_type": "CPF_111",
+  "query": "Why are CPF transfers not eligible for the matching grant under Matched Retirement Savings Scheme?",
+  "reference_answer": "The Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.",
+  "corpus_query_index": 113,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 2]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.\n\n[Document 3]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 4]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 5]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+  "retrieved_doc_ids": [
+    "PB_0e779c5155a62f56c06e",
+    "PB_283925c4e94ab32680ac",
+    "PB_5970b9dd48a067a0363d",
+    "PB_194e6b030eea394ac1a9",
+    "PB_377d7608d12421ff652e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f2aaa73d8027a97d314a157a0c77482a9bfe9b4a0e968ce63c17bbf45df661ca",
+  "answer": "CPF transfers are not eligible for the matching grant because they are considered cash top-ups, which are irreversible and thus do not meet the requirement of having received cash top-ups during the year to qualify for the matching grant. [Document 1]",
+  "input_tokens": 583,
+  "output_tokens": 49,
+  "seconds": 6.566259200000786,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

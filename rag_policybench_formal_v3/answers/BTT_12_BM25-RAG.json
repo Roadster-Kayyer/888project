@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_12",
+  "doc_id": "PB_1bd233e28127cfee0c86",
+  "query_type": "BTT",
+  "query": "What should drivers do if the traffic lights turn red while they are in the yellow box junction?",
+  "reference_answer": "Drivers should proceed to complete their turn and clear the junction.",
+  "corpus_query_index": 4,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 2]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 3]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 4]\nThe preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error\n\n[Document 5]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+  "retrieved_doc_ids": [
+    "PB_1bd233e28127cfee0c86",
+    "PB_716429660f2efd24efb8",
+    "PB_445d301435d07072a252",
+    "PB_d22ee6af2962a7277884",
+    "PB_c41b88860662185c50b1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d9b9d17c205a9adcd3c8b7cf50da24706c25a832e5a7ee053b64e52b35ae99c3",
+  "answer": "If the traffic lights turn red while in the yellow box junction, drivers should proceed to complete their turn and clear the junction [Document 1].",
+  "input_tokens": 381,
+  "output_tokens": 30,
+  "seconds": 3.9439770999961183,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

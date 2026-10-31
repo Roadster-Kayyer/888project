@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_5",
+  "doc_id": "PB_cda0b3fc0663bcb717be",
+  "query_type": "medishield",
+  "query": "What happens if there is insufficient balance in a MediSave Account to pay for MediShield premiums?",
+  "reference_answer": "The individual or payer will be informed to top up MediSave or arrange for a family member to help pay the premiums.",
+  "corpus_query_index": 326,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nThe individual or payer will be informed to top up MediSave or arrange for a family member to help pay the premiums.\n\n[Document 3]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.\n\n[Document 4]\nThe application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.\n\n[Document 5]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_cda0b3fc0663bcb717be",
+    "PB_e3c25d5d6d3228d33a57",
+    "PB_bc2b027060817e0f3bc3",
+    "PB_abe00f9d815aa54ee0f5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2b92e32296749da919184cb2196bcc89af9db05905dc0b23076ab0195356fbe4",
+  "answer": "If there's insufficient balance in a MediSave Account to cover MediShield premiums, the individual or a family member must top up the MediSave Account. Alternatively, they can use savings from their Ordinary Account, but only if their MediSave balance falls below $20,000. [Document 5]",
+  "input_tokens": 417,
+  "output_tokens": 64,
+  "seconds": 8.438703400010127,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

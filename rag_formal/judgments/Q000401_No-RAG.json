@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000401",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the role of Child Welfare Police Officers but omits details about their training and specific responsibilities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the role of Child Welfare Police Officers but omits details about their training and specific responsibilities.\",\n  \"evidence\": \"The candidate correctly identifies that Child Welfare Police Officers investigate child abuse and neglect and work to protect children. However, the evidence does not directly support the claim about their training or the full scope of their responsibilities.\"\n}",
+      "input_tokens": 427,
+      "output_tokens": 123,
+      "seconds": 9.44979759999842,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

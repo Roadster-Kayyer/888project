@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000905",
+  "doc_id": "116",
+  "query_type": "hard",
+  "query": "According to Indian statutes, at what chronological juncture does one become accountable for criminal actions?",
+  "corpus_query_index": 904,
+  "system": "Dense-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nStages of a Criminal Trial in India:\nThe stages are:\n1. Filing of FIR\n2. Investigation\n3. Chargesheet filing\n4. Framing of charges\n5. Trial\n6. Judgment\n\n[Document 2]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 3]\nPolice Accountability:\nThe Tamil Nadu Police Department is accountable under the Tamil Nadu Police Act, 2013, and the Indian Police Act, 1861. The State Police Complaints Authority and the National Human Rights Commission oversee police conduct.\n\n[Document 4]\nExtradition Procedures\nExtradition procedures are governed by the Extradition Act, 1962. It allows India to extradite individuals to other countries and vice versa, based on treaty agreements and mutual legal assistance.\n\n[Document 5]\nObstructing Access to Shared Property:\nPunishment can include imprisonment up to 1 month and/or a fine up to ₹1,000 under Section 341 of the Indian Penal Code (IPC).",
+  "retrieved_doc_ids": [
+    "1821",
+    "116",
+    "1750",
+    "1760",
+    "706"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2aec8d9d4501e0f0b151eae9275fc9bbc71944f625d6f354758ff70bfb7ad9e7",
+  "answer": "One becomes accountable for criminal actions in India at the age of 18 according to the Age of Criminal Responsibility. [Document 2]",
+  "input_tokens": 389,
+  "output_tokens": 29,
+  "seconds": 3.8906557999998768,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

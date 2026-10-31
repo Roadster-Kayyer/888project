@@ -1,0 +1,40 @@
+{
+  "query_id": "medishield_16",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Document 1.\",\n}",
+      "input_tokens": 679,
+      "output_tokens": 192,
+      "seconds": 14.834754899988184,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"fa",
+      "input_tokens": 719,
+      "output_tokens": 192,
+      "seconds": 14.531372900004499,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required",
+  "parsing_recovery": {
+    "rule": "existing_complete_object_parser",
+    "attempt_index": 1,
+    "original_error": "Extra data: line 3 column 1 (char 148)",
+    "timestamp_auckland": "20261025_021515_426993",
+    "backup": "C:\\Users\\lenovo\\Desktop\\888\\project\\report_backups\\experiment3_repair_20261025_021515_426993\\judgments\\medishield_16_RRF-RAG.json",
+    "script_sha256": "6c280112ed801038c508633c73f98e2bf67ed0bc84f8f48b69fce691d22f6fda",
+    "parser_sha256": "209945a0714b0f0f5b879216d72c96a844d23f2599f907f42fcffff50f6e129d"
+  }
+}

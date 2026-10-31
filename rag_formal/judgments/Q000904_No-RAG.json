@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000904",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the minimum age but lacks supporting evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly states the minimum age but lacks supporting evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is partially correct as it identifies the correct minimum age for criminal liability under Indian law. However, it fails to directly reference the provided evidence from the reference, which specifies the age range for heinous crimes and the age below which children are not considered criminally liable. The faithfulness score is null because the candidate's answer does not contain any factual claims supported by the supplied evidence. The reason succinctly explains the scores, noting the correctness of the age but the lack of evidence linking the answer to the reference.",
+      "input_tokens": 380,
+      "output_tokens": 192,
+      "seconds": 14.9503457000028,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

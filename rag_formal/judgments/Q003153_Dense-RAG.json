@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003153",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the role of the State Crime Records Bureau, and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1, 2, 3, and 5.\",\n}",
+      "input_tokens": 736,
+      "output_tokens": 192,
+      "seconds": 15.022854999999254,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the role of the State Crime Records Bureau, and is supported by evidence from all documents.\"}\n**Note:** The scores are based on the provided candidate answer and the evidence from the documents. The reason given is a concise summary of the evaluation. In a real-world scenario, the evaluation would be based on the actual content and context of the documents and the candidate's answer.",
+      "input_tokens": 776,
+      "output_tokens": 113,
+      "seconds": 8.794687000001431,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

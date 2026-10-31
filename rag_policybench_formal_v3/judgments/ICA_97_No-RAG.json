@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_97",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "The answer correctly addresses the question and provides a factual claim supported by the implied need to contact an embassy or consulate, although specific evidence is not provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"The answer correctly addresses the question and provides a factual claim supported by the implied need to contact an embassy or consulate, although specific evidence is not provided.\",\n  \"evidence\": \"Contacting the nearest Singapore embassy or consulate for a new application.\"\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it directly addresses the question about changing the collection venue for a passport application. The answer suggests a correct course of action by advising to contact the nearest Singapore embassy or consulate, which aligns with the reference's instruction to seek assistance. The faithfulness score is 2 because the answer makes a factual claim that is consistent with the expected process for such a change",
+      "input_tokens": 381,
+      "output_tokens": 192,
+      "seconds": 14.554654299994581,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

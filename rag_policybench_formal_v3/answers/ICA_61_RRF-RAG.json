@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_61",
+  "doc_id": "PB_28ec022d3591816d8720",
+  "query_type": "ICA_134",
+  "query": "Can I register/replace my IC when I am residing overseas?",
+  "reference_answer": "You need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.",
+  "corpus_query_index": 260,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 2]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 3]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 4]\nYou must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.\n\n[Document 5]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.",
+  "retrieved_doc_ids": [
+    "PB_28ec022d3591816d8720",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_5e87133ca7da061eb257",
+    "PB_5ae2776cd5bb7bd71a02"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "297adb790313d7769632f3a10ada09fb5646ee940083a7b49d0e203f0b7dfa6e",
+  "answer": "To register/replace an IC while overseas, you need to collect it in person. It must be done if you're returning to Singapore within six months. However, for children born abroad, you need to register their birth locally first. Overseas, you can apply using Singpass or through Singapore missions, but ensure you submit at least two months before your current REP expires. Bring your current IC for verification and invalidation. [Document 1]",
+  "input_tokens": 370,
+  "output_tokens": 91,
+  "seconds": 11.889900599999237,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

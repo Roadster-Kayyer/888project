@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001906",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the use of digital forensics, and is supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the use of digital forensics by Tamil Nadu Police, directly addresses the reference, and is supported by evidence from Document 3.\",\n}",
+      "input_tokens": 764,
+      "output_tokens": 192,
+      "seconds": 15.080050100001245,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the use of digital forensics, and is supported by evidence from Document 3.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is relevant and correct, and it is fully supported by the evidence from the digital forensic laboratory (Cyber Crime Lab) mentioned in Document 3. Therefore, all scores are at the maximum level.",
+      "input_tokens": 804,
+      "output_tokens": 118,
+      "seconds": 8.999202000002697,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_2",
+  "doc_id": "PB_0100b0ea8b64220fd2a3",
+  "query_type": "CPF_111",
+  "query": "How is the 12-month average gross monthly income (AMI) criterion computed?",
+  "reference_answer": "The 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.",
+  "corpus_query_index": 79,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.\n\n[Document 2]\nThe minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.\n\n[Document 3]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 4]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 5]\nUnlike employees, platform workers may incur significant work expenses which are not reimbursed (e.g. fuel cost). Hence, the computation of CPF will be based on net earnings after taking into consideration such expenses. The net earnings will be based on gross earnings minus the Fixed Expense Deduction Amount (FEDA). The use of FEDA reflects expenses for the vast majority of platform workers.The FEDA takes reference from the Fixed Expense Deduction Ratio developed by IRAS for the computation of net earnings for tax purposes. This is based on actual expense ratios, including industry feedback and surveys on the expenses of workers. Some of the common allowable business expenses incurred by delivery workers and PHC/ taxi drivers include:Rental costsFuel/charging costsRepairs and maintenance costsParkingService fees paid to operatorsMobile phone subscription planRoad taxThe use of FEDA provides significant convenience for both you and your platform operators. You will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.",
+  "retrieved_doc_ids": [
+    "PB_0100b0ea8b64220fd2a3",
+    "PB_a7303cb661139b377001",
+    "PB_b9d3a3139729c4387e2a",
+    "PB_18205d295d37e73b6d4f",
+    "PB_682ac5aab8172c05b6af"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "992264683cba30defc70c87e068ada20c1fe6e087e54a4669033edaea237e132",
+  "answer": "The 12-month average gross monthly income is calculated by summing up the income over the past 12 months and dividing by the total number of months worked. [Document 1] It caps at $2,500 to qualify for Workfare Income Supplement (WIS). [Document 1] & [Document 2]",
+  "input_tokens": 974,
+  "output_tokens": 71,
+  "seconds": 9.354385900005582,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

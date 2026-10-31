@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_121",
+  "doc_id": "PB_86ecb50c3ba0c8242aab",
+  "query_type": "ICA_134",
+  "query": "What is the difference between applying for an entry visa as an Individual User or Business User?",
+  "reference_answer": "You can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.",
+  "corpus_query_index": 193,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 2]\nA business visa is an application submitted by a company for business purpose whereas a social visa is an application submitted by an individual/family for social purpose.\n\n[Document 3]\nA valid Singapore visa is not an immigration pass. A valid entry visa is a pre-entry requirement that you must apply for before travelling to seek entry into Singapore if you hold a travel document issued by one of the following countries/places listed on ICA website.Possessing a valid visa does not guarantee entry into Singapore. You will have to satisfy the basic entry requirements (https://www.ica.gov.sg/enter-transit-depart/entering-singapore) before being considered for entry into Singapore.The grant of a visit pass is determined by the ICA officers at the point of entry. The period of stay granted is shown on the visit pass endorsement given on the passport or the electronic Visit Pass (e-Pass) issued to you through email. You can visit the e-Pass portal or use the Visit Pass Validity Tool to check the expiry of your e-Pass or visit pass. Please note that the period of stay is not tied to the validity of your entry visa.You may refer to ICA website for more information should you require to extend your visit pass.\n\n[Document 4]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 5]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "retrieved_doc_ids": [
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_197ecc94e6c4cbcb96e9",
+    "PB_ee19c47e62eb004069ad",
+    "PB_b9f29dbf832927f97985",
+    "PB_f79fde53917b7a3dd93a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "20f86ad8a2fc002de11f49f9f22390d1792d99673ffa7905491002128e922b8e",
+  "answer": "As an Individual User, you apply for visas for personal visits, while Business Users apply for business-related visas. Individual Users include individuals or families seeking social visits, whereas Business Users are Singapore registered businesses applying for business visits. [Document 1]",
+  "input_tokens": 751,
+  "output_tokens": 50,
+  "seconds": 6.533060499990825,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

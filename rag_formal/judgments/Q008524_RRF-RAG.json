@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008524",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states legal repercussions and cites relevant documents, accurately reflecting the information provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states legal repercussions and cites relevant documents, accurately reflecting the information provided.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe reason is succinct and directly relates to the scores given, explaining that the candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 843,
+      "output_tokens": 117,
+      "seconds": 9.166656599998532,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_20",
+  "doc_id": "PB_2b9abc3bd3c87651113d",
+  "query_type": "ICA_134",
+  "query": "How do I download/ retrieve Form 5 or Form 5A?",
+  "reference_answer": "Form 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.",
+  "corpus_query_index": 215,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nForm 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.\n\n[Document 2]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 3]\nPlease contact us via the enquiry form for assistance.\n\n[Document 4]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 5]\nYou may refer to the ICA website for more information on the application, processing time and download of a birth extract.",
+  "retrieved_doc_ids": [
+    "PB_2b9abc3bd3c87651113d",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_f51f66ccea224b52929b",
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_9e513aa79957841bf9fc"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "49b62b2101b31b8ea6e47b2b1348c70d53638c183f7f910654e51ec4aa6982f7",
+  "answer": "To download/ retrieve Form 5 or Form 5A, log into MyICA using Singpass and go to 'MyTransaction – Entry Permit'. [Document 1]",
+  "input_tokens": 433,
+  "output_tokens": 36,
+  "seconds": 4.585740299997269,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

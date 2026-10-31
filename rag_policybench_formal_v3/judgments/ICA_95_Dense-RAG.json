@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_95",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, accurately reflecting the information from the documents regarding the process after the cessation of physical LTVP card issuance and the procedure for obtaining a digital replacement."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the information from the documents regarding the process after the cessation of physical LTVP card issuance and the procedure for obtaining a digital replacement.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3]\"\n}\n\n\nThe candidate's answer is correct in stating that there is no need to report to ICA for a lost LTVP physical card after 27 Feb 2023, and that the digital LTVP in the Singpass app should be used for verification. The mention of bringing images of the recovered LTVP to ICA Services Centre for a digital replacement aligns with the instructions given",
+      "input_tokens": 1046,
+      "output_tokens": 192,
+      "seconds": 14.733787600009236,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

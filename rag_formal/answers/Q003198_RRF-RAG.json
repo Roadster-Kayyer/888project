@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003198",
+  "doc_id": "1574",
+  "query_type": "casual",
+  "query": "So, what's the Police Radio Branch's job in keeping everyone connected?",
+  "corpus_query_index": 3197,
+  "system": "RRF-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\nTamil Nadu Police Radio Branch Recruitment:\nRecruitment for the Tamil Nadu Police Radio Branch is done through the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB). Candidates must meet eligibility criteria, pass a written exam, and undergo physical and medical tests to be selected.\n\n[Document 4]\nCommunity Radio Program:\nThe Community Radio program shares police information by broadcasting crime prevention tips, missing person alerts, and public safety announcements. It also airs awareness programs on various social issues.\n\n[Document 5]\nCentral Crime Branch Function:\nThe Central Crime Branch (CCB) in Chennai Police investigates serious crimes such as murder, robbery, and organized crime. It also handles cases related to cybercrime, narcotics, and terrorism.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1487",
+    "1675",
+    "1929"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05a3c8ef31fd7710ba527a184eff6f5ddade512fc7008e6d78e0145c82b5815d",
+  "answer": "The Police Radio Branch ensures real-time connectivity among police units, facilitating swift responses to emergencies and coordinated operations. [Document 1]",
+  "input_tokens": 354,
+  "output_tokens": 27,
+  "seconds": 3.6453927000002295,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

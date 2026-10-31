@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002126",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes police procedures for handling forest rights violations, includes relevant collaboration with forest departments, and references specific documents supporting the claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes police procedures for handling forest rights violations, includes relevant collaboration with forest departments, and references specific documents supporting the claims.\"\n}\n\n\nThe candidate's answer directly addresses the question by outlining the police's role in registering complaints, investigating cases, and collaborating with forest departments, which are all mentioned in the reference documents. The answer also correctly includes the Forest Rights Act as part of the protection measures, which is a key point in the reference. The mention of reporting forest offenses through specific channels (Document 2) adds to the relevance of the answer. The faithfulness is supported by the evidence provided in Documents 1, 4, and 5, which directly",
+      "input_tokens": 869,
+      "output_tokens": 192,
+      "seconds": 14.719841299996915,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

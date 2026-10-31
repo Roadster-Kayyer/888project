@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_133",
+  "doc_id": "PB_14d73bad1d062f8a0a27",
+  "query_type": "ICA_134",
+  "query": "How do I check on the visa application status?",
+  "reference_answer": "The processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "corpus_query_index": 206,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 2]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 3]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 4]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 5]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "retrieved_doc_ids": [
+    "PB_14d73bad1d062f8a0a27",
+    "PB_c6456fad7242c379cac1",
+    "PB_73589fc4535bd159b21d",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_6cdb1150c49584cda270"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d7632733b578f29759309e6382b23eacd9131008727329d43767da13a3e14833",
+  "answer": "To check the visa application status, visit the ICA e-Service using your visa reference number and applicant's travel document number. [Document 1] [Document 3]",
+  "input_tokens": 516,
+  "output_tokens": 37,
+  "seconds": 4.852691100008087,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003278",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question, is relevant, and supported by evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the preservation methods and security measures of the museum, supported by evidence from Documents 1, 3, and 5.\",\n}",
+      "input_tokens": 722,
+      "output_tokens": 75,
+      "seconds": 5.947871700001997,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question, is relevant, and supported by evidence from the documents.\"}",
+      "input_tokens": 762,
+      "output_tokens": 40,
+      "seconds": 3.304375899999286,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

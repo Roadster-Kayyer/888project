@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_9",
+  "doc_id": "PB_4c6983683f465b70b78a",
+  "query_type": "medishield",
+  "query": "For how many years is Phased Support provided to all Singapore Citizens and Permanent Residents?",
+  "reference_answer": "Two years.",
+  "corpus_query_index": 330,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 3]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 4]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 5]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_04de2d145d0ff95654be",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_19512072066023768385",
+    "PB_22431a3a1e46e2ace7dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "04f146c577454f3803a525da4600f5bf72cdbad9d3df835dfe5852cf9d5a2ee9",
+  "answer": "Phased Support for Singapore Citizens and Permanent Residents is typically provided for 3 to 6 months before the citizenship ceremony. [Document 2]",
+  "input_tokens": 425,
+  "output_tokens": 30,
+  "seconds": 4.016268799998215,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002129",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the evidence, directly addresses the question, and supports all factual claims with provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the evidence, directly addresses the question, and supports all factual claims with provided documents.\"\n}\n\n\n\nThe candidate answer is correct (2) as it directly addresses the question about authorities' response to illegal activities concerning forest rights among tribal populations, and it is relevant (2) because it directly relates to the information provided in the reference documents. The answer is faithful (2) because it substantiates all factual claims with evidence from the documents, such as the role of police in registering complaints, investigating cases, collaborating with forest departments, and enforcing laws. The reason succinctly explains the scores, indicating that the answer is accurate, directly relevant, and substantiated",
+      "input_tokens": 907,
+      "output_tokens": 192,
+      "seconds": 15.013642900001287,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

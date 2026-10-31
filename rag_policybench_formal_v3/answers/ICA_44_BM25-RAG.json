@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_44",
+  "doc_id": "PB_1d2f0adc9590216ed0ca",
+  "query_type": "ICA_134",
+  "query": "How do I report or provide information against immigration offenders and related activities?",
+  "reference_answer": "You may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.",
+  "corpus_query_index": 241,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou may send your feedback or report on potential immigration offenders and related activities (illegal immigrant, overstayer, suspected marriage of convenience or sham marriage etc.) through ICA online form.Please note that all identities and information provided to ICA are used only for our assessment/investigation purposes and will be treated with the strictest confidence. Information gathered during our assessment/investigation is meant only for ICA to carry out our function as an immigration and checkpoints authority and we are unable to disclose any investigation findings or outcome of the case.\n\n[Document 2]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 3]\nWe regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.\n\n[Document 4]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 5]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "retrieved_doc_ids": [
+    "PB_1d2f0adc9590216ed0ca",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_abb4a02effa48ce5e10f",
+    "PB_0b2919dbf107215d276f",
+    "PB_1dca0c51ba1dc68b6aca"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2fb04cb6463fac2562ef697a63c0d84b15bf5e68cda41b885a5f72ec4bdca9e4",
+  "answer": "To report or provide information about immigration offenders and related activities, use ICA's online form. Ensure all information is true, accurate, and complete. For illegal immigrants, overstayers, or suspected marriage cases, submit through the provided form. All details are confidential but used for assessment and investigation. [Document 1]",
+  "input_tokens": 686,
+  "output_tokens": 65,
+  "seconds": 8.556330899999011,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

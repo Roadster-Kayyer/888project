@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_48",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1, accurately explaining the refund due to meeting the FRS and eligibility for tax grants."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the refund due to meeting the FRS and mentions eligibility for tax grants on top-ups to SA, consistent with Document 1 and 5.\",\n}",
+      "input_tokens": 1233,
+      "output_tokens": 81,
+      "seconds": 6.3941335000126855,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1, accurately explaining the refund due to meeting the FRS and eligibility for tax grants.\"}\n\nNote: The \"faithfulness\" score of 2 is assigned because the candidate's answer includes specific information from Document 1 that supports the factual claims made, such as the reason for the refund (meeting the FRS) and the eligibility for tax grants when topping up the Special Account (SA). There is no indication of unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 1273,
+      "output_tokens": 153,
+      "seconds": 11.78316900000209,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

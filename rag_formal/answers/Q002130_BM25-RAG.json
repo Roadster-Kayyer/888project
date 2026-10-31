@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002130",
+  "doc_id": "1381",
+  "query_type": "hard",
+  "query": "What strategies do law enforcers use to combat forest rights violations affecting native communities?",
+  "corpus_query_index": 2129,
+  "system": "BM25-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 3]\nDispute Resolution with Tribal Councils:\nThe Tamil Nadu Police coordinates with tribal councils through regular meetings and dialogue. They work together to resolve disputes and address issues affecting tribal communities, ensuring their rights and interests are protected.\n\n[Document 4]\nTribal Area Postings Training\nTamil Nadu Police officers receive special training on tribal customs, language, and culture to effectively interact with tribal communities. This training includes understanding local laws, forest rights, and social norms.\n\n[Document 5]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.",
+  "retrieved_doc_ids": [
+    "1381",
+    "2029",
+    "1393",
+    "1378",
+    "107"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04a2f29feaf76c6e21db7bdd1f395b5c736e85ed35d07ca4576b27f343cbdf7f",
+  "answer": "Law enforcers combat forest rights violations affecting native communities by registering complaints, investigating cases, collaborating with forest departments, and protecting tribal rights under the Forest Rights Act [Document 1]. They also coordinate with tribal councils and provide special training to understand local customs and laws [Document 4]. Additionally, Child Welfare Police Officers handle cases related to child abuse and exploitation [Document 5]. [Document 2] and [Document 3] focus on civil rights and dispute resolution.",
+  "input_tokens": 396,
+  "output_tokens": 97,
+  "seconds": 12.387670599999183,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

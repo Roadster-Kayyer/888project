@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_33",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence from the reference, which states a minimum interest rate requirement."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence from the reference, which states a minimum interest rate requirement.\",\n  \"evidence\": null\n}",
+      "input_tokens": 438,
+      "output_tokens": 66,
+      "seconds": 5.087873900003615,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

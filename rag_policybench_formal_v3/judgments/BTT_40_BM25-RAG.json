@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_40",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies information on parking schemes, hours, and rates as indicated by car park signboards, directly addressing the question and supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies information on parking schemes, hours, and rates as indicated by the signboards, supported by Document 1.\",\n}",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 15.211411600001156,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies information on parking schemes, hours, and rates as indicated by car park signboards, directly addressing the question and supported by Document 1.\"}\n\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question, and that the evidence provided in Document 1 is sufficient and directly supports the factual claims made in the candidate's answer. The reason is concise and reflects the evaluation based on the given criteria.",
+      "input_tokens": 893,
+      "output_tokens": 129,
+      "seconds": 10.252918099999079,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

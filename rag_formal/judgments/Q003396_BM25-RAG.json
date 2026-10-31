@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003396",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer includes all required documents and is supported by retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer includes all required documents and is supported by retrieved evidence.\",\n  \"candidate_answer\": \"While driving in Tamil Nadu, carry: \\n- Valid driving license \\n- Vehicle registration certificate \\n- Insurance certificate \\n- Pollution under control certificate \\n- Vehicle fitness certificate (if applicable)\"\n}",
+      "input_tokens": 792,
+      "output_tokens": 116,
+      "seconds": 9.159867700000177,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007221",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference and evidence, providing correct and relevant procedures for complaint against a DRDA officer."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference and evidence, providing correct and relevant procedures for complaint against a DRDA officer.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifies the appropriate authorities to contact (District Collector or the concerned department's headquarters), and mentions the alternative methods of filing a complaint (online through the grievance portal or visiting the nearest police station), which are all supported by the evidence provided in Document 1. The reason succinctly explains the scores, indicating that the answer is accurate, relevant, and faithful to the evidence.",
+      "input_tokens": 769,
+      "output_tokens": 178,
+      "seconds": 14.044686300003377,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

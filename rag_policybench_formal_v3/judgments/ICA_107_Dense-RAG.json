@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_107",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states processing time and conditions, supported by Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states processing time and conditions, supported by Document 1 and Document 5.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 1 and Document 5. The answer includes the typical processing time and acknowledges exceptions, such as longer processing during peak times or when applying for a passport. The evidence directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 846,
+      "output_tokens": 149,
+      "seconds": 11.90843660000246,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

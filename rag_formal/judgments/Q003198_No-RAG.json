@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003198",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly describes the role of the Police Radio Branch and is supported by the reference, although specific evidence is not provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the role of the Police Radio Branch and is supported by the reference, although specific evidence is not provided.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key is included to indicate that the candidate's answer is consistent with the information provided in the reference, even though the actual evidence (Document 1) is not detailed in the instruction. In a real-world scenario, the evidence would be a direct quote or a paraphrase from the document that supports the candidate's answer.",
+      "input_tokens": 371,
+      "output_tokens": 157,
+      "seconds": 12.123697499999253,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

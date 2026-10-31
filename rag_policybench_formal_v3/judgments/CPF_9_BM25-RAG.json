@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_9",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states policy loans are not allowed and suggests alternatives, supported by Document 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states policy loans are not allowed and suggests alternatives, supported by Document 1 and 2.\",\n  \"evidence\": \"Document 1: 'Policy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.' Document 2: 'If you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options...'.\"\n}",
+      "input_tokens": 1257,
+      "output_tokens": 192,
+      "seconds": 15.306080499998643,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

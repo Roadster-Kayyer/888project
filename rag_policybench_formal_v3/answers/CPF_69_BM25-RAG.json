@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_69",
+  "doc_id": "PB_c1b27ec78f7a49b7fed4",
+  "query_type": "CPF_111",
+  "query": "How do I determine the year of my Singapore Permanent Resident status for the purpose of CPF contributions?",
+  "reference_answer": "The year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:",
+  "corpus_query_index": 133,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 5]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.",
+  "retrieved_doc_ids": [
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_cc60baad4cbf9560588b",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_29b07e8c3007efc0cd16"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "091273f4cee8de55625614cc09e1945d53693a225ecbcfb64865d03870736503",
+  "answer": "To determine your SPR year for CPF contributions, check the date on your entry permit (Form 5/5A) issued by ICA. This date indicates when you obtained your SPR status, which starts your first year of contribution rates. [Document 1]",
+  "input_tokens": 931,
+  "output_tokens": 54,
+  "seconds": 7.2640839000087,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008854",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the handling of disputes over family-owned property without consent, citing relevant documents and legal processes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the handling of disputes over family-owned property without consent, citing relevant documents and legal processes.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 5\"\n}",
+      "input_tokens": 852,
+      "output_tokens": 192,
+      "seconds": 15.311258200001248,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

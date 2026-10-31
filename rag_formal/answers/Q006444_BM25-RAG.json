@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006444",
+  "doc_id": "277",
+  "query_type": "search",
+  "query": "How do I file a complaint for domestic violence?",
+  "corpus_query_index": 6443,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint, visit the nearest police station or call 100. Provide details of the incident, and a complaint will be registered. You can also contact the Tamil Nadu State Commission for Women or a local NGO for support.\n\n[Document 3]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint in Tamil Nadu, visit the nearest police station or a women's police station. Provide a written complaint with details of the incident. The police will register an FIR and guide you through the process.\n\n[Document 4]\nFiling a Domestic Violence Complaint:\nTo file a domestic violence complaint:\n1. Visit the nearest All Women Police Station or local police station\n2. Meet with a police officer and provide details of the incident\n3. File a written complaint (FIR) with supporting evidence\n4. Receive a copy of the FIR and follow up on the investigation status\n\n[Document 5]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "retrieved_doc_ids": [
+    "255",
+    "84",
+    "1815",
+    "825",
+    "657"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "412c9596b76752e2a4b9e7c47f59410a3c0bb83fd7123bc55b8beed0d776246e",
+  "answer": "To file a domestic violence complaint, go to the nearest police station and provide details of the incident. A First Information Report (FIR) will be filed, and you'll receive a copy for reference. [Document 2] [Document 3]",
+  "input_tokens": 418,
+  "output_tokens": 52,
+  "seconds": 6.897287499999948,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

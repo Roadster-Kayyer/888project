@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001341",
+  "doc_id": "124",
+  "query_type": "original",
+  "query": "What is the NDPS Act and what offenses does it cover?",
+  "corpus_query_index": 1340,
+  "system": "RRF-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 3]\nCompounding of Offenses:\nCompounding of offenses is governed by Section 320 of the CrPC. It allows certain offenses to be settled out of court with the victim's consent, subject to court approval.\n\n[Document 4]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.\n\n[Document 5]\nPrevention of Corruption Act:\nThe Prevention of Corruption Act, 1988, applies to police officials in Tamil Nadu. It prohibits bribery, corruption, and misuse of power by public servants, including police officers.",
+  "retrieved_doc_ids": [
+    "124",
+    "131",
+    "1742",
+    "129",
+    "1739"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0221693e103a4cf43883843d5b3b0badc919b203a9fedec994a5cb39dda4f770",
+  "answer": "The NDPS Act covers offenses like possession, sale, purchase, and manufacture of banned substances. It's enforced by the Tamil Nadu Police, who handle cannabis cultivation cases. The act also includes provisions for compounding of offenses and drug seizures. [Document 1]",
+  "input_tokens": 402,
+  "output_tokens": 54,
+  "seconds": 7.091474099999687,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_114",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 1003,
+      "output_tokens": 192,
+      "seconds": 15.051178000008804,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the provided documents.\"}\n```\n\nThe candidate answer is correct (2) as it accurately reflects the information from the reference documents that holders of an In-Principle Approval (IPA) issued by MOM or ICA need to submit arrival information and health declaration via the SG Arrival Card e-Service. The relevance is also high (2) because the answer directly addresses the question about what to select for the SG Arrival Card when holding an IPA. The faithfulness is confirmed (2) as the candidate's answer is fully supported by the evidence provided in the documents, which state the procedure for IPA holders to use the SG Arrival Card e-Service. The brief explanation succinctly summarizes the",
+      "input_tokens": 1043,
+      "output_tokens": 192,
+      "seconds": 15.096448600001168,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

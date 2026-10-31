@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005903",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the method to report broken traffic lights in Tamil Nadu, supported by evidence from Documents 2 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 2 and 5.\",\n}",
+      "input_tokens": 769,
+      "output_tokens": 63,
+      "seconds": 4.976005900000018,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the method to report broken traffic lights in Tamil Nadu, supported by evidence from Documents 2 and 5.\"}",
+      "input_tokens": 809,
+      "output_tokens": 57,
+      "seconds": 4.745487200001662,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005404",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but omits specific steps and the role of the District Child Welfare Committee."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer partially addresses the question but omits specific steps and the role of the District Child Welfare Committee.\",\n  \"evidence\": null\n}\n\n\nIn the provided answer, the candidate correctly identifies that there is a legal process involving registration and document submission for adoption in Tamil Nadu. However, the answer lacks the detailed steps outlined in the reference, such as the home study, counseling, and court proceedings, and does not mention the role of the District Child Welfare Committee, which are crucial parts of the process. The faithfulness score is 0 because the candidate's answer does not support all substantive factual claims from the reference, and there is no evidence provided to back",
+      "input_tokens": 432,
+      "output_tokens": 192,
+      "seconds": 14.977301999999327,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

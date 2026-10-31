@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_2",
+  "doc_id": "PB_0100b0ea8b64220fd2a3",
+  "query_type": "CPF_111",
+  "query": "How is the 12-month average gross monthly income (AMI) criterion computed?",
+  "reference_answer": "The 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.",
+  "corpus_query_index": 79,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.\n\n[Document 2]\nThe minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.\n\n[Document 3]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 4]\nWe will keep you informed about the status of your request to make self-employed MediSave contributions via monthly instalments, once it has been processed.Please note our normal processing time:·         Requests made via online appeal: generally 12 working days·         Manual transactions: generally 15 working daysYou can check the status of your request by clicking on thislink.You can view your approved GIRO instalment plan details on theSelf-employment dashboard. To accessmy cpfDigital Services – Self-employment dashboard, please log in to theCPF websiteusing your Singpass.\n\n[Document 5]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+  "retrieved_doc_ids": [
+    "PB_0100b0ea8b64220fd2a3",
+    "PB_a7303cb661139b377001",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_837e541098985a1c1bc9",
+    "PB_af1247343974a8960a93"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "47a266b1680effda1f56725bec0a6206db0260745d36dfd2543943f3c6164292",
+  "answer": "The 12-month average gross monthly income is calculated by summing up the income earned over the past 12 months and dividing it by the total number of months worked [Document 1]. It must not exceed $2,500 to qualify for WIS [Document 1]. For 2023, a minimum income of $500 per month was introduced to encourage regular work [Document 2]. Eligibility for WIS remains for those with lower incomes due to personal circumstances [Document 2].",
+  "input_tokens": 802,
+  "output_tokens": 109,
+  "seconds": 14.463119200008805,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

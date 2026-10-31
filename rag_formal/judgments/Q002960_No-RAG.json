@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002960",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is deemed correct (2) as it directly addresses the methods authorities should employ during riots or civil disturbances, which aligns with the reference's mention of riot control police units and restoration of law and order. The relevance score is 2 because the answer directly addresses the question. However, the faithfulness score is 1 because, while the candidate answer includes methods that could be used, it does not directly cite the reference, which would be necessary for full faithfulness. The evidence key is null as the candidate answer does not contain direct evidence from",
+      "input_tokens": 418,
+      "output_tokens": 192,
+      "seconds": 14.963390699998854,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002130",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1, 4, and 5, which are relevant to the strategies used by law enforcers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects strategies used by law enforcers, including registration of complaints, investigation, collaboration, and training, all supported by the provided documents.\",\n}",
+      "input_tokens": 843,
+      "output_tokens": 192,
+      "seconds": 15.056202100000519,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1, 4, and 5, which are relevant to the strategies used by law enforcers.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and complete, and that the evidence provided in the documents supports the claims made in the answer. The reason given is a concise summary of the evaluation.",
+      "input_tokens": 883,
+      "output_tokens": 112,
+      "seconds": 8.867992100000265,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

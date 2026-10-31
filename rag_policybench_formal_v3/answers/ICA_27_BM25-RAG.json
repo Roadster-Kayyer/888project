@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_27",
+  "doc_id": "PB_465eff7f00e2e9a755e4",
+  "query_type": "ICA_134",
+  "query": "What is Immigration Exemption Order (IEO)?",
+  "reference_answer": "IEO or Immigration Exemption Order allows persons accredited as diplomats, consular representatives or visiting forces, and their dependants to apply to stay and work in Singapore under the Immigration Act.",
+  "corpus_query_index": 222,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIEO or Immigration Exemption Order allows persons accredited as diplomats, consular representatives or visiting forces, and their dependants to apply to stay and work in Singapore under the Immigration Act.\n\n[Document 2]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 3]\nWe regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.\n\n[Document 4]\nA Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.\n\n[Document 5]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.",
+  "retrieved_doc_ids": [
+    "PB_465eff7f00e2e9a755e4",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_abb4a02effa48ce5e10f",
+    "PB_3d3983332a6d398052ec",
+    "PB_7056bc0f8ffd2e5c1abc"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "95da6e0999e3ded4737596f1b166527b26021f20eb3b66bbd0406afd3b6ef34f",
+  "answer": "The Immigration Exemption Order (IEO) allows diplomats, consular representatives, or visiting forces, along with their dependants, to stay and work in Singapore under the Immigration Act without needing a Student's Pass for certain educational activities. [Document 1]",
+  "input_tokens": 556,
+  "output_tokens": 53,
+  "seconds": 7.032560000006924,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

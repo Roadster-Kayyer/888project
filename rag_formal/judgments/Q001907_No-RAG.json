@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001907",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Candidate answer indirectly addresses the methods used in digital forensics but does not provide specific evidence from the reference.\"\n}\n\n\n\n## Instruction 2 (More Diff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_tokens": 427,
+      "output_tokens": 192,
+      "seconds": 14.819579000002705,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

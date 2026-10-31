@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_9",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states e-Services without Singpass are available and acknowledges the need for Singpass for certain services, supported by Document 1 and 2-4.\",\n}",
+      "input_tokens": 789,
+      "output_tokens": 192,
+      "seconds": 14.83506870000565,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by the documents.\"}",
+      "input_tokens": 829,
+      "output_tokens": 44,
+      "seconds": 3.6713497000018833,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

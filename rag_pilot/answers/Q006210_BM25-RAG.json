@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006210",
+  "doc_id": "234",
+  "query_type": "hard",
+  "query": "What strategies does the Prohibition Enforcement Wing employ during its activities?",
+  "corpus_query_index": 6209,
+  "system": "BM25-RAG",
+  "reference_answer": "Prohibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales",
+  "context": "[Document 1]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 2]\nProhibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales\n\n[Document 3]\nPolice Units in Tamil Nadu:\nThe main police units in Tamil Nadu are:\n* Local Police\n* Traffic Police\n* Crime Branch\n* Prohibition Enforcement Wing\n* Special Branch\n\n[Document 4]\nReporting Illegal Liquor Sales:\nTo report illegal liquor sales, contact the Tamil Nadu Prohibition Enforcement Wing (PEW) or local police station. You can also call the PEW helpline at 94440 54005 or dial 100 for police assistance.\n\n[Document 5]\nTraffic Enforcement Wing Contact:\nTo contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.",
+  "retrieved_doc_ids": [
+    "1926",
+    "234",
+    "985",
+    "889",
+    "1935"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "46b18ac46db163c77689c738f0e657ed5b8f8d6eeda4c3201139fb7e52821edc",
+  "answer": "The Prohibition Enforcement Wing employs strategies including conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales [Document 2]. They operate under the Tamil Nadu Police and can be contacted through various means [Document 4] and [Document 5].",
+  "input_tokens": 391,
+  "output_tokens": 56,
+  "seconds": 7.601177500000631,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

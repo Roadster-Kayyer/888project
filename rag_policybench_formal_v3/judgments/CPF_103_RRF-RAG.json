@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_103",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need to be up-to-date with MediSave payable and the method to make top-ups, aligning with evidence from Document 1 and partially addressing processing times from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need to be up-to-date with MediSave payable and the method to make top-ups, aligning with evidence from Document 1 and partially addressing processing times from Document 2.\",\n  \"evidence\": \"Document 1, Document 2\"\n}",
+      "input_tokens": 1597,
+      "output_tokens": 192,
+      "seconds": 15.392892399991979,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

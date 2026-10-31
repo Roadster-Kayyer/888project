@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001550",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process and includes necessary documents, aligning with Document 1's instructions for road widening proposals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process and includes necessary documents, aligning with Document 1's instructions for road widening proposals.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by describing the submission of a proposal with specific documents, which is consistent with the reference provided in Document 1. The answer is relevant as it pertains to the process of initiating a project application for road width enhancement, which is the core of the question. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence in Document 1, which outlines the submission process for such proposals. The reason succinctly explains the scores, indicating that",
+      "input_tokens": 820,
+      "output_tokens": 192,
+      "seconds": 14.817113699999027,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

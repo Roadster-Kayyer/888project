@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_42",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states no need to cancel STVP before expiry, relevant to the reference, and faithful as it is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states no need to cancel STVP before expiry, relevant to the reference, and faithful as it is supported by Document 1.\",\n  \"evidence\": \"[Document 1] The Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\"\n}",
+      "input_tokens": 1010,
+      "output_tokens": 136,
+      "seconds": 10.502211599989096,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

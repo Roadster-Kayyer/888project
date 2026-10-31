@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000226",
+  "doc_id": "1038",
+  "query_type": "original",
+  "query": "What documents are required for filing a civil case?",
+  "corpus_query_index": 225,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nDocuments Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.\n\n[Document 2]\nFiling for Injunction Order:\nTo file for an injunction order, submit a petition under Order 39 of the Civil Procedure Code, 1908. Attach an affidavit and supporting documents to the petition, stating the grounds for the injunction. The court will then consider your application and pass an order.\n\n[Document 3]\nDocuments Required for Bail Application:\nRequired documents include:\n- Copy of the FIR\n- Copy of the charge sheet (if filed)\n- Identity proof\n- Address proof\n- Surety documents (if required)\n\n[Document 4]\nRequired Information for Filing an FIR:\nYou will need to provide:\n- Your name and address\n- Details of the incident (date, time, location)\n- Description of the incident and people involved\n- Any evidence or witnesses\n- Contact information for follow-up\n\n[Document 5]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.",
+  "retrieved_doc_ids": [
+    "1038",
+    "1110",
+    "1025",
+    "2",
+    "1037"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bc8baf02629f7c404c46f33f9eb876018e756ee226697e038d93718da1709ea7",
+  "answer": "For filing a civil case, required documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt [Document 1]",
+  "input_tokens": 401,
+  "output_tokens": 48,
+  "seconds": 6.176075399999718,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2054.322265625
+}

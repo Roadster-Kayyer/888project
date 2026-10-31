@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000230",
+  "doc_id": "1038",
+  "query_type": "hard",
+  "query": "Which official records are necessary to commence a civil dispute?",
+  "corpus_query_index": 229,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nDocuments Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.\n\n[Document 2]\nRecording Statements under Section 164 CrPC:\nUnder Section 164 CrPC, statements are recorded by a magistrate. The process involves: \n1. Informing the person of their rights\n2. Recording the statement in the presence of a lawyer (if desired)\n3. Ensuring the statement is voluntary and truthful.\n\n[Document 3]\nRecording Statements under Section 164 CrPC:\nTo record a statement under Section 164 CrPC, a magistrate will conduct the proceeding. The person giving the statement must be informed of their rights and the implications of the statement. The statement will be recorded in the presence of a magistrate, and the person can request legal representation.\n\n[Document 4]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 5]\nRequired Information for Filing an FIR:\nYou will need to provide:\n- Your name and address\n- Details of the incident (date, time, location)\n- Description of the incident and people involved\n- Any evidence or witnesses\n- Contact information for follow-up",
+  "retrieved_doc_ids": [
+    "1038",
+    "768",
+    "1141",
+    "78",
+    "2"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0a4902c9bda71b1d371756177750cb5509e28a340b8390d2807b6b28ac0626ac",
+  "answer": "For commencing a civil dispute, necessary documents include proof of identity and address, relevant contracts or agreements, evidence supporting your claim, and an affidavit if required. [Document 1] Additionally, for property disputes, you need to provide details of the dispute, including property deeds and witness statements. [Document 4] For FIRs (First Information Reports), you need to provide your name, address, details of the incident, description of the incident, any evidence, and contact information for witnesses. [Document 5]",
+  "input_tokens": 448,
+  "output_tokens": 106,
+  "seconds": 13.466998500000045,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.20947265625
+}

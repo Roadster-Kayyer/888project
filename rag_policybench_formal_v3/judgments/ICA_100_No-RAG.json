@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_100",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided to support or contradict the claim about updating group QR codes for different trips."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided to support or contradict the claim about updating group QR codes for different trips.\",\n  \"answer\": \"The claim about updating group QR codes for different trips is neither supported nor contradicted by the provided evidence.\"\n}\n\n\n\n## Instruction 2 (More Diff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_tokens": 425,
+      "output_tokens": 192,
+      "seconds": 14.50920010000118,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_58",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly suggests checking Singtel's website for details, aligning with the reference's instruction."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly suggests checking Singtel's website for details, aligning with the reference's instruction.\",\n  \"evidence\": \"The evidence is implicit in the candidate's answer, as it suggests the correct source (Singtel's website) without directly quoting the reference text.\"\n}",
+      "input_tokens": 517,
+      "output_tokens": 103,
+      "seconds": 8.278800300002331,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

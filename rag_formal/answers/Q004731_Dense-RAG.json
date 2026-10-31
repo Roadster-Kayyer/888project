@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004731",
+  "doc_id": "1850",
+  "query_type": "original",
+  "query": "What is the procedure for filing a writ petition in Madras High Court?",
+  "corpus_query_index": 4730,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Writ Petition in Madras High Court:\nTo file a writ petition, approach the Madras High Court with a petition prepared by a lawyer. The petition should state the grounds for the writ and the relief sought. Submit the petition to the Registry, pay the required fee, and wait for the court to list the case for hearing.",
+  "context": "[Document 1]\nFiling a Writ Petition in the Madras High Court:\nTo file a writ petition, approach the Madras High Court with a duly drafted petition. You can engage a lawyer or file in person. Submit the petition to the Registry, pay the required fee, and follow the court's procedures.\n\n[Document 2]\nFiling a Writ Petition in Madras High Court:\nTo file a writ petition, approach the Madras High Court with a petition prepared by a lawyer. The petition should state the grounds for the writ and the relief sought. Submit the petition to the Registry, pay the required fee, and wait for the court to list the case for hearing.\n\n[Document 3]\nFiling a Certiorari Petition:\nTo file a certiorari petition, approach the Madras High Court or a subordinate court with jurisdiction. You'll need to:\n* Challenge an order or decision of a lower court or tribunal\n* File a petition with the court, stating the grounds and praying for the issue of a writ of certiorari to quash the order.\n\n[Document 4]\nFiling a Habeas Corpus Petition in Madras High Court:\nTo file a habeas corpus petition, hire a lawyer or file in person at the Madras High Court. Provide details of the detention, including the date, time, and place. Attach supporting documents, such as affidavits and medical reports, if applicable. The petition should be filed in the High Court's writ jurisdiction, following the court's rules and procedures.\n\n[Document 5]\nFiling a Mandamus Petition:\nTo file a mandamus petition, approach the Madras High Court or a subordinate court with jurisdiction. You'll need to:\n* Show a clear right to the relief sought\n* Demonstrate that the respondent has a public duty to perform\n* File a petition with the court, stating the grounds and praying for the issue of a writ of mandamus.",
+  "retrieved_doc_ids": [
+    "1099",
+    "1850",
+    "1104",
+    "1858",
+    "1102"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5e2b8062c4c963560d3accb859a9fa4df9e9e89ba34db66283a3c384304c5e7f",
+  "answer": "To file a writ petition in the Madras High Court, draft a petition with grounds and relief, prepare it by a lawyer if possible, submit it to the court registry, pay the fee, and follow the court's procedures. [Document 1] & [Document 2]",
+  "input_tokens": 523,
+  "output_tokens": 58,
+  "seconds": 7.558749300000272,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

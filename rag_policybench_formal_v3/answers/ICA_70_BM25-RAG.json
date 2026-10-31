@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_70",
+  "doc_id": "PB_bd9e1d99b2ef0d938c8a",
+  "query_type": "ICA_134",
+  "query": "What is the expected processing time for an IC application?",
+  "reference_answer": "The expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.",
+  "corpus_query_index": 270,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe expected processing time for IC application is seven (7) working days. If you also applied for a passport within the same application, the combined processing time for both documents is three (3) weeks.\n\n[Document 2]\nThe processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.\n\n[Document 3]\nYou may refer to the ICA website for more information on the application, processing time and download of a birth extract.\n\n[Document 4]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 5]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.",
+  "retrieved_doc_ids": [
+    "PB_bd9e1d99b2ef0d938c8a",
+    "PB_ac14b71f364c9fc1e15b",
+    "PB_9e513aa79957841bf9fc",
+    "PB_a74f1879324f284c6dde",
+    "PB_3b19e2f31a18bd457d3a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0ebe8b7cc1c197ac63f2332857d3f8201e7871f7ce76e3497edf70ce439219af",
+  "answer": "The expected processing time for an IC application is 7 working days [Document 1]. However, if combined with a passport application, it becomes 3 weeks. For passport applications, it's around 1-2 weeks, potentially up to 2 weeks if additional requirements are met.",
+  "input_tokens": 489,
+  "output_tokens": 59,
+  "seconds": 7.816112600004999,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

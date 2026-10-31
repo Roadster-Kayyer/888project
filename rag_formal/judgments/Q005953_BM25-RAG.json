@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005953",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing evidence from Documents 1 and 2 that support the process of verifying a domestic worker."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing evidence from Documents 1 and 2 that support the process of verifying a domestic worker.\",\n  \"evidence\": \"Documents 1 and 2 both describe the process of submitting an application to the local police station with the worker's ID proof, address proof, and a declaration form, followed by a police-conducted background check and issuance of a verification report.\"\n}",
+      "input_tokens": 741,
+      "output_tokens": 134,
+      "seconds": 10.55846179999935,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002958",
+  "doc_id": "1530",
+  "query_type": "casual",
+  "query": "So, what's the deal with handling riots or civil unrest emergencies?",
+  "corpus_query_index": 2957,
+  "system": "BM25-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.\n\n[Document 3]\nAssault during Communal Riots:\nThe penalty for assault during communal riots can lead to imprisonment for up to 3 years and/or a fine, under the Tamil Nadu Public Order Act and the Indian Penal Code (IPC).\n\n[Document 4]\nComplaint against a District Supply Officer:\nFile a complaint with the District Collector's office or the Department of Civil Supplies and Consumer Protection. You can also contact the Vigilance Cell or the State Consumer Helpline.\n\n[Document 5]\nComplaint against Civil Supplies Department Official:\nTo file a complaint, contact the District Supply Officer or the Commissioner of Civil Supplies. You can also visit the Tamil Nadu Civil Supplies Department website for the online complaint procedure or file a complaint at the nearest police station.",
+  "retrieved_doc_ids": [
+    "1530",
+    "1778",
+    "670",
+    "406",
+    "419"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "22897b5da33357031ae7666ff9b13358374375e257d1927d0845cb22a4f234e1",
+  "answer": "Handling riots or civil unrest in Tamil Nadu involves deploying riot control police units, using non-lethal measures, restoring law and order, and protecting life and property. For foreigners, contact local police or FRO for protection. Assaults are punishable under law. Complaints against officials can be filed through various channels including police stations or department websites. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 405,
+  "output_tokens": 94,
+  "seconds": 12.024423799999568,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

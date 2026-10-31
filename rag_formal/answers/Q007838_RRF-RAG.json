@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007838",
+  "doc_id": "528",
+  "query_type": "casual",
+  "query": "So what do they usually do to people who play music on the street without permission?",
+  "corpus_query_index": 7837,
+  "system": "RRF-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nOperating Loud Speakers without Permission:\nUsing loud speakers without permission in Tamil Nadu can lead to a fine of up to ₹1,000 and/or imprisonment for up to 1 month, as per the Noise Pollution Act.\n\n[Document 2]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 3]\nObtaining Permission for Loudspeakers/Events:\nTo obtain permission, apply to the local police station with required documents, including event details and noise pollution undertaking. The police will verify and grant permission as per the Noise Pollution Rules, 2000.\n\n[Document 4]\nResponse to Filming/Photographing without Consent:\nIf someone is filming or photographing you without consent, stay calm and:\n* Politely ask them to stop\n* If they refuse, seek help from nearby authorities or police\n* Note down the person's details and report the incident to the police\n\n[Document 5]\nPolice entering home without permission:\nNo, police cannot enter your home without permission, except in emergency situations or with a search warrant. You have the right to refuse entry, but you must ask to see the warrant.",
+  "retrieved_doc_ids": [
+    "533",
+    "528",
+    "854",
+    "2008",
+    "272"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5413d1a6f26cb6703b50eba46e3e02e1f4d5e7684a7d31719fe9222cd91569a1",
+  "answer": "People playing music on the street without permission face fines ranging up to ₹1,000 and possible imprisonment under the Noise Pollution Act and Tamil Nadu City Police Act [Document 1, Document 2]. They may also be arrested for causing public nuisance. To avoid penalties, apply for permission at local police stations [Document 3]. [Document 4] advises handling filming without consent calmly. Police cannot enter homes without permission [Document 5].",
+  "input_tokens": 399,
+  "output_tokens": 92,
+  "seconds": 11.51531850000174,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

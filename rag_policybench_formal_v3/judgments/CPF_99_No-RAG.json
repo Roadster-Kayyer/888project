@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_99",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but omits details about ride-hail and street-hail earnings being treated separately for CPF contributions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate partially addresses the question but omits details about ride-hail and street-hail earnings being treated separately for CPF contributions.\",\n  \"evidence\": null\n}\n\n\nIn the candidate's answer, it is mentioned that earnings from both ride-hail and street-hail jobs will be combined to determine the CPF contribution amount. However, the reference clearly states that ride-hail and street-hail earnings should be treated separately for CPF contributions, which contradicts the candidate's answer. Therefore, the faithfulness score is 0. There is no evidence provided in the candidate's answer to support the claim, hence the evidence score is null. The answer is relevant as it per",
+      "input_tokens": 468,
+      "output_tokens": 192,
+      "seconds": 14.830446399995708,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

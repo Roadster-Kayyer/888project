@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005082",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the jurisdiction and functions of the Economic Offences Wing as stated in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the jurisdiction and functions of the Economic Offences Wing as stated in the documents.\",\n  \"evidence\": \"[Document 1, Document 3, Document 4]\"\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the legal authority of the Economic Offences Wing in Tamil Nadu, specifying the types of crimes it handles and the methods it uses for investigation. It is relevant (2) because it directly answers the question about the legal authority of the Economic Offences Wing. The faithfulness (2) is confirmed by the evidence provided in Document 1, which states the jurisdiction, and Document 3, which describes the Wing's role in investig",
+      "input_tokens": 781,
+      "output_tokens": 192,
+      "seconds": 15.16872560000047,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

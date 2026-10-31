@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_106",
+  "doc_id": "PB_46ec4c9c421699906017",
+  "query_type": "ICA_134",
+  "query": "How do I collect my Singapore citizenship certificate?",
+  "reference_answer": "You will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.",
+  "corpus_query_index": 176,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 2]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 5]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.",
+  "retrieved_doc_ids": [
+    "PB_46ec4c9c421699906017",
+    "PB_763506fa65f40c0150d3",
+    "PB_d98d322f2936df748ef1",
+    "PB_04de2d145d0ff95654be",
+    "PB_28ec022d3591816d8720"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "07736dc93e3dada6e9e7af73a30dee45ae0ba102e50b0ddc8e94987b59f3d35c",
+  "answer": "To collect your Singapore citizenship certificate, attend the citizenship ceremony at your GRC. Details will be sent to you by email about 3-6 months after your registration date. [Document 1] & [Document 2]",
+  "input_tokens": 346,
+  "output_tokens": 47,
+  "seconds": 6.316571300005307,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2163.20947265625
+}

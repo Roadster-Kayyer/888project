@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008907",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but lacks specific evidence from the reference.\",\n  \"evidence\": \"The reference mentions imprisonment up to 7 years and/or a fine under Section 467 of the IPC and penalties under the Registration Act, 1908 for dual registration.\"\n}",
+      "input_tokens": 386,
+      "output_tokens": 105,
+      "seconds": 8.131696399999782,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

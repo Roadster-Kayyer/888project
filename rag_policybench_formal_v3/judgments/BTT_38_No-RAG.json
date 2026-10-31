@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_38",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference; correctness is partially addressed."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference; correctness is partially addressed.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is relevant as it pertains to the Travel Time Display signboards and the color yellow, which is related to the reference's indication of increased travel time. However, the answer does not directly reference the specific percentage range (50% to 125%) provided in the reference, hence the correctness score is 1. The faithfulness score is null because there is no substantive factual claim directly supported by the supplied evidence, which in this case is absent. The reason succinctly explains the scores.",
+      "input_tokens": 358,
+      "output_tokens": 188,
+      "seconds": 14.596396799999638,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

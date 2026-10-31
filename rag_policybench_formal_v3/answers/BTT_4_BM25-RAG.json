@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_4",
+  "doc_id": "PB_716429660f2efd24efb8",
+  "query_type": "BTT",
+  "query": "What key road safety measures are implemented in school zones to enhance safety?",
+  "reference_answer": "Key road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+  "corpus_query_index": 34,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 2]\nNon-scheduled buses, such as school and factory buses, are permitted to use bus lanes during restricted hours.\n\n[Document 3]\nGive way to vehicles from the side road entering the main road.\n\n[Document 4]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 5]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.",
+  "retrieved_doc_ids": [
+    "PB_716429660f2efd24efb8",
+    "PB_277c0b6ab5b094bffdee",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_0b2919dbf107215d276f",
+    "PB_3530eb1d762ba76f2f2a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "85d582c85aab6505f63911ca8d9df31397167cc662ed0afcce2120fde591634f",
+  "answer": "In school zones, measures include prominent signs, traffic calming with humps, crossings, and markings. Additional safety includes giving way to side roads, and special rules for non-scheduled buses. [Document 1]",
+  "input_tokens": 492,
+  "output_tokens": 44,
+  "seconds": 760.2472364999994,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

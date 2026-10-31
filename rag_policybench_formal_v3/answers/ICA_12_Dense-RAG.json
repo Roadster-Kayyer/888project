@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_12",
+  "doc_id": "PB_ee80f8d345424676a47b",
+  "query_type": "ICA_134",
+  "query": "How do I know which designated lanes to use on arrival and is it applicable for all checkpoints?",
+  "reference_answer": "There will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.",
+  "corpus_query_index": 191,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 3]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 4]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 5]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "retrieved_doc_ids": [
+    "PB_ee80f8d345424676a47b",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_8d18fc446288ee1e6348",
+    "PB_9b29b1a6d1890e3f7dca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "073ce6e3b191eef067ac9fe11ab43cd09c82a0eb23b2f491423f02ef94346d4b",
+  "answer": "At Singapore land checkpoints, eligible foreign visitors can use designated lanes for immigration clearance at Tuas, Woodlands, and Marina Bay Cruise Centre. These lanes are available for arrivals via Changi Airport, cars, motorcycles, lorries, and buses. However, QR codes can be used instead of passports for faster clearance at these checkpoints. [Document 1]",
+  "input_tokens": 566,
+  "output_tokens": 72,
+  "seconds": 9.33312080000178,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

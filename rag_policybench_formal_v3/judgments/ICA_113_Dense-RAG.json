@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_113",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference, covering main facts about not needing to void SGAC for cancelled trips and the process for new trips and record deletion in the mobile app."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference, covering main facts about not needing to void SGAC for cancelled trips and the process for new trips and record deletion in the mobile app.\"\n}",
+      "input_tokens": 1279,
+      "output_tokens": 83,
+      "seconds": 6.6528493000078015,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

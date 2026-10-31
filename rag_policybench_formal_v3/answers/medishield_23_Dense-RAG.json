@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_23",
+  "doc_id": "PB_d600f5b60cee68821fae",
+  "query_type": "medishield",
+  "query": "What is the amount range of the deductible under MediShield Life based on age and ward class?",
+  "reference_answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.",
+  "corpus_query_index": 318,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 3]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 4]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.\n\n[Document 5]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_fd10bc60905030393bfb",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_ffdb8da43be014161737",
+    "PB_b136e24f78206e70b3ee"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "98bb7e52f642c90d8b355f879eaa03a35f9cdc553d46a0895f7639c90c156a2e",
+  "answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on age and ward class. However, specific ranges for different age groups or ward classes aren't detailed in the provided documents. [Document 1]",
+  "input_tokens": 512,
+  "output_tokens": 54,
+  "seconds": 7.085551900003338,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

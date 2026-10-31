@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_78",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Aligned tax relief criteria across CPF schemes; evidence from Document 1 and 2 supports this."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Aligned tax relief criteria across CPF schemes; evidence from Document 1 and 2 supports this.\"\n}",
+      "input_tokens": 1639,
+      "output_tokens": 192,
+      "seconds": 15.230226800005767,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

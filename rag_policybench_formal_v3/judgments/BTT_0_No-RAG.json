@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_0",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly refers to the regulations but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly refers to the regulations but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it directly addresses the question about the impact of leaving a vehicle engine running when stationary under the specified regulations. However, it does not provide evidence from the reference to support the claim about the consequences of such actions, hence the faithfulness score is null. The correctness score is 1 because the answer is partly correct but omits the specific penalty mentioned in the reference.",
+      "input_tokens": 404,
+      "output_tokens": 154,
+      "seconds": 11.713128299990785,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2723.6845703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

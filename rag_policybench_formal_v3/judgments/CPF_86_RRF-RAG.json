@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_86",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the information from Document 1 regarding the dependency of PCTS amount on age, earnings, and offset rate, and correctly states the maximum offset rate for 2025."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the information from Document 1 regarding the dependency of PCTS amount on age, earnings, and offset rate, and correctly states the maximum offset rate for 2025.\",\n  \"evidence\": \"Document 1: 'The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous year'.\"\n}",
+      "input_tokens": 1665,
+      "output_tokens": 192,
+      "seconds": 15.217338699992979,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

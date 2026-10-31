@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000051",
+  "doc_id": "1006",
+  "query_type": "original",
+  "query": "How do I view my traffic violation history online?",
+  "corpus_query_index": 50,
+  "system": "BM25-RAG",
+  "reference_answer": "Traffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.",
+  "context": "[Document 1]\nTraffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.\n\n[Document 2]\nVerifying Traffic Violation Challans Online:\nYou can verify traffic violation challans online through the Tamil Nadu Police Department's official website or the e-Challan portal. Enter your challan number or vehicle number to check the status.\n\n[Document 3]\nDigital Interface for Traffic Violation Reporting:\nThe digital interface for traffic violation reporting is the \"E-Challan\" system. This online platform allows citizens to report traffic violations and pay fines electronically, making the process convenient and efficient.\n\n[Document 4]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "1006",
+    "306",
+    "1338",
+    "255",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "095164c4e93074d53ebb3f79080f1d5dbeda2d76f183f8ecfa514f1f49a4ca38",
+  "answer": "To view your traffic violation history online, visit the Tamil Nadu Police Department's official website or use the e-Challan portal. Enter your vehicle number or driving license number to access your records. [Document 1]",
+  "input_tokens": 395,
+  "output_tokens": 45,
+  "seconds": 5.849865700000009,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2052.3857421875
+}

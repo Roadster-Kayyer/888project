@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005698",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - To contact the Anti-Counterfeit Currency Wing in Tamil Nadu Police, you can visit the Tamil Nadu Police website or call the police helpline number (103 or 044-28448000).\"\n}",
+      "input_tokens": 857,
+      "output_tokens": 127,
+      "seconds": 9.756366400000843,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

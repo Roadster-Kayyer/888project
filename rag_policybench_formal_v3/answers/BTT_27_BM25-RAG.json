@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_27",
+  "doc_id": "PB_905df234754f5b501b5d",
+  "query_type": "BTT",
+  "query": "Under what circumstances is it permissible to drive, move, or stop on the road shoulder or verge?",
+  "reference_answer": "It is permissible only in the event of a breakdown, accident, or emergency.",
+  "corpus_query_index": 20,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 2]\nUnder the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.\n\n[Document 3]\nIt indicates that a motorist can drive on ahead.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nGive way to vehicles from the side road entering the main road.",
+  "retrieved_doc_ids": [
+    "PB_905df234754f5b501b5d",
+    "PB_9f4f545378e55cf7e6a1",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_89b7e5350f270a309ba9",
+    "PB_66d3da627b3ea10f22bd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b62a0e7d8aad1fb3db7cd3c99f4b9adddd38fca5e44f0048c69941fbf331dbd3",
+  "answer": "It's permissible to drive, move, or stop on the road shoulder or verge only in case of a breakdown, accident, or emergency [Document 1]. Additionally, under certain conditions like allowing safe stopping space or giving way to side road vehicles, but primarily for safety reasons [Document 4] and emergencies [Document 1]. For recovery of CPF savings, there are specific laws and penalties [Document 2], which doesn't directly relate to driving on road shoulders. [Document 3] and [Document 5] provide additional context but don't address the general rule.",
+  "input_tokens": 366,
+  "output_tokens": 118,
+  "seconds": 46.04227300000639,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

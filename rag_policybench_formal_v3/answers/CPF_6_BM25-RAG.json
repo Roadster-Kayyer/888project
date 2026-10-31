@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_6",
+  "doc_id": "PB_2c2c8f4f1646ae7f07d7",
+  "query_type": "CPF_111",
+  "query": "How long does it take to process applications relating to the Self-Employed Scheme?",
+  "reference_answer": "The applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days",
+  "corpus_query_index": 123,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days\n\n[Document 2]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 3]\nThe processing time is within three (3) working days, excluding the day of submission. Some applications may take longer to process, especially during peak periods.You can use the Enquire Application Status function to check on the progress of your application.\n\n[Document 4]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 5]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_2c2c8f4f1646ae7f07d7",
+    "PB_b155e67f12a868a1d32b",
+    "PB_4db518930267429b7a6f",
+    "PB_a74f1879324f284c6dde",
+    "PB_14d73bad1d062f8a0a27"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7922fd27328ea215767302a0060ecc2cdc3adf145f017b64a72ca136eed12c7a",
+  "answer": "According to [Document 1], applications for the Self-Employed Scheme are generally processed within 12 to 15 working days, depending on the method used (online or manual). [Document 1] states, \"ServiceNormal Processing TimeManage your MediSave payable... Online: 12 working days Manual: 15 working days.\" [1]",
+  "input_tokens": 601,
+  "output_tokens": 76,
+  "seconds": 9.964179900009185,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

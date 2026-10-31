@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003596",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the reforms for the complaints filing process and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the reforms for the complaints filing process and is supported by evidence from Document 1.\",\n  \"evidence\": \"Document 1 states: 'Reforms include introducing online complaint filing systems, such as the \\\"Citizen Portal\\\" and \\\"Lost and Found\\\" portals, to streamline the process and reduce paperwork.'\"\n}",
+      "input_tokens": 1238,
+      "output_tokens": 192,
+      "seconds": 14.866711800001212,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

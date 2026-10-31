@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009704",
+  "doc_id": "864",
+  "query_type": "search",
+  "query": "What services does the pink police patrol offer and how can I get in touch with them?",
+  "corpus_query_index": 9703,
+  "system": "BM25-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nPersonal Safety for Children:\nTo educate children about personal safety and good touch-bad touch:\n- Teach them to say \"no\" to unwanted touch\n- Explain the concept of personal space\n- Identify trusted adults for help\n- Role-play different scenarios\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "864",
+    "799",
+    "255",
+    "1907",
+    "1021"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d7ea336b9e8c5dd28546dccbc56a7474431931177245bd6dd26d9b239b47209d",
+  "answer": "The Pink Police Patrol offers women's safety services. Contact them at 94981 95555 or 100. For general inquiries, visit their helpline or police station. [Document 1]",
+  "input_tokens": 521,
+  "output_tokens": 49,
+  "seconds": 6.332945300000574,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

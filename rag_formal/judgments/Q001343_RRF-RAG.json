@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001343",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific examples from the documents that support the claims about the NDPS Act's provisions and applications."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the NDPS Act's purpose and provisions, supported by evidence from Documents 1 and 4.\",\n}",
+      "input_tokens": 838,
+      "output_tokens": 72,
+      "seconds": 5.660704400001123,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific examples from the documents that support the claims about the NDPS Act's provisions and applications.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is deemed correct (2) as it accurately reflects the content of the NDPS Act and its applications as described in the documents. The answer is relevant (2) because it directly addresses the question about what the NDPS Act is about and what it stops. The answer is faithful (2) because it includes substantive factual claims that are supported by the evidence provided in the documents, such as the mention of specific offenses and procedures related to drug cases. The reason is a concise explanation of the scores, summarizing the candidate",
+      "input_tokens": 878,
+      "output_tokens": 192,
+      "seconds": 14.727575500000967,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

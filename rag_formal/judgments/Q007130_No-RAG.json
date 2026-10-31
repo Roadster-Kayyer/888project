@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007130",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly mentions Fourth Amendment and probable cause, but lacks specific rights during detention."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly mentions Fourth Amendment and probable cause, but lacks specific rights during detention.\",\n  \"evidence\": null\n}",
+      "input_tokens": 410,
+      "output_tokens": 192,
+      "seconds": 14.338679100001173,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

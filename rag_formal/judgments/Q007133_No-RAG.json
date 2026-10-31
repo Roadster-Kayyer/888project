@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007133",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer is incorrect and irrelevant as it pertains to animal control, not reporting a BDO."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer is incorrect and irrelevant as it pertains to animal control, not reporting a BDO.\",\n  \"evidence\": \"No evidence provided to support the claim about reporting a BDO.\"\n}",
+      "input_tokens": 391,
+      "output_tokens": 83,
+      "seconds": 6.470861400004651,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009879",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly outlines steps for filing a complaint, aligns with reference documents, and includes necessary details for reporting."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly outlines steps for filing a complaint, aligns with reference documents, and includes necessary details for reporting.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly identifies the need to report to HR or a supervisor, and correctly mentions filing a complaint with the appropriate state commission. The answer is fully supported by the evidence provided in Document 1, which matches the steps outlined in the candidate's answer. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 823,
+      "output_tokens": 173,
+      "seconds": 13.476791799999774,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

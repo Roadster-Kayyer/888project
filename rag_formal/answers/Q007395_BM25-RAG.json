@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007395",
+  "doc_id": "448",
+  "query_type": "hard",
+  "query": "What's the procedure for notifying law enforcement if a person is being coerced into marriage or has already been married off too young?",
+  "corpus_query_index": 7394,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nDocuments for Marriage Registration in Tamil Nadu:\nRequired documents include:\n- Age proof (birth certificate or ID)\n- Address proof\n- ID proof (Aadhaar, passport, etc.)\n- Marriage certificate (if already married)\n- Witness signatures (2)\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 4]\nLocating an Arrested Person\nTo find someone who has been arrested, contact the local police station where the arrest was made. You can also check the Tamil Nadu Police website or visit the police station in person to inquire about the person's whereabouts and the charges against them.\n\n[Document 5]\nFiling a case in the Company Law Board:\nThe Company Law Board has been replaced by the National Company Law Tribunal (NCLT). To file a case, you must:\n* Prepare a petition with required documents and fees\n* File the petition with the NCLT registry\n* Serve notice to the respondent",
+  "retrieved_doc_ids": [
+    "1836",
+    "849",
+    "867",
+    "47",
+    "1178"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "0fc25ddb61753e21ba9660e01d3f815d327a6dbc1f9b77eed57256f9f4edba77",
+  "answer": "If someone is being coerced into marriage or has been married off too young, notify local law enforcement immediately. Gather age, address, and ID proofs. Visit the police station or check their website for arrest status. [Document 2] & [Document 4] provide guidance.",
+  "input_tokens": 445,
+  "output_tokens": 58,
+  "seconds": 7.81943820000015,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

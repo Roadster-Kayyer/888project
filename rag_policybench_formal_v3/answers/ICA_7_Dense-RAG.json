@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_7",
+  "doc_id": "PB_763506fa65f40c0150d3",
+  "query_type": "ICA_134",
+  "query": "When can I collect my citizenship certificate after registration?",
+  "reference_answer": "As a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.",
+  "corpus_query_index": 269,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAs a new citizen, you are required to attend the citizenship ceremony at the respective Group Representation Constituencies (GRCs) to collect your Singapore citizenship certificate. The ceremony would usually take place in approximately three to six months after your date of registration. Once the date of ceremony is firmed up, you or your sponsor will receive an email informing the detailed information concerning the ceremony.\n\n[Document 2]\nTypically, the citizenship ceremony will be held three to six months after you have registered as a Singapore citizen. You will be provided with further details via email closer to the date of the citizenship ceremony.\n\n[Document 3]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.\n\n[Document 4]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 5]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "retrieved_doc_ids": [
+    "PB_763506fa65f40c0150d3",
+    "PB_04de2d145d0ff95654be",
+    "PB_46ec4c9c421699906017",
+    "PB_c6456fad7242c379cac1",
+    "PB_459d0a3b9e1ad4c022cb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "21650487c6843ae05bd5873ca5b595d31815c035bfa2ed68f8cca792d8af9c02",
+  "answer": "You can collect your citizenship certificate after attending the citizenship ceremony, which typically takes place in about 3 to 6 months after your registration. [Document 1]",
+  "input_tokens": 410,
+  "output_tokens": 34,
+  "seconds": 4.511239900006331,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

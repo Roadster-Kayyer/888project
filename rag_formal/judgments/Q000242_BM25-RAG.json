@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000242",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines steps for various types of criminal case filings, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps for various types of criminal case filings, supported by evidence from all documents.\"\n}",
+      "input_tokens": 885,
+      "output_tokens": 70,
+      "seconds": 5.390804600003321,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

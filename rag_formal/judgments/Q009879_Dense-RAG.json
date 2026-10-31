@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009879",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly outlines steps for filing a complaint, aligns with reference documents, and includes necessary details for reporting."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly outlines steps for filing a complaint, aligns with reference documents, and includes necessary details for reporting.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3]\"\n}\n\n\nThe candidate's answer is correct in terms of the steps to take when filing a complaint about caste discrimination, as it includes reporting to HR or a supervisor and filing a complaint with the appropriate state commission, which are both mentioned in the reference documents. The answer is relevant because it directly addresses the process of filing a complaint about caste discrimination. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided",
+      "input_tokens": 818,
+      "output_tokens": 192,
+      "seconds": 14.873763800002052,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

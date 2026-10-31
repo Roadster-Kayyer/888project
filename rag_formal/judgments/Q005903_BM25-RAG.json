@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005903",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly instructs on reporting broken traffic lights using local police resources, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly instructs on reporting broken traffic lights using local police resources, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by suggesting to visit the local police station and providing details about the broken traffic lights, which is the main reference fact. The answer is relevant as it pertains to the process of reporting traffic signal malfunctions in Tamil Nadu cities, which is what the question asks. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which instructs to call the police control room or contact the local traffic police station to report traffic signal malfunctions. There are no unsupported",
+      "input_tokens": 814,
+      "output_tokens": 192,
+      "seconds": 15.398986300002434,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

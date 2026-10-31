@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-23T11:00:14.776438+00:00",
+  "seed": 42,
+  "dataset": "nlpctx/legal-faq-paraphrased",
+  "dataset_revision": "1e6d5276557ee6c05e554290e5270ef59d140111",
+  "split": "train",
+  "dataset_fingerprint": "edc728377574162d",
+  "model": "BAAI/bge-small-en-v1.5",
+  "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "device": "cuda",
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "versions": {
+    "datasets": "4.8.5",
+    "rank-bm25": "0.2.2",
+    "sentence-transformers": "5.7.0",
+    "transformers": "4.57.6",
+    "torch": "2.5.1+cu121",
+    "numpy": "2.4.4",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9",
+    "huggingface-hub": "0.36.2",
+    "tqdm": "4.67.3"
+  },
+  "n_documents": 2090,
+  "n_queries": 10450,
+  "corpus_text": "answer only",
+  "query_types": [
+    "original",
+    "formal",
+    "casual",
+    "search",
+    "hard"
+  ],
+  "query_instruction": "Represent this sentence for searching relevant passages: ",
+  "max_sequence_length": 512,
+  "normalize_embeddings": true,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "bm25_tokenizer": "lowercase unicode word tokens; no stemming or stopword removal",
+  "rrf_constant": 60,
+  "rrf_depth": "full corpus",
+  "rrf_weights": [
+    1,
+    1
+  ],
+  "mrr_depth": "full corpus",
+  "tie_break": "lexicographic string doc_id corpus order",
+  "encode_batch_size": 32,
+  "score_batch_size": 128,
+  "bm25_no_overlap_queries": 0,
+  "sha256": {
+    "raw.csv": "d288a89f99f6ad34c54cbf9389b5263ade7288a6a4924a597dc46c3a77b3a334",
+    "corpus.csv": "7e9ac232d859bd7a47272bfa01fdec66425471d0c01d550394f2e6af30d7c2e4",
+    "queries.csv": "cf9f0899e795c5af76799a91833c71247ff6fdd0b7d82fd7d3a822f3dd574860"
+  }
+}

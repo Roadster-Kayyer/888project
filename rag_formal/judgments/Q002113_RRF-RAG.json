@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002113",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference, covering main facts about police coordination with villages through various systems and community collaboration."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering main facts about police coordination with villages through various systems and community collaboration.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly addressing the ways in which the Tamil Nadu Police work with village communities. The answer includes specific systems such as night patrols, mobile police stations, and emergency response teams, which are mentioned in the reference documents. The evidence provided (Document 1 and Document 2) supports the factual claims made in the candidate's answer, demonstrating a high level of faithfulness to the supplied evidence. The answer is concise and directly addresses the question",
+      "input_tokens": 787,
+      "output_tokens": 192,
+      "seconds": 15.01015329999791,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

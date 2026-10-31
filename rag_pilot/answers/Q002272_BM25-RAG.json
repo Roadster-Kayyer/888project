@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002272",
+  "doc_id": "1407",
+  "query_type": "formal",
+  "query": "What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?",
+  "corpus_query_index": 2271,
+  "system": "BM25-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nReporting Man-Animal Conflicts in Tamil Nadu\nTo report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.\n\n[Document 2]\nFamily Counseling Centers:\nThe role of Family Counseling Centers at police stations is to provide counseling and mediation services to resolve family disputes and domestic issues. Trained counselors help families resolve conflicts and work towards reconciliation.\n\n[Document 3]\nSafety Measures for College-Going Women:\nSafety measures for college-going women in Tamil Nadu include:\n* Being aware of surroundings and avoiding isolated areas\n* Sharing travel plans with friends and family\n* Using the Tamil Nadu Police's \"Kavalan\" app for emergency assistance\n* Reporting any suspicious activity to college authorities or police\n\n[Document 4]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "1209",
+    "96",
+    "1888",
+    "1413",
+    "1021"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "876a6b9003860374f546ed6f3add7878b4cd09f38f9980f19f00d3372ac7fa99",
+  "answer": "The Tamil Nadu Police uses the Forest Department's helpline (14417) for reporting human-animal conflicts. They also coordinate with the Forest Department to prevent encroachment and poaching, ensuring forest protection. [Document 1] & [Document 4]",
+  "input_tokens": 503,
+  "output_tokens": 57,
+  "seconds": 7.781393299999763,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2062.5498046875
+}

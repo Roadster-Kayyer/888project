@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004012",
+  "doc_id": "1720",
+  "query_type": "formal",
+  "query": "What legal actions can be taken against officers accused of misconduct?",
+  "corpus_query_index": 4011,
+  "system": "RRF-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nReporting Ethical Violations:\nEthical violations by police officers can be reported to the Superintendent of Police or the Tamil Nadu Police Complaints Authority. Complaints can also be filed online or through the National Human Rights Commission. Reported violations are investigated, and action is taken against officers found guilty of misconduct.\n\n[Document 2]\nComplaint against Judicial Officers:\nTo file a complaint against judicial officers, approach the High Court of Judicature at Madras or the concerned District Court. Submit a written complaint with supporting documents to the Registrar (Vigilance) or the District Judge.\n\n[Document 3]\nPolice Actions in Stalking Cases:\nPolice can register an FIR under Section 354D of the IPC, conduct investigations, and arrest the accused if necessary. They can also provide protection to the victim and monitor the accused's activities.\n\n[Document 4]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.\n\n[Document 5]\nReporting Misconduct:\n\nTo report misconduct by a Highways Department officer, Fisheries Department official, or Housing Board officer, follow these steps:\n\n1. Contact the Department: Reach out to the respective department's headquarters or local office.\n2. Submit a Complaint: File a written complaint with the department's grievance cell or public grievance redressal officer.\n3. Provide Details: Include the officer's name, designation, and details of the misconduct.\n4. Follow Up: Keep a record of your complaint and follow up with the department for action taken.\n\nNote: You can also contact the Tamil Nadu Police Department's vigilance cell or the State Government's public grievance redressal portal for assistance.",
+  "retrieved_doc_ids": [
+    "1422",
+    "1964",
+    "91",
+    "1753",
+    "423"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "bccf8d463cbdde288285101804bdc3b26a0e7ae3ea324ba0903e6c8bf7325526",
+  "answer": "Officers accused of misconduct can be reported to the Superintendent of Police or Tamil Nadu Police Complaints Authority [Document 1]. For judicial officers, complaints can be filed with the High Court of Judicature at Madras or District Court [Document 2]. Police can register an FIR for stalking cases and provide protection [Document 3]. The principle of vicarious liability makes police departments responsible for officer actions [Document 4]. Misconduct reports can be submitted to the relevant department's grievance cell or public grievance redressal officer [Document 5] [Document 1-5].",
+  "input_tokens": 491,
+  "output_tokens": 120,
+  "seconds": 15.1718493999997,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

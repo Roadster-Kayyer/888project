@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000902",
+  "doc_id": "116",
+  "query_type": "formal",
+  "query": "At what age is an individual considered criminally responsible in Indian law?",
+  "corpus_query_index": 901,
+  "system": "BM25-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 3]\nAge Determination in Juvenile Cases:\nIn Tamil Nadu, age determination is done through a medical examination by a qualified doctor. The court may also consider other evidence, such as school records or birth certificates. The age determination is crucial to decide whether the child should be treated as a juvenile or an adult under the law.\n\n[Document 4]\nResponsibilities of an Inspector of Police:\nAn Inspector of Police is responsible for:\n* Supervising police stations and personnel\n* Investigating serious crimes\n* Maintaining law and order\n* Implementing police policies and procedures\n\n[Document 5]\nJuvenile Offenses:\nWhen a juvenile commits an offense, they are dealt with by the Juvenile Justice Board. The board aims to rehabilitate and reform the juvenile, rather than punish them. The juvenile's age, circumstances, and best interests are considered in the proceedings.",
+  "retrieved_doc_ids": [
+    "116",
+    "34",
+    "119",
+    "1016",
+    "104"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bff87caf558251733779421ea7a538485f2360a2db6c730990ac79be50faaccd",
+  "answer": "In Indian law, an individual is considered criminally responsible at 18 years old for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. [Document 1]",
+  "input_tokens": 408,
+  "output_tokens": 44,
+  "seconds": 5.416650999999547,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

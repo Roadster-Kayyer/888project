@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_24",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but provides incorrect percentage range and incorrect basis for eligibility."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but provides incorrect percentage range and incorrect basis for eligibility.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses the Pioneer Generation Subsidies and their basis for eligibility. However, the correctness score is reduced because the candidate provides incorrect information about the percentage range (30-50% instead of 40-60%) and incorrectly states that eligibility is based on household income and the value of the residence, which contradicts the reference. The faithfulness score is null due to the presence of factual inaccuracies in the candidate's answer. There is no evidence provided to support",
+      "input_tokens": 417,
+      "output_tokens": 192,
+      "seconds": 14.753434900005232,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

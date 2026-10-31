@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003398",
+  "doc_id": "161",
+  "query_type": "casual",
+  "query": "Need what to bring if I'm driving in Tamil Nadu?",
+  "corpus_query_index": 3397,
+  "system": "BM25-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 2]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nResponding to a Court Summons:\nTo respond to a court summons in Tamil Nadu, \n1. Read the summons carefully.\n2. Appear in court on the specified date and time.\n3. Bring required documents and evidence.\n4. Consult a lawyer if needed.\n\n[Document 5]\nPenalties for Drunk Driving:\nIn Tamil Nadu, drunk driving penalties include:\n- Imprisonment up to 6 months\n- Fine up to ₹10,000\n- License suspension for at least 6 months",
+  "retrieved_doc_ids": [
+    "35",
+    "161",
+    "253",
+    "1846",
+    "283"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e8f7e9fe9d8fc8d46a59a4d7cf7dff24ecfe4238c55f5f5e158747686ab276b7",
+  "answer": "While driving in Tamil Nadu, bring:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable) [Document 2]",
+  "input_tokens": 403,
+  "output_tokens": 42,
+  "seconds": 5.410297999998875,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

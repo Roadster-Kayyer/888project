@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_66",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies MyICA mobile app for QR code generation and is supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies MyICA mobile app for QR code generation and is supported by Document 3.\",\n  \"evidence\": \"[Document 3]\"\n}",
+      "input_tokens": 822,
+      "output_tokens": 192,
+      "seconds": 14.601620899993577,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

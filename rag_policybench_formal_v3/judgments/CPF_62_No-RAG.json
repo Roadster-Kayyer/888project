@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_62",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate mentions application submission but lacks specific details on using CPF for bond and T-bill applications."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions application submission but lacks specific details on using CPF for bond and T-bill applications.\",\n  \"retrieved_evidence\": \"null\"\n}\n\n\nThe candidate answer is partly correct as it acknowledges the need to submit an application form to apply for bonds and T-bills, but it fails to mention the necessity of using the CPFIS-OA agent bank or CPFIS bond dealers for the process, which is a key fact from the reference. The relevance is maintained as the answer addresses the application process, but the faithfulness is not demonstrated due to the lack of specific evidence from the reference.",
+      "input_tokens": 918,
+      "output_tokens": 176,
+      "seconds": 13.755607099999906,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

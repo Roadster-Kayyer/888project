@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002316",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer acknowledges the need for official guidelines but lacks direct evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer acknowledges the need for official guidelines but lacks direct evidence.\",\n  \"answer\": \"Candidate answer is relevant but does not provide the specific code of conduct, hence no direct evidence is given.\"\n}",
+      "input_tokens": 406,
+      "output_tokens": 87,
+      "seconds": 6.732107100000576,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

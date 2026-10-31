@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_40",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies the need for employment contracts/pay slips to determine CPF contributions, aligning with Document 5. Faithfulness is supported by Document 5's explicit mention of required documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies the need for employment contracts/pay slips to determine CPF contributions, aligning with Document 5. Faithfulness is supported by Document 5's explicit mention of required documents.\",\n  \"evidence\": \"Document 5\"\n}",
+      "input_tokens": 1182,
+      "output_tokens": 192,
+      "seconds": 14.705111900009797,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

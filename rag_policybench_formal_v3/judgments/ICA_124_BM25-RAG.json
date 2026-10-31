@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_124",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the requirements from Document 1 for both age groups and their presence during the registration process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the requirements from Document 1 for both age groups and their presence during the registration process.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully faithful to the evidence provided in Document 1. The explanation succinctly captures the essence of the requirements for children of different ages during the Singapore citizenship registration process. The evidence directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 793,
+      "output_tokens": 141,
+      "seconds": 10.957587899989448,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

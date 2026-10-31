@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003519",
+  "doc_id": "1631",
+  "query_type": "search",
+  "query": "What adjustments has the Tamil Nadu Police made regarding women's security measures?",
+  "corpus_query_index": 3518,
+  "system": "BM25-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nSafety Measures for College-Going Women:\nSafety measures for college-going women in Tamil Nadu include:\n* Being aware of surroundings and avoiding isolated areas\n* Sharing travel plans with friends and family\n* Using the Tamil Nadu Police's \"Kavalan\" app for emergency assistance\n* Reporting any suspicious activity to college authorities or police\n\n[Document 3]\nSpecial Cells for Women and Children:\nThe Tamil Nadu Police has special cells for women and children, including:\n- All Women Police Stations\n- Mahila Desk (Women's Help Desk) at local police stations\n- Child Help Desks\n\n[Document 4]\nLocating an Arrested Person\nTo find someone who has been arrested, contact the local police station where the arrest was made. You can also check the Tamil Nadu Police website or visit the police station in person to inquire about the person's whereabouts and the charges against them.\n\n[Document 5]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance",
+  "retrieved_doc_ids": [
+    "1631",
+    "1888",
+    "824",
+    "47",
+    "1009"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ae8b108cbae80631fd5e8549394b90cd5859481162cf645c1b777dca8b2d861b",
+  "answer": "The Tamil Nadu Police has established all-women police stations and created a dedicated women's helpline. They've also increased female police personnel. [Document 1] Additionally, they have special cells for women and children, like Mahila Desk and Child Help Desks. [Document 3]",
+  "input_tokens": 406,
+  "output_tokens": 60,
+  "seconds": 7.906707300000562,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

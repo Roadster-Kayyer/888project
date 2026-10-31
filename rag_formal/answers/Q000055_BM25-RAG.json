@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000055",
+  "doc_id": "1006",
+  "query_type": "hard",
+  "query": "How can I locate my past traffic infractions through an online search?",
+  "corpus_query_index": 54,
+  "system": "BM25-RAG",
+  "reference_answer": "Traffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.",
+  "context": "[Document 1]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 2]\n1. Can police search my house without a warrant?\nGenerally, no. Police need a warrant to search your house, except in emergency situations or with your consent. (As per CrPC, 1973)\n\n[Document 3]\nDog Squad Role:\nThe Dog Squad in Tamil Nadu Police assists in crime detection, tracking, and search operations. Trained dogs help locate missing persons, detect narcotics, and track suspects.\n\n[Document 4]\nAppealing a Traffic Challan:\nYes, you can appeal against a traffic challan. You can file an appeal within 60 days of receiving the challan at the concerned court or through the Tamil Nadu Police Department's online portal.\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "799",
+    "847",
+    "1920",
+    "289",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "7de4169bae0e09cc5356e1594396b71fec3a686593aba0c3101a58edf0e800c6",
+  "answer": "To locate past traffic infractions, visit the police station where you filed the report or use the Tamil Nadu Police Department's website. You can also appeal against the traffic challan through their online portal. [Document 1]",
+  "input_tokens": 394,
+  "output_tokens": 46,
+  "seconds": 6.035713100000066,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2054.322265625
+}

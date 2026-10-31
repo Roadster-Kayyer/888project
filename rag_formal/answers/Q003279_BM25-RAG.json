@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003279",
+  "doc_id": "1589",
+  "query_type": "search",
+  "query": "Can you tell me how the Police Academy Museum maintains its role in preserving police history?",
+  "corpus_query_index": 3278,
+  "system": "BM25-RAG",
+  "reference_answer": "2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.",
+  "context": "[Document 1]\n2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.\n\n[Document 2]\nPolice Heritage Museum in Tamil Nadu\nThe Police Heritage Museum showcases the history and evolution of the Tamil Nadu Police. It preserves and displays artifacts, uniforms, and equipment used by the police over the years.\n\n[Document 3]\nPolice Documentation Center:\nThe Police Documentation Center archives historical records by collecting, preserving, and maintaining documents, photographs, and other materials related to the history of the Tamil Nadu Police Department.\n\n[Document 4]\nTamil Nadu Police Academy:\nThe Tamil Nadu Police Academy provides training to police personnel in the state. Its function is to impart knowledge, skills, and attitude to police officers and staff to enable them to perform their duties effectively and efficiently.\n\n[Document 5]\nPolice Museum Information:\nFor information about the police museum in Tamil Nadu, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and search for \"Police Museum\" or contact the Tamil Nadu Police Headquarters directly. They will provide you with details about the museum's location, timings, and exhibits.",
+  "retrieved_doc_ids": [
+    "1589",
+    "2018",
+    "1607",
+    "1948",
+    "350"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4a319a368c15ecfa770a7fe2e3cdfc2a69bfbfb5a61f71b2e5c79980118a9ac",
+  "answer": "The Police Academy Museum preserves police history through showcasing historical artifacts, documents, and equipment, highlighting the Tamil Nadu Police Department's evolution. It uses a Police Documentation Center to archive historical records, ensuring the preservation of police history. [Document 1]",
+  "input_tokens": 366,
+  "output_tokens": 50,
+  "seconds": 6.425331399999777,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

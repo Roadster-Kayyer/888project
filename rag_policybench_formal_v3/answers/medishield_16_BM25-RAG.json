@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_16",
+  "doc_id": "PB_94912bc524cf8198c3c7",
+  "query_type": "medishield",
+  "query": "Who determines subsidy eligibility for MediShield Life premiums in Singapore without requiring an application?",
+  "reference_answer": "Eligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.",
+  "corpus_query_index": 310,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nEligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.\n\n[Document 2]\nMembers pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 5]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.",
+  "retrieved_doc_ids": [
+    "PB_94912bc524cf8198c3c7",
+    "PB_e3c25d5d6d3228d33a57",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_fd10bc60905030393bfb",
+    "PB_602681b75becd57cfb35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e5c0900ae6f3b428231a87650f8f72d6efbd788f43dc4b6bf4f3ed3e9541e6cd",
+  "answer": "MediShield Life premium subsidies are determined based on existing information in Government databases without requiring an application. [Document 1]",
+  "input_tokens": 296,
+  "output_tokens": 26,
+  "seconds": 3.3081236999860266,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

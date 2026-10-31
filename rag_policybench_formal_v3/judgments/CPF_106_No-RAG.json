@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_106",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer contradicts the reference, which states that one can continue using Ordinary Account savings for future premiums even if the balance falls below $20,000."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer contradicts the reference, which states that one can continue using Ordinary Account savings for future premiums even if the balance falls below $20,000.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate's answer is incorrect according to the reference, but there is no evidence provided to support the claim made in the candidate's answer. Therefore, the faithfulness score is null due to the lack of evidence.",
+      "input_tokens": 439,
+      "output_tokens": 137,
+      "seconds": 10.595342700005858,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

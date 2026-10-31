@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_30",
+  "doc_id": "PB_7b930eae03f82435afed",
+  "query_type": "CPF_111",
+  "query": "What can members do if the funds in which they have already invested do not meet the new standards set by the Board following re-evaluation?",
+  "reference_answer": "Members who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.",
+  "corpus_query_index": 91,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nMembers who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.\n\n[Document 2]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 3]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 4]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.\n\n[Document 5]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.",
+  "retrieved_doc_ids": [
+    "PB_7b930eae03f82435afed",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_8b587c7ab32751210874",
+    "PB_aa5916ddd19af121154f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9c69f7e78e72429382ab7e57ea236563de34c21602b21e10f881af4760dd4fc1",
+  "answer": "Members can either stay invested, switch to other funds, or sell their investments if funds no longer meet new standards. [Document 1]",
+  "input_tokens": 628,
+  "output_tokens": 29,
+  "seconds": 3.8648864999995567,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

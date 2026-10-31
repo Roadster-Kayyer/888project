@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007126",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and completely covers the rights upon arrest as stated in the references, with all factual claims supported."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses all rights mentioned in the reference documents, supported by evidence from Document 3.\",\n}",
+      "input_tokens": 706,
+      "output_tokens": 192,
+      "seconds": 14.880564999999478,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and completely covers the rights upon arrest as stated in the references, with all factual claims supported.\"}",
+      "input_tokens": 746,
+      "output_tokens": 49,
+      "seconds": 3.934844700001122,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

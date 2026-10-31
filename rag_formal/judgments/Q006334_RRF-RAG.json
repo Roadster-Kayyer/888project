@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006334",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question using evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from the documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe candidate answer is correct as it accurately describes the process of tracking a missing person's complaint status and finding missing persons information, as outlined in the provided documents. The answer is relevant because it directly responds to the user's query about locating the status of a missing relative. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents, which include instructions for using the Tamil Nadu Police Department's website and contacting the police station. The reason succinct",
+      "input_tokens": 830,
+      "output_tokens": 192,
+      "seconds": 15.01440160000493,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

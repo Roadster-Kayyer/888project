@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005317",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the steps but omits specific legal sections and the need for legal consultation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the steps but omits specific legal sections and the need for legal consultation.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it outlines steps to contest a false police report, but it lacks specificity regarding the legal sections (Section 482 CrPC instead of Section 154) and the importance of legal guidance, which are crucial for the process. The evidence provided (Document 1) is not directly used to support the factual claims in the answer, but it is implied that such evidence is necessary, which aligns with the reference. The reason succinctly explains the scores.",
+      "input_tokens": 451,
+      "output_tokens": 182,
+      "seconds": 14.100124799999321,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

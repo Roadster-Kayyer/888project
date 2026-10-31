@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000401",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the role of Child Welfare Police Officers and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the role of Child Welfare Police Officers and is supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 1. The answer includes the key responsibilities of Child Welfare Police Officers, which are investigating child abuse and exploitation, and providing support and counseling to child victims. The evidence from Document 1 directly supports these factual claims, confirming the faithfulness of the candidate's answer.",
+      "input_tokens": 786,
+      "output_tokens": 168,
+      "seconds": 13.296371500000532,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

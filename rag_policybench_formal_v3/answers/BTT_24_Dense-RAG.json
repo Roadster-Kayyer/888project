@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_24",
+  "doc_id": "PB_89b7e5350f270a309ba9",
+  "query_type": "BTT",
+  "query": "Why is it important to keep a safe following distance from the vehicle in front?",
+  "reference_answer": "To allow enough room to stop safely if the vehicle stops abruptly.",
+  "corpus_query_index": 17,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.",
+  "retrieved_doc_ids": [
+    "PB_89b7e5350f270a309ba9",
+    "PB_619765030c2c1f6e27b8",
+    "PB_2858faae83bda4331fb6",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_3530eb1d762ba76f2f2a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "abce553c05656cad76a732609649b0b49a1381cabb1ba0acb22516d3a20351e5",
+  "answer": "Keeping a safe following distance is crucial to allow enough space for the vehicle in front to stop safely if it suddenly halts. This follows the two-second rule and ensures a minimum stopping distance, which is about twice as long on wet roads due to reduced tyre-surface friction. [Document 1, Document 2]",
+  "input_tokens": 230,
+  "output_tokens": 65,
+  "seconds": 25.867545200002496,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

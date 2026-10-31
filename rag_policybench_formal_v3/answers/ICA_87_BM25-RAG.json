@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_87",
+  "doc_id": "PB_4e4521efc7be0bf0574a",
+  "query_type": "ICA_134",
+  "query": "How do I check the status of my application for extension of stay?",
+  "reference_answer": "Your application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.",
+  "corpus_query_index": 288,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 2]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 3]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.",
+  "retrieved_doc_ids": [
+    "PB_4e4521efc7be0bf0574a",
+    "PB_b9f29dbf832927f97985",
+    "PB_c4889c17ceec12f1516c",
+    "PB_cc60baad4cbf9560588b",
+    "PB_cb078a82de94eaac8bfe"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d692367c4795e2c1eeba5851cd1a0338a2ac7e19c2a746a5c6754996592efda9",
+  "answer": "To check the status of your application for extending your Stay Pass, use the 'Enquire Application Status' function in the e-Service. Enter your travel document number and DE number (from your SG Arrival Card) or your travel document number and expiry date. [Document 1]",
+  "input_tokens": 753,
+  "output_tokens": 58,
+  "seconds": 7.733305699992343,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

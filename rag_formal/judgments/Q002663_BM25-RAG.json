@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002663",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with relevant and supported information from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 2.\",\n  \"evidence\": \"[Document 2]\n}",
+      "input_tokens": 765,
+      "output_tokens": 192,
+      "seconds": 15.1858891999982,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with relevant and supported information from Document 2.\"}\n```\nNote: The scores provided in the JSON object are based on the candidate's answer being correct, relevant, and faithful to the evidence provided in the reference documents. The reason is a concise explanation of the scores. In this case, the candidate's answer correctly identifies promotions, exams, and training as paths to advancement, which is directly supported by the information in Document 2. The answer is relevant to the question about career advancement for a constable and is faithful to the evidence provided.",
+      "input_tokens": 805,
+      "output_tokens": 147,
+      "seconds": 11.310951799998293,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

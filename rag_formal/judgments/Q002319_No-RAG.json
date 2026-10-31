@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002319",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate mentions relevant laws and code of conduct but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions relevant laws and code of conduct but lacks direct evidence from the reference.\",\n  \"answer\": \"Police officers in Tamil Nadu must follow various rules, including maintaining law and order, enforcing traffic laws, and respecting citizens' rights as per the Indian Police Act of 1950 and the Code of Conduct for Police Personnel.\"\n}",
+      "input_tokens": 420,
+      "output_tokens": 118,
+      "seconds": 9.104303000000073,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

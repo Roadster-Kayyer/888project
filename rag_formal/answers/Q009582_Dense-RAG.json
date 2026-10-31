@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009582",
+  "doc_id": "842",
+  "query_type": "formal",
+  "query": "How does one verify a servant?",
+  "corpus_query_index": 9581,
+  "system": "Dense-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nPolice Verification for Foreign Religious Missionaries:\nForeign religious missionaries must register with the local police station and provide required documents. They must also obtain a verification certificate from the police, which is typically required for their visa and stay in Tamil Nadu.\n\n[Document 3]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nTenant Verification:\nTo verify a tenant, submit a written application to the local police station with tenant's details, including ID proof, address, and rental agreement. The police will verify the information and provide a report.\n\n[Document 5]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).",
+  "retrieved_doc_ids": [
+    "842",
+    "1796",
+    "1191",
+    "841",
+    "345"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a552862000012414441e534bef15c0b3f48738c971599bf3189dd2129d39b7dc",
+  "answer": "To verify a servant, submit an application to the local police station with the servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report. [Document 1]",
+  "input_tokens": 364,
+  "output_tokens": 45,
+  "seconds": 5.873246500003006,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

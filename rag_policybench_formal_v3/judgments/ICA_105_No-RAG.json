@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_105",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer suggests possible reasons but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer suggests possible reasons but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is partially relevant as it addresses potential reasons for the inability to book an appointment but does not directly reference the provided reference, which states that eligible individuals will only be offered collection at SingPost and not at ICA Services Centre. The correctness score is 1 because the answer is partly correct but misses the critical fact from the reference. Faithfulness is null because there is no substantive factual claim supported by the supplied evidence, and the evidence itself is not provided. The reason succinctly explains the scores.",
+      "input_tokens": 372,
+      "output_tokens": 180,
+      "seconds": 14.073161699998309,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

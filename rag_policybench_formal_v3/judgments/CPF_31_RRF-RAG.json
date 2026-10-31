@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_31",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific details from Document 5 about the availability of resources in multiple languages."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific details from Document 5 about the resources available in multiple languages.\",\n}",
+      "input_tokens": 1000,
+      "output_tokens": 192,
+      "seconds": 14.729977399998461,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific details from Document 5 about the availability of resources in multiple languages.\"}",
+      "input_tokens": 1040,
+      "output_tokens": 52,
+      "seconds": 4.331057000003057,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

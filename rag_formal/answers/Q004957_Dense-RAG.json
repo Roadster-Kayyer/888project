@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004957",
+  "doc_id": "1891",
+  "query_type": "formal",
+  "query": "What strategies should one employ to interact with domestic violence protection officers in Tamil Nadu?",
+  "corpus_query_index": 4956,
+  "system": "Dense-RAG",
+  "reference_answer": "Approaching Domestic Violence Protection Officers in Tamil Nadu:\nTo approach domestic violence protection officers:\n* Contact the nearest police station or women's helpline (181)\n* Provide details of the abuse and seek protection\n* Ask for a protection officer to assist with filing a complaint\n* Seek help from NGOs or counseling services if needed",
+  "context": "[Document 1]\nApproaching Domestic Violence Protection Officers in Tamil Nadu:\nTo approach domestic violence protection officers:\n* Contact the nearest police station or women's helpline (181)\n* Provide details of the abuse and seek protection\n* Ask for a protection officer to assist with filing a complaint\n* Seek help from NGOs or counseling services if needed\n\n[Document 2]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181). Provide details of the incident, and the police will guide you through the process.\n\n[Document 3]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.\n\n[Document 4]\nObtaining a Restraining Order:\nTo obtain a restraining order in Tamil Nadu, file a petition under the Protection of Women from Domestic Violence Act, 2005. Approach the Magistrate Court or a Family Court with a lawyer's help. The court may grant a temporary or permanent restraining order to protect you from an abusive spouse.\n\n[Document 5]\nProtection for Women Facing Honor-Based Threats\nThe Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.",
+  "retrieved_doc_ids": [
+    "1891",
+    "277",
+    "70",
+    "1816",
+    "453"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "73c64ce8376e239ff7d395e994dd86bd58a320dc78bc0843fa29e6ee4796bfb3",
+  "answer": "One should:\n- Contact the nearest police station or women's helpline (181) [Doc 1, 5]\n- Provide details of abuse and seek protection [Doc 1]\n- Ask for a protection officer assistance [Doc 1]\n- Seek help from NGOs or counseling services if needed [Doc 1]\n- File a petition under the Protection of Women from Domestic Violence Act, 2005 [Doc 4]\n- Approach the Magistrate Court or Family Court with a lawyer’s help [Doc 4] [Doc 5]",
+  "input_tokens": 442,
+  "output_tokens": 116,
+  "seconds": 14.671971499999927,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001342",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the NDPS Act as the governing legislation, accurately describes the types of offenses it covers, and correctly mentions the penalties for drug possession, all supported by evidence from Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the NDPS Act as the governing legislation and accurately describes the crimes it encompasses, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 14.900430300000153,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the NDPS Act as the governing legislation, accurately describes the types of offenses it covers, and correctly mentions the penalties for drug possession, all supported by evidence from Documents 1 and 3.\"}\n```\n\nThe candidate's answer is correct in identifying the NDPS Act as the legislation that governs narcotic drug production and supply, and it directly addresses the types of crimes encompassed by the Act, which are possession, sale, purchase, and manufacture of banned substances. The answer also correctly refers to the penalties for drug possession as outlined in the NDPS Act, which are up to 10-20 years in prison for larger amounts, as evidenced by Document 3",
+      "input_tokens": 893,
+      "output_tokens": 192,
+      "seconds": 15.196261400000367,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

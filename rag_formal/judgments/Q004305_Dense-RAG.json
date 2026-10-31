@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004305",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the investigation process, supported by evidence from Documents 1 and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the investigation process, supported by evidence from Documents 1 and 5.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in the retrieved documents. The answer covers the main points of the reference, including the filing of a missing person report, coordination with the embassy, conducting investigations, using surveillance and technology, and collaborating with other agencies, all of which are mentioned in the reference documents. The reason succinctly explains the scores, indicating that the answer is accurate, relevant, and faithful to the evidence.",
+      "input_tokens": 804,
+      "output_tokens": 187,
+      "seconds": 14.554578500003117,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

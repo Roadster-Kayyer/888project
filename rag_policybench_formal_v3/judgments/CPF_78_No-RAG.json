@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_78",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and aligns with the reference's explanation of the policy change for consistency and simplicity, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly addresses the question and aligns with the reference's explanation of the policy change for consistency and simplicity, but lacks direct evidence from the reference.\",\n  \"retrieved_evidence\": \"null\"\n}\n\n\nNote: The \"retrieved_evidence\" key is set to \"null\" because the candidate's answer does not directly quote or paraphrase specific evidence from the provided reference text. In a real-world scenario, the evidence would be a direct quote or a paraphrased fact from the reference that supports the candidate's answer. However, since the instruction specifies not to use the reference or own knowledge, and the answer contains no substantive factual claims, the faithful",
+      "input_tokens": 695,
+      "output_tokens": 192,
+      "seconds": 14.601494599992293,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

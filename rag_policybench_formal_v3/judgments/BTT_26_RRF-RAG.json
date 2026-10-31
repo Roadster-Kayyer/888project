@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_26",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] The riding of pedal-cycles, including trishaws, tricycles, and bicycles, is prohibited.\"\n}\n\n\nIn this evaluation, the candidate answer is deemed correct (2) as it directly addresses the question and is fully supported by the evidence provided in Document 1. The relevance score is 2 because the answer directly addresses the question about what is prohibited for pedal cyclists beyond certain signs. The faithfulness score is 2 because the candidate's answer is directly supported by the evidence from Document 1, which states the prohibition explicitly. The reason succ",
+      "input_tokens": 651,
+      "output_tokens": 192,
+      "seconds": 14.752183300006436,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

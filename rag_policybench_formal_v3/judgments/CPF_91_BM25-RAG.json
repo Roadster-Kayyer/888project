@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_91",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the order of CPF savings transfer and is supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the order of transfer and references Document 2 for support.\",\n  \"evidence\": \"Document 2: 'If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA).' and 'CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**'\n}",
+      "input_tokens": 1657,
+      "output_tokens": 159,
+      "seconds": 12.521577999999863,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the order of CPF savings transfer and is supported by Document 2.\"}",
+      "input_tokens": 1697,
+      "output_tokens": 46,
+      "seconds": 4.10631370000192,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

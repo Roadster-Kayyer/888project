@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_50",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer does not match the reference of 12 steps, evidence is missing."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer does not match the reference of 12 steps, evidence is missing.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is only partially correct as it outlines a simplified process but omits the full 12 steps mentioned in the reference. The evidence provided does not support the claim, hence the faithfulness score is 0.",
+      "input_tokens": 357,
+      "output_tokens": 119,
+      "seconds": 9.382486199989216,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

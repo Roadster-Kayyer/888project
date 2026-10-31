@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007393",
+  "doc_id": "448",
+  "query_type": "casual",
+  "query": "Can you tell me how to tell the cops about someone being forced to get married or having their marriage made when they're still a kid?",
+  "corpus_query_index": 7392,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 2]\nReporting Child Marriage:\nTo report child marriage, contact the local police station or call 100 (Tamil Nadu Police Helpline). Provide details about the marriage, including date, time, location, and parties involved. You can also contact the Childline at 1098 for assistance.\n\n[Document 3]\nFiling a Complaint about Child Abandonment:\nTo file a complaint about child abandonment, visit the nearest police station and provide details of the incident. You can also contact the Childline helpline (1098) for assistance. The police will guide you through the process and take necessary action.\n\n[Document 4]\nChildren in Conflict with Law:\nPolice handle cases of children in conflict with law (under 18) as per the Juvenile Justice Act. They arrest, produce the child before the Juvenile Justice Board, and provide support during the inquiry process.\n\n[Document 5]\nReporting Abandonment by Husband:\nTo report abandonment by husband, visit the nearest police station and file a complaint. You can also contact the All-Women Police Station or the 181 Helpline for assistance. Provide necessary documents, such as marriage certificate and proof of abandonment, to support your complaint.",
+  "retrieved_doc_ids": [
+    "448",
+    "901",
+    "481",
+    "115",
+    "473"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "544d5a530bdb88c6e21b0643c0dbb721b2d0acbce85e6cd50734ad0fe0fe5fd5",
+  "answer": "To report someone being forced to get married or having their marriage made when they're still a kid, call the Tamil Nadu Police helpline: 1091 or 181. Provide details about the incident, and the police will take necessary action. [Document 1]",
+  "input_tokens": 460,
+  "output_tokens": 59,
+  "seconds": 7.600061700002698,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

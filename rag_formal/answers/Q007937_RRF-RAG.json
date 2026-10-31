@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007937",
+  "doc_id": "546",
+  "query_type": "formal",
+  "query": "Under what circumstances can one be fined for sending intimidating text communications?",
+  "corpus_query_index": 7936,
+  "system": "RRF-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Food Delivery Workers:\nThreatening food delivery workers can be considered intimidation or assault, punishable under the IPC. The penalty can range from imprisonment for 1-3 years and/or a fine, depending on the circumstances.\n\n[Document 3]\nIntimidating Voters:\nIntimidating voters during elections is a serious offense under the Indian Penal Code (IPC) and the Representation of the People Act, 1951. The punishment can range from 3 years to 7 years of imprisonment and/or a fine.\n\n[Document 4]\nThreatening to File False Cases:\nThreatening to file false cases is an offense under the Indian Penal Code. It can lead to imprisonment up to 2 years and a fine. However, specific penalties may vary depending on the circumstances.\n\n[Document 5]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.",
+  "retrieved_doc_ids": [
+    "546",
+    "590",
+    "559",
+    "579",
+    "592"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2fb271acc1e3d4465d63f94dee4df5fd8fffac1fc1c83a781090afeb687431f1",
+  "answer": "Sending threatening text messages can result in fines and imprisonment up to 3 years under Section 506 of the IPC and the IT Act, 2000 [Document 1]. Threats to food delivery workers, voters, and cultural performers can also lead to fines and up to 3 years in prison, depending on the circumstances [Documents 2, 3, 5]. Threatening to file false cases can lead to up to 2 years in prison and a fine [Document 4]. Specific fines and prison terms may vary based on the situation. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 398,
+  "output_tokens": 142,
+  "seconds": 17.829507599999488,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

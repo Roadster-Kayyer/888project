@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006233",
+  "doc_id": "239",
+  "query_type": "casual",
+  "query": "How do they use the Social Justice and Human Rights Wing?",
+  "corpus_query_index": 6232,
+  "system": "BM25-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nProtection of Human Rights Act:\nThe Protection of Human Rights Act, 1993, applies to police actions by ensuring they respect human rights. It prohibits torture, cruel, inhuman, or degrading treatment, and provides for punishment of police officers who violate these rights. The Act also establishes the National Human Rights Commission to investigate complaints.\n\n[Document 3]\nEthical Considerations in Using Force:\nThe Tamil Nadu Police follows the guidelines set by the Indian Police Act and the National Human Rights Commission. Police personnel are trained to use minimal force necessary to effect an arrest, respecting the human rights and dignity of the individual.\n\n[Document 4]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 5]\nJuvenile Justice Boards:\nJuvenile Justice Boards (JJBs) are courts that deal with juvenile offenders. They function to provide care, protection, and rehabilitation to children in conflict with the law. JJBs consist of a magistrate and two social workers, ensuring a child-friendly approach to justice.",
+  "retrieved_doc_ids": [
+    "239",
+    "1725",
+    "1417",
+    "2029",
+    "118"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "17419246280f77397ca29ef90dbf40cab89ad6dff40eee12d7a8f6b5219a9bf3",
+  "answer": "The Social Justice and Human Rights Wing promotes and protects human rights, investigates violations, and implements social justice initiatives. It operates under laws like the Protection of Human Rights Act, 1993, which prohibits abuses and punishes violators. Police follow ethical guidelines and are trained to use minimal force while respecting human rights. Additionally, it includes wings for handling civil rights cases and dealing with juvenile offenders through JJBs. [Document 1]",
+  "input_tokens": 412,
+  "output_tokens": 91,
+  "seconds": 11.420190100001491,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

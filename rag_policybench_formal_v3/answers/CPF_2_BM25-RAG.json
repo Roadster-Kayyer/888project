@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_2",
+  "doc_id": "PB_0100b0ea8b64220fd2a3",
+  "query_type": "CPF_111",
+  "query": "How is the 12-month average gross monthly income (AMI) criterion computed?",
+  "reference_answer": "The 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.",
+  "corpus_query_index": 79,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.\n\n[Document 2]\nMaintain a 12-month period free of scheduled offences.\n\n[Document 3]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nThe minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.",
+  "retrieved_doc_ids": [
+    "PB_0100b0ea8b64220fd2a3",
+    "PB_b187f7c8ea87d0fd7e96",
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_a7303cb661139b377001"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "957f5739a356c7365ebbc9d706074bf962e13e22422f92b17affa6f064cc4c01",
+  "answer": "The 12-month average gross monthly income is calculated by summing the income earned over the past 12 months and dividing by the total number of months worked [Document 1]. It must not exceed $2,500 to qualify for WIS [Document 1].",
+  "input_tokens": 678,
+  "output_tokens": 59,
+  "seconds": 7.800124799992773,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

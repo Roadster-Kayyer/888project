@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003744",
+  "doc_id": "1672",
+  "query_type": "search",
+  "query": "Can you tell me about the structure and functions of the Women Safety Committee?",
+  "corpus_query_index": 3743,
+  "system": "RRF-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nSchool Safety Committee:\nThe School Safety Committee is a joint initiative between schools and the Tamil Nadu Police. Its purpose is to ensure a safe environment for students. The committee:\n* Identifies potential safety risks\n* Develops safety plans\n* Conducts regular drills and training\n\n[Document 3]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 4]\nCoordination with Child Welfare Committee:\nThe police coordinate with the Child Welfare Committee (CWC) to ensure the safety and well-being of children in need of care and protection. The police inform the CWC about cases involving child victims or offenders, and the CWC provides guidance on rehabilitation and restoration.\n\n[Document 5]\nFunctions of All Women Police Stations in Tamil Nadu:\nAll Women Police Stations in Tamil Nadu provide a safe and supportive environment for women to report crimes. Their functions include:\n* Registering complaints related to domestic violence, harassment, and other women-specific crimes\n* Providing counseling and support services\n* Investigating and handling cases related to women's safety",
+  "retrieved_doc_ids": [
+    "1672",
+    "1684",
+    "1682",
+    "108",
+    "1880"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5bb231cd276cb40b6bf517481b226da6306fbe3337a44ff1a0d400c590afded1",
+  "answer": "The Women Safety Committee in Tamil Nadu Police focuses on women's safety through:\n- Addressing complaints and providing counseling [Doc 1]\n- Conducting awareness programs [Doc 1]\nIt works alongside school and beach committees for broader safety [Docs 2 & 3]. Police also coordinate with Child Welfare Committees [Doc 4] for comprehensive safety. Women Safety Stations handle complaints and offer support [Doc 5]. [Doc 1] provides specific functions like addressing complaints and providing counseling.",
+  "input_tokens": 434,
+  "output_tokens": 100,
+  "seconds": 12.950483299999178,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

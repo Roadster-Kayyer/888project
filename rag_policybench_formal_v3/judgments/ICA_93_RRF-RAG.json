@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_93",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference, covering all main points about post-approval actions for PR application."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering all main points about post-approval actions for PR application.\",\n  \"evidence\": \"[Document 3]\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully faithful to the evidence provided in Document 3. The answer includes all the necessary steps after receiving an IPA letter, such as visiting ICA in person, completing formalities, and submitting required documents, which are all mentioned in the reference. The evidence (Document 3) directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 803,
+      "output_tokens": 161,
+      "seconds": 12.59104820000357,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

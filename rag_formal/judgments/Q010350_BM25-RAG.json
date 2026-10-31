@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010350",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly instructs on reporting misused municipal vehicles, directly referencing the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly instructs on reporting misused municipal vehicles, directly referencing the provided documents.\",\n  \"evidence\": \"Document 1 and Document 5 both provide instructions on how to report misuse of municipal vehicles, including contacting the police and municipal authorities.\"\n}",
+      "input_tokens": 1027,
+      "output_tokens": 96,
+      "seconds": 7.724940200001583,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

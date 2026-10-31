@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003433",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence from the reference about police reforms."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence from the reference about police reforms.\",\n  \"answer\": \"Candidate answer is relevant but lacks specific evidence from the reference about police reforms.\"\n}",
+      "input_tokens": 399,
+      "output_tokens": 80,
+      "seconds": 6.3747339000001375,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

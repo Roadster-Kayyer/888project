@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_53",
+  "doc_id": "PB_2bc174ceaf15f1ad5e40",
+  "query_type": "ICA_134",
+  "query": "What should I key in for the field 'Date of Departure from Singapore' if I am not leaving Singapore?",
+  "reference_answer": "You are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "corpus_query_index": 251,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 2]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.\n\n[Document 3]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 4]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 5]\nIf you arrived at Singapore Changi Airport and were issued with the onward boarding passes for connecting flights out of Changi Airport, you may remain within the Changi Airport transit area until time for flight departure.You can also remain in the transit area if you can obtain the onward boarding passes from any of the Transfer Lounges within the transit area.However, if you are not issued with the onward boarding passes for connecting flights out of Changi Airport; or unable to obtain the onward boarding passes from any of the Transfer Lounges within the transit area, you are advised to exit the transit area as soon as possible.We wish to highlight that most passengers who are arriving on a Low Cost Carrier (LCC) or connecting to a LCC are required to seek immigration clearance and obtain your onward boarding passes in the respective Departure Check-in Hall.If you are required to seek immigration clearance before obtaining your onward boarding passes at the Departure Check-in Hall, you will have to satisfy the prevailing entry requirements, which include possessing an entry visa, where applicable.All passengers are strongly advised to liaise with the relevant airlines before embarking on your journey. For more information on flights connection and transit facilities/ services,",
+  "retrieved_doc_ids": [
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_56ae394ef36d16f6c616",
+    "PB_ffb44a115e698c779310",
+    "PB_19512072066023768385",
+    "PB_d0b05d1d05c1ed623967"
+  ],
+  "trimmed_doc_ids": [
+    "PB_d0b05d1d05c1ed623967"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6d77c5a58dd9585e8388684bbd66903507e5ee5a00d65bca5826807c8a2f6682",
+  "answer": "If you're not leaving Singapore, key in an indicative departure date 30 days from your arrival date, as per Document 1. [Document 1]",
+  "input_tokens": 760,
+  "output_tokens": 34,
+  "seconds": 4.697694600006798,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_116",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific instructions for LTVP holders to update their details with ICA e-Service and includes relevant information about the renewal process and the digital format issuance of LTVPs."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific instructions for LTVP holders to update their details with ICA e-Service and includes relevant information about the renewal process and the digital format issuance of LTVPs.\",\n  \"evidence\": \"Document 4, Document 1, Document 5\"\n}",
+      "input_tokens": 1185,
+      "output_tokens": 192,
+      "seconds": 14.675231300003361,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

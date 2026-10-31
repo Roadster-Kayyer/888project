@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008068",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies police cannot force signature, relevant to police interaction, and accurately reflects reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies police cannot force signature, relevant to police interaction, and accurately reflects reference documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 5]\"\n}",
+      "input_tokens": 766,
+      "output_tokens": 192,
+      "seconds": 15.01001059999544,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

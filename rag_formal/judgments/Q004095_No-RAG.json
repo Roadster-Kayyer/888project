@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004095",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the principle of presumption of innocence and the burden of proof on the prosecution, aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the principle of presumption of innocence and the burden of proof on the prosecution, aligning with the reference.\",\n  \"evidence\": \"The candidate answer directly reflects the information provided in the reference regarding the presumption of innocence and the burden of proof.\"\n}",
+      "input_tokens": 424,
+      "output_tokens": 105,
+      "seconds": 8.126578499999596,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

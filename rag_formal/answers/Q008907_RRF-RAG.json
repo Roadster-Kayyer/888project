@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008907",
+  "doc_id": "720",
+  "query_type": "formal",
+  "query": "What legal consequences arise from registering the same property twice?",
+  "corpus_query_index": 8906,
+  "system": "RRF-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 3]\nProperty Sale Fraud:\nThe legal consequences for property sale fraud in Tamil Nadu can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Indian Penal Code (IPC) Section 420.\n\n[Document 4]\nDouble Jeopardy:\nDouble jeopardy refers to being tried twice for the same offense. In India, Article 20(2) of the Constitution protects individuals from double jeopardy. If a person is acquitted or convicted of an offense, they cannot be tried again for the same offense.\n\n[Document 5]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.",
+  "retrieved_doc_ids": [
+    "710",
+    "720",
+    "601",
+    "1733",
+    "713"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "476704874a6f28ecb5f5201fe3543d20a5cf876cafbc7551ffa23a64b82bcba7",
+  "answer": "Registering the same property twice can lead to legal consequences including imprisonment up to 7 years and/or a fine under Section 467 of the IPC, as well as penalties under the Registration Act, 1908. [Document 2]",
+  "input_tokens": 384,
+  "output_tokens": 53,
+  "seconds": 6.836498099997698,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

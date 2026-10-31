@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_4",
+  "doc_id": "PB_42a5b57352687c45eed8",
+  "query_type": "medishield",
+  "query": "What is the highest premium increase one would experience by the end of the third year in the next review cycle, compared to premiums in 2024?",
+  "reference_answer": "35%",
+  "corpus_query_index": 325,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 2]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 3]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 4]\nYour online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.\n\n[Document 5]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.",
+  "retrieved_doc_ids": [
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_ee0f8ff38ba535d4384c",
+    "PB_70527c7dfb085e57dd22"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "49df4a82b4009945fd01cd07a9b3b3fd425e42db48df0689ee4bdfdbd6c7baf4",
+  "answer": "[Document 1] discusses CPF contribution rates but does not mention premium increases. Premium increases are discussed in [Document 2], but it focuses on payment methods, not specific increases. No direct information about the highest premium increase over three years is provided. Missing information.",
+  "input_tokens": 735,
+  "output_tokens": 55,
+  "seconds": 7.2146853000012925,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

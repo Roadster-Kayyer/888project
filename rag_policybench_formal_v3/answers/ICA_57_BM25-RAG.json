@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_57",
+  "doc_id": "PB_e0f7b3c7aacb50023519",
+  "query_type": "ICA_134",
+  "query": "Do I have to inform ICA if there is a change in passport number due to passport renewal?",
+  "reference_answer": "The updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.",
+  "corpus_query_index": 255,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 2]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 3]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 4]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 5]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.",
+  "retrieved_doc_ids": [
+    "PB_f8ef7d9186905c0df18a",
+    "PB_93b665013679b839e21c",
+    "PB_8171046f23dbdf9c0430",
+    "PB_09222d548a5f63af648a",
+    "PB_f06f7bf4b4cb01868d1c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2bebbe6c7761d0ec5090912fe1f064f3d9675a53f5f53ca408720479f34382a0",
+  "answer": "Yes, you need to inform Immigration & Checkpoints Authority (ICA) if your passport number changes due to renewal. According to [Document 1], you should apply for a new ABTC under the 'replacement due to change of particulars' category. [Document 2] suggests using the e-Service to report the change. Ensure your new passport details are updated in the MyICA mobile app after receiving it. [Document 3] notes that ICA will validate the passport's validity, so keeping it updated is crucial. [Document 4] confirms that updating passport details in the MyICA app will extend the QR code's validity until the passport expires.",
+  "input_tokens": 745,
+  "output_tokens": 134,
+  "seconds": 17.1497384999966,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

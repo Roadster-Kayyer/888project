@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002129",
+  "doc_id": "1381",
+  "query_type": "search",
+  "query": "How do authorities respond to illegal activities concerning forest rights among tribal populations?",
+  "corpus_query_index": 2128,
+  "system": "BM25-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nTribal Rights Certification:\nTo apply for tribal rights certification, contact the District Collector's office or the Tribal Welfare Department. Submit required documents, including proof of tribal identity, residence, and ancestry. The application will be verified and certified by the concerned authorities.\n\n[Document 3]\nAppointing Tribal Youth as Police Guides:\nThe Tamil Nadu Police appoints tribal youth as police guides through:\n* Selection from local tribal communities\n* Training programs on police procedures and community policing\n* Deployment in areas with significant tribal populations to facilitate communication and build trust\n\n[Document 4]\nTribal Area Postings Training\nTamil Nadu Police officers receive special training on tribal customs, language, and culture to effectively interact with tribal communities. This training includes understanding local laws, forest rights, and social norms.\n\n[Document 5]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "retrieved_doc_ids": [
+    "1381",
+    "1257",
+    "1404",
+    "1378",
+    "1254"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4f8d2a7a16fa46fefc61874903cd260e1d998658de52d90e3ba81d3fd76e0e85",
+  "answer": "Authorities handle forest rights violations in tribal areas by registering complaints, investigating cases, collaborating with forest departments, and ensuring tribal rights under the Forest Rights Act [Document 1]. They also train tribal youth as police guides to facilitate communication and build trust [Document 3] and provide special training for police officers on tribal customs and culture [Document 5]. For reporting, contact the Forest Department or local police station with details [Document 4]. [Document 1] provides specific actions taken by police.",
+  "input_tokens": 410,
+  "output_tokens": 101,
+  "seconds": 12.627988800000821,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004093",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the presumption of innocence principle, correctly citing the legal basis in India and the burden of proof, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and directly addresses the presumption of innocence principle, correctly citing the legal sources and aligning with the evidence provided.\",\n}",
+      "input_tokens": 850,
+      "output_tokens": 71,
+      "seconds": 5.660748199999944,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the presumption of innocence principle, correctly citing the legal basis in India and the burden of proof, supported by Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the principle of presumption of innocence, correctly cites the legal basis in India, and is supported by the evidence provided in the documents. The reason succinctly explains the scores.",
+      "input_tokens": 890,
+      "output_tokens": 141,
+      "seconds": 10.993481500001508,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

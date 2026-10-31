@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_16",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not accurately reflect the specific details of VFTF eligibility and does not use the provided reference evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer inaccurately describes VFTF and eligibility, lacks reference to the provided evidence.\",\n}",
+      "input_tokens": 661,
+      "output_tokens": 64,
+      "seconds": 5.18281910000951,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"Candidate answer does not accurately reflect the specific details of VFTF eligibility and does not use the provided reference evidence.\"}",
+      "input_tokens": 701,
+      "output_tokens": 51,
+      "seconds": 4.357606099991244,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

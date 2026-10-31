@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_81",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and correct but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant and correct but lacks specific evidence from the reference.\",\n  \"answer\": \"You can still change your preference for receiving your CPF contributions notice. Specific details are not provided in the given evidence.\"\n}",
+      "input_tokens": 401,
+      "output_tokens": 86,
+      "seconds": 6.52358870000171,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

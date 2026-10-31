@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008523",
+  "doc_id": "651",
+  "query_type": "casual",
+  "query": "How do schools punish people who hit others?",
+  "corpus_query_index": 8522,
+  "system": "BM25-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nTamil Nadu Police Coordination with Schools:\nThe Tamil Nadu Police coordinates with schools through the District Child Protection Unit. Schools are required to report suspected child abuse to the police, who then investigate and provide support to the child.\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 5]\nReporting Corporal Punishment in Schools:\nTo report corporal punishment in schools, you can contact the Tamil Nadu State Commission for Protection of Child Rights or the District Education Officer. You can also file a complaint with the local police station or the school management. The Right to Education Act (2009) prohibits corporal punishment in schools.",
+  "retrieved_doc_ids": [
+    "490",
+    "107",
+    "255",
+    "849",
+    "485"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a48a67ef6ec8050e12bc43f61b27e4ecf68b75367c0c676fa0bbd03d45b1b098",
+  "answer": "Schools report suspected child abuse to the police, which then investigates and provides support. Corporal punishment in schools is prohibited under the Right to Education Act (2009). [Document 5]",
+  "input_tokens": 423,
+  "output_tokens": 42,
+  "seconds": 5.373317699999461,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

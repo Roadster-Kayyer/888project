@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002115",
+  "doc_id": "1379",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police systemally integrate with the leaders managing rural areas?",
+  "corpus_query_index": 2114,
+  "system": "RRF-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nLaw and Order during Rural Elections:\nThe Tamil Nadu Police manages law and order during rural elections by:\n* Deploying additional personnel in sensitive areas\n* Conducting regular patrols and checks\n* Setting up polling station security\n* Implementing strict vigilance to prevent electoral malpractices\n\n[Document 2]\nRural Land Disputes:\nThe Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.\n\n[Document 3]\nModernization of Rural Police Stations:\nThe Tamil Nadu Police has taken steps to modernize rural police stations by:\n* Upgrading infrastructure and technology\n* Providing internet and computer facilities\n* Implementing online complaint registration systems\n\n[Document 4]\nEmergency Response to Communal Violence:\nThe Tamil Nadu Police handles communal violence through:\n* Rapid deployment of personnel to affected areas\n* Establishing communication with community leaders to calm tensions\n* Implementing curfews and other measures to maintain law and order\n\n[Document 5]\nReligious Tensions:\nThe Tamil Nadu Police has implemented community policing initiatives and established a dedicated team to handle religious tensions. They also conduct regular meetings with community leaders to promote harmony and address grievances.",
+  "retrieved_doc_ids": [
+    "1387",
+    "1366",
+    "1620",
+    "1545",
+    "1643"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "54467cc84c26c80a6fe5a8e1a52c8a42ecc841a1d83eb32623ab78a1701302ec",
+  "answer": "The Tamil Nadu Police integrates with rural leaders through various means:\n- During elections, they deploy extra personnel, conduct patrols, and secure polling stations.\n- For land disputes, they support but don't resolve issues; the Revenue Department does.\n- They modernize rural police stations with tech upgrades.\n- For communal violence, they quickly deploy and communicate with leaders.\n- They implement community policing and meet with leaders to manage religious tensions. [Document 5]",
+  "input_tokens": 389,
+  "output_tokens": 91,
+  "seconds": 12.286179200000333,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

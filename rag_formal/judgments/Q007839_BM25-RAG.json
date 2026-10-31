@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007839",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the question, citing fines and imprisonment but lacks specific penalties from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question, citing fines and imprisonment but lacks specific penalties from Document 1.\"\n}",
+      "input_tokens": 788,
+      "output_tokens": 192,
+      "seconds": 15.149517999998352,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

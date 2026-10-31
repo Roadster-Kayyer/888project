@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_53",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate suggests using an arbitrary past date, which is contextually relevant but lacks specific guidance from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate suggests using an arbitrary past date, which is contextually relevant but lacks specific guidance from the documents.\",\n  \"evidence\": \"Documents 1, 3, and 5 discuss the importance of providing accurate arrival and departure information but do not specify a method for non-departure scenarios.\"\n}",
+      "input_tokens": 1233,
+      "output_tokens": 104,
+      "seconds": 8.604718499991577,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

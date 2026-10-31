@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002128",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the role of police in tribal areas and mentions Zero FIRs, but lacks specific details on tribal laws and police limitations in these regions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the role of police in tribal areas and mentions Zero FIRs, but lacks specific details on tribal laws and police limitations in these regions.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe candidate answer is relevant as it touches upon the role of police in tribal areas and the concept of Zero FIR, which is related to the question about stopping rule-breaking in tribal forests. The correctness score is 1 because the answer is partly correct but omits important details about tribal-specific laws and the limitations of police presence. Faithfulness is scored as",
+      "input_tokens": 823,
+      "output_tokens": 192,
+      "seconds": 14.906387099999847,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

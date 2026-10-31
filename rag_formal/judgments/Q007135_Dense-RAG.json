@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007135",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for submitting a dispute to a BDO, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for submitting a dispute against a BDO, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 773,
+      "output_tokens": 68,
+      "seconds": 5.457383499997377,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for submitting a dispute to a BDO, supported by evidence from Document 1.\"}",
+      "input_tokens": 813,
+      "output_tokens": 52,
+      "seconds": 4.199319499995909,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

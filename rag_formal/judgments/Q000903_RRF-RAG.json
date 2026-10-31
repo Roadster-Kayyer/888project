@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000903",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately states the age for serious and heinous crimes and acknowledges the lack of specific age for minor offenses, consistent with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately states the age for serious and heinous crimes and acknowledges the lack of specific age for minor offenses, consistent with the reference documents.\",\n  \"evidence\": \"Document 5, Document 2\"\n}\n\n\nThe candidate's answer is correct in stating the age of criminal responsibility for serious and heinous crimes as per Document 5 and acknowledges the lack of specific age for minor offenses, which aligns with the information provided in Document 2. The answer is relevant as it directly addresses the question about the age of criminal responsibility in India. The faithfulness is rated as 2 because the candidate's answer is supported by evidence from Document 5 and Document 2, which",
+      "input_tokens": 824,
+      "output_tokens": 192,
+      "seconds": 15.151617999999871,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

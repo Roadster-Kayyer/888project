@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000405",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the responsibilities of Child Welfare Police Officers, supported by evidence from Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively reflects the responsibilities of Child Welfare Police Officers as described in the reference documents, with direct evidence from Document 1.\",\n}",
+      "input_tokens": 819,
+      "output_tokens": 79,
+      "seconds": 6.461018499998318,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the responsibilities of Child Welfare Police Officers, supported by evidence from Documents 1, 2, and 5.\"}",
+      "input_tokens": 859,
+      "output_tokens": 61,
+      "seconds": 4.966974499999196,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

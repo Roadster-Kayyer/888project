@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004840",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process of accusing banks of negligence, similar to medical negligence, and suggests contacting regulatory bodies, aligning with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process of accusing banks of negligence, similar to medical negligence, and suggests contacting regulatory bodies, aligning with the reference documents.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate answer is correct (2) as it directly addresses the question by suggesting a process similar to that of reporting medical negligence, which is relevant (2) to the question of accusing banks of negligence. The answer is faithful (2) to the evidence provided in the reference documents, as it implies following a similar complaint process and contacting the appropriate authorities, which is consistent with the steps outlined in",
+      "input_tokens": 785,
+      "output_tokens": 192,
+      "seconds": 15.180457700000261,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

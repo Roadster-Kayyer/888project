@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_34",
+  "doc_id": "PB_3de6df26cfd351caa37e",
+  "query_type": "BTT",
+  "query": "What is the designated use for parking lots demarcated in red within Singapore's parking guidelines?",
+  "reference_answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders.",
+  "corpus_query_index": 28,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "retrieved_doc_ids": [
+    "PB_3de6df26cfd351caa37e",
+    "PB_776de7439758761e5c43",
+    "PB_8d18fc446288ee1e6348",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_9b29b1a6d1890e3f7dca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d5b57d38e80b7b467a7b4f1f5f11608aee6526a668ba95751a3d380c5c9459be",
+  "answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders [Document 1].",
+  "input_tokens": 400,
+  "output_tokens": 21,
+  "seconds": 436.14428749999934,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

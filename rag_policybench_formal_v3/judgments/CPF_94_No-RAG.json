@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_94",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence from the reference, but it partially addresses the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer lacks specific evidence from the reference, but it partially addresses the question.\",\n  \"evidence\": null\n}",
+      "input_tokens": 508,
+      "output_tokens": 66,
+      "seconds": 4.981926700012991,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

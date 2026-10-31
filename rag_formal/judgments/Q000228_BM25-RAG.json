@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000228",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the need for required documents and consulting a lawyer, supported by Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the need for required documents and consulting a lawyer, supported by Document 4.\",\n  \"evidence\": \"Document 4\"\n}",
+      "input_tokens": 748,
+      "output_tokens": 192,
+      "seconds": 14.681938299996546,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

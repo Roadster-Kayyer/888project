@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006208",
+  "doc_id": "234",
+  "query_type": "casual",
+  "query": "So, how do they run the Prohibition Enforcement Wing?",
+  "corpus_query_index": 6207,
+  "system": "RRF-RAG",
+  "reference_answer": "Prohibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales",
+  "context": "[Document 1]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.\n\n[Document 2]\nProhibition Enforcement Wing:\nThe Prohibition Enforcement Wing (PEW) is a specialized unit of the Tamil Nadu Police that enforces prohibition laws and prevents illicit liquor trade. It operates by:\n* Conducting raids and seizures\n* Arresting offenders\n* Destroying illicit liquor\n* Preventing smuggling and sales\n\n[Document 3]\nEconomic Offences Wing:\nThe Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.\n\n[Document 4]\nFiling a Prohibition Petition:\nTo file a prohibition petition, approach the High Court of Tamil Nadu with a petition stating the grounds for prohibition. The petition should be filed through a lawyer, and the court will review the petition and decide on the next course of action.\n\n[Document 5]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.",
+  "retrieved_doc_ids": [
+    "1926",
+    "234",
+    "1565",
+    "1105",
+    "1564"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6f7a3961e100cb084fe44916b9a481717b6a6de8fe2595f7bc93c0bae619a092",
+  "answer": "The Prohibition Enforcement Wing (PEW) runs by conducting raids and seizures, arresting offenders, destroying illicit liquor, and preventing smuggling and sales. [Document 1]",
+  "input_tokens": 383,
+  "output_tokens": 35,
+  "seconds": 4.519981599998573,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

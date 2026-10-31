@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001712",
+  "doc_id": "1306",
+  "query_type": "formal",
+  "query": "What are the steps to obtain a reduced TDS certificate in Tamil Nadu?",
+  "corpus_query_index": 1711,
+  "system": "BM25-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 2]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 3]\nObtaining Succession Certificate in Tamil Nadu:\nTo obtain a succession certificate, apply to the District Court with a petition, death certificate, and proof of relationship. The court will issue a notice and conduct an inquiry before granting the certificate.\n\n[Document 4]\nClaiming Inheritance in Tamil Nadu:\nTo claim inheritance, you need to:\n1. Obtain a death certificate\n2. Get a succession certificate from the court\n3. Apply for a legal heirship certificate from the Tahsildar office\n\n[Document 5]\nCourt Marriage Certificate:\nTo get a court marriage certificate in Tamil Nadu, follow these steps:\n1. Fill the court marriage application form.\n2. Submit required documents (age proof, ID proof, etc.).\n3. Appear before the Marriage Registrar with witnesses.\n4. Receive the marriage certificate after registration.",
+  "retrieved_doc_ids": [
+    "1297",
+    "1306",
+    "1859",
+    "1841",
+    "1967"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ad9fd2c0cf1b0d7ad5c449258e631bff13743b8f16550b8ae77aa2388970a1b9",
+  "answer": "To obtain a reduced TDS certificate in Tamil Nadu, follow these steps based on Document 2:\n1. Download and fill out Form 13 from the official income tax website.\n2. Attach necessary documents like PAN card and income proof.\n3. Submit the completed form to the Income Tax Department. [Document 2]",
+  "input_tokens": 457,
+  "output_tokens": 67,
+  "seconds": 8.633843000001434,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

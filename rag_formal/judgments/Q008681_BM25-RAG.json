@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008681",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the punishment for violence during bandhs or strikes and accurately cites the relevant IPC sections, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the punishment and cites the relevant IPC sections, supported by Document 1.\",\n}",
+      "input_tokens": 782,
+      "output_tokens": 64,
+      "seconds": 5.62302090000594,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the punishment for violence during bandhs or strikes and accurately cites the relevant IPC sections, supported by Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The relevance score is 2 because the candidate answer directly addresses the question. The correctness score is 2 because the candidate answer is correct and covers the main reference facts. The faithfulness score is 2 because the candidate answer's factual claims are fully supported by the evidence provided in Document 1.",
+      "input_tokens": 822,
+      "output_tokens": 143,
+      "seconds": 11.106319699996675,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

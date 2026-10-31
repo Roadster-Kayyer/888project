@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000228",
+  "doc_id": "1038",
+  "query_type": "casual",
+  "query": "How do I get the right papers to start a civil case?",
+  "corpus_query_index": 227,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nDocuments Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.\n\n[Document 2]\nFiling a Case in Civil Court:\nTo file a case in a civil court in Tamil Nadu, visit the court with required documents and consult with a lawyer. They will guide you through the process and help you submit the petition.\n\n[Document 3]\nFiling for Injunction Order:\nTo file for an injunction order, submit a petition under Order 39 of the Civil Procedure Code, 1908. Attach an affidavit and supporting documents to the petition, stating the grounds for the injunction. The court will then consider your application and pass an order.\n\n[Document 4]\nFiling a Labor Dispute Case:\nContact the Labor Department or the nearest Labor Court. Provide details of the dispute, employment records, and supporting documents. The Labor Court will guide you through the process and help resolve the dispute.\n\n[Document 5]\nRequesting Case Documents under RTI:\nTo request case documents, file an RTI application with the concerned police station or department. Provide required details, pay the fee, and submit the application. The department will respond within 30 days.",
+  "retrieved_doc_ids": [
+    "1038",
+    "1037",
+    "1110",
+    "1092",
+    "760"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ad774eaf2ff7375183728a38dc769d1cc1ab7cadb62f37469646a9ccaf8ff200",
+  "answer": "To start a civil case, you need proof of identity and address, relevant contracts, evidence of your claim, an affidavit if needed, and court fees. Consult a lawyer for specific requirements. [Document 1]",
+  "input_tokens": 403,
+  "output_tokens": 44,
+  "seconds": 5.66975309999998,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2055.20947265625
+}

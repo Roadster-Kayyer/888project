@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008853",
+  "doc_id": "710",
+  "query_type": "casual",
+  "query": "So what happens if you split up my grandma's stuff without asking?",
+  "corpus_query_index": 8852,
+  "system": "Dense-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nFiling a Partition Suit for Ancestral Property in Tamil Nadu:\nTo file a partition suit, consult a lawyer and gather documents such as property deeds, wills, and family tree records. File a petition in the District Court or Sub-Court under the Hindu Succession Act, 1956, or the Tamil Nadu Partition Act, 1862.\n\n[Document 3]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.\n\n[Document 4]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 5]\nThreatening Senior Citizens:\nThreatening senior citizens is a punishable offense. The legal consequences can include imprisonment for up to 3 years and a fine, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007.",
+  "retrieved_doc_ids": [
+    "710",
+    "1862",
+    "714",
+    "581",
+    "575"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "903468622c0c9f90c9556e7908baad80625105cf91b318aa62bc202f3056e2f4",
+  "answer": "Splitting up grandma's stuff without asking can lead to legal consequences, including civil suits and penalties under the Hindu Succession Act. Depending on the situation, there could be imprisonment and fines under various acts like IPC, Protection of Women from Domestic Violence Act, and Maintenance and Welfare of Parents and Senior Citizens Act. [Document 1]",
+  "input_tokens": 435,
+  "output_tokens": 68,
+  "seconds": 9.177366300000358,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

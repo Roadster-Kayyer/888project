@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_25",
+  "doc_id": "PB_4479f84c1b73422f7e24",
+  "query_type": "BTT",
+  "query": "What specific road conditions can warning signs indicate to drivers?",
+  "reference_answer": "Warning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.",
+  "corpus_query_index": 18,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 2]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 3]\nIt indicates that a motorist can drive on ahead.\n\n[Document 4]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 5]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "retrieved_doc_ids": [
+    "PB_4479f84c1b73422f7e24",
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_716429660f2efd24efb8",
+    "PB_619765030c2c1f6e27b8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "636fc0f49f0c6176d6707c771175ff24b4b51431a12b2252d9b56054e112eeed",
+  "answer": "Warning signs indicate various road conditions such as slippery roads, level crossings, uneven roads, road humps, slopes, and narrow sections. They also warn about school zones with traffic calming measures and stopping distances. [Document 1]",
+  "input_tokens": 279,
+  "output_tokens": 47,
+  "seconds": 18.997332800005097,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

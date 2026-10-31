@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_37",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the need for separate appointments but correctly notes the exception for eligible applicants who re-registered for an identity card during passport application."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the need for separate appointments but correctly notes the exception for eligible applicants who re-registered for an identity card during passport application.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}",
+      "input_tokens": 822,
+      "output_tokens": 93,
+      "seconds": 7.167706100008218,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

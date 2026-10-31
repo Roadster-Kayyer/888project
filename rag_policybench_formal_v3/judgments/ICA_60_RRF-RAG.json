@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_60",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the transition from physical arrival endorsements to electronic Visit Pass (e-Pass) and accurately references the provided documents for evidence.\",\n}",
+      "input_tokens": 1325,
+      "output_tokens": 74,
+      "seconds": 5.964026699992246,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 4.\"}",
+      "input_tokens": 1365,
+      "output_tokens": 42,
+      "seconds": 3.5841662000020733,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

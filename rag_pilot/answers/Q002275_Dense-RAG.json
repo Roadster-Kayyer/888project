@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002275",
+  "doc_id": "1407",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police mitigate problems caused by interactions between people and animals in forested zones?",
+  "corpus_query_index": 2274,
+  "system": "Dense-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nHuman-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed\n\n[Document 2]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.\n\n[Document 3]\nReporting Man-Animal Conflicts in Tamil Nadu\nTo report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.\n\n[Document 4]\nReporting Wildlife Crime in Tamil Nadu:\nTo report wildlife crime, contact the Tamil Nadu Forest Department's wildlife crime control unit or the local police station. You can also call the wildlife crime control helpline (1800-425-3355) or email the department. Provide as much information as possible about the incident, including location, date, and time.\n\n[Document 5]\nRural Land Disputes:\nThe Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.",
+  "retrieved_doc_ids": [
+    "1407",
+    "1413",
+    "1209",
+    "1202",
+    "1366"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c294cbcb4ca1a74798af6adaf949d2d2bc0d1bee1cbc64b1ee945c2a0362cf97",
+  "answer": "The Tamil Nadu Police mitigates human-animal conflicts by collaborating with the forest department, responding to distress calls, ensuring public and animal safety, and providing support for relocations or compensation. They coordinate regularly and conduct joint patrols to prevent encroachments and crimes. Reporting incidents can be done via helplines or local offices. Rural land disputes are managed by the Revenue Department. [Document 1-5]",
+  "input_tokens": 443,
+  "output_tokens": 83,
+  "seconds": 10.270207600000504,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2069.16650390625
+}

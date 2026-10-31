@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_1",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not pertain to the FIN as described in the reference, which is related to immigration passes in Singapore, not foreign bank customers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer is incorrect and irrelevant as it describes a FIN as issued by foreign banks, not the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM) for immigration purposes.\",\n}",
+      "input_tokens": 432,
+      "output_tokens": 89,
+      "seconds": 6.378275300012319,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate's answer does not pertain to the FIN as described in the reference, which is related to immigration passes in Singapore, not foreign bank customers.\"}",
+      "input_tokens": 472,
+      "output_tokens": 57,
+      "seconds": 4.332368699993822,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007393",
+  "doc_id": "448",
+  "query_type": "casual",
+  "query": "Can you tell me how to tell the cops about someone being forced to get married or having their marriage made when they're still a kid?",
+  "corpus_query_index": 7392,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nSigns of Being Drugged and Actions to Take:\nSigns of being drugged include dizziness, nausea, and disorientation. If you suspect you've been drugged:\n- Seek help from someone you trust\n- Call the police (100) or the Tamil Nadu Emergency Service (108)\n- Get medical attention immediately at a nearby hospital\n\n[Document 4]\nLocating an Arrested Person\nTo find someone who has been arrested, contact the local police station where the arrest was made. You can also check the Tamil Nadu Police website or visit the police station in person to inquire about the person's whereabouts and the charges against them.\n\n[Document 5]\nDNA Sample Rights:\nCitizens have the right to know why their DNA sample is being collected and how it will be used. They must provide informed consent before giving a sample. The sample will be stored securely and used only for the purpose stated.",
+  "retrieved_doc_ids": [
+    "448",
+    "46",
+    "1992",
+    "47",
+    "1451"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "92440ece172b39cd0045a928084ceb39aec88a62aa339ac1e286dce6f491b323",
+  "answer": "Contact the Tamil Nadu Police helpline: 1091 or 181. Provide details about the forced marriage. The police will take necessary action. [Document 1]",
+  "input_tokens": 450,
+  "output_tokens": 39,
+  "seconds": 5.1321461999978055,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

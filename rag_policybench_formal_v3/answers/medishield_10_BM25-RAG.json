@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_10",
+  "doc_id": "PB_d1fb942f89da85e7ad8d",
+  "query_type": "medishield",
+  "query": "What is the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000?",
+  "reference_answer": "Residents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.",
+  "corpus_query_index": 304,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 2]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 3]\nAll Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.\n\n[Document 4]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 5]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.",
+  "retrieved_doc_ids": [
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_3808b698344f1c773560",
+    "PB_c82033a92d9e7c15a412",
+    "PB_4bd71ffc7b87577275da",
+    "PB_df715fdfa6a8fbea4c7d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "20819b32d797b0ca8a1ed60762abe7cdaed7eb76c4c9e8e473f2148958a2ebc0",
+  "answer": "The subsidy reduction rate for Singapore residents in residences with an Annual Value between $21,001 and $31,000 is 10 percentage points less than the shown subsidy rates. [Document 1]",
+  "input_tokens": 420,
+  "output_tokens": 48,
+  "seconds": 6.324834500002908,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

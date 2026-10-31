@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_130",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific instructions for renewing REP using ICA e-Service and Singpass, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Document 1 and Document 5 to support the process of renewing REP while overseas.\",\n}",
+      "input_tokens": 808,
+      "output_tokens": 192,
+      "seconds": 14.527704199994332,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific instructions for renewing REP using ICA e-Service and Singpass, supported by evidence from Document 1.\"}",
+      "input_tokens": 848,
+      "output_tokens": 60,
+      "seconds": 4.851513200002955,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

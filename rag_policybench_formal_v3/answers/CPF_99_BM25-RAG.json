@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_99",
+  "doc_id": "PB_0ef2de268e8e14db8c6f",
+  "query_type": "CPF_111",
+  "query": "As a taxi driver who takes both ride-hail and street-hail jobs, how should I make CPF contributions for my earnings?",
+  "reference_answer": "You will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.",
+  "corpus_query_index": 166,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 4]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 5]\nFor the convenience of both platform workers and platform operators, CPF contributions will be based on gross earnings less Fixed Expense Deduction Amount (FEDA), and are not based on declared expenses.This benefits both platform workers and platform operators as you will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will also not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.FEDA is applied to all platform workers to simplify the computation of CPF contribution for both platform operators and platform workers, regardless of income levels and delivery modes. As such, we will not adjust the CPF contributions based on declared expenses.",
+  "retrieved_doc_ids": [
+    "PB_0ef2de268e8e14db8c6f",
+    "PB_dc08990660488c2ed4e8",
+    "PB_e29140d6b3a201be99ba",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_0a58ed0f170d5073ce90"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "913fd26423cef9dc71393d0b20d9fdfeac1cdea747740d3ecc1bbc54055576db",
+  "answer": "For ride-hail earnings, the platform operator makes CPF contributions on your behalf. For street-hail earnings, you need to make MediSave contributions annually after declaring net trade income to IRAS. [Document 1]",
+  "input_tokens": 794,
+  "output_tokens": 45,
+  "seconds": 5.97194319999835,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

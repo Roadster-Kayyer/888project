@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010347",
+  "doc_id": "980",
+  "query_type": "formal",
+  "query": "How can one report misuse of governmental transportation?",
+  "corpus_query_index": 10346,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nReporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.\n\n[Document 2]\nReporting Misuse of Government Resources:\nContact the Tamil Nadu Vigilance Commission or the local District Collector's office to report misuse of government resources. You can also file a complaint online through the Tamil Nadu Government's grievance portal. Provide specific details of the incident and supporting evidence.\n\n[Document 3]\nReporting Misuse of VIP Vehicles:\nTo report misuse of VIP vehicles, dial 100 or contact the local police station. Provide the vehicle's registration number and details of the misuse. You can also report anonymously.\n\n[Document 4]\nReporting Misconduct by a Transport Department Officer:\nTo report misconduct, contact the Transport Department's grievance cell or file a complaint with the State Transport Authority. You can also submit a complaint online through the Tamil Nadu Government's portal or visit the nearest Regional Transport Office (RTO).\n\n[Document 5]\nReporting Misconduct by State Transport Corporation Employee:\nTo report misconduct, contact the State Transport Corporation's customer care or visit their website for the complaint procedure. You can also file a complaint at the nearest police station or with the Transport Department.",
+  "retrieved_doc_ids": [
+    "980",
+    "945",
+    "977",
+    "402",
+    "418"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "91aef2bedf3b3f0cd50be9c2322b3cda8dfda2104f2d1b8ad39ee78a4dd8abc0",
+  "answer": "For misuse of government vehicles, report to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide details like vehicle number, location, and timing. For misuse of resources, contact the Tamil Nadu Vigilance Commission or local District Collector's office. For VIP vehicle misuse, call 100 or local police. [Document 1-5]",
+  "input_tokens": 386,
+  "output_tokens": 76,
+  "seconds": 10.341464299999643,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

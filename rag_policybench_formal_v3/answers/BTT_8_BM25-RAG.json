@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_8",
+  "doc_id": "PB_70527c7dfb085e57dd22",
+  "query_type": "BTT",
+  "query": "What is the required action if an accident occurs, regardless of its severity or visible damage?",
+  "reference_answer": "Report the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.",
+  "corpus_query_index": 53,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\n\n[Document 2]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 3]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 4]\nWe regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.\n\n[Document 5]\nUnder the Singapore Constitution, minors who are Singapore Citizens by descent or registration must take the Oath of Renunciation, Allegiance and Loyalty (ORAL) upon attaining 21 years of age and before attaining 22 years of age. Minor is required to take the ORAL on or after 21st birthday date and no later than 22nd birthday.Once the minor has completed his/her oath taking formalities, he/she may apply for Singapore passport. Nonetheless, should the minor require to extend the validity of his/her Singapore Passport before taking the Oath, and in need to travel, he/she may apply for a new passport with a validity one day before his/her 22nd birthday. The passport can only be extended to its full 10-year after the minor has taken the ORAL.You may contact us via the enquiry form if you require further clarifications on passport renewal.",
+  "retrieved_doc_ids": [
+    "PB_70527c7dfb085e57dd22",
+    "PB_905df234754f5b501b5d",
+    "PB_6a37eec904475577f862",
+    "PB_abb4a02effa48ce5e10f",
+    "PB_9f4c61a84436b24e8a5d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f4bfc4e25248d8c24b028e67e30b4760622dfdf29f5b0386b60ce3f43e19116e",
+  "answer": "If an accident occurs, regardless of its severity or visible damage, report it to your insurer within 24 hours or the next working day, even if you're not claiming from any insurers or third parties. [Document 1]",
+  "input_tokens": 487,
+  "output_tokens": 48,
+  "seconds": 6.283613499996136,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

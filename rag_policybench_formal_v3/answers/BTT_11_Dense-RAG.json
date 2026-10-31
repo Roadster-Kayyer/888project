@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_11",
+  "doc_id": "PB_50b7e744316cb05299f8",
+  "query_type": "BTT",
+  "query": "What does the acronym 'SH' stand for in Singapore's Expressway Monitoring and Advisory Systems (EMAS)?",
+  "reference_answer": "Shoulder",
+  "corpus_query_index": 3,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAutomobile Association of Singapore (AAS) website.\n\n[Document 2]\nThe electronic health declaration is in place for purposes of disease control, specifically to guard against importing diseases of concern, to protect the health of Singapore residents. Those who make false declarations may be prosecuted under the Infectious Diseases Act.\n\n[Document 3]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 4]\nA Foreign Identification Number (FIN) is a unique 9-character alphanumeric serial code assigned to foreigners with Long-Term immigration passes in Singapore (e.g. Student's Pass, Long-Term Visit Pass, Employment Pass, Work Permit, etc.) issued by the Immigration & Checkpoints Authority (ICA) or the Ministry of Manpower (MOM). This FIN is not replicated.\n\n[Document 5]\nFor more information on Partnerships, please visit theInland Revenue Authority of Singapore (IRAS) website.",
+  "retrieved_doc_ids": [
+    "PB_2633af100601ebe4d43f",
+    "PB_1e36bd59d862bbf04f33",
+    "PB_18205d295d37e73b6d4f",
+    "PB_3d3983332a6d398052ec",
+    "PB_a5b402d61a78d4a9da45"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "825feb22877e87a93f7a2ae2634b5d3019918cd429ba416b2f6bd3add11db12c",
+  "answer": "The acronym 'SH' does not stand for anything in the context provided by the documents. [Document 1]",
+  "input_tokens": 374,
+  "output_tokens": 24,
+  "seconds": 3.1253377000030014,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

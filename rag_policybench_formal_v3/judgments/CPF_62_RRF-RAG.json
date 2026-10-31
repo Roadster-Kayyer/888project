@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_62",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the use of CPFIS-OA agent bank for application and mentions online and ATM services, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the use of CPFIS-OA agent bank for application and mentions online and ATM services, supported by Document 1 and Document 2.\"\n}",
+      "input_tokens": 1888,
+      "output_tokens": 77,
+      "seconds": 6.53709600000002,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

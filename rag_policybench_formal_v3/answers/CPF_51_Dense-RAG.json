@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_51",
+  "doc_id": "PB_a21e1d4d27c9faa2c51a",
+  "query_type": "CPF_111",
+  "query": "How can I receive SMS notifications and stop receiving hardcopy notifications for the Workfare Income Supplement (WIS) scheme?",
+  "reference_answer": "To receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.",
+  "corpus_query_index": 114,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTo receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.\n\n[Document 2]\nThe Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.\n\n[Document 3]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+  "retrieved_doc_ids": [
+    "PB_a21e1d4d27c9faa2c51a",
+    "PB_cc9c3dfe3c902d1137c0",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_af1247343974a8960a93"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "44f00d6de8dbd602b3b68eb3dbf8c8322450f174ac30642ddf35280be3905fa3",
+  "answer": "To receive SMS notifications for WIS, register your mobile number with CPF Board using Account Settings with Singpass. Opt-in to SMS notifications through the e-Services portal with Singpass. [Document 1]",
+  "input_tokens": 559,
+  "output_tokens": 43,
+  "seconds": 5.750672599999234,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

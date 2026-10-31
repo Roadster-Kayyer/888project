@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_6",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer fails to mention a specific percentage for MediShield Life claims, lacking direct relevance to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer fails to mention a specific percentage for MediShield Life claims, lacking direct relevance to the question.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}",
+      "input_tokens": 1027,
+      "output_tokens": 192,
+      "seconds": 14.98041910000029,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_50",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific step count from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific step count from the reference.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe correctness score is 1 because the candidate's answer is partly correct but does not mention the specific number of steps involved in the process. The relevance score is 1 because the candidate's answer addresses the question of safe overtaking but does not directly state the number of steps. Faithfulness is null because there is no substantive factual claim about the number of steps in the candidate's answer, and the evidence provided (Documents 1 and 5) does not contain the specific step count either. The reason succinctly explains the scores.",
+      "input_tokens": 675,
+      "output_tokens": 192,
+      "seconds": 15.178802099995664,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

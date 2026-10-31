@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_74",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer provides alternative methods but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer provides alternative methods but lacks direct evidence from the reference.\",\n  \"answer\": \"To check the status of your Singapore citizenship, Permanent Residence, or Long-Term Visit Pass application without SingPass, visit the Immigration & Checkpoints Authority (ICA) website, call their hotline, or go to an ICA office in person.\"\n}",
+      "input_tokens": 462,
+      "output_tokens": 120,
+      "seconds": 9.114692999995896,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

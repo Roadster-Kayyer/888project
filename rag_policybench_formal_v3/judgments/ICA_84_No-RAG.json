@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_84",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer contradicts the reference, which states that both can be applied concurrently."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer contradicts the reference, which states that both can be applied concurrently.\",\n  \"answer\": \"Based on the available information, you cannot apply for both a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently.\"\n}\n\nIn this case, the correctness score is 0 because the candidate's answer is incorrect relative to the reference. The relevance score is 0 because the candidate's answer does not directly address the question, which is about the possibility of applying for both simultaneously. Faithfulness is null because there is no evidence provided in the candidate's answer, and the reference clearly states that both can be applied concurrently, which contradicts",
+      "input_tokens": 365,
+      "output_tokens": 192,
+      "seconds": 14.286473600004683,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

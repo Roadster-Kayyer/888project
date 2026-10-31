@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007133",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process for reporting a BDO, aligning with the reference's instructions for filing a complaint against a BDO."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process for reporting a BDO, aligning with the reference's instructions for filing a complaint against a BDO.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly outlines the process for reporting a BDO, and is supported by the evidence provided in Document 1. The answer is comprehensive and faithful to the reference, hence the scores.",
+      "input_tokens": 790,
+      "output_tokens": 136,
+      "seconds": 10.606143500001053,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_96",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the process and order of claims during a platform operator's bankruptcy, liquidation, or winding up, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\"correctness\": 2, \"relevance\": 2, \"faithfulness\": 2, \"reason\": \"Candidate answer correctly addresses the process and order of claims during a platform operator's bankruptcy, liquidation, or winding up, supported by evidence from Document 1.\"}\n\n\n(Note: The faithfulness score is 2 because the candidate answer directly references the evidence provided in Document 1, which supports the claim about the process of handling CPF contributions during a platform operator's financial distress.)",
+      "input_tokens": 2052,
+      "output_tokens": 117,
+      "seconds": 9.38880309999513,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

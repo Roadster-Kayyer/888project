@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_16",
+  "doc_id": "PB_94912bc524cf8198c3c7",
+  "query_type": "medishield",
+  "query": "Who determines subsidy eligibility for MediShield Life premiums in Singapore without requiring an application?",
+  "reference_answer": "Eligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.",
+  "corpus_query_index": 310,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nEligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.\n\n[Document 2]\nSelf-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.\n\n[Document 5]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.",
+  "retrieved_doc_ids": [
+    "PB_94912bc524cf8198c3c7",
+    "PB_f96012ec2f1365efa6ef",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_bcdfbf4db75a59af04ef",
+    "PB_9bcc03600abfbc3227e6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3ee20faf6be44673c0b491723923426a0837fce735958f5c5be5191f32809196",
+  "answer": "Eligibility for MediShield Life premium subsidies is determined using existing Government database information without requiring an application. [Document 1]",
+  "input_tokens": 365,
+  "output_tokens": 27,
+  "seconds": 3.523522999996203,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

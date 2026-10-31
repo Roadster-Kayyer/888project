@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003588",
+  "doc_id": "1644",
+  "query_type": "casual",
+  "query": "What cool stuff do cops get now for staying safe?",
+  "corpus_query_index": 3587,
+  "system": "BM25-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 4]\nImmediate Action After a Road Accident:\nMove to a safe location, call the police (100) and report the incident. Provide basic first aid if needed, and do not leave the scene until the police arrive.\n\n[Document 5]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority",
+  "retrieved_doc_ids": [
+    "35",
+    "107",
+    "46",
+    "835",
+    "253"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a60f74b1fe52890cf34872ee8ec2db52ea4ae42f0f7c63fbac1b99cf3981462b",
+  "answer": "Cops now get training for child welfare and safety, and special units for handling child abuse. They receive immediate action guidelines after accidents, including first aid and reporting. For witnessing brutality, stay safe, document, and report. [Document 2] [Document 4]",
+  "input_tokens": 406,
+  "output_tokens": 56,
+  "seconds": 7.324084900001253,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

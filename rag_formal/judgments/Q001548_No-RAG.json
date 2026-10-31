@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001548",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and directly addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct and directly addresses the question but lacks specific evidence from the reference.\",\n  \"answer\": \"To get your road widening plan approved by the PWD in Tamil Nadu, ensure your proposal meets all technical and legal requirements. Submit a detailed plan including feasibility studies, environmental impact assessments, and cost estimates. Follow the prescribed submission process and be prepared for consultations and feedback.\"\n}",
+      "input_tokens": 431,
+      "output_tokens": 129,
+      "seconds": 10.059298100000888,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

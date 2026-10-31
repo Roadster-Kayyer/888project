@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004302",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the measures taken by the Tamil Nadu Police for missing foreign tourists, supported by evidence from Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details Tamil Nadu Police's actions for missing tourists and workers, supported by Document 1 and 4.\",\n}",
+      "input_tokens": 811,
+      "output_tokens": 70,
+      "seconds": 5.5124633000014,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the measures taken by the Tamil Nadu Police for missing foreign tourists, supported by evidence from Document 1 and Document 4.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question, and that the evidence provided in the documents supports the factual claims made in the candidate's answer. The reason is a concise explanation of the scores.",
+      "input_tokens": 851,
+      "output_tokens": 117,
+      "seconds": 9.163123099999211,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

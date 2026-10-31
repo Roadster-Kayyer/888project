@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_12",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn this case, the candidate answer is relevant as it discusses the action drivers should take when traffic lights turn red at a yellow box junction. However, it does not directly quote or paraphrase the reference, which is necessary for a full score in faithfulness. The correctness score is 1 because the candidate answer is partly correct but omits the specific instruction from the reference to \"proceed to complete their turn and clear the junction.\" Without evidence, we cannot assign a faithfulness score.",
+      "input_tokens": 360,
+      "output_tokens": 171,
+      "seconds": 13.080186000006506,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005954",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the verification process for domestic workers, directly addresses the question, and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the verification process and includes direct evidence from Documents 1 and 2, and correctly addresses the potential for delays and the rights of workers as per Document 3 and 4.\",\n}",
+      "input_tokens": 751,
+      "output_tokens": 192,
+      "seconds": 14.794241799998417,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the verification process for domestic workers, directly addresses the question, and is supported by evidence from all documents.\"}\n\n(Note: The \"faithfulness\" score of 2 is given because the candidate's answer is fully supported by the evidence provided in the documents, which all contain information about the verification process, required documents, and what to do in case of delays.)",
+      "input_tokens": 791,
+      "output_tokens": 110,
+      "seconds": 8.531195100000332,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

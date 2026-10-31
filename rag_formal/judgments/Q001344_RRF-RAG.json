@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001344",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the crimes tackled by the NDPS Act and provides specific examples from documents, directly addressing the question with evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the NDPS Act and related crimes, supported by evidence from Documents 1, 2, 3, and 4.\",\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully faithful to the evidence provided in the documents. The answer accurately describes the crimes covered by the NDPS Act and the role of the Tamil Nadu Police in enforcing it, as evidenced by the documents. The answer also correctly references specific operations and procedures related to the Act, such as handling cannabis cultivation cases, drug seizures, and Operation TASHA. There are no omissions or unsupported claims in the candidate's response.",
+      "input_tokens": 851,
+      "output_tokens": 191,
+      "seconds": 14.855037599998468,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the crimes tackled by the NDPS Act and provides specific examples from documents, directly addressing the question with evidence.\"}\n**Note:** The scores are based on the assumption that the candidate's answer is accurate and fully supported by the evidence provided in the documents. The reason given is a summary of the evaluation based on the provided JSON structure.",
+      "input_tokens": 891,
+      "output_tokens": 103,
+      "seconds": 8.226880499998515,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

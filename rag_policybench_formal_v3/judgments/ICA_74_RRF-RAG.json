@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_74",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the process for checking application status without SingPass and references the relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process for checking application status without SingPass and references the relevant documents.\",\n  \"evidence\": \"Document 1 and Document 2\"\n}\n\n\nThe candidate answer directly addresses the question by explaining the process for checking the status of an application without SingPass, which is relevant to the reference provided. The answer is correct as it aligns with the information given in Document 1 and Document 2, which state that applicants can check the status using ICA e-Service with a reference number and that they can submit applications through Singapore Missions overseas if they do not have a SingPass. The evidence provided (Document 1 and Document 2) supports the factual claims made in the candidate answer",
+      "input_tokens": 1280,
+      "output_tokens": 192,
+      "seconds": 15.185183199995663,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

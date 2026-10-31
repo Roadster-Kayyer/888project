@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008682",
+  "doc_id": "680",
+  "query_type": "formal",
+  "query": "Under what circumstances can violence during bandhs or strikes result in legal penalties?",
+  "corpus_query_index": 8681,
+  "system": "Dense-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.\n\n[Document 3]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 4]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.\n\n[Document 5]\nMob Violence:\nMob violence can lead to punishment under Section 147-149 of the IPC, with imprisonment up to 3 years and/or a fine. In severe cases, it can also lead to charges under Section 307 (attempt to murder) with imprisonment up to 10 years.",
+  "retrieved_doc_ids": [
+    "680",
+    "540",
+    "683",
+    "679",
+    "650"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f4dde96bb26d2cbbcea9e8d5d1863269c6990bb3b6998f06061fe13b183ee63b",
+  "answer": "Violence during bandhs or strikes can result in legal penalties, including up to 3 years in prison and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). [Document 1]",
+  "input_tokens": 408,
+  "output_tokens": 56,
+  "seconds": 7.155137300000206,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

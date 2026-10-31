@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_7",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the question, relevant documents are cited, and all factual claims are supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the process for reflecting and withdrawing discounted Singtel shares in the CPF Statement of Account, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 1241,
+      "output_tokens": 81,
+      "seconds": 6.585436299996218,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly addresses the question, relevant documents are cited, and all factual claims are supported by evidence.\"}",
+      "input_tokens": 1281,
+      "output_tokens": 48,
+      "seconds": 4.126818100005039,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

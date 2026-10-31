@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008700",
+  "doc_id": "683",
+  "query_type": "hard",
+  "query": "What repercussions do authorities take against spectators who start fights at games?",
+  "corpus_query_index": 8699,
+  "system": "Dense-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\nPublic Fighting:\nCausing public fighting can lead to imprisonment for up to 1 year and/or a fine, under Section 160 of the IPC.\n\n[Document 3]\nThreatening Public Performers:\nThreatening public performers is a punishable offense under the Tamil Nadu Prevention of Harassment of Women Act. It can lead to imprisonment up to 3 years and a fine of up to ₹5,000.\n\n[Document 4]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.\n\n[Document 5]\nAssault during Political Rallies:\nAssault during political rallies can lead to imprisonment of up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 323.",
+  "retrieved_doc_ids": [
+    "683",
+    "671",
+    "578",
+    "592",
+    "656"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "961461d7fe8896b3c3dc2eada4ce965119a1d993e692f93707e80b75e11ab907",
+  "answer": "Authorities impose penalties including up to 1 year in prison and/or fines for spectators starting fights at games, as per Section 160 of the IPC. [Document 2]",
+  "input_tokens": 366,
+  "output_tokens": 38,
+  "seconds": 4.823946400003479,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

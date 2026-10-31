@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005952",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the verification process but lacks specific details about the role of police and the required documents mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the verification process but lacks specific details about the role of police and the required documents mentioned in the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it discusses the verification process for domestic workers, which is related to the question. However, it does not directly reference the specific steps outlined in the reference, such as the role of the police station, the required documents, or the issuance of a verification report. Therefore, it is partly correct but omits important details. Faithfulness cannot be assessed due to the absence of evidence directly from the reference. The reason succinctly explains the scores.",
+      "input_tokens": 407,
+      "output_tokens": 181,
+      "seconds": 13.793534000000363,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

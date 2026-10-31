@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000243",
+  "doc_id": "1040",
+  "query_type": "casual",
+  "query": "So, how do I get my criminal case started?",
+  "corpus_query_index": 242,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling Cases under SC/ST Prevention of Atrocities Act:\nTo file a case, report the incident to the nearest police station or the District Superintendent of Police. The police will register an FIR and investigate. You can also approach the Special Court or the District Magistrate for assistance.\n\n[Document 3]\nReporting a Crime:\nTo report a crime, follow these steps:\n1. Call the police helpline (100) or visit the nearest police station.\n2. Provide details of the incident, including date, time, and location.\n3. Share any evidence or witness information.\n4. Get a complaint number or reference number.\n\n[Document 4]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 5]\nFiling a Case for Online Fraud:\nTo file a case for online fraud, visit your local police station's cybercrime cell. Provide details of the fraud, including transaction records and communication with the fraudster. The police will guide you through the process and help you file a complaint.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1961",
+    "292",
+    "1116",
+    "1194"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "21cf9b9a08343faa89e5429a9ab51db0aed239339aaf5a5e37fe0c318bdc473b",
+  "answer": "To start a criminal case, first file a complaint with the police. They will investigate and file a chargesheet. Then, the court will take up the case. [Document 1]",
+  "input_tokens": 439,
+  "output_tokens": 39,
+  "seconds": 5.007923500000288,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002112",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference, covering main facts about police-VAO collaboration."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering main facts about police-VAO collaboration.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully supported by the evidence provided in Document 1. The answer includes the key mechanisms of collaboration (regular meetings and joint patrols) and the roles of VAOs and police officers in this process, which aligns with the reference's description. The evidence score is 2 because the answer is substantiated by the evidence in Document 1.",
+      "input_tokens": 828,
+      "output_tokens": 162,
+      "seconds": 12.909951400000864,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

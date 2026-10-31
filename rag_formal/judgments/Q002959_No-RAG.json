@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002959",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partially correct, but lacks specific reference to Tamil Nadu and details on non-lethal measures and deployment of units."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and partially correct, but lacks specific reference to Tamil Nadu and details on non-lethal measures and deployment of units.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it addresses the general steps for responding to riots or civil unrest, which includes maintaining law and order, securing the scene, and ens000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_tokens": 434,
+      "output_tokens": 192,
+      "seconds": 14.924573399999645,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002112",
+  "doc_id": "1379",
+  "query_type": "formal",
+  "query": "What mechanisms does the Tamil Nadu Police employ to collaborate with village administrative officers?",
+  "corpus_query_index": 2111,
+  "system": "BM25-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 2]\nApplying for Administrative Positions:\nTo apply for administrative positions within Tamil Nadu Police, visit the official Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website or the Tamil Nadu Police website for notifications and follow the application process.\n\n[Document 3]\nFiling a Complaint against a VAO:\nTo file a complaint against a Village Administrative Officer (VAO) in Tamil Nadu, you can:\n1. Visit the nearest police station or Revenue Divisional Office.\n2. Submit a written complaint to the Revenue Divisional Officer (RDO) or the District Collector.\n3. Alternatively, you can file a complaint online through the Tamil Nadu Government's grievance portal.\n\n[Document 4]\nPolice Accountability in Tamil Nadu:\nThe Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.\n\n[Document 5]\nNight Patrolling System:\nThe Tamil Nadu Police conducts regular night patrols in remote villages through the 'Night Round' system. Police personnel, including village police officers, patrol designated areas to prevent and detect crime, and provide assistance to the public. The public can also report any concerns or incidents to the police control room (100) for immediate response.",
+  "retrieved_doc_ids": [
+    "1379",
+    "1481",
+    "393",
+    "1419",
+    "1392"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ead1c485c0c1a38aacb49a514a4710944852b8fc3651bc74aa87f1ddb8762179",
+  "answer": "The Tamil Nadu Police collaborates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs offer local insights, while police share security concerns, fostering a collaborative approach to law and order maintenance. [Document 1]",
+  "input_tokens": 460,
+  "output_tokens": 50,
+  "seconds": 6.472801300000356,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

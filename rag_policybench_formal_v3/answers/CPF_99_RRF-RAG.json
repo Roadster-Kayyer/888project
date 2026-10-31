@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_99",
+  "doc_id": "PB_0ef2de268e8e14db8c6f",
+  "query_type": "CPF_111",
+  "query": "As a taxi driver who takes both ride-hail and street-hail jobs, how should I make CPF contributions for my earnings?",
+  "reference_answer": "You will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.",
+  "corpus_query_index": 166,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 4]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 5]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "retrieved_doc_ids": [
+    "PB_0ef2de268e8e14db8c6f",
+    "PB_dc08990660488c2ed4e8",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_70b5d47d6063963e4051",
+    "PB_e29140d6b3a201be99ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "66af49832ceeb2e035a70b5da8f5b2e887abe7a89d8a8000ed4bd300aa025c1b",
+  "answer": "For ride-hail earnings, the platform operator will deduct and make CPF contributions for you. For street-hail earnings, you need to declare your net trade income to IRAS and make MediSave contributions yourself in the following year. [Document 1]",
+  "input_tokens": 705,
+  "output_tokens": 52,
+  "seconds": 6.983355100004701,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

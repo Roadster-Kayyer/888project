@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_18",
+  "doc_id": "PB_445d301435d07072a252",
+  "query_type": "BTT",
+  "query": "What is the purpose of bus-stop separator areas being painted red?",
+  "reference_answer": "The red paint alerts motorists to the presence of merging vehicles from bus-stops.",
+  "corpus_query_index": 10,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 2]\nIt indicates a mandatory give-way to buses area.\n\n[Document 3]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 4]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 5]\nIt indicates the centre line of a two-way road.",
+  "retrieved_doc_ids": [
+    "PB_445d301435d07072a252",
+    "PB_6bc60367a9acd22488f7",
+    "PB_89b7e5350f270a309ba9",
+    "PB_716429660f2efd24efb8",
+    "PB_57b4cb852a1cc98f4ad5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "668e5bc50f03fcecb5a4f522753366cc8895deb3106ae88ed94d06bbf817ba36",
+  "answer": "The red paint on bus-stop separator areas alerts motorists to merging vehicles from bus stops and indicates a mandatory give-way area for buses. It also ensures there's enough space to stop safely if needed. [Document 1] & [Document 2]",
+  "input_tokens": 239,
+  "output_tokens": 51,
+  "seconds": 6.468563299997186,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

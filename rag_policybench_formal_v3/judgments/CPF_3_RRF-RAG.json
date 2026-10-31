@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_3",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference information about no CPF refund needed after a full voluntary housing refund."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference information about no CPF refund needed after a full voluntary housing refund.\",\n  \"evidence\": \"The candidate answer is directly supported by Document 1, which states that no refund is needed if a full voluntary housing refund was made and no further CPF savings were used for loan repayments.\"\n}",
+      "input_tokens": 1663,
+      "output_tokens": 117,
+      "seconds": 9.248528099997202,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

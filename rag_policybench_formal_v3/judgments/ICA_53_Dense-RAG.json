@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_53",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly reflects the reference, is relevant to the question, and is supported by the evidence provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly reflects the reference, is relevant to the question, and is supported by the evidence provided in the documents.\"\n}\n\n\nThe candidate answer directly addresses the question by suggesting an indicative departure date that aligns with the reference's instructions for In-Principle Approval (IPA) letter holders. The answer is relevant as it pertains to the specific scenario of not leaving Singapore and is faithful to the evidence, which confirms the procedure for IPA holders and the importance of having a valid Singapore travel document. The reason succinctly explains the scores.",
+      "input_tokens": 880,
+      "output_tokens": 163,
+      "seconds": 12.708994300002814,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

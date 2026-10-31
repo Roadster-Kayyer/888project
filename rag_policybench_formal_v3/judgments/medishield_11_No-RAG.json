@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_11",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but omits specific mention of dental work coverage."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but omits specific mention of dental work coverage.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate answer is deemed partly correct (correctness score of 1) because it correctly identifies that the MediShield Life Scheme covers medical expenses related to accidents, which includes hospitalization, specialist fees, and medication costs. However, it fails to directly address the specific reference about dental work coverage, which is a relevant fact in the context of the question. The relevance score is 2 because the answer directly addresses the main question about accident-related medical expenses. Faithfulness is scored as null because there is no supplied evidence directly supporting the",
+      "input_tokens": 366,
+      "output_tokens": 192,
+      "seconds": 14.608303899993189,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

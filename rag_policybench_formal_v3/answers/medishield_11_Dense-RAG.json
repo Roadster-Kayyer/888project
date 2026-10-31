@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_11",
+  "doc_id": "PB_bc3e58093a0f6c39111b",
+  "query_type": "medishield",
+  "query": "What medical expenses related to accidents are included under the MediShield Life Scheme?",
+  "reference_answer": "Dental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+  "corpus_query_index": 305,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nDental work is covered under the MediShield Life Scheme only if required due to accidental injuries.\n\n[Document 3]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 4]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 5]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_bc3e58093a0f6c39111b",
+    "PB_602681b75becd57cfb35",
+    "PB_fd10bc60905030393bfb",
+    "PB_b9aebe55fbad5f72dcba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5796dad0809ba4a00121959d766d21927b75c53fc78674076d962b5aa140ebbe",
+  "answer": "Under MediShield Life, medical expenses for accidents include dental work due to accidental injuries, but not all medical expenses. The scheme covers $1,000 up to a $2,000 deductible, meaning if costs are less than the deductible, no payout occurs. [Document 2] & [Document 4]",
+  "input_tokens": 309,
+  "output_tokens": 68,
+  "seconds": 8.660219600002165,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

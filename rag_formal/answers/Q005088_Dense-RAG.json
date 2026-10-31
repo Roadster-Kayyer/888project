@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005088",
+  "doc_id": "1914",
+  "query_type": "casual",
+  "query": "So what kind of stuff do they deal with in the Cyber Crime Wing of TN police?",
+  "corpus_query_index": 5087,
+  "system": "Dense-RAG",
+  "reference_answer": "Cyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.",
+  "context": "[Document 1]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.\n\n[Document 2]\nCyber Crime Wing Role:\nThe Cyber Crime Wing in Tamil Nadu investigates and prevents cyber crimes, such as hacking, online fraud, and identity theft. They also provide technical assistance to other police units.\n\n[Document 3]\nCyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.\n\n[Document 4]\nTracking Cyber Criminals:\nThe Tamil Nadu Police tracks cyber criminals through digital footprints, IP addresses, and online activities. They also collaborate with internet service providers, banks, and other agencies to gather evidence and catch culprits.\n\n[Document 5]\nTechnical Services Wing:\nThe Technical Services Wing provides technical support to the Tamil Nadu Police, including maintenance of equipment, communication systems, and forensic analysis.",
+  "retrieved_doc_ids": [
+    "1564",
+    "153",
+    "1914",
+    "148",
+    "237"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "251bd963619942e2c4e284a9295190e22014015623f8e7524812b1f72eb924fd",
+  "answer": "The Cyber Crime Wing of Tamil Nadu Police deals with cases related to online crimes like hacking, phishing, cyber stalking, online fraud, and cyber harassment. [Document 1]",
+  "input_tokens": 342,
+  "output_tokens": 36,
+  "seconds": 4.593278700000155,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

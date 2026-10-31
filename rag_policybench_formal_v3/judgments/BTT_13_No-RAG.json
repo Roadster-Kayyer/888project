@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_13",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the Vehicle Standards and Regulations document."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the Vehicle Standards and Regulations document.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, the \"Document 1\" would be a specific reference to an actual document or regulation that provides the evidence for the claim. Since this is a hypothetical example, the evidence is represented as a placeholder.)",
+      "input_tokens": 363,
+      "output_tokens": 130,
+      "seconds": 10.120607899996685,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

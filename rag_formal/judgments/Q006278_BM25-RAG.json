@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006278",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects the reference, and includes relevant advice for women's safety."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the reference, and includes relevant advice for women's safety.\",\n  \"evidence\": \"[Document 5]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the methods used by the Tamil Nadu Police for crowd management during festivals, which include deploying personnel, traffic management, drills, and technology. The relevance (2) is high because the answer directly addresses the question about crowd control during festivals. Faithfulness (2) is confirmed by the evidence provided in Document 5, which is directly cited in the candidate's answer. The reason succinctly explains the scores, noting that the answer is directly",
+      "input_tokens": 784,
+      "output_tokens": 192,
+      "seconds": 14.50598760000139,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

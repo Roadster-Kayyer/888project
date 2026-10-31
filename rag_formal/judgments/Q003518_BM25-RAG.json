@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003518",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate answer correctly identifies measures implemented by Tamil Nadu Police for women's safety but lacks specific details on safety changes; evidence supports helpline and station access but not direct safety measures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly identifies measures implemented by Tamil Nadu Police for women's safety but lacks specific details on safety changes; evidence supports helpline and station access but not direct safety measures.\",\n  \"evidence\": \"Documents 3, 4, and 2 support the candidate's claims about helpline services, women-friendly police stations, and personal data rights, but do not provide specific safety changes.\"\n}",
+      "input_tokens": 849,
+      "output_tokens": 132,
+      "seconds": 10.382122699997126,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

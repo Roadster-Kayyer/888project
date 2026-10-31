@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_3",
+  "doc_id": "PB_463ffaad763bace6d774",
+  "query_type": "CPF_111",
+  "query": "How much do I need to refund when I sell my property after I made a voluntary housing refund?",
+  "reference_answer": "On sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).",
+  "corpus_query_index": 90,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).\n\n[Document 2]\nYou can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.\n\n[Document 3]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "retrieved_doc_ids": [
+    "PB_463ffaad763bace6d774",
+    "PB_5ceab13899c08229e914",
+    "PB_78fc5f010e94bc79c15a",
+    "PB_cc60baad4cbf9560588b",
+    "PB_4bd71ffc7b87577275da"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "409d1cd4279e89e72f8683dbf646bd68e5862c6753dd9a669eef99ee6f3a30f8",
+  "answer": "When you sell your property after making a full voluntary housing refund, you don't need to refund anything to your CPF account. [Document 1]",
+  "input_tokens": 870,
+  "output_tokens": 31,
+  "seconds": 4.224385699999402,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

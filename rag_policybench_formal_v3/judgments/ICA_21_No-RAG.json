@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_21",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer\": \"To book, change, or cancel an appointment in MyICA, log in to your account, navigate to the \\\"Appointments\\\" section, and use the options provided there.\"\n}",
+      "input_tokens": 420,
+      "output_tokens": 97,
+      "seconds": 7.051482299997588,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

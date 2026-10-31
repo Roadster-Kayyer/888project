@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000243",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process and includes evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process and includes evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate answer directly addresses the question about starting a criminal case by mentioning the initial step of filing a complaint with the police and the subsequent police investigation and chargesheet filing, which are all mentioned in Document 1. The answer also correctly refers to the court taking up the case as per Document 1. Additionally, the candidate answer provides information on how to check the case's progress, which is relevant and supported by the guidance in Document 2. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence",
+      "input_tokens": 776,
+      "output_tokens": 192,
+      "seconds": 14.718984600000113,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

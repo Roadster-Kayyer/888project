@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006208",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes PEW operations and is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes PEW operations and is supported by Documents 1, 2, and 5.\",\n}",
+      "input_tokens": 806,
+      "output_tokens": 67,
+      "seconds": 5.431384299999991,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes PEW operations and is supported by all documents.\"}",
+      "input_tokens": 846,
+      "output_tokens": 41,
+      "seconds": 3.442529400001149,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

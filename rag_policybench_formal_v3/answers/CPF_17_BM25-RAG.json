@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_17",
+  "doc_id": "PB_a5b402d61a78d4a9da45",
+  "query_type": "CPF_111",
+  "query": "I am registered with the Accounting and Corporate Regulatory Authority (ACRA) as a partner for my business. Am I considered a self-employed person or an employee of the partnership?",
+  "reference_answer": "For more information on Partnerships, please visit theInland Revenue Authority of Singapore (IRAS) website.",
+  "corpus_query_index": 76,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.\n\n[Document 2]\nYou are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.\n\n[Document 3]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.",
+  "retrieved_doc_ids": [
+    "PB_f79fde53917b7a3dd93a",
+    "PB_ba8da7916c6aa6ff3ddd",
+    "PB_dc08990660488c2ed4e8",
+    "PB_cc60baad4cbf9560588b",
+    "PB_86ecb50c3ba0c8242aab"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d2a8c63bae2f77e27ad8aa4c8e8947f45fbfce4a777935119ccde314905e7763",
+  "answer": "Based on Document 1 and Document 2, since you are registered as a self-employed partner, you are considered a self-employed person (SEP) and not an employee of the partnership. You'll contribute to MediSave as a SEP, not CPF as an employee. [Document 1, 2]",
+  "input_tokens": 871,
+  "output_tokens": 63,
+  "seconds": 8.223118399997475,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

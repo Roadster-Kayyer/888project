@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_82",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states TDVLs are not automatically renewed by DAS Scheme participation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states TDVLs are not automatically renewed by DAS Scheme participation.\",\n  \"retrieved_evidence\": \"The reference clearly states that TDVLs will not be automatically renewed upon participation in the DAS Scheme.\"\n}",
+      "input_tokens": 495,
+      "output_tokens": 110,
+      "seconds": 8.47791529999813,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

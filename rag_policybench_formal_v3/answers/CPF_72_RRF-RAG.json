@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_72",
+  "doc_id": "PB_70b5d47d6063963e4051",
+  "query_type": "CPF_111",
+  "query": "What happens if I have incentives accrued across a few months but only paid later? When will the payments attract CPF contribution?",
+  "reference_answer": "Platform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.",
+  "corpus_query_index": 137,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nPlatform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.\n\n[Document 2]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 3]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.\n\n[Document 4]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 5]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).",
+  "retrieved_doc_ids": [
+    "PB_70b5d47d6063963e4051",
+    "PB_0b2919dbf107215d276f",
+    "PB_756caeff044567542744",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_463ffaad763bace6d774"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "513b4bb486486a49c74fa819093716888488c88ba91879375be53d900eb0a305",
+  "answer": "If you have accrued incentives over several months but paid them later, these payments will attract CPF contribution when they are due and payable, not when they are accrued. According to [Document 1], CPF contributions are computed together with the earnings when the payment is due, not when it is accrued. Therefore, the timing of the payment affects whether it attracts CPF contribution. [Document 5] explains that CPF contributions are based on the payment's due date, not when it was earned.",
+  "input_tokens": 901,
+  "output_tokens": 98,
+  "seconds": 13.126297599999816,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

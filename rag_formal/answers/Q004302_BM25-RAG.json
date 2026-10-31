@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004302",
+  "doc_id": "1773",
+  "query_type": "formal",
+  "query": "What measures does the Tamil Nadu Police take in dealing with cases involving missing foreign tourists?",
+  "corpus_query_index": 4301,
+  "system": "BM25-RAG",
+  "reference_answer": "Handling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.",
+  "context": "[Document 1]\nHandling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.\n\n[Document 2]\nMissing Foreign Workers:\nIn cases of missing foreign workers, the Tamil Nadu Police:\n1. Registers a missing person complaint.\n2. Investigates the matter.\n3. Coordinates with the worker's embassy or consulate.\n\n[Document 3]\nProvisions for Foreign Nationals:\nForeign nationals dealing with the Tamil Nadu Police are protected under the Foreigners Act, 1946, and the Passport (Entry into India) Act, 1920. They have the right to contact their embassy or consulate, and the police must follow established protocols when interacting with foreign nationals, including providing interpretation services and respecting their diplomatic rights.\n\n[Document 4]\nTamil Nadu Police Coordination with Foreign Embassies\nThe Tamil Nadu Police coordinates with foreign embassies through the Foreigners Registration Office (FRO) and the Special Branch. In emergencies, they work together to provide assistance and support to foreign nationals.\n\n[Document 5]\nWitness Protection:\nThe Witness Protection Scheme, 2018, provides legal provisions for protecting witnesses in Tamil Nadu. It ensures the safety and security of witnesses in criminal cases, including those involving police officials.",
+  "retrieved_doc_ids": [
+    "1773",
+    "1799",
+    "1764",
+    "1771",
+    "1740"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c23a2c40636098cfd5e22378488bf33af025ce5597f2370501bb1b081257eee9",
+  "answer": "The Tamil Nadu Police handles missing foreign tourists by launching a search operation, filing a missing person report, and conducting investigations. They coordinate with the tourist's embassy and local authorities [Document 1]. For missing foreign workers, they register a complaint, investigate, and coordinate with embassies or consulates [Document 2]. They also protect foreign nationals under specific acts and provide services like interpretation and support [Document 3-4]. Additionally, they use the Witness Protection Scheme to safeguard witnesses, including police officials [Document 5]. [Document 1-5]",
+  "input_tokens": 413,
+  "output_tokens": 115,
+  "seconds": 14.730210899999292,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

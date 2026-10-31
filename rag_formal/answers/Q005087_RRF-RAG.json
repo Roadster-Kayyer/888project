@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005087",
+  "doc_id": "1914",
+  "query_type": "formal",
+  "query": "In which cases does the Cyber Crime Wing of Tamil Nadu Police engage?",
+  "corpus_query_index": 5086,
+  "system": "RRF-RAG",
+  "reference_answer": "Cyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.",
+  "context": "[Document 1]\nCyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.\n\n[Document 2]\nCyber Crime Wing Role:\nThe Cyber Crime Wing in Tamil Nadu investigates and prevents cyber crimes, such as hacking, online fraud, and identity theft. They also provide technical assistance to other police units.\n\n[Document 3]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.\n\n[Document 4]\nFiling a Cyber Crime Complaint:\nTo file a complaint with the Cyber Crime Wing in Tamil Nadu, visit the nearest cyber crime police station or submit a complaint online through the Tamil Nadu Police website. Provide detailed information about the incident, including evidence and supporting documents.\n\n[Document 5]\nReporting Cyber Security Incidents:\nTo report cyber security incidents in Tamil Nadu, contact the Tamil Nadu Cyber Crime Police at 1930 (toll-free) or visit the nearest police station. You can also file a complaint online through the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "1914",
+    "153",
+    "1564",
+    "1915",
+    "2044"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4c0e5f9742f18a22789bf79dd7316106ab1138928c6a7536fb4971c236c2a596",
+  "answer": "The Cyber Crime Wing of Tamil Nadu Police engages in cases related to online crimes like hacking, phishing, cyber fraud, cyber stalking, and online harassment [Document 1, Document 3, Document 5]. They handle complaints through various means, including visiting cyber crime police stations or submitting online reports [Document 4, Document 5].",
+  "input_tokens": 370,
+  "output_tokens": 69,
+  "seconds": 8.736996999999974,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

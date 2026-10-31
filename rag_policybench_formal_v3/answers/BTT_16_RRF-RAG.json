@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_16",
+  "doc_id": "PB_111b71b487c94f59fe3c",
+  "query_type": "BTT",
+  "query": "What is the penalty for using a mobile communication device while driving in Singapore?",
+  "reference_answer": "The penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.",
+  "corpus_query_index": 8,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 2]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 3]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 4]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 5]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.",
+  "retrieved_doc_ids": [
+    "PB_111b71b487c94f59fe3c",
+    "PB_5b5856d1886897cce5a3",
+    "PB_ffb44a115e698c779310",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_bf4db8945d407eacbe6a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8d565dd45ee5b12474f0f9989b99648e0fbafa94b72f321e0b1fcbc37824d756",
+  "answer": "The penalty for using a mobile communication device while driving in Singapore is a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both. [Document 1]",
+  "input_tokens": 466,
+  "output_tokens": 40,
+  "seconds": 5.152143700004672,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_75",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by the documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the timeline for viewing the letter online and receiving the final outcome letter by email, supported by Documents 1, 2, and 3.\",\n}",
+      "input_tokens": 691,
+      "output_tokens": 192,
+      "seconds": 14.950037599992356,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is fully supported by the documents provided.\"}",
+      "input_tokens": 731,
+      "output_tokens": 45,
+      "seconds": 3.7601381999993464,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

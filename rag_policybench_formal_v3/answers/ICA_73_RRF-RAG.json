@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_73",
+  "doc_id": "PB_2efa64de426db8e30ff0",
+  "query_type": "ICA_134",
+  "query": "What should I do if I have not received my PIN mailer or address sticker?",
+  "reference_answer": "If you have not received your PIN or address sticker after seven (7) days (for local addresses), please request for another PIN or sticker via the e-service. After you request for a new PIN, the original PIN will no longer be valid. For overseas addresses, the delivery time may be longer.",
+  "corpus_query_index": 273,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf you have not received your PIN or address sticker after seven (7) days (for local addresses), please request for another PIN or sticker via the e-service. After you request for a new PIN, the original PIN will no longer be valid. For overseas addresses, the delivery time may be longer.\n\n[Document 2]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 3]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.\n\n[Document 4]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_2efa64de426db8e30ff0",
+    "PB_aa5916ddd19af121154f",
+    "PB_c1a387ce75f3f9c696bf",
+    "PB_5ae2776cd5bb7bd71a02",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f35688eec78b557faa37a30a8bd9b4a67b0b5b8e1d52b4b02a7c7420550c99bb",
+  "answer": "If you haven't received your PIN mailer or address sticker after 7 days for a local address, request a new one via e-service. The original PIN will then be invalid. Overseas deliveries might take longer. Check your email for a new PIN and address sticker. Ensure the email address is correct and ends with \"@e.cpf.gov.sg\" to avoid phishing. [Document 1]",
+  "input_tokens": 597,
+  "output_tokens": 81,
+  "seconds": 10.41955570000573,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

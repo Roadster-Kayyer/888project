@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_75",
+  "doc_id": "PB_ffdb8da43be014161737",
+  "query_type": "CPF_111",
+  "query": "How much CPF monthly payout can I receive if I top up to the raised Enhanced Retirement Sum in 2025?",
+  "reference_answer": "It depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.",
+  "corpus_query_index": 140,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.\n\n[Document 2]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 3]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 4]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 5]\nCPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_ffdb8da43be014161737",
+    "PB_5970b9dd48a067a0363d",
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_756caeff044567542744"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "798818002ba5b78a53076282d11fc7b59900edbba64288521e1038df347f9b5c",
+  "answer": "If you top up to the raised Enhanced Retirement Sum (ERS) in 2025, CPF LIFE monthly payouts can range from $2,500 - $2,700 for those turning 65 in 2025, and from $3,100 - $3,300 for those starting payouts at 65. [Document 1]",
+  "input_tokens": 793,
+  "output_tokens": 83,
+  "seconds": 10.522351899999194,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

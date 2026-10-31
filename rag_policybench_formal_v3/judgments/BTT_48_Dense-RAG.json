@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_48",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 4.\",\n  \"evidence\": \"[Document 1]Motorists should slow down and watch out for buses pulling out of the bus bay.\\n[Document 4]The red paint alerts motorists to the presence of merging vehicles from bus-stops.\"\n}",
+      "input_tokens": 478,
+      "output_tokens": 123,
+      "seconds": 9.745362400004524,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

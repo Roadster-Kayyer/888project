@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008853",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer does not provide factual evidence from the reference, which discusses legal consequences."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer does not provide factual evidence from the reference, which discusses legal consequences.\",\n  \"answer\": \"If you split up your grandma's stuff without asking, it could be considered disrespectful and against her wishes. You should ask permission first to avoid any issues or hurt feelings.\"\n}",
+      "input_tokens": 404,
+      "output_tokens": 102,
+      "seconds": 8.113613699999405,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

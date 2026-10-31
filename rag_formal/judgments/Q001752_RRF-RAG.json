@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001752",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process and includes necessary details from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and includes necessary details from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is directly relevant to the question, accurately reflecting the process outlined in the reference documents, and the evidence provided supports the factual claims made in the answer. The reason succinctly explains the scores.",
+      "input_tokens": 812,
+      "output_tokens": 117,
+      "seconds": 9.363339300001826,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

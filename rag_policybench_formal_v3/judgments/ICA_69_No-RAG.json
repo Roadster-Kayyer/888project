@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_69",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the provided evidence, although the evidence itself is not explicitly stated."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the provided evidence, although the evidence itself is not explicitly stated.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder since the actual evidence is not provided in the text. In a real-world scenario, the evidence would need to be a specific document or source that directly supports the candidate's answer.)",
+      "input_tokens": 563,
+      "output_tokens": 136,
+      "seconds": 10.468013000005158,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008699",
+  "doc_id": "683",
+  "query_type": "search",
+  "query": "What penalties are applied to those who act violently at sporting events?",
+  "corpus_query_index": 8698,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.",
+  "context": "[Document 1]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nForeign Athletes During Sporting Events:\nFor foreign athletes, the protocol includes:\n1. Registration with the local police.\n2. Coordination with event organizers.\n3. Provision of security and assistance as needed.\n\n[Document 4]\nBailable vs Non-Bailable Offenses\nBailable offenses are those where bail is a right, and the accused can be released on bail. Non-bailable offenses are those where bail is not a right, and the court decides whether to grant bail.\n\n[Document 5]\nPenalties for Drunk Driving:\nIn Tamil Nadu, drunk driving penalties include:\n- Imprisonment up to 6 months\n- Fine up to ₹10,000\n- License suspension for at least 6 months",
+  "retrieved_doc_ids": [
+    "683",
+    "107",
+    "1800",
+    "1028",
+    "283"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3fd524afa2ad49ee31fc537027e1d6db386fa0b35a8585efa7f995af42493e6d",
+  "answer": "Violence at sporting events can result in up to 1 year in prison and/or a fine under Tamil Nadu laws [Document 1].",
+  "input_tokens": 384,
+  "output_tokens": 29,
+  "seconds": 3.691929500000697,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

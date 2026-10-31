@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_105",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies PRs' ineligibility based on WIS criteria and supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies PRs' ineligibility based on WIS criteria and supported by documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question by explaining why PRs are not eligible for the WIS scheme, and it is supported by evidence from the documents provided. The answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 837,
+      "output_tokens": 137,
+      "seconds": 10.661429200001294,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

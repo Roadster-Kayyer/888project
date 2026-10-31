@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002245",
+  "doc_id": "1401",
+  "query_type": "hard",
+  "query": "What approaches does the legal system take to resolve issues where tribal artisans are exploited?",
+  "corpus_query_index": 2244,
+  "system": "Dense-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nMigration-related Issues in Tribal Areas:\nThe police handle migration-related issues by:\n* Conducting regular checks and verification\n* Collaborating with local authorities and tribal leaders\n* Providing assistance and support to migrants\n* Ensuring compliance with labor laws and regulations\n\n[Document 3]\nHandling Illegal Excavation Cases:\nIn cases of illegal excavation of archaeological sites in tribal areas, the police register a complaint under the Ancient Monuments and Archaeological Sites and Remains Act, 1958. The police then investigate and take action against the offenders in coordination with the Archaeological Survey of India and local authorities.\n\n[Document 4]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 5]\nReligious Conversion Conflicts:\nIn tribal areas, police handle cases of religious conversion conflicts by:\n* Registering complaints\n* Investigating incidents\n* Maintaining law and order\n* Ensuring protection of individual rights",
+  "retrieved_doc_ids": [
+    "1401",
+    "1389",
+    "1409",
+    "1381",
+    "1405"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "56e2c96f746f3155fcb4c5bc7003966331cab6fcd249f2e483c5f07841cfec7f",
+  "answer": "The legal system in Tamil Nadu addresses exploitation of tribal artisans through the Tamil Nadu Police by registering complaints, investigating cases, and working with tribal welfare departments and NGOs [Document 1]. It also handles other issues like migration, illegal excavation, forest rights violations, and religious conversion conflicts using similar methods [Documents 1-5]. [Document 1] specifically mentions their approach to artisan exploitation.",
+  "input_tokens": 425,
+  "output_tokens": 79,
+  "seconds": 10.065615399998933,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

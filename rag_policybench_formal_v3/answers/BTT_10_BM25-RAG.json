@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_10",
+  "doc_id": "PB_4a5e366a1e27905d0545",
+  "query_type": "BTT",
+  "query": "What gear practice should be followed while driving a manual vehicle to prevent dragging the engine?",
+  "reference_answer": "Avoid dragging the engine by using the correct gear.",
+  "corpus_query_index": 2,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAvoid dragging the engine by using the correct gear.\n\n[Document 2]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 5]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "retrieved_doc_ids": [
+    "PB_4a5e366a1e27905d0545",
+    "PB_d52d8afcd0f078500080",
+    "PB_619765030c2c1f6e27b8",
+    "PB_111b71b487c94f59fe3c",
+    "PB_ebd58cc24fe004fbabd6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05758e4dddadffa31d045fb04712d8a16487f1641d3f742807c8fabb9940377a",
+  "answer": "While driving a manual vehicle, use the correct gear to prevent dragging the engine. [Document 1] recommends this practice. Using the right gear also increases fuel efficiency and reduces emissions, as mentioned in [Document 2].",
+  "input_tokens": 453,
+  "output_tokens": 46,
+  "seconds": 6.405276099998446,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

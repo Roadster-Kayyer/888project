@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005748",
+  "doc_id": "2032",
+  "query_type": "casual",
+  "query": "How do I check if those legal papers I got in the mail are legit?",
+  "corpus_query_index": 5747,
+  "system": "RRF-RAG",
+  "reference_answer": "Verifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.",
+  "context": "[Document 1]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 2]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 3]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 4]\nPolice Verification for Business Establishment:\nTo get police verification for a business, submit an application to your local police station with required documents (ID proof, address proof, and business registration papers). Police will conduct a background check and issue a verification report, which is usually required for licensing and registration purposes.\n\n[Document 5]\nVerifying Police Officer Authenticity:\nTo verify the authenticity of a police officer in plainclothes, ask for their:\n* ID card\n* Badge number\n* Contact the local police station to confirm their identity\n* Do not hesitate to ask for verification to ensure your safety",
+  "retrieved_doc_ids": [
+    "2032",
+    "799",
+    "187",
+    "212",
+    "1900"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c0c29b72063a29a11c79ec955e318b5450db6d67933e327f3c041401e2d9142b",
+  "answer": "To verify legal notices, look for the official seal and signature of the issuing authority. Contact the concerned police station or court to confirm the notice. [Document 1]",
+  "input_tokens": 446,
+  "output_tokens": 35,
+  "seconds": 4.8058404000003065,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

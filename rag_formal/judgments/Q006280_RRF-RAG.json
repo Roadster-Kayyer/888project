@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006280",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects the reference documents, and includes all substantive factual claims about crowd management and safety measures during festivals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the reference documents, and includes all substantive factual claims about crowd management and safety measures during festivals.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4, Document 5\"\n}\n\n\nThe candidate's answer is correct (2) as it directly addresses the question about how the Tamil Nadu Police ensures safety in crowded areas during festivals. It covers the main points from the reference documents, such as deploying personnel, traffic management, crowd control drills, surveillance technology, respecting citizens' rights, and the use of a Mounted Horse Unit. The answer is relevant (2)",
+      "input_tokens": 839,
+      "output_tokens": 192,
+      "seconds": 15.301288800001203,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

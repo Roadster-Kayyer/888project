@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001751",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not provide correct procedure or relevant details from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not provide correct procedure or relevant details from the reference.\",\n  \"evidence\": \"Retrieved evidence is absent as it states 'Document N' does not provide specific procedures.\"\n}",
+      "input_tokens": 414,
+      "output_tokens": 192,
+      "seconds": 14.821389200002159,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000053",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question, correctly cites the documents, and is factually supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question, correctly cites the documents, and is factually supported by the evidence provided.\",\n  \"evidence\": \"[Document 1], [Document 3], [Document 4]\"\n}",
+      "input_tokens": 756,
+      "output_tokens": 192,
+      "seconds": 15.034502300000895,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004305",
+  "doc_id": "1773",
+  "query_type": "hard",
+  "query": "How does the police force in Tamil Nadu investigate incidents of foreign tourists going missing?",
+  "corpus_query_index": 4304,
+  "system": "BM25-RAG",
+  "reference_answer": "Handling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.",
+  "context": "[Document 1]\nHandling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.\n\n[Document 2]\nMissing Foreign Workers:\nIn cases of missing foreign workers, the Tamil Nadu Police:\n1. Registers a missing person complaint.\n2. Investigates the matter.\n3. Coordinates with the worker's embassy or consulate.\n\n[Document 3]\nSuperstition-Based Violence:\nIn cases of superstition-based violence in tribal areas, police take swift action to prevent harm and investigate incidents. The police work with local authorities and tribal leaders to raise awareness and prevent such incidents. Victims can report incidents to the nearest police station or call the Tamil Nadu Police helpline.\n\n[Document 4]\nReporting Border Area Suspicious Activities:\nTo report suspicious activities in border areas, contact the Border Security Force (BSF) or the local police station. You can also dial 100, the Tamil Nadu Police helpline, to report such incidents.\n\n[Document 5]\nTamil Nadu Police Coordination with Foreign Embassies\nThe Tamil Nadu Police coordinates with foreign embassies through the Foreigners Registration Office (FRO) and the Special Branch. In emergencies, they work together to provide assistance and support to foreign nationals.",
+  "retrieved_doc_ids": [
+    "1773",
+    "1799",
+    "1397",
+    "930",
+    "1771"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1a89b5b568a24ce434471b0bc4b53fc2bd82227f9ab97860c4973217fead85cb",
+  "answer": "For missing foreign tourists in Tamil Nadu, the police launch a search operation and coordinate with the tourist's embassy and local authorities. They file a missing person report and conduct investigations [Document 1].",
+  "input_tokens": 406,
+  "output_tokens": 40,
+  "seconds": 5.4139001999992615,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

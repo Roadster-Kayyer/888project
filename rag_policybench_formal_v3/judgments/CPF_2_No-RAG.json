@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_2",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly describes the computation but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly describes the computation but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is correct in explaining the computation of the 12-month AMI (correctness score of 2). However, it does not directly reference the provided text (relevance score of 1), and there is no evidence provided to support the claim (faithfulness score of null). The reason succinctly explains the scores.",
+      "input_tokens": 441,
+      "output_tokens": 143,
+      "seconds": 10.795980700000655,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

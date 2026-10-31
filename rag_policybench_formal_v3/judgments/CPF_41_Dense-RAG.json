@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_41",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the new evaluation criteria, including benchmark, expense ratio, and track record, as stated in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the new evaluation criteria, including benchmark, expense ratio, and track record, as stated in the reference documents.\"\n}",
+      "input_tokens": 1436,
+      "output_tokens": 71,
+      "seconds": 5.810989400008111,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

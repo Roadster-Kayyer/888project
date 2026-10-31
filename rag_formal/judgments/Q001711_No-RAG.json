@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001711",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"answer\": \"To apply for a lower TDS certificate in Tamil Nadu, visit the official website of the Department of Revenue in Tamil Nadu, fill out the application form, and submit it along with necessary documents at the nearest revenue office.\"\n}",
+      "input_tokens": 421,
+      "output_tokens": 110,
+      "seconds": 8.641060999998444,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

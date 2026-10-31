@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_1",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the function of a broken white line and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the function of a broken white line and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] It indicates the centre line of a two-way road.\"\n}\n\n\nIn this evaluation, the candidate's answer is correct (2), directly relevant (2), and fully faithful to the evidence provided (2). The reason succinctly explains the scores, and the evidence from Document 1 directly supports the candidate's answer. There are no omissions or unsupported claims in the candidate's response.",
+      "input_tokens": 516,
+      "output_tokens": 157,
+      "seconds": 12.184395599993877,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007483",
+  "doc_id": "464",
+  "query_type": "casual",
+  "query": "How do they keep the names of people who report being harassed secret in Tamil Nadu?",
+  "corpus_query_index": 7482,
+  "system": "RRF-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nDealing with Harassment Calls/ Messages:\nIf being harassed by phone calls or messages, report to:\n* Tamil Nadu Police Cyber Cell: 1930 (toll-free)\n* Local police station\n* Block the caller's number\n* Save evidence (messages, call logs)\n\n[Document 3]\nReporting Lost Articles:\nTo report lost articles in Tamil Nadu, visit the nearest police station and provide details of the lost item, including description, date, and place of loss. Fill out a complaint form (FIR) and submit it to the police. Keep a copy of the FIR for future reference.\n\n[Document 4]\nWitnessing Harassment:\nIf you witness a woman being harassed, stay calm and:\n* Intervene safely, if possible\n* Call 100 (Tamil Nadu Police helpline) or 1091 (Women's Helpline)\n* Provide support to the victim\n\n[Document 5]\nReporting Harassment or Threats:\nForeigners can report harassment or threats to the local police station or the Tamil Nadu Tourist Police. They can also contact the police helpline at 100 or the tourist police helpline at 1800 425 2141.",
+  "retrieved_doc_ids": [
+    "464",
+    "1896",
+    "2073",
+    "1904",
+    "1774"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0bdbfda1351a42d77ddea7ad4b2ab0b89987a3329cd76872ddb4204d363a3c51",
+  "answer": "In Tamil Nadu, the police protect complainants' identities by using coded names and maintaining confidentiality. Complainants can also request anonymity [Document 1]. Their actions align with Supreme Court guidelines to ensure victims' safety and security throughout the process [Document 1].",
+  "input_tokens": 457,
+  "output_tokens": 54,
+  "seconds": 6.714254500000607,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

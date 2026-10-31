@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009877",
+  "doc_id": "896",
+  "query_type": "formal",
+  "query": "How can one report instances of caste discrimination?",
+  "corpus_query_index": 9876,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.",
+  "context": "[Document 1]\nReporting Casteist Discrimination:\nReport casteist discrimination to the nearest police station or the District Social Welfare Officer. You can also contact the Tamil Nadu State Commission for SC/ST (Scheduled Castes/Scheduled Tribes) for assistance.\n\n[Document 2]\nReporting Caste-Based Harassment\nTo report caste-based harassment, contact the local police station or call the toll-free number 14416. You can also file a complaint with the Tamil Nadu State Commission for Women or the District Social Welfare Office.\n\n[Document 3]\nReporting Violations of the Scheduled Castes and Scheduled Tribes Act:\nTo report violations, contact the local police station or the District Superintendent of Police. You can also file a complaint with the National Commission for Scheduled Castes or the State SC/ST Commission. Provide details of the incident, and the police will investigate and take action.\n\n[Document 4]\nReporting Discrimination against Transgender Women:\nTo report discrimination, contact the Tamil Nadu Police's dedicated helpline or visit the nearest police station. You can also file a complaint online through the Tamil Nadu Police website. Provide details of the incident, and the police will take necessary action.\n\n[Document 5]\nAddressing Caste-Based Discrimination:\nThe Tamil Nadu Police addresses caste-based discrimination through the SC/ST Helpline (14416) and the District Human Rights Cells. Victims can report incidents, and the police will take action under the SC/ST (Prevention of Atrocities) Act, 1989.",
+  "retrieved_doc_ids": [
+    "896",
+    "454",
+    "1402",
+    "462",
+    "1391"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "69897aadc11740e8b4f3ad66d5026b7350e63235d4155336c5f56a282a4330af",
+  "answer": "One can report caste discrimination by contacting the nearest police station or the District Social Welfare Officer [Document 1], or the Tamil Nadu State Commission for SC/ST [Document 1]. For caste-based harassment, contact the local police station or call 14416 [Document 2]. To report violations, contact the local police station or the State SC/ST Commission [Document 3]. For transgender women, use the Tamil Nadu Police's helpline or website [Document 4]. The Tamil Nadu Police also addresses caste-based discrimination through SC/ST Helpline (14416) and District Human Rights Cells [Document 5]. [Document 1-5] provide specific contacts and methods.",
+  "input_tokens": 433,
+  "output_tokens": 146,
+  "seconds": 17.946987200000876,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

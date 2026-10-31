@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_85",
+  "doc_id": "PB_89b49e1ae6fc2845f85e",
+  "query_type": "ICA_134",
+  "query": "What will happen if a traveller or his/her travel companion submits wrong passport information while generating the QR code?",
+  "reference_answer": "It is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.",
+  "corpus_query_index": 286,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nUnder the Singapore Constitution, minors who are Singapore Citizens by descent or registration must take the Oath of Renunciation, Allegiance and Loyalty (ORAL) upon attaining 21 years of age and before attaining 22 years of age. Minor is required to take the ORAL on or after 21st birthday date and no later than 22nd birthday.Once the minor has completed his/her oath taking formalities, he/she may apply for Singapore passport. Nonetheless, should the minor require to extend the validity of his/her Singapore Passport before taking the Oath, and in need to travel, he/she may apply for a new passport with a validity one day before his/her 22nd birthday. The passport can only be extended to its full 10-year after the minor has taken the ORAL.You may contact us via the enquiry form if you require further clarifications on passport renewal.\n\n[Document 4]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 5]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is",
+  "retrieved_doc_ids": [
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_09222d548a5f63af648a",
+    "PB_9f4c61a84436b24e8a5d",
+    "PB_33b32af818c8c4223f8f",
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "494869184d514978880c234bddccae77be2dc81c8d1e97495acf73dccbdc147a",
+  "answer": "If a traveller submits wrong passport information while creating a QR code, the QR code's validity will be automatically extended, but the traveller must correct the information in the MyICA mobile app. Once the passport expires, the QR code becomes invalid, and the traveller needs to update their profile information including the new passport details. [Document 1] & [Document 2]",
+  "input_tokens": 909,
+  "output_tokens": 75,
+  "seconds": 10.160886099998606,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

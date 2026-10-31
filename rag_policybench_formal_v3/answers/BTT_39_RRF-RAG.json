@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_39",
+  "doc_id": "PB_7f4c71e9895fc3caf31f",
+  "query_type": "BTT",
+  "query": "What must drivers do when driving in a tunnel to ensure they can handle ERP payments?",
+  "reference_answer": "Drivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "corpus_query_index": 33,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 2]\nPeople should head for the tunnel entrance or exit, whichever is safer.\n\n[Document 3]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 4]\nIn general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the\n\n[Document 5]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "retrieved_doc_ids": [
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_e12438e446c271b6f34f",
+    "PB_1bd233e28127cfee0c86",
+    "PB_0b2919dbf107215d276f",
+    "PB_619765030c2c1f6e27b8"
+  ],
+  "trimmed_doc_ids": [
+    "PB_0b2919dbf107215d276f"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "038792c4c696a2993c0499ff23bd0dd196621a125d66ff869e82d993017e0194",
+  "answer": "When driving in tunnels, drivers must pre-load cash cards for ERP payments [Document 1]. Additionally, they should prepare by heading to the tunnel entrance or exit for safety [Document 2]. Drivers need to ensure they complete their turn and clear the junction [Document 3]. However, the document does not specify what drivers must do regarding ERP payments specifically in tunnels. [Document 4] discusses CPF contributions but is unrelated to tunnel driving. [Document 5] mentions road codes but does not address ERP payments.",
+  "input_tokens": 451,
+  "output_tokens": 105,
+  "seconds": 1104.5295804999987,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

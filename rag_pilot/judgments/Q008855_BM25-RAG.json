@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008855",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies potential penalties under the Hindu Succession Act, 1956 and acknowledges variability in specific penalties, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly cites the Hindu Succession Act, 1956 and acknowledges variability in penalties, supported by Document 1.\",\n}",
+      "input_tokens": 759,
+      "output_tokens": 192,
+      "seconds": 14.81726720000006,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies potential penalties under the Hindu Succession Act, 1956 and acknowledges variability in specific penalties, supported by Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The candidate answer is relevant to the question, directly addresses the potential penalties under the Hindu Succession Act, 1956, and the evidence supports the factual claims made in the answer. Therefore, all scores are at the maximum level.",
+      "input_tokens": 799,
+      "output_tokens": 140,
+      "seconds": 11.068533300000126,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

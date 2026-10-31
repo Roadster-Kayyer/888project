@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_124",
+  "doc_id": "PB_a8cd1e2cca8ee87c6824",
+  "query_type": "ICA_134",
+  "query": "Who is required to be present during my child's Singapore citizenship registration?",
+  "reference_answer": "Children age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.",
+  "corpus_query_index": 196,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nChildren age 14 years old and below need not attend the citizenship registration at ICA Services Centre. Their citizenship registration will be completed in absentia by their sponsoring parent on the appointment date. Children age 15 years and above are required to be present accompanied by the main sponsor.\n\n[Document 2]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 3]\nA child born in Singapore to legally married parents who are both Singapore citizens (or either one is a Singapore citizen) at the time of child's birth, is automatically a Singapore Citizen.\n\n[Document 4]\nYour child may apply Singapore Citizenship without the need to be a Permanent Resident.\n\n[Document 5]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.",
+  "retrieved_doc_ids": [
+    "PB_a8cd1e2cca8ee87c6824",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_18afcc43a443719b9c31",
+    "PB_bcdfbf4db75a59af04ef",
+    "PB_2e64264f3a3803434cab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c9721adada98f09d99d28643848aadeb1ff731e0062d56c5c4fff0346e59b1aa",
+  "answer": "For children 14 and under, their registration can be done in their absence with a sponsoring parent. For those 15 and older, they must be present accompanied by the main sponsor. [Document 1]",
+  "input_tokens": 455,
+  "output_tokens": 45,
+  "seconds": 5.911049700007425,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_28",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is partly correct, directly addresses the question, and provides mixed support with advice to check spam and contact for assistance, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and suggests correct steps, but lacks specific reference to the 30-minute timeframe and the seven-day period for biometrics enrollees.\",\n  \"evidence\": \"retrieved_evidence\": null\n}\n\n\nThe candidate answer is relevant as it advises checking the spam folder and contacting for assistance, which are correct steps. However, it does not fully capture the specific timeframes mentioned in the reference (30 minutes and seven working days), which is why the correctness score is not a 2. The faithfulness score is 1 because the candidate's answer is based on the general advice found in the reference, but it does not include all the",
+      "input_tokens": 501,
+      "output_tokens": 192,
+      "seconds": 13.971938800008502,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":1,\"relevance\":2,\"faithfulness\":1,\"reason\":\"Candidate answer is partly correct, directly addresses the question, and provides mixed support with advice to check spam and contact for assistance, but lacks specific evidence from the reference.\"}",
+      "input_tokens": 541,
+      "output_tokens": 60,
+      "seconds": 4.484828899992863,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

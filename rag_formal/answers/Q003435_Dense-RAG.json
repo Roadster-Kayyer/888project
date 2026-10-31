@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003435",
+  "doc_id": "1616",
+  "query_type": "hard",
+  "query": "What strategies have been put in place to foster better relationships between law enforcement and the public?",
+  "corpus_query_index": 3434,
+  "system": "Dense-RAG",
+  "reference_answer": "Police-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "context": "[Document 1]\nPolice-Public Partnership:\nThe Police-Public Partnership initiative involves:\n* Citizen police liaison committees\n* Neighborhood watch programs\n* Public participation in crime prevention and reporting\n* Joint efforts to address local crime concerns\n\n[Document 2]\nCommunity Policing Initiative:\nThe initiative, \"Community Policing,\" aims to build trust between police and public. It involves neighborhood watch groups, student police cadets, and citizen-police collaboration to prevent crime and improve public safety. For more information, contact your local police station.\n\n[Document 3]\nPolice Public Relations Wing:\nThe Police Public Relations Wing functions to build trust and transparency between the police and the public. It handles media inquiries, shares information on police activities, and promotes community outreach programs to enhance police-public relationships.\n\n[Document 4]\nPolice-Public Interface Meeting\nThe Police-Public Interface Meeting addresses community concerns by providing a platform for citizens to interact with police officers, discuss local issues, and find solutions. It fosters a sense of trust and cooperation between the police and the public.\n\n[Document 5]\nPolice-Public Relations Reforms:\nTamil Nadu Police has implemented reforms like community policing, public outreach programs, and online complaint systems to improve police-public relations. This aims to increase transparency and trust between the police and the public.",
+  "retrieved_doc_ids": [
+    "1670",
+    "993",
+    "1584",
+    "1679",
+    "1616"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "15075f5d79120710a3d5d288e42b2e6ba9af14cbe3a09bb62fc0cdae1c1b1e88",
+  "answer": "Strategies include Police-Public Partnership (citizen liaison committees, neighborhood watch), Community Policing (neighborhood watch, student cadets), Police Public Relations Wing (media engagement, transparency), Police-Public Interface Meetings (community forums), and Police-Public Relations Reforms (outreach programs, online complaints) [Document 1-5].",
+  "input_tokens": 389,
+  "output_tokens": 70,
+  "seconds": 8.621382999999696,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

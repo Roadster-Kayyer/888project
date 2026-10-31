@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007840",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question with correct information from the reference documents and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Document 2.\",\n}",
+      "input_tokens": 781,
+      "output_tokens": 57,
+      "seconds": 4.420834399999876,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question with correct information from the reference documents and is fully supported by the evidence provided.\"}\n```\n\nIn this case, the candidate answer is correct (2) as it accurately reflects the information from the reference documents regarding the fines and potential arrests for unauthorized street performers. The answer is relevant (2) because it directly addresses the question about how local authorities handle such situations. The answer is faithful (2) because it is fully supported by the evidence provided in Document 2, which states the fines and potential arrests explicitly. The reason is succinct and accurately summarizes the evaluation.",
+      "input_tokens": 821,
+      "output_tokens": 158,
+      "seconds": 12.435893699999724,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

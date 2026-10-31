@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_7",
+  "doc_id": "PB_1ae5109ccdd4da32aa0b",
+  "query_type": "medishield",
+  "query": "What is the slogan of Singapore's MediShield program that emphasizes the program's goal of enhanced coverage?",
+  "reference_answer": "Better Protection, For All, For Life.",
+  "corpus_query_index": 328,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 2]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 3]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 4]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 5]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.",
+  "retrieved_doc_ids": [
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_602681b75becd57cfb35",
+    "PB_d600f5b60cee68821fae",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_eacf65b60e2998442b5a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a01da80e9d6f6404ad3b03b96c257f7454f70bc9664890f79903c1de318468d1",
+  "answer": "The MediShield Life Scheme's slogan likely emphasizes enhancing coverage, but specific wording is not provided in the given evidence. [Document 5]",
+  "input_tokens": 362,
+  "output_tokens": 29,
+  "seconds": 3.9630074000015156,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

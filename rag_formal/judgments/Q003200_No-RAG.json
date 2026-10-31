@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003200",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the role of the Police Radio Branch in communication infrastructure and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the role of the Police Radio Branch in communication infrastructure and is supported by the reference.\",\n  \"evidence\": \"The candidate answer directly relates to the reference's description of the role of the Police Radio Branch in providing real-time connectivity and ensuring secure communication, which are key aspects of supporting communication infrastructure.\"\n}",
+      "input_tokens": 372,
+      "output_tokens": 114,
+      "seconds": 8.703876499999751,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

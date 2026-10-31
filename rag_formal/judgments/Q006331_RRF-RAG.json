@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006331",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from Documents 1 and 2.\",\n  \"evidence\": \"Documents 1 and 2 provide information on tracking missing person complaint status through the Tamil Nadu Police Department's website and the Citizen Portal using a complaint number.\"\n}",
+      "input_tokens": 704,
+      "output_tokens": 106,
+      "seconds": 8.566093699999328,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

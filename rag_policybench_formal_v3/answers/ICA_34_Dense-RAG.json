@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_34",
+  "doc_id": "PB_9b29b1a6d1890e3f7dca",
+  "query_type": "ICA_134",
+  "query": "What is SGAC or SG Arrival Card?",
+  "reference_answer": "SG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "corpus_query_index": 230,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 2]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.\n\n[Document 3]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.\n\n[Document 4]\nFor more information on the SG Arrival Card e-Service, please refer to our Frequently Asked Questions (FAQs) and video guide.You may also submit an enquiry with a screenshot of the error message (if available) for further clarification on your SGAC submission. Do indicate whether you are using the web service or MyICA Mobile App for the error encountered when submitting the SG Arrival Card application.\n\n[Document 5]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.",
+  "retrieved_doc_ids": [
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_6f67feecf50543bb14eb",
+    "PB_56ae394ef36d16f6c616",
+    "PB_60d3d79cc6579587cc62",
+    "PB_73d82fe26c9a986d734d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "46df1a982f3a45e1645151cf2ba1892811dedf1d538ef0000f3458d6912ba506",
+  "answer": "SGAC, or SG Arrival Card, is an electronic version of the paper D/E card used by all foreign visitors for immigration clearance. It's mandatory to present for entry into Singapore; those without it must submit it upon arrival. It includes details like expected arrival date and provides an acknowledgment email for entry declarations. [Document 1]",
+  "input_tokens": 537,
+  "output_tokens": 68,
+  "seconds": 8.742916999995941,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

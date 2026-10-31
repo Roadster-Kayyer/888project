@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006488",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies methods to report fake content and impersonation, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods to report fake content and impersonation, supported by evidence from documents.\",\n  \"evidence\": \"[Document 1-5]\"\n}\n\n\nThe candidate answer directly addresses the question by providing specific steps for reporting fake online content and impersonation, which aligns with the information given in the reference documents. The answer also includes advice on how to spot fake content, which is relevant to the question. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in the documents, which include instructions for reporting to the Cyber Crime Cell and using the National Cyber Crime Reporting Portal. The reason succinctly explains the scores, indicating that the answer is correct,",
+      "input_tokens": 824,
+      "output_tokens": 192,
+      "seconds": 14.808905799996865,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

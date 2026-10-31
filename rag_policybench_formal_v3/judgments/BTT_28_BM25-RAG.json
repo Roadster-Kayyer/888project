@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_28",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies ICA as the relevant authority for IDP information and directly references the correct document."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies ICA as the relevant authority for IDP information and directly references the correct document.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided, as it correctly identifies the Singapore Immigration and Checkpoints Authority (ICA) as the relevant authority for information about driving overseas and applying for an IDP in Singapore, which is directly supported by the evidence in Document 1. There are no omissions or unsupported claims in the candidate answer.",
+      "input_tokens": 618,
+      "output_tokens": 158,
+      "seconds": 12.61823110000114,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_26",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states the prohibition of pedal-cycles beyond certain signs."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states the prohibition of pedal-cycles beyond certain signs.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to an actual document that provides the evidence for the claim made in the candidate answer. Since this is a hypothetical example, the evidence is represented by a placeholder.)",
+      "input_tokens": 393,
+      "output_tokens": 138,
+      "seconds": 10.481802399997832,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

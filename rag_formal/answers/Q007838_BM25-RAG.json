@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007838",
+  "doc_id": "528",
+  "query_type": "casual",
+  "query": "So what do they usually do to people who play music on the street without permission?",
+  "corpus_query_index": 7837,
+  "system": "BM25-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 4]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "107",
+    "46",
+    "933",
+    "253",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d5c907a81aa2aeb805f5c8bb6cb6c481362e968f79dcd635d6a164e92fba8ad3",
+  "answer": "Child Welfare Police Officers handle cases related to children, not street musicians. The document doesn't address how to deal with musicians playing without permission; it covers unrelated topics like child welfare and police procedures. [Document 1]",
+  "input_tokens": 428,
+  "output_tokens": 45,
+  "seconds": 5.833805199999915,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

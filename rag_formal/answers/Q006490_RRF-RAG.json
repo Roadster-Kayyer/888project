@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006490",
+  "doc_id": "285",
+  "query_type": "hard",
+  "query": "What steps should I take if I suspect someone is trying to scam me online?",
+  "corpus_query_index": 6489,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Online Fraud:\nTo report online fraud, visit the nearest police station or:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents",
+  "context": "[Document 1]\nScam Phone Call:\nIf you receive a scam phone call, do not share personal details. Hang up and report to the nearest police station or call 100 (Tamil Nadu Police Helpline).\n\n[Document 2]\nReporting Tech Support Scams:\nTo report tech support scams, contact the Cyber Crime Police Station or the nearest police station. Provide details of the scam, including phone numbers, emails, and payment transactions. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 3]\nDealing with Unauthorized Photography:\nIf someone is taking photos without consent in public:\n* Politely ask them to stop\n* Report to nearest police station or dial 100\n* Note the perpetrator's details, if possible\n\n[Document 4]\nOnline Job Fraud:\nIf you're a victim of online job fraud, report it to the nearest police station or cybercrime cell. Provide details like transaction IDs, emails, and phone numbers used by the fraudsters. You can also file a complaint on the National Cyber Crime Reporting Portal.\n\n[Document 5]\nReporting Job Recruitment Scams:\nTo report job recruitment scams, file a complaint at the nearest police station or contact the Cyber Crime Cell. Provide details of the scam, such as emails, messages, or websites used. You can also call the Tamil Nadu Police's helpline number for guidance.",
+  "retrieved_doc_ids": [
+    "280",
+    "921",
+    "1893",
+    "147",
+    "917"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "23bf634f5ffb6f44c37487c92ff50811b2ba63cf9d41b690b399e2092a95e495",
+  "answer": "If you suspect a scam, don't share personal info. Hang up and report it [Doc. 1]. For tech support scams, provide details like phone numbers and emails [Doc. 2]. In other cases, report it to the nearest police station or cybercrime cell [Docs. 2, 4, 5]. Always document the scam and consider filing a complaint online [Docs. 2, 4].",
+  "input_tokens": 414,
+  "output_tokens": 88,
+  "seconds": 11.221540200000163,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

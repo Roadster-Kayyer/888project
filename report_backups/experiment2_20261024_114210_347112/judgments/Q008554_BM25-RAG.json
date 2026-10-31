@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008554",
+  "system": "BM25-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies legal repercussions and support services, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 879,
+      "output_tokens": 192,
+      "seconds": 14.964626400003908,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the legal repercussions of domestic abuse, is relevant to the reference, and is supported by evidence from the documents provided.\"}\n```json\n{\n  \"correctness\":2,\n  \"relevance\":2,\n  \"faithfulness\":2,\n  \"reason\":\"Candidate answer correctly and directly addresses the legal repercussions of domestic abuse, is relevant to the reference, and is supported by evidence from the documents provided.\"\n}\n```",
+      "input_tokens": 919,
+      "output_tokens": 132,
+      "seconds": 10.460755800006154,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 227)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

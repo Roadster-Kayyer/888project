@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_18",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the reference but lacks direct evidence from the provided text."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the reference but lacks direct evidence from the provided text.\",\n  \"evidence\": \"null\"\n}\n\n\nThe correctness score is 1 because the candidate answer is partly correct but does not directly address the specific purpose mentioned in the reference, which is to alert motorists to merging vehicles. The relevance score is 1 because the candidate answer is related to the topic of bus-stop separator areas but does not directly answer the question about the purpose of the red paint. Faithfulness is null because there is no evidence provided in the candidate answer that directly supports the claim about the purpose of the red paint as stated in the reference. The reason succinctly explains the scores given.",
+      "input_tokens": 355,
+      "output_tokens": 188,
+      "seconds": 14.523780299990904,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005084",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence to support the extent of legal powers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence to support the extent of legal powers.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it correctly identifies the Economic Offences Wing's role in investigating and prosecuting economic crimes. However, it fails to provide specific details about the legal powers, which is necessary to fully address the question. The correctness score is 1 because it is partly correct but omits important details about the jurisdiction. Faithfulness is marked as null because there is no substantive factual evidence provided in the answer. The reason succinctly explains the scores, noting the relevance but lack of evidence.",
+      "input_tokens": 415,
+      "output_tokens": 191,
+      "seconds": 14.630391699996835,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

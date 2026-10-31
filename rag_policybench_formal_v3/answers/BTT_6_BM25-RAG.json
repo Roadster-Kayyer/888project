@@ -1,0 +1,29 @@
+{
+  "query_id": "BTT_6",
+  "doc_id": "PB_b187f7c8ea87d0fd7e96",
+  "query_type": "BTT",
+  "query": "What action must a licence holder take to have their demerit points expunged?",
+  "reference_answer": "Maintain a 12-month period free of scheduled offences.",
+  "corpus_query_index": 51,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 2]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 3]\nYou’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.\n\n[Document 4]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 5]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.",
+  "retrieved_doc_ids": [
+    "PB_5b5856d1886897cce5a3",
+    "PB_aba31460334fd65c7b41",
+    "PB_183b9bc3c7d1d8eee2cf",
+    "PB_3300f78e0c7cee359492",
+    "PB_b136e24f78206e70b3ee"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41",
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "16e321bc450e8f65d0161c50ab47b05855be0d24edbcb273cfa3d711f2f7718d",
+  "answer": "Based on Document 1, there's no information about expunging demerit points. [Document 1]",
+  "input_tokens": 734,
+  "output_tokens": 25,
+  "seconds": 3.3162229000008665,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

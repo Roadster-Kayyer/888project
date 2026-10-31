@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002775",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies multiple selection methods and references documents supporting the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies multiple selection methods and references documents supporting the process.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4, Document 5\"\n}\n\n\nThe candidate answer directly addresses the question by mentioning various selection methods such as written examinations, physical fitness tests, interviews, and background checks, which are all supported by the evidence provided in the retrieved documents. The answer also acknowledges the use of modern methods like psychometric testing and online applications, which further demonstrates its relevance and faithfulness to the evidence. The reason succinctly explains the scores, noting the correct identification of selection methods and the use of evidence to back up the claims.",
+      "input_tokens": 815,
+      "output_tokens": 192,
+      "seconds": 15.192158300000301,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

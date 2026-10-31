@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002724",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant steps but lacks specific reference to TNUSRB and eligibility criteria."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer includes relevant steps but lacks specific reference to TNUSRB and eligibility criteria.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it outlines the general steps for applying, which are in line with the reference's instructions. However, it does not directly mention the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) or the eligibility criteria, which are crucial for a complete understanding of the application process. The faithfulness score is null because there is no substantive factual claim that can be directly supported or contradicted by the supplied evidence, which in this case is the candidate's answer itself. The reason succinctly explains the",
+      "input_tokens": 443,
+      "output_tokens": 192,
+      "seconds": 14.663298599996779,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

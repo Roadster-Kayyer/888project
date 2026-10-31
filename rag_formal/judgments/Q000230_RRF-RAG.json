@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000230",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies necessary documents for civil and labor disputes and references relevant documents, aligning with the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies necessary documents for civil and labor disputes, supported by evidence from Documents 1, 2, and 4.\",\n}",
+      "input_tokens": 812,
+      "output_tokens": 72,
+      "seconds": 5.850441700000374,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies necessary documents for civil and labor disputes and references relevant documents, aligning with the provided evidence.\"}\n**Note:** The scores are based on the assumption that the candidate's answer directly addresses the question and is supported by the evidence provided in the reference. The reason given is a summary of the assessment. In a real-world scenario, the faithfulness score might be null if the candidate's answer lacked specific factual claims or if the evidence directly supporting those claims was not provided. However, in this case, the candidate's answer is supported by Documents 1, 2, and 4, which are directly relevant to the types of disputes mentioned in the question.",
+      "input_tokens": 852,
+      "output_tokens": 173,
+      "seconds": 13.332468600001448,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_38",
+  "doc_id": "PB_27712997c102a67af07c",
+  "query_type": "ICA_134",
+  "query": "When will I receive the In-Principle Approval letter If my application is approved?",
+  "reference_answer": "You will receive a notification to download the outcome letter with relevant instructions at ICA e-Service when your application status is 'In-Principle Approval'.",
+  "corpus_query_index": 234,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou will receive a notification to download the outcome letter with relevant instructions at ICA e-Service when your application status is 'In-Principle Approval'.\n\n[Document 2]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 3]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 4]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 5]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.",
+  "retrieved_doc_ids": [
+    "PB_27712997c102a67af07c",
+    "PB_281c77b1cca45bc9951f",
+    "PB_70e279a2efefc3723a97",
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_c6456fad7242c379cac1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9936d423d57f67b90d0004c586c31fb28be930dacbe2e8840513c8cc7a7da393",
+  "answer": "You will receive a notification to download the In-Principle Approval (IPA) letter with instructions at ICA e-Service when your application status is 'In-Principle Approval'. However, the actual letter is issued upon approval and you need to visit ICA Services Centre in person to collect it. [Document 1] [Document 2]",
+  "input_tokens": 574,
+  "output_tokens": 72,
+  "seconds": 9.313557499990566,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

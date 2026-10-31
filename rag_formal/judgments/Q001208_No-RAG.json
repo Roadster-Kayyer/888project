@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001208",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific contact details and methods for anonymous reporting."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but omits specific contact details and methods for anonymous reporting.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it advises contacting the authorities to report illegal mining, which aligns with the reference's suggestion to report to the Forest Department. However, it lacks the specific contact information and the option for anonymous reporting provided in the reference, hence the correctness score is 1. Faithfulness cannot be assessed due to the absence of evidence in the candidate's answer.",
+      "input_tokens": 431,
+      "output_tokens": 154,
+      "seconds": 11.87708599999678,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

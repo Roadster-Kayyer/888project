@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_101",
+  "doc_id": "PB_b9d3a3139729c4387e2a",
+  "query_type": "CPF_111",
+  "query": "How much MediSave contribution do I have to make to qualify for Workfare Income Supplement (WIS)?",
+  "reference_answer": "If your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44 years$27045 to 49 years$30050 years and above$315* Note: SEPs earning less than $6,000 will also have to meet the eligibility criteria for concessionary WIS. Please refer to the concessionaryWIS eligibility criteriafor more details.",
+  "corpus_query_index": 59,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44\n\n[Document 2]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 3]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 4]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 5]\nTo receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.",
+  "retrieved_doc_ids": [
+    "PB_b9d3a3139729c4387e2a",
+    "PB_af1247343974a8960a93",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_dc08990660488c2ed4e8",
+    "PB_a21e1d4d27c9faa2c51a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8dc3230c73d131c4aa79be85a168b9eb1e2da5f3d175e61d3ddbfda484e69b9e",
+  "answer": "To qualify for Workfare Income Supplement (WIS), you need to make MediSave contributions based on your Net Trade Income (NTI) earned in the Work Year. For NTI over $6,000, the contribution is $240 for those aged 30-34 years and $240 for 35-44 years old. [Document 1]",
+  "input_tokens": 647,
+  "output_tokens": 83,
+  "seconds": 10.86685980000766,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

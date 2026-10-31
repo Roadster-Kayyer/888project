@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001210",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves, supported by evidence from Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 851,
+      "output_tokens": 76,
+      "seconds": 6.127121699999407,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves, supported by evidence from Document 1 and Document 5.\"}",
+      "input_tokens": 891,
+      "output_tokens": 63,
+      "seconds": 5.27614149999863,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

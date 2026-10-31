@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001423",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies actions to take when feeling followed in the woods and includes relevant contact information for assistance, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies actions to take when feeling followed in the woods and includes relevant contact information for assistance, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer directly addresses the question by suggesting actions to take when feeling followed in the woods, which is relevant to the context of being naughty in the woods. The answer includes the correct contact information for the police and women's helpline, which is directly supported by the evidence provided in Document 1. The scores for correctness, relevance, and faithfulness are all 2, indicating that the candidate's answer is correct, directly addresses the question, and is fully supported by the evidence. The reason succinct",
+      "input_tokens": 786,
+      "output_tokens": 192,
+      "seconds": 14.674704699998983,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_91",
+  "doc_id": "PB_7056bc0f8ffd2e5c1abc",
+  "query_type": "CPF_111",
+  "query": "If I am 55 and would like to make a CPF transfer, in what order will my savings be transferred?",
+  "reference_answer": "CPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.",
+  "corpus_query_index": 158,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 2]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 3]\nThe CPF system is meant to provide for and safeguard your individual retirement adequacy. Hence we must be careful when considering allowing CPF transfers to extended family members, beyond immediate family members such as your parents, spouse and siblings. Meanwhile, you can consider using cash to top up to your extended family member's CPF account instead.\n\n[Document 4]\nWhen you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.\n\n[Document 5]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.",
+  "retrieved_doc_ids": [
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_5970b9dd48a067a0363d",
+    "PB_56c2efe6aef990703447",
+    "PB_32f2b09e4d17d1cf6a68",
+    "PB_f5589d8ccc2a35f727e9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "637ccd67a573bdfb77f10aa8549e89c8bb039cd74549e394c44526d405826f59",
+  "answer": "For someone 55+: Savings will be transferred to RA in this order: Special Account (SA), then Ordinary Account (OA). [Document 1]",
+  "input_tokens": 628,
+  "output_tokens": 33,
+  "seconds": 4.251054000007571,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

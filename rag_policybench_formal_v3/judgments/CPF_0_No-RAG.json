@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_0",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"retrieved_evidence\": \"The reference states that no further action is required if registered for PayNow-NRIC, and updates can be made via Singpass if needed.\"\n}",
+      "input_tokens": 717,
+      "output_tokens": 94,
+      "seconds": 7.406134799995925,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

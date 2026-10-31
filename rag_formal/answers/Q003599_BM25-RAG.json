@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003599",
+  "doc_id": "1646",
+  "query_type": "search",
+  "query": "Can you tell me about the updates that improved the way complaints are submitted?",
+  "corpus_query_index": 3598,
+  "system": "BM25-RAG",
+  "reference_answer": "Tamil Nadu Police Improvements\n\n1. Data Analysis for Predictive Policing: Tamil Nadu Police has improved data analysis by implementing a Crime and Criminal Tracking Network System (CCTNS), which helps in collecting, storing, and analyzing crime data to predict and prevent crimes.\n\n2. Complaints Filing Process: Reforms include introducing online complaint filing systems, such as the \"Citizen Portal\" and \"Lost and Found\" portals, to streamline the process and reduce paperwork.\n\n3. Dealing with Drug Offenses: Tamil Nadu Police has modernized its approach by setting up specialized narcotics cells, increasing awareness programs, and collaborating with other agencies to tackle drug trafficking and abuse effectively.",
+  "context": "[Document 1]\nDelayed Police Verification:\nIf your police verification is delayed, contact the concerned police station where you applied. Provide your application reference number and ask about the status. You can also visit the Tamil Nadu Police website for updates on the verification process.\n\n[Document 2]\nLie Detector Tests:\nTo apply for a lie detector test, you need to file a petition in court, stating the reasons for the request. The court will decide whether to grant permission for the test. The test is conducted by a authorized agency, and the results are submitted to the court. Note: Lie detector tests are not always admissible as evidence in court.\n\n[Document 3]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 4]\nE-Way Bill Registration in Tamil Nadu:\nTo register for the e-way bill system, visit the official GST portal (gst.gov.in) and log in to your account. Click on \"Registration\" and then \"E-way Bill Registration\". Fill out the application form, upload required documents, and submit. You will receive a unique enrollment number after successful registration.\n\n[Document 5]\nCase Status Updates:\nTo get case status updates, visit the Tamil Nadu Police website or contact the police station where the case was filed. You can also use the 'Citizen Portal' or mobile app to track the status of your case using the complaint number or FIR number.",
+  "retrieved_doc_ids": [
+    "219",
+    "792",
+    "57",
+    "1310",
+    "773"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "52fd24a94f479e5cfb912d0a08b40bcd5e7c6377a30decca9f04b27d458f4328",
+  "answer": "Updates include improved case status tracking through websites or apps [Document 5], and registration for the e-way bill system via the official GST portal [Document 4]. Complaints can now be tracked using FIR numbers or complaint numbers. Delayed police verifications can be checked at police stations or the Tamil Nadu Police website [Document 1]. Lie detector test applications require filing a petition in court [Document 2].",
+  "input_tokens": 429,
+  "output_tokens": 84,
+  "seconds": 10.741255200000523,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005402",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific agency details and process steps."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer is relevant but omits specific agency details and process steps.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it addresses the legal process for adopting a child in Tamil Nadu, but it lacks specificity regarding the role of the District Child Protection Unit (DCPU) and the detailed steps involved in the process, which are crucial for a complete understanding. The faithfulness score is 0 because the candidate's answer does not directly support the reference's detailed process involving an agency, home study, counseling, and court proceedings. There is no evidence provided in the candidate's answer to substantiate the claims made.",
+      "input_tokens": 413,
+      "output_tokens": 189,
+      "seconds": 14.572218000001158,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

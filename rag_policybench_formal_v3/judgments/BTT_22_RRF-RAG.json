@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_22",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No evidence provided about background and border colors for non-expressway road signs."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No evidence provided about background and border colors for non-expressway road signs.\",\n  \"candidate_answer\": \"[Missing]\"\n}",
+      "input_tokens": 778,
+      "output_tokens": 68,
+      "seconds": 5.373623699997552,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_0",
+  "doc_id": "PB_ee4845fffddb5f8c7d77",
+  "query_type": "ICA_134",
+  "query": "If a traveller plans to visit Malaysia with three companions but has initially generated a group QR code for a total of five people, what should he/she do when only four people are going for the trip?",
+  "reference_answer": "It is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).",
+  "corpus_query_index": 167,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 4]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 5]\nUnder the Singapore Constitution, minors who are Singapore Citizens by descent or registration must take the Oath of Renunciation, Allegiance and Loyalty (ORAL) upon attaining 21 years of age and before attaining 22 years of age. Minor is required to take the ORAL on or after 21st birthday date and no later than 22nd birthday.Once the minor has completed his/her oath taking formalities, he/she may apply for Singapore passport. Nonetheless, should the minor require to extend the validity of his/her Singapore Passport before taking the Oath, and in need to travel, he/she may apply for a new passport with a validity one day before his/her 22nd birthday. The passport can only be extended to its full 10-year after the minor has taken the ORAL.You may contact us via the enquiry form if you require further clarifications on passport renewal.",
+  "retrieved_doc_ids": [
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_33b32af818c8c4223f8f",
+    "PB_09222d548a5f63af648a",
+    "PB_bf4db8945d407eacbe6a",
+    "PB_9f4c61a84436b24e8a5d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bef5e9841d71184c06f4a594de93351267ecc36147ef328dbedd7a5fb224b339",
+  "answer": "The traveller should create a separate QR code for the four people traveling. They can keep the original group QR code for the five people, or delete the fifth person’s profile from the original code. [Document 1]",
+  "input_tokens": 747,
+  "output_tokens": 45,
+  "seconds": 6.2539490000053775,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005083",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate correctly states EOW's investigative powers and limitations, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly states EOW's investigative powers and limitations, supported by Document 1.\",\n  \"evidence\": \"Document 1, Document 5\"\n}\n\n\nThe candidate's answer is correct in stating that the Economic Offences Wing (EOW) in Tamil Nadu has investigative powers for economic crimes and does not handle major power outages or police recruitment. This is directly supported by the evidence provided in Document 1, which outlines the jurisdiction of the EOW, and Document 5, which explains how the Tamil Nadu Police handles corporate fraud cases through the EOW. The answer is relevant as it directly addresses the question about the EOW's powers.",
+      "input_tokens": 745,
+      "output_tokens": 192,
+      "seconds": 14.721469899999647,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

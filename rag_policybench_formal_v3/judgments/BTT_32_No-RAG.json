@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_32",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies a fine as a penalty but lacks specific evidence from the untrusted data."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly identifies a fine as a penalty but lacks specific evidence from the untrusted data.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is deemed correct (2) as it directly addresses the question about the penalty for speeding, which is typically a fine. The relevance score is also 2 because the answer directly addresses the question. However, the faithfulness score is 1 because the answer, while correct, does not cite the specific evidence from the untrusted data, which is required for a higher score. The reason succinctly explains the scores, noting the correctness and relevance but the lack of evidence for full faithfulness. The evidence key is set",
+      "input_tokens": 367,
+      "output_tokens": 192,
+      "seconds": 14.297363399993628,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

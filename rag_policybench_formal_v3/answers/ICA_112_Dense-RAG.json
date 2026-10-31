@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_112",
+  "doc_id": "PB_558188a8bd115503280d",
+  "query_type": "ICA_134",
+  "query": "I have booked an appointment to collect my passport. Can I change my existing appointment?",
+  "reference_answer": "You may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.",
+  "corpus_query_index": 183,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 2]\nSeparate appointments will need to be made to collect the different documents.Note: Eligible applicants who have re-registered for an identity card when they apply for a passport can collect both passport and identity card in a single appointment.\n\n[Document 3]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 4]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 5]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.",
+  "retrieved_doc_ids": [
+    "PB_bae89a527e0df10a772e",
+    "PB_8b8122292438794b78bb",
+    "PB_558188a8bd115503280d",
+    "PB_6a37eec904475577f862",
+    "PB_9a542ab9b413f1095ed3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "392ec35af6f30e8a04b8cdcc1c2f9e9ff5c957639720c15513be185517a8f3fc",
+  "answer": "Yes, you can change your existing appointment. Log in to ICA e-Service to change your existing appointment at least 3 working days before the date. [Document 3]",
+  "input_tokens": 473,
+  "output_tokens": 38,
+  "seconds": 5.046153999996022,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

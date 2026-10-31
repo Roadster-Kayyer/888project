@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008908",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate answer partially addresses the question by mentioning double jeopardy but lacks direct relevance to the specific act of registering the same property."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer partially addresses the question by mentioning double jeopardy but lacks direct relevance to the specific act of registering the same property.\",\n  \"evidence\": \"[Document 2] - Double jeopardy; [Document 3] - Reporting a missing person; [Document 4] - Obtaining FIR; [Document 5] - Bail processing time\"\n}",
+      "input_tokens": 763,
+      "output_tokens": 126,
+      "seconds": 9.916074799999478,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

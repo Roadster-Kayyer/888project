@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001549",
+  "doc_id": "1277",
+  "query_type": "search",
+  "query": "What's the procedure to request funding for expanding roads with the Tamil Nadu PWD?",
+  "corpus_query_index": 1548,
+  "system": "BM25-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nPermission for Laying Utility Lines:\nTo obtain permission for laying utility lines along PWD roads, apply to the concerned PWD Division Office with required documents, such as a detailed project report and NOC from local authorities. Pay the prescribed fees and follow the guidelines set by the Tamil Nadu PWD.\n\n[Document 2]\nApplying for Road Safety Measures from PWD:\nTo apply for road safety measures, submit a request to the Tamil Nadu PWD through their website or visit the nearest PWD office. Provide details of the location and proposed safety measures. The PWD will review and process your request.\n\n[Document 3]\nReporting Road Damage:\nTo report road damage, contact the PWD helpline or visit the nearest PWD office. You can also submit a complaint through the Tamil Nadu Government's online grievance portal or use the PWD's mobile app to report the issue.\n\n[Document 4]\nReporting Traffic Signal Issues to PWD:\nTo report traffic signal issues, contact the Tamil Nadu Public Works Department (PWD) through their helpline or website. You can also submit a complaint at the nearest PWD office or through the Tamil Nadu Government's online complaint portal.\n\n[Document 5]\nReporting Encroachment on PWD Land:\nTo report encroachment, contact your local PWD office or the Tamil Nadu PWD helpline. Provide details of the location and nature of the encroachment. You can also submit a complaint online through the Tamil Nadu Government's grievance portal.",
+  "retrieved_doc_ids": [
+    "1287",
+    "1289",
+    "1268",
+    "1288",
+    "1276"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "90652221a756a56230825e31c233889adbaf8970bdc13f1b33e02f01be2e73f9",
+  "answer": "According to Document 1, to request funding for expanding roads, apply to the Tamil Nadu PWD Division Office with a detailed project report and local authority NOC. Follow guidelines and pay prescribed fees. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 46,
+  "seconds": 5.915196600000854,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

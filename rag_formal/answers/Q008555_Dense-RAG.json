@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008555",
+  "doc_id": "657",
+  "query_type": "hard",
+  "query": "What criminal charges result from assaulting a family member?",
+  "corpus_query_index": 8554,
+  "system": "Dense-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nAssault Definition:\nUnder Tamil Nadu law, assault is defined as an offer or threat to apply force to the body of another person in a hostile manner, causing fear of imminent harm.\n\n[Document 2]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.\n\n[Document 3]\nAssault Leading to Permanent Disability:\nAssault leading to permanent disability can lead to imprisonment of up to 10 years and a fine under the IPC, Section 325 and 326.\n\n[Document 4]\nAssault on Elderly Persons:\nAssaulting elderly persons (above 60 years) is punishable under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007. The punishment can include imprisonment up to 3 years and a fine up to ₹5,000, depending on the severity of the offense.\n\n[Document 5]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.",
+  "retrieved_doc_ids": [
+    "643",
+    "645",
+    "687",
+    "654",
+    "679"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "526615609aad2d0e4f1b019dffc243023030635fea6924673a2bb5846bec394d",
+  "answer": "Criminal charges for assaulting a family member vary but typically include:\n- Under Tamil Nadu law, up to 1 year in prison or a fine for minor injuries.\n- Up to 10 years in prison and a fine for permanent disability.\n- Under the Maintenance and Welfare Act, up to 3 years in prison and a fine for assaulting elderly persons.\n- Under the IPC, up to 3 years in prison and a fine for assault during labor disputes. [Document 1-5]",
+  "input_tokens": 381,
+  "output_tokens": 101,
+  "seconds": 12.647231900002225,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

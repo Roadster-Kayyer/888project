@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_127",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question and provides relevant information, but lacks direct evidence from the reference. Faithfulness is mixed as it implies a process without direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and provides relevant information, but lacks direct evidence from the reference. Faithfulness is mixed as it implies a process without direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the given scenario, the candidate answer is relevant as it discusses the potential loss of citizenship and the need for a long-term pass, which is directly related to the reference. However, the answer does not directly quote or paraphrase the specific articles from the Singapore Constitution, which is necessary for full correctness. The faithfulness score is not 2 because the candidate does not directly cite the evidence from the reference, which is required to fully support the factual claims made.",
+      "input_tokens": 453,
+      "output_tokens": 192,
+      "seconds": 14.173696400001063,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

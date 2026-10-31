@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_6",
+  "doc_id": "PB_80e973f5b5e509f178b3",
+  "query_type": "medishield",
+  "query": "What percentage of the incurred bill is used to compute the MediShield Life claim for daily ward and treatment charges?",
+  "reference_answer": "27%",
+  "corpus_query_index": 327,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 3]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 4]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 5]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_fd10bc60905030393bfb",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_ee588d3fa5445377e2bc",
+    "PB_1dca0c51ba1dc68b6aca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ace37c6be7b6b43678e1ed5c9d551d1bc25109ca6ae797a84130c0461799fadf",
+  "answer": "Based on Document 4, the co-insurance for daily ward and treatment charges starts at 10% after the $2,000 deductible. However, the exact percentage used to compute the MediShield Life claim for daily charges isn't specified in the given documents. [Document 3] mentions a $1,000 claimable amount but no specific co-insurance rate.",
+  "input_tokens": 346,
+  "output_tokens": 81,
+  "seconds": 10.53671219998796,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

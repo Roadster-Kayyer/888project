@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007396",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately lists available support services and includes evidence from Documents 1 and 2, directly addressing the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately lists available support services and includes evidence from Documents 1 and 2, directly addressing the question.\"\n}",
+      "input_tokens": 906,
+      "output_tokens": 68,
+      "seconds": 5.572325599998294,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

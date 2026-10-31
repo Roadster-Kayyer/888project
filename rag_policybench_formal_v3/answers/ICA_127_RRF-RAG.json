@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_127",
+  "doc_id": "PB_19512072066023768385",
+  "query_type": "ICA_134",
+  "query": "Will I lose my Singapore citizenship if I live overseas?",
+  "reference_answer": "Under Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.",
+  "corpus_query_index": 199,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 2]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.\n\n[Document 3]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 4]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 5]\nYou will be required to attend the citizenship ceremony to collect your original Singapore citizenship certificate. More details of the citizenship ceremony would be sent to you via email once the details are finalised.",
+  "retrieved_doc_ids": [
+    "PB_89ea36a5df1396fbeefe",
+    "PB_22431a3a1e46e2ace7dd",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_19512072066023768385",
+    "PB_46ec4c9c421699906017"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2be33a6c2b736a66589938ce3bfafa86fb98863dc46047adf8e459ada90ec258",
+  "answer": "If you live overseas without a valid Re-Entry Permit (REP), you will lose your Singapore Permanent Resident (PR) status. However, you can still maintain your Singapore citizenship if you have a valid Singapore passport and have not been away for over 10 years continuously. [Document 1] & [Document 2]",
+  "input_tokens": 466,
+  "output_tokens": 67,
+  "seconds": 8.676963700010674,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

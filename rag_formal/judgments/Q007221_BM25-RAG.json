@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007221",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing specific steps and options for complaint."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing specific steps and options for complaint.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question and covers the main points from the reference documents. The answer is relevant (2) because it directly answers the question about how to complain against a DRDA officer. The faithfulness score is also 2, as the candidate's answer is fully supported by the evidence provided in Document 1. The reason succinctly explains the scores, indicating that the candidate's answer is accurate, directly relevant, and faithful to the evidence. The evidence is explicitly cited, rein",
+      "input_tokens": 769,
+      "output_tokens": 192,
+      "seconds": 14.922150300000794,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

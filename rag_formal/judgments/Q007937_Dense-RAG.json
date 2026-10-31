@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007937",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies fines for threatening text messages under Section 506 of the IPC and the IT Act, and mentions stiffer penalties for cyber intimidation, all supported by the retrieved documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies fines for threatening text messages and phone calls, and references the relevant IPC sections and IT Act, aligning with the evidence provided. It also correctly states the range of penalties for cyber intimidation and verbal harassment, consistent with the documents.\n}",
+      "input_tokens": 762,
+      "output_tokens": 192,
+      "seconds": 15.042377300000226,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies fines for threatening text messages under Section 506 of the IPC and the IT Act, and mentions stiffer penalties for cyber intimidation, all supported by the retrieved documents.\"}\n\nIn this case, the candidate answer is correct (2) as it accurately reflects the information from the documents regarding fines for threatening text messages and cyber intimidation. The answer is relevant (2) because it directly addresses the circumstances under which one can be fined for sending intimidating text communications, as per the provided reference. The answer is faithful (2) because it contains substantive factual claims that are directly supported by the evidence in the documents. The reason is succinct and accurately summarizes the evaluation.",
+      "input_tokens": 802,
+      "output_tokens": 190,
+      "seconds": 14.895337999994808,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

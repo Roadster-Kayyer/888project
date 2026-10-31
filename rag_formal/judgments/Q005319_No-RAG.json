@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005319",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence and procedural details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence and procedural details.\",\n  \"evidence\": null\n}\n\n\nIn the candidate answer, the steps to dispute a false police complaint are mentioned but without the specific evidence or reference to the legal procedure such as Section 482 CrPC, which is crucial for a complete response. The absence of evidence and reference to the legal framework in the answer results in a lack of faithfulness to the reference provided.",
+      "input_tokens": 438,
+      "output_tokens": 138,
+      "seconds": 10.9314383000019,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

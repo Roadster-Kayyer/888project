@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007359",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the procedure for lodging a complaint against a government college instructor or administrator and accurately references the Vigilance and Anti-Corruption Department as a complaint filing option, as stated in the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for lodging a complaint, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\nComplaint against a Government College Professor or Principal:\\nTo complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.\"\n}",
+      "input_tokens": 788,
+      "output_tokens": 131,
+      "seconds": 10.376137200000812,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the procedure for lodging a complaint against a government college instructor or administrator and accurately references the Vigilance and Anti-Corruption Department as a complaint filing option, as stated in the retrieved evidence.\"}\n\nIn the provided candidate answer, the following points are covered:\n\n- Correctness: The answer correctly outlines the procedure for lodging a complaint against a government college instructor or administrator, which includes contacting the college administration or the Director of Collegiate Education, Tamil Nadu, and filing a complaint with the Vigilance and Anti-Corruption Department.\n- Relevance: The answer directly addresses the question by providing the necessary steps for lodging a complaint against a government college instructor or administrator.\n- Faith",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 14.795599599994603,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

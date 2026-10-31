@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_40",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies required documents (employment contract/pay slips and translations) and aligns with evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies required documents (employment contract/pay slips and translations) and aligns with evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1] & [Document 2]\"\n}",
+      "input_tokens": 1090,
+      "output_tokens": 98,
+      "seconds": 7.724843799995142,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

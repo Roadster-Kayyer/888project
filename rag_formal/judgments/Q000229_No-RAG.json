@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000229",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer omits key documents listed in the reference and lacks evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer omits key documents listed in the reference and lacks evidence.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 394,
+      "output_tokens": 66,
+      "seconds": 5.264626200001658,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

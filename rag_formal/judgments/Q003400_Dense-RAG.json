@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003400",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately lists all required documents and includes relevant procedures for obtaining additional permits."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately lists all required documents for driving in Tamil Nadu and aligns with the evidence provided in the documents.\n}",
+      "input_tokens": 898,
+      "output_tokens": 192,
+      "seconds": 14.98470610000004,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately lists all required documents and includes relevant procedures for obtaining additional permits.\"}\n\nExplanation:\n- Correctness: The candidate answer correctly identifies all the documents required to drive in Tamil Nadu (valid driving license, vehicle registration certificate, insurance certificate, pollution under control certificate, and vehicle fitness certificate).\n- Relevance: The answer directly addresses the question by listing the necessary credentials and briefly mentioning the process for obtaining additional permits, which is relevant to the context of driving in Tamil Nadu.\n- Faithfulness: The candidate answer is fully supported by the evidence provided in the documents, as it accurately reflects the information given about the required documents and procedures.\n\nReason: The candidate's answer is comprehensive, accurate",
+      "input_tokens": 938,
+      "output_tokens": 192,
+      "seconds": 15.075858200001676,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

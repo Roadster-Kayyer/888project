@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000241",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for filing a case in a criminal court, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for filing a case in a criminal court, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - \"Filing a Case in a Criminal Court:\\nTo file a case in a criminal court, you must:\\n1. File a complaint with the police.\\n2. The police will investigate and file a chargesheet.\\n3. The court will then take up the case.\"\n}",
+      "input_tokens": 776,
+      "output_tokens": 140,
+      "seconds": 10.855861800002458,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the steps for filing a case in a criminal court, supported by evidence from Document 1.\"}",
+      "input_tokens": 816,
+      "output_tokens": 52,
+      "seconds": 4.275652100001025,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_48",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states REP cannot be extended and aligns with Document 2 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states REP cannot be extended and aligns with Document 2 and 3.\",\n  \"evidence\": \"[Document 2, Document 3]\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in the documents. The answer correctly interprets the information from Document 2, which states that the REP does not offer extensions beyond its initial term, and Document 3, which outlines the renewal process. The answer is relevant as it directly responds to the query about the possibility of extending the REP duration. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence from the documents, specifically Document 2 and",
+      "input_tokens": 845,
+      "output_tokens": 192,
+      "seconds": 14.865933699999005,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_62",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process using evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process using evidence from Documents 1 and 4.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the question by outlining the necessary steps to check a newborn's citizenship status, which are in line with the information provided in Document 1 and Document 4. The answer is relevant (2) because it directly pertains to the question about checking citizenship status, and it is faithful (2) because it accurately reflects the procedures described in the provided documents without any contradictions. The reason succinctly explains the scores, noting that the candidate answer correctly uses the",
+      "input_tokens": 680,
+      "output_tokens": 192,
+      "seconds": 14.244133599990164,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004609",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct time frame and method for appealing a traffic fine in Tamil Nadu, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing the correct time frame and method for appealing a traffic fine in Tamil Nadu, supported by evidence from Document 2.\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully supported by the evidence provided in Document 2. The answer includes the necessary steps and the specified time frame for filing an appeal, which aligns with the information in the reference. There are no omissions or unsupported claims in the candidate's response. The reason succinctly explains the scores, indicating that the answer is accurate and complete based on the evidence.",
+      "input_tokens": 851,
+      "output_tokens": 169,
+      "seconds": 12.971171900000627,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

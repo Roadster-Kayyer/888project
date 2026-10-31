@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_38",
+  "doc_id": "PB_c41b88860662185c50b1",
+  "query_type": "BTT",
+  "query": "What does a yellow color on Travel Time Display signboards indicate?",
+  "reference_answer": "Yellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+  "corpus_query_index": 32,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.\n\n[Document 2]\nThree yellow reflective markings.\n\n[Document 3]\nThe processing time for a passport is around 1 to 2 weeks. The processing time will be longer if your photograph does not meet the standard requirements.If you do not hear from us after 2 weeks from the date of application, you may contact us via the enquiry form for assistance.\n\n[Document 4]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.\n\n[Document 5]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.",
+  "retrieved_doc_ids": [
+    "PB_c41b88860662185c50b1",
+    "PB_f93c36f8738a815fe887",
+    "PB_ac14b71f364c9fc1e15b",
+    "PB_ebd58cc24fe004fbabd6",
+    "PB_e2328e4bd80a947d76a0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "61aa8e7debaca1866f7c4ee7ab12962f94540ebd95b8cf8de18ab34f518de1bd",
+  "answer": "A yellow color on Travel Time Display signboards indicates the travel time is between 50% to 125% more than normal travel time. [Document 1]",
+  "input_tokens": 490,
+  "output_tokens": 37,
+  "seconds": 683.9172805999988,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

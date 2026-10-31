@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007118",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question by suggesting ways to identify suspicious behavior but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"The answer partially addresses the question by suggesting ways to identify suspicious behavior but lacks direct evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe correctness score is 1 because the candidate answer is partly correct in suggesting that one should look for inconsistencies in behavior to identify bribery, which is relevant to the question. However, it does not directly address the specific action to take when encountering such behavior, which is to report it to the appropriate authorities as per the reference. The relevance score is 1 because the answer is relevant to the question as it pertains to identifying and responding to potential bribery, but it does not fully cover the main reference facts about",
+      "input_tokens": 446,
+      "output_tokens": 192,
+      "seconds": 14.274657300004037,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

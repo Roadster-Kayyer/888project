@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009701",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Pink Police Patrol and provides accurate contact information, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the Pink Police Patrol and provides correct contact details, supported by Document 1.\",\n}",
+      "input_tokens": 1118,
+      "output_tokens": 64,
+      "seconds": 5.242397499998333,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Pink Police Patrol and provides accurate contact information, supported by Document 1.\"}",
+      "input_tokens": 1158,
+      "output_tokens": 48,
+      "seconds": 3.9411621000035666,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

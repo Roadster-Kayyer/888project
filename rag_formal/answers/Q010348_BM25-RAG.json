@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010348",
+  "doc_id": "980",
+  "query_type": "casual",
+  "query": "So how do I tell on cars used by my boss?",
+  "corpus_query_index": 10347,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 4]\nEthical Framework for Police Intelligence Gathering:\nThe Tamil Nadu Police follows a framework based on the Indian Constitution and laws. Intelligence gathering is guided by principles of necessity, proportionality, and respect for human rights. Police must ensure that methods used are lawful and do not infringe on individual rights.\n\n[Document 5]\nDNA Sample Rights:\nCitizens have the right to know why their DNA sample is being collected and how it will be used. They must provide informed consent before giving a sample. The sample will be stored securely and used only for the purpose stated.",
+  "retrieved_doc_ids": [
+    "255",
+    "849",
+    "799",
+    "1453",
+    "1451"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e77540581c254fdb978ab4e71d6b402796c432ea924b54adacd836ecb4110775",
+  "answer": "To determine if a car used by your boss is missing, go to the nearest police station and file a First Information Report (FIR). [Document 1] For their arrest status, visit the local police station or check their website. [Document 2] To get a copy of your FIR, contact the police station or use the Tamil Nadu Police Department's website. [Document 1, Document 2]",
+  "input_tokens": 427,
+  "output_tokens": 85,
+  "seconds": 15.840356900000188,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

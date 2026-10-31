@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006232",
+  "doc_id": "239",
+  "query_type": "formal",
+  "query": "In what capacity does the Social Justice and Human Rights Wing operate?",
+  "corpus_query_index": 6231,
+  "system": "BM25-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 3]\nApproaching Human Rights Court:\nTo approach the Human Rights Court in Tamil Nadu, follow these steps:\n1. File a complaint with the Tamil Nadu State Human Rights Commission (TNSHRC).\n2. Provide details of the alleged human rights violation.\n3. Submit supporting documents and evidence.\n4. The TNSHRC will investigate and take necessary action.\n\n[Document 4]\nJuvenile Justice Boards:\nJuvenile Justice Boards (JJBs) are courts that deal with juvenile offenders. They function to provide care, protection, and rehabilitation to children in conflict with the law. JJBs consist of a magistrate and two social workers, ensuring a child-friendly approach to justice.\n\n[Document 5]\nEthical Considerations in Using Force:\nThe Tamil Nadu Police follows the guidelines set by the Indian Police Act and the National Human Rights Commission. Police personnel are trained to use minimal force necessary to effect an arrest, respecting the human rights and dignity of the individual.",
+  "retrieved_doc_ids": [
+    "239",
+    "2029",
+    "1171",
+    "118",
+    "1417"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "689911dd1b2ea2a05d4657c20612ade4fceeaf5eab16ca9af88fa62722fed1ab",
+  "answer": "The Social Justice and Human Rights Wing operates by promoting and protecting human rights, investigating violations, and implementing social justice initiatives. [Document 1]",
+  "input_tokens": 416,
+  "output_tokens": 30,
+  "seconds": 3.9720904999994673,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

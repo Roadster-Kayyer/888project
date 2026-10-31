@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_82",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets Document 1 and is supported by the evidence provided, accurately addressing the question about PR status post-divorce.\",\n}",
+      "input_tokens": 947,
+      "output_tokens": 73,
+      "seconds": 5.844477799997549,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question and is supported by Document 1.\"}",
+      "input_tokens": 987,
+      "output_tokens": 36,
+      "seconds": 3.133274399995571,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

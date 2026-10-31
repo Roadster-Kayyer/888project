@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007484",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, accurately reflects the evidence from the documents, and maintains the confidentiality of survivors as described."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, accurately reflects the evidence from the documents, and maintains the confidentiality of survivors as described.\",\n  \"evidence\": \"[Document 1], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 954,
+      "output_tokens": 192,
+      "seconds": 14.910337600000275,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

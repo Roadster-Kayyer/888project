@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001343",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the NDPS Act's purpose and its role in preventing drug-related offenses and corruption, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the NDPS Act's purpose and includes relevant examples, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\n}",
+      "input_tokens": 802,
+      "output_tokens": 192,
+      "seconds": 14.777968799997325,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the NDPS Act's purpose and its role in preventing drug-related offenses and corruption, supported by evidence from Document 1.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer includes specific information about what the NDPS Act covers (drug abuse, trafficking, and possession) and how it is enforced (handling cannabis cultivation cases), which is directly supported by the evidence provided in Document 1. There are no unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 842,
+      "output_tokens": 155,
+      "seconds": 11.948792399998638,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

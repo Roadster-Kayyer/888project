@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_22",
+  "doc_id": "PB_9407386fab4b4f1d13c5",
+  "query_type": "BTT",
+  "query": "What type of background and border colors are used for directional signs that provide information on non-expressway roads?",
+  "reference_answer": "Green backgrounds with white borders.",
+  "corpus_query_index": 15,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nGreen backgrounds with white borders.\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 4]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 5]\nThree yellow reflective markings.",
+  "retrieved_doc_ids": [
+    "PB_9407386fab4b4f1d13c5",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_4479f84c1b73422f7e24",
+    "PB_716429660f2efd24efb8",
+    "PB_f93c36f8738a815fe887"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "22415e4942877e9cf6f507519d3e66fb434f7e10e41c1e759b0a0e50815ec4b2",
+  "answer": "Based on Document 1, green backgrounds with white borders are used for directional signs indicating non-expressway roads. [Document 1]",
+  "input_tokens": 259,
+  "output_tokens": 29,
+  "seconds": 4.843826199998148,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

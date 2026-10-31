@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002318",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 4.\",\n  \"evidence\": \"Documents 1 and 4 provide information on the probation period, specialized courses, and the process for applying for bail, which are all aspects of proper police behavior in Tamil Nadu.\"\n}",
+      "input_tokens": 1098,
+      "output_tokens": 192,
+      "seconds": 14.406362300000183,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

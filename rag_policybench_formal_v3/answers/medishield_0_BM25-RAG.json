@@ -1,0 +1,29 @@
+{
+  "query_id": "medishield_0",
+  "doc_id": "PB_fd10bc60905030393bfb",
+  "query_type": "medishield",
+  "query": "How much additional MediSave top-up do older Pioneer Generation seniors with serious pre-existing conditions receive annually between 2021 and 2025, and what can it be used for?",
+  "reference_answer": "Older Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.",
+  "corpus_query_index": 302,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nIf you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.\n\n[Document 4]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply\n\n[Document 5]\nIt depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.",
+  "retrieved_doc_ids": [
+    "PB_fd10bc60905030393bfb",
+    "PB_cc60baad4cbf9560588b",
+    "PB_8ebe3f6918bf6e508aca",
+    "PB_95a5467e7a1008fc8501",
+    "PB_ffdb8da43be014161737"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "59ca2d1a8d6e49992880cc9fc49baab17ba5d39d2c61588fa774195da6502018",
+  "answer": "Older Pioneer Generation seniors with serious pre-existing conditions receive an annual MediSave top-up of $50 to $200 between 2021 and 2025. This can be used to pay MediShield Life premiums. [Document 1]",
+  "input_tokens": 983,
+  "output_tokens": 56,
+  "seconds": 7.470919900006265,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000402",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the roles and functions of Child Welfare Police Officers, directly addressing the question with evidence from Document 1 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the roles and functions of Child Welfare Police Officers, directly addresses the question, and is supported by evidence from Document 1.\",\n}",
+      "input_tokens": 787,
+      "output_tokens": 75,
+      "seconds": 6.145836700001382,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the roles and functions of Child Welfare Police Officers, directly addressing the question with evidence from Document 1 and Document 3.\"}\n\nNote: The \"faithfulness\" score of 2 is given because the candidate's answer includes all substantive factual claims about the roles and functions of Child Welfare Police Officers that are supported by the evidence provided in Document 1 and Document 3. There is no omission or contradiction of facts in the candidate's answer.",
+      "input_tokens": 827,
+      "output_tokens": 134,
+      "seconds": 10.536271300003136,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

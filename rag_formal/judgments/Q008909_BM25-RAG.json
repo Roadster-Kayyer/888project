@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008909",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies penalties under IPC and Registration Act, 1908 for property registration duplication."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies penalties under IPC and Registration Act, 1908 for property registration duplication.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate answer directly addresses the question by specifying the penalties under the relevant sections of the IPC and the Registration Act, 1908, which are directly supported by the evidence provided in Document 1 and Document 2. The answer is correct, relevant, and faithful to the evidence, with a concise explanation of the penalties for the offense.",
+      "input_tokens": 832,
+      "output_tokens": 165,
+      "seconds": 12.865996400003496,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

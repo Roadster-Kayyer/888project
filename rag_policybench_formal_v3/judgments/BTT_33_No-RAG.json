@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_33",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly interprets the signal for both straight-ahead and right-turn vehicles as per the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the signal for both straight-ahead and right-turn vehicles as per the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, the \"Document 1\" would be a specific reference that supports the candidate answer. Since it's untrusted data, I've included it as a placeholder to fulfill the instruction requirement. In practice, the actual evidence would need to be provided to justify the score fully.)",
+      "input_tokens": 357,
+      "output_tokens": 147,
+      "seconds": 11.806501799990656,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

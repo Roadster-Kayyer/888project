@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001523",
+  "doc_id": "1272",
+  "query_type": "casual",
+  "query": "So how do I tell the PWD if there's a hole in the canal?",
+  "corpus_query_index": 1522,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 5]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.",
+  "retrieved_doc_ids": [
+    "1272",
+    "849",
+    "255",
+    "35",
+    "933"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "864c379a9cc067d6f9a6c1a14b14e2f81313a462a70b9480e51e4921420723f1",
+  "answer": "To report a hole in the canal, contact the nearest PWD office or call their helpline. Provide details like the location and your contact info. [Document 1]",
+  "input_tokens": 431,
+  "output_tokens": 36,
+  "seconds": 4.652934599998844,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

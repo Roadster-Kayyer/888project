@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_15",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the start date for premium computation without Phased Support and is supported by the timeline in Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the start date for premium computation without Phased Support and is supported by the timeline in Document 5.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nThe candidate answer is correct (1) as it identifies the start date for premium computation without Phased Support as 2026, which is after the reference date of 2025. The relevance (2) is high because the answer directly addresses the question about the date for premium computation. Faithfulness (2) is confirmed by the evidence provided in Document 1 and Document 5, which align with the candidate's answer. The reason succinctly explains the",
+      "input_tokens": 616,
+      "output_tokens": 192,
+      "seconds": 14.865550200003781,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

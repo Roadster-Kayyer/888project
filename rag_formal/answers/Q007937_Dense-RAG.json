@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007937",
+  "doc_id": "546",
+  "query_type": "formal",
+  "query": "Under what circumstances can one be fined for sending intimidating text communications?",
+  "corpus_query_index": 7936,
+  "system": "Dense-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Phone Calls:\nMaking threatening phone calls can lead to imprisonment up to 3 years and/or a fine, under Section 506 of the IPC.\n\n[Document 3]\nVerbal Harassment:\nPunishment for verbal harassment can include imprisonment up to 3 years and/or a fine, under Section 509 of the Indian Penal Code (IPC).\n\n[Document 4]\nCyber Intimidation:\nPunishment for cyber intimidation can range from 3 to 7 years imprisonment and/or fine, under the IT Act and IPC sections.\n\n[Document 5]\nThreatening Public Transportation Drivers:\nThreatening public transportation drivers is a punishable offense under the Indian Penal Code (IPC). The penalty can range from imprisonment for 1-3 years and/or a fine, depending on the severity of the threat.",
+  "retrieved_doc_ids": [
+    "546",
+    "545",
+    "544",
+    "565",
+    "589"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "69aa17412bbc82d34a3db30704f2fe1b0582ecfb8a4704c62ecf9e79ae531de1",
+  "answer": "Sending threatening text messages can result in fines under Section 506 of the IPC and the IT Act, up to 3 years imprisonment [Document 1]. Threatening phone calls also carry a similar punishment [Document 2]. However, cyber intimidation faces stiffer penalties, ranging from 3 to 7 years imprisonment and/or fine [Document 4]. Verbal harassment can be punished with up to 3 years imprisonment and/or fine [Document 3].",
+  "input_tokens": 346,
+  "output_tokens": 95,
+  "seconds": 11.85070049999922,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

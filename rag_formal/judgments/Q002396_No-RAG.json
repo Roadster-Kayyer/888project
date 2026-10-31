@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002396",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant actions but lacks direct evidence support."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer includes relevant actions but lacks direct evidence support.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it advises on preserving screenshots and keeping a log, which aligns with the reference's advice to save screenshots, URLs, messages, and other digital communications. However, it does not directly reference the specific types of evidence mentioned in the reference (e.g., screenshots, URLs, messages, emails, chat logs), nor does it explicitly advise against altering evidence, which is crucial for preserving the integrity of the evidence. Therefore, while the answer is relevant, it is not fully faithful to the reference's instructions without additional evidence to support the specific types of",
+      "input_tokens": 388,
+      "output_tokens": 192,
+      "seconds": 14.555423199999495,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

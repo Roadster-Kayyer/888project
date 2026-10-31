@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007118",
+  "doc_id": "399",
+  "query_type": "casual",
+  "query": "Any tips on how to tell on a doctor at the hospital who's trying to bribe me?",
+  "corpus_query_index": 7117,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\nMedical Examination in Sexual Assault Cases:\nThe protocol involves a medical examination by a qualified doctor, preferably a female doctor, at a government hospital or authorized medical facility. The examination is conducted with the victim's consent, and a report is prepared and submitted to the police. The victim's privacy and dignity are respected throughout the process.\n\n[Document 2]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 3]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.\n\n[Document 4]\nAnonymous Online Tips:\nTo send information to the police anonymously online, visit the Tamil Nadu Police Department website and click on the \"Anonymous Tip\" or \"Report a Crime\" link. Fill out the online form with the required details and submit it.\n\n[Document 5]\nRecording Dying Declarations:\nA dying declaration is recorded by a police officer or a magistrate in the presence of a doctor. The statement is taken from a person who is seriously injured or ill and is likely to die. The declaration is recorded in the person's own words, and their statement is noted down verbatim. The process is done to ensure the statement's authenticity and admissibility in court.",
+  "retrieved_doc_ids": [
+    "92",
+    "57",
+    "958",
+    "325",
+    "756"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "46a16a8feece4244c92fdd80364727e868f2b90e2eeaff0081847510721f5a9f",
+  "answer": "Based on [Document 1], during a medical examination, if you suspect a doctor is trying to bribe you, insist on a female doctor and document everything meticulously. Report any suspicious behavior to the police, as per [Document 2]. For medical negligence, follow [Document 3] and [Document 4] for reporting procedures. [Document 5] advises recording statements to ensure authenticity. However, directly dealing with suspected bribery isn't explicitly detailed. Ensure all interactions are documented thoroughly. [Document 1] provides context but doesn't address direct suspicion of bribery.",
+  "input_tokens": 435,
+  "output_tokens": 117,
+  "seconds": 14.912784599999213,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

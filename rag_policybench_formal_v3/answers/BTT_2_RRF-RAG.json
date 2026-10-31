@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_2",
+  "doc_id": "PB_dcec244efa94b7d5bbaf",
+  "query_type": "BTT",
+  "query": "What is the minimum tread depth required for tyres before they need to be replaced as per Singapore's Basic Theory Test?",
+  "reference_answer": "Tyres should be replaced if their tread depth is less than 1.6mm.",
+  "corpus_query_index": 12,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTyres should be replaced if their tread depth is less than 1.6mm.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 4]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 5]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.",
+  "retrieved_doc_ids": [
+    "PB_dcec244efa94b7d5bbaf",
+    "PB_043f86bad043c042932a",
+    "PB_5b5856d1886897cce5a3",
+    "PB_b9f29dbf832927f97985",
+    "PB_6f67feecf50543bb14eb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4e8a1646ab30cf40e15cac320d3328fb444d1c5eb6754d28549586c8cc92591",
+  "answer": "According to [Document 1], the minimum tread depth required for tyres before they need to be replaced is 1. 6mm.",
+  "input_tokens": 392,
+  "output_tokens": 29,
+  "seconds": 4.038671200003591,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001343",
+  "doc_id": "124",
+  "query_type": "casual",
+  "query": "So, what's the NDPS Act all about, and what bad stuff does it stop?",
+  "corpus_query_index": 1342,
+  "system": "BM25-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 2]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 3]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 4]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 5]\nOne Stop Crisis Center:\nThe One Stop Crisis Center (OSCC) provides support to women victims of violence. It offers medical aid, counseling, and legal assistance. To access OSCC services, call 181 (women's helpline) or visit the nearest center.",
+  "retrieved_doc_ids": [
+    "34",
+    "124",
+    "800",
+    "46",
+    "443"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1ad71b89b9a3a7b4e595e4914ea7ee9b045561d3f68ded4a09d051b58fb345af",
+  "answer": "The NDPS Act stops drug abuse, trafficking, and possession offenses. It includes penalties for those found guilty of these banned substance-related crimes. [Document 1]",
+  "input_tokens": 414,
+  "output_tokens": 34,
+  "seconds": 4.376653400000578,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

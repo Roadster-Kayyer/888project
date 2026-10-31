@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_20",
+  "doc_id": "PB_5c3115538294339c3ac4",
+  "query_type": "BTT",
+  "query": "Where must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+  "reference_answer": "They must travel along the left-hand lane of the expressway.",
+  "corpus_query_index": 13,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThey must travel along the left-hand lane of the expressway.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_5c3115538294339c3ac4",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_33b32af818c8c4223f8f",
+    "PB_89b7e5350f270a309ba9",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9dad63f64da43a547f0efdfe8939be8f0ca965fbeadb0a7f720d496e6deeb39a",
+  "answer": "Vehicles with speed limits of 60 km/h and below must travel along the left-hand lane of the expressway [Document 1].",
+  "input_tokens": 347,
+  "output_tokens": 30,
+  "seconds": 3.7780617000025813,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

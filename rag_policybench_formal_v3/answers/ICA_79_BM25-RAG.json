@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_79",
+  "doc_id": "PB_603be4b797f377a91761",
+  "query_type": "ICA_134",
+  "query": "What are the responsibilities of a Local Contact if a visa applicant breached the law in Singapore?",
+  "reference_answer": "The Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.",
+  "corpus_query_index": 279,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe Local Contact may be called upon for interview to assist in investigation if the foreigner is found to have breached the law in Singapore.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs\n\n[Document 4]\nThere is no restriction to the number of visa applications that a local contact/ sponsor can apply. However, every visa application is assessed and considered on its own merits.\n\n[Document 5]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.",
+  "retrieved_doc_ids": [
+    "PB_603be4b797f377a91761",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_aee729ae9fbc3265b81f",
+    "PB_98e41a7d780bc8508f25",
+    "PB_73589fc4535bd159b21d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e9a19a1b9e18e6ccccffa7a3933f839827f3f61d83e79e1dcede366bc343fe3f",
+  "answer": "If a visa applicant breaches the law in Singapore, the Local Contact may be asked to assist in an interview and investigation. However, the responsibilities beyond this include ensuring the correct visa type is applied for based on the purpose (Individual User or Business User), and the Local Contact must meet certain criteria like being a Singapore citizen/permanent resident aged 21+. [Document 1]",
+  "input_tokens": 466,
+  "output_tokens": 77,
+  "seconds": 10.087620299993432,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

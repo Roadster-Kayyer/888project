@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_2",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the minimum tread depth and directly references the Singapore's Basic Theory Test requirements, supported by the evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the minimum tread depth and directly references the Singapore's Basic Theory Test requirements, supported by the evidence from Document 1.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question and provides the exact minimum tread depth required for tyre replacement according to Singapore's Basic Theory Test. The relevance score is also 2 because the answer directly addresses the question without omitting any critical information. The faithfulness score is 2 because the candidate's answer is supported by evidence from Document 1, which is assumed to be a reliable source. The reason succinctly explains the scores, indicating",
+      "input_tokens": 377,
+      "output_tokens": 192,
+      "seconds": 14.96200920001138,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

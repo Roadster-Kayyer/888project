@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008524",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects legal repercussions from multiple documents, directly addressing the question with specific penalties and relevant laws."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects legal repercussions from multiple documents, directly addressing the question with specific penalties and relevant laws.\",\n  \"evidence\": \"Document 1, Document 2, Document 3, Document 4, Document 5\"\n}",
+      "input_tokens": 800,
+      "output_tokens": 98,
+      "seconds": 7.925089099997422,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_47",
+  "doc_id": "PB_459d0a3b9e1ad4c022cb",
+  "query_type": "ICA_134",
+  "query": "Who should the employment letter from my employer be addressed to for my citizenship application?",
+  "reference_answer": "Your letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "corpus_query_index": 244,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 2]\nYou should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.\n\n[Document 3]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 4]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_68186a4dadd329687464",
+    "PB_70e279a2efefc3723a97",
+    "PB_281c77b1cca45bc9951f",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8c0f363fc72cf1bc8fee885f9e45ca712d8d7ff705813716332c4601e5d9cbdc",
+  "answer": "The employment letter should be addressed to ICA Services Centre. It should be dated within three months of your citizenship application and include details like occupation, date of employment, and salary. [Document 1]",
+  "input_tokens": 609,
+  "output_tokens": 42,
+  "seconds": 5.4894206000026315,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

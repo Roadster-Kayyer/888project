@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_5",
+  "doc_id": "PB_04745399e49d55ad64a3",
+  "query_type": "ICA_134",
+  "query": "Why is ICA removing the departure endorsement?",
+  "reference_answer": "The removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.",
+  "corpus_query_index": 247,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nICA no longer issues departure endorsements. You may use proxy documents, such as boarding passes as indicators of your exit record.\n\n[Document 2]\nThe removal of the departure endorsement is part of ICA's on-going efforts to streamline procedures at the checkpoints to facilitate faster and more efficient immigration clearance.\n\n[Document 3]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 4]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_35db64afc4b771d4dfd8",
+    "PB_04745399e49d55ad64a3",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6b5b0d2973eaf0192f9db4bb20b0e0f5f9c871836f07a0068e070242ac522136",
+  "answer": "ICA is removing the departure endorsement to streamline procedures and facilitate faster immigration clearance. This change also applies to LTVP physical cards, where now only those under 15 needing a digital replacement need to report to ICA. The move aims to simplify processes and improve efficiency at checkpoints. [Document 1, Document 2]",
+  "input_tokens": 576,
+  "output_tokens": 66,
+  "seconds": 8.757225399996969,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

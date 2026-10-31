@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_3",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No information on pro-ration factor for subsidised treatments provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No information on pro-ration factor for subsidised treatments provided.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}",
+      "input_tokens": 1067,
+      "output_tokens": 192,
+      "seconds": 14.82209449999209,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

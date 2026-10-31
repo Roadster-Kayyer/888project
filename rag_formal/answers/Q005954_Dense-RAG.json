@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005954",
+  "doc_id": "207",
+  "query_type": "search",
+  "query": "Can you tell me about the verification method for domestic helpers?",
+  "corpus_query_index": 5953,
+  "system": "Dense-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nHiring Household Help:\nWhen hiring household help:\n* Verify their identity and references\n* Conduct a thorough background check\n* Inform your local police station about new hires\n\n[Document 3]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 4]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 5]\nPolice Verification for Senior Citizens:\nTo obtain police verification for senior citizens living alone in Tamil Nadu:\n1. Submit an application to the local police station.\n2. Provide required documents, including ID proof and address proof.\n3. Fill out the verification form.\n4. The police will conduct a background check and issue a verification certificate.",
+  "retrieved_doc_ids": [
+    "207",
+    "1906",
+    "2087",
+    "842",
+    "2090"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5c8881122a929d0e18e8028741668b34325c8030cdcbbe625fca4e43e635e5bc",
+  "answer": "The verification method involves submitting an application to the local police station with the domestic worker's ID proof, address proof, and a declaration form. The police conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 379,
+  "output_tokens": 46,
+  "seconds": 5.910786599999483,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

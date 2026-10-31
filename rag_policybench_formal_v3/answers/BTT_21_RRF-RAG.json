@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_21",
+  "doc_id": "PB_8a851d564b8b1c6da3af",
+  "query_type": "BTT",
+  "query": "What is recommended for optimizing fuel efficiency when using air-conditioning in a vehicle?",
+  "reference_answer": "Avoid setting the air-conditioning temperature too low and increase the fan speed instead.",
+  "corpus_query_index": 14,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 2]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.\n\n[Document 3]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.",
+  "retrieved_doc_ids": [
+    "PB_d52d8afcd0f078500080",
+    "PB_8a851d564b8b1c6da3af",
+    "PB_33b32af818c8c4223f8f",
+    "PB_89b7e5350f270a309ba9",
+    "PB_9deeca336ae5c6e38cd1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "df64f31acbecc0a274710ca88c266c177232840d7aee7a1780482bbb798b7a96",
+  "answer": "According to Document 2, to optimize fuel efficiency while using air conditioning, avoid setting the temperature too low and increase fan speed instead. [Document 1] mentions driving in the right gear also increases fuel efficiency.",
+  "input_tokens": 500,
+  "output_tokens": 44,
+  "seconds": 5.659193500003312,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

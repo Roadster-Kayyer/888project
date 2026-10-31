@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_17",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the maximum claim limit from Document 1, directly addressing the question and supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the maximum claim limit from Document 1, directly addressing the question and supported by evidence.\",\n  \"evidence\": \"[Document 1] - 'The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.'\"\n}",
+      "input_tokens": 726,
+      "output_tokens": 192,
+      "seconds": 14.626615599991055,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

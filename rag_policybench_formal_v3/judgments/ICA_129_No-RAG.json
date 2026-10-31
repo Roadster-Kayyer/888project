@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_129",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it directly addresses the question of how to appeal a rejected PR application. However, it does not contain any evidence from the provided reference, which suggests that the answer should include information about changes in circumstances or submitting a fresh application online. The reason for the score is that the answer is relevant but does not fully utilize the reference information.",
+      "input_tokens": 384,
+      "output_tokens": 138,
+      "seconds": 10.35045280000486,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

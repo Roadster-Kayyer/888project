@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_23",
+  "doc_id": "PB_e12438e446c271b6f34f",
+  "query_type": "BTT",
+  "query": "What actions should people take during an emergency in Fort Canning Tunnel and Woodsville Tunnel?",
+  "reference_answer": "People should head for the tunnel entrance or exit, whichever is safer.",
+  "corpus_query_index": 16,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nPeople should head for the tunnel entrance or exit, whichever is safer.\n\n[Document 2]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 3]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 4]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.\n\n[Document 5]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.",
+  "retrieved_doc_ids": [
+    "PB_e12438e446c271b6f34f",
+    "PB_905df234754f5b501b5d",
+    "PB_2858faae83bda4331fb6",
+    "PB_7f4c71e9895fc3caf31f",
+    "PB_ee80f8d345424676a47b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ed8021e9850e25c6e71c388db6a7da67d5ed864d7eca6f3508bae41a32c06334",
+  "answer": "During an emergency in Fort Canning Tunnel or Woodsville Tunnel, people should head for the nearest tunnel entrance or exit if it's safer [Document 1]. Only do so in emergencies like breakdowns, accidents, or real emergencies [Document 2]. Drivers should slow down, keep left, and be cautious of oncoming traffic [Document 3]. For ERP payments, drivers must insert their cash card beforehand [Document 4]. At Woodsville Tunnel, eligible foreign visitors can use designated lanes for immigration clearance at passenger halls [Document 5].",
+  "input_tokens": 279,
+  "output_tokens": 111,
+  "seconds": 40.466559000000416,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

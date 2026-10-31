@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007485",
+  "doc_id": "464",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police ensure that the identities of individuals reporting sexual harassment remain undisclosed?",
+  "corpus_query_index": 7484,
+  "system": "BM25-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 2]\nReporting Sexual Harassment:\nTo report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 3]\nHarassment based on Sexual Orientation:\nUnder the Tamil Nadu Police guidelines, harassment based on sexual orientation can be considered a form of sexual harassment. The punishment can range from 1 to 3 years of imprisonment and a fine, as per the Indian Penal Code (IPC) Section 354A.\n\n[Document 4]\nEthical Framework for Informers:\nThe Tamil Nadu Police follows a confidential and protected framework for dealing with informers. Informers' identities are kept secret, and their information is verified before action is taken. The police ensure that informers are not coerced or exploited.\n\n[Document 5]\nPOCSO Act:\nThe POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.",
+  "retrieved_doc_ids": [
+    "464",
+    "827",
+    "568",
+    "1441",
+    "101"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0c79c4341bd42b1a492f5a1a7e71a2bd61eb0bcbecea20f1532a08c924bbb86f",
+  "answer": "Tamil Nadu Police ensures the anonymity of sexual harassment complainants by maintaining confidentiality and using coded names in records. Complainants can request to remain anonymous, following Supreme Court guidelines. [Document 1]",
+  "input_tokens": 444,
+  "output_tokens": 42,
+  "seconds": 5.145365499998661,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002245",
+  "doc_id": "1401",
+  "query_type": "hard",
+  "query": "What approaches does the legal system take to resolve issues where tribal artisans are exploited?",
+  "corpus_query_index": 2244,
+  "system": "RRF-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 3]\nMigration-related Issues in Tribal Areas:\nThe police handle migration-related issues by:\n* Conducting regular checks and verification\n* Collaborating with local authorities and tribal leaders\n* Providing assistance and support to migrants\n* Ensuring compliance with labor laws and regulations\n\n[Document 4]\nDispute Resolution with Tribal Councils:\nThe Tamil Nadu Police coordinates with tribal councils through regular meetings and dialogue. They work together to resolve disputes and address issues affecting tribal communities, ensuring their rights and interests are protected.\n\n[Document 5]\nAddressing Tribal Women's Grievances:\nThe Tamil Nadu Police has a system in place to address tribal women's grievances through dedicated women's desks and cells. These desks and cells receive and investigate complaints, providing support and counseling to tribal women in need.",
+  "retrieved_doc_ids": [
+    "1401",
+    "1381",
+    "1389",
+    "1393",
+    "1412"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2bfd421433887b2d4e94fc6bc5c06779d8cbc75d9a0296485cb0ce5cd9dac0f2",
+  "answer": "The legal system in Tamil Nadu addresses exploitation of tribal artisans through:\n- Police registration and investigation of complaints (Document 1)\n- Collaboration with tribal welfare departments and NGOs (Document 1)\n- Working with tribal councils for dispute resolution (Document 4)",
+  "input_tokens": 408,
+  "output_tokens": 52,
+  "seconds": 6.559696199999962,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

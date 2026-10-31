@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004228",
+  "doc_id": "176",
+  "query_type": "casual",
+  "query": "So my car got towed, what now?",
+  "corpus_query_index": 4227,
+  "system": "BM25-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 2]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 3]\n1. Can police search my house without a warrant?\nGenerally, no. Police need a warrant to search your house, except in emergency situations or with your consent. (As per CrPC, 1973)\n\n[Document 4]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 5]\nQuestion 1: Can police enter my house without a warrant?\nGenerally, no. Police need a warrant to enter your house, except in emergency situations or with your consent. (As per Tamil Nadu Police guidelines)",
+  "retrieved_doc_ids": [
+    "176",
+    "833",
+    "847",
+    "933",
+    "33"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b70c878469230d399f20b6bc76a83b5bf1872baf7f6d190324a413d28d6c1a90",
+  "answer": "If your car is towed, first check with the nearest Traffic Police station or the towing company for your vehicle's location. You'll need to show your vehicle's registration documents and pay any fines or towing charges to retrieve it. [Document 1] & [Document 2]",
+  "input_tokens": 402,
+  "output_tokens": 58,
+  "seconds": 7.37505130000136,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

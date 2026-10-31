@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000832",
+  "doc_id": "1147",
+  "query_type": "formal",
+  "query": "How can one acquire a No Objection Certificate through the judicial process?",
+  "corpus_query_index": 831,
+  "system": "BM25-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 2]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 3]\nEstablishing a Private Plantation in Tamil Nadu:\nTo establish a private plantation, obtain a no-objection certificate from the Tamil Nadu Forest Department. Submit an application with land details, plantation plan, and other required documents. The department will review and approve your proposal.\n\n[Document 4]\nNOC Application Portal:\nThe portal for applying for NOC (No Objection Certificate) from the police department is the Tamil Nadu Police Citizen Services portal (https://www.tnpolice.gov.in/citizen).\n\n[Document 5]\nEstablishing a Private Plantation:\nTo establish a private plantation in Tamil Nadu, obtain a no-objection certificate from the Tamil Nadu Forest Department. Submit a proposal with details of the land, species to be planted, and management plan. The department will review and approve your proposal before granting permission.",
+  "retrieved_doc_ids": [
+    "2038",
+    "1147",
+    "1232",
+    "343",
+    "1250"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dc2efc8ee63d883f7cadd2f14bd125a1625be42b420786b5fd10077239442306",
+  "answer": "To acquire a No Objection Certificate (NOC), visit the local police station in Tamil Nadu and submit an application along with required documents like ID and address proof. Specify the purpose and the police will verify and issue it if conditions are met. For courts, file a petition with the issuing court, providing case details and ID proof; the court will then verify and issue the No Due Certificate if no dues are outstanding. [Document 1] & [Document 2]",
+  "input_tokens": 432,
+  "output_tokens": 96,
+  "seconds": 12.171154199999364,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

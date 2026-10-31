@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_23",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and directly addresses the question, but lacks direct evidence from the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct and directly addresses the question, but lacks direct evidence from the provided reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 377,
+      "output_tokens": 70,
+      "seconds": 5.282291499999701,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

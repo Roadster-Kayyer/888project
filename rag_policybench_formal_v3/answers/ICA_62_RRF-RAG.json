@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_62",
+  "doc_id": "PB_18afcc43a443719b9c31",
+  "query_type": "ICA_134",
+  "query": "How do I check my newborn's citizenship status?",
+  "reference_answer": "A child born in Singapore to legally married parents who are both Singapore citizens (or either one is a Singapore citizen) at the time of child's birth, is automatically a Singapore Citizen.",
+  "corpus_query_index": 261,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 2]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 3]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 4]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 5]\nYou may check the status of your online application or retrieve your application reference number by logging in to MyICA.For hardcopy applications, you may log in to our e-Service.",
+  "retrieved_doc_ids": [
+    "PB_c6456fad7242c379cac1",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_d98d322f2936df748ef1",
+    "PB_533c97338e1e60662538"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "7c12ba2a313c859bc644dff4157a9df6c8405065334e9ff7bcb71d14962d6837",
+  "answer": "To check a newborn's citizenship status, first ensure the child has a birth certificate from the foreign country. Then, log in to MyICA or the ICA e-Service with your reference number to check the status of your citizenship application. [Document 1] & [Document 4] provide specific steps.",
+  "input_tokens": 347,
+  "output_tokens": 64,
+  "seconds": 8.309091000002809,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

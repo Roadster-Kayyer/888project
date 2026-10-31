@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_76",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 5, which provides the correct procedure for applying for a new passport in person or online."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 5, which provides the correct procedure for applying for a new passport in person or online.\",\n  \"evidence\": \"[Document 5]\"\n}",
+      "input_tokens": 1204,
+      "output_tokens": 192,
+      "seconds": 14.84424730000319,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002241",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the given scenario, the candidate's answer is relevant and covers the main points from the reference regarding police handling of exploitation cases. However, the answer does not directly cite evidence from the provided reference text, which would be necessary for a full score in faithfulness. The reason for the given scores is that while the answer is relevant and mostly correct, it would be more faithful if it included specific information from the reference.",
+      "input_tokens": 432,
+      "output_tokens": 157,
+      "seconds": 12.036436400001548,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

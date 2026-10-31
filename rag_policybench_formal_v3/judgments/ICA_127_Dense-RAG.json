@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_127",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from the reference documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and Document 4.\",\n}\n\n\nIn Document 1, it is stated that a Singapore citizen may lose their citizenship if they are away for 10 years or more without a valid passport. Document 4 reiterates that a SPR must have a valid REP to maintain their status, which aligns with the candidate's answer about maintaining PR status. The candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 853,
+      "output_tokens": 154,
+      "seconds": 11.667268799996236,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from the reference documents, fully supported by evidence.\"}",
+      "input_tokens": 893,
+      "output_tokens": 41,
+      "seconds": 3.4175437999947462,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

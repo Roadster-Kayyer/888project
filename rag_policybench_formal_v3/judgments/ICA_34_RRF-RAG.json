@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_34",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes SGAC and its purpose, directly addresses the question, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes SGAC, its purpose, and its necessity for foreign visitors, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 965,
+      "output_tokens": 69,
+      "seconds": 5.519208799989428,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes SGAC and its purpose, directly addresses the question, and is supported by evidence from Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the question about SGAC and is supported by the evidence given in the documents. The brief explanation in the \"reason\" field succinctly summarizes the evaluation.",
+      "input_tokens": 1005,
+      "output_tokens": 128,
+      "seconds": 9.879484700009925,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007118",
+  "doc_id": "399",
+  "query_type": "casual",
+  "query": "Any tips on how to tell on a doctor at the hospital who's trying to bribe me?",
+  "corpus_query_index": 7117,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\nReporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.\n\n[Document 2]\nBribery by Police Officer:\nIf a police officer demands a bribe, stay calm and:\n* Refuse to pay\n* Note the officer's name and badge number\n* Report the incident to a senior officer or the Vigilance Department\n* You can also contact the Tamil Nadu Police Helpline (87544 87544)\n\n[Document 3]\nReporting Unauthorized Medical Practitioners:\nReport unauthorized medical practitioners to the Tamil Nadu Medical Council or the local health department. You can also contact the police station or the Tamil Nadu Police Department's helpline. Provide details of the practitioner and any evidence of unauthorized practice.\n\n[Document 4]\nReporting Corruption:\nTo report corruption in government offices, contact the Directorate of Vigilance and Anti-Corruption (DVAC) at 98400 00550 or visit their website. You can also file a complaint online or in person at the nearest DVAC office.\n\n[Document 5]\nReporting Medical Negligence:\nTo report medical negligence, visit the nearest police station and file a complaint. Provide details of the incident, including the hospital/doctor's name, date, and nature of negligence. You can also contact the Tamil Nadu Medical Council for guidance.",
+  "retrieved_doc_ids": [
+    "399",
+    "27",
+    "957",
+    "946",
+    "958"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b51875bd61c5f6663ed809231ad1295fa20f1116b587cc6ca08789bb925383d2",
+  "answer": "To report a doctor demanding a bribe, refuse to pay and note the doctor's details. Report the incident to a senior officer or DVAC. Contact the Tamil Nadu Police Helpline (87544 87544) or visit DVAC’s website for guidance. [Document 2] [Document 1]",
+  "input_tokens": 455,
+  "output_tokens": 70,
+  "seconds": 9.278361599999698,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

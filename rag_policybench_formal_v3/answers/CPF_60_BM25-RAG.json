@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_60",
+  "doc_id": "PB_b8fa647c38cb9cfface8",
+  "query_type": "CPF_111",
+  "query": "What are the options available to me if I foresee that I do not have sufficient CPF to continue paying the instalments on my regular premium insurance policy?",
+  "reference_answer": "If you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+  "corpus_query_index": 124,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 2]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\ne-Services that do not require Singpass will continue to be available on the ICA website.\n\n[Document 5]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+  "retrieved_doc_ids": [
+    "PB_b8fa647c38cb9cfface8",
+    "PB_b530c3042e7202136bc5",
+    "PB_cc60baad4cbf9560588b",
+    "PB_fdd274ee47983db43f69",
+    "PB_92b9ca8b9a7a3195d282"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ac4a2820e42aa06a6a53db2e3a01007e51746cb0fd7b72ffb1aa70d84b5af211",
+  "answer": "If you foresee insufficient CPF to pay premiums, consider these options: \n- Pay using cash, adjusting policy payouts.\n- Change payment frequency to reduce per-payment amount.\n- Reduce sum assured to lower premiums.\n- Convert policy to paid-up status. [Document 1]",
+  "input_tokens": 714,
+  "output_tokens": 55,
+  "seconds": 7.225446500000544,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

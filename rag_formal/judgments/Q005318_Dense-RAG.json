@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005318",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and correctly outlines the steps to challenge a false police complaint, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and correctly outlines the steps to challenge a false police complaint, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - Provides the correct steps and legal provisions for challenging a false police complaint in Tamil Nadu, which are directly relevant to the question.\"\n}\n\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which matches the reference's instructions for challenging a false police complaint. There are no unsupported claims or contradictions in the candidate's answer.",
+      "input_tokens": 867,
+      "output_tokens": 181,
+      "seconds": 13.990592300000571,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

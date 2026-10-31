@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_102",
+  "doc_id": "PB_9b3d1195e8f4641e640b",
+  "query_type": "ICA_134",
+  "query": "How do I renew my Student's Pass before pass expiry?",
+  "reference_answer": "You must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.",
+  "corpus_query_index": 172,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.\n\n[Document 2]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 3]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.\n\n[Document 4]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 5]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.",
+  "retrieved_doc_ids": [
+    "PB_9b3d1195e8f4641e640b",
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_bd4cd5b4c56b0c9ef30b",
+    "PB_c4889c17ceec12f1516c",
+    "PB_a6030c6c9eb84a58b3ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3f07a42a9f704e986983d516c7ea1c1cab2f92c8833d35b3c6430dbeaaf8f1d2",
+  "answer": "To renew your Student's Pass, you must be accepted into a full-time course in Singapore. Apply online through e-Service. [Document 1]",
+  "input_tokens": 570,
+  "output_tokens": 32,
+  "seconds": 4.314180900008068,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

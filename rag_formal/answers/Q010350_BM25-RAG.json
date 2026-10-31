@@ -1,0 +1,26 @@
+{
+  "query_id": "Q010350",
+  "doc_id": "980",
+  "query_type": "hard",
+  "query": "How can I inform authorities about misused municipal vehicles?",
+  "corpus_query_index": 10349,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Unauthorized Use of Government Vehicles:\nReport misuse of government vehicles to the Tamil Nadu Police Department's helpline or the Vigilance Department. Provide vehicle details, including number plate, location, and time of incident.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nCitizen Rights Regarding Personal Data:\nCitizens have the right to:\n* Know how their data is being used\n* Access their personal data\n* Request correction or deletion of incorrect data\n* File a complaint if their data is misused (as per IT Act 2000 and Tamil Nadu Police guidelines)\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nReporting Environmental Issues\n\n1. Illegal Dumping of Waste: \nTo report illegal dumping of waste, contact the Tamil Nadu Pollution Control Board (TNPCB) at 044-22394959 or file a complaint on their website. You can also inform your local police station or municipal authorities.\n\n2. Water Pollution: \nTo report water pollution, contact the TNPCB or call the police control room at 100. Provide details of the location and nature of pollution.\n\n3. Illegal Sand Mining: \nTo file a complaint about illegal sand mining, contact the Tamil Nadu Police Department's toll-free number 1091 or visit the nearest police station. You can also inform the Public Works Department or the District Collector's office.\n\n[Document 5]\nReporting Environmental Issues\n\n1. Illegal Dumping of Waste: \nTo report illegal dumping of waste, contact the Tamil Nadu Pollution Control Board (TNPCB) at 044-22394959 or file a complaint on their website. You can also inform your local police station or municipal authorities.\n\n2. Water Pollution: \nTo report water pollution, contact the TNPCB or call the police control room at 100. Provide details of the location and nature of pollution.\n\n3. Illegal Sand Mining: \nTo file a complaint about illegal sand mining, contact the Tamil Nadu Police Department's toll-free number 1091 or visit the nearest police station. You can also inform the Public Works Department or the District Collector's office.",
+  "retrieved_doc_ids": [
+    "849",
+    "1463",
+    "255",
+    "949",
+    "950"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2557e880d3e90bf3c2d2bed9b82a50bd31197db77ce66472a436148c73ce40c0",
+  "answer": "You can report misused municipal vehicles by visiting the local police station and filing a complaint. Alternatively, inform the municipal authorities directly. [Document 1] [Document 5]",
+  "input_tokens": 629,
+  "output_tokens": 37,
+  "seconds": 4.981816399998934,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

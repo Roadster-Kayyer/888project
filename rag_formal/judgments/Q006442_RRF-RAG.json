@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006442",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the methods for reporting and filing domestic violence, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the methods for reporting and filing domestic violence, supported by evidence from all documents.\"\n}\n\n\nThe candidate answer is correct as it accurately lists the methods for reporting domestic violence (calling the Tamil Nadu Police helpline and visiting the local police station) and filing a complaint (visiting the nearest police station or All Women Police Station with a written complaint). The answer is relevant as it directly responds to the question by providing specific actions one can take. The faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence provided in the documents, which corroborate the helpline numbers and the process of filing a complaint",
+      "input_tokens": 848,
+      "output_tokens": 192,
+      "seconds": 14.736924700002419,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

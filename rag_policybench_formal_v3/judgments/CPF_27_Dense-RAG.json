@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_27",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1, and accurately describes the treatment of unused CPF transfers and cash top-ups, including the irreversibility of top-ups and safeguards against premature withdrawals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1, and accurately describes the treatment of unused CPF transfers and cash top-ups, including the irreversibility of top-ups and safeguards against premature withdrawals.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\n(Note: The \"faithfulness\" key in the JSON object is set to 2 because the candidate's answer is directly supported by the evidence provided in Document 1, which states that unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise or to the recipient if he closes his CPF",
+      "input_tokens": 1089,
+      "output_tokens": 192,
+      "seconds": 14.773950999995577,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

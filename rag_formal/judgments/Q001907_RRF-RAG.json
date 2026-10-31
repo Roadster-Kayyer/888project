@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001907",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by all documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively describes the digital forensic methods used by the Tamil Nadu Police, supported by evidence from all documents.\",\n}",
+      "input_tokens": 781,
+      "output_tokens": 73,
+      "seconds": 5.866883900001994,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by all documents provided.\"}",
+      "input_tokens": 821,
+      "output_tokens": 39,
+      "seconds": 3.3594467000002624,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

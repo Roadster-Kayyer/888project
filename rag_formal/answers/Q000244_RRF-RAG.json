@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000244",
+  "doc_id": "1040",
+  "query_type": "search",
+  "query": "Can you guide me through the criminal case filing procedure?",
+  "corpus_query_index": 243,
+  "system": "RRF-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 3]\nFiling a Case for Online Fraud:\nTo file a case for online fraud, visit your local police station's cybercrime cell. Provide details of the fraud, including transaction records and communication with the fraudster. The police will guide you through the process and help you file a complaint.\n\n[Document 4]\nFiling for Compensation:\nTo file for compensation in a criminal case, the victim can:\n1. Apply to the court trying the case.\n2. Submit a petition with required documents.\n3. The court will consider the application and pass an order.\n\n[Document 5]\nFiling a case in Juvenile Justice Board:\nTo file a case in the Juvenile Justice Board, contact the local police station or a lawyer. They will guide you through the process, which typically involves filing a complaint and providing required documents. The Board will then review the case and take necessary actions.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1116",
+    "1194",
+    "752",
+    "1166"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0103275b122db93d77febcad6136720fbf48e2ff5e6259294d65cab16078c5fe",
+  "answer": "To file a criminal case, follow these steps:\n1. File a complaint with the police.\n2. The police investigates and files a chargesheet.\n3. The court takes up the case. [Document 1] For other cases like discharge, online fraud, compensation, or juvenile cases, refer to specific sections in the document. [Document 1-5]",
+  "input_tokens": 425,
+  "output_tokens": 75,
+  "seconds": 9.424554199999875,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

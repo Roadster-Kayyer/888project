@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000902",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the age of criminal responsibility for adults and heinous crimes, directly addressing the question, and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the age of criminal responsibility for adults and heinous crimes in India, supported by Document 1.\",\n}",
+      "input_tokens": 810,
+      "output_tokens": 192,
+      "seconds": 14.772800200000347,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the age of criminal responsibility for adults and heinous crimes, directly addressing the question, and is supported by Document 1.\"}\n**Note:** The \"faithfulness\" score of 2 is given because the candidate's answer is directly supported by the evidence provided in Document 1, which states the age of criminal responsibility as specified. There are no unsupported or contradicted claims in the candidate's answer.",
+      "input_tokens": 850,
+      "output_tokens": 120,
+      "seconds": 9.446082500002376,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000052",
+  "doc_id": "1006",
+  "query_type": "formal",
+  "query": "What is the procedure to access my online traffic violation record?",
+  "corpus_query_index": 51,
+  "system": "RRF-RAG",
+  "reference_answer": "Traffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.",
+  "context": "[Document 1]\nTraffic Violation History:\nTo view your traffic violation history online, visit the Tamil Nadu Police Department's official website or the e-Challan portal. Click on \"Check Traffic Violation\" and enter your vehicle number or driving license number to access your records.\n\n[Document 2]\nDigital Interface for Traffic Violation Reporting:\nThe digital interface for traffic violation reporting is the \"E-Challan\" system. This online platform allows citizens to report traffic violations and pay fines electronically, making the process convenient and efficient.\n\n[Document 3]\nReporting a Traffic Violation:\nTo report a traffic violation, dial 100 or visit the nearest police station. Provide details of the incident, including date, time, location, and vehicle number (if applicable). You can also report online through the Tamil Nadu Police website or mobile app.\n\n[Document 4]\nVerifying Traffic Violation Challans Online:\nYou can verify traffic violation challans online through the Tamil Nadu Police Department's official website or the e-Challan portal. Enter your challan number or vehicle number to check the status.\n\n[Document 5]\nReporting Traffic Police Misconduct:\nTo report traffic police misconduct, contact the Tamil Nadu Police Complaints Authority or call the toll-free number 100. You can also file a complaint online through the Tamil Nadu Police website.",
+  "retrieved_doc_ids": [
+    "1006",
+    "1338",
+    "830",
+    "306",
+    "178"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e4e83d8686cd5d3892fb8e434408977e8c6bbe0f739ddb7cf02f5b1cf3048d17",
+  "answer": "To access your online traffic violation record, visit the Tamil Nadu Police Department's official website or use the e-Challan portal. Click on \"Check Traffic Violation,\" enter your vehicle number or driving license number, and follow the prompts. [Document 1]",
+  "input_tokens": 392,
+  "output_tokens": 54,
+  "seconds": 6.9144952000006015,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2052.3857421875
+}

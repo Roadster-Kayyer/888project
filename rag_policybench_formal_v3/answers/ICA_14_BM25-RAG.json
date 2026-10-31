@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_14",
+  "doc_id": "PB_836a1574dc33ade45124",
+  "query_type": "ICA_134",
+  "query": "Do I need to surrender the deceased's NRIC to the police station or ICA for physical invalidation?",
+  "reference_answer": "There is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.",
+  "corpus_query_index": 208,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThere is no longer a need to surrender the deceased’s NRIC for physical invalidation. The deceased’s NRIC will be automatically invalidated in ICA’s system once the death is registered.To prevent misuse, you may either destroy the invalidated NRIC, or punch a hole in it.The use of another person’s NRIC is an offence under the National Registration Act, which carries a penalty of a fine not exceeding $10,000, or imprisonment for a term not exceeding 10 years, or both.\n\n[Document 2]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 3]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 4]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 5]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.",
+  "retrieved_doc_ids": [
+    "PB_836a1574dc33ade45124",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_ffb44a115e698c779310",
+    "PB_aba31460334fd65c7b41",
+    "PB_2140a6169b3f40aa828c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5b2997d3017ce03fb581d11a471112bb64d3aeba082d470e3f9616a3667baab9",
+  "answer": "No, you do not need to surrender the deceased's NRIC to the police station or ICA for physical invalidation. It will be automatically invalidated in ICA's system upon death registration. [Document 1]",
+  "input_tokens": 777,
+  "output_tokens": 45,
+  "seconds": 5.9142917999997735,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

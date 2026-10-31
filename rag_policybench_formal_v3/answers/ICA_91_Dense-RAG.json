@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_91",
+  "doc_id": "PB_a74f1879324f284c6dde",
+  "query_type": "ICA_134",
+  "query": "What is the average processing time for an application to renew or transfer Re-Entry Permit (REP) submitted online?",
+  "reference_answer": "The general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.",
+  "corpus_query_index": 293,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe general processing time is within one week for REP renewal and within three working days for REP transfer applications submitted online. Please note that the processing time excludes the day of submission and some applications may take longer to process.\n\n[Document 2]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 3]\nYou can access the \"Print REP\" function on the e-Service to reprint your Re-Entry Permit (REP). There is no charge for the reprint of a REP.\n\n[Document 4]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 5]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.",
+  "retrieved_doc_ids": [
+    "PB_a74f1879324f284c6dde",
+    "PB_f69aa5d536523684f1ff",
+    "PB_5c63bf49bc0ed64dccba",
+    "PB_6cdb1150c49584cda270",
+    "PB_4e4521efc7be0bf0574a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d4d0d7b0866daa09e10a880ac7d1c9c859619eb5013d64eff623085eb2156891",
+  "answer": "The average processing time for REP renewal is within one week, and for REP transfer, it's within three working days, excluding the submission day and some taking longer. [Document 1]",
+  "input_tokens": 544,
+  "output_tokens": 39,
+  "seconds": 4.994394299996202,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

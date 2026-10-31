@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001525",
+  "doc_id": "1272",
+  "query_type": "hard",
+  "query": "What's the right way to notify the PWD about a canal leakage?",
+  "corpus_query_index": 1524,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.",
+  "context": "[Document 1]\nReporting Canal Breaches to PWD:\nTo report a canal breach, contact the nearest PWD office or call the PWD helpline immediately. Provide details of the breach, location, and your contact information. You can also report online through the PWD website or mobile app.\n\n[Document 2]\nReporting Drainage Issues to PWD:\nTo report drainage issues, contact the local PWD office or the Chennai Corporation (if in Chennai). You can also call the PWD helpline or file a complaint online through the Tamil Nadu Government's portal. Provide details of the location and issue for prompt action.\n\n[Document 3]\nReporting Dam Safety Issues:\nTo report dam safety issues, contact the Tamil Nadu PWD's Dam Safety Organization or the nearest PWD office. You can also call the PWD helpline or submit a complaint online through the PWD website. Provide detailed information about the issue for prompt action.\n\n[Document 4]\nReporting Encroachment on PWD Land:\nTo report encroachment, contact your local PWD office or the Tamil Nadu PWD helpline. Provide details of the location and nature of the encroachment. You can also submit a complaint online through the Tamil Nadu Government's grievance portal.\n\n[Document 5]\nReporting Traffic Signal Issues to PWD:\nTo report traffic signal issues, contact the Tamil Nadu Public Works Department (PWD) through their helpline or website. You can also submit a complaint at the nearest PWD office or through the Tamil Nadu Government's online complaint portal.",
+  "retrieved_doc_ids": [
+    "1272",
+    "1284",
+    "1274",
+    "1276",
+    "1288"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8e6033b175a9ab334119b6dde7966f6874f0425b7cdf506a0f926a90e5a20982",
+  "answer": "To notify the PWD about a canal leakage, contact the nearest PWD office or call the PWD helpline immediately. Provide details like the location and any other relevant information [Document 1].",
+  "input_tokens": 435,
+  "output_tokens": 41,
+  "seconds": 5.30560289999994,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001755",
+  "doc_id": "1313",
+  "query_type": "hard",
+  "query": "How do I end my GST registration in Tamil Nadu?",
+  "corpus_query_index": 1754,
+  "system": "Dense-RAG",
+  "reference_answer": "GST Registration Cancellation:\nFor GST registration cancellation in Tamil Nadu, file Form GST REG-16 on the GST portal (gst.gov.in). Provide reasons for cancellation and supporting documents. The tax officer will verify and cancel the registration.",
+  "context": "[Document 1]\nGST Registration Cancellation:\nFor GST registration cancellation in Tamil Nadu, file Form GST REG-16 on the GST portal (gst.gov.in). Provide reasons for cancellation and supporting documents. The tax officer will verify and cancel the registration.\n\n[Document 2]\nGST Registration in Tamil Nadu:\nTo apply for GST registration, visit the GST portal (gst.gov.in) and fill out the registration form. You will need a valid PAN, email, and mobile number. Upload required documents, such as proof of business and identity. Submit the application and wait for verification.\n\n[Document 3]\nGST Composition Scheme Application:\nTo apply for the composition scheme under GST in Tamil Nadu, visit the GST portal (gst.gov.in) and log in to your account. Fill out Form GST CMP-02, providing required details and documents. Submit the form and pay the applicable tax.\n\n[Document 4]\nFiling GST Returns in Tamil Nadu:\nTo file GST returns, log in to the GST portal (gst.gov.in) with your credentials. Select the return type (GSTR-1, GSTR-2, GSTR-3) and period. Fill out the return form, upload invoices, and pay any tax due. Submit the return and wait for acknowledgement.\n\n[Document 5]\nReporting Tax Evasion in Tamil Nadu:\nTo report tax evasion, contact the Tamil Nadu Commercial Taxes Department or the GST Council. You can also file a complaint online through the GST portal (gst.gov.in) or email the authorities. Provide details of the evasion, such as the taxpayer's name and GSTIN. All reports are kept confidential.",
+  "retrieved_doc_ids": [
+    "1313",
+    "1294",
+    "1312",
+    "1295",
+    "1296"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "301cc24cf760e5ad76571c8e64af99ba0909550fb17fab88e07f3aadc7de0b02",
+  "answer": "To end your GST registration in Tamil Nadu, file Form GST REG-16 on the GST portal (gst.gov.in). Provide reasons and supporting documents. The tax officer will verify and cancel the registration. [Document 1]",
+  "input_tokens": 449,
+  "output_tokens": 47,
+  "seconds": 5.918230299999777,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

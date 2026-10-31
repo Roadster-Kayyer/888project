@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_53",
+  "doc_id": "PB_619765030c2c1f6e27b8",
+  "query_type": "BTT",
+  "query": "What safety measures are included under road code conduct to ensure a safe following distance while driving?",
+  "reference_answer": "The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "corpus_query_index": 49,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 2]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 3]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 4]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 5]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.",
+  "retrieved_doc_ids": [
+    "PB_619765030c2c1f6e27b8",
+    "PB_716429660f2efd24efb8",
+    "PB_111b71b487c94f59fe3c",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_33b32af818c8c4223f8f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1e52a6e84ae8a074aa2465a02bc6935fdf24be461d4b7aece663103de80a334b",
+  "answer": "According to the road code, drivers should use the two-second rule and consider stopping distance, which can be affected by wet roads. Safe following distances are ensured through these measures to maintain a safe gap behind the vehicle in front. [Document 1]",
+  "input_tokens": 364,
+  "output_tokens": 51,
+  "seconds": 6.539096400010749,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

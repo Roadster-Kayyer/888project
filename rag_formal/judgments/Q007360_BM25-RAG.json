@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007360",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 2.\",\n  \"evidence\": \"[Document 2] Complaint against a Government College Professor or Principal: To complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.\"\n}",
+      "input_tokens": 762,
+      "output_tokens": 123,
+      "seconds": 9.737072800002352,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

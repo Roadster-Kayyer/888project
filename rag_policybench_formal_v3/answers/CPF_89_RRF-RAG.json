@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_89",
+  "doc_id": "PB_c843ce7aefae882d4bbe",
+  "query_type": "CPF_111",
+  "query": "I have income from different types of employment (e.g. employee, self-employed person, platform worker) during the work year. When will I receive my Workfare Income Supplement (WIS) for the work year?",
+  "reference_answer": "You will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.",
+  "corpus_query_index": 155,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 2]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 3]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 4]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.\n\n[Document 5]\nIf your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44",
+  "retrieved_doc_ids": [
+    "PB_e2328e4bd80a947d76a0",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_af1247343974a8960a93",
+    "PB_51abc1b31808d773e226",
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_b9d3a3139729c4387e2a"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d0c59dea084b3daed0d143f9ae5c0660acd97b28655bead6556edf07c7a8c38a",
+  "answer": "You will receive monthly WIS based on your income from employment. For SEPs, you'll get the WIS payment once a year for the preceding year. It's calculated based on your total income including net trade income, but without accounting for previous years' losses. Payments are made via PayNow or GovCash, with the first payment usually in the following month after declaration and contributions. [Document 2]",
+  "input_tokens": 733,
+  "output_tokens": 84,
+  "seconds": 11.057291500008432,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

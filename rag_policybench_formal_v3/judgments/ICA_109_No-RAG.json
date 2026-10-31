@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_109",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No retrieved evidence or direct factual claims in the candidate answer."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence from the reference.\",\n}",
+      "input_tokens": 388,
+      "output_tokens": 51,
+      "seconds": 3.9019381999969482,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"No retrieved evidence or direct factual claims in the candidate answer.\"}",
+      "input_tokens": 428,
+      "output_tokens": 36,
+      "seconds": 2.9522449000069173,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

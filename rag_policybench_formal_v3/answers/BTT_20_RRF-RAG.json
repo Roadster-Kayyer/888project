@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_20",
+  "doc_id": "PB_5c3115538294339c3ac4",
+  "query_type": "BTT",
+  "query": "Where must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+  "reference_answer": "They must travel along the left-hand lane of the expressway.",
+  "corpus_query_index": 13,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThey must travel along the left-hand lane of the expressway.\n\n[Document 2]\n40 km/h\n\n[Document 3]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 4]\nGive way to vehicles from the side road entering the main road.\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_5c3115538294339c3ac4",
+    "PB_5f8d1c2144f099bd0476",
+    "PB_cfbeecc8e8bd16153256",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0bf585c6006e375a4ac57236b8d364252d0fe2d55becc89a7729e943f9aca645",
+  "answer": "Vehicles with speed limits of 60 km/h and below must travel along the left-hand lane of the expressway. [Document 1]",
+  "input_tokens": 346,
+  "output_tokens": 31,
+  "seconds": 3.9873364999948535,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

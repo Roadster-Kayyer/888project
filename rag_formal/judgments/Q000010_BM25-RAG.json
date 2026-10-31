@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000010",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific steps for submitting electronic reports and filing an e-FIR in Tamil Nadu, supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process for submitting electronic evidence and filing an e-FIR in Tamil Nadu, supported by Document 3.\",\n}",
+      "input_tokens": 813,
+      "output_tokens": 73,
+      "seconds": 5.993104299999686,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2615.6005859375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific steps for submitting electronic reports and filing an e-FIR in Tamil Nadu, supported by evidence from Document 3.\"}\n\nNote: The \"faithfulness\" score of 2 is based on the fact that the candidate's answer is directly supported by the evidence provided in Document 3, which describes the e-FIR system in Tamil Nadu. The candidate's answer includes the necessary steps for both submitting electronic evidence and filing an e-FIR, which are consistent with the information in the reference documents.",
+      "input_tokens": 853,
+      "output_tokens": 151,
+      "seconds": 11.529751699999906,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2630.98876953125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

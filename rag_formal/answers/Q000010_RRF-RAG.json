@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000010",
+  "doc_id": "1",
+  "query_type": "hard",
+  "query": "Where can I submit an electronic report in Tamil Nadu?",
+  "corpus_query_index": 9,
+  "system": "RRF-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nSubmitting Electronic Evidence:\nTo submit electronic evidence in Tamil Nadu courts, follow these steps:\n1. Ensure the evidence is in a readable format.\n2. Verify the evidence with a digital signature or affidavit.\n3. Submit it to the court through a CD/DVD or USB drive, as per court instructions.\n\n[Document 2]\ne-FIR System in Tamil Nadu:\nThe e-FIR (Electronic First Information Report) system allows citizens to file police complaints online. Visit the Tamil Nadu Police website, fill out the e-FIR form, and submit it. A police officer will then contact you to verify the complaint and take further action.\n\n[Document 3]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 4]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.\n\n[Document 5]\nAccident Information Report Online:\nTo obtain an accident information report online, visit the Tamil Nadu Police website (tnpolice.gov.in) and click on \"Citizen Services\" or \"Online Services.\" Fill in the required details, such as accident date and location, and follow the prompts to download the report.",
+  "retrieved_doc_ids": [
+    "1138",
+    "1320",
+    "796",
+    "1",
+    "315"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "12034d1bbab8a0165ebb17fc22a3229a31bd6592d1e4527a07e203aa28f58d87",
+  "answer": "For submitting electronic evidence in Tamil Nadu courts, ensure the evidence is in a readable format, verified with a digital signature or affidavit, and submit via CD/DVD or USB drive as per court instructions [Document 1]. For filing an e-FIR (Electronic First Information Report), visit the Tamil Nadu Police website, fill out the e-FIR form, and submit it; a police officer will contact you next [Document 2-5].",
+  "input_tokens": 413,
+  "output_tokens": 90,
+  "seconds": 11.140296300000045,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2052.3857421875
+}

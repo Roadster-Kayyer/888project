@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_42",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the speed limit and directly references Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the speed limit and directly references Document 1.\",\n  \"evidence\": \"[Document 1] 40 km/h\"\n}\n\n\nThe reason for the scores is that the candidate answer is correct (2), directly addresses the question (2), and is fully supported by the evidence provided in Document 1 (2). There are no omissions or unsupported claims.",
+      "input_tokens": 568,
+      "output_tokens": 124,
+      "seconds": 9.494314499999746,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_10",
+  "doc_id": "PB_4a5e366a1e27905d0545",
+  "query_type": "BTT",
+  "query": "What gear practice should be followed while driving a manual vehicle to prevent dragging the engine?",
+  "reference_answer": "Avoid dragging the engine by using the correct gear.",
+  "corpus_query_index": 2,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAvoid dragging the engine by using the correct gear.\n\n[Document 2]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 3]\nBasic theory of driving.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nSlow down, keep left, and beware of oncoming traffic.",
+  "retrieved_doc_ids": [
+    "PB_4a5e366a1e27905d0545",
+    "PB_d52d8afcd0f078500080",
+    "PB_043f86bad043c042932a",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_2858faae83bda4331fb6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dba340510436f6428d81da15f864b1d0b67f579f4e7f03ccd82759e4f316890c",
+  "answer": "To prevent dragging the engine while driving a manual vehicle, use the correct gear [Document 1]. This practice increases fuel efficiency and reduces emissions [Document 2].",
+  "input_tokens": 202,
+  "output_tokens": 34,
+  "seconds": 5.046297299995786,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

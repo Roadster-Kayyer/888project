@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006335",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"To keep track of the outcome of a reported missing individual, regularly check official reports, contact law enforcement, and use a dedicated app or spreadsheet to document updates. Evidence not provided.\"\n}",
+      "input_tokens": 400,
+      "output_tokens": 192,
+      "seconds": 14.247349700002815,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_47",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not align with the reference which specifies ICA Services Centre, and there is no evidence provided to support the claim."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not align with the reference which specifies ICA Services Centre, and there is no evidence provided to support the claim.\",\n  \"evidence\": null\n}\n\n\nIn this case, the candidate's answer is incorrect as it does not match the reference information. There is also no evidence provided to support the claim, hence faithfulness is marked as null. The reason succinctly explains the scores.",
+      "input_tokens": 383,
+      "output_tokens": 127,
+      "seconds": 9.530831600000965,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

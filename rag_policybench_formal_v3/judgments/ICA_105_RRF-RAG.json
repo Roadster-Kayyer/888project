@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_105",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the reason based on provided documents and is fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the reason based on provided documents and is fully supported by evidence.\"\n}\n\n\nThe candidate answer directly addresses the question and is supported by Document 1, which states that individuals eligible for collection at SingPost will not be offered the option to book an appointment at ICA Services Centre. This directly correlates with the user's inability to book an appointment at ICA Services Centre. The answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 767,
+      "output_tokens": 141,
+      "seconds": 11.167729099994176,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

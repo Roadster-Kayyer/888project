@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_43",
+  "doc_id": "PB_66d3da627b3ea10f22bd",
+  "query_type": "BTT",
+  "query": "When approaching a side road, what should drivers do regarding vehicles entering from it?",
+  "reference_answer": "Give way to vehicles from the side road entering the main road.",
+  "corpus_query_index": 38,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nGive way to vehicles from the side road entering the main road.\n\n[Document 2]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 3]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 4]\nIt indicates that vehicles can proceed straight ahead as well as make a right turn.\n\n[Document 5]\nIt indicates the centre line of a two-way road.",
+  "retrieved_doc_ids": [
+    "PB_66d3da627b3ea10f22bd",
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_1bd233e28127cfee0c86",
+    "PB_15b5d9c0851609d354e4",
+    "PB_57b4cb852a1cc98f4ad5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a1d5ce05740e261fcc35881dc743ff30e453dd854a4d3c477cdbeb56d94be43f",
+  "answer": "When approaching a side road, drivers should give way to vehicles entering the main road from it [Document 1]. They also need to be cautious as the road ahead may narrow, requiring potential lane adjustments [Document 2]. After completing their turn and clearing the junction, drivers can proceed straight or make a right turn [Document 3 & Document 4].",
+  "input_tokens": 221,
+  "output_tokens": 73,
+  "seconds": 9.331357700008084,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

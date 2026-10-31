@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004091",
+  "doc_id": "1735",
+  "query_type": "original",
+  "query": "How does the legal principle of presumption of innocence work?",
+  "corpus_query_index": 4090,
+  "system": "BM25-RAG",
+  "reference_answer": "Presumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.",
+  "context": "[Document 1]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 2]\nPrinciple of Proportionality:\nThe principle of proportionality requires police actions to be proportionate to the threat or situation. Police must balance their response with the need to protect the public and respect individual rights.\n\n[Document 3]\nNatural Justice in Departmental Inquiries:\nThe principle of natural justice applies to departmental inquiries, ensuring fairness and transparency. It includes the right to be heard, the right to know the allegations, and the right to a fair and impartial inquiry.\n\n[Document 4]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.\n\n[Document 5]\nFree Legal Aid:\nFree legal aid is provided through the Tamil Nadu State Legal Services Authority. You can:\n* Approach the nearest Legal Services Authority\n* Meet the eligibility criteria (income-based)\n* Receive free legal representation and advice",
+  "retrieved_doc_ids": [
+    "1735",
+    "1747",
+    "1749",
+    "1753",
+    "765"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fd1a30b0dac6acc3b3feefc949b3ae6ea91a945e1f01e3a8d42eb1292f0d07ea",
+  "answer": "The legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this is enshrined in the Constitution and CrPC, where the burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt. [Document 1]",
+  "input_tokens": 388,
+  "output_tokens": 57,
+  "seconds": 7.434555499999988,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

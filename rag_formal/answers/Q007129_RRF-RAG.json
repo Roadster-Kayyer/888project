@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007129",
+  "doc_id": "40",
+  "query_type": "search",
+  "query": "Legal protections I receive upon being taken into custody?",
+  "corpus_query_index": 7128,
+  "system": "RRF-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nPolice Custody vs. Judicial Custody:\nPolice custody: Held by police for interrogation (up to 15 days).\nJudicial custody: Held in jail under court supervision (after 15 days or if police custody ends).\n\n[Document 2]\nChild Custody Disputes:\nThe police role is limited in child custody disputes. They can help in locating a missing child or preventing abduction. However, custody decisions are made by the court. Police may assist in enforcing court orders.\n\n[Document 3]\nPolice Custody Conditions:\nCitizens have the right to:\n* Be treated humanely in police custody\n* Have access to basic amenities like food, water, and medical care\n* Be produced before a magistrate within 24 hours of arrest\n* Contact family members or a lawyer\n\n[Document 4]\nApplying for Legal Custody of Abandoned Children:\nTo apply for legal custody, contact the District Child Welfare Committee (CWC) or the nearest police station. They will guide you through the process. You will need to provide documents and undergo a background check. The CWC will then recommend your application to the Juvenile Justice Board for approval.\n\n[Document 5]\nRole of a Duty Lawyer:\nA duty lawyer provides free legal advice and representation to arrested persons at the police station. They can help you understand your rights, explain the charges against you, and assist in the investigation process. Duty lawyers are available to ensure your rights are protected during police custody.",
+  "retrieved_doc_ids": [
+    "48",
+    "114",
+    "1457",
+    "1962",
+    "53"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e2815b2b068fcae8369785c27efc3ad7790555bdb68cb57c70ae34f00d02221f",
+  "answer": "Under police custody, individuals have rights including humane treatment, access to amenities, and being brought before a magistrate within 24 hours. [Document 3] Additionally, a duty lawyer can protect your rights and provide legal advice. [Document 5] Judicial custody involves court supervision after 15 days or when police custody ends. [Document 1] Child custody disputes are handled by courts, while police can assist in locating children. [Document 2]",
+  "input_tokens": 421,
+  "output_tokens": 94,
+  "seconds": 12.188387500000317,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

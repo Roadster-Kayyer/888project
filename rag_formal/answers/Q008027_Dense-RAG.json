@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008027",
+  "doc_id": "562",
+  "query_type": "formal",
+  "query": "Under what circumstances might vendors on the street face legal penalties?",
+  "corpus_query_index": 8026,
+  "system": "Dense-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nOnline Marketplace Fraud:\nThe penalty for online marketplace fraud in Tamil Nadu can include imprisonment up to 3 years and a fine up to ₹10,000 under the IPC Section 420, and also attracts penalties under the Information Technology Act, 2000.\n\n[Document 4]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 5]\nKeeping Shops Open During Bandh:\nKeeping shops open during a bandh (strike) can result in penalties, including fines and potential imprisonment, as per the Tamil Nadu Prevention of Disturbances Act, 2008. However, specific penalties may vary depending on the circumstances and local regulations.",
+  "retrieved_doc_ids": [
+    "562",
+    "507",
+    "596",
+    "528",
+    "540"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f46e005ff82bdf2158fecd6f0b5c843fc7321990026ee8c4ba443935b06c5dd0",
+  "answer": "Vendors on the street might face legal penalties for unauthorized street vending with fines up to ₹5,000 and/or imprisonment up to 3 years [Document 1]. Unauthorized street performances can incur a fine of up to ₹1,000 and possible arrest for public nuisance [Document 4]. Keeping shops open during a bandh can lead to fines and imprisonment [Document 5].",
+  "input_tokens": 402,
+  "output_tokens": 82,
+  "seconds": 10.763390600001003,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

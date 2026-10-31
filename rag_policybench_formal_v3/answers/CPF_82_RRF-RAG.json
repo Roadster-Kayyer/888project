@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_82",
+  "doc_id": "PB_e29140d6b3a201be99ba",
+  "query_type": "CPF_111",
+  "query": "If I participate in the Drive and Save (DAS) Scheme, will my Taxi Driver Vocational Licence (TDVL) be automatically renewed?",
+  "reference_answer": "No, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "corpus_query_index": 148,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 4]\nYou’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.\n\n[Document 5]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "retrieved_doc_ids": [
+    "PB_e29140d6b3a201be99ba",
+    "PB_dc08990660488c2ed4e8",
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_183b9bc3c7d1d8eee2cf",
+    "PB_09222d548a5f63af648a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04aef382c8918c0be08180864bd33a0e226c4d522ab89e7b133432473e509a13",
+  "answer": "No, participation in the Drive and Save (DAS) Scheme does not automatically renew your Taxi Driver Vocational Licence (TDVL). You must make MediSave contributions to renew your TDVL. [Document 1]",
+  "input_tokens": 551,
+  "output_tokens": 45,
+  "seconds": 6.369083900004625,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

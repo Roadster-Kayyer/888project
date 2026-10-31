@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002112",
+  "doc_id": "1379",
+  "query_type": "formal",
+  "query": "What mechanisms does the Tamil Nadu Police employ to collaborate with village administrative officers?",
+  "corpus_query_index": 2111,
+  "system": "RRF-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nCoordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.\n\n[Document 2]\nNight Patrolling System:\nThe Tamil Nadu Police conducts regular night patrols in remote villages through the 'Night Round' system. Police personnel, including village police officers, patrol designated areas to prevent and detect crime, and provide assistance to the public. The public can also report any concerns or incidents to the police control room (100) for immediate response.\n\n[Document 3]\nNeighborhood Watch Program Collaboration\n\nCitizen groups can collaborate with the Tamil Nadu Police by:\n* Registering with the local police station\n* Forming a neighborhood watch committee\n* Sharing information on suspicious activities\n* Participating in regular meetings with police officials\n* Reporting crimes and incidents promptly\n\nFor more information, contact your local police station or visit the Tamil Nadu Police Department website.\n\n[Document 4]\nPolice Accountability in Tamil Nadu:\nThe Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.\n\n[Document 5]\nMarket Security:\nTamil Nadu Police works with shopkeepers through the \"Market Watch\" initiative, where police and shopkeepers collaborate to prevent crime and maintain security in markets. Shopkeepers are trained to identify and report suspicious activities, and police provide regular patrols and guidance.",
+  "retrieved_doc_ids": [
+    "1379",
+    "1392",
+    "249",
+    "1419",
+    "1681"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d43e6ef6a3170b3769e25bdd646e14ab46884c971485bc7dcc8d4f2ef875d30a",
+  "answer": "The Tamil Nadu Police collaborates with village administrative officers (VAOs) through regular meetings and joint patrols. They share information and concerns to maintain law and order. [Document 1]",
+  "input_tokens": 461,
+  "output_tokens": 38,
+  "seconds": 4.944269300000087,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

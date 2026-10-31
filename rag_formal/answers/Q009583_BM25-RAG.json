@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009583",
+  "doc_id": "842",
+  "query_type": "casual",
+  "query": "So how do you check if someone's a servant?",
+  "corpus_query_index": 9582,
+  "system": "BM25-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 3]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 4]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "849",
+    "842",
+    "46",
+    "933",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9fad61a60c7cb297bc153976e54246d4c71dfda008a88ee2e8368785fe604eec",
+  "answer": "According to Document 1, to check if someone has been arrested, visit a police station or check online. For servant verification, apply to the local police station with ID proof and details, [Document 2] states. No direct method to check if someone is a servant is provided; it requires formal verification through the police system. [Document 1] gives steps for checking arrests.",
+  "input_tokens": 398,
+  "output_tokens": 79,
+  "seconds": 9.630594499998551,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

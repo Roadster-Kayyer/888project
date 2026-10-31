@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006232",
+  "doc_id": "239",
+  "query_type": "formal",
+  "query": "In what capacity does the Social Justice and Human Rights Wing operate?",
+  "corpus_query_index": 6231,
+  "system": "RRF-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 3]\nRole of State Human Rights Commission:\nThe State Human Rights Commission (SHRC) in Tamil Nadu:\n1. Investigates human rights violations.\n2. Looks into complaints of police excesses.\n3. Recommends action against erring officials.\n\n[Document 4]\nProtection of Human Rights Act:\nThe Protection of Human Rights Act, 1993, applies to police actions by ensuring they respect human rights. It prohibits torture, cruel, inhuman, or degrading treatment, and provides for punishment of police officers who violate these rights. The Act also establishes the National Human Rights Commission to investigate complaints.\n\n[Document 5]\nApproaching Human Rights Court:\nTo approach the Human Rights Court in Tamil Nadu, follow these steps:\n1. File a complaint with the Tamil Nadu State Human Rights Commission (TNSHRC).\n2. Provide details of the alleged human rights violation.\n3. Submit supporting documents and evidence.\n4. The TNSHRC will investigate and take necessary action.",
+  "retrieved_doc_ids": [
+    "239",
+    "2029",
+    "809",
+    "1725",
+    "1171"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2592d92c4ab3337529e385966ec3ac5e75e46231145dd22cbc456e8a545f8eba",
+  "answer": "The Social Justice and Human Rights Wing operates by promoting and protecting human rights, investigating violations, and implementing social justice initiatives. [Document 1]",
+  "input_tokens": 421,
+  "output_tokens": 30,
+  "seconds": 3.9095202999997127,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

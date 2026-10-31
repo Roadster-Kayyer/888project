@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007482",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence, accurately reflecting the measures taken by the Tamil Nadu Police."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering main facts about confidentiality, coded names, anonymity, and safety measures.\",\n}",
+      "input_tokens": 833,
+      "output_tokens": 71,
+      "seconds": 5.981949600000007,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence, accurately reflecting the measures taken by the Tamil Nadu Police.\"}\n\nNote: The scores are based on the assumption that the candidate answer provided is accurate and complete according to the reference documents. The \"faithfulness\" score of 2 indicates that the candidate's answer is fully supported by the evidence provided, as it includes specific details about confidentiality, coded names, and adherence to Supreme Court guidelines, all of which are mentioned in the reference documents.",
+      "input_tokens": 873,
+      "output_tokens": 142,
+      "seconds": 11.345039100000577,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

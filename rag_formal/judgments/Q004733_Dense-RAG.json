@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004733",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the process, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the process, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in the documents. It accurately describes the steps to file a writ petition in the Madras High Court, including drafting the petition, approaching the court, submitting to the Registry, paying the fee, and following the court's procedures. The evidence from Documents 1 and 2 directly supports these factual claims.",
+      "input_tokens": 898,
+      "output_tokens": 166,
+      "seconds": 13.074433100002352,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

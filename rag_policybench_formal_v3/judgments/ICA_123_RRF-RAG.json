@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_123",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that long-term pass holders can travel with a passport expiring in 6 months if valid, but must check destination country requirements and airline policies."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that long-term pass holders can travel with a passport expiring in 6 months if valid, but must check destination country requirements and airline policies.\"\n}",
+      "input_tokens": 1396,
+      "output_tokens": 192,
+      "seconds": 14.984599100003834,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

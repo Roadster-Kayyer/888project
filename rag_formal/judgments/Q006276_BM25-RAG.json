@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006276",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the Tamil Nadu Police's crowd management strategies during festivals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about crowd management strategies and specialized units used by Tamil Nadu Police during festivals.\",\n}",
+      "input_tokens": 801,
+      "output_tokens": 192,
+      "seconds": 15.002663800005394,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from all documents, accurately reflecting the Tamil Nadu Police's crowd management strategies during festivals.\"}",
+      "input_tokens": 841,
+      "output_tokens": 60,
+      "seconds": 5.096717400003399,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

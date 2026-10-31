@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_26",
+  "doc_id": "PB_e625576111e2a18d5ef0",
+  "query_type": "CPF_111",
+  "query": "What happens if I scan the generated PayNow QR code multiple times?",
+  "reference_answer": "To ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.",
+  "corpus_query_index": 86,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.\n\n[Document 2]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 3]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nThe QR code is generated via the MyICA mobile app, which can be downloaded for free from both App Store (iOS) and Google Play (Android).",
+  "retrieved_doc_ids": [
+    "PB_e625576111e2a18d5ef0",
+    "PB_bf4db8945d407eacbe6a",
+    "PB_b5339301e0857337a248",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_dd26aa147490be0c459d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cd78b6c44886171763fea0a7fdb5bca7b1e4b100e422940b145b89dd17dc6852",
+  "answer": "If you scan the generated PayNow QR code multiple times, the payment will be refunded. However, you can generate a new QR code for each subsequent payment. [Document 1]",
+  "input_tokens": 458,
+  "output_tokens": 38,
+  "seconds": 4.991659499995876,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

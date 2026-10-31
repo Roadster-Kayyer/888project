@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009460",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies issues All Women Police Stations handle but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly identifies issues All Women Police Stations handle but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 367,
+      "output_tokens": 71,
+      "seconds": 5.702800699997169,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

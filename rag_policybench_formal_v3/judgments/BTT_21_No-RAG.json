@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_21",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference, which suggests avoiding low temperatures and increasing fan speed."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference, which suggests avoiding low temperatures and increasing fan speed.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses optimizing fuel efficiency while using air conditioning, which is the core of the question. However, it does not directly address the specific recommendations given in the reference, which are to avoid low temperatures and increase fan speed. Therefore, the correctness score is 1, indicating that the answer is partly correct but omits important details from the reference. Faithfulness is scored as null because there is no evidence provided in the candidate answer to support or contradict the reference's claims. The reason succinct",
+      "input_tokens": 372,
+      "output_tokens": 192,
+      "seconds": 14.620305400007055,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

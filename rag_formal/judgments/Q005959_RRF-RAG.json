@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005959",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from all documents to support the process of verifying a stolen vehicle in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from all documents to support the process of verifying a stolen vehicle in Tamil Nadu.\",\n  \"evidence\": \"[Document 1, Document 2, Document 4, Document 5]\"\n}\n\n\nThe candidate answer is correct as it accurately describes the steps to confirm if a vehicle is reported as stolen in Tamil Nadu, which includes checking the vehicle's registration certificate and engine/chassis number, verifying with the Tamil Nadu Transport Department or local RTO, and using online services like the VAHAN portal. The answer is relevant as it directly addresses the question and provides a clear process for verification. The faithfulness",
+      "input_tokens": 835,
+      "output_tokens": 192,
+      "seconds": 14.690488500003994,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_30",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Members who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.\"\n}",
+      "input_tokens": 962,
+      "output_tokens": 192,
+      "seconds": 14.471338199989987,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

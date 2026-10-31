@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_61",
+  "doc_id": "PB_28ec022d3591816d8720",
+  "query_type": "ICA_134",
+  "query": "Can I register/replace my IC when I am residing overseas?",
+  "reference_answer": "You need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.",
+  "corpus_query_index": 260,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 2]\nYou must bring along your current IC for verification and invalidation unless you are collecting a replacement for a lost IC.\n\n[Document 3]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 4]\nICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_28ec022d3591816d8720",
+    "PB_5e87133ca7da061eb257",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_a49ff041193717d466d2",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "93bdc8d883b39e07f5340a320eb854f26727510f1122045afe4007d5f9b345ac",
+  "answer": "Yes, you can register/replace your IC if you plan to return to Singapore within six months. However, you must collect it in person. For overseas applicants, use Singpass or apply through Singapore missions at least two months before your current REP expires. [Document 1] [Document 2]",
+  "input_tokens": 413,
+  "output_tokens": 62,
+  "seconds": 7.934625800000504,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

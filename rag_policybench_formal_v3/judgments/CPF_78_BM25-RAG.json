@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_78",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Aligned tax relief criteria across CPF schemes for consistency and ease of understanding."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Aligned tax relief criteria across CPF schemes for consistency and ease of understanding.\"\n}\n\n\nThe candidate answer directly addresses the question by explaining the purpose of the combined tax relief cap and how it aligns the eligibility criteria across the CPF schemes. The evidence from Document 1 supports the factual claims made in the candidate answer, confirming the introduction of the cap for consistency and the prior differences in conditions. The reason succinctly summarizes the rationale behind the change.",
+      "input_tokens": 1638,
+      "output_tokens": 141,
+      "seconds": 10.989312100005918,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

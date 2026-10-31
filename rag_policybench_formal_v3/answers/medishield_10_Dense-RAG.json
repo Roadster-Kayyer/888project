@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_10",
+  "doc_id": "PB_d1fb942f89da85e7ad8d",
+  "query_type": "medishield",
+  "query": "What is the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000?",
+  "reference_answer": "Residents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.",
+  "corpus_query_index": 304,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 2]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 3]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 4]\nTo be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.\n\n[Document 5]\nTax relief is an incentive given to encourage members to build up retirement savings for themselves or their immediate family members, particularly older Singaporeans who may have less retirement savings.Your children have more time to accumulate savings in their working years for their own retirement needs. Hence, there is no tax relief for top-ups made to your children or non-immediate family members.",
+  "retrieved_doc_ids": [
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_4bd71ffc7b87577275da",
+    "PB_3808b698344f1c773560",
+    "PB_29b07e8c3007efc0cd16",
+    "PB_633b332cd4e09afc1045"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b0a4c8e8b1f62dad5b32d50e232bb21f8f84c1a8e9b3136e276f0fc679ac1322",
+  "answer": "According to Document 1, residents in residences with an Annual Value between $21,001 and $31,000 receive a 10 percentage point reduction in subsidy rates. [Document 1]",
+  "input_tokens": 578,
+  "output_tokens": 47,
+  "seconds": 6.177094399987254,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

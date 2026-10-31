@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_64",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer incorrectly identifies required documents, lacking evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer incorrectly identifies required documents, lacking evidence from the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is not correct as per the reference, which specifies the need for a Letter of Consent (LOC) and a valid LTVP, not a Work Permit (WPN) or Employment Pass (E-Pass). The evidence provided does not support the candidate's claim, hence the faithfulness score is null.",
+      "input_tokens": 393,
+      "output_tokens": 140,
+      "seconds": 10.562751899997238,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

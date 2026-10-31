@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_46",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly addresses the impact of gear on fuel efficiency and emissions, supported by Document 1 and partially by Document 2, while not directly addressing irrelevant aspects of Document 3 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly addresses the impact of gear on fuel efficiency and emissions, supported by Document 1 and partially by Document 2, while not directly addressing irrelevant aspects of Document 3 and Document 4.\"\n}",
+      "input_tokens": 719,
+      "output_tokens": 192,
+      "seconds": 14.735670600013691,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

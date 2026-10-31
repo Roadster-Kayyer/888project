@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_25",
+  "doc_id": "PB_287a02c335eda3a87f5d",
+  "query_type": "ICA_134",
+  "query": "Can I travel if my passport is valid for less than 6 months?",
+  "reference_answer": "Generally, a passport is only acceptable for travel if it has a validity period of at least 6 months.",
+  "corpus_query_index": 220,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nGenerally, a passport is only acceptable for travel if it has a validity period of at least 6 months.\n\n[Document 2]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 3]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 4]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 5]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.",
+  "retrieved_doc_ids": [
+    "PB_287a02c335eda3a87f5d",
+    "PB_0c264676a8242018a9a0",
+    "PB_09222d548a5f63af648a",
+    "PB_8171046f23dbdf9c0430",
+    "PB_19512072066023768385"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c4fc0342eca0a6745fbf9d7c6ad848148fc9a0b15b306fbf4042ea556fb4b980",
+  "answer": "Based on Document 1, if your passport is valid for less than 6 months, you generally cannot travel. However, some documents mention extensions through apps like MyICA, so it might be possible under certain conditions. It's best to check specific guidelines or use the MyICA app for up-to-date information. [Document 1]",
+  "input_tokens": 658,
+  "output_tokens": 69,
+  "seconds": 8.953956199999084,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

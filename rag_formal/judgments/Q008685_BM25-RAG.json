@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008685",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly cites relevant IPC sections and appropriate authorities for handling public fighting and workplace harassment."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly cites relevant IPC sections and appropriate authorities for handling public fighting and workplace harassment.\",\n  \"evidence\": \"[Document 2], [Document 4]\"\n}\n\n\nThe reason for the scores is that the candidate's answer directly addresses the question by citing the correct IPC section related to public fighting (Document 2) and provides information on how to report workplace harassment (Document 4). The answer is relevant to the question, as it pertains to the authorities' response to fighting during a work stoppage. The faithfulness score is 2 because the candidate's answer is supported by the evidence provided in the retrieved documents, specifically Document 2 and Document 4",
+      "input_tokens": 796,
+      "output_tokens": 192,
+      "seconds": 14.89659660000325,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

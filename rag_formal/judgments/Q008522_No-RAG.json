@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008522",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses penalties but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses penalties but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses penalties for assault in educational settings. However, it does not directly address the specific penalties mentioned in the reference (imprisonment up to 3 years and/or a fine), nor does it provide evidence from the reference to support the claim about suspension or expulsion. Therefore, the correctness score is 1 for being partly correct but missing important details. Faithfulness is scored as null because there is no substantive factual claim supported by the supplied evidence, which in this case is absent. The",
+      "input_tokens": 383,
+      "output_tokens": 192,
+      "seconds": 14.895434199999727,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

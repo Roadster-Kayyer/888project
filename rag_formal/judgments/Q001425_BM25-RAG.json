@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001425",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific actions and contact details from the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific actions and contact details from the evidence.\",\n  \"evidence_references\": [\"Document 1\", \"Document 2\", \"Document 5\"]\n}\n\n\n\nThe candidate answer is directly relevant to the question, as it provides specific actions to take when dealing with misbehaving police officers, which is a form of misbehavior in wooded areas. The answer includes the correct procedure of visiting the local police station and the option to contact higher-ups within the police department, which aligns with the information provided in Document 1. Additionally, the mention of the Citizens on Patrol program from Document 2 suggests a community-based approach to addressing",
+      "input_tokens": 764,
+      "output_tokens": 192,
+      "seconds": 14.82720899999913,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

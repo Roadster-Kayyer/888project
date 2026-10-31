@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000901",
+  "doc_id": "116",
+  "query_type": "original",
+  "query": "What is the age of criminal responsibility in India?",
+  "corpus_query_index": 900,
+  "system": "BM25-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nPresumption of Innocence:\nThe legal principle of presumption of innocence assumes an accused person is innocent until proven guilty. In India, this principle is enshrined in the Constitution and the Criminal Procedure Code (CrPC). The burden of proof lies with the prosecution to prove the accused's guilt beyond reasonable doubt.\n\n[Document 3]\nQuestion 2: Is there a single emergency helpline number in India?\nYes, the single emergency helpline number in India is 112.\n\n[Document 4]\nAge Determination in Juvenile Cases:\nIn Tamil Nadu, age determination is done through a medical examination by a qualified doctor. The court may also consider other evidence, such as school records or birth certificates. The age determination is crucial to decide whether the child should be treated as a juvenile or an adult under the law.\n\n[Document 5]\nStages of a Criminal Trial in India:\nThe stages are:\n1. Filing of FIR\n2. Investigation\n3. Chargesheet filing\n4. Framing of charges\n5. Trial\n6. Judgment",
+  "retrieved_doc_ids": [
+    "116",
+    "1735",
+    "254",
+    "119",
+    "1821"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1ab83ac35e46c6abb489dcb13ed48c9fd102213c0b1da8b20749a3ff0b8caeea",
+  "answer": "The age of criminal responsibility in India is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act [Document 1].",
+  "input_tokens": 394,
+  "output_tokens": 38,
+  "seconds": 4.964001799999096,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

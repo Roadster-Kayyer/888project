@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_8",
+  "doc_id": "PB_6a37eec904475577f862",
+  "query_type": "ICA_134",
+  "query": "Should I update the photo in the current passport if my/my child's facial appearance has changed?",
+  "reference_answer": "Regardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.",
+  "corpus_query_index": 280,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nRegardless of age, you should apply for a new passport with an updated photo if your facial appearance has changed significantly. This will help to facilitate immigration clearance and avoid any misunderstandings over the identity of the passport holder at any checkpoint. The prevailing application fee for a new passport applies.\n\n[Document 2]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 3]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.\n\n[Document 4]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.\n\n[Document 5]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.",
+  "retrieved_doc_ids": [
+    "PB_6a37eec904475577f862",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_3b19e2f31a18bd457d3a",
+    "PB_2e64264f3a3803434cab",
+    "PB_93b665013679b839e21c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "37ce6c4c59c369f8d6bd304c7c10ea38deb01533b8e2208fa78f4cd38d68aeca",
+  "answer": "Yes, you should update the photo in your or your child's passport if there has been a significant change in facial appearance. This ensures clear identification and helps with immigration processes. [Document 1]",
+  "input_tokens": 715,
+  "output_tokens": 41,
+  "seconds": 5.711821699995198,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

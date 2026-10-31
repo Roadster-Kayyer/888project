@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004093",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly explains the presumption of innocence, directly addresses the question, and is supported by the reference which states the principle is enshrined in Indian law."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the presumption of innocence, directly addresses the question, and is supported by the reference which states the principle is enshrined in Indian law.\",\n  \"evidence\": \"The candidate answer is directly supported by the reference which states that the presumption of innocence is a legal principle in India, as mentioned in the Constitution and the Criminal Procedure Code (CrPC).\"\n}",
+      "input_tokens": 430,
+      "output_tokens": 126,
+      "seconds": 9.847485700000107,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

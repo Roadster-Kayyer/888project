@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_64",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the requirement to meet FRS or BRS before withdrawal, supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the requirement to meet FRS or BRS before withdrawal, supported by Document 3.\",\n  \"evidence\": \"[Document 3] - You are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares.\"\n}",
+      "input_tokens": 1346,
+      "output_tokens": 112,
+      "seconds": 8.949239800000214,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

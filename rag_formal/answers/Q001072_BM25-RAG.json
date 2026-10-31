@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001072",
+  "doc_id": "1190",
+  "query_type": "formal",
+  "query": "What methods can be used to verify the genuineness of a judicial decree?",
+  "corpus_query_index": 1071,
+  "system": "BM25-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nExecution of a Court Decree:\nTo execute a court decree, you must file an execution petition with the court that passed the decree. Provide the decree copy, and the court will issue a notice to the respondent. The court may then attach properties or take other measures to ensure compliance with the decree.\n\n[Document 2]\nVerifying Police Summons:\nTo verify the genuineness of a police summons, visit the official Tamil Nadu Police website: [www.tnpolice.gov.in](http://www.tnpolice.gov.in).\n\n[Document 3]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 4]\nDNA Sample Rights:\nCitizens have the right to know why their DNA sample is being collected and how it will be used. They must provide informed consent before giving a sample. The sample will be stored securely and used only for the purpose stated.\n\n[Document 5]\nComplaint against Judicial Officers:\nTo file a complaint against judicial officers, approach the High Court of Judicature at Madras or the concerned District Court. Submit a written complaint with supporting documents to the Registrar (Vigilance) or the District Judge.",
+  "retrieved_doc_ids": [
+    "1054",
+    "345",
+    "1193",
+    "1451",
+    "1964"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "ce1f8e89e20269823021995f698bcb8a61d6012af791421927fe108459a53e21",
+  "answer": "To verify a judicial decree, file an execution petition with the same court that issued it. The court will check the decree's authenticity by reviewing its details and issuing a notice to the respondent. [Document 1]",
+  "input_tokens": 403,
+  "output_tokens": 44,
+  "seconds": 5.678014000000985,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

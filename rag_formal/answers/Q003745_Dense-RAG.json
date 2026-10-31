@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003745",
+  "doc_id": "1672",
+  "query_type": "hard",
+  "query": "What kind of organization is the Women Safety Committee and what duties do they perform?",
+  "corpus_query_index": 3744,
+  "system": "Dense-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\nCommunity Safety Groups for Women:\nTo form a community safety group:\n* Gather like-minded women in the residential area\n* Discuss concerns and goals\n* Elect a leader to coordinate efforts\n* Collaborate with local police and authorities\n\n[Document 3]\nWomen's Safety in Remote Villages:\nSpecial measures for women's safety include:\n* Increased police presence and patrols\n* Women's helplines and dedicated cells\n* Community outreach and awareness programs\n* Collaboration with local organizations for support\n\n[Document 4]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 5]\nSafety Measures for Women at Public Gatherings:\nTo stay safe, women should:\n* Be aware of their surroundings\n* Stay in well-lit and crowded areas\n* Avoid walking alone at night\n* Keep emergency numbers handy\n* Inform friends or family about their whereabouts",
+  "retrieved_doc_ids": [
+    "1672",
+    "1902",
+    "1388",
+    "1682",
+    "1895"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bc9ce234dc3ac3ce8d3728f6cf925517e7d18c1af58638c1fca4dbe92590bbfe",
+  "answer": "The Women Safety Committee is an organization in Tamil Nadu Police that addresses women's safety issues. They perform duties such as addressing complaints, providing counseling, and conducting awareness programs [Document 1].",
+  "input_tokens": 400,
+  "output_tokens": 39,
+  "seconds": 4.994437899998957,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

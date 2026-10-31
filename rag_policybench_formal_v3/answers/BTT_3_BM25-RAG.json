@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_3",
+  "doc_id": "PB_44fecebdc3e9128be8a9",
+  "query_type": "BTT",
+  "query": "What driving control can be used to switch on a device to clear the windshield when it is raining?",
+  "reference_answer": "The Wiper Switch.",
+  "corpus_query_index": 23,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 2]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 5]\nAll APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.",
+  "retrieved_doc_ids": [
+    "PB_8d18fc446288ee1e6348",
+    "PB_111b71b487c94f59fe3c",
+    "PB_cc60baad4cbf9560588b",
+    "PB_1bd233e28127cfee0c86",
+    "PB_2ebeefd2f2bd36471481"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "e26e4beae860d18a1060e1c2dbc04fb59f15ee3c418e4628d110fb03d5bea678",
+  "answer": "Based on Document 4, the driving control that can be used to switch on a device to clear the windshield when it's raining is \"proceed to complete their turn and clear the junction.\" However, this control is related to completing a turn at a junction, not clearing a windshield. [Document 4]",
+  "input_tokens": 522,
+  "output_tokens": 64,
+  "seconds": 25.822682899997744,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

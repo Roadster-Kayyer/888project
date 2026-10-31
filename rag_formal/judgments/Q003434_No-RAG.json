@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003434",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partially correct, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and partially correct, but lacks direct evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses reforms that could improve police-community interactions, such as community policing, body cameras, and de-escalation training. The correctness score is 2 because the answer is correct in stating that such reforms can improve interactions, which aligns with the reference's mention of reforms aimed at increasing transparency and trust. However, the relevance score is 1 because the answer does not directly address the specific reforms mentioned in the reference (community policing, public outreach",
+      "input_tokens": 411,
+      "output_tokens": 192,
+      "seconds": 14.940907199998037,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

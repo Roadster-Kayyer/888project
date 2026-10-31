@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007400",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer mentions relevant support services but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer mentions relevant support services but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses support services for expectant mothers in abusive relationships, which is pertinent to the question. However, it does not directly cite the specific services mentioned in the reference (Tamil Nadu Police helpline, National Domestic Violence Helpline, and local NGOs and counseling services), hence the correctness score is 1 for partly correct but important omissions. Faithfulness is scored as null because there is no substantive factual claim directly supported by the supplied evidence, and the evidence itself is not provided",
+      "input_tokens": 429,
+      "output_tokens": 192,
+      "seconds": 15.060008500004187,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

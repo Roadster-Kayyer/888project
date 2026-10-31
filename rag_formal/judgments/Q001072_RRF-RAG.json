@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001072",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the methods for verifying a judicial decree and is supported by evidence from Document 3 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods for verifying judicial decrees and is supported by evidence from Document 3 and Document 4.\",\n}",
+      "input_tokens": 785,
+      "output_tokens": 192,
+      "seconds": 14.530632999998488,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the methods for verifying a judicial decree and is supported by evidence from Document 3 and Document 4.\"}\nPedagogically, the candidate answer is scored highly in correctness and relevance because it accurately describes the process of verifying a judicial decree by contacting the issuing court or the Tamil Nadu State Judicial Department and checking the document's seal, signature, and stamp. The faithfulness score is also high because the answer is directly supported by the evidence provided in the retrieved documents, which outline the steps for verification and certification of judicial documents. The brief explanation in the reason field succinctly summarizes the rationale behind the scores.",
+      "input_tokens": 825,
+      "output_tokens": 173,
+      "seconds": 13.215133900001092,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

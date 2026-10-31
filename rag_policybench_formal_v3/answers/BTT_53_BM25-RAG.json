@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_53",
+  "doc_id": "PB_619765030c2c1f6e27b8",
+  "query_type": "BTT",
+  "query": "What safety measures are included under road code conduct to ensure a safe following distance while driving?",
+  "reference_answer": "The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "corpus_query_index": 49,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 2]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 3]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 4]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.\n\n[Document 5]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.",
+  "retrieved_doc_ids": [
+    "PB_619765030c2c1f6e27b8",
+    "PB_716429660f2efd24efb8",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_89b49e1ae6fc2845f85e",
+    "PB_e625576111e2a18d5ef0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "feb7f79be43e73dd845a2a2d752c67ff8acf7dc659e443b11450ae1bc922bd92",
+  "answer": "According to the road code, drivers should use the two-second rule and consider their stopping distance, which can double on wet roads. This ensures a safe following distance while driving. [Document 1]",
+  "input_tokens": 386,
+  "output_tokens": 41,
+  "seconds": 5.330145100000664,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

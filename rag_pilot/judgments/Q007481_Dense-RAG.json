@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007481",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1, accurately reflecting the Tamil Nadu Police's methods for protecting complainants' identities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the evidence from Document 1.\",\n}",
+      "input_tokens": 846,
+      "output_tokens": 192,
+      "seconds": 14.769373899998754,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1, accurately reflecting the Tamil Nadu Police's methods for protecting complainants' identities.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The candidate answer is correct (2), relevant (2), and faithful (2) as it directly addresses the question and is supported by the evidence provided. The brief explanation in the \"reason\" field succinctly justifies the scores.",
+      "input_tokens": 886,
+      "output_tokens": 133,
+      "seconds": 10.340293699999165,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

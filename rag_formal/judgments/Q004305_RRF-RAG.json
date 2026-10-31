@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004305",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the investigation process for missing foreign tourists, directly addresses the reference facts, and all substantive claims are supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the investigation process for missing foreign tourists, including coordination with embassies and conducting investigations, as supported by Document 1 and Document 2.\",\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps taken by the Tamil Nadu Police in investigating missing foreign tourists, which includes filing a missing person report, coordinating with the tourist's embassy, and conducting investigations. This is corroborated by the information provided in Document 1 and Document 2. The answer also touches upon the role of tourist police and the process for reporting a missing person, which is consistent with the information in Document 3 and Document 4",
+      "input_tokens": 853,
+      "output_tokens": 192,
+      "seconds": 14.955824900000152,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the investigation process for missing foreign tourists, directly addresses the reference facts, and all substantive claims are supported by the evidence provided.\"}",
+      "input_tokens": 893,
+      "output_tokens": 57,
+      "seconds": 4.546694200002094,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

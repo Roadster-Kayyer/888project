@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001755",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the process but lacks specific reference to Tamil Nadu and missing evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the process but lacks specific reference to Tamil Nadu and missing evidence.\",\n  \"evidence\": null\n}\n\n\nIn the candidate's answer, the process of deregistering through the GST portal is mentioned, which is relevant to the question. However, the answer does not specifically mention Tamil Nadu, which is crucial as per the reference. Additionally, there is no evidence provided to support the factual claims made in the answer, hence the faithfulness score is null. The reason succinctly explains the scores given.",
+      "input_tokens": 415,
+      "output_tokens": 157,
+      "seconds": 12.191721399998642,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

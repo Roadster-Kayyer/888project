@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002129",
+  "doc_id": "1381",
+  "query_type": "search",
+  "query": "How do authorities respond to illegal activities concerning forest rights among tribal populations?",
+  "corpus_query_index": 2128,
+  "system": "RRF-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 2]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.\n\n[Document 3]\nProtecting tribal land rights:\nThe role of police in protecting tribal land rights is to:\n* Prevent encroachment and land grabbing\n* Investigate cases of land disputes and fraud\n* Assist in revenue recovery and restoration of tribal lands\n* Collaborate with revenue and tribal welfare departments\n\n[Document 4]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.\n\n[Document 5]\nIllegal Construction on Tribal Lands:\nIllegal construction on tribal lands can result in imprisonment up to 3 years and/or a fine under the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989, and the Tamil Nadu Forest Act, 1882.",
+  "retrieved_doc_ids": [
+    "1381",
+    "1254",
+    "1376",
+    "1413",
+    "737"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "11f19a93299516a0f8e5a700d45545b3318e704309c928c6ce0e4387736f7bf1",
+  "answer": "Authorities in tribal areas respond to illegal forest activities by registering complaints, investigating cases, collaborating with forest departments, and enforcing laws like the Forest Rights Act [Document 1]. They coordinate with the Forest Department for joint patrols and prevention efforts [Document 4]. Additionally, they use legal measures such as the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act and the Tamil Nadu Forest Act to penalize illegal construction [Document 5] [Document 1]. [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 434,
+  "output_tokens": 113,
+  "seconds": 14.218334699999104,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

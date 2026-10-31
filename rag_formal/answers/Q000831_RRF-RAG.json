@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000831",
+  "doc_id": "1147",
+  "query_type": "original",
+  "query": "What is the procedure for obtaining a No Due Certificate from court?",
+  "corpus_query_index": 830,
+  "system": "RRF-RAG",
+  "reference_answer": "Obtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.",
+  "context": "[Document 1]\nObtaining a No Due Certificate from Court:\nTo obtain a No Due Certificate, file a petition with the court that issued the original order. Provide required documents, such as case details and identity proof. The court will verify and issue the certificate if no dues are pending.\n\n[Document 2]\nObtaining No Objection Certificates:\nTo obtain a No Objection Certificate (NOC) from the police in Tamil Nadu, visit the local police station and submit an application with required documents, such as ID proof and address proof. The purpose of the NOC must be specified. The police will verify the details and issue the NOC if all conditions are met.\n\n[Document 3]\nObtaining a No Objection Certificate (NOC)\nTo obtain an NOC, visit your local police station with required documents (ID proof, address proof, etc.). Fill out the application form, submit documents, and pay the prescribed fee. The police will verify the details and issue the NOC.\n\n[Document 4]\nNOC Application Portal:\nThe portal for applying for NOC (No Objection Certificate) from the police department is the Tamil Nadu Police Citizen Services portal (https://www.tnpolice.gov.in/citizen).\n\n[Document 5]\nObtaining Succession Certificate in Tamil Nadu:\nTo obtain a succession certificate, apply to the District Court with a petition, death certificate, and proof of relationship. The court will issue a notice and conduct an inquiry before granting the certificate.",
+  "retrieved_doc_ids": [
+    "1147",
+    "2038",
+    "820",
+    "343",
+    "1859"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7f05a14bb55195652f54d074e8bebeb2e62158dd42bf250eb844757eb2c6fed",
+  "answer": "To obtain a No Due Certificate from court, file a petition with the issuing court. Provide case details and ID proof. The court verifies and issues the certificate if no dues are outstanding. [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 43,
+  "seconds": 5.562486800000443,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_80",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate's answer contradicts the reference, which states DP holders can study without a Student's Pass under certain conditions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer contradicts the reference, which states DP holders can study without a Student's Pass under certain conditions.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 461,
+      "output_tokens": 77,
+      "seconds": 6.188244199991459,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

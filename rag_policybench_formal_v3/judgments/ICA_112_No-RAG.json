@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_112",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence from the reference, which states a method to change appointments."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence from the reference, which states a method to change appointments.\",\n  \"evidence\": \"The reference provides a clear procedure for changing appointments but the candidate answer does not directly reference this procedure.\"\n}",
+      "input_tokens": 351,
+      "output_tokens": 88,
+      "seconds": 6.774957300003734,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

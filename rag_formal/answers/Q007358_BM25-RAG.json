@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007358",
+  "doc_id": "441",
+  "query_type": "casual",
+  "query": "How can I tell on a college teacher or principal at a government school to get them in trouble?",
+  "corpus_query_index": 7357,
+  "system": "BM25-RAG",
+  "reference_answer": "Complaint against a Government College Professor or Principal:\nTo complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.",
+  "context": "[Document 1]\nReporting Misconduct by a Government School Teacher:\nTo report misconduct, contact the school principal or the District Education Officer. You can also file a complaint with the Tamil Nadu School Education Department through their official website or visit the nearest Block Education Office.\n\n[Document 2]\nComplaint against a Government College Professor or Principal:\nTo complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.\n\n[Document 3]\nReporting Drug Use in Educational Institutions:\nStudents can report drug use in educational institutions by informing their school/college authorities, such as the principal or counselor, who will then contact the police or a designated anti-drug helpline. Reports can be made anonymously to protect the student's identity.\n\n[Document 4]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "396",
+    "441",
+    "125",
+    "799",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "86437637e391b7843c16999ffcd85d131164bf6147f6fc1594af0b300599cd66",
+  "answer": "To get a government school teacher or principal in trouble, report misconduct following the guidelines in the documents. For teachers/principals, report to school/college authorities or relevant departments. For drug use, inform school/college authorities and they'll handle reporting. [Document 1-5]",
+  "input_tokens": 428,
+  "output_tokens": 59,
+  "seconds": 7.809935899998891,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_16",
+  "doc_id": "PB_111b71b487c94f59fe3c",
+  "query_type": "BTT",
+  "query": "What is the penalty for using a mobile communication device while driving in Singapore?",
+  "reference_answer": "The penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.",
+  "corpus_query_index": 8,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 2]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 3]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "retrieved_doc_ids": [
+    "PB_111b71b487c94f59fe3c",
+    "PB_8d18fc446288ee1e6348",
+    "PB_5b5856d1886897cce5a3",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_a5deb8741f88193f4891"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bfc48a3117af35fd4bc3aebcf7940ff8edc1392a2e8deb0d91266898f51c3a99",
+  "answer": "The penalty for using a mobile communication device while driving in Singapore includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both. [Document 1]",
+  "input_tokens": 397,
+  "output_tokens": 40,
+  "seconds": 4.8854268999930355,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

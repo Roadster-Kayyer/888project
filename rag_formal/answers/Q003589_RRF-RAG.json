@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003589",
+  "doc_id": "1644",
+  "query_type": "search",
+  "query": "What new gear is given to police for their own protection?",
+  "corpus_query_index": 3588,
+  "system": "RRF-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nPolice Clearance for New SIM Card:\nTo get police clearance for a new SIM card, visit your local police station with a valid ID proof, address proof, and a filled-in application form. The police will verify your details and provide a clearance certificate, which you can then submit to your telecom service provider.\n\n[Document 2]\nGetting Police Protection:\nTo get police protection, visit your local police station and file a complaint. Provide evidence of threats, and the police will assess the situation and provide necessary protection. You can also call 100 for emergency assistance.\n\n[Document 3]\nPolice Protection for Witnesses:\nFor police protection, witnesses can approach the concerned police station or court, providing a written request with witness statement and threat details. The police will assess the threat and provide protection as per the Witness Protection Scheme, 2018, guidelines.\n\n[Document 4]\nTraining Curriculum Updates:\nTamil Nadu Police has updated its training curriculum to include modern policing techniques, human rights, and community policing. New recruits are also trained in technology, forensic science, and soft skills to enhance their performance and public interaction.\n\n[Document 5]\nProtection during Civil Unrest:\nForeigners seeking protection during civil unrest can contact the local police station or the Tamil Nadu Police's Foreigners' Registration Office (FRO). They can also reach out to their respective embassies or consulates for assistance. The police will provide necessary protection and support to ensure their safety.",
+  "retrieved_doc_ids": [
+    "218",
+    "828",
+    "2075",
+    "1617",
+    "1778"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4c7fe6ad9bc990b91044f2ce1dd41f29a9ac3e2066032bc584005e078e2a1384",
+  "answer": "[Document 1] doesn't mention new gear for police protection. [Document 4] talks about training in technology and forensic science, but not new gear. No new gear information found in provided documents.",
+  "input_tokens": 418,
+  "output_tokens": 43,
+  "seconds": 5.643344599999182,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

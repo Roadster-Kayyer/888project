@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000055",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific steps and referencing the official website, which aligns with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific steps and referencing the official website, which aligns with the evidence provided.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the question by providing a clear method to locate past traffic infractions, which includes visiting the police station and using the Tamil Nadu Police Department's website, as well as the option to appeal against traffic challans through the online portal. The relevance score is 2 because the answer directly addresses the question and provides actionable steps. Faithfulness is rated as 2 because the candidate's answer is fully supported by the evidence",
+      "input_tokens": 736,
+      "output_tokens": 192,
+      "seconds": 14.61010719999831,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

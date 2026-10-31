@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002113",
+  "doc_id": "1379",
+  "query_type": "casual",
+  "query": "So how do the police in Tamil Nadu work with the people who run villages?",
+  "corpus_query_index": 2112,
+  "system": "RRF-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nNight Patrolling System:\nThe Tamil Nadu Police conducts regular night patrols in remote villages through the 'Night Round' system. Police personnel, including village police officers, patrol designated areas to prevent and detect crime, and provide assistance to the public. The public can also report any concerns or incidents to the police control room (100) for immediate response.\n\n[Document 2]\nMobile Police Station System:\nThe Tamil Nadu Police Department operates mobile police stations to serve remote villages. These vehicles are equipped with basic policing facilities and travel to designated areas, providing citizens with easy access to police services.\n\n[Document 3]\nTamil Nadu Police Coordination with Schools:\nThe Tamil Nadu Police coordinates with schools through the District Child Protection Unit. Schools are required to report suspected child abuse to the police, who then investigate and provide support to the child.\n\n[Document 4]\nCattle Theft:\nThe Tamil Nadu Police addresses cattle theft in villages through:\n* Registering complaints and investigating cases\n* Conducting regular patrols in vulnerable areas\n* Collaborating with local communities to gather information\n\n[Document 5]\nEmergency Response in Remote Hill Villages:\nIn Tamil Nadu, remote hill villages have limited access to emergency services. The police department has set up a system of wireless communication and emergency response teams to reach these areas. Villagers can contact the nearest police station or use the emergency number 100 to report any incidents.",
+  "retrieved_doc_ids": [
+    "1392",
+    "1372",
+    "490",
+    "1367",
+    "1384"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "25281d718780e7ca177ae6d2c58a17484d478a20feb8a817f388e56e6d30ea42",
+  "answer": "The Tamil Nadu Police works with village leaders and residents through night patrols and mobile police stations. They also coordinate with schools and collaborate with local communities to address issues like cattle theft. Emergency response teams are set up in remote hill villages for better access to help. [Document 1, Document 2]",
+  "input_tokens": 411,
+  "output_tokens": 61,
+  "seconds": 7.87305010000091,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

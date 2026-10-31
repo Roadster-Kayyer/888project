@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_73",
+  "doc_id": "PB_2efa64de426db8e30ff0",
+  "query_type": "ICA_134",
+  "query": "What should I do if I have not received my PIN mailer or address sticker?",
+  "reference_answer": "If you have not received your PIN or address sticker after seven (7) days (for local addresses), please request for another PIN or sticker via the e-service. After you request for a new PIN, the original PIN will no longer be valid. For overseas addresses, the delivery time may be longer.",
+  "corpus_query_index": 273,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf you have not received your PIN or address sticker after seven (7) days (for local addresses), please request for another PIN or sticker via the e-service. After you request for a new PIN, the original PIN will no longer be valid. For overseas addresses, the delivery time may be longer.\n\n[Document 2]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 3]\nMembers will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.\n\n[Document 4]\nThe lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up.If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\n\n[Document 5]\nFor STP holders who are required to complete formalities at ICA, you should receive the email within 30 minutes after the completion of formalities. If you did not receive the email after 30 minutes:Check the spam or junk folder of your email accountEnsure that your email inbox folder is not fullEnsure that you have an active internet connection on your deviceFor STP holders who had their biometrics enrolled at the ir school, you will receive the email no more than seven (7) working days from the date of your enrolment.If you are unable to locate the email after performing the above checks, you may contact us via the enquiry form for assistance.",
+  "retrieved_doc_ids": [
+    "PB_2efa64de426db8e30ff0",
+    "PB_aa5916ddd19af121154f",
+    "PB_c1a387ce75f3f9c696bf",
+    "PB_5ae2776cd5bb7bd71a02",
+    "PB_5ddf7c95efdb8392ffd9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "50f8b64d421b020f9d668b79c3d6351db57606dc77a72a5b8a0ccd0f3e14b753",
+  "answer": "If you haven't received your PIN mailer or address sticker after 7 days, request a new one via e-service. Otherwise, check your email for a new PIN and address sticker. [Document 1]",
+  "input_tokens": 608,
+  "output_tokens": 44,
+  "seconds": 5.759328500003903,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

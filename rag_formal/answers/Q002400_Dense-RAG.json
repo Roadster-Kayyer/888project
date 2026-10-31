@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002400",
+  "doc_id": "143",
+  "query_type": "hard",
+  "query": "What records do I need to gather to demonstrate I'm facing harassment online?",
+  "corpus_query_index": 2399,
+  "system": "Dense-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nReporting Online Harassment:\nTo report online harassment or cyberstalking, visit the nearest police station or cybercrime cell and file a complaint. You can also report incidents to the National Cyber Crime Reporting Portal or call the cybercrime helpline.\n\n[Document 2]\nFiling a Case Against Online Harassment:\nTo file a case against online harassment, collect evidence of the harassment, such as screenshots or messages. Approach the nearest police station or a cyber crime cell and file a complaint under Section 67 of the IT Act or Section 354 of the IPC. The police will guide you through the process.\n\n[Document 3]\nSupport for Digital Harassment:\nFor digital harassment, contact the Cyber Crime Cell (0172-2740591) or the women's helpline (181). They will guide you through the process of filing a complaint and provide support to block or report abusive content online.\n\n[Document 4]\nReporting Harassment in Educational Institutions:\nReport harassment in educational institutions to the institution's Internal Complaints Committee (ICC) or the District Education Officer. You can also contact the National Commission for Women (NCW) or the Tamil Nadu State Commission for Women for assistance.\n\n[Document 5]\nFiling a Complaint about Online Harassment:\nTo file a complaint, visit the nearest police station or cyber crime cell. Provide details of the harassment, including screenshots and URLs. You can also file a complaint online through the Tamil Nadu Police website or the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "97",
+    "1089",
+    "479",
+    "469",
+    "877"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "2cf03f523a009a6a45de724521e1d46176518affca146828e0a75a6a1ad50039",
+  "answer": "To demonstrate online harassment, gather evidence like screenshots or messages. Report it at the nearest police station, cybercrime cell, or use portals/call helplines. File a complaint with details and supporting evidence. [Document 1-5]",
+  "input_tokens": 441,
+  "output_tokens": 50,
+  "seconds": 6.2489994000006845,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

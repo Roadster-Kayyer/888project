@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_110",
+  "doc_id": "PB_b136e24f78206e70b3ee",
+  "query_type": "CPF_111",
+  "query": "I am holding two types of licences (e.g. LTA and ACRA). Do I have to contribute to MediSave for both licences?",
+  "reference_answer": "The MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.",
+  "corpus_query_index": 69,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 4]\nYou will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.\n\n[Document 5]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply",
+  "retrieved_doc_ids": [
+    "PB_b136e24f78206e70b3ee",
+    "PB_cc60baad4cbf9560588b",
+    "PB_e29140d6b3a201be99ba",
+    "PB_0ef2de268e8e14db8c6f",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "340448ceae96ae6d3f70df3b3343b5cffaf8b7dce4f21bf4631650c42d0bc0f0",
+  "answer": "Based on Document 1, you are required to make contributions to your MediSave Account if your annual net trade income (NTI) from your licences exceeds $6,000. Since the document does not specify which type of NTI applies to each licence, you should check your NTI from each licence individually. [Document 1]",
+  "input_tokens": 898,
+  "output_tokens": 71,
+  "seconds": 9.899925000005169,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

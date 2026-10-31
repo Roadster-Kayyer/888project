@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_86",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the information from Document 1 regarding the dependency of PCTS amount on age, earnings, and offset rate, and correctly cites the range of offset percentages."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the information from Document 1 regarding the dependency of PCTS amount on age, earnings, and offset rate, and correctly cites the range of offset percentages.\",\n  \"evidence\": \"Document 1 and candidate answer\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is a placeholder to indicate that the \"faithfulness\" score is based on the provided documents and candidate answer. In a real-world scenario, the evidence would be the actual text from the documents, which is not included in this response due to the instruction to not include text but only keys and values. The \"evidence\" key is used here to demonstrate the connection between the score and",
+      "input_tokens": 1599,
+      "output_tokens": 192,
+      "seconds": 15.117327400002978,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

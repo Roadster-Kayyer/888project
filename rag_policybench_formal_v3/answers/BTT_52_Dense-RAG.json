@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_52",
+  "doc_id": "PB_786ca90f3ae19fb193e3",
+  "query_type": "BTT",
+  "query": "What is indicated by merging arrows drawn on the road in Singapore's Basic Theory Test?",
+  "reference_answer": "Merging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.",
+  "corpus_query_index": 48,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nBasic theory of driving.\n\n[Document 4]\nThe 'Group Submission' is meant for a group of persons who are travelling to Singapore together for one trip.\n\n[Document 5]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.",
+  "retrieved_doc_ids": [
+    "PB_786ca90f3ae19fb193e3",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_043f86bad043c042932a",
+    "PB_2e9958593302003e21bd",
+    "PB_56ae394ef36d16f6c616"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3b1fb75421df465d3d285fb46e652004004b3f330a3265db55c7df4f0cbed3a7",
+  "answer": "Merging arrows on the road in Singapore's Basic Theory Test indicate that two traffic lanes are merging into one, giving motorists advance warning of this situation. [Document 1]",
+  "input_tokens": 234,
+  "output_tokens": 36,
+  "seconds": 4.793422000002465,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

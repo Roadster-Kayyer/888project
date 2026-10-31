@@ -1,0 +1,31 @@
+{
+  "query_id": "medishield_7",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No direct slogan provided, no evidence to support a specific slogan."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly infers the slogan's focus on comprehensive coverage, directly addresses the question, and is supported by evidence from Document 4.\",\n}",
+      "input_tokens": 785,
+      "output_tokens": 192,
+      "seconds": 14.863914100002148,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"No direct slogan provided, no evidence to support a specific slogan.\"}",
+      "input_tokens": 825,
+      "output_tokens": 40,
+      "seconds": 3.3916330999927595,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

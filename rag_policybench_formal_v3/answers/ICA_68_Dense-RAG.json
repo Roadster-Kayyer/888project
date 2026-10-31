@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_68",
+  "doc_id": "PB_c1aaea57c1b02e2e8590",
+  "query_type": "ICA_134",
+  "query": "Why was my Student's Pass application rejected?",
+  "reference_answer": "We regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.",
+  "corpus_query_index": 267,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nWe regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.\n\n[Document 2]\nYou must be accepted for admission into a full-time course by a recognised education institution in Singapore to apply for renewal of your Student's Pass. You may renew your Student's Pass online using the e-Service.\n\n[Document 3]\nUpon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.\n\n[Document 4]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 5]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.",
+  "retrieved_doc_ids": [
+    "PB_c1aaea57c1b02e2e8590",
+    "PB_9b3d1195e8f4641e640b",
+    "PB_bc945ef27bfe4a4e76b0",
+    "PB_a5deb8741f88193f4891",
+    "PB_a6030c6c9eb84a58b3ba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b3aab60285ab9b5ddb43b55d98cd9d3796dfd7415154b14eb14858eaf685da13",
+  "answer": "Your application was likely rejected because you didn't meet the requirement of being accepted for admission into a full-time course by a recognized Singaporean institution. Additionally, ensure all application details are correct and avoid overstaying, as it's an offense. [Document 1-5]",
+  "input_tokens": 456,
+  "output_tokens": 56,
+  "seconds": 7.293150199999218,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001423",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly refers to reporting illegal activities and mentions Child Welfare Police Officers, but lacks direct instructions for reporting naughty behavior in the woods. Evidence supports the role of Child Welfare Police Officers and reporting procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly refers to reporting illegal activities and mentions Child Welfare Police Officers, but lacks direct instructions for reporting naughty behavior in the woods. Evidence supports the role of Child Welfare Police Officers and reporting procedures.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 5]\"\n}",
+      "input_tokens": 926,
+      "output_tokens": 118,
+      "seconds": 9.276564600000711,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

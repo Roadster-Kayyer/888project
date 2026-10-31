@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007393",
+  "doc_id": "448",
+  "query_type": "casual",
+  "query": "Can you tell me how to tell the cops about someone being forced to get married or having their marriage made when they're still a kid?",
+  "corpus_query_index": 7392,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 2]\nReporting Child Marriage:\nTo report child marriage, contact the local police station or call 100 (Tamil Nadu Police Helpline). Provide details about the marriage, including date, time, location, and parties involved. You can also contact the Childline at 1098 for assistance.\n\n[Document 3]\nChild Marriage in Tribal Communities:\nThe Tamil Nadu Police addresses child marriage in tribal communities through awareness programs and collaboration with tribal welfare departments. They conduct regular checks and raids to prevent child marriages, and work with NGOs to educate communities about the ill effects of child marriage.\n\n[Document 4]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 5]\nReporting Abandonment by Husband:\nTo report abandonment by husband, visit the nearest police station and file a complaint. You can also contact the All-Women Police Station or the 181 Helpline for assistance. Provide necessary documents, such as marriage certificate and proof of abandonment, to support your complaint.",
+  "retrieved_doc_ids": [
+    "448",
+    "901",
+    "1399",
+    "57",
+    "473"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ac24fe20d4d95056e19f706e59dfc3f62f2b187cb2c2905d20594f194fcd2e34",
+  "answer": "Contact the Tamil Nadu Police helpline: 1091 or 181. Report the forced or child marriage by providing details like date, time, location, and parties involved. Local police stations or Childline (1098/1098) can assist. [Document 1]",
+  "input_tokens": 437,
+  "output_tokens": 65,
+  "seconds": 8.528721999999107,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

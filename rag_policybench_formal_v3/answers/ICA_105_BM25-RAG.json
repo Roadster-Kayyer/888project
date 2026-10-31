@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_105",
+  "doc_id": "PB_e2674473ab2ca705d2e2",
+  "query_type": "ICA_134",
+  "query": "Why am I unable to book an appointment to collect my passport at ICA Services Centre?",
+  "reference_answer": "If you are eligible for collection at SingPost, you will only be offered this option and will not be able to book an appointment at ICA Services Centre.",
+  "corpus_query_index": 175,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf you are eligible for collection at SingPost, you will only be offered this option and will not be able to book an appointment at ICA Services Centre.\n\n[Document 2]\nYou are not required to book an appointment for oath-taking. You may proceed to ICA Services Centre and obtain an 'Oath-taking' queue ticket at the self-service kiosks. Please ensure you have the required documents to complete your Oath of Renunciation, Allegiance and Loyalty (ORAL).\n\n[Document 3]\nYou will be prompted to make an appointment in 'Applications' if required. If you have booked an appointment, you will see your upcoming appointment in 'Notifications'. You can click on the notification to view instructions on how to make changes to the appointment. Alternatively, you can book, change or cancel an appointment in 'e-Services', under 'e-Appointment'.\n\n[Document 4]\nYou have a 4-day collection window to collect your passport at SingPost from your appointment date. If you miss the collection window, please make another appointment to collect your passport 2 working days after the collection window has lapsed.\n\n[Document 5]\nYou must collect your passport in person, be it at SingPost or ICA Services Centre.For your child (aged below 16 at the point of application) and if the collection is at ICA Services Centre, you may authorise another person to accompany your child. In addition to the documents listed in the notification card/email, the authorised person would need to bring along his/her IC and the signed authorisation letter by consenting parent, which includes names and IC numbers of both parties as well as name and birth certification number of child.If the collection is at SingPost, the consenting parent who applied for the child's passport must be present and you cannot authorise another person to collect your child's passport on your behalf.",
+  "retrieved_doc_ids": [
+    "PB_e2674473ab2ca705d2e2",
+    "PB_1a415c32f0198d4b1595",
+    "PB_bae89a527e0df10a772e",
+    "PB_927c6923e7588158fb23",
+    "PB_2e64264f3a3803434cab"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c114bd85911f208c31b6493c40439c2cdec5a41f58b1579552321fa0c847892d",
+  "answer": "Based on Document 1, you are unable to book an appointment to collect your passport at ICA Services Centre because you are eligible for collection at SingPost instead. [Document 1]",
+  "input_tokens": 509,
+  "output_tokens": 39,
+  "seconds": 5.181851699991967,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

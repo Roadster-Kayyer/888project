@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_40",
+  "doc_id": "PB_776de7439758761e5c43",
+  "query_type": "BTT",
+  "query": "What information is indicated by the car park signboard located at the entrance of each car park or along the public road?",
+  "reference_answer": "The car park signboard indicates the different parking schemes, operating hours, and parking rates available.",
+  "corpus_query_index": 35,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 5]\nIt indicates the centre line of a two-way road.",
+  "retrieved_doc_ids": [
+    "PB_776de7439758761e5c43",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_716429660f2efd24efb8",
+    "PB_8d18fc446288ee1e6348",
+    "PB_57b4cb852a1cc98f4ad5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f581dbf4565b2b78124b9e83588234ec4457deb9c9870417d2c7e63b74e9ab2d",
+  "answer": "Car park signboards indicate parking schemes, operating hours, and rates [Document 1]. They do not relate to road safety measures or immigration processes [Documents 2-5].",
+  "input_tokens": 346,
+  "output_tokens": 37,
+  "seconds": 436.16081689999555,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

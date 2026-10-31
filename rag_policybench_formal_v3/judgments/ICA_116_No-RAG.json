@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_116",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific procedural details found in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific procedural details found in the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it suggests contacting ICA for guidance, which aligns with the reference's indication that ICA is the appropriate authority to handle such changes. However, it does not mention the specific requirement to upload an image of the new passport biodata page via the e-Service, which is a critical detail from the reference. Therefore, the correctness score is 1 due to the omission of this important procedural step. Faithfulness is marked as null because there is no substantive factual claim in the candidate answer that can be directly supported or contradicted",
+      "input_tokens": 425,
+      "output_tokens": 192,
+      "seconds": 14.43855779999285,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

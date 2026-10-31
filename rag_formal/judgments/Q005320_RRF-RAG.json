@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005320",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the procedure and includes all relevant steps supported by the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the procedure and includes all relevant steps supported by the evidence.\",\n  \"evidence\": \"[Document 2]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 2, which outlines the steps to challenge a false police complaint in Tamil Nadu. The answer includes filing a complaint, providing evidence, applying for quashing of the FIR, and consulting a lawyer, all of which are mentioned in the document. The evidence directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 898,
+      "output_tokens": 160,
+      "seconds": 12.767155500001536,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

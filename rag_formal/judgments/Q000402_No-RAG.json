@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000402",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the roles and functions of Child Welfare Police Officers but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly addresses the roles and functions of Child Welfare Police Officers but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 434,
+      "output_tokens": 76,
+      "seconds": 6.2092561999998,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

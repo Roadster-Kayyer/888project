@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001344",
+  "doc_id": "124",
+  "query_type": "search",
+  "query": "Can you tell me about the NDPS Act and the crimes it tackles?",
+  "corpus_query_index": 1343,
+  "system": "Dense-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 3]\nBoundary Encroachment:\nLegal consequences can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Prevention of Land Grabbing Act, 1982.\n\n[Document 4]\nIntimidating Voters:\nIntimidating voters during elections is a serious offense under the Indian Penal Code (IPC) and the Representation of the People Act, 1951. The punishment can range from 3 years to 7 years of imprisonment and/or a fine.\n\n[Document 5]\nEconomic Offences Wing:\nThe Economic Offences Wing investigates complex financial crimes, such as money laundering, cheating, and forgery. They use specialized techniques, like forensic accounting, to track and analyze financial transactions.",
+  "retrieved_doc_ids": [
+    "124",
+    "131",
+    "695",
+    "559",
+    "1565"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b0edb9a21cc5e6d3fc4a84098f3106652a499fd5ed404775578fcdb560819121",
+  "answer": "The NDPS Act tackles crimes related to drug abuse, trafficking, and possession. It includes offenses like possession, sale, purchase, and manufacturing of banned substances. For example, cannabis cultivation cases are handled under this act, with penalties including up to 3 years in prison and a fine of up to ₹50,000. [Document 1]",
+  "input_tokens": 394,
+  "output_tokens": 74,
+  "seconds": 9.434316799999579,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

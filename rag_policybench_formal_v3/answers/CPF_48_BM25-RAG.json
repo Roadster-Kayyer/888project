@@ -1,0 +1,30 @@
+{
+  "query_id": "CPF_48",
+  "doc_id": "PB_737eb8e9312fbade39a9",
+  "query_type": "CPF_111",
+  "query": "Why was the cash top-up to my / my loved one's Special or Retirement Account refunded or partially refunded?",
+  "reference_answer": "Your top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).",
+  "corpus_query_index": 110,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply",
+  "retrieved_doc_ids": [
+    "PB_737eb8e9312fbade39a9",
+    "PB_cc60baad4cbf9560588b",
+    "PB_194e6b030eea394ac1a9",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "427fb1edcfc1a1259a98c396b6d2b1cd678cfe153cfd3051f4833bec5e4079b9",
+  "answer": "Your cash top-up was refunded because you received other inflows that met your Full Retirement Sum (FRS). This triggered the refund according to the policy outlined in [Document 1]. Additionally, the tax relief eligibility conditions were changed to align across both schemes, affecting your top-up eligibility. [Document 5] explains this change.",
+  "input_tokens": 977,
+  "output_tokens": 68,
+  "seconds": 9.070208300006925,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

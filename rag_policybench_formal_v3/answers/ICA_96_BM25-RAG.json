@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_96",
+  "doc_id": "PB_09222d548a5f63af648a",
+  "query_type": "ICA_134",
+  "query": "What should the traveller do when his/her QR code is expiring?",
+  "reference_answer": "When the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "corpus_query_index": 298,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.\n\n[Document 4]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.\n\n[Document 5]\nTo ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.",
+  "retrieved_doc_ids": [
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_09222d548a5f63af648a",
+    "PB_bf4db8945d407eacbe6a",
+    "PB_89b49e1ae6fc2845f85e",
+    "PB_e625576111e2a18d5ef0"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "11468c76152c45ebd586bedf1c556e76db6f6cc1c54854ff1d6c2bccf3bc9543",
+  "answer": "If the QR code expires, the traveller should extend its validity by updating their profile in the MyICA mobile app. If the passport expires, the QR code will become invalid and the traveller needs to update their profile with a new passport number and expiry date. Ensure all details in the QR code are accurate to avoid inconvenience at immigration checkpoints. [Document 2]",
+  "input_tokens": 589,
+  "output_tokens": 73,
+  "seconds": 9.38270729999931,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

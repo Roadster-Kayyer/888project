@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003742",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the structure and operations of the Women Safety Committee, directly addressing the question with evidence from the documents provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the structure and operations of the Women Safety Committee, supported by evidence from multiple documents, and includes coordination with other committees.\",\n}",
+      "input_tokens": 853,
+      "output_tokens": 75,
+      "seconds": 6.049312700000883,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the structure and operations of the Women Safety Committee, directly addressing the question with evidence from the documents provided.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly relevant to the question, and fully supported by the evidence provided in the documents. The \"faithfulness\" score of 2 indicates that the candidate's answer is fully supported by the evidence, as it correctly reflects the information from Document 1 and Document 5, which describe the committee's functions and collaborations. The \"correctness\" and \"relevance\" scores are both 2 because the answer is both accurate and directly addresses the question. The \"reason\" is a concise explanation of the scores.",
+      "input_tokens": 893,
+      "output_tokens": 185,
+      "seconds": 14.730982100001711,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

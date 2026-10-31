@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000008",
+  "doc_id": "1",
+  "query_type": "casual",
+  "query": "Anyways, how do I file an FIR online in TN?",
+  "corpus_query_index": 7,
+  "system": "BM25-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nQ3: Can I file an FIR at any police station regardless of where the crime occurred?\nYes, you can file an FIR at any police station, but it's called a Zero FIR. The police station will then forward the report to the relevant station where the crime occurred, for further investigation.\n\n[Document 4]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "255",
+    "849",
+    "801",
+    "1432",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "28c581f30e68559212ba9df099ebc03496b4c7b5c2fe6f73ec5430812e732593",
+  "answer": "To file an FIR online in TN, go to the nearest police station, provide details, and file the FIR there. It's a Zero FIR; the station forwards it to the crime location. [Document 3]",
+  "input_tokens": 423,
+  "output_tokens": 45,
+  "seconds": 5.589302100000168,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2051.58203125
+}

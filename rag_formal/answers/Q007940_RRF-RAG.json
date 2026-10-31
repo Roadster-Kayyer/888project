@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007940",
+  "doc_id": "546",
+  "query_type": "hard",
+  "query": "What fines might someone face for sending menacing text messages?",
+  "corpus_query_index": 7939,
+  "system": "RRF-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nDealing with Harassment Calls/ Messages:\nIf being harassed by phone calls or messages, report to:\n* Tamil Nadu Police Cyber Cell: 1930 (toll-free)\n* Local police station\n* Block the caller's number\n* Save evidence (messages, call logs)\n\n[Document 3]\nThreatening Calls/Messages:\nIf you receive threatening calls or messages:\n1. Save the messages or call records as evidence.\n2. Visit your local police station and file a complaint.\n3. Provide the evidence to the police for further action.\n\n[Document 4]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 5]\nNoise Pollution Rules:\nViolators can face a fine up to ₹1 lakh and/or imprisonment up to 5 years under the Noise Pollution (Regulation and Control) Rules, 2000.",
+  "retrieved_doc_ids": [
+    "546",
+    "1896",
+    "876",
+    "688",
+    "497"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "596662c646597e49ede05f2a2b4b570796f2cd2f5a8ef69b869306cde7979a36",
+  "answer": "Under Section 506 of the IPC and the IT Act, 2000, sending threatening text messages can result in up to 3 years imprisonment and/or a fine. [Document 1]",
+  "input_tokens": 381,
+  "output_tokens": 44,
+  "seconds": 5.816095399997721,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002774",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the hiring process for high-ranking officers, including written exams, fitness tests, interviews, and background checks, and mentions specific procedures for police drivers and Armed Reserve Police, as well as the importance of risk assessments for high-risk roles."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the hiring process for high-ranking officers, including written exams, fitness tests, interviews, and background checks, and mentions specific procedures for police drivers and Armed Reserve Police, as well as the importance of risk assessments for high-risk roles.\",\n  \"evidence\": \"Document 1, Document 4, Document 5\"\n}\n\n\nThe candidate's answer is correct (2) as it directly addresses the hiring procedure for high-ranking officers by mentioning the key components of the process such as written exams, fitness tests, interviews, and background checks. The answer is relevant (2) because it specifically relates to the hiring process for",
+      "input_tokens": 817,
+      "output_tokens": 192,
+      "seconds": 14.982902899999317,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

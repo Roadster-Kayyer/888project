@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007939",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the consequences of threatening text messages, citing relevant documents and penalties under the IPC and IT Act, 2000."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the consequences of threatening text messages, citing relevant documents and penalties under the IPC and IT Act, 2000.\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the information provided in the reference documents, specifically mentioning the imprisonment up to 3 years and/or a fine under Section 506 of the IPC and the IT Act, 2000 for threatening text messages. The answer is relevant (2) because it directly addresses the question by discussing the consequences of sending threatening text messages and also includes information about related penalties for other threatening behaviors, which are part of the broader context",
+      "input_tokens": 778,
+      "output_tokens": 192,
+      "seconds": 14.86960579999868,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

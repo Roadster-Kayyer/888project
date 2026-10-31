@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000245",
+  "doc_id": "1040",
+  "query_type": "hard",
+  "query": "What's the official method for submitting a criminal complaint?",
+  "corpus_query_index": 244,
+  "system": "RRF-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling Complaints Against Government Officials\n\n### Complaint Against Town Planning Official\nTo file a complaint, contact the local police station or the Vigilance Department. You can also submit a written complaint to the Town Planning Department's head office.\n\n### Reporting Corruption by Mining Department Officer\nReport corruption to the Vigilance and Anti-Corruption Department or the local police station. You can also contact the Mining Department's head office to file a complaint.\n\n### Complaint Against Pollution Control Board Official\nFile a complaint with the Pollution Control Board's head office or the local police station. You can also contact the Vigilance and Anti-Corruption Department for assistance.\n\n[Document 3]\nFiling Complaints Against Government Officials\n\n### Complaint Against Town Planning Official\nTo file a complaint, contact the local police station or the Vigilance Department. You can also submit a written complaint to the Town Planning Department's head office.\n\n### Reporting Corruption by Mining Department Officer\nReport corruption to the Vigilance and Anti-Corruption Department or the local police station. You can also contact the Mining Department's head office to file a complaint.\n\n### Complaint Against Pollution Control Board Official\nFile a complaint with the Pollution Control Board's head office or the local police station. You can also contact the Vigilance and Anti-Corruption Department for assistance.\n\n[Document 4]\nFiling a Complaint against a Revenue Department Official:\nTo file a complaint against a Revenue Department official, you can:\n1. Visit the Revenue Divisional Office or District Collector's office.\n2. Submit a written complaint to the official's higher authority.\n3. File a complaint online through the Tamil Nadu Government's grievance portal or contact the Vigilance and Anti-Corruption Department.\n\n[Document 5]\nFiling Complaints Against Government Officials\n\n### Complaint Against Town Planning Official\nTo file a complaint, contact the local police station or the Vigilance Department. You can also submit a written complaint to the Town Planning Department's head office.\n\n### Reporting Corruption by Mining Department Officer\nReport corruption to the Vigilance and Anti-Corruption Department or the local police station. You can also contact the Mining Department's head office to file a complaint.\n\n### Complaint Against Pollution Control Board Official\nFile a complaint with the Pollution Control Board's head office or the local police station. You can also contact the Vigilance and Anti-Corruption Department for assistance.",
+  "retrieved_doc_ids": [
+    "1040",
+    "414",
+    "415",
+    "395",
+    "416"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0841137e85935849e8165fbfeed3f1bc1e850e62ca1dd5cd55161c79e887be9f",
+  "answer": "According to Document 1, to submit a criminal complaint, you must file a complaint with the police, which they will then investigate and file as chargesheet. [Document 1]",
+  "input_tokens": 669,
+  "output_tokens": 38,
+  "seconds": 5.220392100000026,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

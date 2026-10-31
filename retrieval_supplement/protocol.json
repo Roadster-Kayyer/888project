@@ -1,0 +1,15 @@
+{
+  "bootstrap_seed": 42,
+  "resampling_unit": "doc_id",
+  "repeats": 2000,
+  "ci": "paired percentile 95%; exploratory, no multiple-comparison adjustment",
+  "multi_gold": "exact stripped answer string equality only, no semantic merging",
+  "exclusion": "remove duplicate-gold queries; corpus unchanged; not a deduplicated index",
+  "duplicate_gold_rows": 71,
+  "audit_review_status": "labels_complete_pending_consistency_review",
+  "audit_review_counts": {
+    "n_sample": 100,
+    "n_completed_labels": 100,
+    "n_issues": 2
+  }
+}

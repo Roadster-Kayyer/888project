@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008522",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies penalties for assault in educational settings and is supported by evidence from Document 1 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states penalties for assault in educational settings, directly addresses the reference, and substantiates claims with evidence from Document 1.\",\n}",
+      "input_tokens": 762,
+      "output_tokens": 72,
+      "seconds": 5.852714100001322,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies penalties for assault in educational settings and is supported by evidence from Document 1 and Document 5.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question about penalties for assault within educational settings. The faithfulness score is 2 because all substantive factual claims in the candidate answer are supported by the evidence provided in the documents. The reason is a concise explanation of the scores.",
+      "input_tokens": 802,
+      "output_tokens": 154,
+      "seconds": 11.908752499999537,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007936",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the topic of penalties for sending threatening text messages. However, it does not directly quote or paraphrase the specific information provided in the reference, which states the exact penalties under specific laws. Therefore, the correctness score is 1 for partly correct but important omissions. Faithfulness is scored as null because there is no substantive factual claim supported by the supplied evidence in the candidate's answer. The reason succinctly explains the scores.",
+      "input_tokens": 376,
+      "output_tokens": 179,
+      "seconds": 13.665254599996842,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

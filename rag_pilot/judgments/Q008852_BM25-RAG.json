@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008852",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies fines for unauthorized partitioning and references relevant documents, aligning with the legal consequences for similar unauthorized activities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies fines for unauthorized partitioning and references relevant documents, aligning with the legal consequences for similar unauthorized activities.\"\n}\n\n\nThe candidate answer directly addresses the question about legal repercussions for unauthorized partitioning of communal assets by mentioning fines and referencing the correct document (Document 1). The answer also indirectly supports the relevance by comparing it to other unauthorized activities with their respective penalties as detailed in the other documents, which are implicitly relevant to the context of unauthorized partitioning. The faithfulness is rated as 2 because the candidate's answer is substantiated by the evidence provided in the documents, even though",
+      "input_tokens": 842,
+      "output_tokens": 192,
+      "seconds": 15.72413349999988,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

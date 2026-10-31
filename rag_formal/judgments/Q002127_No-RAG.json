@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002127",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it discusses measures like patrols, community engagement, and legal support, which are related to the reference's mention of collaboration and protection of rights. However, it does not directly cite the reference's specific actions such as registering complaints or investigating cases, hence the correctness score is 1. Faithfulness is marked as null because the candidate's answer does not contain direct evidence from the provided reference, and the evidence field is also null due to the absence of such evidence in the candidate's response. The reason succinctly explains",
+      "input_tokens": 433,
+      "output_tokens": 192,
+      "seconds": 14.678640000001906,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

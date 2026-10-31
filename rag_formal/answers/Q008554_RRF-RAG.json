@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008554",
+  "doc_id": "657",
+  "query_type": "search",
+  "query": "What are the legal repercussions of domestic abuse?",
+  "corpus_query_index": 8553,
+  "system": "RRF-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nRights under Protection of Women from Domestic Violence Act:\nWomen have the right to:\n* Live in a shared household without fear of violence\n* Protection from physical, emotional, and economic abuse\n* Access to medical and legal aid\n* Right to file a complaint against the abuser\n\n[Document 2]\nSupport for Domestic Abuse:\nFor women facing domestic abuse during pregnancy, support services include:\n* Tamil Nadu Police helpline: 1091 or 181\n* National Domestic Violence Helpline: 181\n* Local NGOs and counseling services. These services provide emotional support, counseling, and legal aid.\n\n[Document 3]\nDomestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.\n\n[Document 4]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 5]\nMatrimonial Disputes\nMatrimonial disputes are handled by police through counseling and mediation. Police will try to resolve the issue amicably, and if necessary, refer the case to a family counseling center or a court under the relevant laws, such as the Hindu Marriage Act or the Domestic Violence Act.",
+  "retrieved_doc_ids": [
+    "1890",
+    "449",
+    "657",
+    "581",
+    "95"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04b57b200b69cebb6cb7fe01d45f5d85cf230e0773061c5e0bd960a5ce46d76c",
+  "answer": "Under the Protection of Women from Domestic Violence Act, 2005, domestic abuse can lead to imprisonment of up to 3 years and/or a fine. Harassing divorced women can also face up to 3 years in prison. Services like helplines and counseling help victims, and police handle matrimonial disputes with counseling and mediation. [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 437,
+  "output_tokens": 85,
+  "seconds": 11.069640800000343,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

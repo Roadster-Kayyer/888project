@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001714",
+  "doc_id": "1306",
+  "query_type": "search",
+  "query": "What's the procedure to receive a lower tax withholding certificate in Tamil Nadu?",
+  "corpus_query_index": 1713,
+  "system": "RRF-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 2]\nTax Audit Procedure in Tamil Nadu:\nFor tax audit, consult a chartered accountant (CA) to ensure compliance with Income Tax Act requirements. The CA will review your financial records and provide an audit report, which must be filed with the income tax return if your turnover exceeds the prescribed limit (currently ₹1 crore).\n\n[Document 3]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 4]\nAppealing a Lower Court Decision:\nTo appeal a lower court decision in Tamil Nadu, you must file a petition with the Madras High Court or the concerned appellate court, depending on the case type and lower court's jurisdiction.\n\n[Document 5]\nFiling Income Tax Returns:\nTo file Income Tax returns in Tamil Nadu, \n1. Visit the Income Tax Department's website (incometaxindia.gov.in).\n2. Register and log in to your account.\n3. Fill out the required forms and upload necessary documents.\n4. Submit your return and verify it.",
+  "retrieved_doc_ids": [
+    "1306",
+    "1305",
+    "1297",
+    "1049",
+    "1292"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a7e57f0bcf9a3175992ed87b961ab19af8d66892ac23f506aca38f9312d227b8",
+  "answer": "To apply for a lower TDS certificate in Tamil Nadu, download Form 13 from the official income tax website, visit an Income Tax Office, and attach your PAN card and income proof. [Document 1]",
+  "input_tokens": 471,
+  "output_tokens": 45,
+  "seconds": 5.728719799999453,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

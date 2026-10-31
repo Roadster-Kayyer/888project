@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004839",
+  "doc_id": "187",
+  "query_type": "search",
+  "query": "What's the legal way to report a bounced check as a crime?",
+  "corpus_query_index": 4838,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 2]\nFiling a Cheque Bounce Case in Tamil Nadu:\nTo file a cheque bounce case:\n1. Send a demand notice to the drawer\n2. File a complaint with the Judicial Magistrate Court\n3. Attach the bounced cheque and demand notice to the complaint\n\n[Document 3]\nFiling a Cheque Bounce Case:\nTo file a cheque bounce case, send a demand notice to the drawer within 30 days of cheque return. If unpaid, file a complaint under Section 138 of the Negotiable Instruments Act at the concerned court in Tamil Nadu, along with required documents, such as the bounced cheque and demand notice.\n\n[Document 4]\nReporting Suspicious Bank Transaction:\nTo report a suspicious bank transaction, contact your bank's customer care immediately. They will guide you through the process. You can also file a complaint with the Cyber Crime Cell of the Tamil Nadu Police by visiting their website or visiting the nearest police station.\n\n[Document 5]\nFiling a Complaint about ATM Fraud:\nTo file a complaint about ATM fraud, contact your bank's customer care and report the incident. Then, visit the nearest police station and provide a written complaint with details of the fraud. The police will guide you through the process.",
+  "retrieved_doc_ids": [
+    "187",
+    "1843",
+    "1074",
+    "913",
+    "911"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "662741dacd7c4dc857b7d6dd0f68756387c14d9482a1b6ca027215332b78ddaa",
+  "answer": "To report a bounced check as a crime, file a complaint with the police station where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will investigate and may register a case under the Negotiable Instruments Act. [Document 1]",
+  "input_tokens": 451,
+  "output_tokens": 66,
+  "seconds": 8.495806699998866,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

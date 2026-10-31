@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001909",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partially correct, but lacks specific evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and partially correct, but lacks specific evidence.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 429,
+      "output_tokens": 192,
+      "seconds": 14.86904130000039,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007129",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from Document 4 and relevant details from Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes police and judicial custody durations and correctly identifies the Tamil Nadu State Legal Services Authority as a source for legal aid, consistent with the retrieved evidence.\",\n}",
+      "input_tokens": 791,
+      "output_tokens": 192,
+      "seconds": 14.625570500000322,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from Document 4 and relevant details from Document 5.\"}",
+      "input_tokens": 831,
+      "output_tokens": 43,
+      "seconds": 3.6642548000017996,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

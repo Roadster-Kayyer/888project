@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001910",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 4, Document 5]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the application of digital evidence analysis by law enforcement officers in Tamil Nadu, covering the main points from the reference documents. The answer is relevant (2) because it directly addresses the question by mentioning the use of digital forensics, technology, and improved techniques, which are all discussed in the reference documents. The faithfulness (2) is confirmed as the candidate's answer is fully supported by the evidence provided in the documents, which detail the",
+      "input_tokens": 786,
+      "output_tokens": 192,
+      "seconds": 14.694553000001179,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

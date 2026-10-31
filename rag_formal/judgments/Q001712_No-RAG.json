@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001712",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific details about the process and required documents from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific details about the process and required documents from the reference.\",\n  \"evidence\": null\n}\n\n\nIn the provided answer, the candidate correctly identifies the need to file a request with the Income Tax Department and provide necessary documents, which aligns with the reference's mention of submitting Form 13 and attaching required documents. However, the answer does not explicitly mention the prescribed fee or the specific steps of downloading the form, visiting the nearest Income Tax Office, or the types of documents required (PAN card and income proof), which are crucial details from the reference. Therefore, the correctness score is 1 due to the partial correctness but omission of key information",
+      "input_tokens": 410,
+      "output_tokens": 192,
+      "seconds": 14.623125900001469,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

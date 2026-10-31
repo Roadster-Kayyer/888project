@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005953",
+  "doc_id": "207",
+  "query_type": "casual",
+  "query": "So, how do you check if a domestic worker is legit?",
+  "corpus_query_index": 5952,
+  "system": "RRF-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 4]\nReporting Suspected Child Labor:\nTo report suspected child labor in domestic settings, you can contact the Childline (1098) or the Labour Department's helpline. You can also file a complaint with the local police station or the District Child Protection Unit.\n\n[Document 5]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "2070",
+    "484",
+    "1190"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fa6de5d41c4ac4cb0ea69eb0ade01a65b3d1a07875a17be1d19050750a8ea808",
+  "answer": "To verify a domestic worker, submit an application to the local police station with their ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report. [Document 1]",
+  "input_tokens": 405,
+  "output_tokens": 46,
+  "seconds": 6.520721000000776,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

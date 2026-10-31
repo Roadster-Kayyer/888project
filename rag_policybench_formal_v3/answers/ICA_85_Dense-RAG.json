@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_85",
+  "doc_id": "PB_89b49e1ae6fc2845f85e",
+  "query_type": "ICA_134",
+  "query": "What will happen if a traveller or his/her travel companion submits wrong passport information while generating the QR code?",
+  "reference_answer": "It is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.",
+  "corpus_query_index": 286,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.\n\n[Document 2]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.\n\n[Document 3]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nThe QR code generation works in offline mode.Travellers can still create and retrieve the QR code for self-scanning at the immigration counters, even if travellers do not have mobile data.For a smooth journey, travellers are advised to generate their individual or group QR code before their arrival at Singapore land checkpoints.",
+  "retrieved_doc_ids": [
+    "PB_89b49e1ae6fc2845f85e",
+    "PB_09222d548a5f63af648a",
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_bf4db8945d407eacbe6a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a0d61caf8837ada9458557ab7371debf8ec63f5e8ebbd58d321ea29f6e3e6125",
+  "answer": "If a traveller submits wrong passport information, they must edit the details through their profile. The QR code's validity will be automatically extended if the passport is still valid. However, if the passport expires, the QR code becomes invalid, and the traveller needs to update their profile information in the MyICA mobile app. [Document 1] [Document 2]",
+  "input_tokens": 586,
+  "output_tokens": 73,
+  "seconds": 9.403420900009223,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

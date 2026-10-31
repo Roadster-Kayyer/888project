@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000008",
+  "doc_id": "1",
+  "query_type": "casual",
+  "query": "Anyways, how do I file an FIR online in TN?",
+  "corpus_query_index": 7,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.",
+  "context": "[Document 1]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR in Tamil Nadu for certain crimes like theft, loss of documents, and cyber crimes through the Tamil Nadu Police website or mobile app.\n\n[Document 2]\nFiling an FIR Online in Tamil Nadu:\nYes, you can file an e-FIR for certain crimes like theft, loss of documents, and cybercrime through the Tamil Nadu Police website or the Citizen Portal.\n\n[Document 3]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station, provide details of the incident, and submit a written complaint. The police will register the complaint and provide a copy of the FIR.\n\n[Document 4]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to:\n* Give a written complaint\n* Provide identification and contact information\n* Cooperate with the investigation\n\n[Document 5]\nFiling an FIR in Tamil Nadu:\nTo file an FIR, visit the nearest police station and provide details of the incident. You will need to give a written statement, and the police will register your complaint and provide an FIR number.",
+  "retrieved_doc_ids": [
+    "796",
+    "1",
+    "0",
+    "1802",
+    "793"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f4c58e33b36dca69191e69d51344acd7b6c4199d722a816ed3c18b2fa7c6dace",
+  "answer": "You can file an e-FIR for crimes like theft, loss of documents, and cybercrime online at the Tamil Nadu Police website or mobile app [Document 1, Document 2]. Alternatively, visit the nearest police station to file a traditional FIR; bring details of the incident, identification, and be prepared to cooperate with the investigation. [Document 3, Document 4, Document 5]",
+  "input_tokens": 372,
+  "output_tokens": 82,
+  "seconds": 9.951237799999944,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2051.58203125
+}

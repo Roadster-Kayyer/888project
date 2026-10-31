@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_58",
+  "doc_id": "PB_2140a6169b3f40aa828c",
+  "query_type": "ICA_134",
+  "query": "Can I change my address at a neighbourhood police post/centre or at ICA Services Centre?",
+  "reference_answer": "This service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.",
+  "corpus_query_index": 256,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThis service is no longer available at the police posts and ICA Services Centre. Please visit our e-service to change your address.\n\n[Document 2]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 3]\nYou may make changes at least 3 working days before your existing appointment. Log in to ICA e-Service to change your existing appointment.\n\n[Document 4]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 5]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.",
+  "retrieved_doc_ids": [
+    "PB_2140a6169b3f40aa828c",
+    "PB_aa5916ddd19af121154f",
+    "PB_558188a8bd115503280d",
+    "PB_93b665013679b839e21c",
+    "PB_459d0a3b9e1ad4c022cb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fd1371c817439b966bf947c656c2a66637059b4524f6823df5bb6e729444ee39",
+  "answer": "You can change your address through the ICA e-Service. Visit their website or use the provided steps: report new address online, receive PIN, verify, and affix a new sticker. [Document 1, Document 2]",
+  "input_tokens": 429,
+  "output_tokens": 49,
+  "seconds": 6.398690100002568,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

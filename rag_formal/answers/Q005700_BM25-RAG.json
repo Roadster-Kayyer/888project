@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005700",
+  "doc_id": "2023",
+  "query_type": "hard",
+  "query": "Where can I find the contact details for the Anti-Counterfeiting Currency Wing in Tamil Nadu's police department?",
+  "corpus_query_index": 5699,
+  "system": "BM25-RAG",
+  "reference_answer": "Contacting Anti-Counterfeit Currency Wing:\nTo contact the Anti-Counterfeit Currency Wing in Tamil Nadu Police, you can visit the Tamil Nadu Police website or call the police helpline number (103 or 044-28448000). You can also report cases at your local police station.",
+  "context": "[Document 1]\nContacting Anti-Counterfeit Currency Wing:\nTo contact the Anti-Counterfeit Currency Wing in Tamil Nadu Police, you can visit the Tamil Nadu Police website or call the police helpline number (103 or 044-28448000). You can also report cases at your local police station.\n\n[Document 2]\nTraffic Enforcement Wing Contact:\nTo contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.\n\n[Document 3]\nFiling a Complaint about Counterfeit Currency:\nTo file a complaint, visit the nearest police station and provide details about the counterfeit currency, including where you received it. Fill out a complaint form and submit it to the officer in charge. You can also contact the Tamil Nadu Police's toll-free number for assistance.\n\n[Document 4]\nQuestion 2: Contacting Anti-Corruption Branch\nTo contact the Anti-Corruption Branch of Tamil Nadu Police, call the toll-free number 1064 or visit the official website of Tamil Nadu Police to find the nearest branch and its contact details.\n\n[Document 5]\nTraffic Planning Wing Contact:\nTo contact the Traffic Planning Wing in Tamil Nadu, you can visit the official Tamil Nadu Police website or call the Traffic Police headquarters in Chennai. The contact details are available on the Tamil Nadu Police website.",
+  "retrieved_doc_ids": [
+    "2023",
+    "1935",
+    "186",
+    "1917",
+    "1947"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4e6193ba8d359f3647dfbef82f3170e5c24c4fe50b1f0e1a0f30bdf850d206c5",
+  "answer": "You can find the contact details for the Anti-Counterfeit Currency Wing in Tamil Nadu's police department by visiting the Tamil Nadu Police website or calling the police helpline number (103 or 044-28448000) [Document 1].",
+  "input_tokens": 434,
+  "output_tokens": 59,
+  "seconds": 7.541233500000089,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

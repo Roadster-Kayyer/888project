@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_84",
+  "doc_id": "PB_a35c9d503b3d542d8880",
+  "query_type": "ICA_134",
+  "query": "Can I apply for a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently?",
+  "reference_answer": "Both LTVP and PR may be applied concurrently.",
+  "corpus_query_index": 285,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 2]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 3]\nBoth LTVP and PR may be applied concurrently.\n\n[Document 4]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 5]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.",
+  "retrieved_doc_ids": [
+    "PB_552a298a8583e182f7ef",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_a35c9d503b3d542d8880",
+    "PB_492d1cc19d42b1bac512",
+    "PB_bd4cd5b4c56b0c9ef30b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8f7e838660b847788abae862c29f76e431f7691d8f468becbc4fcc1bfb280c5b",
+  "answer": "Yes, you can apply for both a Long-Term Visit Pass (LTVP) and Singapore Permanent Residence (PR) concurrently. [Document 3]明确指出两者可以同时申请。",
+  "input_tokens": 550,
+  "output_tokens": 39,
+  "seconds": 5.172681700001704,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

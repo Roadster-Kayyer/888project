@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_71",
+  "doc_id": "PB_67fb3c3d8e5dd0d5de24",
+  "query_type": "CPF_111",
+  "query": "What supporting documents will I need if I'm making a first-time CPF transfer to my loved ones?",
+  "reference_answer": "For first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.",
+  "corpus_query_index": 136,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nFor first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.\n\n[Document 2]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 3]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).\n\n[Document 4]\nFor Singapore Passport HoldersYou do not need to update your new passport information separately every time you renew your passportFor Non-Singapore Passport HoldersYou will need to update your new passport details with the relevant centres:For Singapore permanent residents (via ICA e-Service on REP Renew/Transfer)For Long-Term Pass holders registered with ICATravel Document update for Long-Term Visit Pass holdersTravel Document update for Student's Pass holdersMinistry of Manpower (MOM) if you are Employment/Dependant's Pass holders (via MOM website).The service is free-of-charge.\n\n[Document 5]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply",
+  "retrieved_doc_ids": [
+    "PB_67fb3c3d8e5dd0d5de24",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_474d6298f86507ebfa6a",
+    "PB_9a542ab9b413f1095ed3",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "trimmed_doc_ids": [
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3807314c1bb44796afb28e737eebbc17b64647d5711387c092c4b3efe3acb8ef",
+  "answer": "For a first-time CPF transfer to loved ones, you need to provide supporting documents including birth certificates and marriage certificates as specified in [Document 1]. These documents help verify your relationship and marital status. [Document 1] specifically lists documents needed for different family relationships.",
+  "input_tokens": 920,
+  "output_tokens": 55,
+  "seconds": 7.538610099989455,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

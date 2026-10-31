@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_58",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the service is not available at police posts/centres and ICA Services Centre, and suggests visiting the local council office, aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the service is not available at police posts/centres and ICA Services Centre, and suggests visiting the local council office, aligning with the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence key is included to indicate that the candidate's answer is supported by a document, even though the actual content of the document is not provided in the instruction. In a real-world scenario, the evidence would be the actual text from the document that supports the candidate's answer.",
+      "input_tokens": 369,
+      "output_tokens": 153,
+      "seconds": 11.750786000004155,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

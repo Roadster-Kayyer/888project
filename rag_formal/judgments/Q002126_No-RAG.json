@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002126",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses the enforcement of laws, collaboration with communities, and involvement with forest departments, which aligns with the reference's mention of registering complaints, investigating cases, and ensuring protection of tribal rights. However, it does not directly cite the Forest Rights Act or the specific process of collaboration with forest departments as outlined in the reference, hence the faithfulness score is null due to the absence of direct evidence from the provided reference text.",
+      "input_tokens": 420,
+      "output_tokens": 170,
+      "seconds": 13.019302300002892,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

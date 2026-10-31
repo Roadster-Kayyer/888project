@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_18",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 4, which outlines the principles for CPF contributions on different types of payments."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the distinction between service fees subject to CAYE contributions and reimbursements for expenses not subject to contributions, supported by evidence from Document 4.\",\n}",
+      "input_tokens": 1117,
+      "output_tokens": 192,
+      "seconds": 15.16705920000095,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 4, which outlines the principles for CPF contributions on different types of payments.\"}\n\nPlease note that the \"faithfulness\" score of 2 is based on the assumption that the candidate's answer is fully supported by the evidence provided in Document 4, which is consistent with the instructions. If the evidence in the documents did not fully support the candidate's answer, the faithfulness score would be adjusted accordingly.",
+      "input_tokens": 1157,
+      "output_tokens": 129,
+      "seconds": 10.171749800007092,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

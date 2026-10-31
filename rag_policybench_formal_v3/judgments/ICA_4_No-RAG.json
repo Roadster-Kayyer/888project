@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_4",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific reference to the issuing authorities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific reference to the issuing authorities.\",\n  \"evidence\": null\n}\n\nIn this evaluation, the candidate's answer is partially correct as it differentiates between DP and LTVP based on the duration of stay. However, it does not fully address the reference's information about the issuing authorities, which is crucial for a complete understanding of the differences. Therefore, the correctness score is 1. The relevance score is 1 as the answer directly addresses the question about the difference between DP and LTVP. The faithfulness score is null due to the lack of evidence directly supporting the claim about the issuing authorities.",
+      "input_tokens": 431,
+      "output_tokens": 184,
+      "seconds": 14.115600199991604,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

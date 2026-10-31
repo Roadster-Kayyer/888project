@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003743",
+  "doc_id": "1672",
+  "query_type": "casual",
+  "query": "So, what's up with the Women Safety Committee and how do they run things?",
+  "corpus_query_index": 3742,
+  "system": "BM25-RAG",
+  "reference_answer": "Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety",
+  "context": "[Document 1]\nWomen Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\n* Addressing women's complaints and grievances\n* Providing counseling and support\n* Conducting awareness programs on women's rights and safety\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nSchool Safety Committee:\nThe School Safety Committee is a joint initiative between schools and the Tamil Nadu Police. Its purpose is to ensure a safe environment for students. The committee:\n* Identifies potential safety risks\n* Develops safety plans\n* Conducts regular drills and training\n\n[Document 4]\nBeach Safety Committee:\nThe Beach Safety Committee is a joint initiative between Tamil Nadu Police, local authorities, and coastal communities to ensure safety along beaches. The committee monitors beach activities, provides emergency response, and educates visitors on safety measures to prevent accidents and crimes.\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "1672",
+    "107",
+    "1684",
+    "1682",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d233925a94976e8a246408ddbb2e9277cbc942ab05393125857426a46d501123",
+  "answer": "The Women Safety Committee in Tamil Nadu Police ensures women's safety through addressing complaints, providing counseling, and conducting awareness programs. [Document 1]",
+  "input_tokens": 413,
+  "output_tokens": 30,
+  "seconds": 4.033288599999651,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008852",
+  "doc_id": "710",
+  "query_type": "formal",
+  "query": "What legal repercussions result from the unauthorized partitioning of communal assets?",
+  "corpus_query_index": 8851,
+  "system": "RRF-RAG",
+  "reference_answer": "Illegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.",
+  "context": "[Document 1]\nUnauthorized Quarrying:\nUnauthorized quarrying can result in imprisonment up to 5 years and/or a fine up to ₹5 lakhs to ₹25 lakhs, as per the Tamil Nadu Minor Mineral Concession Rules, 1959.\n\n[Document 2]\nLegal Consequences for Unauthorized Bill Posting:\nUnauthorized bill posting is an offense under the Tamil Nadu Urban Local Bodies (Permission for Erection of Advertisements) Rules, 2018. The penalty can range from ₹5,000 to ₹50,000.\n\n[Document 3]\nUnauthorized Layouts:\nDeveloping unauthorized layouts is an offense under the Tamil Nadu Town and Country Planning Act. The penalty can include a fine of up to ₹50,000 and/or imprisonment for up to 1 year, as well as demolition of the unauthorized structure.\n\n[Document 4]\nEncroaching Common Areas:\nEncroaching common areas in apartment complexes can lead to legal consequences under the Tamil Nadu Apartment Ownership Act, 1994. The penalty may include a fine and/or eviction from the premises, as well as restoration of the encroached area.\n\n[Document 5]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.",
+  "retrieved_doc_ids": [
+    "731",
+    "521",
+    "741",
+    "722",
+    "507"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "187c4af811755cec8b27ac6c6621ad2537ef747f3a49876e4376a6ab856122c9",
+  "answer": "Unauthorized partitioning of communal assets can lead to legal repercussions including fines and imprisonment. For example, under the Tamil Nadu Town and Country Planning Act, developing unauthorized layouts can result in a fine up to ₹50,000 and/or up to 1 year in prison [Document 3]. [Document 1], [Document 2], [Document 3], [Document 4], and [Document 5] provide similar details across different types of unauthorized activities. [Document 1] specifically mentions imprisonment up to 5 years for unauthorized quarrying.",
+  "input_tokens": 407,
+  "output_tokens": 115,
+  "seconds": 14.987115699999777,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

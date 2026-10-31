@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_134",
+  "doc_id": "PB_6732dd0aa3a7e05ba70d",
+  "query_type": "ICA_134",
+  "query": "What should I do if I did not receive my electronic Visit Pass (e-Pass) after I enter Singapore?",
+  "reference_answer": "Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in the SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.Foreign visitors may also retrieve the e-Pass issued to them via the e-Pass Enquiry Portal. The portal is accessible via the SG Arrival Card e-Service or via the direct URL: https://eservices.ica.gov.sg/sgarrivalcard/epassenquiry.Foreign visitors will need to key in their Disembarkation/Embarkation (DE) Number, or passport details to retrieve their e-Pass. The DE Number is provided to foreign visitors after submitting their SG Arrival Card prior to arrival immigration clearance.You may submit your enquiry should you require further assistance on your DE number or e-Pass retrieval.",
+  "corpus_query_index": 207,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nUpon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in the SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.Foreign visitors may also retrieve the e-Pass issued to them via the e-Pass Enquiry Portal. The portal is accessible via the SG Arrival Card e-Service or via the direct URL: https://eservices.ica.gov.sg/sgarrivalcard/epassenquiry.Foreign visitors will need to key in their Disembarkation/Embarkation (DE) Number, or passport details to retrieve their e-Pass. The DE Number is provided to foreign visitors after submitting their SG Arrival Card prior to arrival immigration clearance.You may submit your enquiry should you require further assistance on your DE number or e-Pass retrieval.\n\n[Document 2]\nICA has replaced the arrival stamp endorsements issued to foreign visitors on short-term visit pass with the electronic Visit Pass (e-Pass).Upon granted entry into Singapore, the e-Pass will be automatically issued to foreign visitors via email based on the email address declared in their SG Arrival Card submission. Foreign visitors may also check their email spam/junk folder if they are unable to find the e-Pass in their email inbox.You may refer to ICA website for more information on entering Singapore.\n\n[Document 3]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 4]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 5]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.",
+  "retrieved_doc_ids": [
+    "PB_6732dd0aa3a7e05ba70d",
+    "PB_a49ff041193717d466d2",
+    "PB_28ec022d3591816d8720",
+    "PB_a5deb8741f88193f4891",
+    "PB_6f67feecf50543bb14eb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "919c4460446eaca4602a321f047ce35f9c291bfbd4e27421596f3c3b30dc592c",
+  "answer": "If you didn't receive your e-Pass, check your email first. If not there, go to the e-Pass Enquiry Portal using the DE Number or passport details provided at immigration. You can also check your email spam/junk folders. [Document 1]",
+  "input_tokens": 596,
+  "output_tokens": 56,
+  "seconds": 7.337025899993023,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

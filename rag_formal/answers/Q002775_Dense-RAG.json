@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002775",
+  "doc_id": "1498",
+  "query_type": "hard",
+  "query": "What's the selection method used to appoint senior officials within law enforcement agencies?",
+  "corpus_query_index": 2774,
+  "system": "Dense-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nPolice Recruitment Board Selection Process:\nThe Police Recruitment Board conducts selection processes through:\n* Written examinations\n* Physical fitness tests\n* Interviews and assessments\n* Verification of documents and background checks\n\n[Document 2]\nModern Methods for Police Recruitment and Selection:\nThe Tamil Nadu Police uses modern methods for recruitment and selection, including:\n* Online application and examination systems\n* Psychometric testing and assessment centers\n* Transparent and merit-based selection processes\n\n[Document 3]\nSelection Process for Technical Wing:\nThe selection process for Tamil Nadu Police technical wing involves a written exam, followed by a practical test and interview. Candidates are shortlisted based on their performance in the written exam, and then undergo a practical test to assess their technical skills. A final interview is conducted to evaluate their suitability for the role.\n\n[Document 4]\nDeputy Superintendent of Police Interview Process:\nThe interview process for Deputy Superintendent of Police (DSP) positions involves a written exam, physical test, and personal interview. Candidates who clear the written exam and physical test are shortlisted for the personal interview.\n\n[Document 5]\nArmed Reserve Police Recruitment:\nThe recruitment process for the Armed Reserve Police involves a written exam, physical measurement test, and physical efficiency test. Candidates must meet the eligibility criteria, including age, education, and physical standards. The selection process is conducted by the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB).",
+  "retrieved_doc_ids": [
+    "1581",
+    "1662",
+    "1467",
+    "1471",
+    "1484"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8705c12c01c307e443117dd320ccc1f9adcf26921415e62b7639d8ff2302fb81",
+  "answer": "The selection method used to appoint senior officials within law enforcement agencies varies but typically includes written examinations, physical fitness tests, interviews, and background checks. [Document 1] and [Document 5] provide examples. Modern methods like psychometric testing and online applications are also used. [Document 2] and [Document 3] highlight diverse processes.",
+  "input_tokens": 406,
+  "output_tokens": 72,
+  "seconds": 9.277505299998666,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

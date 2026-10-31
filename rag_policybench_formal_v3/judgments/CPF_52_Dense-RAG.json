@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_52",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that income declarations are based on current year's net trade income, aligning with Document 3 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that income declarations are based on current year's net trade income, aligning with Document 3 and Document 5.\",\n  \"evidence\": \"[Document 1, Document 3, Document 5]\"\n}",
+      "input_tokens": 1367,
+      "output_tokens": 192,
+      "seconds": 14.901410600010422,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

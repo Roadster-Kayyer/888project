@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004731",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the procedure but lacks specific details on jurisdiction and missing evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the procedure but lacks specific details on jurisdiction and missing evidence.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it mentions the need to ensure jurisdiction and the preparation of a petition with grounds and relief, which aligns with the reference's instructions. However, it is not entirely correct because it omits the importance of submitting the petition to the Registry and paying the required fee, which are crucial steps in the process. The faithfulness score is 1 because the candidate's answer contains a substantive factual claim about the need to prepare a petition but does not fully support all the procedural steps as per the reference.",
+      "input_tokens": 449,
+      "output_tokens": 192,
+      "seconds": 14.634412200000952,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

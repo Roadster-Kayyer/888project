@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_111",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but addresses the need to check official details for specific policies."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but addresses the need to check official details for specific policies.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct (1) as it acknowledges the need to refer to official retirement plan details, which is relevant (1) to the question about withdrawing discounted Singtel shares at age 55. However, the answer does not directly address the requirement to set aside the Full Retirement Sum (FRS) in the Retirement Account (RA) before withdrawal, which is a key factual claim (2). There is no substantive evidence provided (null), and the reason succinctly explains the scores.",
+      "input_tokens": 655,
+      "output_tokens": 185,
+      "seconds": 14.500773399995524,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

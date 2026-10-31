@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_7",
+  "doc_id": "PB_bffdf08b037b0b8dbbbe",
+  "query_type": "BTT",
+  "query": "What is the time frame during which free parking is available on Sundays and public holidays in short-term parking lots?",
+  "reference_answer": "Free parking is available from 7am to 10.30pm.",
+  "corpus_query_index": 52,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nFree parking is available from 7am to 10.30pm.\n\n[Document 2]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.\n\n[Document 3]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 4]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 5]\nThe 96-hour Visa Free Transit Facility (VFTF) may be available to nationals of the Commonwealth of Independent States (CIS)[1], Georgia, India, Turkmenistan and Ukraine; as well as selected[2] Nationals of the People's Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports.Transit travellers who satisfy the criteria for VFTF will have to meet the prevailing entry requirements before they are allowed entry into Singapore. Assessment for entry is determined by the ICA officers at the point of entry. Extension of stay for transit travellers under VFTF is strictly not allowed.Please refer to ICA websites for more information on the following:Visa Free Transit FacilityCheck if You Need an Entry Visa[1] CIS refers to: Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan.[2] These include holder of the PRC Travel Document, Hong Kong Special Administrative Region (SAR) Document of Identity (DOI) and Macau SAR Travel Permit. Holder of ordinary, diplomatic, public affairs and service PRC passports are excluded.",
+  "retrieved_doc_ids": [
+    "PB_bffdf08b037b0b8dbbbe",
+    "PB_3de6df26cfd351caa37e",
+    "PB_776de7439758761e5c43",
+    "PB_f69aa5d536523684f1ff",
+    "PB_743c2b7ca9ad487e0937"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b0ec26ba72b71444f5ca3fe745031e948938647665c5f0cc44df3cf3c1a37a2e",
+  "answer": "Based on [Document 1], free parking is available from 7am to 10:30pm every day, including Sundays and public holidays. However, specific details about short-term parking lots are not provided in the given evidence. [Document 5] mentions the 96-hour Visa Free Transit Facility (VFTF), but does not specify parking times.",
+  "input_tokens": 534,
+  "output_tokens": 77,
+  "seconds": 10.277319199987687,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

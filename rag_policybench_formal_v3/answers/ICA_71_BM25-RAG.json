@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_71",
+  "doc_id": "PB_9bcc03600abfbc3227e6",
+  "query_type": "ICA_134",
+  "query": "Can I sponsor my parent(s) for Singapore Permanent Residence (PR)?",
+  "reference_answer": "You can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.",
+  "corpus_query_index": 271,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 2]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 3]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.\n\n[Document 4]\nGenerally, Singapore PR applications take about six months to process, provided all the required documents are submitted. Depending on the complexity of the case, some applications may take more than six months to process.The main applicant/sponsor will be informed of the outcome via email/post. Meanwhile, your sponsor may check the status of your PR application online through ICA e-Service. New or repeated applications, for the same person(s), will not be accepted while the current application is still in process.\n\n[Document 5]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "retrieved_doc_ids": [
+    "PB_9bcc03600abfbc3227e6",
+    "PB_d98d322f2936df748ef1",
+    "PB_3579b1ce15984a462107",
+    "PB_b155e67f12a868a1d32b",
+    "PB_281c77b1cca45bc9951f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b35d0d5a4641a63f23ffd169212aec099b9591e5584dc59723965c4c97434ce0",
+  "answer": "Only Singapore citizens can sponsor their parents for Singapore Permanent Residence (PR). The process involves submitting a fresh application online, which takes about six months to process. [Document 1]",
+  "input_tokens": 401,
+  "output_tokens": 37,
+  "seconds": 4.94890370000212,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005403",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but omits specific agency details and process steps."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question but omits specific agency details and process steps.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe candidate answer is relevant as it mentions the need to apply for an adoption license and provides a source for further information. However, it lacks the specificity of the process steps and the mention of the recognized adoption agency, which is crucial for the correctness of the answer. The faithfulness score is 1 because the candidate's answer is based on the evidence provided (Document 1), but it does not fully support the substantive factual claims due to the lack of detail. The reason succinctly explains the scores.",
+      "input_tokens": 438,
+      "output_tokens": 185,
+      "seconds": 14.168333599998732,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

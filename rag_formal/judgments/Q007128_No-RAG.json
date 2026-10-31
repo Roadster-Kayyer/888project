@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007128",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states rights during arrest and aligns with the reference, supported by the mention of rights to remain silent and attorney."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states rights during arrest and aligns with the reference, supported by the mention of rights to remain silent and attorney.\",\n  \"evidence\": \"The candidate answer directly references rights during arrest, which are stated in the reference. However, specific evidence from the reference (e.g., 'know the reason for arrest') is not explicitly mentioned in the candidate answer.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 120,
+      "seconds": 9.26255740000488,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

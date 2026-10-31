@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008070",
+  "doc_id": "57",
+  "query_type": "hard",
+  "query": "What conditions allow authorities to get you to write your name on a piece of paper?",
+  "corpus_query_index": 8069,
+  "system": "BM25-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\nName Change:\nTo change your name in Tamil Nadu, publish a name change advertisement in a local newspaper and submit a petition to the District Collector's office. You will need to provide ID proof, address proof, and a affidavit. The Collector will then publish a gazette notification.\n\n[Document 2]\nMeeting a Prisoner in Tamil Nadu Jails:\nTo meet a prisoner, obtain a permission letter from the Jail Superintendent or authorities. Provide the prisoner's name, jail name, and your relationship with the prisoner. Follow the jail's visiting hours and rules.\n\n[Document 3]\nCompounding an Offense:\nTo compound an offense, the complainant and accused must reach a mutual agreement. The complainant must then apply to the court, stating the agreement and requesting permission to compound the offense. The court will consider the application and may allow the compounding of the offense, subject to certain conditions.\n\n[Document 4]\nModifying Bail Conditions\nYes, bail conditions can be modified after they are set. The accused or the prosecution can apply to the court to modify or cancel the bail conditions, and the court will decide based on the circumstances.\n\n[Document 5]\nWithdrawing a Complaint:\nTo withdraw your complaint, submit a written application to the police station where you filed the FIR. The application should state your intention to withdraw the complaint and sign it. The police will then follow the procedure as per law and guidelines. Note: Withdrawal is subject to certain conditions and may require court approval.",
+  "retrieved_doc_ids": [
+    "1833",
+    "1157",
+    "1119",
+    "1029",
+    "11"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f446174cc998af7a8cb560c4b444ebb403cf9f448bbc4fcbbc9a945c58acb9a6",
+  "answer": "Conditions for writing your name on a piece of paper are not mentioned in the provided documents. However, to change your name in Tamil Nadu, you need to publish a name change advertisement and submit a petition to the District Collector's office [Document 1]. To meet a prisoner, obtain a permission letter from the Jail Superintendent [Document 2]. For other actions, see documents related to bail modifications or withdrawing complaints. [Document 3], [Document 4], [Document 5]. [Document 1] [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 430,
+  "output_tokens": 124,
+  "seconds": 15.946636699998635,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

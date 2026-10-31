@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_106",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the process and includes details from Documents 1 and 2, which are directly supported by the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process and includes details from Documents 1 and 2, which are directly supported by the evidence.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}",
+      "input_tokens": 1156,
+      "output_tokens": 192,
+      "seconds": 14.629178800001682,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2762.0341796875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

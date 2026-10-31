@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003520",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly cites all-women police stations, a women's helpline, and increased female police personnel, and is supported by evidence from Documents 1, 3, and 4.\",\n}",
+      "input_tokens": 799,
+      "output_tokens": 192,
+      "seconds": 14.948031100000662,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence.\"}",
+      "input_tokens": 839,
+      "output_tokens": 40,
+      "seconds": 3.460656100000051,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

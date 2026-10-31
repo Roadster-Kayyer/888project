@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_106",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1] and [Document 2]\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully faithful to the evidence provided in the documents. The answer accurately describes the process of attending a citizenship ceremony to collect the certificate and the timeframe for receiving details via email. The evidence from Documents 1 and 2 directly supports the factual claims made in the candidate's answer.",
+      "input_tokens": 647,
+      "output_tokens": 157,
+      "seconds": 11.816426700002921,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2762.0341796875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

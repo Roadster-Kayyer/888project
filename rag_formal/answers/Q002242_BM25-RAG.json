@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002242",
+  "doc_id": "1401",
+  "query_type": "formal",
+  "query": "What strategies do law enforcement employ in addressing cases involving the exploitation of tribal artisans?",
+  "corpus_query_index": 2241,
+  "system": "BM25-RAG",
+  "reference_answer": "Exploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.",
+  "context": "[Document 1]\nExploitation of Tribal Artisans:\nThe Tamil Nadu Police handles cases of exploitation of tribal artisans by registering complaints and investigating cases of cheating, fraud, or coercion. They work with tribal welfare departments and NGOs to provide support and protection to affected artisans, and take action against those exploiting them.\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nForest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act\n\n[Document 4]\nAddressing Tribal Women's Grievances:\nThe Tamil Nadu Police has a system in place to address tribal women's grievances through dedicated women's desks and cells. These desks and cells receive and investigate complaints, providing support and counseling to tribal women in need.\n\n[Document 5]\nProhibition Enforcement Wing (PEW) Cases:\nThe Prohibition Enforcement Wing handles cases related to prohibition, smuggling, and bootlegging of liquor and other intoxicating substances.",
+  "retrieved_doc_ids": [
+    "1401",
+    "107",
+    "1381",
+    "1412",
+    "1926"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8ae615b240f60a5da67b4ae673028528332116ce0106eaebbeea318a9d620bfd",
+  "answer": "Law enforcement in Tamil Nadu addresses exploitation of tribal artisans by registering complaints, investigating cases, and collaborating with tribal welfare departments and NGOs [Document 1]. They also protect tribal rights under the Forest Rights Act [Document 3]. Police have dedicated desks for tribal women's grievances [Document 4]. [Document 1] highlights their role in supporting and protecting affected artisans.",
+  "input_tokens": 409,
+  "output_tokens": 75,
+  "seconds": 9.505702100001145,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

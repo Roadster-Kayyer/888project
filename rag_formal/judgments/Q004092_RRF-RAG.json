@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004092",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, with all factual claims supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, with all factual claims supported by the evidence provided.\",\n  \"evidence_references\": [\"Document 1\"]\n}\n\n\nThe reason for the scores is that the candidate's answer is correct (2), directly relevant (2), and faithful (2) to the evidence provided in Document 1. The answer covers the main reference facts about the presumption of innocence, the burden of proof, and the legal framework in India, as outlined in the reference documents. There are no unsupported claims or omissions, and the answer includes specific references to the evidence that supports the claims made.",
+      "input_tokens": 766,
+      "output_tokens": 176,
+      "seconds": 13.874605599998176,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

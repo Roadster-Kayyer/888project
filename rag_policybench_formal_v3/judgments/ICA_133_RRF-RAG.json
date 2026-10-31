@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_133",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Documents 1, 3, and 5 to support the process of checking visa application status via ICA e-Service."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the use of ICA e-Service with reference and travel document numbers, supported by Documents 1, 3, and 5.\",\n}",
+      "input_tokens": 802,
+      "output_tokens": 75,
+      "seconds": 5.93246110000473,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, using evidence from Documents 1, 3, and 5 to support the process of checking visa application status via ICA e-Service.\"}\n\n(Note: The \"faithfulness\" score is set to 2 because the candidate answer includes all substantive factual claims about how to check visa application status, which are supported by the evidence provided in Documents 1, 3, and 5.)",
+      "input_tokens": 842,
+      "output_tokens": 123,
+      "seconds": 9.499055499996757,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

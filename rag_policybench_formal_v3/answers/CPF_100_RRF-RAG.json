@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_100",
+  "doc_id": "PB_2a66fea5f046058537db",
+  "query_type": "CPF_111",
+  "query": "I have invested in a company using CPF. How can I get the latest financial statement or annual report of this company, if the company has been delisted? And what should I do if the company does not respond to my request?",
+  "reference_answer": "You may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.",
+  "corpus_query_index": 58,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.\n\n[Document 2]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 3]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "retrieved_doc_ids": [
+    "PB_2a66fea5f046058537db",
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_3300f78e0c7cee359492",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_f79fde53917b7a3dd93a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7d41247d0be37dd151bdf587b2aa524ce9e3b3515db652b074740c58fb6e29e0",
+  "answer": "If the company is delisted, check ACRA's BizFile portal for the company’s office address. Request the financial statement or annual report through registered post. If unanswered, contact the agent bank. For non-responding companies, follow company announcements on SGXNet or company websites for virtual AGMs/EGMs. Ensure to set aside FRS before withdrawing discounted Singtel shares. [Document 1]",
+  "input_tokens": 944,
+  "output_tokens": 84,
+  "seconds": 10.699826800002484,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000242",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\nExplanation:\n- Correctness: The candidate answer is partly correct as it outlines steps like contacting law enforcement and attending court, which are part of the process.\n- Relevance: The answer is relevant as it pertains to the initiation of a criminal case filing process.\n- Faithfulness: The answer cannot be scored for faithfulness due to the absence of evidence directly linking the candidate's answer to the reference provided.\n- Evidence: There is no evidence provided in the candidate's answer to link to the reference steps.\n\nThe reference provides a clear",
+      "input_tokens": 398,
+      "output_tokens": 192,
+      "seconds": 14.38354149999941,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

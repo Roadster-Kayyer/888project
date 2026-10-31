@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000241",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference steps for filing a case in a criminal court and is fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference steps for filing a case in a criminal court and is fully supported by the evidence provided.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\n(Note: The \"faithfulness\" key in the JSON object is set to 2 because the candidate's answer is directly supported by the evidence in Document 1, which matches the reference's description of the process. There are no unsupported or contradicted factual claims in the candidate's answer.)",
+      "input_tokens": 1091,
+      "output_tokens": 149,
+      "seconds": 11.83188710000104,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_73",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly explains the use of FEDA for platform workers, directly addresses the question, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the use of FEDA for platform workers, directly addresses the question, and is supported by evidence from Document 1.\"\n}",
+      "input_tokens": 1653,
+      "output_tokens": 71,
+      "seconds": 5.961925999989035,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

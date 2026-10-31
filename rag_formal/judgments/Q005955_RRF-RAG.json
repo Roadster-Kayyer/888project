@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005955",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer correctly identifies that the provided documents do not contain information about house cleaning certification procedures, but it fails to directly address the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer correctly identifies that the provided documents do not contain information about house cleaning certification procedures, but it fails to directly address the question.\"\n}",
+      "input_tokens": 760,
+      "output_tokens": 72,
+      "seconds": 5.644910400002118,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

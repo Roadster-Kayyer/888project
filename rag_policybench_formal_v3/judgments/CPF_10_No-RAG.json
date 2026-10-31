@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_10",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states that ERS increase does not affect BRS or FRS, consistent with reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that ERS increase does not affect BRS or FRS, consistent with reference.\",\n  \"evidence\": \"The candidate answer directly reflects the information provided in the reference, which states that BRS and FRS remain unchanged despite the increase in ERS. However, the evidence is implicit in the candidate's answer rather than explicitly stated.\"\n}",
+      "input_tokens": 522,
+      "output_tokens": 118,
+      "seconds": 9.280140399991069,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

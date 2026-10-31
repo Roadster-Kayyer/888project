@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007119",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer partially addresses the question but omits specific government bodies for reporting, which are crucial according to the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"The answer partially addresses the question but omits specific government bodies for reporting, which are crucial according to the reference.\",\n  \"evidence\": null\n}\n\n\nIn the provided candidate answer, the process of filing a complaint is mentioned, but it fails to directly reference the specific government bodies such as the Vigilance and Anti-Corruption Department (DVAC) or the toll-free helpline 1064, which are essential according to the reference. The evidence key is set to null because the candidate's answer does not contain any direct evidence from the reference text.",
+      "input_tokens": 430,
+      "output_tokens": 166,
+      "seconds": 12.873128899998846,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

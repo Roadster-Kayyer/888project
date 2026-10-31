@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_53",
+  "doc_id": "PB_2bc174ceaf15f1ad5e40",
+  "query_type": "ICA_134",
+  "query": "What should I key in for the field 'Date of Departure from Singapore' if I am not leaving Singapore?",
+  "reference_answer": "You are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "corpus_query_index": 251,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 2]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.\n\n[Document 3]\nUnder Article 135(1)(b) and 135(1)(c) of the Singapore Constitution, a Singapore citizen who has been away from Singapore for a continuous period of 10 years or more without a valid Singapore passport may be deprived of his Singapore citizenship.   You are advised to have a valid Singapore travel document if you wish to remain outside of Singapore for more than 10 years.\n\n[Document 4]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.\n\n[Document 5]\nTravellers are strongly encouraged to submit their SG Arrival Card before arriving in Singapore, as those who have not done so will be required to submit on arrival before they can proceed for immigration clearance. This will delay their immigration clearance unnecessarily.",
+  "retrieved_doc_ids": [
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_56ae394ef36d16f6c616",
+    "PB_19512072066023768385",
+    "PB_28ec022d3591816d8720",
+    "PB_6f67feecf50543bb14eb"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c1ed8419ee687ecfe58985cfdef6c9314ed2f4299e85407295ee7c35b5bb0b95",
+  "answer": "If you're not leaving Singapore, enter an indicative departure date 30 days after your arrival date, matching the last port of embarkation as shown on your SG Arrival Card. [Document 1]",
+  "input_tokens": 472,
+  "output_tokens": 42,
+  "seconds": 5.700818099998287,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

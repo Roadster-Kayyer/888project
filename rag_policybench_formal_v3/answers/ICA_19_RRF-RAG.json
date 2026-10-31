@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_19",
+  "doc_id": "PB_a5deb8741f88193f4891",
+  "query_type": "ICA_134",
+  "query": "How should I appeal if my extension of stay application is unsuccessful?",
+  "reference_answer": "If your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "corpus_query_index": 213,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 2]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 3]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 4]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.\n\n[Document 5]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.",
+  "retrieved_doc_ids": [
+    "PB_a5deb8741f88193f4891",
+    "PB_c4889c17ceec12f1516c",
+    "PB_4e4521efc7be0bf0574a",
+    "PB_f69aa5d536523684f1ff",
+    "PB_b57a1848f1c7ce667389"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8197e91398c6afa56669adaec786dd195ceb069421ccebcb9df2cef8afde29dd",
+  "answer": "If your initial extension of stay application is unsuccessful, you can submit a new application via the e-Service, providing accurate details including your DE number and name. Ensure all documents are correct and complete. Overstay is an offense, so depart if needed before your STVP expires. Follow the specific guidelines for your type of pass (child or adult) as outlined in Document 2. Check application status online [Document 3]. Always apply when your pass has 14 days left. [Document 1] advises making departure arrangements if you can't extend.",
+  "input_tokens": 579,
+  "output_tokens": 114,
+  "seconds": 14.998848999995971,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

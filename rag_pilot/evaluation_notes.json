@@ -1,0 +1,19 @@
+{
+  "report_version": 2,
+  "status": "pilot feasibility results",
+  "judge": {
+    "repo": "microsoft/Phi-3.5-mini-instruct",
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "path": "D:\\CodexModels\\LegalFAQ\\hub\\models--microsoft--Phi-3.5-mini-instruct\\snapshots\\2fe192450127e6a83f7441aef6e3ca586c338b77"
+  },
+  "score_scale": "ordinal 0/1/2, provisional rubric scores, not percentages or verified factual accuracy",
+  "faithfulness": "N/A for No-RAG and pure abstentions; report valid counts",
+  "bootstrap": "FAQ group mean then paired percentile 95% CI; require all variants and methods valid per FAQ per metric",
+  "main_summary": "answer_quality_summary.csv and chart use bootstrap estimates from the same complete FAQ groups as their CIs; by-type table follows the same rule within each type",
+  "available_case_summary": "answer_quality_available_case_summary.csv is descriptive only, includes all available scores and operational metrics, and has no paired CIs",
+  "citations": "bracketed Document/ Documents references; each listed reference occurrence counts separately; placeholders and malformed entries are invalid; numeric references outside supplied context are invalid; does not verify claim support",
+  "citation_answer_rate": "has_invalid_citation mean is the fraction of answers with at least one detected invalid citation; invalid_citation_count mean is occurrences per answer",
+  "pilot_warning": "Only four FAQ clusters in pilot: do not use pilot CIs to support thesis conclusions.",
+  "f1": "lexical overlap proxy, not semantic correctness; v2 strips grouped and placeholder Document citation brackets as well as numeric single citations",
+  "review_status": "blank human review sheets are not completed annotations"
+}

@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_10",
+  "doc_id": "PB_ad0bcfeb32e6e7edb2c7",
+  "query_type": "ICA_134",
+  "query": "After making payment, how do I print my receipt?",
+  "reference_answer": "Once payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.",
+  "corpus_query_index": 169,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nOnce payment is successful, there will be a pop-up window of the receipt. You can use the print function on the web browser to print the receipt.You will not be able to reprint your receipt once you have closed the pop-up window of the receipt. If you require a receipt, please remember to print or save the receipt before closing the pop-up window.Please refer to ICA website for more information on payment-related enquiries.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nWhen the traveller accesses the QR code via the MyICA mobile app and their passports is still valid, the QR code's validity will be automatically extended. Hence, no further actions are required for these group of travellers.The QR code will be invalid for use once the passport has expired. MyICA mobile app will prompt users that their passport has expired or is expiring (i.e., passport with less than six months' validity).After travellers have received a new passport, they can update their or others' profile information in MyICA mobile app. This includes making changes to details such as the new passport number and passport expiry date.",
+  "retrieved_doc_ids": [
+    "PB_ad0bcfeb32e6e7edb2c7",
+    "PB_cc60baad4cbf9560588b",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_09222d548a5f63af648a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b4568e9d7bdd9cc2b9e794ff50538c48c071d6da73cd162155218032505638c7",
+  "answer": "After making payment, a pop-up window will show your receipt. Use the print function on your web browser to print it. [Document 1]",
+  "input_tokens": 954,
+  "output_tokens": 31,
+  "seconds": 4.396362599989516,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

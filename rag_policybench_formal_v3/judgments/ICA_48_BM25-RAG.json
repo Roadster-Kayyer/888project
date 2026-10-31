@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_48",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question and is supported by evidence from Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the possibility of requesting a longer REP duration and accurately refers to the renewal process via ICA e-Service, supported by Document 4.\",\n}",
+      "input_tokens": 777,
+      "output_tokens": 78,
+      "seconds": 6.325201100000413,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question and is supported by evidence from Document 4.\"}",
+      "input_tokens": 817,
+      "output_tokens": 39,
+      "seconds": 3.2672918000025675,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

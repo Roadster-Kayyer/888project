@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008067",
+  "doc_id": "57",
+  "query_type": "formal",
+  "query": "Under what circumstances can law enforcement compel an individual to affix their signature to a document?",
+  "corpus_query_index": 8066,
+  "system": "Dense-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nPolice Verification for Arms License:\nFor arms license applicants, police verification involves a background check. Submit your application to the District Arms Office. Police will conduct a thorough check, including interviews with neighbors and employers, to verify your character and antecedents.\n\n[Document 3]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 4]\nPolice Verification for Private Security Guards:\nApply for police verification through the private security agency's employer. Submit required documents, including the guard's ID proof, address proof, and employment details, to the local police station. The police will conduct a background check and issue a verification report.\n\n[Document 5]\nPolice Verification for Government Contractors:\nThe procedure involves submitting an application to the local police station with required documents, including a contract copy and ID proof. The police will then conduct a background check and issue a verification report.",
+  "retrieved_doc_ids": [
+    "57",
+    "211",
+    "34",
+    "208",
+    "217"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dc976509d7590bd64d6bc3f3c81e45b401fb29a0ca00288dbd07bb29e3bffad5",
+  "answer": "Law enforcement cannot compel an individual to sign a document; however, they can require a background check and verification process, such as for arms licenses, passports, or government contracts, where signatures are part of the formalities [Document 1-5].",
+  "input_tokens": 382,
+  "output_tokens": 51,
+  "seconds": 6.843004999998811,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_54",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks evidence and does not directly address the question based on the provided reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks evidence and does not directly address the question based on the provided reference.\",\n  \"evidence\": \"The reference clearly states that ABTC validity is tied to passport validity, but no specific information is given about the effect of passport number changes on ABTC cards.\"\n}",
+      "input_tokens": 426,
+      "output_tokens": 102,
+      "seconds": 7.765120199997909,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

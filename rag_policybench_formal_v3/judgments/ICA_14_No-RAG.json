@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_14",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by the reference information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by the reference information.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: The \"evidence\" key is set to \"Document 1\" as a placeholder, as the actual evidence is not provided in the text. In a real scenario, the evidence would be a specific document or source that directly supports the candidate's answer.)",
+      "input_tokens": 462,
+      "output_tokens": 128,
+      "seconds": 9.550315500004217,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

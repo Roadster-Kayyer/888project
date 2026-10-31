@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007118",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly references documents for reporting procedures and emphasizes documentation, which is relevant to the question. It faithfully follows the evidence provided for reporting medical negligence and anonymous tips, but could more directly address the suspicion of bribery."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly references documents for reporting procedures and emphasizes documentation, which is relevant to the question. It faithfully follows the evidence provided for reporting medical negligence and anonymous tips, but could more directly address the suspicion of bribery.\"\n}",
+      "input_tokens": 893,
+      "output_tokens": 93,
+      "seconds": 6.890922899998259,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007393",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Tamil Nadu Police helpline numbers and mentions providing details about the forced marriage, which aligns with the reference information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the Tamil Nadu Police helpline numbers and describes the process of reporting, supported by Document 1.\",\n}",
+      "input_tokens": 800,
+      "output_tokens": 70,
+      "seconds": 5.78210200000467,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Tamil Nadu Police helpline numbers and mentions providing details about the forced marriage, which aligns with the reference information.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is fully supported by the evidence provided in Document 1, which directly instructs on how to report a forced or child marriage. There are no unsupported claims or contradictions in the candidate's answer.",
+      "input_tokens": 840,
+      "output_tokens": 122,
+      "seconds": 9.741011499994784,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

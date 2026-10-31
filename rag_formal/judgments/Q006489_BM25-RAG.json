@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006489",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific steps from documents for filing a complaint about online scams."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific steps from documents for filing a complaint about online scams.\",\n  \"evidence\": \"[Document 1, Document 4]\"\n}\n\n\nThe candidate answer is faithful to the evidence provided in Document 1 and Document 4, which both contain instructions on how to file a complaint regarding online scams. The answer is relevant as it directly addresses the question and includes specific actions to take, as outlined in the documents. The correctness score is 2 because the answer is correct and covers the main reference facts about filing a complaint for online scams. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to",
+      "input_tokens": 861,
+      "output_tokens": 192,
+      "seconds": 15.205031999998027,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007396",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies available support services and references documents 1 and 2 for evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies available support services and references documents 1 and 2 for evidence.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate answer directly addresses the question by listing specific support services available to women facing domestic abuse during pregnancy, such as helplines and local NGOs, and it is supported by evidence from Document 1 and Document 2. The answer is correct, relevant, and faithful to the provided evidence.",
+      "input_tokens": 860,
+      "output_tokens": 144,
+      "seconds": 11.358976799994707,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

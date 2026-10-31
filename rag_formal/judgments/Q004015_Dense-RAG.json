@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004015",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, citing relevant documents and outlining specific recourses against law enforcement negligence.\",\n}\n\n\nThe candidate answer is factually correct, directly relevant to the question, and faithfully supported by the evidence provided in the documents. The answer mentions vicarious liability, legal rights during investigations, and the existence of a specific body to handle related cases, all of which are substantiated by the documents. The reason succinctly explains the scores.",
+      "input_tokens": 803,
+      "output_tokens": 146,
+      "seconds": 11.488736499999504,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, and 5.\"}",
+      "input_tokens": 843,
+      "output_tokens": 50,
+      "seconds": 4.15632910000204,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

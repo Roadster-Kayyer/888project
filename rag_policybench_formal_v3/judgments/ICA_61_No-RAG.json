@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_61",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but addresses the question, suggesting further inquiry."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but addresses the question, suggesting further inquiry.\",\n  \"evidence\": \"null\"\n}\n\nExplanation: The candidate answer is relevant as it acknowledges the need for specific information and suggests checking with the relevant authority, which is pertinent to the question. However, it does not directly support or contradict the reference, hence the faithfulness score is null due to the absence of evidence. The correctness score is 1 because the answer is partly correct but omits the key detail about the six-month return requirement from the reference.",
+      "input_tokens": 378,
+      "output_tokens": 158,
+      "seconds": 11.769593699995312,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

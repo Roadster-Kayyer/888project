@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_51",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the process but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process but lacks direct evidence from the reference.\",\n  \"evidence\": \"The reference states that a Student's Pass must be cancelled and a short-term visit pass may be granted, but no automatic long-term pass is mentioned.\"\n}",
+      "input_tokens": 492,
+      "output_tokens": 98,
+      "seconds": 7.8645136000122875,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

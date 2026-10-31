@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008068",
+  "doc_id": "57",
+  "query_type": "casual",
+  "query": "So, can the cops make me put my name on a paper?",
+  "corpus_query_index": 8067,
+  "system": "Dense-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nFiling a Petition:\nTo file a petition, visit the police commissioner's or DGP's office during working hours. Submit a written petition with your name, address, and contact details. Clearly state the issue and provide supporting documents.\n\n[Document 3]\nPolice Verification for Business Establishment:\nTo get police verification for a business, submit an application to your local police station with required documents (ID proof, address proof, and business registration papers). Police will conduct a background check and issue a verification report, which is usually required for licensing and registration purposes.\n\n[Document 4]\nFiling an FIR by a Woman:\nYes, a woman can file an FIR without going to the police station. She can lodge a complaint over the phone or through a written complaint sent by post. The police will then come to her location to record her statement.\n\n[Document 5]\nRefusing Fingerprints or DNA Sample:\nNo, you cannot refuse to give your fingerprints or DNA sample to the police if you're arrested or detained. According to the Tamil Nadu Police guidelines, you're required to provide biometric data, including fingerprints and DNA samples, as part of the investigation process.",
+  "retrieved_doc_ids": [
+    "57",
+    "36",
+    "212",
+    "295",
+    "52"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c1f08c57944362ed0d40d724ed2da93f05c22011066f5c684b94bc21eed5fba8",
+  "answer": "No, the police cannot make you sign a document against your will. However, you must provide your name and other details when filing a petition or getting police verification for a business. [Document 1]",
+  "input_tokens": 401,
+  "output_tokens": 42,
+  "seconds": 5.436497900001996,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

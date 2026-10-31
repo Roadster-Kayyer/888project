@@ -1,0 +1,29 @@
+{
+  "query_id": "CPF_43",
+  "doc_id": "PB_e05e627156f03d97ac97",
+  "query_type": "CPF_111",
+  "query": "Are CPF contributions payable by the holding company or the subsidiary company if I am seconded from the former to latter?",
+  "reference_answer": "The employer who had entered into an employment contract with you is required to pay the CPF contributions.",
+  "corpus_query_index": 105,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 2]\nIn the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gr\n\n[Document 3]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 4]\nYou may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.\n\n[Document 5]\nIt depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+  "retrieved_doc_ids": [
+    "PB_b8fa647c38cb9cfface8",
+    "PB_bd1ee881d60bea761ac7",
+    "PB_3300f78e0c7cee359492",
+    "PB_2a66fea5f046058537db",
+    "PB_f79fde53917b7a3dd93a"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bd1ee881d60bea761ac7",
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "bb34cfdd3ba4699ab9f90d25bb004066d56aafbc8578820ef72aa844def69533",
+  "answer": "The document does not provide specific information about CPF contributions for a seconded individual. It discusses various ways to pay premiums and voting procedures but doesn't clarify if contributions are made by the holding or subsidiary company. [Document 1] & [Document 2]",
+  "input_tokens": 964,
+  "output_tokens": 53,
+  "seconds": 7.129828599994653,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

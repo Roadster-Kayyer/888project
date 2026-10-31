@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003518",
+  "doc_id": "1631",
+  "query_type": "casual",
+  "query": "How did the Tamil Nadu Police change their ways to keep women safer?",
+  "corpus_query_index": 3517,
+  "system": "RRF-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nProtection for Women Facing Honor-Based Threats\nThe Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.\n\n[Document 2]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 3]\nFunctions of All Women Police Stations in Tamil Nadu:\nAll Women Police Stations in Tamil Nadu provide a safe and supportive environment for women to report crimes. Their functions include:\n* Registering complaints related to domestic violence, harassment, and other women-specific crimes\n* Providing counseling and support services\n* Investigating and handling cases related to women's safety\n\n[Document 4]\nSupport Services for Rescued Women:\nThe Tamil Nadu Police provides support services for women rescued from sex trafficking, including counseling, medical aid, and shelter. The government also runs Swadhar Greh schemes, which provide food, clothing, and vocational training to rescued women. You can contact the Tamil Nadu Police helpline (1091) for more information.\n\n[Document 5]\nAccessing Women Helpline Services:\nTo access the Tamil Nadu Police women helpline services, dial 181 or visit the nearest All-Women Police Station. You can also download the Tamil Nadu Police mobile app for assistance.",
+  "retrieved_doc_ids": [
+    "453",
+    "1631",
+    "1880",
+    "461",
+    "1010"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4526de14c6309c38bbd3afc36fafbe366f168e46861a6b2909710c75f64f3545",
+  "answer": "The Tamil Nadu Police changed their ways by establishing all-women police stations, creating a dedicated women's helpline, and increasing female police personnel. They also provide support services like counseling and shelter for rescued women. [Document 2] [Document 3] [Document 4] [Document 5]",
+  "input_tokens": 433,
+  "output_tokens": 63,
+  "seconds": 8.402301699999953,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

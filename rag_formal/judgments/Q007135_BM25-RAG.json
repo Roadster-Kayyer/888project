@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007135",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly details the procedure for BDO dispute submission and is directly supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details the procedure for BDO dispute submission and is directly supported by Document 1 and Document 4.\",\n  \"evidence\": \"[Document 1], [Document 4]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly outlines the procedure for submitting a dispute against a BDO, and is fully supported by the evidence provided in Document 1 and Document 4. There are no omissions or unsupported claims in the candidate's response. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 870,
+      "output_tokens": 167,
+      "seconds": 13.016528499996639,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

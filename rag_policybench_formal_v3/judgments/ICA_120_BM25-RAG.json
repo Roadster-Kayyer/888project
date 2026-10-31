@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_120",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies potential reasons for the delay and refers to relevant documents supporting the explanation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies potential reasons for the delay and refers to relevant documents supporting the explanation.\",\n  \"evidence\": \"Document 2 and Document 3\"\n}\n\n\nThe candidate answer directly addresses the question by explaining the possible reasons for the delay in the LTVP application process, including the lack of a Pre-Marriage LTVP Assessment (PMLA) and the standard processing time. The answer is supported by Document 2, which states the processing time for LTVP applications, and Document 3, which emphasizes the importance of the PMLA for non-resident couples. The evidence provided is directly related to the question, and the answer is factually consistent with the information given in",
+      "input_tokens": 1021,
+      "output_tokens": 192,
+      "seconds": 15.093727800005581,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

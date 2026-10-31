@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_14",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not match the reference and no evidence is provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not match the reference and no evidence is provided.\",\n  \"evidence\": null\n}\n\nIn this case, the correctness score is 0 because the candidate answer does not contain the correct information from the reference. The relevance score is 0 because the answer does not address the question about the two sections mentioned in the document. Faithfulness is null due to the lack of evidence and the fact that the answer contains incorrect information.",
+      "input_tokens": 348,
+      "output_tokens": 134,
+      "seconds": 10.052103499998339,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

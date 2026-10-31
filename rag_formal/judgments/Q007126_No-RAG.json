@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007126",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states rights related to silence, attorney presence, and charges, aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states rights related to silence, attorney presence, and charges, aligning with the reference.\",\n  \"evidence\": \"The candidate answer directly addresses the rights mentioned in the reference, including the right to remain silent, have an attorney, and be informed of charges, which are all supported by the provided reference.\"\n}",
+      "input_tokens": 376,
+      "output_tokens": 110,
+      "seconds": 8.371880200000305,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

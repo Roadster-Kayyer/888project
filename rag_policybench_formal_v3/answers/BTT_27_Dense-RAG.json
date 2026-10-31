@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_27",
+  "doc_id": "PB_905df234754f5b501b5d",
+  "query_type": "BTT",
+  "query": "Under what circumstances is it permissible to drive, move, or stop on the road shoulder or verge?",
+  "reference_answer": "It is permissible only in the event of a breakdown, accident, or emergency.",
+  "corpus_query_index": 20,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nBasic theory of driving.\n\n[Document 4]\nIt indicates the centre line of a two-way road.\n\n[Document 5]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "retrieved_doc_ids": [
+    "PB_89b7e5350f270a309ba9",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_043f86bad043c042932a",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_619765030c2c1f6e27b8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "34c039738bcb0bacf180664b4a7afd7513d26a98ad44e8456f3f7db8e1ffdecf",
+  "answer": "It is permissible to drive, move, or stop on the road shoulder or verge to allow enough room to stop safely if the vehicle stops abruptly [Document 1]. Motorists can also drive on ahead [Document 2]. However, specific rules for center lines or general road codes are not detailed in the provided evidence [Document 4-5].",
+  "input_tokens": 211,
+  "output_tokens": 71,
+  "seconds": 28.42854079999961,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

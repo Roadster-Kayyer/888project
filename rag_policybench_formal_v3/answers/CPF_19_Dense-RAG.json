@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_19",
+  "doc_id": "PB_194e6b030eea394ac1a9",
+  "query_type": "CPF_111",
+  "query": "I am turning 55 later this year. How can I top up if my Retirement Account has not been created yet?",
+  "reference_answer": "If your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.",
+  "corpus_query_index": 78,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.\n\n[Document 2]\nYes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.\n\n[Document 3]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 4]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).\n\n[Document 5]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+  "retrieved_doc_ids": [
+    "PB_194e6b030eea394ac1a9",
+    "PB_609ae61f9bc5d0baf92e",
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_737eb8e9312fbade39a9",
+    "PB_377d7608d12421ff652e"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c07ec194ba204f0e8b34fb58f78da71a1bdd25c4fd06f26be15445c00c1daa06",
+  "answer": "You can top up to your Special Account (SA). This will be considered for matching grants under the Matched Retirement Savings Scheme. However, the maximum top-up is the current year's Enhanced Retirement Sum (ERS), which increases to 4 times Basic Retirement Sum (BRS) starting from January 1, 2025. [Document 1] [Document 3]",
+  "input_tokens": 527,
+  "output_tokens": 79,
+  "seconds": 10.41215459999512,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

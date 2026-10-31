@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006488",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly advises verification and reporting for suspicious online activities, aligning with provided documents on reporting fraud and phishing emails."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly advises verification and reporting for suspicious online activities, aligning with provided documents on reporting fraud and phishing emails.\",\n  \"evidence\": \"Document 5 provides evidence for handling phishing emails, which is directly addressed in the candidate's answer.\"\n}\n\n\nNote: The \"reason\" is a succinct explanation of the scores, and the \"evidence\" key is included to directly link the candidate's answer to the evidence provided in the reference documents. The scores are consistent with the instructions, as the candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 770,
+      "output_tokens": 170,
+      "seconds": 13.591856300001382,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

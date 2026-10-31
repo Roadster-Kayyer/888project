@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008553",
+  "doc_id": "657",
+  "query_type": "casual",
+  "query": "How do you get in trouble for hitting someone at home?",
+  "corpus_query_index": 8552,
+  "system": "BM25-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 4]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 5]\nSigns of Being Drugged and Actions to Take:\nSigns of being drugged include dizziness, nausea, and disorientation. If you suspect you've been drugged:\n- Seek help from someone you trust\n- Call the police (100) or the Tamil Nadu Emergency Service (108)\n- Get medical attention immediately at a nearby hospital",
+  "retrieved_doc_ids": [
+    "849",
+    "255",
+    "46",
+    "799",
+    "1992"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5e80b48aa119b49c8cc6b8788a7f517411dd8058d92384aee37bb247fa409a0e",
+  "answer": "If you hit someone at home, you could get in trouble by getting arrested. To find out, visit the local police station and ask about their arrest status. If reported, a FIR will be filed, which you can get from the police station or online. [Document 1] [Document 2]",
+  "input_tokens": 440,
+  "output_tokens": 63,
+  "seconds": 8.171058100000664,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

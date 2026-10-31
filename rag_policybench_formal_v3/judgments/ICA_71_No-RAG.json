@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_71",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer is relevant but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate answer is relevant as it addresses the question about sponsoring parents for PR in Singapore. However, it does not directly cite the evidence from the reference, which states that such sponsorship is only possible for Singapore citizens. Therefore, the correctness score is 0, and faithfulness is null due to the absence of direct evidence.",
+      "input_tokens": 362,
+      "output_tokens": 134,
+      "seconds": 10.398819800000638,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

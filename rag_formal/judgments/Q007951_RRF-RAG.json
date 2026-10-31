@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007951",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the penalty and cites the relevant documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the penalty and cites the relevant documents.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe reason is succinct and captures the essence of the evaluation: the candidate's answer is correct, directly relevant, and fully supported by the evidence provided in the documents.",
+      "input_tokens": 740,
+      "output_tokens": 111,
+      "seconds": 8.891871199994057,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

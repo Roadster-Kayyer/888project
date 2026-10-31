@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_27",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies permissible reasons (breakdown, accident, emergency) and indirectly references safety-related exceptions, aligning with evidence from Document 1 and 4. It acknowledges legal consequences from Document 2 without misrepresenting the primary permissible reasons."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies permissible reasons (breakdown, accident, emergency) and indirectly references safety-related exceptions, aligning with evidence from Document 1 and 4. It acknowledges legal consequences from Document 2 without misrepresenting the primary permissible reasons.\",\n  \"evidence\": \"Document 1, Document 4, Document 2\"\n}\n\n\nNote: The reason is concise and summarizes the key points of the evaluation. The evidence keys are included to indicate the documents that support the scores given.",
+      "input_tokens": 739,
+      "output_tokens": 156,
+      "seconds": 12.318087799998466,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

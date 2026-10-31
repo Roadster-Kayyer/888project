@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_65",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and partially correct, but lacks direct evidence from the reference. Faithfulness is mixed as it suggests an action without direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and partially correct, but lacks direct evidence from the reference. Faithfulness is mixed as it suggests an action without direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided candidate answer, the user is correctly informed that the Re-Entry Permit needs to be updated and linked to the current passport for entry purposes, which aligns with the reference's advice to transfer the validity of the REP to the new passport. However, the answer does not directly quote or paraphrase the reference's information, which would have been necessary for full faithfulness. The relevance score is high because the answer directly addresses the question of entering as a PR",
+      "input_tokens": 442,
+      "output_tokens": 192,
+      "seconds": 14.482171799987555,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

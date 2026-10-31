@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004609",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The candidate answer incorrectly suggests payment before appeal and omits the initial step of checking challan details."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"The candidate answer incorrectly suggests payment before appeal and omits the initial step of checking challan details.\",\n  \"evidence\": null\n}\n\n\nIn the provided answer, the candidate incorrectly implies that payment is a prerequisite to filing an appeal, which is not supported by the reference. The reference clearly states that one must check the challan details and submit a written appeal within a specified time frame, without mentioning payment. The absence of evidence is noted, as the candidate did not provide any document or source to back up their claim. The reason succinctly explains the lack of faithfulness to the reference.",
+      "input_tokens": 426,
+      "output_tokens": 169,
+      "seconds": 12.979838899998867,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

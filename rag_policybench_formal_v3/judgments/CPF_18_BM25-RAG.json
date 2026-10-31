@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_18",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly explains the application of different CAYE rates to service fees based on changes, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly explains the application of different CAYE rates to service fees based on changes, supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 827,
+      "output_tokens": 192,
+      "seconds": 14.756252899998799,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

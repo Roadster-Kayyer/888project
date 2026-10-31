@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001711",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided in Document 1, which outlines the process for applying for a lower TDS certificate in Tamil Nadu. The answer includes the necessary steps and required documents, which are directly supported by the information in the reference. The reason succinctly explains the scores, indicating that the candidate's answer is accurate and directly relevant to the question.",
+      "input_tokens": 822,
+      "output_tokens": 157,
+      "seconds": 12.413389699999243,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

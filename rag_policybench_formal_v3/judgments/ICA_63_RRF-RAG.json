@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_63",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states visa exemption for certain Chinese passport holders and the need for STVP for stays beyond 30 days, supported by Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states visa exemption for certain Chinese passport holders and the need for STVP for stays beyond 30 days, supported by Document 5.\"\n}",
+      "input_tokens": 1746,
+      "output_tokens": 77,
+      "seconds": 6.461705499998061,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

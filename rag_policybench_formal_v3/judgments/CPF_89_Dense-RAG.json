@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_89",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the frequency and conditions for WIS payments, aligning with evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the frequency and conditions for WIS payments, aligning with evidence from Document 3.\",\n  \"evidence\": \"[Document 3] - Monthly WIS based on income, additional WIS for SEPs after declarations, first payment date for SEPs.\"\n}",
+      "input_tokens": 1063,
+      "output_tokens": 192,
+      "seconds": 15.0550729999959,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

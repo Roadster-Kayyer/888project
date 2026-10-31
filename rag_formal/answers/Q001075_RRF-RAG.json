@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001075",
+  "doc_id": "1190",
+  "query_type": "hard",
+  "query": "How can I ensure a court's decision is genuine?",
+  "corpus_query_index": 1074,
+  "system": "RRF-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 3]\nAppealing a Lower Court Decision:\nTo appeal a lower court decision in Tamil Nadu, you must file a petition with the Madras High Court or the concerned appellate court, depending on the case type and lower court's jurisdiction.\n\n[Document 4]\nCompromise in Compoundable Offenses:\nTo apply for compromise:\n1. Ensure the offense is compoundable\n2. Obtain consent from the complainant and accused\n3. Submit a compromise petition to the court\n4. Court approval is required for the compromise to be valid.\n\n[Document 5]\nFiling a Caveat Petition:\nTo file a caveat petition, approach the court where the case is likely to be filed. Submit a petition stating the subject matter and parties involved. Pay the required fee and provide a copy of the petition to the court. The court will then notify you if any case is filed.",
+  "retrieved_doc_ids": [
+    "1190",
+    "1191",
+    "1049",
+    "770",
+    "1973"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bc9bc33e05babd1e41251d15e169871e76d747b8aab474dad1dce5d1f7a39b7a",
+  "answer": "To ensure a court's decision is genuine, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. Verify by checking the order's seal, signature, and stamp. [Document 1] [Document 2]",
+  "input_tokens": 407,
+  "output_tokens": 49,
+  "seconds": 6.381868799999211,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007839",
+  "doc_id": "528",
+  "query_type": "search",
+  "query": "What penalties are typically applied to those performing on public streets illegally?",
+  "corpus_query_index": 7838,
+  "system": "BM25-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 2]\nDifferentiation between Users and Traffickers:\nThe Tamil Nadu Police differentiates between users and traffickers based on the quantity of drugs seized and the intent to sell or distribute. Users are typically those found with small quantities for personal consumption, while traffickers are those found with larger quantities and evidence of intent to sell.\n\n[Document 3]\nIllegally Felling Trees:\nIllegally felling trees on disputed land can attract penalties under the Indian Forest Act and the Tamil Nadu Forest Act. The punishment can include imprisonment up to 3 years and a fine up to ₹10,000 or both.\n\n[Document 4]\nBailable vs Non-Bailable Offenses\nBailable offenses are those where bail is a right, and the accused can be released on bail. Non-bailable offenses are those where bail is not a right, and the court decides whether to grant bail.\n\n[Document 5]\nFiling a Public Interest Litigation (PIL):\nTo file a PIL, submit a petition to the High Court or Supreme Court, citing a public interest issue. Provide facts, evidence, and relevant laws. The court will review and decide whether to admit the petition. Note: PILs are typically filed by individuals or organizations acting in the public interest.",
+  "retrieved_doc_ids": [
+    "710",
+    "123",
+    "705",
+    "1028",
+    "1056"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "5e952337b7801bfa949196cf80273d95e316b0ee88b8da0982b68d5576d7766e",
+  "answer": "Typical penalties for illegally performing on public streets vary but often include fines and possible imprisonment. [Document 1] provides context but does not specify these penalties directly.",
+  "input_tokens": 436,
+  "output_tokens": 34,
+  "seconds": 4.480179499998485,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

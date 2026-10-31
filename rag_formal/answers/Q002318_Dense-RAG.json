@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002318",
+  "doc_id": "1415",
+  "query_type": "casual",
+  "query": "How do police officers in Tamil Nadu behave properly?",
+  "corpus_query_index": 2317,
+  "system": "Dense-RAG",
+  "reference_answer": "Code of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.",
+  "context": "[Document 1]\nEthical Guidelines for Police Behavior in Tamil Nadu:\nThe Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.\n\n[Document 2]\nCode of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.\n\n[Document 3]\nPolice Accountability in Tamil Nadu:\nThe Tamil Nadu Police is accountable to the State Government and the public. Mechanisms like the State Police Complaints Authority, Internal Vigilance Cells, and regular audits ensure transparency and accountability. Citizens can also file complaints through the Tamil Nadu Police website or at local police stations.\n\n[Document 4]\nPolice Units in Tamil Nadu:\nThe main police units in Tamil Nadu are:\n* Local Police\n* Traffic Police\n* Crime Branch\n* Prohibition Enforcement Wing\n* Special Branch\n\n[Document 5]\nEthics Committee Structure in Tamil Nadu Police:\nThe Tamil Nadu Police has a Professional Standards and Ethics Committee to oversee police conduct. It consists of senior officers and external members, ensuring accountability and transparency.",
+  "retrieved_doc_ids": [
+    "1414",
+    "1415",
+    "1419",
+    "985",
+    "1426"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "00565a69c8094d7f81d88131f1f837ac7720641b07c084b7444d8ee20ce014d6",
+  "answer": "Tamil Nadu police officers follow ethical guidelines emphasizing integrity, impartiality, and respect for human rights. They must uphold the law, protect citizens, and maintain public trust. The Tamil Nadu Police adheres to the Indian Police Code of Conduct and its own Code of Conduct, focusing on honesty, courtesy, and accountability. Officers are held accountable through mechanisms like the State Police Complaints Authority and regular audits. [Document 1], [Document 2]",
+  "input_tokens": 376,
+  "output_tokens": 91,
+  "seconds": 11.806419200000164,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

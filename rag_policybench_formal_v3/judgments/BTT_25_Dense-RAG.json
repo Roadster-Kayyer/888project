@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_25",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies specific road conditions indicated by warning signs and references documents 1 and 5 for support."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies specific road conditions indicated by warning signs and references documents 1 and 5 for support.\",\n  \"document_evidence\": \"[Document 1] Warning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas. [Document 5] The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\"\n}",
+      "input_tokens": 596,
+      "output_tokens": 192,
+      "seconds": 14.94016549999651,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

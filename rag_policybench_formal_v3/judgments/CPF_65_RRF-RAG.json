@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_65",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the start of enhancements in 2025 and the possibility of future top-ups with matching grants, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the start of enhancements in 2025 and the possibility of future top-ups with matching grants, supported by Document 1.\"\n}",
+      "input_tokens": 1361,
+      "output_tokens": 192,
+      "seconds": 14.82202029999462,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

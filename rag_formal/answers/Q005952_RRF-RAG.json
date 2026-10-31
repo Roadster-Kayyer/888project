@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005952",
+  "doc_id": "207",
+  "query_type": "formal",
+  "query": "How does the verification process for domestic workers operate?",
+  "corpus_query_index": 5951,
+  "system": "RRF-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nPassport Verification Procedure:\nThe police verification process for passports involves:\n1. Application submission\n2. Field verification by local police\n3. Report submission to passport office\nVerification is done to confirm applicant's identity and address.\n\n[Document 4]\nPolice Verification in Remote Areas:\nFor police verification in remote areas, applicants can submit their requests through the local police station or the Tamil Nadu Police website. The police will then conduct the verification process, which may involve door-to-door checks or online verification, and provide the necessary clearance.\n\n[Document 5]\nPolice Verification for Passport:\nThe process involves:\n1. Application submission to the Regional Passport Office.\n2. Police verification is initiated by the Passport Office.\n3. Local police station verifies the applicant's details.\n4. Report is submitted to the Passport Office.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "201",
+    "1394",
+    "787"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0b9c97bc2972d864a6ee06316dd1ad9533f56d81e74669ccf71cdee4b82d7a26",
+  "answer": "The verification process for domestic workers involves submitting an application to the local police station with required documents like ID proof, address proof, and a declaration form. [Document 1] Police conduct a background check and issue a verification report. [Document 2] This process ensures the worker's identity and address are confirmed. [Document 3] and [Document 4] provide additional context for remote areas. [Document 5] describes the broader process for passport verification, which includes police involvement. [Document 1-5] collectively detail the verification steps.",
+  "input_tokens": 388,
+  "output_tokens": 113,
+  "seconds": 14.000821199999336,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

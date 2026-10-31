@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008028",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the punishment for unauthorized street vending and references the relevant documents for filing a complaint and obtaining an FIR."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the punishment for unauthorized street vending and references the relevant documents for filing a complaint and obtaining an FIR.\",\n  \"evidence\": \"Documents 4 and 5 provide evidence of the fines and penalties for unauthorized street vending, which is the core issue related to bothering street sellers.\"\n}",
+      "input_tokens": 803,
+      "output_tokens": 121,
+      "seconds": 9.39963600000192,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

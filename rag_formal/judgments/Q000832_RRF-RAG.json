@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000832",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process of obtaining a NOC from the police, supported by Document 1 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process for obtaining a NOC from the police, supported by Document 1 and Document 3.\",\n}",
+      "input_tokens": 797,
+      "output_tokens": 192,
+      "seconds": 14.958729400001175,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly describes the process of obtaining a NOC from the police, supported by Document 1 and Document 3.\"}",
+      "input_tokens": 837,
+      "output_tokens": 52,
+      "seconds": 4.213422800003173,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

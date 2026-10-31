@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_61",
+  "doc_id": "PB_f95f71d1b02137e5eb5f",
+  "query_type": "CPF_111",
+  "query": "Can I cancel the payment after I have confirmed the payment utilising my GovCash on the LifeSG mobile app?",
+  "reference_answer": "No, your GovCash balance will be deducted upon successful payment.",
+  "corpus_query_index": 125,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.\n\n[Document 2]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 3]\nNo further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future\n\n[Document 4]\nNo, your GovCash balance will be deducted upon successful payment.\n\n[Document 5]\nIt is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "retrieved_doc_ids": [
+    "PB_ffb44a115e698c779310",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_aba31460334fd65c7b41",
+    "PB_f95f71d1b02137e5eb5f",
+    "PB_066794289dd14caa73dd"
+  ],
+  "trimmed_doc_ids": [
+    "PB_aba31460334fd65c7b41"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "67482ba823210c7365fa784adef3f135e6f6d95ba3b8fb0e380e65c0ed4b16ea",
+  "answer": "Based on Document 4, once GovCash is paid, it cannot be withdrawn or canceled. [Document 4]",
+  "input_tokens": 758,
+  "output_tokens": 25,
+  "seconds": 3.3317966000031447,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

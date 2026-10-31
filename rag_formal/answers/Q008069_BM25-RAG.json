@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008069",
+  "doc_id": "57",
+  "query_type": "search",
+  "query": "Is it legal for the police to require someone to sign a document?",
+  "corpus_query_index": 8068,
+  "system": "BM25-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nWithdrawing a Complaint:\nTo withdraw your complaint, submit a written application to the police station where you filed the FIR. The application should state your intention to withdraw the complaint and sign it. The police will then follow the procedure as per law and guidelines. Note: Withdrawal is subject to certain conditions and may require court approval.\n\n[Document 3]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 4]\nFIR vs Complaint:\nAn FIR is a formal document filed for cognizable offenses, while a complaint is for non-cognizable offenses. An FIR leads to a police investigation, whereas a complaint may require a court order for investigation.\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "57",
+    "11",
+    "1193",
+    "5",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "32110bf10ad94b49a08902330364eb5b0213ad368c4cefbc4fc725cd82f3ac43",
+  "answer": "According to [Document 1], the police cannot legally compel someone to sign any document. However, they can request signatures under certain circumstances, like withdrawing a complaint as described in [Document 2]. This shows that signing documents is voluntary, but the process can involve police actions. [Document 3] discusses certifying documents by courts, which is a separate process.",
+  "input_tokens": 391,
+  "output_tokens": 75,
+  "seconds": 9.798601699996652,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

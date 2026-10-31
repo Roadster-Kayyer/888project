@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004606",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the steps and includes the time frame for submitting an appeal, supported by Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the steps and includes the time frame for submitting an appeal, supported by Documents 1 and 2.\",\n  \"evidence\": \"Documents 1 and 2 provide the necessary steps and time frame for contesting a traffic challan in Tamil Nadu, which are accurately reflected in the candidate's answer.\"\n}",
+      "input_tokens": 897,
+      "output_tokens": 116,
+      "seconds": 9.160172600000806,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

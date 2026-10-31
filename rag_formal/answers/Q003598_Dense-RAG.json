@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003598",
+  "doc_id": "1646",
+  "query_type": "casual",
+  "query": "So, what changes were made to make it easier to file a complaint?",
+  "corpus_query_index": 3597,
+  "system": "Dense-RAG",
+  "reference_answer": "Tamil Nadu Police Improvements\n\n1. Data Analysis for Predictive Policing: Tamil Nadu Police has improved data analysis by implementing a Crime and Criminal Tracking Network System (CCTNS), which helps in collecting, storing, and analyzing crime data to predict and prevent crimes.\n\n2. Complaints Filing Process: Reforms include introducing online complaint filing systems, such as the \"Citizen Portal\" and \"Lost and Found\" portals, to streamline the process and reduce paperwork.\n\n3. Dealing with Drug Offenses: Tamil Nadu Police has modernized its approach by setting up specialized narcotics cells, increasing awareness programs, and collaborating with other agencies to tackle drug trafficking and abuse effectively.",
+  "context": "[Document 1]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 2]\nFiling a Complaint with ICC:\nTo file a complaint, a woman should:\n1. Contact the ICC in her organization.\n2. Provide a written complaint with details of the incident.\n3. Submit supporting evidence, if any.\nThe ICC will then investigate and take necessary action.\n\n[Document 3]\nFiling a Complaint against a Company:\nTo file a complaint, visit the nearest police station or consumer court. Provide details of the issue, supporting documents, and evidence. The police or court will guide you through the process.\n\n[Document 4]\nFiling Police Complaints as a Foreigner:\nTo file a complaint, foreigners should:\n* Visit the nearest police station\n* Provide passport and visa details\n* Explain the incident in detail\n* Submit a written complaint, if possible, with the help of an interpreter, if needed\n\n[Document 5]\nFiling a Complaint under Consumer Protection Act\nTo file a complaint under the Consumer Protection Act in Tamil Nadu:\n1. Approach the nearest Consumer Forum (District or State).\n2. Submit a complaint in writing with required documents.\n3. Pay the prescribed fee.\n4. Forum will hear the case and provide a verdict.",
+  "retrieved_doc_ids": [
+    "78",
+    "1885",
+    "1090",
+    "1770",
+    "1855"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "a8aa60ecc0538d13e7a253fb451b46a48ba63953698ad0ea2b75af4ad7cb2ee9",
+  "answer": "Changes included providing a written complaint, submitting supporting documents like property deeds and witness statements, and guidance through the process by local authorities. [Document 1]",
+  "input_tokens": 429,
+  "output_tokens": 32,
+  "seconds": 4.25984569999855,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

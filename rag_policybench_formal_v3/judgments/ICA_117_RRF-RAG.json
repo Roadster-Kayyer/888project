@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_117",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states PR status non-expiration and REP requirement, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states PR status non-expiration and REP requirement, supported by Document 2.\",\n  \"evidence\": \"[Document 2]\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 2. The reason succinctly explains the scores.",
+      "input_tokens": 746,
+      "output_tokens": 110,
+      "seconds": 8.613768200011691,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

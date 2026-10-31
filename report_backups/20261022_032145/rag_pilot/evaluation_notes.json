@@ -1,0 +1,14 @@
+{
+  "status": "pilot feasibility results",
+  "judge": {
+    "repo": "microsoft/Phi-3.5-mini-instruct",
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "path": "D:\\CodexModels\\LegalFAQ\\hub\\models--microsoft--Phi-3.5-mini-instruct\\snapshots\\2fe192450127e6a83f7441aef6e3ca586c338b77"
+  },
+  "score_scale": "ordinal 0/1/2, provisional rubric scores, not percentages or verified factual accuracy",
+  "faithfulness": "N/A for No-RAG and pure abstentions; report valid counts",
+  "bootstrap": "FAQ group mean then paired percentile 95% CI; require all variants and methods valid per FAQ per metric",
+  "pilot_warning": "Only four FAQ clusters in pilot: do not use pilot CIs to support thesis conclusions.",
+  "f1": "lexical overlap proxy, not semantic correctness",
+  "review_status": "blank human review sheets are not completed annotations"
+}

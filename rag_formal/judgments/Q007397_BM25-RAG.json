@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007397",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific services and legal support for pregnant women experiencing domestic violence, supported by evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies legal support and reporting mechanisms, supported by documents 1-5.\",\n}",
+      "input_tokens": 799,
+      "output_tokens": 62,
+      "seconds": 4.9972938999999315,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific services and legal support for pregnant women experiencing domestic violence, supported by evidence from the documents.\"}\n**Note:** The scores provided in the JSON object are based on the candidate's answer being correct, relevant, and faithful to the evidence provided in the reference documents. The reason is a concise explanation of the scores. In a real-world scenario, the \"faithfulness\" score would be determined by the presence of specific factual claims in the candidate's answer that are directly supported by the evidence, which in this case, the candidate's answer does.",
+      "input_tokens": 839,
+      "output_tokens": 156,
+      "seconds": 12.131194699999469,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

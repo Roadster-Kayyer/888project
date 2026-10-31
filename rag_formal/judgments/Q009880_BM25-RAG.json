@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009880",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "The candidate answer correctly outlines the steps for reporting caste prejudice and is directly relevant to the question. The evidence provided supports the factual claims made in the answer."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"The candidate answer correctly outlines the steps for reporting caste prejudice and is directly relevant to the question. The evidence provided supports the factual claims made in the answer.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer is supported by the evidence provided in Document 1 (which includes instructions for reporting police brutality, which can be adapted for caste prejudice cases) and Document 5 (which describes the role of Child Welfare Police Officers, indicating the existence of specialized police units that could handle caste prejudice cases). The evidence directly supports the factual claims made",
+      "input_tokens": 833,
+      "output_tokens": 192,
+      "seconds": 14.874943100003293,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

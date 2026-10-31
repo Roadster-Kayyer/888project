@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_54",
+  "doc_id": "PB_f8ef7d9186905c0df18a",
+  "query_type": "ICA_134",
+  "query": "Will my current ABTC card be affected due to the change in the validity of passport?",
+  "reference_answer": "The validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.",
+  "corpus_query_index": 252,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.\n\n[Document 2]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 3]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 4]\nAll APEC Business Travel Card (ABTC) applications must be submitted online at the e-Service. The card will be mailed by registered post to the applicant when it is ready.\n\n[Document 5]\nThere is no restriction on how early a Long-Term Visit Pass (LTVP) holder can submit the LTVP renewal application. However, the remaining validity of your current LTVP will not be added to the validity of your new LTVP. You can submit your LTVP renewal application two to three months before expiry of the current LTVP.For applicants who are exempted from visiting ICA Services Centre to complete the formalities for the LTVP issuance, the issuance date will follow the payment date of the LTVP issuance fee.",
+  "retrieved_doc_ids": [
+    "PB_f8ef7d9186905c0df18a",
+    "PB_0c264676a8242018a9a0",
+    "PB_93b665013679b839e21c",
+    "PB_2ebeefd2f2bd36471481",
+    "PB_bd4cd5b4c56b0c9ef30b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "49aeb3419184bc1f5a69f7d8b56eea563ba4ddbe39c3a0f4a39be988ad308ed1",
+  "answer": "Your current ABTC card will not be affected by a change in your passport's validity. However, if your passport number changes, you need to apply for a replacement ABTC under 'replacement due to change of particulars' after collecting your new passport. [Document 1]",
+  "input_tokens": 458,
+  "output_tokens": 56,
+  "seconds": 7.304450900002848,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

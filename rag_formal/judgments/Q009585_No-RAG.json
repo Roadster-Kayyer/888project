@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009585",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence but generally addresses servant verification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence but generally addresses servant verification.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the methods of confirming someone's status as a servant, which aligns with the reference question. However, the answer is only partly correct because it does not provide specific methods supported by evidence, hence the correctness score of 1. The relevance score is also 1 because the answer is related to the question but does not directly address the methods with evidence. Faithfulness is scored as null because there is no substantive factual claim supported by supplied evidence in the candidate's answer. The reason succinctly explains the",
+      "input_tokens": 387,
+      "output_tokens": 192,
+      "seconds": 14.952461199995014,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

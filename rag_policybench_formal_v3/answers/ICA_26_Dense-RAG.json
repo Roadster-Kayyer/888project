@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_26",
+  "doc_id": "PB_6cdb1150c49584cda270",
+  "query_type": "ICA_134",
+  "query": "There is a spelling mistake in my visa application. Can the visa application information be amended after the application has been submitted or approved?",
+  "reference_answer": "You must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.",
+  "corpus_query_index": 221,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 2]\nIt is crucial for travellers to verify and confirm the accuracy of the details included in the QR code. Failure to do so may lead to inconvenience when they undergo immigration clearance at Singapore Land checkpoints.If you need to correct any inaccuracies in the information you have provided, you may edit the details through navigating to the 'edit' option under your profile.\n\n[Document 3]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 4]\nApplications submitted before 26 June 2024:If there is a change in your employment details whilst your PR application is being processed, please upload the following documents for our reference:-a) A letter to state the purpose of submitted the additional supporting document(s), for example increment etc.b) Relevant documentary proof (for example, increment letter and/or latest payslip showing the increment etc.)via 'Ad-hoc submission' under 'Enquire Application status' at ICA e-Service.Applications submitted on or after 26 June 2024:For Singpass users, please log in to the e-Service via MyICA and select 'Update information' within your case summary page to provide the update.For Non-Singpass users, please log in to the e-Service with your submitted application Reference ID and select 'Update information' within your case summary page to provide the update.\n\n[Document 5]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.",
+  "retrieved_doc_ids": [
+    "PB_6cdb1150c49584cda270",
+    "PB_89b49e1ae6fc2845f85e",
+    "PB_a5deb8741f88193f4891",
+    "PB_70e279a2efefc3723a97",
+    "PB_3579b1ce15984a462107"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3223c6e206f4b33e32ce7e189fd054df6b51e46c73c1057d612fa40bbb3374f0",
+  "answer": "The visa application information cannot be amended after submission or approval. [Document 1] states \"Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.\" You must submit a new application with the correct details. [Document 1] also mentions that the processing fee is non-refundable.",
+  "input_tokens": 652,
+  "output_tokens": 67,
+  "seconds": 8.742142799994326,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

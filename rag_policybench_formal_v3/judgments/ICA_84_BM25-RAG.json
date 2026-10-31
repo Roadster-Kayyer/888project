@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_84",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies that PR requires Singapore citizenship, which is supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies that PR requires Singapore citizenship, which is supported by Document 3.\",\n  \"evidence\": \"[Document 3] You can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the information provided in Document 3, which states that PR sponsorship is only available to Singapore citizens. The relevance (2) is high because the answer directly addresses the question about concurrent applications for LTVP and PR. The faithfulness (2) is also high as the answer is based on the evidence provided in the documents, specifically Document 3. The",
+      "input_tokens": 873,
+      "output_tokens": 192,
+      "seconds": 14.804497199991602,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

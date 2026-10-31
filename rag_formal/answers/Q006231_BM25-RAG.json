@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006231",
+  "doc_id": "239",
+  "query_type": "original",
+  "query": "What is the role of the Social Justice and Human Rights Wing?",
+  "corpus_query_index": 6230,
+  "system": "BM25-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nRole of State Human Rights Commission:\nThe State Human Rights Commission (SHRC) in Tamil Nadu:\n1. Investigates human rights violations.\n2. Looks into complaints of police excesses.\n3. Recommends action against erring officials.\n\n[Document 3]\nRole of the Madras High Court:\nThe Madras High Court is the highest court in Tamil Nadu, responsible for interpreting laws, hearing appeals, and ensuring justice is served. It supervises lower courts and provides judicial oversight.\n\n[Document 4]\nApproaching Human Rights Court:\nTo approach the Human Rights Court in Tamil Nadu, follow these steps:\n1. File a complaint with the Tamil Nadu State Human Rights Commission (TNSHRC).\n2. Provide details of the alleged human rights violation.\n3. Submit supporting documents and evidence.\n4. The TNSHRC will investigate and take necessary action.\n\n[Document 5]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights",
+  "retrieved_doc_ids": [
+    "239",
+    "809",
+    "1048",
+    "1171",
+    "2029"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d0b78cbbc39aac6ee977678571ff8e3035d368a10075c5a5342148a801279a93",
+  "answer": "The Social Justice and Human Rights Wing promotes and protects human rights, investigates violations, and implements social justice initiatives. It works alongside the State Human Rights Commission and the Madras High Court to ensure human rights are upheld. [Document 1]",
+  "input_tokens": 397,
+  "output_tokens": 49,
+  "seconds": 6.209127399999488,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

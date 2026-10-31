@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003278",
+  "doc_id": "1589",
+  "query_type": "casual",
+  "query": "So, how do they keep the police history at the museum safe?",
+  "corpus_query_index": 3277,
+  "system": "BM25-RAG",
+  "reference_answer": "2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.",
+  "context": "[Document 1]\nReporting Suspicious Parcels:\nIf you find a suspicious parcel, do not touch it. Immediately call the police at 100 or the local police station. Provide the location and description of the parcel. Follow instructions from the authorities and keep a safe distance.\n\n[Document 2]\nPolice Heritage Museum in Tamil Nadu\nThe Police Heritage Museum showcases the history and evolution of the Tamil Nadu Police. It preserves and displays artifacts, uniforms, and equipment used by the police over the years.\n\n[Document 3]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 4]\nPolice Museum Information:\nFor information about the police museum in Tamil Nadu, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and search for \"Police Museum\" or contact the Tamil Nadu Police Headquarters directly. They will provide you with details about the museum's location, timings, and exhibits.\n\n[Document 5]\nSafety Measures at ATMs:\nTo stay safe while using ATMs, women should:\n* Use ATMs in well-lit and crowded areas\n* Avoid using ATMs at night\n* Be aware of their surroundings\n* Keep their PIN and card safe\n* Inform the police or bank if they notice any suspicious activity",
+  "retrieved_doc_ids": [
+    "932",
+    "2018",
+    "933",
+    "350",
+    "1899"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "90164815696cda6f5c513b193075e95b618a4cffc16c5e5b6d723bde4b51dce8",
+  "answer": "The Police Heritage Museum in Tamil Nadu safely stores its artifacts, uniforms, and equipment using security measures like following instructions from the authorities and keeping a safe distance. [Document 1] mentions keeping a safe distance from suspicious items, which can be applied to the museum's exhibits.",
+  "input_tokens": 426,
+  "output_tokens": 56,
+  "seconds": 7.292800399998669,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

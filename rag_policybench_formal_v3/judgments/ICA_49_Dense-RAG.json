@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_49",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately lists all required documents for IC collection, directly addressing the question and supported by evidence from Documents 1-4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately lists all required documents for IC collection, directly addressing the question and supported by evidence from Documents 1-4.\"\n}",
+      "input_tokens": 1193,
+      "output_tokens": 71,
+      "seconds": 5.69026699999813,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

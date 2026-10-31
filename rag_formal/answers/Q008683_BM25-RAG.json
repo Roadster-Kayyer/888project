@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008683",
+  "doc_id": "680",
+  "query_type": "casual",
+  "query": "So if people get violent during strikes, what happens to them?",
+  "corpus_query_index": 8682,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nRescue Operations during Floods:\nDuring floods, Tamil Nadu Police:\n1. Sets up control rooms for coordination.\n2. Deploys rescue teams with boats and equipment.\n3. Evacuates people to safe shelters.\n4. Provides food, water, and medical aid to affected people.\n\n[Document 3]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.\n\n[Document 4]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "680",
+    "1563",
+    "933",
+    "253",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3bbda10111ee20c3c4e701fd623bd2c1f077058b38479bb23d3bc48bc586760c",
+  "answer": "People getting violent during strikes can face up to 3 years in prison and/or a fine under IPC Sections 307 and 325 [Document 1].",
+  "input_tokens": 419,
+  "output_tokens": 36,
+  "seconds": 4.655095600002824,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

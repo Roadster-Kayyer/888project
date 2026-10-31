@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_84",
+  "doc_id": "PB_f5589d8ccc2a35f727e9",
+  "query_type": "CPF_111",
+  "query": "If I hold a fund under the CPF Investment Scheme that does not meet the stricter criteria, when must I exercise the switching option?",
+  "reference_answer": "Funds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.",
+  "corpus_query_index": 150,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nFunds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.\n\n[Document 2]\nThe Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.\n\n[Document 3]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 4]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 5]\nWith effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.",
+  "retrieved_doc_ids": [
+    "PB_f5589d8ccc2a35f727e9",
+    "PB_8b587c7ab32751210874",
+    "PB_55387403dc004065b043",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_76cedb96dcf8bd5508e7"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "dab3c796b16dc9e1d2a0aab0cd32f5d1d94d089b7ecd7f91682b5d4efb8242d2",
+  "answer": "According to [Document 1], if a fund under the CPF Investment Scheme does not meet stricter criteria, you can only add new CPF monies until December 2010. You then have until June 2011 to exercise the switching option. [Document 1] states: \"Funds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.\"",
+  "input_tokens": 779,
+  "output_tokens": 110,
+  "seconds": 14.476660500004073,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

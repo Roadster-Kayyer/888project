@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_58",
+  "doc_id": "PB_10b7557459105ffc6c3e",
+  "query_type": "CPF_111",
+  "query": "Where can I find more information on Singtel's Scrip Dividend Scheme, as announced by Singtel on 12 November 2020?",
+  "reference_answer": "For financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share",
+  "corpus_query_index": 121,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 4]\nYour online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.\n\n[Document 5]\nThe applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days",
+  "retrieved_doc_ids": [
+    "PB_10b7557459105ffc6c3e",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_5524a72cc3bbbca92a03",
+    "PB_ee0f8ff38ba535d4384c",
+    "PB_2c2c8f4f1646ae7f07d7"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "350db2ccc621415105308c45e93382eb26dfea512e920b490793f2d8bbdc1eab",
+  "answer": "You can find more information on Singtel's Scrip Dividend Scheme by visiting [Document 1] and [Document 2] in the provided documents. [Document 1] details the dividend payment and scrip share offer, while [Document 2] covers how to withdraw or sell the shares. [Document 3] and [Document 4] provide additional context about holding and selling the shares. [Document 5] is not relevant to the Scrip Dividend Scheme. [Document 1] and [Document 2] are key sources for understanding the scheme. [1]",
+  "input_tokens": 847,
+  "output_tokens": 122,
+  "seconds": 15.826230900012888,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

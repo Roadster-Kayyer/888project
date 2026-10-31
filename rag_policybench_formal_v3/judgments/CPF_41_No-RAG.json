@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_41",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not address the specific evaluation factors for CPF Investment Scheme as described in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not address the specific evaluation factors for CPF Investment Scheme as described in the reference.\",\n  \"evidence\": \"null\"\n}",
+      "input_tokens": 535,
+      "output_tokens": 73,
+      "seconds": 5.571915900000022,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

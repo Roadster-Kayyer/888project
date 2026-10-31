@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002320",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly references multiple documents, detailing norms for law enforcement in Tamil Nadu, including use of real-time data, bail procedures, and complaint handling, all supported by the provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly references multiple documents, detailing norms for law enforcement in Tamil Nadu, including use of real-time data, bail procedures, and complaint handling, all supported by the provided evidence.\",\n  \"evidence\": \"[Document 1, Document 3, Document 4, Document 2, Document 5]\"\n}",
+      "input_tokens": 948,
+      "output_tokens": 120,
+      "seconds": 9.422411900002771,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

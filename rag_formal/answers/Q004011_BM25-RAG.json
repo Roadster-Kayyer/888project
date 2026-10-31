@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004011",
+  "doc_id": "1720",
+  "query_type": "original",
+  "query": "What are the legal remedies for police misconduct?",
+  "corpus_query_index": 4010,
+  "system": "BM25-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nLegal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.\n\n[Document 2]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 3]\nReporting Traffic Police Misconduct:\nTo report traffic police misconduct, contact the Tamil Nadu Police Complaints Authority or call the toll-free number 100. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 4]\nLegal Remedies for Breach of Contract in Tamil Nadu:\nFor breach of contract, file a civil suit in the District Court or City Civil Court, seeking damages or specific performance. Alternatively, consider arbitration or mediation through the Tamil Nadu State Judicial Academy or the Indian Arbitration Council.\n\n[Document 5]\nReporting Police Misconduct:\nTo report police misconduct or corruption in Tamil Nadu, contact the local police station, or file a complaint with the Tamil Nadu Police Complaints Authority or the Anti-Corruption Bureau. Complaints can also be made online through the Tamil Nadu Police website or mobile app.",
+  "retrieved_doc_ids": [
+    "1720",
+    "107",
+    "178",
+    "1861",
+    "2076"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1e387c1457118a939ec36dfc8baebb10f3c63509002f0f0f465eae297c427a41",
+  "answer": "The legal remedies for police misconduct include filing complaints with state human rights commissions, approaching superintendents of police, or using writ petitions in the High Court. [Document 1] Additionally, reporting can be done through the Tamil Nadu Police Complaints Authority or local police stations. [Document 5]",
+  "input_tokens": 428,
+  "output_tokens": 62,
+  "seconds": 8.029834199998731,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

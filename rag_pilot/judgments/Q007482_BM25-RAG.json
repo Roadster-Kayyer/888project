@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007482",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the measures taken by Tamil Nadu Police to protect victims' anonymity, supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the measures taken by Tamil Nadu Police to protect victims' anonymity, supported by Document 3.\",\n  \"evidence\": \"Document 3 directly states the measures taken by Tamil Nadu Police, including maintaining confidentiality, using coded names, and following Supreme Court guidelines.\"\n}",
+      "input_tokens": 861,
+      "output_tokens": 114,
+      "seconds": 8.94217099999878,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

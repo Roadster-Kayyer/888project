@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001548",
+  "doc_id": "1277",
+  "query_type": "casual",
+  "query": "How can I get my road widening plan approved by the PWD in Tamil Nadu?",
+  "corpus_query_index": 1547,
+  "system": "BM25-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 2]\nBuilding Plan Approval:\nTo obtain building plan approval from PWD in Tamil Nadu, submit your building plan to the nearest PWD office or local authority. Ensure compliance with Tamil Nadu PWD building regulations and pay the required fees. The application will be reviewed, and approval will be granted if the plan meets the regulations.\n\n[Document 3]\nObtaining Permission for Road Cutting from PWD:\nTo obtain permission, submit an application to the PWD office with required documents, including a detailed plan and purpose of road cutting. Pay the prescribed fee and wait for approval. You can also apply online through the PWD website.\n\n[Document 4]\nApplying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.\n\n[Document 5]\nReporting Road Damage:\nTo report road damage, contact the PWD helpline or visit the nearest PWD office. You can also submit a complaint through the Tamil Nadu Government's online grievance portal or use the PWD's mobile app to report the issue.",
+  "retrieved_doc_ids": [
+    "799",
+    "1275",
+    "1271",
+    "1277",
+    "1268"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a5ca71b3b39d50b610de520b06417bcd8c6c7ce6a1814634f39f0a0663f73e8d",
+  "answer": "To get your road widening plan approved by the PWD in Tamil Nadu, follow these steps: Submit a proposal to the concerned PWD Divisional Office with necessary documents like land ownership records and a detailed project report. [Document 5] Review and process the proposal according to PWD guidelines. [Document 1] For RTI applications, request a copy of your FIR from the police station or their website. [Document 1] Ensure all requirements are met, including paying fees and complying with regulations. [Document 2]",
+  "input_tokens": 440,
+  "output_tokens": 108,
+  "seconds": 13.566751000000295,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

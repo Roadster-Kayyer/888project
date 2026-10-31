@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_133",
+  "doc_id": "PB_14d73bad1d062f8a0a27",
+  "query_type": "ICA_134",
+  "query": "How do I check on the visa application status?",
+  "reference_answer": "The processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.",
+  "corpus_query_index": 206,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 2]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 3]\nThe processing time of a visa application is within three working days (excluding the day of submission). However, some applications may take a longer time to process. You may use the ICA e-Service to enquire application status. Do note that you will require the visa reference number and applicant's travel document number.\n\n[Document 4]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 5]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.",
+  "retrieved_doc_ids": [
+    "PB_73589fc4535bd159b21d",
+    "PB_c6456fad7242c379cac1",
+    "PB_14d73bad1d062f8a0a27",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_4e4521efc7be0bf0574a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d0b6203d53e664c725b11740e0b6cc12cff605770de9d3941847e0b23b302e00",
+  "answer": "To check the visa application status, visit the ICA e-Service using your visa application reference number and your travel document number. [Document 1] [Document 3] [Document 5]",
+  "input_tokens": 459,
+  "output_tokens": 42,
+  "seconds": 5.452206400004798,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

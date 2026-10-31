@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_4",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies key safety measures and includes relevant details from Document 1, fully supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies key safety measures and includes relevant details from Document 1, fully supported by the evidence provided.\",\n  \"evidence\": \"[Document 1] Key road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\"\n}",
+      "input_tokens": 849,
+      "output_tokens": 192,
+      "seconds": 15.049485099996673,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

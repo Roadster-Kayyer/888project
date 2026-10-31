@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001715",
+  "doc_id": "1306",
+  "query_type": "hard",
+  "query": "How might one acquire a diminished TDS endorsement in Tamil Nadu?",
+  "corpus_query_index": 1714,
+  "system": "RRF-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 2]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.\n\n[Document 3]\nObtaining Learner's License:\nTo obtain a learner's license in Tamil Nadu, apply online through the Tamil Nadu Transport Department website or visit the nearest RTO office. Fill the application form, attach required documents, and pass a computer-based test.\n\n[Document 4]\nAppealing a Lower Court Decision:\nTo appeal a lower court decision in Tamil Nadu, you must file a petition with the Madras High Court or the concerned appellate court, depending on the case type and lower court's jurisdiction.\n\n[Document 5]\nApplying for Free Legal Aid in Tamil Nadu:\nTo apply for free legal aid, visit the Tamil Nadu State Legal Services Authority (TLSA) website or contact your local District Legal Services Authority. You can also approach a legal aid clinic or a TLSA-authorized lawyer. Eligibility criteria apply, including income limits and case type.",
+  "retrieved_doc_ids": [
+    "1297",
+    "1306",
+    "2063",
+    "1049",
+    "1060"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "279d603914e2beed55f965105a30fc1af81a9aac6680633be0faa5c927518a0e",
+  "answer": "One acquires a diminished TDS endorsement by applying for a Lower TDS Certificate in Tamil Nadu. This involves submitting Form 13 to the Income Tax Department, following the procedure outlined in [Document 1].",
+  "input_tokens": 458,
+  "output_tokens": 44,
+  "seconds": 5.815714800000933,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2152.5830078125
+}

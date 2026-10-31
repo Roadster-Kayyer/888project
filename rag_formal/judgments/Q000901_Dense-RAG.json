@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000901",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately states the age of criminal responsibility for adults and heinous crimes as per Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately states the age of criminal responsibility for adults and heinous crimes as per Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe reason is succinct and directly relates to the scores given, explaining that the candidate's answer is correct and fully supported by the evidence provided in Document 1.",
+      "input_tokens": 727,
+      "output_tokens": 115,
+      "seconds": 8.820696200000384,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_95",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly citing government initiatives and security benefits, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly citing government initiatives and security benefits, and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] PayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.\"\n}",
+      "input_tokens": 1174,
+      "output_tokens": 192,
+      "seconds": 14.753693399994518,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

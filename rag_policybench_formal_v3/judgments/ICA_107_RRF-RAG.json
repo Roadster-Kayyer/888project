@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_107",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states processing times from documents and acknowledges possible variations."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states processing times from documents and acknowledges possible variations.\",\n  \"evidence\": \"Document 1 and Document 2\"\n}\n\n\nThe candidate answer is correct, directly addresses the question, and is fully supported by the evidence provided in Document 1 and Document 2. The answer accurately reflects the processing times mentioned in the documents and acknowledges that there can be variations, which aligns with the information in Document 5. The reason succinctly explains the scores.",
+      "input_tokens": 812,
+      "output_tokens": 144,
+      "seconds": 11.307906700007152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

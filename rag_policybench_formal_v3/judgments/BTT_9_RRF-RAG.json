@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_9",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 490,
+      "output_tokens": 59,
+      "seconds": 4.710647300002165,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from Document 1. The relevance score is 2 because the candidate answer directly addresses the question. The correctness score is 2 because the candidate answer is correct and covers the main reference fact about stopping distances on wet roads. The faithfulness score is 2 because the candidate answer's factual claim about stopping distances on wet roads is fully supported by the evidence from Document 1.",
+      "input_tokens": 530,
+      "output_tokens": 138,
+      "seconds": 10.681643799995072,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

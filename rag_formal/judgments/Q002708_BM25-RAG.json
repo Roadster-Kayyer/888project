@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002708",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly identifies the DGP, mentions the State Police Complaints Authority, and references the RTI Act, all supported by the retrieved evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question, correctly identifies the DGP, mentions the State Police Complaints Authority, and references the RTI Act, all supported by the retrieved evidence.\",\n  \"evidence\": \"All substantive factual claims in the candidate answer are supported by the retrieved documents, which mention the DGP, the State Police Complaints Authority, the RTI Act, and the police museum.\"\n}",
+      "input_tokens": 1155,
+      "output_tokens": 129,
+      "seconds": 10.160052899998846,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

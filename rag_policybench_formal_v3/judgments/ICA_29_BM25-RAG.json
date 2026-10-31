@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_29",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the reference, providing accurate information on online application, passport requirement, validity, and document collection process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the reference, providing accurate information on online application, passport requirement, validity, and document collection process.\",\n  \"evidence\": \"[Document 1], [Document 3], [Document 5]\"\n}",
+      "input_tokens": 1041,
+      "output_tokens": 192,
+      "seconds": 13.999238699994748,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

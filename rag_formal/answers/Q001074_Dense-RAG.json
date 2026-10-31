@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001074",
+  "doc_id": "1190",
+  "query_type": "search",
+  "query": "What steps should I take to confirm the validity of a legal document issued by a court?",
+  "corpus_query_index": 1073,
+  "system": "Dense-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 3]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 4]\nObtaining Certified Copies of Court Documents:\nTo obtain certified copies, \n1. Visit the concerned court\n2. Fill the application form\n3. Pay the required fee\n4. Collect the certified copy after verification\n\n[Document 5]\nObtaining Certified Copies of Court Documents:\nTo obtain certified copies, visit the court where the case was heard. Fill out the required application form, pay the prescribed fee, and submit it to the court staff. The court will verify the documents and provide certified copies.",
+  "retrieved_doc_ids": [
+    "1191",
+    "1193",
+    "1190",
+    "1831",
+    "775"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cd336d996806fa815a552193d97baeb975e045a9a23686b5ea47e8c2f29dd9bc",
+  "answer": "To confirm the validity of a legal document, contact the issuing court or the Tamil Nadu State Judicial Department. Verify the document’s seal, signature, and stamp. Alternatively, check the document on the official Tamil Nadu judiciary website or visit the court in person. [Document 1-5]",
+  "input_tokens": 399,
+  "output_tokens": 59,
+  "seconds": 7.598966300000029,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

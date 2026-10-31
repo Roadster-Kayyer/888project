@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002721",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details about the TNUSRB website and eligibility criteria."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details about the TNUSRB website and eligibility criteria.\",\n  \"evidence\": null\n}\n\n\nThe candidate's answer is relevant as it provides a general direction for applying for the positions, but it does not correctly state the need to visit the TNUSRB website nor does it mention the eligibility criteria or the process of filling out the online application, which are crucial for a complete answer. The faithfulness score is null because there is no substantive factual claim in the candidate's answer that can be directly supported or contradicted by the provided reference. The reason succinctly explains the scores, noting the partial relevance and lack of correct",
+      "input_tokens": 417,
+      "output_tokens": 192,
+      "seconds": 14.68404880000162,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

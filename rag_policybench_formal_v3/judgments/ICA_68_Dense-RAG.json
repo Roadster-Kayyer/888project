@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_68",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies reasons for rejection based on documents and directly addresses the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies reasons for rejection based on documents and directly addresses the question.\",\n  \"evidence\": \"Document 1, Document 2, Document 4\"\n}\n\n\nThe candidate answer is correct (2) as it directly addresses the reasons for the rejection of the Student's Pass application, which are based on the information provided in the documents. The answer is relevant (2) because it directly relates to the question about the rejection of the application. The faithfulness (2) is confirmed by the evidence provided in Documents 1, 2, and 4, which support the factual claims made in the candidate answer. The reason succinctly explains the scores, indicating that the answer is",
+      "input_tokens": 818,
+      "output_tokens": 192,
+      "seconds": 14.904961899999762,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

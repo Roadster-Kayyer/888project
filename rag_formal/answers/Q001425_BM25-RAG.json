@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001425",
+  "doc_id": "1254",
+  "query_type": "hard",
+  "query": "How can you blow the whistle on folks misbehaving in wooded areas?",
+  "corpus_query_index": 1424,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\nComplaint Against a Police Officer:\nTo complain against a misbehaving police officer, you can:\n* Visit the local police station and submit a written complaint\n* Contact the Deputy Superintendent of Police (DSP) or Assistant Commissioner of Police (ACP)\n* Call the Tamil Nadu Police Complaint Toll-Free Number: 87544 00550\n\n[Document 2]\nCitizens on Patrol Program:\nThe Citizens on Patrol program is a volunteer-based initiative where residents in residential areas work with the police to report suspicious activities, prevent crime, and maintain neighborhood safety.\n\n[Document 3]\nStandard Response Time:\nThe standard response time for police emergencies in urban areas of Tamil Nadu is 10-15 minutes. However, this may vary depending on the location and traffic conditions.\n\n[Document 4]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 5]\nEmergency Contact Number (Rural Areas)\nThe contact number for reporting police emergencies in rural areas is 100.",
+  "retrieved_doc_ids": [
+    "21",
+    "1676",
+    "1514",
+    "849",
+    "339"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9e51b57ebc43116eba62c50ca6693c65e891fb894a6edc471dfb353e325ad40d",
+  "answer": "For misbehaving police officers, visit the local police station and submit a written complaint. Alternatively, contact the Deputy Superintendent of Police or Assistant Commissioner of Police, or call 87544 00550. For other misbehavior, join the Citizens on Patrol program. [Document 1]",
+  "input_tokens": 372,
+  "output_tokens": 65,
+  "seconds": 8.278363100000206,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

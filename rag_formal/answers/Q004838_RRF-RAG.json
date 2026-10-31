@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004838",
+  "doc_id": "187",
+  "query_type": "casual",
+  "query": "So how do I tell the cops about my bounced checks?",
+  "corpus_query_index": 4837,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.",
+  "context": "[Document 1]\nFiling a Cheque Bounce Case in Tamil Nadu:\nTo file a cheque bounce case:\n1. Send a demand notice to the drawer\n2. File a complaint with the Judicial Magistrate Court\n3. Attach the bounced cheque and demand notice to the complaint\n\n[Document 2]\nReporting Check Bouncing as a Criminal Offense:\nTo report check bouncing, file a complaint with the police station in the area where the check was dishonored. Provide the bounced check, a copy of the notice sent to the drawer, and other relevant documents. The police will then investigate and may register a case under the Negotiable Instruments Act.\n\n[Document 3]\nFiling a Cheque Bounce Case:\nTo file a cheque bounce case, send a demand notice to the drawer within 30 days of cheque return. If unpaid, file a complaint under Section 138 of the Negotiable Instruments Act at the concerned court in Tamil Nadu, along with required documents, such as the bounced cheque and demand notice.\n\n[Document 4]\nFiling a Complaint about ATM Fraud:\nTo file a complaint about ATM fraud, contact your bank's customer care and report the incident. Then, visit the nearest police station and provide a written complaint with details of the fraud. The police will guide you through the process.\n\n[Document 5]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference",
+  "retrieved_doc_ids": [
+    "1843",
+    "187",
+    "1074",
+    "911",
+    "255"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "279443ec8fa541fd39b8f3fcf9d469757fc89bf199d65071e0ab8ee9944537e2",
+  "answer": "To report bounced checks to the cops, file a complaint with the police station where the check was dishonored. Include the bounced cheque, a demand notice sent to the drawer, and other relevant documents. [Document 2]",
+  "input_tokens": 451,
+  "output_tokens": 47,
+  "seconds": 6.262552099999084,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

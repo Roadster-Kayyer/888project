@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009583",
+  "doc_id": "842",
+  "query_type": "casual",
+  "query": "So how do you check if someone's a servant?",
+  "corpus_query_index": 9582,
+  "system": "RRF-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 3]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 4]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 5]\nChecking Police Verification Status:\nTo check the status, visit the Tamil Nadu Police Department's website or contact the concerned police station where you applied. You can also use the online tracking system, if available, by entering your application reference number.",
+  "retrieved_doc_ids": [
+    "842",
+    "849",
+    "2070",
+    "1190",
+    "856"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c05cee75e1948ccd2903707ab39e500e15562f515775c04cf042c2ff92ebf52d",
+  "answer": "To check if someone is a servant, submit an application to the local police station with their ID proof, address, and employment details. The police will conduct a background check and provide a verification report [Document 1].",
+  "input_tokens": 394,
+  "output_tokens": 45,
+  "seconds": 5.708719600002951,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

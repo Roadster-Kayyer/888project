@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000835",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the general process for obtaining a clearance slip and is supported by Documents 1-4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the general process for securing a clearance slip, supported by evidence from Documents 1-4.\",\n}",
+      "input_tokens": 792,
+      "output_tokens": 70,
+      "seconds": 5.565463200000522,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly describes the general process for obtaining a clearance slip and is supported by Documents 1-4.\"}\n**Note:** The scores are based on the assumption that the candidate's answer is accurate and reflects the information provided in the documents. The reason given is a concise summary of the evaluation. In a real-world scenario, the faithfulness score would be determined by the presence of specific factual claims in the candidate's answer that are directly supported by the evidence provided in the documents. Since the candidate's answer is assumed to be accurate and reflects the documents, the faithfulness is rated as 2. If the candidate's answer contained inaccuracies or did not reflect the documents, the faithfulness score would be adjusted accordingly.",
+      "input_tokens": 832,
+      "output_tokens": 188,
+      "seconds": 14.898856999996497,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007224",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but omits specific contact details and online options."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but omits specific contact details and online options.\",\n  \"evidence\": \"null\"\n}\n\nExplanation: The candidate answer is relevant as it provides a method to lodge a grievance against a DRDA official, which aligns with the reference's suggestion to contact the official or their office. However, it lacks the specificity of contact details and does not mention the online grievance portal or the police station, which are important aspects of the reference. Faithfulness cannot be assessed due to the absence of evidence.",
+      "input_tokens": 408,
+      "output_tokens": 159,
+      "seconds": 12.263856600002327,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

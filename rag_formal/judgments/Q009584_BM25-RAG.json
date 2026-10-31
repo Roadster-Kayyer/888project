@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009584",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate accurately describes the verification process involving police and courts, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate accurately describes the verification process involving police and courts, supported by evidence from documents.\",\n  \"evidence\": \"[Document 1, Document 2, Document 3, Document 5]\"\n}\n\n\nThe candidate's answer directly addresses the question about the verification process for servants, mentioning the need to file an application, the role of courts and police stations, and the requirement of ID and address proofs. The evidence provided from the documents supports the factual claims made in the candidate's answer, indicating that the process involves multiple steps and entities, including police and courts, and requires specific documentation and fees. The reason succinctly explains the scores, noting the accuracy and comprehensive coverage of the verification",
+      "input_tokens": 729,
+      "output_tokens": 192,
+      "seconds": 14.568201399997633,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

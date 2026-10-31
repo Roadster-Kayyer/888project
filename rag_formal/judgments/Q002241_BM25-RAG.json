@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002241",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and references to similar processes in other documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and references to similar processes in other documents.\"\n}\n\n\nThe candidate's answer is correct, relevant, and faithful to the evidence provided in the documents. It directly addresses the question about how the Tamil Nadu Police handle cases of exploitation of tribal artisans and references similar processes for other issues, all of which are supported by the documents. The reason for the scores is that the answer is comprehensive, directly relevant, and substantiated by the provided evidence.",
+      "input_tokens": 873,
+      "output_tokens": 156,
+      "seconds": 12.133676999997988,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_96",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "The candidate answer correctly addresses the main points from the reference regarding the handling of CPF contributions in the event of a platform operator's bankruptcy, liquidation, or winding up, and is supported by the reference's explanation of the order of priority for claims and the potential difficulty in recovering the CPF contributions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"The candidate answer correctly addresses the main points from the reference regarding the handling of CPF contributions in the event of a platform operator's bankruptcy, liquidation, or winding up, and is supported by the reference's explanation of the order of priority for claims and the potential difficulty in recovering the CPF contributions.\",\n  \"retrieved_evidence\": \"Document 1\"\n}",
+      "input_tokens": 976,
+      "output_tokens": 122,
+      "seconds": 9.55674960000033,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

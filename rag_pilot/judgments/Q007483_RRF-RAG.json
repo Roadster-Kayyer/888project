@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007483",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing specific details from the reference documents that support the claim about protecting complainants' identities in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the evidence from Document 1 and Document 5 about confidentiality and anonymity measures.\",\n}",
+      "input_tokens": 867,
+      "output_tokens": 192,
+      "seconds": 15.262618799999473,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing specific details from the reference documents that support the claim about protecting complainants' identities in Tamil Nadu.\"}\n\nPlease note that the \"faithfulness\" score of 2 is based on the fact that the candidate answer includes direct evidence from the provided documents that support the claim about the police's methods for protecting the identities of complainants. The evidence is explicitly mentioned in Document 1, which is directly relevant to the question.",
+      "input_tokens": 907,
+      "output_tokens": 131,
+      "seconds": 10.652630699998554,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

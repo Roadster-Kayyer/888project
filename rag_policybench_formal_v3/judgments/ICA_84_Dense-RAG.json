@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_84",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states that both LTVP and PR can be applied for concurrently, supported by Document 1, and relevant to the question, with all factual claims corroborated by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that both LTVP and PR can be applied for concurrently, supported by Document 1, and relevant to the question, with all factual claims corroborated by the evidence provided.\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question and is supported by the evidence from Document 1. The answer is relevant (2) because it pertains directly to the question about applying for LTVP and PR concurrently. The faithfulness (2) is confirmed as the candidate's answer is backed by the evidence, which states that both passes can be applied for concurrently, although it does not provide specific guidance on the process.",
+      "input_tokens": 950,
+      "output_tokens": 192,
+      "seconds": 14.57469019999553,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

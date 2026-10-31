@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007837",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the fines and penalties for unauthorized street performances and related activities as stated in the documents, with direct references to the Tamil Nadu City Police Act and other relevant laws."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the fines and penalties for unauthorized street performances and related activities as stated in the documents, with direct references to the Tamil Nadu City Police Act and other relevant laws.\"\n}",
+      "input_tokens": 863,
+      "output_tokens": 192,
+      "seconds": 15.031183200000669,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

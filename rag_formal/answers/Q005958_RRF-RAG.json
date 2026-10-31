@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005958",
+  "doc_id": "2070",
+  "query_type": "casual",
+  "query": "Can I find out if a car is stolen in Tamil Nadu before buying it?",
+  "corpus_query_index": 5957,
+  "system": "RRF-RAG",
+  "reference_answer": "Verifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.",
+  "context": "[Document 1]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 2]\nStolen Property Recovery Status:\nTo check the status of stolen property recovery, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and look for the \"Stolen Property\" or \"Missing Persons/Property\" section. You can also contact your local police station for assistance.\n\n[Document 3]\nOnline Platform for Stolen Vehicle Status:\nThe online platform for checking stolen vehicle status is the Tamil Nadu Police website, where citizens can check the status of stolen vehicles using the vehicle's registration number.\n\n[Document 4]\nReporting a Stolen Mobile Phone:\nTo report a stolen mobile phone, visit the nearest police station and file a First Information Report (FIR). Provide the phone's IMEI number, purchase receipt, and other relevant details. You can also report online through the Tamil Nadu Police website.\n\n[Document 5]\nObtaining Duplicate Vehicle Registration Documents in Tamil Nadu:\nTo obtain a duplicate vehicle registration document, submit an application to the RTO with required documents, including a copy of the FIR (if the original is lost or stolen), proof of ownership, and a fee. The RTO will then issue a duplicate registration certificate.",
+  "retrieved_doc_ids": [
+    "2070",
+    "349",
+    "1362",
+    "878",
+    "2067"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "db72008ec26327c5e28e0bfc4476bd9f9fa61374f408218f3c39eb7be0bfe3a1",
+  "answer": "Yes, you can check a car’s status for theft in Tamil Nadu. Verify the vehicle’s registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or local RTO, or use online services like VAHAN to check its history. [Document 1]",
+  "input_tokens": 430,
+  "output_tokens": 57,
+  "seconds": 7.264716800000315,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

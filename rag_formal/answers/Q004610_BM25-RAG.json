@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004610",
+  "doc_id": "1828",
+  "query_type": "hard",
+  "query": "How can I dispute a parking violation in Tamil Nadu?",
+  "corpus_query_index": 4609,
+  "system": "BM25-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nFiling a Land Dispute Case in Tamil Nadu:\nTo file a land dispute case in Tamil Nadu:\n1. Gather documents (title deeds, property records).\n2. Approach the Sub-Court or District Court in your area.\n3. File a suit with the court, stating your claim and supporting documents.\n4. Follow court proceedings to resolve the dispute.\n\n[Document 2]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 3]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 4]\nFiling a Property Dispute Case in Tamil Nadu:\nTo file a property dispute case, approach the Civil Court in your district with documents like property deeds, sale agreements, and proof of ownership. You can hire a lawyer to help with the process, and the court will hear the case and deliver a verdict based on evidence presented.\n\n[Document 5]\nFiling a Property Dispute Case:\nTo file a property dispute case in Tamil Nadu, follow these steps:\n1. Gather documents: Collect relevant documents, such as property deeds and witness statements.\n2. Approach the police: File a complaint at the local police station.\n3. Court proceedings: The case will be forwarded to the court, where a judge will hear the dispute.",
+  "retrieved_doc_ids": [
+    "1077",
+    "799",
+    "1432",
+    "1071",
+    "1826"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "12634cd324b32b5dcb6f6f162a17cac4b4d9cb364e51107d5f3c0dcf30b9f8fc",
+  "answer": "To dispute a parking violation in Tamil Nadu, first gather evidence like ticket details, vehicle registration, and witness statements. Then, file a complaint at the local police station. Next, approach the Sub-Court or District Court with these documents. Follow court proceedings as outlined in the guidelines. [Document 5]",
+  "input_tokens": 476,
+  "output_tokens": 63,
+  "seconds": 8.040532999999414,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

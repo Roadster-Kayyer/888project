@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001345",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies regulation methods and targeted felonies, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies regulation methods and targeted felonies, but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\n(Note: The \"evidence\" key is set to null because the instruction specifies not to reward an answer with only an abstention and no substantive factual claims. However, in a real-world scenario, the evidence would be the actual text from the reference document that supports the candidate's answer.)",
+      "input_tokens": 445,
+      "output_tokens": 141,
+      "seconds": 11.141599300000962,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

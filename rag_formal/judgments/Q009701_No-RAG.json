@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009701",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate answer incorrectly identifies the Pink Police Patrol as a fictional TV show character and fails to provide relevant contact information for the real Pink Police Patrol unit."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The answer is incorrect and irrelevant, and there's no evidence provided to support the claim.\",\n}",
+      "input_tokens": 408,
+      "output_tokens": 58,
+      "seconds": 4.697391999994579,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"The candidate answer incorrectly identifies the Pink Police Patrol as a fictional TV show character and fails to provide relevant contact information for the real Pink Police Patrol unit.\"}",
+      "input_tokens": 448,
+      "output_tokens": 59,
+      "seconds": 4.718030700001691,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

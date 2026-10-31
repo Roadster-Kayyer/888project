@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004014",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1, 2, and 5.\",\n  \"evidence\": \"All Women Police Stations (AWPS) provide support and counseling (Document 1), victims can report domestic violence to AWPS or local police stations (Document 2), and victims can file complaints for dowry harassment with evidence (Document 5).\"\n}",
+      "input_tokens": 925,
+      "output_tokens": 133,
+      "seconds": 10.608933399998932,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

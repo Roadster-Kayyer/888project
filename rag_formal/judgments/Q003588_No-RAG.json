@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003588",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate mentions safety equipment but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate mentions safety equipment but lacks specific evidence from the reference.\",\n  \"answer\": \"Cops receive safety equipment like body cameras, K9 units, and ballistic gear to stay safer on the job.\"\n}",
+      "input_tokens": 370,
+      "output_tokens": 88,
+      "seconds": 6.999963899997965,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

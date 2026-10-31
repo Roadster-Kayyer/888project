@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003590",
+  "doc_id": "1644",
+  "query_type": "hard",
+  "query": "How have recent tech advancements equipped patrol officers with safety measures?",
+  "corpus_query_index": 3589,
+  "system": "BM25-RAG",
+  "reference_answer": "Personal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.",
+  "context": "[Document 1]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 2]\nPersonal Safety Equipment:\nTamil Nadu Police officers have been provided with modern equipment such as bulletproof vests, helmets, and communication devices to ensure their personal safety while on duty.\n\n[Document 3]\nRoad Safety Patrol:\nThe Road Safety Patrol is a Tamil Nadu Police program to promote road safety. Students can participate by:\n* Joining the patrol team\n* Participating in awareness campaigns\n* Helping to monitor and report traffic violations\n\n[Document 4]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 5]\nCitizens on Patrol Program:\nThe Citizens on Patrol program is a volunteer-based initiative where residents in residential areas work with the police to report suspicious activities, prevent crime, and maintain neighborhood safety.",
+  "retrieved_doc_ids": [
+    "1705",
+    "1644",
+    "1674",
+    "864",
+    "1676"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5cf7f5a2e0caea541491dbc86f98cf4e6127acc0a5a45b83ff9e9310b0c3bc5f",
+  "answer": "Recent tech advancements have equipped patrol officers with modern equipment like bulletproof vests, helmets, and communication devices for personal safety [Document 1]. Additionally, the Pink Police Patrol provides specialized protection for women [Document 5].",
+  "input_tokens": 374,
+  "output_tokens": 45,
+  "seconds": 5.824031499998455,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

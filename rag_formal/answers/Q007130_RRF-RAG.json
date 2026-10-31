@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007130",
+  "doc_id": "40",
+  "query_type": "hard",
+  "query": "How does the law protect me when police decide to detain me?",
+  "corpus_query_index": 7129,
+  "system": "RRF-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nDetention Time Limit\nThe police can detain you for up to 24 hours before producing you before a magistrate, as per the Code of Criminal Procedure (CrPC).\n\n[Document 2]\n3. What is Section 107/151 preventive detention?\nSection 107/151 of the CrPC allows the police to detain a person to prevent a breach of peace or disturbance of public order, but only with a magistrate's approval and for a limited period.\n\n[Document 3]\nPreventive Detention Laws in Tamil Nadu:\nIn Tamil Nadu, preventive detention laws allow the police to detain individuals to prevent them from committing a crime. The Tamil Nadu Prevention of Dangerous Activities of Bootleggers, Cyber Law Offenders, Forest Offenders, Goondas, Immoral Traffic Offenders, Slum-Grabbers and Video Pirates Act, 1982, and the National Security Act, 1980, are used for preventive detention. Detention can last up to 12 months, with periodic reviews.\n\n[Document 4]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 5]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "retrieved_doc_ids": [
+    "42",
+    "59",
+    "1717",
+    "848",
+    "57"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "49e2b83c06c080de2cfa6a1c74e15e0f075a698d1564d9e84a35821b6a652352",
+  "answer": "When detained by police, you're protected by law which limits their time to 24 hours without a magistrate's presence. During this period, police must show you to a magistrate. Additionally, you cannot be forced to sign any documents. [Document 4] [Document 1]",
+  "input_tokens": 436,
+  "output_tokens": 59,
+  "seconds": 7.565384000001359,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

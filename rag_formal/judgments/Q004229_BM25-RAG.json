@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004229",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the steps for reclaiming a towed vehicle and checking on a lost vehicle, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the steps for reclaiming a towed vehicle and checking on a lost vehicle, supported by Document 1.\",\n}",
+      "input_tokens": 909,
+      "output_tokens": 192,
+      "seconds": 14.929672400001436,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the steps for reclaiming a towed vehicle and checking on a lost vehicle, supported by Document 1.\"}\n**Note:** The scores are based on the assumption that the candidate's answer is accurate and fully supported by the evidence provided in Document 1. The reason given is a concise explanation of the scores.",
+      "input_tokens": 949,
+      "output_tokens": 98,
+      "seconds": 7.670889499997429,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

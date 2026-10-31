@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_28",
+  "doc_id": "PB_2633af100601ebe4d43f",
+  "query_type": "BTT",
+  "query": "Which website should you visit to get information about driving overseas and applying for an International Driving Permit (IDP) in Singapore?",
+  "reference_answer": "Automobile Association of Singapore (AAS) website.",
+  "corpus_query_index": 21,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 2]\nYou can apply for visa as Individual User if you are applying for individuals/families for the purpose of social visit. Singapore registered business entity applying for visa applicants for the purpose of business visit should apply for visa as Business User. In addition, the local contact who submits the visa application must be either a Singapore citizen or a Singapore permanent resident who is at least 21 years old with a Singpass account.\n\n[Document 3]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.\n\n[Document 4]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 5]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.",
+  "retrieved_doc_ids": [
+    "PB_5b5856d1886897cce5a3",
+    "PB_86ecb50c3ba0c8242aab",
+    "PB_c8c1a5bc0d89d0bfed72",
+    "PB_619765030c2c1f6e27b8",
+    "PB_d52d8afcd0f078500080"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "f0e51d7876329d3d202446ab2d2f4ffb28f07024ea3dcf4b2f30c41d79ac0096",
+  "answer": "You should visit the Singapore Immigration and Checkpoints Authority (ICA) website [Document 1] for information about driving overseas and applying for an IDP in Singapore.",
+  "input_tokens": 347,
+  "output_tokens": 34,
+  "seconds": 13.570323299994925,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

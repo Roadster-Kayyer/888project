@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_39",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses ERP payment preparation in tunnels but lacks specific tunnel-related instructions; evidence supports pre-loading cash cards and safety measures but not the direct handling of ERP payments in tunnels."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses ERP payment preparation in tunnels but lacks specific tunnel-related instructions; evidence supports pre-loading cash cards and safety measures but not the direct handling of ERP payments in tunnels.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4]\"\n}",
+      "input_tokens": 856,
+      "output_tokens": 192,
+      "seconds": 14.798199700002442,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

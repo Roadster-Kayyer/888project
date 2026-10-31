@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003519",
+  "doc_id": "1631",
+  "query_type": "search",
+  "query": "What adjustments has the Tamil Nadu Police made regarding women's security measures?",
+  "corpus_query_index": 3518,
+  "system": "Dense-RAG",
+  "reference_answer": "Women's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel",
+  "context": "[Document 1]\nWomen's Safety Reforms:\nThe Tamil Nadu Police has reformed its approach to handling women's safety issues by:\n* Establishing all-women police stations\n* Creating a dedicated women's helpline\n* Increasing female police personnel\n\n[Document 2]\nWomen's Safety Initiatives:\nTamil Nadu Police has launched several initiatives for women's safety, including:\n* All-Women Police Stations\n* Women Helpline (181)\n* She Teams for surveillance and assistance\n\n[Document 3]\nForced Religious Conversion of Women:\nThe Tamil Nadu Police handles cases of forced religious conversion of women under the Tamil Nadu Prohibition of Forcible Conversion of Religion Act, 2002. Victims can file complaints at the nearest police station, and the police will investigate and take action accordingly.\n\n[Document 4]\nProtection for Women Facing Honor-Based Threats\nThe Tamil Nadu Police provides protection to women facing honor-based threats. Women can approach the nearest police station or call the toll-free number 181 to report threats. The police will provide necessary protection and support.\n\n[Document 5]\nSupport Services for Victims of Gender-Based Violence:\nTamil Nadu Police offers support services through All-Women Police Stations and Women Help Desks. These provide a safe and confidential space for victims to report crimes and receive assistance.",
+  "retrieved_doc_ids": [
+    "1631",
+    "1009",
+    "474",
+    "453",
+    "99"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "70ed9102e08a54a6ad95778edc3a67d509f3290bdcdab797002a4aeb91694ad0",
+  "answer": "The Tamil Nadu Police has established all-women police stations, created a dedicated women's helpline (181), and increased female police personnel. They also offer support services through All-Women Police Stations and Women Help Desks. [Document 1]",
+  "input_tokens": 393,
+  "output_tokens": 53,
+  "seconds": 6.6481714000001375,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

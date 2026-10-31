@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_46",
+  "doc_id": "PB_5970b9dd48a067a0363d",
+  "query_type": "CPF_111",
+  "query": "How will the increase in the annual matching grant from $600 to $2,000 per year from 2025 help seniors better meet their retirement needs?",
+  "reference_answer": "Eligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.",
+  "corpus_query_index": 108,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 2]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.\n\n[Document 3]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 4]\nFrom 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:\n\n[Document 5]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.",
+  "retrieved_doc_ids": [
+    "PB_377d7608d12421ff652e",
+    "PB_5970b9dd48a067a0363d",
+    "PB_0e779c5155a62f56c06e",
+    "PB_f2859c1fb9b873b9f305",
+    "PB_c0fec916295a83585eb1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "04f61163a1bda2cfcfe8dd372790259a59aa13a99befde3ece14799f5aec22e4",
+  "answer": "The increase from $600 to $2,000 annually starting in 2025 will allow eligible seniors to make cash top-ups and receive higher CPF retirement savings. This leads to increased CPF payouts, helping seniors better meet their retirement needs by potentially increasing their monthly CPF income by about $260 by 2035. [Document 2]",
+  "input_tokens": 771,
+  "output_tokens": 78,
+  "seconds": 10.176670200002263,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008067",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question, is relevant to the reference, and all factual claims are supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly states police cannot compel signatures, but accurately describes police verification and its requirements, supported by Document 1 and Document 2.\",\n}",
+      "input_tokens": 716,
+      "output_tokens": 73,
+      "seconds": 5.943208699995012,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question, is relevant to the reference, and all factual claims are supported by the evidence provided.\"}",
+      "input_tokens": 756,
+      "output_tokens": 47,
+      "seconds": 3.934108000001288,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

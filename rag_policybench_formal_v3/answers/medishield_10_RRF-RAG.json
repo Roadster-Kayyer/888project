@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_10",
+  "doc_id": "PB_d1fb942f89da85e7ad8d",
+  "query_type": "medishield",
+  "query": "What is the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000?",
+  "reference_answer": "Residents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.",
+  "corpus_query_index": 304,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 2]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 3]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 4]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.\n\n[Document 5]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:",
+  "retrieved_doc_ids": [
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_3808b698344f1c773560",
+    "PB_4bd71ffc7b87577275da",
+    "PB_c0fec916295a83585eb1",
+    "PB_c1b27ec78f7a49b7fed4"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "77de123f088afe8a2c507f8f14478e72aa0f3d616e05a9f02e43f63062356ffe",
+  "answer": "The subsidy reduction rate for Singapore residents in residences with an Annual Value between $21,001 and $31,000 is 10 percentage points less than the shown subsidy rates. [Document 1]",
+  "input_tokens": 597,
+  "output_tokens": 48,
+  "seconds": 6.244541399995796,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

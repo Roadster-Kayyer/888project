@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002318",
+  "doc_id": "1415",
+  "query_type": "casual",
+  "query": "How do police officers in Tamil Nadu behave properly?",
+  "corpus_query_index": 2317,
+  "system": "RRF-RAG",
+  "reference_answer": "Code of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.",
+  "context": "[Document 1]\nSpecialized Courses for Serving Police Officers:\nServing police officers in Tamil Nadu can undergo specialized courses such as forensic science, cybercrime investigation, and counter-terrorism at the Tamil Nadu Police Academy or other authorized institutions.\n\n[Document 2]\nCode of Conduct for Police Officers in Tamil Nadu:\nThe Tamil Nadu Police Code of Conduct outlines principles for professional behavior, including honesty, courtesy, and accountability. Officers must adhere to these guidelines to ensure fair and respectful treatment of the public.\n\n[Document 3]\nEthical Guidelines for Police Behavior in Tamil Nadu:\nThe Tamil Nadu Police follows the Indian Police Code of Conduct, which emphasizes integrity, impartiality, and respect for human rights. Officers are expected to uphold the law, protect citizens, and maintain public trust.\n\n[Document 4]\nEthics Committee Structure in Tamil Nadu Police:\nThe Tamil Nadu Police has a Professional Standards and Ethics Committee to oversee police conduct. It consists of senior officers and external members, ensuring accountability and transparency.\n\n[Document 5]\nTraining in Ethical Decision Making:\nTamil Nadu police officers receive training at the Tamil Nadu Police Academy, which includes modules on ethics, human rights, and professional conduct. This training equips officers to make informed, ethical decisions in complex situations, prioritizing public safety and well-being.",
+  "retrieved_doc_ids": [
+    "1482",
+    "1415",
+    "1414",
+    "1426",
+    "1416"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "135ef5e6797283b4395c73475c29a49ca791c1aefe0c02dbd97b7564e167afe4",
+  "answer": "Police officers in Tamil Nadu follow a code of conduct and ethical guidelines (Document 2 & Document 3) emphasizing honesty, courtesy, and respect for human rights. They also undergo specialized training and have an Ethics Committee to ensure professional behavior (Documents 1, 4, and 5). Officers receive training in ethical decision-making to prioritize public safety and well-being. [Document 1]",
+  "input_tokens": 377,
+  "output_tokens": 80,
+  "seconds": 10.30264250000073,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

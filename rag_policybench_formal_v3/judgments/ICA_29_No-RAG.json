@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_29",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer suggests online application but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer suggests online application but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partially correct as it correctly suggests that the application process involves visiting the APEC website, which is relevant to the question. However, it does not directly address the specifics of the online submission process or the mailing of the card, which are key points in the reference. The faithfulness score is null because there is no substantive factual claim in the candidate answer that can be directly supported or contradicted by the supplied evidence, which in this case is absent. The reason succinctly explains the scores, noting the lack of specific evidence and direct addressing of the reference details",
+      "input_tokens": 378,
+      "output_tokens": 192,
+      "seconds": 13.876072400002158,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

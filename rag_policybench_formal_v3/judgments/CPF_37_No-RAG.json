@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_37",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence but is relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence but is relevant to the question.\"\n}\n\nExplanation: The candidate answer acknowledges the need for specific details and correctly identifies that the treatment of maturity proceeds can vary by insurer and age, which is relevant to the question. However, without direct evidence from the provided reference, the faithfulness score cannot be accurately determined, hence it is set to null. The correctness score is 1 because the answer is relevant but lacks complete information.",
+      "input_tokens": 793,
+      "output_tokens": 143,
+      "seconds": 11.05784580000909,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

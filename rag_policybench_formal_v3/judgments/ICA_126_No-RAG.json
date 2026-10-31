@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_126",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and mentions eligibility criteria and application process, but lacks direct evidence from the ICA website."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly addresses the question and mentions eligibility criteria and application process, but lacks direct evidence from the ICA website.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is correct (2) as it directly addresses the question about applying for Singapore PR and mentions relevant eligibility criteria and application process. The relevance score is also 2 because the answer directly addresses the question. However, the faithfulness score is 1 because the answer does not provide direct evidence from the ICA website, which is required according to the instructions. The reason succinctly explains the scores, noting the correctness and relevance but the lack of direct evidence for faithfulness. The evidence",
+      "input_tokens": 391,
+      "output_tokens": 192,
+      "seconds": 14.467265900006169,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

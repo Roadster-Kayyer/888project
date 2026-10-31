@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_11",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies SH as likely representing 'Singapore Highway' in EMAS, directly addressing the question and supported by the context provided in Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies SH as likely representing 'Singapore Highway' in EMAS, directly addressing the question and supported by the context provided in Document 5.\"\n}",
+      "input_tokens": 1288,
+      "output_tokens": 78,
+      "seconds": 6.275309499993455,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

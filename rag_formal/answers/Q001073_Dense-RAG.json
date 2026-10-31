@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001073",
+  "doc_id": "1190",
+  "query_type": "casual",
+  "query": "How can I make sure a judge's ruling is legit?",
+  "corpus_query_index": 1072,
+  "system": "Dense-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 3]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 4]\nComplaint against a Judge:\nTo file a complaint against a judge, you can contact the High Court of Judicature at Madras or the Supreme Court of India. You can also file a complaint with the National Judicial Accountability Commission or the Tamil Nadu State Judicial Academy. Please note that the process may vary, and it's recommended to consult the official websites or seek guidance from a legal expert.\n\n[Document 5]\nReporting Fake Court Orders or Notices:\nTo report fake court orders or notices, contact the Tamil Nadu Police Cyber Cell or your local police station. Provide details of the fake document, and they will guide you through the process.",
+  "retrieved_doc_ids": [
+    "1191",
+    "1190",
+    "2032",
+    "1122",
+    "1192"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "82c90672267bfa9a7b0fb98bf4368bbaa56443906e0843e7ec9849bff7ff0c39",
+  "answer": "To verify a judge's ruling, contact the issuing court or the Tamil Nadu State Judicial Department. Check for the document's seal, signature, and stamp to ensure authenticity [Document 1]. Alternatively, visit the official Tamil Nadu judiciary website or contact the concerned court directly [Document 2]. For more serious complaints, consult the High Court of Judicature at Madras or seek legal advice [Document 4].",
+  "input_tokens": 412,
+  "output_tokens": 84,
+  "seconds": 10.475114900000335,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

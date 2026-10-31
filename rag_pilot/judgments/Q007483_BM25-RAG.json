@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007483",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 2.\",\n  \"evidence\": \"Document 2 details the confidential reporting process for harassment, including contacting the Tamil Nadu Police Cyber Cell, local police station, and blocking the caller's number, which aligns with the candidate's response.\"\n}",
+      "input_tokens": 1054,
+      "output_tokens": 114,
+      "seconds": 9.189610199999152,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008030",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states potential punishments for street peddlers and is directly supported by Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states potential punishments for street peddlers and is directly supported by Document 4.\",\n  \"evidence\": \"[Document 4]\"\n}",
+      "input_tokens": 803,
+      "output_tokens": 192,
+      "seconds": 14.959655400001793,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

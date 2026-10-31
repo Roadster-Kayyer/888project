@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_2",
+  "doc_id": "PB_cb078a82de94eaac8bfe",
+  "query_type": "ICA_134",
+  "query": "How can I check the application status of my REP application?",
+  "reference_answer": "You can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.",
+  "corpus_query_index": 214,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 2]\nYou may check the status of your online application or retrieve your application reference number by logging in to MyICA.For hardcopy applications, you may log in to our e-Service.\n\n[Document 3]\nAll REP renewal applications are being carefully assessed, taking into consideration all relevant factors, before a decision is made. If there are fresh facts and circumstances to support your request for a longer REP validity, you may furnish them to us for consideration at your next REP renewal.\n\n[Document 4]\nYou may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.\n\n[Document 5]\nYou may check the validity of the Re-entry Permit (REP) held by the person alongside a valid Identity Card (IC) or Digital IC (if available).",
+  "retrieved_doc_ids": [
+    "PB_cb078a82de94eaac8bfe",
+    "PB_533c97338e1e60662538",
+    "PB_2442511cbf8a98e91232",
+    "PB_09f08389f279dd1828ad",
+    "PB_6c6fcaa3d9ba8be58b7b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2a3e5e95887b25328b5d133d126a9bed69646e40f5db4232a26d46a697349e9c",
+  "answer": "To check the application status of your REP, click the \"Check Application Status\" function in the e-Service. [Document 1] Additionally, for online applications, log in to MyICA. For hardcopy applications, use the e-Service. [Document 1] & [Document 2]",
+  "input_tokens": 314,
+  "output_tokens": 63,
+  "seconds": 8.155396000001929,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

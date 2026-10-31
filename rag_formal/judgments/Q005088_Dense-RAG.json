@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005088",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies types of cases handled by the Cyber Crime Wing and is supported by all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies types of cases handled by the Cyber Crime Wing and is supported by all documents.\",\n  \"evidence\": \"Documents 1, 2, 3, and 5 directly support the factual claims made in the candidate answer.\"\n}",
+      "input_tokens": 688,
+      "output_tokens": 96,
+      "seconds": 7.6260546000012255,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

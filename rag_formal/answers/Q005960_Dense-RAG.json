@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005960",
+  "doc_id": "2070",
+  "query_type": "hard",
+  "query": "What steps can I take to ensure a car isn't stolen when I buy it in Tamil Nadu?",
+  "corpus_query_index": 5959,
+  "system": "Dense-RAG",
+  "reference_answer": "Verifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.",
+  "context": "[Document 1]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 2]\nTransferring Vehicle Ownership:\nTo transfer vehicle ownership in Tamil Nadu, follow these steps:\n1. Obtain a NOC from the previous owner.\n2. Fill Form 29 and 30.\n3. Submit documents to the RTO office.\n4. Pay the required fees.\n5. Get the vehicle inspected.\n\n[Document 3]\nVerifying Vehicle Insurance Documents in Tamil Nadu:\nTo verify vehicle insurance documents, check the Insurance Information Bureau (IIB) website or contact the insurance company directly. You can also check the vehicle's insurance details on the RTO website or through the VAHAN portal.\n\n[Document 4]\nReporting Fraudulent Vehicle Dealerships or Scams:\nTo report, contact the Tamil Nadu Police Department's Economic Offences Wing or the local police station. You can also file a complaint online through the Tamil Nadu Police website or the National Consumer Helpline.\n\n[Document 5]\nRetrieving Impounded Vehicles:\nTo retrieve a vehicle impounded by police in Tamil Nadu, follow these steps:\n1. Contact the police station where the vehicle was impounded.\n2. Produce required documents (RC, insurance, driving license).\n3. Pay any pending fines or penalties.\n4. Obtain a release order from the police.",
+  "retrieved_doc_ids": [
+    "2070",
+    "2053",
+    "2066",
+    "2068",
+    "2051"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cad132d5bf30158f09e127918ab4c575d627af61ac70b1e2349a3edb73e8f995",
+  "answer": "To ensure a car isn't stolen, verify its status by checking the registration certificate, engine/chassis number, and using online services like VAHAN. Transfer ownership by following the steps for obtaining a NOC, filling forms, and submitting documents to the RTO office. Verify insurance documents on the IIB website or RTO website. Report fraudulent dealerships or scams to the Tamil Nadu Police Department. Retrieve an impounded vehicle with the police station and required documents. [Document 1-5]",
+  "input_tokens": 451,
+  "output_tokens": 102,
+  "seconds": 12.730448599999363,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008683",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the legal consequences of violence during strikes as per Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the legal consequences of violence during strikes as per Document 1.\",\n  \"evidence\": \"[Document 1] Violence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\"\n}\n\n\nThe candidate answer directly addresses the question and is fully supported by the evidence provided in Document 1. The answer is correct, relevant, and faithful to the evidence. The reason succinctly explains the scores.",
+      "input_tokens": 772,
+      "output_tokens": 169,
+      "seconds": 13.096129199999268,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_74",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate correctly identifies the need for SingPass to check application status but omits details on alternative methods for those without SingPass."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate correctly identifies the need for SingPass to check application status but omits details on alternative methods for those without SingPass.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}",
+      "input_tokens": 1088,
+      "output_tokens": 192,
+      "seconds": 14.87147030000051,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

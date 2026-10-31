@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_54",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly interprets the 'Two-way traffic ahead' sign as a warning for merging and potential road narrowing, supported by Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets the 'Two-way traffic ahead' sign, supported by Documents 1 and 2.\",\n}",
+      "input_tokens": 506,
+      "output_tokens": 67,
+      "seconds": 5.468246499993256,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly interprets the 'Two-way traffic ahead' sign as a warning for merging and potential road narrowing, supported by Documents 1 and 2.\"}\n\nExplanation:\n- Correctness: The candidate answer is correct in stating that the sign relates to merging and road narrowing, which are relevant to the function of a 'Two-way traffic ahead' sign.\n- Relevance: The answer directly addresses the question by discussing the actions drivers should take when encountering the sign.\n- Faithfulness: The evidence from Documents 1 and 2 supports the factual claims made in the candidate answer, indicating that the sign is indeed about merging and road conditions ahead.\n\nReason: The candidate answer is factually accurate, directly relevant,",
+      "input_tokens": 546,
+      "output_tokens": 192,
+      "seconds": 15.028671799998847,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

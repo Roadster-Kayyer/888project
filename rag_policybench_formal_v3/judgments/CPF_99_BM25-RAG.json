@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_99",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, correctly stating the roles of platform operators and the taxi principal hirer in making CPF contributions for ride-hail and street-hail earnings."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, correctly stating the roles of platform operators and the taxi principal hirer in making CPF contributions for ride-hail and street-hail earnings.\"\n}",
+      "input_tokens": 1252,
+      "output_tokens": 192,
+      "seconds": 15.230688099996769,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

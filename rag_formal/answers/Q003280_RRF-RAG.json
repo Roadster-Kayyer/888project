@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003280",
+  "doc_id": "1589",
+  "query_type": "hard",
+  "query": "How does the Police Academy Museum ensure that its exhibits accurately represent the evolution of policing?",
+  "corpus_query_index": 3279,
+  "system": "RRF-RAG",
+  "reference_answer": "2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.",
+  "context": "[Document 1]\n2. Police Academy Museum:\nThe Police Academy Museum preserves policing heritage by showcasing historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department.\n\n[Document 2]\nPolice Heritage Museum in Tamil Nadu\nThe Police Heritage Museum showcases the history and evolution of the Tamil Nadu Police. It preserves and displays artifacts, uniforms, and equipment used by the police over the years.\n\n[Document 3]\nPolice Museum Information:\nFor information about the police museum in Tamil Nadu, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and search for \"Police Museum\" or contact the Tamil Nadu Police Headquarters directly. They will provide you with details about the museum's location, timings, and exhibits.\n\n[Document 4]\nPolice Heritage Walk Program:\nThe Police Heritage Walk program is an initiative to showcase the history and heritage of policing in historic cities. It aims to educate the public about the evolution of law enforcement and promote community engagement.\n\n[Document 5]\nTamil Nadu Police Academy:\nThe Tamil Nadu Police Academy provides training to police personnel in the state. Its function is to impart knowledge, skills, and attitude to police officers and staff to enable them to perform their duties effectively and efficiently.",
+  "retrieved_doc_ids": [
+    "1589",
+    "2018",
+    "350",
+    "1690",
+    "1948"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4e9652b02791a96bc56e363f1a85581915f3393c8b193fe1af8259c29d81c5c",
+  "answer": "The Police Academy Museum ensures accurate representation through historical artifacts, documents, and equipment, highlighting the evolution of the Tamil Nadu Police Department [Document 1]. It also offers a Police Heritage Walk program to educate about policing history [Document 4].",
+  "input_tokens": 372,
+  "output_tokens": 49,
+  "seconds": 6.477291100000002,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

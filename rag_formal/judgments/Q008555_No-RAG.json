@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008555",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "The answer addresses the topic of criminal charges for assaulting a family member but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"The answer addresses the topic of criminal charges for assaulting a family member but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the criminal charges for assaulting a family member. However, it does not directly reference the Protection of Women from Domestic Violence Act, 2005, which is the key piece of evidence in the reference. Therefore, the correctness score is 1, indicating that the answer is partly correct but omits important details about the specific legal consequences mentioned in the reference. Faithfulness is scored as null because there is no substantive factual claim directly supported by the supplied evidence. The",
+      "input_tokens": 380,
+      "output_tokens": 192,
+      "seconds": 14.684355099998356,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

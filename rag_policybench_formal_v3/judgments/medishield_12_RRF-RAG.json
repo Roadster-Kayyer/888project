@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_12",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"date\": \"1 April 2025\"\n}\n\n\nThe provided JSON object accurately reflects the correctness, relevance, and faithfulness of the candidate's answer based on the given reference and evidence. The answer is directly relevant to the question, correctly states the date the information is accurate, and is fully supported by the evidence provided in Document 1.",
+      "input_tokens": 559,
+      "output_tokens": 138,
+      "seconds": 10.740752400000929,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

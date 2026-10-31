@@ -1,0 +1,29 @@
+{
+  "query_id": "ICA_15",
+  "doc_id": "PB_abb4a02effa48ce5e10f",
+  "query_type": "ICA_134",
+  "query": "Can I obtain a copy of my travel history?",
+  "reference_answer": "We regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.",
+  "corpus_query_index": 209,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 2]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 3]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.\n\n[Document 4]\nThe MyICA mobile app can store multiple group QR codes with different group members. Travellers can edit the members in a group by adding or removing the member profile and regenerating the QR code even in offline mode (i.e., without mobile data). Travellers have the option to customise group names (e.g., 'Family', or 'Friends') to better fit their travel requirements.\n\n[Document 5]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.",
+  "retrieved_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_73d82fe26c9a986d734d",
+    "PB_b5339301e0857337a248",
+    "PB_c4889c17ceec12f1516c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "41fad93cca4e4811e3dbe89482ac82e25639181676884e5c56ba7b027af1b02f",
+  "answer": "No, the documents provided do not relate to travel history. They cover topics like retirement savings, MediSave contributions, and travel document extensions. [Document 1-5]",
+  "input_tokens": 961,
+  "output_tokens": 36,
+  "seconds": 4.896474100009073,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

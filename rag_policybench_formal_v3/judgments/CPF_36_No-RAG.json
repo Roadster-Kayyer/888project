@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_36",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\nExplanation:\n- Correctness: The candidate answer correctly states the need for proof of guardianship and possibly a court order, which aligns with the reference's implication that an application must be completed on behalf of the child.\n- Relevance: The answer directly addresses the question of transferring savings from one account to another for a minor.\n- Faithfulness: The answer is partially faithful as it suggests a process (contacting the bank and providing proof of guardianship) but does not directly reference the specific steps or evidence mentioned in the reference (application",
+      "input_tokens": 402,
+      "output_tokens": 192,
+      "seconds": 14.58495029999176,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_39",
+  "doc_id": "PB_9cd9954ab47df751deda",
+  "query_type": "CPF_111",
+  "query": "How will CPF investors benefit from the reduced Total Expense Ratio (TER) caps?",
+  "reference_answer": "Expenses on investment have a significant impact on returns. Hence, reducing Total Expense Ratio caps will lower the expenses that CPF investors have to bear and increase a fund's per-unit net asset value. This will enable CPF members who have invested in the fund to accumulate their retirement savings faster.The following example illustrates the impact of expense ratio:Amount invested: $10,000 over 30 years, with annual return of 5%1Total expense ratio of the Fund decreases from 1.95% to 1.75%Savings =$1,475(or 6% more in his retirement savings)Expense Ratio of 1.95%Expense Ratio of 1.75%Net investment value after 30 years$24,629$26,104Savings$1,4751Assumes no front end load",
+  "corpus_query_index": 100,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nExpenses on investment have a significant impact on returns. Hence, reducing Total Expense Ratio caps will lower the expenses that CPF investors have to bear and increase a fund's per-unit net asset value. This will enable CPF members who have invested in the fund to accumulate their retirement savings faster.The following example illustrates the impact of expense ratio:Amount invested: $10,000 over 30 years, with annual return of 5%1Total expense ratio of the Fund decreases from 1.95% to 1.75%Savings =$1,475(or 6% more in his retirement savings)Expense Ratio of 1.95%Expense Ratio of 1.75%Net investment value after 30 years$24,629$26,104Savings$1,4751Assumes no front end load\n\n[Document 2]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.\n\n[Document 3]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 4]\nThe CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.\n\n[Document 5]\nUnlike employees, platform workers may incur significant work expenses which are not reimbursed (e.g. fuel cost). Hence, the computation of CPF will be based on net earnings after taking into consideration such expenses. The net earnings will be based on gross earnings minus the Fixed Expense Deduction Amount (FEDA). The use of FEDA reflects expenses for the vast majority of platform workers.The FEDA takes reference from the Fixed Expense Deduction Ratio developed by IRAS for the computation of net earnings for tax purposes. This is based on actual expense ratios, including industry feedback and surveys on the expenses of workers. Some of the common allowable business expenses incurred by delivery workers and PHC/ taxi drivers include:Rental costsFuel/charging costsRepairs and maintenance costsParkingService fees paid to operatorsMobile phone subscription planRoad taxThe use of FEDA provides significant convenience for both you and your platform operators. You will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.",
+  "retrieved_doc_ids": [
+    "PB_9cd9954ab47df751deda",
+    "PB_78fc5f010e94bc79c15a",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_18205d295d37e73b6d4f",
+    "PB_682ac5aab8172c05b6af"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ac8f6de8f66c0c02830148cba1e86b0eddb5aa05d7ed1f4cf7f339806b38e90d",
+  "answer": "Reducing Total Expense Ratio (TER) caps benefits CPF investors by lowering their expenses, increasing fund net asset value, and potentially boosting retirement savings by up to 6%. This directly impacts investors through better returns and faster accumulation of savings. [Document 1]",
+  "input_tokens": 855,
+  "output_tokens": 53,
+  "seconds": 7.145664399999077,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2307.33203125
+}

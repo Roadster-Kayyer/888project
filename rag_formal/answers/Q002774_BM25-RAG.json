@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002774",
+  "doc_id": "1498",
+  "query_type": "search",
+  "query": "Can you tell me about the hiring procedure for high-ranking officers in police forces?",
+  "corpus_query_index": 2773,
+  "system": "BM25-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nPolice Martyrs Memorial:\nTo access information about police martyrs memorial, visit the Tamil Nadu Police Department's official website or contact the Police Museum in Chennai. You can also visit the memorial in person to pay your respects and learn more about the brave officers who made the ultimate sacrifice.\n\n[Document 2]\nArmed Forces Special Powers Act:\nThe Armed Forces Special Powers Act (AFSPA) is not applicable in Tamil Nadu, as it is primarily enforced in areas like Jammu and Kashmir, and parts of the Northeast. However, if applied, it grants special powers to armed forces in disturbed areas.\n\n[Document 3]\nHiring Household Help:\nWhen hiring household help:\n* Verify their identity and references\n* Conduct a thorough background check\n* Inform your local police station about new hires\n\n[Document 4]\n3. Role of the Director General of Police (DGP):\nThe Director General of Police (DGP) is the highest-ranking police officer in the state. The DGP's role includes:\n- Overseeing the entire state police force\n- Formulating police policies\n- Coordinating with other departments and agencies\n\n[Document 5]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "retrieved_doc_ids": [
+    "380",
+    "1751",
+    "1906",
+    "1020",
+    "57"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d5f0e05cb3fcaaee60b97e1d3dd285d564622bb6ebcb0b6f5ea4c48b370e0525",
+  "answer": "The hiring procedure for high-ranking officers in police forces isn't detailed in the provided documents. However, generally, it involves vetting candidates thoroughly, including background checks, and oversight by the Director General of Police (DGP). [Document 5] mentions that the police cannot compel signatures.",
+  "input_tokens": 396,
+  "output_tokens": 59,
+  "seconds": 7.735030800000459,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_38",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "The answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"The answer is relevant but lacks specific evidence from the reference.\",\n  \"answer_explanation\": \"The candidate's answer correctly addresses the question but does not provide the specific timeframe mentioned in the reference, hence the lack of evidence.\"\n}",
+      "input_tokens": 373,
+      "output_tokens": 90,
+      "seconds": 6.737702800004627,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

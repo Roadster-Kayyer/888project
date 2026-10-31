@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_83",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states top-ups are possible without reaching the current ERS and includes relevant details about MRSS grant and tax relief, supported by Document 2.\",\n}",
+      "input_tokens": 1189,
+      "output_tokens": 192,
+      "seconds": 15.278738900000462,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, supported by evidence from Document 2.\"}",
+      "input_tokens": 1229,
+      "output_tokens": 42,
+      "seconds": 3.675879900009022,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

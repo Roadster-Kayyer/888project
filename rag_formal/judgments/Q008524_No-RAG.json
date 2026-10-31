@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008524",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it mentions potential consequences like suspension, expulsion, criminal charges, and fines which are related to the legal repercussions of assault in schools. However, it does not directly cite the Tamil Nadu Prohibition of Harassment of Women Act or the IPC, which are mentioned in the reference as sources of legal repercussions. Therefore, the correctness score is 1 because it is partly correct but omits important details. Faithfulness is scored as null because there is no substantive factual claim directly",
+      "input_tokens": 386,
+      "output_tokens": 192,
+      "seconds": 15.044871899997815,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_37",
+  "doc_id": "PB_948ae064c30e06542701",
+  "query_type": "BTT",
+  "query": "What action should be taken when encountering a situation that requires reduced speed to ensure safety?",
+  "reference_answer": "Slow down.",
+  "corpus_query_index": 31,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to\n\n[Document 4]\nIt is important that those travelling in a group use a group QR code containing the passport details of those travelling in the same vehicle. In this case, to ensure a seamless and smooth travel experience, the traveller should use a group QR code that contains his/her three other travelling companions' profiles if only four (and not five) people are travelling.Tip: Traveller can create a group QR code that has five profiles and another separate QR code that contains four profiles. Different QR codes can be named uniquely (e.g., Family, Friends, and Colleagues).\n\n[Document 5]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).",
+  "retrieved_doc_ids": [
+    "PB_8a851d564b8b1c6da3af",
+    "PB_619765030c2c1f6e27b8",
+    "PB_3300f78e0c7cee359492",
+    "PB_ee4845fffddb5f8c7d77",
+    "PB_a5deb8741f88193f4891"
+  ],
+  "trimmed_doc_ids": [
+    "PB_3300f78e0c7cee359492"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4c311e64681d5960f5e5cf462a01e082a7924d274d1f6fb0e721cf925af589c0",
+  "answer": "When encountering a situation requiring reduced speed for safety, increase the fan speed and avoid setting the air conditioning temperature too low [Document 1]. However, the document does not directly address reducing speed for safety. Adjusting speed based on road conditions and maintaining a safe following distance is key [Document 2].",
+  "input_tokens": 622,
+  "output_tokens": 62,
+  "seconds": 8.054395300001488,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2104.21484375
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004958",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the retrieved evidence, which outlines the process for approaching domestic violence protection officers and accessing crime prevention tips."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the retrieved evidence, which outlines the process for approaching domestic violence protection officers and accessing crime prevention tips.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided. It correctly instructs on how to approach domestic violence protection officers and suggests checking the Tamil Nadu Police website for crime prevention tips, which aligns with the information in Document 2. The evidence directly supports the factual claims made in the candidate answer, justifying the faithfulness score of 2. The reason succinctly explains the scores, indicating that the answer is directly relevant and factually supported by the evidence.",
+      "input_tokens": 862,
+      "output_tokens": 190,
+      "seconds": 14.663072200000897,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

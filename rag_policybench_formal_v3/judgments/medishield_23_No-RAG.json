@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_23",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate acknowledges the dependency on age and ward class but lacks specific evidence for exact amounts."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate acknowledges the dependency on age and ward class but lacks specific evidence for exact amounts.\",\n  \"answer\": \"Candidate partially addresses the question but does not provide the exact deductible amounts, suggesting further reference is needed.\"\n}\n\n\n\n## Instruction 2 (More Diff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "input_tokens": 411,
+      "output_tokens": 192,
+      "seconds": 14.67702509999799,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

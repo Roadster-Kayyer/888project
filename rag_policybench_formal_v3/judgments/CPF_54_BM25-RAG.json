@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_54",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the process for claiming deductions and refers to the IRAS for further details, aligning with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process for claiming deductions and refers to the IRAS for further details, aligning with the evidence provided.\"\n}",
+      "input_tokens": 1612,
+      "output_tokens": 70,
+      "seconds": 5.955026199997519,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001341",
+  "doc_id": "124",
+  "query_type": "original",
+  "query": "What is the NDPS Act and what offenses does it cover?",
+  "corpus_query_index": 1340,
+  "system": "Dense-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nPOCSO Act:\nThe POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.\n\n[Document 3]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 4]\nIntimidating Voters:\nIntimidating voters during elections is a serious offense under the Indian Penal Code (IPC) and the Representation of the People Act, 1951. The punishment can range from 3 years to 7 years of imprisonment and/or a fine.\n\n[Document 5]\nPrevention of Corruption Act:\nThe Prevention of Corruption Act, 1988, applies to police officials in Tamil Nadu. It prohibits bribery, corruption, and misuse of power by public servants, including police officers.",
+  "retrieved_doc_ids": [
+    "124",
+    "101",
+    "131",
+    "559",
+    "1739"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8f8e31c7387ee68fc8ef8078390d52336b4e61eec4376d687e30693e18eb4cf4",
+  "answer": "The NDPS Act covers offenses like possession, sale, purchase, and manufacture of banned substances. It doesn't cover offenses like voter intimidation or corruption, which are covered by other acts. [Document 1]",
+  "input_tokens": 414,
+  "output_tokens": 43,
+  "seconds": 5.805300399999396,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

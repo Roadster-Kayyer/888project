@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_91",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents' information on processing times for REP renewal and transfer."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents' information on processing times for REP renewal and transfer.\",\n  \"evidence\": \"[Document 1], [Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate's answer is correct, directly addresses the question, and is fully supported by the evidence provided in the documents.",
+      "input_tokens": 767,
+      "output_tokens": 115,
+      "seconds": 8.99463139999716,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

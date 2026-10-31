@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_71",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states eligibility and process duration, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states eligibility and process duration, supported by Document 1.\",\n  \"evidence\": \"Document 1: 'You can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.'\"\n}\n\n\nIn this evaluation, the candidate's answer is deemed correct (2) as it directly addresses the question and is fully supported by the evidence provided in Document 1. The answer is relevant (2) because it directly answers the question about the eligibility to sponsor parents for PR. The faithfulness (2) is confirmed by the direct quote from Document 1, which substantiates the claim made in the candidate's answer",
+      "input_tokens": 746,
+      "output_tokens": 192,
+      "seconds": 15.16227830000571,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

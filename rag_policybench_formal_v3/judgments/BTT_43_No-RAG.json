@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_43",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, though specific evidence is not provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, though specific evidence is not provided.\",\n  \"explanation\": \"Candidate answer is correct, directly relevant, and faithful, as it aligns with the reference without contradicting it, despite lacking direct evidence.\"\n}",
+      "input_tokens": 331,
+      "output_tokens": 101,
+      "seconds": 7.935688999990816,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007399",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, accurately detailing support options and reporting mechanisms."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively reflects the reference information on support services for pregnant women facing domestic violence, including helplines and local services, and correctly mentions reporting mechanisms.\",\n}",
+      "input_tokens": 836,
+      "output_tokens": 192,
+      "seconds": 14.908255500005907,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from all documents, accurately detailing support options and reporting mechanisms.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), relevant (2), and faithful (2) as it accurately reflects the information from the documents regarding support services for pregnant women facing domestic violence and how to report such incidents. The brief explanation in the \"reason\" field succinctly summarizes the evaluation.",
+      "input_tokens": 876,
+      "output_tokens": 135,
+      "seconds": 10.403304299994488,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

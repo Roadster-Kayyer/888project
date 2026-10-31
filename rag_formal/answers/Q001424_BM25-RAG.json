@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001424",
+  "doc_id": "1254",
+  "query_type": "search",
+  "query": "What's the procedure to flag illegal tourism in national parks?",
+  "corpus_query_index": 1423,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\nReporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.\n\n[Document 2]\nEco-Tourism Permission in Tamil Nadu Forests:\nTo obtain permission for eco-tourism, apply to the Tamil Nadu Forest Department with a detailed proposal, including the location, type of activity, and environmental safeguards. The department will review and process the application as per the Eco-Tourism Policy of Tamil Nadu. You can also contact the Tamil Nadu Tourism Department for guidance and support.\n\n[Document 3]\nReporting Illegal Tourism Activities in Forest Areas:\nReport to the nearest Forest Range Office or police station. Provide details of the activity, location, and any evidence. You can also contact the Tamil Nadu Forest Department's helpline or submit a complaint online through their official website.\n\n[Document 4]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 5]\nReporting Corruption/Complaints in Various Departments\n\n* Health Department: To report corruption, contact the Vigilance and Anti-Corruption Department, Tamil Nadu, or file a complaint on their website. You can also call the toll-free helpline number.\n* Education Department: To complain against an officer, contact the Directorate of Government Examinations or the District Education Officer. You can also file a complaint online through the Tamil Nadu Government's grievance portal.\n* Tourism Department: To file a complaint against an official, contact the Tamil Nadu Tourism Development Corporation or the District Collector's office. You can also submit a complaint through the public grievance portal on the Tamil Nadu Government's website.",
+  "retrieved_doc_ids": [
+    "1254",
+    "1203",
+    "1236",
+    "106",
+    "420"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9f024e56d3a6855a231deceba7c1e912fa83f3b569fcc01e9997f006aad28945",
+  "answer": "To flag illegal tourism in national parks, report to the nearest Forest Range Office or local police station [Document 1], provide details, and offer evidence. Alternatively, use the Tamil Nadu Forest Department's helpline or online complaint system [Document 1, Document 3]. For eco-tourism permission, apply to the Tamil Nadu Forest Department with a proposal [Document 2]. [Document 1] provides specific steps, including reporting illegal activities and offering evidence.",
+  "input_tokens": 539,
+  "output_tokens": 95,
+  "seconds": 12.358594999999696,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

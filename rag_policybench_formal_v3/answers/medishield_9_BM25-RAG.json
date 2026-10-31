@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_9",
+  "doc_id": "PB_4c6983683f465b70b78a",
+  "query_type": "medishield",
+  "query": "For how many years is Phased Support provided to all Singapore Citizens and Permanent Residents?",
+  "reference_answer": "Two years.",
+  "corpus_query_index": 330,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAll Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.\n\n[Document 2]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 3]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 4]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 5]\nYour local contact can submit a letter of support issued by his/her company in lieu of Form V39A (Letter of Introduction/ LOI) on condition that all necessary information (such as the local contact’s NRIC details) are included as per V39A. Your local contact must be a Singapore citizen or permanent resident aged 21 years and above.Related Topics: LOI, Visa Letter of Introduction, Form V39A, LOIs",
+  "retrieved_doc_ids": [
+    "PB_c82033a92d9e7c15a412",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_d98d322f2936df748ef1",
+    "PB_552a298a8583e182f7ef",
+    "PB_aee729ae9fbc3265b81f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "cbf61338360a5ec39fa1b38eec631b7b37582c906b32f9a784088c5d9e2ae7a9",
+  "answer": "Phased Support is not mentioned in the provided documents. However, based on the context, it seems to be related to healthcare for Singapore Citizens and Permanent Residents, which has been ongoing since the introduction of MediShield Life. [Document 1] mentions it applies \"for life,\" suggesting it has been provided for a long time but specific years aren't stated.",
+  "input_tokens": 363,
+  "output_tokens": 73,
+  "seconds": 9.374964999995427,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

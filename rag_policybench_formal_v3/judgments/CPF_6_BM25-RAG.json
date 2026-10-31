@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_6",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the processing times for the Self-Employed Scheme as stated in Document 1, covering both online and manual methods."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the processing times for the Self-Employed Scheme applications as stated in Document 1, covering both online and manual methods.\",\n}",
+      "input_tokens": 1168,
+      "output_tokens": 75,
+      "seconds": 5.959638000000268,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the processing times for the Self-Employed Scheme as stated in Document 1, covering both online and manual methods.\"}",
+      "input_tokens": 1208,
+      "output_tokens": 58,
+      "seconds": 4.857112900004722,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

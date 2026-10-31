@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_62",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate steps for checking citizenship status and relevant information about registering births and obtaining necessary documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process using ICA e-Service and relevant documents, consistent with Document 1 and Document 2.\",\n}",
+      "input_tokens": 883,
+      "output_tokens": 69,
+      "seconds": 5.500441199998022,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate steps for checking citizenship status and relevant information about registering births and obtaining necessary documents.\"}\n\nNote: The scores are based on the provided candidate answer which seems to be accurate and relevant according to the reference documents. The candidate answer includes instructions for checking the status via ICA e-Service, which is directly relevant to the question. It also correctly mentions the need to register the birth locally for children born overseas, which is a crucial piece of information for determining citizenship status. The faithfulness score is 2 because the candidate answer is fully supported by the evidence provided in the reference documents.",
+      "input_tokens": 923,
+      "output_tokens": 162,
+      "seconds": 12.752050099996268,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

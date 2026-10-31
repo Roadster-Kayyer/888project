@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000903",
+  "doc_id": "116",
+  "query_type": "casual",
+  "query": "How old do you have to be to get in trouble for crimes in India?",
+  "corpus_query_index": 902,
+  "system": "Dense-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nThreatening Government Officials:\nPenalty can range from 1-7 years imprisonment and a fine, under the Indian Penal Code, Sections 186, 189, and 506.\n\n[Document 3]\nAge Limit:\nThe age limit for joining Tamil Nadu Police is:\n- 18-24 years for general candidates\n- Relaxations apply for reserved categories (SC/ST, BC, etc.) as per government rules\n\n[Document 4]\nPenalties for Crimes in Tamil Nadu:\nIn Tamil Nadu, penalties vary by crime category. \n- Minor offenses: Fines or imprisonment up to 3 years\n- Serious crimes: Imprisonment from 3-10 years\n- Heinous crimes: Life imprisonment or death penalty\n\n[Document 5]\nMinors and Arrest in Tamil Nadu\nIn Tamil Nadu, minors (below 18 years) can be apprehended, but not arrested. They are dealt with under the Juvenile Justice Act. If a minor is involved in a crime, they will be produced before the Juvenile Justice Board.",
+  "retrieved_doc_ids": [
+    "116",
+    "558",
+    "990",
+    "1829",
+    "45"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "48d5f06e7df5a75d677ecab56306d1351b29c3025a507d4cf368113ddfc5ed2c",
+  "answer": "In India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. [Document 1]",
+  "input_tokens": 408,
+  "output_tokens": 40,
+  "seconds": 5.291004300001077,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

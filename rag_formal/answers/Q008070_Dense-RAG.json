@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008070",
+  "doc_id": "57",
+  "query_type": "hard",
+  "query": "What conditions allow authorities to get you to write your name on a piece of paper?",
+  "corpus_query_index": 8069,
+  "system": "Dense-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\nCourt Order for Handwriting Verification:\nTo get a court order for handwriting verification:\n1. File an application in the court.\n2. Explain the reason for verification.\n3. The court will issue an order if it deems necessary.\n\n[Document 2]\nChallenging Arbitrary Administrative Actions:\nTo challenge arbitrary administrative actions, file a Writ Petition in the Madras High Court under Article 226 of the Constitution. Provide details of the action, grounds for challenge, and relief sought. You can engage a lawyer or approach a legal aid service for assistance.\n\n[Document 3]\nPolice Verification for Business Establishment:\nTo get police verification for a business, submit an application to your local police station with required documents (ID proof, address proof, and business registration papers). Police will conduct a background check and issue a verification report, which is usually required for licensing and registration purposes.\n\n[Document 4]\nCitizen Rights: Police Identification Procedures\nCitizens have the right to know the name, designation, and station of the police officer. They can also ask for identification and can refuse to answer questions without a valid reason. Citizens can file complaints if they feel their rights are violated.\n\n[Document 5]\nApplying for Permission to Operate Business in Sensitive Areas:\nTo apply, submit a request to the local police station or commissioner's office, providing business details and required documents. The police will review and verify the application before granting permission.",
+  "retrieved_doc_ids": [
+    "1134",
+    "1974",
+    "212",
+    "1448",
+    "2086"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "7eca081f7a4b751e3a3ea3d6aed087cebf69afa08646e0ead6cc91a36a999531",
+  "answer": "Conditions for writing your name on a paper include:\n- Court Order for Handwriting Verification: File an application explaining the reason.\n- Police Verification for Business Establishment: Submit required documents like ID and business papers.\n- Challenging Arbitrary Administrative Actions: File a Writ Petition in the Madras High Court.\n- Police Identification Procedures: Request and provide details for police verification.\n- Applying for Permission to Operate Business: Submit a request with documents for review.\n\n[Document 1]",
+  "input_tokens": 421,
+  "output_tokens": 98,
+  "seconds": 12.960003799998958,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

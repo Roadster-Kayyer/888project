@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_28",
+  "doc_id": "PB_3808b698344f1c773560",
+  "query_type": "medishield",
+  "query": "What is the eligibility for subsidies under Singapore's Medishield program for residents living in residences with an Annual Value above $31,000?",
+  "reference_answer": "Residents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+  "corpus_query_index": 323,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nResidents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.\n\n[Document 2]\nResidents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.\n\n[Document 3]\nPioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.\n\n[Document 4]\nAll Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.\n\n[Document 5]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "retrieved_doc_ids": [
+    "PB_3808b698344f1c773560",
+    "PB_d1fb942f89da85e7ad8d",
+    "PB_df715fdfa6a8fbea4c7d",
+    "PB_c82033a92d9e7c15a412",
+    "PB_4bd71ffc7b87577275da"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "12b1441d8cdc4b09479fa4faabdeda81431c324dd8d42ec99681b2dd8f48ef12",
+  "answer": "Residents living in residences with an Annual Value above $31, 000 are not eligible for subsidies under Singapore's Medishield program [Document 1].",
+  "input_tokens": 418,
+  "output_tokens": 35,
+  "seconds": 4.48626360000344,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

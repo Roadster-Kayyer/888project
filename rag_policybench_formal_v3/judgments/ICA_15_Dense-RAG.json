@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_15",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies methods to access and update travel information but does not directly address obtaining a travel history record, which is consistent with the reference's statement about the inability to provide travel records."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies methods to access and update travel information but does not directly address obtaining a travel history record, which is consistent with the reference's statement about the inability to provide travel records.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate answer is correct in explaining how to access and update travel information, which is relevant to the question about obtaining travel history. The answer is faithful to the evidence provided, as it does not make unsupported claims about obtaining a full travel history record, which aligns with the reference's indication that such records are not available. The reason succinctly explains the scores.",
+      "input_tokens": 877,
+      "output_tokens": 182,
+      "seconds": 15.269281600005343,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

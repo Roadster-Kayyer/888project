@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005699",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer includes contact method but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer includes contact method but lacks direct evidence from the reference.\",\n  \"answer\": \"To contact the Anti-Counterfeit Currency Wing of Tamil Nadu Police, you can reach out to them through their official email at [email protected] or visit their website for more information.\"\n}",
+      "input_tokens": 430,
+      "output_tokens": 103,
+      "seconds": 8.032376200000726,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

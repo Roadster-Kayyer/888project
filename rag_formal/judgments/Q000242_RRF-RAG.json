@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000242",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the general steps for initiating a criminal case filing process, directly referencing the provided documents, and includes specific steps for different scenarios."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the general steps for initiating a criminal case filing process, directly referencing the provided documents, and includes specific steps for different scenarios.\",\n  \"evidence\": \"[Doc 1, 5, 2, 3, 4]\"\n}",
+      "input_tokens": 871,
+      "output_tokens": 192,
+      "seconds": 14.87755819999802,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2734.00439453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

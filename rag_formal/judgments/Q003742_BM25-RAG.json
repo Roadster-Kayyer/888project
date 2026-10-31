@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003742",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the operational mechanisms of the Women Safety Committee, directly addressing the question, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the operational mechanisms of the Women Safety Committee, directly addressing the question, and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the functions of the Women Safety Committee as described in the reference documents. It is relevant (2) because it directly addresses the operational mechanisms of the committee, which is the core of the question. The faithfulness (2) is confirmed by the evidence provided in Document 1, which outlines the committee's role in addressing complaints and providing support, aligning with the candidate's description. The reason succinctly explains",
+      "input_tokens": 818,
+      "output_tokens": 192,
+      "seconds": 14.759501100001216,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

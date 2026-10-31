@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005902",
+  "doc_id": "2060",
+  "query_type": "formal",
+  "query": "What are the procedures for reporting malfunctioning traffic signals in Tamil Nadu urban areas?",
+  "corpus_query_index": 5901,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.",
+  "context": "[Document 1]\nModern Surveillance Systems:\nThe Tamil Nadu Police has implemented:\n* CCTV cameras in public areas\n* Intelligent Traffic Management Systems\n* Facial recognition technology in urban areas to enhance security and surveillance.\n\n[Document 2]\nStandard Response Time:\nThe standard response time for police emergencies in urban areas of Tamil Nadu is 10-15 minutes. However, this may vary depending on the location and traffic conditions.\n\n[Document 3]\nTraffic Violations and Penalties:\nIn Tamil Nadu, common traffic violations include speeding, jumping signals, and not wearing helmets. Penalties range from ₹100 to ₹10,000, depending on the offense. For specific penalties, visit the Tamil Nadu Police website or refer to the Motor Vehicles Act, 1988.\n\n[Document 4]\nApplying for Tamil Nadu Police Traffic Education Wing:\nTo apply, visit the official Tamil Nadu Police website and look for recruitment notifications. You can also contact the Traffic Education Wing directly for more information. Eligibility criteria and application procedures are outlined in the recruitment notifications.\n\n[Document 5]\nEmergency Response in Urban and Rural Areas:\nIn Tamil Nadu, emergency response differs between urban and rural areas due to varying resource availability. Urban areas have more police stations, personnel, and equipment, enabling faster response times. Rural areas have fewer resources, but police use mobile patrols and community outreach to compensate.",
+  "retrieved_doc_ids": [
+    "1632",
+    "1514",
+    "164",
+    "1505",
+    "1519"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "1b1f11439468c905f7259f76d43d3ca8a8d9b9047d61cb2e448c92ec1487e5c9",
+  "answer": "According to [Document 1], modern surveillance systems like CCTV cameras are used by the Tamil Nadu Police. However, there's no specific procedure for reporting malfunctioning traffic signals mentioned. For such issues, one should report it to local police stations or use the Tamil Nadu Police website for further details. [Document 5] mentions that emergency response in urban areas includes using modern surveillance systems, but doesn't detail how to report signal malfunctions.",
+  "input_tokens": 406,
+  "output_tokens": 89,
+  "seconds": 12.016047799999797,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

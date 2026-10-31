@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_6",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Candidate answer does not address the question about demerit points expungement and lacks relevant information from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not address the question about demerit points expungement and lacks relevant information from the documents.\",\n  \"document_evidence\": \"None of the documents provide information on the action required to expunge demerit points.\"\n}",
+      "input_tokens": 1063,
+      "output_tokens": 92,
+      "seconds": 7.275357100006659,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

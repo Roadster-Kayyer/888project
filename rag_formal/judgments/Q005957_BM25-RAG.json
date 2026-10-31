@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005957",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from all documents, providing a comprehensive approach to verifying a stolen vehicle in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, using evidence from all documents to support the methods for checking a stolen vehicle in Tamil Nadu.\",\n}",
+      "input_tokens": 835,
+      "output_tokens": 72,
+      "seconds": 5.7248762999988685,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from all documents, providing a comprehensive approach to verifying a stolen vehicle in Tamil Nadu.\"}",
+      "input_tokens": 875,
+      "output_tokens": 58,
+      "seconds": 4.708718900001259,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

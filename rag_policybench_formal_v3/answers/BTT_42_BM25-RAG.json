@@ -1,0 +1,29 @@
+{
+  "query_id": "BTT_42",
+  "doc_id": "PB_5f8d1c2144f099bd0476",
+  "query_type": "BTT",
+  "query": "What is the maximum speed limit for vehicles traveling in a silver zone when a 40km/h speed limit sign is attached below?",
+  "reference_answer": "40 km/h",
+  "corpus_query_index": 37,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nAvoid setting the air-conditioning temperature too low and increase the fan speed instead.\n\n[Document 2]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 3]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 4]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 5]\nThe maximum permissible width is 2.3 meters.",
+  "retrieved_doc_ids": [
+    "PB_8a851d564b8b1c6da3af",
+    "PB_55387403dc004065b043",
+    "PB_cc60baad4cbf9560588b",
+    "PB_dfb47de04d492b3b972f",
+    "PB_6acce45e52dda6f7e067"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043",
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "1c050929026d4ab513314da551b1e90a93207ebeccbd8c449a0ef68373126470",
+  "answer": "The maximum speed limit for vehicles traveling in a silver zone, when a 40 km/h speed limit sign is attached, is 40 km/h. [Document 1]",
+  "input_tokens": 747,
+  "output_tokens": 38,
+  "seconds": 5.760382699998445,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

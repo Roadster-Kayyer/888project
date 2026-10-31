@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_90",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference information on CPF contributions for Board Members/Directors and self-employed individuals."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the distinction between CPF and MediSave contributions based on employment status, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 1202,
+      "output_tokens": 70,
+      "seconds": 5.68151099998795,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the reference information on CPF contributions for Board Members/Directors and self-employed individuals.\"}\n**Note:** The scores are based on the provided candidate answer and the evidence from the documents. The candidate answer is correct (2), directly addresses the question (2), and is fully supported by the evidence (2). The reason succinctly explains the scores.",
+      "input_tokens": 1242,
+      "output_tokens": 108,
+      "seconds": 8.382452600009856,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

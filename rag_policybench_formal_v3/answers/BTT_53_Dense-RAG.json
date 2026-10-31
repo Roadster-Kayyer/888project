@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_53",
+  "doc_id": "PB_619765030c2c1f6e27b8",
+  "query_type": "BTT",
+  "query": "What safety measures are included under road code conduct to ensure a safe following distance while driving?",
+  "reference_answer": "The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "corpus_query_index": 49,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 2]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 3]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_619765030c2c1f6e27b8",
+    "PB_716429660f2efd24efb8",
+    "PB_2858faae83bda4331fb6",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4ab470a7594c387e18c5d046d578204a98502c5b5aa7a22564ec26babfbca842",
+  "answer": "According to the road code, drivers should use the two-second rule and consider their stopping distance to maintain a safe following distance. This ensures they have enough time to react and stop if necessary. [Document 1]",
+  "input_tokens": 251,
+  "output_tokens": 44,
+  "seconds": 5.539687500000582,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

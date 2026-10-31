@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008909",
+  "doc_id": "720",
+  "query_type": "search",
+  "query": "What penalties can be imposed for duplicating a property's registration?",
+  "corpus_query_index": 8908,
+  "system": "Dense-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 2]\nFraudulent Land Registration:\nPunishment for fraudulent land registration can include imprisonment up to 7 years and a fine under the IPC Section 467 and the Registration Act, 1908.\n\n[Document 3]\nManipulating Land Registration Documents:\nManipulating land registration documents is a serious offense under the Registration Act, 1908, and the Indian Penal Code. Penalties can include imprisonment up to 7 years and/or a fine for forgery and cheating.\n\n[Document 4]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.\n\n[Document 5]\nUnauthorized Layouts:\nDeveloping unauthorized layouts is an offense under the Tamil Nadu Town and Country Planning Act. The penalty can include a fine of up to ₹50,000 and/or imprisonment for up to 1 year, as well as demolition of the unauthorized structure.",
+  "retrieved_doc_ids": [
+    "720",
+    "612",
+    "711",
+    "714",
+    "741"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6b8b0a1d80daec40d784612d3d1d5e0fa2c8a604e1eed42c1f2d5c59e52f0c08",
+  "answer": "Penalties for duplicating a property's registration can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC and the Registration Act, 1908 [Document 1, Document 2, Document 3]. [Document 4] and [Document 5] provide additional details.",
+  "input_tokens": 386,
+  "output_tokens": 70,
+  "seconds": 8.925243599998794,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

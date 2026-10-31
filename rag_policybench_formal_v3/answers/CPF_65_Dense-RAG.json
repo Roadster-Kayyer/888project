@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_65",
+  "doc_id": "PB_377d7608d12421ff652e",
+  "query_type": "CPF_111",
+  "query": "I was ineligible for Matched Retirement Savings Scheme for the past few years after turning 71 years old. With the lifting of the age cap of 70 from 2025, will my eligibility be revised for the past few years?",
+  "reference_answer": "No, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+  "corpus_query_index": 129,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nNo, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.\n\n[Document 2]\nThe Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.\n\n[Document 3]\nTo receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.\n\n[Document 4]\nNo, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.\n\n[Document 5]\nEligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.",
+  "retrieved_doc_ids": [
+    "PB_377d7608d12421ff652e",
+    "PB_283925c4e94ab32680ac",
+    "PB_0e779c5155a62f56c06e",
+    "PB_d3d5f861b3deec1e8c73",
+    "PB_5970b9dd48a067a0363d"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "74d16dc8fd74a738702b307b3d595ea650e6dcf912797fb42a09d70ef3bae02a",
+  "answer": "Yes, your eligibility will be revised. Starting from 2025, you can now make cash top-ups and receive the MRSS matching grant as those aged 55 to 70 did. [Document 1]",
+  "input_tokens": 731,
+  "output_tokens": 48,
+  "seconds": 6.303607599998941,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001713",
+  "doc_id": "1306",
+  "query_type": "casual",
+  "query": "How can I get a TDS cut-off in Tamil Nadu?",
+  "corpus_query_index": 1712,
+  "system": "BM25-RAG",
+  "reference_answer": "Lower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "context": "[Document 1]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\nTDS Filing Procedure:\nTo file TDS in Tamil Nadu, follow these steps:\n1. Register on the Income Tax Department's e-filing portal.\n2. Obtain a TAN (Tax Deduction and Collection Account Number).\n3. Prepare and submit Form 24Q (for salary) or Form 26Q (for non-salary).\n4. Pay TDS online through authorized banks.\n5. File TDS returns quarterly.\n\n[Document 4]\nPenalty for First-Time Offenders in Petty Cases:\nIn Tamil Nadu, first-time offenders in petty cases may be let off with a warning or a fine, as per the Tamil Nadu Police guidelines. The specific penalty depends on the nature of the offense.\n\n[Document 5]\nLower TDS Certificate Application:\nTo apply for a lower TDS certificate in Tamil Nadu, submit Form 13 to the Income Tax Department. You can download the form from the official income tax website or visit the nearest Income Tax Office. Attach required documents, such as PAN card and income proof.",
+  "retrieved_doc_ids": [
+    "799",
+    "255",
+    "1297",
+    "508",
+    "1306"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6c80b7a1ee3037cd18ae741bf43d32ff4a0b8ec4c99757a534ec2fdc1d928ffb",
+  "answer": "To get a TDS cut-off in Tamil Nadu, register on the Income Tax Department's e-filing portal, prepare and submit Form 24Q or 26Q, pay TDS online, and file returns quarterly [Document 3]. For a TDS cut-off, apply for a lower TDS certificate by submitting Form 13 and attaching necessary documents [Document 5]. However, getting a TDS cut-off specifically isn't detailed; it likely involves negotiation based on the case [Document 4].",
+  "input_tokens": 472,
+  "output_tokens": 107,
+  "seconds": 13.436249000000316,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

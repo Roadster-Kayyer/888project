@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008551",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the legal consequences of domestic violence and is supported by evidence from the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states legal consequences and references the Protection of Women from Domestic Violence Act, 2005, as evidenced in Documents 1 and 3.\",\n}",
+      "input_tokens": 782,
+      "output_tokens": 192,
+      "seconds": 14.723456300001999,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the legal consequences of domestic violence and is supported by evidence from the documents.\"}",
+      "input_tokens": 822,
+      "output_tokens": 41,
+      "seconds": 3.332679699997243,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

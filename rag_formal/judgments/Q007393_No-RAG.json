@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007393",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant, but lacks specific details about the reporting process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant, but lacks specific details about the reporting process.\",\n  \"evidence\": \"The reference provides specific contact numbers and actions to take, which the candidate answer does not fully incorporate.\"\n}",
+      "input_tokens": 425,
+      "output_tokens": 87,
+      "seconds": 6.787544999999227,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

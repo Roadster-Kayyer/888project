@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005317",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses all steps and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the steps from the reference documents to contest a false police report in Tamil Nadu, with evidence from Document 1.\",\n}",
+      "input_tokens": 941,
+      "output_tokens": 73,
+      "seconds": 5.958981699997821,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses all steps and is supported by evidence from Document 1.\"}",
+      "input_tokens": 981,
+      "output_tokens": 41,
+      "seconds": 3.4035446000016236,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

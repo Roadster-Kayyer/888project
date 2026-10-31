@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007117",
+  "doc_id": "399",
+  "query_type": "formal",
+  "query": "What methods can be used to report instances of bribery demands made by hospital staff within a governmental institution?",
+  "corpus_query_index": 7116,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.",
+  "context": "[Document 1]\nReporting Bribery Demands:\nTo report bribery demands by a government hospital staff, contact the Vigilance and Anti-Corruption Department (DVAC) or the local police station. You can also call the toll-free helpline 1064 or file a complaint online on the TN Government website.\n\n[Document 2]\nBribery by Police Officer:\nIf a police officer demands a bribe, stay calm and:\n* Refuse to pay\n* Note the officer's name and badge number\n* Report the incident to a senior officer or the Vigilance Department\n* You can also contact the Tamil Nadu Police Helpline (87544 87544)\n\n[Document 3]\nThreatening Educational Institution Staff:\nPenalty can include imprisonment up to 3 years and/or a fine up to ₹50,000 under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws.\n\n[Document 4]\nPolice Report for Lost Documents:\nTo get a police report, file a complaint at the police station and provide required details. The police will issue a report, known as a \"Lost Document Report\" or \"Non-Cognizable Report\" (NCR), which can be used to obtain duplicate documents.\n\n[Document 5]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.",
+  "retrieved_doc_ids": [
+    "399",
+    "27",
+    "564",
+    "840",
+    "1193"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "13a26c12ac5798fc98139e2369fbf4d864645b98e9066152be4b1789109029ea",
+  "answer": "To report bribery demands by hospital staff, contact the DVAC or local police station. Alternatively, use the TN Government helpline 1064 or file an online complaint. For police officers, refuse to pay, note details, and report the incident. [Document 1]",
+  "input_tokens": 447,
+  "output_tokens": 58,
+  "seconds": 7.648643699998502,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

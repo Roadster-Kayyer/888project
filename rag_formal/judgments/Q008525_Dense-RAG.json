@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008525",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies potential legal consequences of hitting another student, supported by Document 2 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies potential legal consequences of hitting another student, supported by Document 2 and Document 3.\",\n  \"evidence\": \"Document 2 and Document 3\"\n}",
+      "input_tokens": 713,
+      "output_tokens": 192,
+      "seconds": 14.505142100002558,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_19",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question, correctly states the process for topping up to a Special Account (SA) and mentions the Matched Retirement Savings Scheme, and accurately reflects the information about the Enhanced Retirement Sum (ERS) and its future increase."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, accurately reflecting the information from Documents 1 and 3 about topping up to the Special Account and the Enhanced Retirement Sum.\",\n}",
+      "input_tokens": 902,
+      "output_tokens": 192,
+      "seconds": 14.991277499997523,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question, correctly states the process for topping up to a Special Account (SA) and mentions the Matched Retirement Savings Scheme, and accurately reflects the information about the Enhanced Retirement Sum (ERS) and its future increase.\"}",
+      "input_tokens": 942,
+      "output_tokens": 79,
+      "seconds": 6.202679900001385,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

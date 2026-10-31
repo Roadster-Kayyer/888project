@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008070",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly refers to documents related to name change and meeting a prisoner, which are relevant to the question about conditions for writing your name on a piece of paper."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly refers to documents related to name change and meeting a prisoner, which are relevant to the question about conditions for writing your name on a piece of paper.\",\n  \"evidence\": \"Document 1 and Document 2 directly support the candidate's answer by outlining the conditions and procedures for name change and meeting a prisoner.\"\n}",
+      "input_tokens": 852,
+      "output_tokens": 112,
+      "seconds": 8.768335799999477,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

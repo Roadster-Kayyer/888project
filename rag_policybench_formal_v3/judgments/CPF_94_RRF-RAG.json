@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_94",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process and includes relevant documents, accurately reflecting the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and includes relevant documents, accurately reflecting the evidence provided.\"\n}",
+      "input_tokens": 1034,
+      "output_tokens": 192,
+      "seconds": 14.929300499992678,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

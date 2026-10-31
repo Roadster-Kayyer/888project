@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004303",
+  "doc_id": "1773",
+  "query_type": "casual",
+  "query": "How do they deal with lost foreign tourists in Tamil Nadu?",
+  "corpus_query_index": 4302,
+  "system": "BM25-RAG",
+  "reference_answer": "Handling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.",
+  "context": "[Document 1]\nHandling Missing Foreign Tourists\nIn cases of missing foreign tourists, the Tamil Nadu Police launches a search operation and coordinates with the tourist's embassy and local authorities. A missing person report is filed, and investigations are conducted to ensure the tourist's safe return.\n\n[Document 2]\nTamil Nadu Police Coordination with Foreign Embassies\nThe Tamil Nadu Police coordinates with foreign embassies through the Foreigners Registration Office (FRO) and the Special Branch. In emergencies, they work together to provide assistance and support to foreign nationals.\n\n[Document 3]\nAssistance for Foreign Citizens:\n\nThe Tamil Nadu Police assists foreign citizens through:\n\n* Foreigners' Registration Offices (FRO) in major cities\n* Tourist police units at airports and tourist areas\n* Dedicated helplines for foreign nationals\n* Assistance with reporting crimes, lost passports, and other emergencies\n\nFor more information, foreign citizens can contact the local police station or the Tamil Nadu Police website.\n\n[Document 4]\nTourist Police Jurisdiction:\nThe Tourist Police in Tamil Nadu have jurisdiction in areas with high tourist activity, such as beaches, monuments, and major cities. They assist tourists, provide security, and help with language and cultural issues.\n\n[Document 5]\nTamil Nadu Police Lost and Found Portal\nYou can access the Tamil Nadu Police lost and found portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in) and click on the \"Lost and Found\" section.",
+  "retrieved_doc_ids": [
+    "1773",
+    "1771",
+    "1801",
+    "1933",
+    "340"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3a97d89e212af3ddcc65e3253b9e800ebede176d257e4118e4caf5d8f8aeb41d",
+  "answer": "In Tamil Nadu, if a foreign tourist goes missing, the Tamil Nadu Police launch a search operation and coordinate with the tourist's embassy and local authorities. They file a missing person report and conduct investigations to ensure the tourist's safe return. The Police also assist foreign citizens through various means like FROs, helplines, and tourist police units. [Document 1] [Document 2]",
+  "input_tokens": 425,
+  "output_tokens": 81,
+  "seconds": 10.7576126999993,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

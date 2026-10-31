@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001074",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the steps for verifying a legal document's validity and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps for verifying a legal document's validity and is supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 762,
+      "output_tokens": 72,
+      "seconds": 5.63092719999986,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the steps for verifying a legal document's validity and is supported by evidence from Documents 1 and 2.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and complete as per the provided evidence. The reason given is a summary of the assessment, indicating that the answer is both correct and relevant, with evidence fully supporting the factual claims made.",
+      "input_tokens": 802,
+      "output_tokens": 113,
+      "seconds": 8.951474900000903,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

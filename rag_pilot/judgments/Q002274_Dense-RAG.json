@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002274",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the strategies used by the Tamil Nadu Police for managing wildlife-human disputes, as evidenced by the documents, and is directly relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the strategies used by the Tamil Nadu Police for managing wildlife-human disputes, as evidenced by the documents, and is directly relevant to the question.\"\n}",
+      "input_tokens": 883,
+      "output_tokens": 192,
+      "seconds": 14.945866499998374,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2673.9970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

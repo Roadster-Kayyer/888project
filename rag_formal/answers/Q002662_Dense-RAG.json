@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002662",
+  "doc_id": "1478",
+  "query_type": "formal",
+  "query": "What pathways exist for career progression following the role of constable?",
+  "corpus_query_index": 2661,
+  "system": "Dense-RAG",
+  "reference_answer": "Career Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.",
+  "context": "[Document 1]\nCareer Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.\n\n[Document 2]\nPolice Training College:\nThe Police Training College prepares officers for specialized duties through training programs in areas like counter-terrorism, crowd control, and forensic science, equipping them with necessary skills and knowledge.\n\n[Document 3]\n2. Police Central Training College Continuing Education:\nThe Police Central Training College provides continuing education through training programs, workshops, and seminars to enhance the skills and knowledge of police personnel.\n\n[Document 4]\nRecruitment Process for Police Drivers:\nThe recruitment process for police drivers involves a written exam, driving test, and physical fitness test. Candidates must have a valid driving license and meet the prescribed age and educational qualifications. The selection process is based on merit and reservation rules.\n\n[Document 5]\n3. Police Intelligence School:\nThe Police Intelligence School trains specialized officers through classroom sessions, field training, and simulations. The school focuses on developing skills in intelligence gathering, surveillance, and counter-terrorism techniques to enhance officer capabilities.",
+  "retrieved_doc_ids": [
+    "1478",
+    "1571",
+    "1601",
+    "1502",
+    "1593"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2c17cb17f9e5c0bbd8d7d286c7222750a9f32a2652ae0305aef565ede82f34ab",
+  "answer": "Following the role of constable, career progression includes becoming a Head Constable, Sub-Inspector, or Inspector through promotions, exams, and training. Additionally, officers can pursue specialized training at Police Training College or Police Central Training College for roles like counter-terrorism, forensic science, etc. [Document 1]",
+  "input_tokens": 361,
+  "output_tokens": 63,
+  "seconds": 8.206925899999987,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

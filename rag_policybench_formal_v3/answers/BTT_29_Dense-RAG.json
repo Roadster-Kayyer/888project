@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_29",
+  "doc_id": "PB_a6f8d6ad745a1e028eb1",
+  "query_type": "BTT",
+  "query": "What does a green-down arrow on lane use signs indicate to motorists in the tunnels?",
+  "reference_answer": "It indicates that a motorist can drive on ahead.",
+  "corpus_query_index": 22,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 2]\nIt indicates that a motorist can drive on ahead.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 5]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+  "retrieved_doc_ids": [
+    "PB_786ca90f3ae19fb193e3",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_4479f84c1b73422f7e24",
+    "PB_716429660f2efd24efb8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7bc552271ecd32c7fdafb1ca8c991de744e578d2d465a155f4a18fd4244f2095",
+  "answer": "A green-down arrow on lane use signs in tunnels indicates that a motorist can drive on ahead [Document 2].",
+  "input_tokens": 277,
+  "output_tokens": 25,
+  "seconds": 10.226199499993527,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

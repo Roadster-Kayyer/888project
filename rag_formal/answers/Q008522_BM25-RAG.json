@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008522",
+  "doc_id": "651",
+  "query_type": "formal",
+  "query": "What penalties can be imposed for assault within educational settings?",
+  "corpus_query_index": 8521,
+  "system": "BM25-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 2]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 3]\n2. What is the maximum time police can detain someone without producing before a magistrate?\n24 hours. Police must produce the person before a magistrate within 24 hours of arrest. (As per CrPC, 1973)\n\n[Document 4]\nPunishment for Simple Assault:\nSimple assault without weapons can be punished with imprisonment up to 3 months or a fine up to ₹500, or both, under Section 352 of the Indian Penal Code (IPC).\n\n[Document 5]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.",
+  "retrieved_doc_ids": [
+    "688",
+    "651",
+    "848",
+    "644",
+    "645"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "0c04d04b41861a493b2edaa0c06c801e675fa37fbf20a7aec62b70fee76f14c0",
+  "answer": "For assault in educational settings, penalties can include up to 3 years imprisonment and/or a fine, according to Tamil Nadu laws. Assault with sexual intent carries a penalty of 1-5 years imprisonment under the IPC. [Document 1] & [Document 2]",
+  "input_tokens": 378,
+  "output_tokens": 56,
+  "seconds": 7.066955099999177,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_23",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly summarizes the reference documents, is relevant to the question, and faithfully reflects the provided evidence without contradiction."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly summarizes the reference documents, is relevant to the question, and faithfully reflects the provided evidence without contradiction.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe candidate answer correctly identifies that people should head for the nearest tunnel entrance or exit during emergencies, which is directly supported by Document 1. It also correctly states that emergency actions are permissible only in cases of breakdown, accidents, or emergencies, as per Document 2. Although the answer does not provide specific instructions for CPF investors or drivers, it does not contradict the evidence provided, and it does",
+      "input_tokens": 828,
+      "output_tokens": 192,
+      "seconds": 15.061520500006736,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

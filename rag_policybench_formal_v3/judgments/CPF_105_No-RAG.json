@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_105",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies PRs' non-citizen status as the reason for ineligibility, directly addressing the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies PRs' non-citizen status as the reason for ineligibility, directly addressing the question.\",\n  \"evidence\": \"The evidence provided in the candidate answer is implicit, as it is a logical deduction based on the reference information that WIS is for Singaporean lower-wage workers, not PRs.\"\n}",
+      "input_tokens": 423,
+      "output_tokens": 116,
+      "seconds": 9.205569300000207,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

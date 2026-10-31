@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_28",
+  "doc_id": "PB_5ddf7c95efdb8392ffd9",
+  "query_type": "ICA_134",
+  "query": "What should I do if I did not receive the email on retrieving my digital Student's Pass (STP)?",
+  "reference_answer": "For STP holders who are required to complete formalities at ICA, you should receive the email within 30 minutes after the completion of formalities. If you did not receive the email after 30 minutes:Check the spam or junk folder of your email accountEnsure that your email inbox folder is not fullEnsure that you have an active internet connection on your deviceFor STP holders who had their biometrics enrolled at the ir school, you will receive the email no more than seven (7) working days from the date of your enrolment.If you are unable to locate the email after performing the above checks, you may contact us via the enquiry form for assistance.",
+  "corpus_query_index": 223,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nFor STP holders who are required to complete formalities at ICA, you should receive the email within 30 minutes after the completion of formalities. If you did not receive the email after 30 minutes:Check the spam or junk folder of your email accountEnsure that your email inbox folder is not fullEnsure that you have an active internet connection on your deviceFor STP holders who had their biometrics enrolled at the ir school, you will receive the email no more than seven (7) working days from the date of your enrolment.If you are unable to locate the email after performing the above checks, you may contact us via the enquiry form for assistance.\n\n[Document 2]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 3]\nWe regret to inform you that we are unable to share specific information on the assessment of applications. All Student's Pass application are carefully considered and reviewed by ICA.You may refer to Becoming a Student's Pass Holder for more information on Student's Pass requirements.\n\n[Document 4]\nPayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.\n\n[Document 5]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.",
+  "retrieved_doc_ids": [
+    "PB_5ddf7c95efdb8392ffd9",
+    "PB_cc60baad4cbf9560588b",
+    "PB_c1aaea57c1b02e2e8590",
+    "PB_4dcd99c8330400f4101b",
+    "PB_a36ef45981ef41b0b21c"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "09f7b24cab318d38868fac30f8a9885b451f2175a37ee033e5acf604b3b93bd8",
+  "answer": "If you didn't receive the email about your STP retrieval, check your spam/junk folder, ensure your inbox isn't full, and make sure you have an active internet connection. For STP holders, if not received within 30 minutes, contact ICA via their enquiry form. [Document 1]",
+  "input_tokens": 784,
+  "output_tokens": 65,
+  "seconds": 8.632760699998471,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

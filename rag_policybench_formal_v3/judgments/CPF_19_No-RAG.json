@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_19",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific reference to the Matched Retirement Savings Scheme."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific reference to the Matched Retirement Savings Scheme.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is relevant as it pertains to the topic of topping up a retirement account for someone turning 55. However, it does not directly reference the key aspect of the Matched Retirement Savings Scheme, which is crucial according to the provided reference. The correctness score is 1 because the candidate provides a partial answer that is related but misses the main point of the reference. Faithfulness is marked as null because there is no substantive factual claim directly supported by the supplied evidence, which in this case, is absent",
+      "input_tokens": 416,
+      "output_tokens": 192,
+      "seconds": 14.732174799995846,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

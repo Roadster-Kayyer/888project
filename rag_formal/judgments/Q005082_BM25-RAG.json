@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005082",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the jurisdiction and methods of the Economic Offences Wing as stated in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the jurisdiction and methods of the Economic Offences Wing as stated in the documents.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}\n\n\nThe provided JSON object correctly assesses the candidate's answer as being directly relevant to the question, fully covering the main reference facts, and supported by the evidence provided in the documents. The reason succinctly explains the scores, and the evidence keys are used to indicate the documents that substantiate the answer.",
+      "input_tokens": 777,
+      "output_tokens": 147,
+      "seconds": 11.610493399999541,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

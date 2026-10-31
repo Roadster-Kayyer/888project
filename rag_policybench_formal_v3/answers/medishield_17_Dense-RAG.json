@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_17",
+  "doc_id": "PB_f82c1895a8af22f06c29",
+  "query_type": "medishield",
+  "query": "What is the maximum claim limit per policy year under Medishield in Singapore?",
+  "reference_answer": "$200,000",
+  "corpus_query_index": 311,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 3]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 4]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 5]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_fd10bc60905030393bfb",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_4bd71ffc7b87577275da"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "eb1c2b6aaa3bfe6df047410f819be96d60acb23741c1940d5ff0937be3d0f13b",
+  "answer": "Based on Document 1, the deductible under MediShield Life ranges from $2,000 to $4,500, so the maximum claim limit per policy year under MediShield is $2,000. [Document 1]",
+  "input_tokens": 427,
+  "output_tokens": 53,
+  "seconds": 6.743042300004163,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

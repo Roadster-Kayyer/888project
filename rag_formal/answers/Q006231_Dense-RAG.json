@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006231",
+  "doc_id": "239",
+  "query_type": "original",
+  "query": "What is the role of the Social Justice and Human Rights Wing?",
+  "corpus_query_index": 6230,
+  "system": "Dense-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nRole of State Human Rights Commission:\nThe State Human Rights Commission (SHRC) in Tamil Nadu:\n1. Investigates human rights violations.\n2. Looks into complaints of police excesses.\n3. Recommends action against erring officials.\n\n[Document 3]\nServices by Policemen Family Welfare Wing:\nThe wing provides welfare services to police personnel and their families, including education, health, and financial assistance.\n\n[Document 4]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 5]\nProtection of Human Rights Act:\nThe Protection of Human Rights Act, 1993, applies to police actions by ensuring they respect human rights. It prohibits torture, cruel, inhuman, or degrading treatment, and provides for punishment of police officers who violate these rights. The Act also establishes the National Human Rights Commission to investigate complaints.",
+  "retrieved_doc_ids": [
+    "239",
+    "809",
+    "1944",
+    "2029",
+    "1725"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7590dfe8a7a780c50ea909c5d005399f945954026a5af3a89b8a5783feddc990",
+  "answer": "The Social Justice and Human Rights Wing promotes and protects human rights, investigates violations, and implements social justice initiatives. It works alongside the State Human Rights Commission to ensure police uphold human rights principles. [Document 1]",
+  "input_tokens": 378,
+  "output_tokens": 44,
+  "seconds": 5.711730500001067,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

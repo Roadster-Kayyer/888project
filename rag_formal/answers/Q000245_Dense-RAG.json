@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000245",
+  "doc_id": "1040",
+  "query_type": "hard",
+  "query": "What's the official method for submitting a criminal complaint?",
+  "corpus_query_index": 244,
+  "system": "Dense-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Complaint with ICC:\nTo file a complaint, a woman should:\n1. Contact the ICC in her organization.\n2. Provide a written complaint with details of the incident.\n3. Submit supporting evidence, if any.\nThe ICC will then investigate and take necessary action.\n\n[Document 2]\nFiling a Complaint about Illegal Construction:\nTo file a complaint, you can:\n1. Visit the local police station or municipal office.\n2. Provide details of the construction, including location and nature of the violation.\n3. Submit a written complaint with supporting documents, if any.\n\n[Document 3]\nFiling a Private Complaint:\nTo file a private complaint, approach the court having jurisdiction over the matter. Submit a written complaint, stating the facts and relief sought. The court will then examine the complaint and may issue summons to the accused.\n\n[Document 4]\nFiling a Police Complaint Online:\nYes, you can file a police complaint online through the Tamil Nadu Police Department's website or mobile app. You can submit a complaint and receive a complaint number for reference.\n\n[Document 5]\nFiling a Complaint about Online Harassment:\nTo file a complaint, visit the nearest police station or cyber crime cell. Provide details of the harassment, including screenshots and URLs. You can also file a complaint online through the Tamil Nadu Police website or the National Cyber Crime Reporting Portal.",
+  "retrieved_doc_ids": [
+    "1885",
+    "881",
+    "1118",
+    "256",
+    "877"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "00ca6035d592fb8a1e4c32580b40502583b3ecbb7773b37d8cec1e999a4dce0e",
+  "answer": "The official method varies by type of complaint. For example, for illegal construction, go to the local police station and follow steps 1-3 as per [Document 2]. For a woman filing a complaint, contact the ICC in her organization and follow steps 1-3 as per [Document 1]. For private complaints, approach the relevant court as per [Document 3]. For online harassment, visit a police station or use the National Cyber Crime Reporting Portal as per [Document 5]. [Document 4] mentions filing online through Tamil Nadu Police Department.",
+  "input_tokens": 400,
+  "output_tokens": 116,
+  "seconds": 14.965805899999395,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

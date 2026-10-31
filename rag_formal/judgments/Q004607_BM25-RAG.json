@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004607",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by Document 3.\",\n  \"evidence\": \"Document 3 outlines the process of contesting a traffic challan in Tamil Nadu, which includes checking challan details, submitting a written appeal within 15 days, and paying the fine online.\"\n}",
+      "input_tokens": 864,
+      "output_tokens": 192,
+      "seconds": 15.123133299999608,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

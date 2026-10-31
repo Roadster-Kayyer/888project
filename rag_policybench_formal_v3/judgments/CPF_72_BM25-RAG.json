@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_72",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "The candidate answer correctly states that CPF contributions are calculated based on the payment's due date and are due when payable, which is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"The candidate answer correctly states that CPF contributions are calculated based on the payment's due date and are due when payable, which is supported by Document 1.\",\n  \"evidence\": \"Document 1: 'Platform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.'\"\n}",
+      "input_tokens": 1460,
+      "output_tokens": 114,
+      "seconds": 9.025406899992959,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

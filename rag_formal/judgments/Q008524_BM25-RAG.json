@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008524",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states imprisonment and fine under specific acts, relevant to school assault, and supported by Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states imprisonment and fine under specific acts, relevant to school assault, and supported by Document 4.\",\n  \"evidence\": \"Document 4: Assaulting persons with disabilities can lead to imprisonment of up to 5 years and a fine, as per the Rights of Persons with Disabilities Act, 2016.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given. The evidence provided is directly from the retrieved documents, which supports the factual claims made in the candidate answer. The answer is relevant to the question and correct according to the legal repercussions mentioned in the reference.",
+      "input_tokens": 726,
+      "output_tokens": 180,
+      "seconds": 13.78688770000008,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

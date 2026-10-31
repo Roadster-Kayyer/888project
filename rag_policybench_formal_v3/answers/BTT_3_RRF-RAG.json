@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_3",
+  "doc_id": "PB_44fecebdc3e9128be8a9",
+  "query_type": "BTT",
+  "query": "What driving control can be used to switch on a device to clear the windshield when it is raining?",
+  "reference_answer": "The Wiper Switch.",
+  "corpus_query_index": 23,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.\n\n[Document 2]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 3]\nThe Wiper Switch.\n\n[Document 4]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 5]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.",
+  "retrieved_doc_ids": [
+    "PB_111b71b487c94f59fe3c",
+    "PB_1bd233e28127cfee0c86",
+    "PB_44fecebdc3e9128be8a9",
+    "PB_8d18fc446288ee1e6348",
+    "PB_5b5856d1886897cce5a3"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6f92ceac71a6ba4de022b06c22b065b0e70528177de8ecb913904df6f793fa55",
+  "answer": "According to [Document 3], the driving control that can be used to switch on a device to clear the windshield when it's raining is the Wiper Switch.",
+  "input_tokens": 268,
+  "output_tokens": 34,
+  "seconds": 13.766922399998293,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

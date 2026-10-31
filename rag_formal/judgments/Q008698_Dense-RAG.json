@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008698",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from all documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the punishments for various forms of misconduct during games as detailed in the documents, with correct references to specific laws and penalties.\",\n}",
+      "input_tokens": 850,
+      "output_tokens": 192,
+      "seconds": 14.782346899999538,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from all documents, fully supported by evidence.\"}",
+      "input_tokens": 890,
+      "output_tokens": 40,
+      "seconds": 3.3096475999991526,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005089",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the types of crimes investigated but omits phishing and online harassment, which are mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the types of crimes investigated but omits phishing and online harassment, which are mentioned in the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe correctness score is 1 because the candidate answer is partly correct but omits phishing and online harassment. The relevance score is 1 because the candidate answer directly addresses the question but does not fully cover all the types of crimes mentioned in the reference. The faithfulness score is 1 because the candidate's answer is mostly supported by the evidence provided in the reference, but it lacks complete coverage of all the factual claims. The reason succinctly explains the scores.",
+      "input_tokens": 394,
+      "output_tokens": 187,
+      "seconds": 14.380887999999686,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

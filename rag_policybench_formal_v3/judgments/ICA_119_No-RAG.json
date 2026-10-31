@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_119",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is correct but lacks specific evidence from the reference.\",\n  \"evidence\": \"The reference states that failure to submit SGAC before arrival results in a delay, but does not mention fines.\"\n}",
+      "input_tokens": 395,
+      "output_tokens": 85,
+      "seconds": 6.625981599994702,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000008",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 703,
+      "output_tokens": 63,
+      "seconds": 4.961210199999186,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2611.8232421875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 743,
+      "output_tokens": 50,
+      "seconds": 4.0313949000010325,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2611.8232421875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

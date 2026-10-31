@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007395",
+  "doc_id": "448",
+  "query_type": "hard",
+  "query": "What's the procedure for notifying law enforcement if a person is being coerced into marriage or has already been married off too young?",
+  "corpus_query_index": 7394,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.",
+  "context": "[Document 1]\nReporting Child Marriage:\nTo report child marriage, contact the local police station or call 100 (Tamil Nadu Police Helpline). Provide details about the marriage, including date, time, location, and parties involved. You can also contact the Childline at 1098 for assistance.\n\n[Document 2]\nChild Marriage in Tribal Communities:\nThe Tamil Nadu Police addresses child marriage in tribal communities through awareness programs and collaboration with tribal welfare departments. They conduct regular checks and raids to prevent child marriages, and work with NGOs to educate communities about the ill effects of child marriage.\n\n[Document 3]\nReporting Forced/Child Marriage:\nTo report a forced or child marriage, call the Tamil Nadu Police helpline: 1091 or 181. You can also contact the Childline (1098) or visit the nearest police station. Provide details about the incident, and the police will take necessary action.\n\n[Document 4]\nChildren in Conflict with Law:\nPolice handle cases of children in conflict with law (under 18) as per the Juvenile Justice Act. They arrest, produce the child before the Juvenile Justice Board, and provide support during the inquiry process.\n\n[Document 5]\nArticle 21 and Police Procedures:\nArticle 21 protects the right to life and personal liberty. It affects police procedures by:\n* Requiring arrest warrants or reasonable grounds for arrest\n* Ensuring prompt production of arrested persons before a magistrate\n* Prohibiting torture and cruel treatment",
+  "retrieved_doc_ids": [
+    "901",
+    "1399",
+    "448",
+    "115",
+    "1715"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8a21b785c5085ee701961f2f9f13254cd05338afe3db07dd09a873d02efaf07c",
+  "answer": "To notify law enforcement about coerced marriage or underage marriage, call the Tamil Nadu Police helpline: 1091 or 181. Provide details like date, time, location, and parties involved. The police will take necessary actions. [Document 3]",
+  "input_tokens": 446,
+  "output_tokens": 57,
+  "seconds": 7.440495200000441,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

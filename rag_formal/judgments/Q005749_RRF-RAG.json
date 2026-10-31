@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005749",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which detail the process of background verification through police in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the police verification process for documents in Tamil Nadu, directly addressing the question, and is supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 852,
+      "output_tokens": 192,
+      "seconds": 14.986472100001265,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2, which detail the process of background verification through police in Tamil Nadu.\"}",
+      "input_tokens": 892,
+      "output_tokens": 61,
+      "seconds": 4.8038686999971105,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006444",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and correct but lacks specific reference to Tamil Nadu Police helpline and National Domestic Violence Helpline, which are crucial for the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is relevant and correct but lacks specific reference to Tamil Nadu Police helpline and National Domestic Violence Helpline, which are crucial for the process.\",\n  \"evidence\": \"null\"\n}\n\n\nIn the provided candidate answer, the information given is relevant to the question as it advises contacting local police and following up with legal aid services, which are part of the process for filing a complaint for domestic violence. However, the answer does not directly reference the specific helplines provided in the reference, which are essential for someone seeking to file a complaint. The faithfulness score is 1 because the candidate's answer contains mixed support; it correctly suggests contacting the police",
+      "input_tokens": 404,
+      "output_tokens": 192,
+      "seconds": 14.937722199996642,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

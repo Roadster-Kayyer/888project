@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_15",
+  "doc_id": "PB_6acce45e52dda6f7e067",
+  "query_type": "BTT",
+  "query": "What is the maximum width of a vehicle allowed to enter where the corresponding road sign prohibits vehicles with width in excess of 2.3m?",
+  "reference_answer": "The maximum permissible width is 2.3 meters.",
+  "corpus_query_index": 7,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe maximum permissible width is 2.3 meters.\n\n[Document 2]\nA single group QR code can contain up to 10 profiles.For travellers who selected \"Motorcycle\" as the vehicle type, only a maximum of two profiles are allowed in this group QR code.For travellers who selected \"Lorry\" or “Bus” as the vehicle type, only a maximum of four profiles are allowed in this group QR code.Nevertheless, travellers are free to create and customise multiple groups of QR codes, depending on their travel needs.\n\n[Document 3]\nGive way to vehicles from the side road entering the main road.\n\n[Document 4]\nThe stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.\n\n[Document 5]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+  "retrieved_doc_ids": [
+    "PB_6acce45e52dda6f7e067",
+    "PB_33b32af818c8c4223f8f",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_3530eb1d762ba76f2f2a",
+    "PB_cfbeecc8e8bd16153256"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7a12d69db5d1a40d16dcb896874af6c5f84dacb3d6760fdd8d1789091ee226a7",
+  "answer": "The maximum width of a vehicle allowed to enter where the sign prohibits vehicles wider than 2.3m is 2.3 meters, according to [Document 1].",
+  "input_tokens": 336,
+  "output_tokens": 36,
+  "seconds": 4.6825268999964464,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

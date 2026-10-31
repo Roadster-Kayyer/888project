@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003589",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No information on new gear for police protection in provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"No information on new gear for police protection in provided documents.\"\n}",
+      "input_tokens": 754,
+      "output_tokens": 53,
+      "seconds": 4.362158500000078,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

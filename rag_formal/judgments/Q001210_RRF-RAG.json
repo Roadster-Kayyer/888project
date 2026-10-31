@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001210",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves, supported by evidence from Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly details the procedure for reporting unlicensed mining and includes relevant contact information and methods, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 871,
+      "output_tokens": 71,
+      "seconds": 5.67822249999881,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves, supported by evidence from Document 1 and Document 2.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question, and that the evidence provided (Documents 1 and 2) is considered substantive and directly supports the claims made in the candidate's answer. The reason is a concise explanation of the scores.",
+      "input_tokens": 911,
+      "output_tokens": 130,
+      "seconds": 10.402595899999142,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_55",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct but omits specific details about authorized person requirements at ICA Services Centre and SingPost."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer is correct but omits specific details about authorized person requirements at ICA Services Centre and SingPost.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer correctly states that one cannot authorize another person to collect the passport, which aligns with the reference information. However, it lacks the specific details about the requirements for an authorized person when collecting at ICA Services Centre and the necessity of the consenting parent's presence at SingPost, which are crucial for a complete understanding. The evidence provided does not support the candidate answer as it is absent.",
+      "input_tokens": 502,
+      "output_tokens": 163,
+      "seconds": 12.662563200006844,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

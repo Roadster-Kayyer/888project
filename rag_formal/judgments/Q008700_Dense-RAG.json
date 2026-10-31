@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008700",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies penalties for spectators starting fights, supported by Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies penalties for spectators starting fights, supported by Document 2.\",\n  \"evidence\": \"Document 2: Causing public fighting can lead to imprisonment for up to 1 year and/or a fine, under Section 160 of the IPC.\"\n}",
+      "input_tokens": 713,
+      "output_tokens": 192,
+      "seconds": 14.972425100000692,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

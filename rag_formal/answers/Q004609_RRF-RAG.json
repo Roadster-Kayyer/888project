@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004609",
+  "doc_id": "1828",
+  "query_type": "search",
+  "query": "What's the process to appeal a traffic fine in Tamil Nadu?",
+  "corpus_query_index": 4608,
+  "system": "RRF-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nAppealing a Traffic Challan:\nYes, you can appeal against a traffic challan. You can file an appeal within 60 days of receiving the challan at the concerned court or through the Tamil Nadu Police Department's online portal.\n\n[Document 2]\nContesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)\n\n[Document 3]\nPaying Traffic Fines Online:\nTo pay traffic fines online in Tamil Nadu, visit the Tamil Nadu Police website (tnpolice.gov.in) or the Government of Tamil Nadu's online payment portal. Click on \"E-Challan\" or \"Fine Payment\" and enter your challan number or vehicle details. Follow the prompts to make the payment using a debit/credit card or net banking.\n\n[Document 4]\nE-Payment of Traffic Fines:\nTo make an e-payment of traffic fines in Tamil Nadu:\n1. Visit the Tamil Nadu Police website or the e-Challan portal.\n2. Enter your challan number or vehicle details.\n3. Pay the fine using a debit/credit card or net banking.\n\n[Document 5]\nFiling an RTI Appeal in Court:\nTo file an RTI appeal, follow these steps:\n1. File a first appeal with the Appellate Authority.\n2. If not satisfied, file a second appeal with the Tamil Nadu State Information Commission.\n3. If still not satisfied, approach the Madras High Court.",
+  "retrieved_doc_ids": [
+    "289",
+    "1828",
+    "832",
+    "1005",
+    "1097"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "19206c04413de647c7ead3b685ae5621ea97d2b198991339f0a26b7173341154",
+  "answer": "To appeal a traffic fine in Tamil Nadu, check challan details, visit Tamil Nadu Police website, and submit a written appeal within 15 days. [Document 2] Additionally, appeals can be filed through the Tamil Nadu Police Department's online portal within 60 days of receiving the challan. [Document 1] For paying fines, go to tnpolice.gov.in or use Government of Tamil Nadu's online payment portal. [Document 3] [Document 4]",
+  "input_tokens": 456,
+  "output_tokens": 100,
+  "seconds": 12.964322699999684,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

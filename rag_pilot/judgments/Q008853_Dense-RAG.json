@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008853",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with correct information from the documents, fully supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, citing relevant legal consequences and specific acts, supported by evidence from Document 1 and related documents.\",\n}",
+      "input_tokens": 849,
+      "output_tokens": 71,
+      "seconds": 5.698104400000375,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Answer directly addresses the question with correct information from the documents, fully supported by evidence.\"}",
+      "input_tokens": 889,
+      "output_tokens": 40,
+      "seconds": 3.357552299999952,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

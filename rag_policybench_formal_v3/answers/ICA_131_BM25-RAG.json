@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_131",
+  "doc_id": "PB_d98d322f2936df748ef1",
+  "query_type": "ICA_134",
+  "query": "How soon can a Singapore PR apply for Singapore citizenship after being granted Singapore PR status?",
+  "reference_answer": "Singapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.",
+  "corpus_query_index": 204,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nThe Singapore PR status will not expire. However, a valid Re-Entry Permit (REP) is needed each time a Singapore PR travels abroad. The REP allows you to retain your Singapore PR status while you are outside of Singapore. If you leave Singapore or remain overseas without a valid REP, you will lose your Singapore PR status. You must login to ICA e-Service using your Singpass to renew your REP.\n\n[Document 3]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 4]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 5]\nA Singapore permanent resident (SPR) who wishes to leave Singapore must obtain a Re-Entry Permit (REP) to enable him/her to return to Singapore as a SPR.  A SPR who remains outside Singapore without a valid REP will lose his/her PR status.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_89ea36a5df1396fbeefe",
+    "PB_16464034b8fc8059eece",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_22431a3a1e46e2ace7dd"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6f6ebe0f37868067640af5ee5ccea61feb6f2a409063af84ea445170f1c15963",
+  "answer": "A Singapore PR can apply for Singapore citizenship two years after being granted PR status. [Document 1]",
+  "input_tokens": 380,
+  "output_tokens": 22,
+  "seconds": 2.962380299999495,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

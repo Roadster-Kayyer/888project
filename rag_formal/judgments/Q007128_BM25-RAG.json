@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007128",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the rights during arrest and procedures for police verification, supported by evidence from Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses rights during arrest, procedures for refusal of help, and actions to take when someone is arrested, supported by evidence from Documents 1, 2, and 4.\",\n}",
+      "input_tokens": 821,
+      "output_tokens": 192,
+      "seconds": 15.130407899996499,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the rights during arrest and procedures for police verification, supported by evidence from Documents 1, 2, and 5.\"}",
+      "input_tokens": 861,
+      "output_tokens": 57,
+      "seconds": 4.6508928000039305,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

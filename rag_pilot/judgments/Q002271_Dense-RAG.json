@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002271",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about Tamil Nadu Police's approach to human-animal conflict in forest borders.\",\n}",
+      "input_tokens": 874,
+      "output_tokens": 75,
+      "seconds": 5.962566700000025,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2640.02001953125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents.\"}",
+      "input_tokens": 914,
+      "output_tokens": 41,
+      "seconds": 3.4564907000003586,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2658.115234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

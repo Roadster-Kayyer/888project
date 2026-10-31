@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001074",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which suggests checking the seal, signature, and court records."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which suggests checking the seal, signature, and court records.\",\n  \"evidence\": \"Document 1 provides detailed information if needed.\"\n}\n\n\nNote: The evidence score is 2 because the candidate answer implies that there is a document (Document 1) that contains the necessary information to confirm the validity of a legal document, which aligns with the reference's suggestion to check the court's records for verification. However, the actual content of Document 1 is not provided in the evidence, hence the score is not 3. The reason succinctly explains the scores given.",
+      "input_tokens": 416,
+      "output_tokens": 179,
+      "seconds": 13.848371100000804,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

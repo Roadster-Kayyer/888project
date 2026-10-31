@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_45",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Your agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number.\"\n}",
+      "input_tokens": 1232,
+      "output_tokens": 122,
+      "seconds": 9.777356999999029,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_90",
+  "doc_id": "PB_3c57126fedeef060902b",
+  "query_type": "ICA_134",
+  "query": "When do I need to report a change of address on my IC?",
+  "reference_answer": "IC holders are required to report a change of address within 28 days of moving to the new address.",
+  "corpus_query_index": 292,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIC holders are required to report a change of address within 28 days of moving to the new address.\n\n[Document 2]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 3]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 4]\nYou can submit a report on the misuse of your address.\n\n[Document 5]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "retrieved_doc_ids": [
+    "PB_3c57126fedeef060902b",
+    "PB_aa5916ddd19af121154f",
+    "PB_93b665013679b839e21c",
+    "PB_9a8bc39406bbc966061a",
+    "PB_4bd71ffc7b87577275da"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a4ac9862bccc6179870c41295fe113d415ef09203433221a3ff15bb5a4ca2a8b",
+  "answer": "IC holders need to report a change of address within 28 days of moving to the new address. [Document 1] Additionally, for IC holders, changes should be reported through the ICA e-Service, as detailed in [Document 2].",
+  "input_tokens": 491,
+  "output_tokens": 53,
+  "seconds": 7.027902500005439,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

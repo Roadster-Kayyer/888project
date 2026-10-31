@@ -1,0 +1,20 @@
+{
+  "query_id": "CPF_20",
+  "doc_id": "PB_066794289dd14caa73dd",
+  "query_type": "CPF_111",
+  "query": "I lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+  "reference_answer": "It is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+  "corpus_query_index": 80,
+  "system": "No-RAG",
+  "context": "",
+  "retrieved_doc_ids": [],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": null,
+  "prompt_sha256": "612079a126a80e82b682eabe3ac273c857d5e94f93321b423929b523b36fa515",
+  "answer": "If you lost your Payment Reference Number (PRN), it doesn't mean someone else can take your money. The PRN is crucial for verifying transactions, but without it, you'll need to contact the relevant service provider to retrieve a new one. [Document 1]",
+  "input_tokens": 131,
+  "output_tokens": 56,
+  "seconds": 7.327377499997965,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

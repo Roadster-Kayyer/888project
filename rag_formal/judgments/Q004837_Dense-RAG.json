@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004837",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing relevant steps and referencing the correct legal documents and sections."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing relevant steps and referencing the correct legal documents and sections.\"\n}\n\n\n\nThe candidate answer is faithful to the evidence provided in the documents, as it correctly outlines the process of reporting a bounced check as a criminal act by filing a complaint with the police and potentially with the court under Section 138 of the Negotiable Instruments Act, as well as the punishment for check bouncing in Tamil Nadu. The answer is relevant as it directly addresses the question and includes the necessary steps and legal references. The correctness score is 2 because the candidate answer is correct and covers the main reference facts without omissions.",
+      "input_tokens": 911,
+      "output_tokens": 186,
+      "seconds": 14.3939148999998,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

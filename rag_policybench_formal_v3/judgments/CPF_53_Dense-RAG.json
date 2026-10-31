@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_53",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the cut-off date and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the cut-off date and is supported by Document 1.\"\n}\n\n\nDocument 1 directly addresses the question and provides the necessary cut-off date for self-employed MediSave contributions to be eligible for tax relief. The evidence from Document 1 is consistent with the candidate's answer, and there are no unsupported claims or contradictions. The reason for the score is that the candidate's answer is directly relevant and factually accurate as per the evidence provided.",
+      "input_tokens": 1486,
+      "output_tokens": 146,
+      "seconds": 11.45486629998777,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

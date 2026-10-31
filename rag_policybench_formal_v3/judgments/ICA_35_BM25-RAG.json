@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_35",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the input for 'Vehicle Number' for bus travel without prior transport details, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the input for 'Vehicle Number' for bus travel without prior transport details, supported by Document 1.\",\n  \"evidence\": \"Document 1: 'You may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.'\"\n}",
+      "input_tokens": 1510,
+      "output_tokens": 124,
+      "seconds": 9.863294900002074,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

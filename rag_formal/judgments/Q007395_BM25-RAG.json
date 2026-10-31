@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007395",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the procedure, includes relevant documents, and is supported by provided evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the procedure, includes relevant documents, and is supported by provided evidence.\",\n  \"evidence\": \"[Document 2], [Document 4]\"\n}\n\n\nThe candidate answer correctly outlines the procedure for notifying law enforcement in cases of coerced or child marri0r, which is directly relevant to the question. The answer is faithful to the reference as it suggests contacting local law enforcement and checking the police station or website, which aligns with the instructions given in Documents 2 and 4. The evidence provided (Documents 2 and 4) directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 830,
+      "output_tokens": 174,
+      "seconds": 13.677753399999347,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

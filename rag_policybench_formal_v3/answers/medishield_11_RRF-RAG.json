@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_11",
+  "doc_id": "PB_bc3e58093a0f6c39111b",
+  "query_type": "medishield",
+  "query": "What medical expenses related to accidents are included under the MediShield Life Scheme?",
+  "reference_answer": "Dental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+  "corpus_query_index": 305,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDental work is covered under the MediShield Life Scheme only if required due to accidental injuries.\n\n[Document 2]\nA summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.\n\n[Document 3]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 4]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 5]\nThe information in the MediShield Life Scheme booklet is correct as of 1 April 2025.",
+  "retrieved_doc_ids": [
+    "PB_bc3e58093a0f6c39111b",
+    "PB_602681b75becd57cfb35",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_d600f5b60cee68821fae",
+    "PB_eacf65b60e2998442b5a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "efce5cf6a9967fa2242be777157f91fdb87a2d8e8fb49f9b254dd09fef733106",
+  "answer": "Under the MediShield Life Scheme, dental work related to accidental injuries is covered. However, other medical expenses are not specified in the given information. [Document 1]",
+  "input_tokens": 277,
+  "output_tokens": 35,
+  "seconds": 4.66926369999419,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

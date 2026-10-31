@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_33",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the minimum interest rate requirement and its extension, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the minimum interest rate requirement and its extension, supported by Document 1 and Document 2.\",\n  \"evidence\": \"[Document 1, Document 2]\"\n}",
+      "input_tokens": 974,
+      "output_tokens": 192,
+      "seconds": 14.814714899999672,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

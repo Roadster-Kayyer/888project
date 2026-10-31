@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_6",
+  "doc_id": "PB_80e973f5b5e509f178b3",
+  "query_type": "medishield",
+  "query": "What percentage of the incurred bill is used to compute the MediShield Life claim for daily ward and treatment charges?",
+  "reference_answer": "27%",
+  "corpus_query_index": 327,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 3]\nOlder Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.\n\n[Document 4]\nMediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.\n\n[Document 5]\nDental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_fd10bc60905030393bfb",
+    "PB_1dca0c51ba1dc68b6aca",
+    "PB_bc3e58093a0f6c39111b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "333040c1fe254df9089dfb64f67ba80e114370af5789951b5eeb9897eb25d043",
+  "answer": "Based on Document 1, MediShield Life claims are computed using a deductible ranging from $2,000 to $4,500, depending on the claimant's age and ward class. However, the exact percentage used to compute the claim from the incurred bill is not specified in the provided documents. [Document 1]",
+  "input_tokens": 318,
+  "output_tokens": 70,
+  "seconds": 8.94579650000378,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

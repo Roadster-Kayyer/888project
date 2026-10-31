@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007358",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not address the question about reporting misconduct, lacks evidence, and does not follow the reference's procedure for filing a complaint."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not address the question about reporting misconduct, lacks evidence, and does not follow the reference's procedure for filing a complaint.\",\n  \"score\": 0\n}",
+      "input_tokens": 394,
+      "output_tokens": 82,
+      "seconds": 6.279671299998881,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

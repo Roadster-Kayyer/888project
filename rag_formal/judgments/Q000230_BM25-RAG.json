@@ -1,0 +1,31 @@
+{
+  "query_id": "Q000230",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies necessary documents and relevant court procedures for civil disputes in Tamil Nadu, supported by evidence from Documents 1-5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies necessary documents and includes relevant procedures for filing civil disputes in Tamil Nadu, supported by evidence from Documents 1-5.\",\n}\n\n\nThe candidate answer directly addresses the question about necessary official records to commence a civil dispute, mentioning specific documents like title deeds, property records, and property deeds, which are relevant to the question. The answer also correctly refers to the process of filing a case in Tamil Nadu, as outlined in Documents 1-5, which demonstrates faithfulness to the provided evidence. The reason succinctly explains the scores, indicating that the answer is correct, relevant, and faithful to the evidence.",
+      "input_tokens": 820,
+      "output_tokens": 184,
+      "seconds": 13.816077500003303,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies necessary documents and relevant court procedures for civil disputes in Tamil Nadu, supported by evidence from Documents 1-5.\"}",
+      "input_tokens": 860,
+      "output_tokens": 57,
+      "seconds": 4.602829499999643,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2660.2353515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

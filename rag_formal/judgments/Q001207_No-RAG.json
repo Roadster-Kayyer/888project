@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001207",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer includes relevant methods but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate answer includes relevant methods but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn this evaluation, the candidate answer is partly correct as it suggests valid methods for reporting illegal mining (contacting the Forest Department, police stations, and online platforms), which aligns with the reference's suggestion to contact the Forest Department and use online platforms. However, it does not directly reference the specific toll-free number or the existence of a mobile app, which are key pieces of evidence from the reference. Therefore, the faithfulness score is 0 due to the absence of direct evidence from the provided reference. The reason succinctly explains the scores.",
+      "input_tokens": 434,
+      "output_tokens": 181,
+      "seconds": 13.838835800001107,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

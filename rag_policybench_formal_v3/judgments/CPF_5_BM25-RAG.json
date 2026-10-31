@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_5",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the application of FEDA based on transport mode, supported by evidence from Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the application of FEDA based on transport mode, supported by evidence from Document 3.\",\n  \"evidence\": \"Document 3 provides examples of how FEDA varies with the mode of transport used for different job periods.\"\n}",
+      "input_tokens": 1940,
+      "output_tokens": 95,
+      "seconds": 7.886275499986368,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

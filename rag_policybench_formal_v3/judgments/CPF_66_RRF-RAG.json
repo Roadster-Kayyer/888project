@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_66",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Documents provide relevant information on tax relief for top-ups, but candidate answer lacks specific guidance for the user's situation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Documents provide relevant information on tax relief for top-ups, but candidate answer lacks specific guidance for the user's situation.\"\n}",
+      "input_tokens": 1443,
+      "output_tokens": 72,
+      "seconds": 5.987712600006489,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

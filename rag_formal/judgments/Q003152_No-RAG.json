@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003152",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from the reference, which states the Bureau aids in investigations through data collection and analysis."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from the reference, which states the Bureau aids in investigations through data collection and analysis.\",\n  \"evidence\": \"The reference explicitly mentions the Bureau's role in aiding investigations by providing intelligence and support to police units, which is corroborated by the candidate's answer about facilitating investigations through database access and case file connections.\"\n}",
+      "input_tokens": 384,
+      "output_tokens": 128,
+      "seconds": 9.949958299999707,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

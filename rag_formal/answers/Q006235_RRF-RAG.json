@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006235",
+  "doc_id": "239",
+  "query_type": "hard",
+  "query": "What responsibilities are assigned to the Social Justice and Human Rights Wing?",
+  "corpus_query_index": 6234,
+  "system": "RRF-RAG",
+  "reference_answer": "Social Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.",
+  "context": "[Document 1]\nSocial Justice and Human Rights Wing:\nThe Social Justice and Human Rights Wing promotes and protects human rights, investigates human rights violations, and implements social justice initiatives, ensuring that the police department upholds the principles of human rights and dignity.\n\n[Document 2]\nProtection of Civil Rights Wing:\nThe Protection of Civil Rights Wing in Tamil Nadu Police handles cases related to:\n- Atrocities against SC/ST communities\n- Human rights violations\n- Protection of civil rights\n\n[Document 3]\nProtection of Human Rights Act:\nThe Protection of Human Rights Act, 1993, applies to police actions by ensuring they respect human rights. It prohibits torture, cruel, inhuman, or degrading treatment, and provides for punishment of police officers who violate these rights. The Act also establishes the National Human Rights Commission to investigate complaints.\n\n[Document 4]\nApproaching Human Rights Court:\nTo approach the Human Rights Court in Tamil Nadu, follow these steps:\n1. File a complaint with the Tamil Nadu State Human Rights Commission (TNSHRC).\n2. Provide details of the alleged human rights violation.\n3. Submit supporting documents and evidence.\n4. The TNSHRC will investigate and take necessary action.\n\n[Document 5]\nHuman Rights Training:\nThe Tamil Nadu Police has introduced specialized training programs to sensitize officers on human rights. These programs cover topics such as arrest procedures, interrogation techniques, and victim support. The goal is to ensure that police officers respect and protect human rights while performing their duties.",
+  "retrieved_doc_ids": [
+    "239",
+    "2029",
+    "1725",
+    "1171",
+    "1648"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "06b0b89d2d6b76445714f97af666e65c1ba3b9edc28d815f761fc0900824c215",
+  "answer": "The Social Justice and Human Rights Wing promotes and protects human rights, investigates violations, and implements social justice initiatives. [Document 1] Additionally, the Protection of Civil Rights Wing handles specific cases like atrocity against SC/ST communities and human rights violations. [Document 2] The Act ensures police uphold human rights and punishes violations. [Document 3] Police receive human rights training to respect and protect rights. [Document 5]",
+  "input_tokens": 428,
+  "output_tokens": 91,
+  "seconds": 11.533671600000162,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

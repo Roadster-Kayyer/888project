@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_20",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Form 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.\"\n}",
+      "input_tokens": 935,
+      "output_tokens": 128,
+      "seconds": 9.316151499995613,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

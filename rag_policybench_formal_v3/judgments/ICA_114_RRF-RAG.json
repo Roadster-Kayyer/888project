@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_114",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by the documents, which specify the mode of travel for updating the declaration when holding an IPA."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n0,\n\"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 5.\"\n}",
+      "input_tokens": 1136,
+      "output_tokens": 60,
+      "seconds": 5.077095799992094,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by the documents, which specify the mode of travel for updating the declaration when holding an IPA.\"}\n\nNote: The scores are based on the assumption that the candidate answer provided is accurate and complete according to the documents referenced. The reason given is a concise explanation of the scores assigned.",
+      "input_tokens": 1176,
+      "output_tokens": 93,
+      "seconds": 7.28952350000327,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

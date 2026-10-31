@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_102",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing relevant information from the documents and accurately reflecting the process for renewing a Student's Pass."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 856,
+      "output_tokens": 192,
+      "seconds": 14.828210599996964,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing relevant information from the documents and accurately reflecting the process for renewing a Student's Pass.\"}",
+      "input_tokens": 896,
+      "output_tokens": 56,
+      "seconds": 4.566570900002262,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

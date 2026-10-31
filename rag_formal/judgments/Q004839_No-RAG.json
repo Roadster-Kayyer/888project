@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004839",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is correct and relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer is correct and relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn the provided candidate answer, the response correctly identifies the need to contact local law enforcement and to have relevant documents, which aligns with the reference's instructions for reporting a bounced check. However, the answer does not directly quote or paraphrase the specific steps or legal framework (Negotiable Instruments Act) mentioned in the reference, hence the faithfulness score is not perfect. The mention of \"Document 1\" suggests that there is evidence supporting the answer, but since the actual content of \"Document 1\" is not provided in the instruction, the faithfulness",
+      "input_tokens": 435,
+      "output_tokens": 192,
+      "seconds": 14.516038800000388,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

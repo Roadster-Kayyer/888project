@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008523",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the authorities for reporting incidents, references the prohibition of corporal punishment, and mentions the role of the Juvenile Justice Board and the School Safety Committee, all supported by the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the authorities for reporting incidents, references the prohibition of corporal punishment, and mentions the role of the Juvenile Justice Board and the School Safety Committee, all supported by the provided documents.\"\n}",
+      "input_tokens": 865,
+      "output_tokens": 192,
+      "seconds": 14.856014800003322,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

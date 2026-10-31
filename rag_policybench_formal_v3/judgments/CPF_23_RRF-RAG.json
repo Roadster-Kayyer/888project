@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_23",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the requirement to settle MediSave payable and references documents supporting the need to pay and the option to use CAYE contributions for offsetting."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the requirement to settle MediSave payable and references documents supporting the need to pay and the option to use CAYE contributions for offsetting.\",\n  \"evidence\": \"Document 1, Document 2\"\n}",
+      "input_tokens": 1144,
+      "output_tokens": 192,
+      "seconds": 15.014718700011144,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

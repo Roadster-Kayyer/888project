@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_64",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly interprets documents, accurately reflects conditions for top-up withdrawals, and aligns with evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly interprets documents, accurately reflects conditions for top-up withdrawals, and aligns with evidence provided.\"\n}",
+      "input_tokens": 891,
+      "output_tokens": 68,
+      "seconds": 5.363672699997551,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

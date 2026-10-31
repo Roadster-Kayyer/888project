@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009583",
+  "doc_id": "842",
+  "query_type": "casual",
+  "query": "So how do you check if someone's a servant?",
+  "corpus_query_index": 9582,
+  "system": "Dense-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nChecking Public Procession Permission Status:\nYou can check the status of your public procession permission application online through the Tamil Nadu Police Citizen Services portal (https://www.tnpolice.gov.in/citizen) by using your application reference number.\n\n[Document 3]\nHuman Trafficking:\nTo recognize potential human trafficking situations:\n1. Look for signs of coercion or control.\n2. Identify unusual behavior, such as fear or anxiety.\n3. Report suspicious activity to the police (100) or Tamil Nadu Anti-Trafficking Helpline (1800 425 6177).\n\n[Document 4]\nPolice Verification for Foreign Religious Missionaries:\nForeign religious missionaries must register with the local police station and provide required documents. They must also obtain a verification certificate from the police, which is typically required for their visa and stay in Tamil Nadu.\n\n[Document 5]\nChecking FIR Status:\nTo check the status of your FIR, visit the Tamil Nadu Police website (tnpolice.gov.in) and click on \"FIR Status\" or visit your local police station with your FIR number. You can also call the police station where you filed the FIR for an update.",
+  "retrieved_doc_ids": [
+    "842",
+    "344",
+    "1998",
+    "1796",
+    "278"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "020093352d8b1bdb9db6e7b2d2008433ff20bd20234c585373862e914b9d417a",
+  "answer": "To verify if someone is a servant, submit an application to the local police station with their ID proof, address, and employment details. The police will conduct a background check and provide a verification report. [Document 1]",
+  "input_tokens": 408,
+  "output_tokens": 46,
+  "seconds": 6.408041599999706,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009584",
+  "doc_id": "842",
+  "query_type": "search",
+  "query": "Can you explain the verification process for servants?",
+  "corpus_query_index": 9583,
+  "system": "BM25-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nCourt Order for Handwriting Verification:\nTo get a court order for handwriting verification:\n1. File an application in the court.\n2. Explain the reason for verification.\n3. The court will issue an order if it deems necessary.\n\n[Document 2]\nDelayed Police Verification:\nIf your police verification is delayed, contact the concerned police station where you applied. Provide your application reference number and ask about the status. You can also visit the Tamil Nadu Police website for updates on the verification process.\n\n[Document 3]\nApplying for Police Verification for Passport:\nFor passport police verification, submit your application through the Passport Seva website. The police verification process will be initiated after submitting your application. You will be required to provide necessary documents and fees.\n\n[Document 4]\nOfficial Immunity Doctrine:\nThe official immunity doctrine protects public servants, including police, from prosecution for acts done in good faith while performing their duties. Section 197 of the CrPC requires prior sanction for prosecution of public servants.\n\n[Document 5]\nBackground Verification:\nTo undergo background verification through police in Tamil Nadu, you can:\n1. Visit your local police station.\n2. Submit a request with required documents (ID proof, address proof).\n3. Pay the prescribed fee.\n4. Wait for the verification process to complete.",
+  "retrieved_doc_ids": [
+    "1134",
+    "219",
+    "857",
+    "1743",
+    "874"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "3f04f740f85d048003b87739c021ee47fe4c31b36aceadab38504bdf90ec19e3",
+  "answer": "Verification processes vary but generally involve filing an application explaining the reason, which courts may issue an order, police stations may update the status, and background checks require submission of ID and address proofs followed by payment and waiting. [Document 1-5]",
+  "input_tokens": 383,
+  "output_tokens": 51,
+  "seconds": 6.701807299999928,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004957",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is fully supported by the retrieved evidence documents.\",\n  \"evidence\": \"[Document 1], [Document 4], [Document 5]\"\n}\n\n\nThe candidate answer is correct, relevant, and faithful to the evidence provided. It correctly outlines the steps to approach domestic violence protection officers in Tamil Nadu, as detailed in Document 1, and it aligns with the helpline numbers and additional resources mentioned in Documents 4 and 5. The answer also correctly includes the rights of women under the Protection of Women from Domestic Violence Act, 2005, as outlined in Document 5. The reason succinctly explains the scores, noting",
+      "input_tokens": 849,
+      "output_tokens": 192,
+      "seconds": 14.582396400001016,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

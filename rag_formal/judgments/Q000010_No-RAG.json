@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000010",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"answer\": \"Typically, electronic reports in Tamil Nadu can be submitted through official government portals or via email, though specific details are not provided.\"\n}\n\n\nIn the provided answer, the candidate correctly identifies that electronic reports can be submitted through official channels in Tamil Nadu, which aligns with the reference's indication that e-FIR can be filed through the Tamil Nadu Police website or the Citizen Portal. However, the answer does not directly cite the reference, which is necessary for a full score in faithfulness. The absence of direct evidence from the reference text results in a null score for faithfulness. The answer",
+      "input_tokens": 390,
+      "output_tokens": 192,
+      "seconds": 15.201727100000426,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2630.98876953125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

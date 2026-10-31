@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003196",
+  "doc_id": "1574",
+  "query_type": "original",
+  "query": "What is the role of the Police Radio Branch in communication systems?",
+  "corpus_query_index": 3195,
+  "system": "RRF-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\nTamil Nadu Police Radio Branch Recruitment:\nRecruitment for the Tamil Nadu Police Radio Branch is done through the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB). Candidates must meet eligibility criteria, pass a written exam, and undergo physical and medical tests to be selected.\n\n[Document 4]\nModern Communication Systems:\nThe Tamil Nadu Police has implemented modern communication systems, including a dedicated police helpline (100), social media integration, and mobile apps (e.g., \"Tamil Nadu Police\" app) to facilitate public interaction and emergency response.\n\n[Document 5]\nCrime Branch CID Role:\nThe Crime Branch CID in Tamil Nadu Police investigates serious crimes, collects intelligence, and provides support to local police in complex cases.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1487",
+    "1626",
+    "1911"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "71d063378bb41772a8420dda9121d9402ebe85c4d38ffd65a3bc47c318689c2f",
+  "answer": "The Police Radio Branch in Tamil Nadu is crucial for communication systems, coordinating police operations through wireless communication and providing technical support for radio systems. It maintains communication networks and ensures swift response to emergencies. [Document 1]",
+  "input_tokens": 355,
+  "output_tokens": 44,
+  "seconds": 5.626105399998778,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

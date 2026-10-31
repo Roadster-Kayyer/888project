@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007223",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\nIn the reference, it is suggested to contact the District Collector, the concerned department's headquarters, or use the grievance portal, which the candidate answer does not explicitly mention.",
+      "input_tokens": 395,
+      "output_tokens": 104,
+      "seconds": 8.017501399997855,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

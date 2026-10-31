@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_67",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, using evidence from Documents 1, 2, and 5 to support the process for checking status and retrieving reference numbers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 767,
+      "output_tokens": 63,
+      "seconds": 5.054481300001498,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, using evidence from Documents 1, 2, and 5 to support the process for checking status and retrieving reference numbers.\"}",
+      "input_tokens": 807,
+      "output_tokens": 61,
+      "seconds": 4.746966599996085,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

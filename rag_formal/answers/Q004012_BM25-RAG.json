@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004012",
+  "doc_id": "1720",
+  "query_type": "formal",
+  "query": "What legal actions can be taken against officers accused of misconduct?",
+  "corpus_query_index": 4011,
+  "system": "BM25-RAG",
+  "reference_answer": "Legal Remedies for Police Misconduct:\nIn Tamil Nadu, you can file a complaint with the State Human Rights Commission or the National Human Rights Commission. You can also approach the Superintendent of Police or the District Collector. Additionally, you can file a writ petition in the High Court or a complaint under Section 154 of the CrPC.",
+  "context": "[Document 1]\nReporting Ethical Violations:\nEthical violations by police officers can be reported to the Superintendent of Police or the Tamil Nadu Police Complaints Authority. Complaints can also be filed online or through the National Human Rights Commission. Reported violations are investigated, and action is taken against officers found guilty of misconduct.\n\n[Document 2]\nPolice Actions in Stalking Cases:\nPolice can register an FIR under Section 354D of the IPC, conduct investigations, and arrest the accused if necessary. They can also provide protection to the victim and monitor the accused's activities.\n\n[Document 3]\nVicarious Liability in Police Departments\nThe principle of vicarious liability applies to police departments, making them responsible for the actions of their officers. This means that if a police officer commits a wrong, the department can be held liable.\n\n[Document 4]\nEthical Decision-Making Documentation:\nPolice reports must include a clear record of the decision-making process, including the reasons behind actions taken and the ethical considerations involved. This ensures transparency and accountability in policing.\n\n[Document 5]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.",
+  "retrieved_doc_ids": [
+    "1422",
+    "91",
+    "1753",
+    "1452",
+    "46"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "11acd7ea3837addd356c9475e803b792cc8ffc964c9729eafe6d83ed5ad0fdea",
+  "answer": "Officers accused of misconduct can be reported to the Superintendent of Police or the Tamil Nadu Police Complaints Authority, among others. Legal actions include filing an FIR (Section 354D IPC), registering complaints with the National Human Rights Commission, and providing protection to victims. Police departments are held accountable under the principle of vicarious liability. Reports must document ethical decision-making processes. For arrests, seek legal advice and inform the person's family. [Document 1-5]",
+  "input_tokens": 384,
+  "output_tokens": 96,
+  "seconds": 12.204713200000697,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004229",
+  "doc_id": "176",
+  "query_type": "search",
+  "query": "Assistance needed for handling a towed vehicle situation.",
+  "corpus_query_index": 4228,
+  "system": "RRF-RAG",
+  "reference_answer": "Towed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.",
+  "context": "[Document 1]\nTowed Away Vehicle:\nIf your vehicle is towed away, contact the nearest Traffic Police station or the towing company to locate your vehicle. You will need to produce your vehicle's registration documents and pay any applicable fines or towing charges to retrieve your vehicle.\n\n[Document 2]\nReclaiming a Towed Vehicle:\nTo reclaim a towed vehicle, go to the nearest police station or the designated towing station with your vehicle's documents (RC, insurance, etc.) and a valid ID proof. Pay the towing and parking fees, and fill out the required forms to retrieve your vehicle.\n\n[Document 3]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 4]\nRetrieving Impounded Vehicles:\nTo retrieve a vehicle impounded by police in Tamil Nadu, follow these steps:\n1. Contact the police station where the vehicle was impounded.\n2. Produce required documents (RC, insurance, driving license).\n3. Pay any pending fines or penalties.\n4. Obtain a release order from the police.\n\n[Document 5]\nEmergency Response to Kidnapping Incidents:\nIn case of a kidnapping, immediately call 100 or the local police station. Provide as much information as possible about the incident, including the location and description of the victim and suspect. The police will dispatch a team to investigate and respond to the situation.",
+  "retrieved_doc_ids": [
+    "176",
+    "833",
+    "867",
+    "2051",
+    "1540"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cf153159c2629e1050953c86d88ff9d0ceda86d53b29d10c456f9521f3d0a607",
+  "answer": "For a towed vehicle, contact the nearest Traffic Police station or the towing company to locate your vehicle. Ensure you have your vehicle's registration documents ready and be prepared to pay any fines or towing charges to retrieve it. [Document 1]",
+  "input_tokens": 451,
+  "output_tokens": 50,
+  "seconds": 6.4305117999992945,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

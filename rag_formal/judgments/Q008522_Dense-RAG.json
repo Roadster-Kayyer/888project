@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008522",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the penalties for assault in educational settings, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects penalties for assault in educational settings as described in the documents, including specific imprisonment terms and fines.\",\n}",
+      "input_tokens": 806,
+      "output_tokens": 71,
+      "seconds": 5.554420000000391,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the penalties for assault in educational settings, supported by evidence from all documents.\"}",
+      "input_tokens": 846,
+      "output_tokens": 49,
+      "seconds": 4.055490799997642,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

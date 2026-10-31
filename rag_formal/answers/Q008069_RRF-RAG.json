@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008069",
+  "doc_id": "57",
+  "query_type": "search",
+  "query": "Is it legal for the police to require someone to sign a document?",
+  "corpus_query_index": 8068,
+  "system": "RRF-RAG",
+  "reference_answer": "1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.",
+  "context": "[Document 1]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 2]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 3]\nReceiving a Police Notice:\nIf you receive a police notice, read it carefully and understand the requirements. You may need to appear at the police station or provide documents. It's recommended to seek clarification from the issuing officer if you have any doubts.\n\n[Document 4]\nDealing with Unauthorized Photography:\nIf someone is taking photos without consent in public:\n* Politely ask them to stop\n* Report to nearest police station or dial 100\n* Note the perpetrator's details, if possible\n\n[Document 5]\nArrest without Warrant:\nYes, police can arrest someone without a warrant in certain situations, such as when a crime is committed in their presence or if the person is suspected of committing a serious offense.",
+  "retrieved_doc_ids": [
+    "57",
+    "34",
+    "31",
+    "1893",
+    "845"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "cbe279c524e6b3812a3c286f3126d43e5814e9c42a435477146f4ad1a98cecb2",
+  "answer": "According to [Document 1], the police cannot legally force someone to sign any document. However, they can request signatures under certain circumstances like background checks [Document 2] or when verifying an individual's character and antecedents. The police also have the authority to arrest someone without a warrant in serious cases [Document 5]. [Document 1] specifically states that signing a document must be voluntary.",
+  "input_tokens": 367,
+  "output_tokens": 83,
+  "seconds": 10.959583500000008,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

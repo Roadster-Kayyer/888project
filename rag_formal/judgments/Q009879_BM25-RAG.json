@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009879",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines steps for filing a complaint, references relevant documents, and aligns with the provided evidence for reporting to authorities and using supporting documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines steps for filing a complaint, references relevant documents, and aligns with the provided evidence for reporting to authorities and using supporting documents.\",\n  \"evidence\": \"[Document 1], [Document 4], [Document 3], [Document 5]\"\n}",
+      "input_tokens": 889,
+      "output_tokens": 192,
+      "seconds": 15.088007999998808,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

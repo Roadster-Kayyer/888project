@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008067",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly identifies lawful circumstances for signature compulsion, aligns with the right to understand documents, and is supported by the implied legal context."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies lawful circumstances for signature compulsion, aligns with the right to understand documents, and is supported by the implied legal context.\",\n  \"evidence\": \"The system's response implies legal authority and necessity, which are consistent with the reference's emphasis on legality and understanding.\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is conceptual, as the actual evidence would be the textual content of the candidate's answer, which in this case is not provided. However, the explanation given in the \"reason\" key is based on the information available in the reference and the candidate's answer.)",
+      "input_tokens": 399,
+      "output_tokens": 180,
+      "seconds": 13.962370000001101,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

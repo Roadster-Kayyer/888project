@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005700",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the same information found in Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing the same information found in Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate's answer is correct, relevant, and faithful to the evidence provided in Document 1. The answer directly addresses the question and provides the same contact details found in the reference, which are visiting the Tamil Nadu Police website or calling the police helpline number (103 or 044-28448000). The evidence (Document 1) supports the factual claims made in the candidate's answer.",
+      "input_tokens": 836,
+      "output_tokens": 171,
+      "seconds": 13.512903699996968,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

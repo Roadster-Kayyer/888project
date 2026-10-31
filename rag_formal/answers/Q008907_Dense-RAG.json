@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008907",
+  "doc_id": "720",
+  "query_type": "formal",
+  "query": "What legal consequences arise from registering the same property twice?",
+  "corpus_query_index": 8906,
+  "system": "Dense-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\nDual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.\n\n[Document 2]\nIllegally Dividing Joint Family Property:\nIllegally dividing joint family property can lead to legal consequences, including civil suits and potential penalties under the Hindu Succession Act, 1956. However, specific penalties may vary depending on the circumstances.\n\n[Document 3]\nFraudulent Land Registration:\nPunishment for fraudulent land registration can include imprisonment up to 7 years and a fine under the IPC Section 467 and the Registration Act, 1908.\n\n[Document 4]\nManipulating Land Registration Documents:\nManipulating land registration documents is a serious offense under the Registration Act, 1908, and the Indian Penal Code. Penalties can include imprisonment up to 7 years and/or a fine for forgery and cheating.\n\n[Document 5]\nForcefully Changing Locks of Disputed Property:\nThe penalty can include imprisonment and fines under the IPC for trespass and criminal intimidation. It's considered a criminal offense and can lead to legal action.",
+  "retrieved_doc_ids": [
+    "720",
+    "710",
+    "612",
+    "711",
+    "714"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b25e6fb2df94c446d89a315e761650c96af31d38e9a757aa862c118c39e52afd",
+  "answer": "Registering the same property twice can lead to legal consequences including imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also under the Registration Act, 1908. [Document 1]",
+  "input_tokens": 380,
+  "output_tokens": 58,
+  "seconds": 7.459178100001736,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

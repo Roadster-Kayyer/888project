@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005960",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 3, which outlines the steps for verifying a vehicle's status, including checking the registration certificate and engine/chassis number, and using the VAHAN portal."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 3, which outlines the steps for verifying a vehicle's status, including checking the registration certificate and engine/chassis number, and using the VAHAN portal.\"\n}",
+      "input_tokens": 858,
+      "output_tokens": 94,
+      "seconds": 7.364586399999098,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

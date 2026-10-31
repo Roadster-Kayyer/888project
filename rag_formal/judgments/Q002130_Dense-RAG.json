@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002130",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects law enforcement strategies and legal consequences for threats, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects law enforcement strategies and legal consequences for threats, supported by documents.\"\n}\n\n\n\nDocument 1 directly supports the strategies used by law enforcement to combat forest rights violations, such as registering complaints, investigating cases, and collaborating with forest departments, as well as ensuring the protection of tribal rights under the Forest Rights Act. Document 2 reinforces the role of police in preventing encroachment and land disputes, which is relevant to the strategies mentioned. Document 5, while not directly about law enforcement strategies, provides context on the legal consequences for threatening forest officials, which is relevant to the overall functioning of law enforcement in",
+      "input_tokens": 966,
+      "output_tokens": 192,
+      "seconds": 14.82882249999966,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

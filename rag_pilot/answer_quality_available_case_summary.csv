@@ -1,0 +1,5 @@
+﻿system,correctness,relevance,faithfulness,reference_token_f1_proxy,seconds,input_tokens,output_tokens,hit_token_limit,invalid_citation_count,has_invalid_citation,n_answers,n_valid_correctness,n_valid_relevance,n_valid_faithfulness,n_valid_reference_token_f1_proxy
+BM25-RAG,1.9473684210526316,1.9473684210526316,2.0,0.5301903577060585,7.96673342999984,430.4,61.75,0.0,0.05,0.05,20,19,19,19,20
+Dense-RAG,2.0,2.0,2.0,0.5327796252453398,7.829798279999977,404.8,61.3,0.0,0.15,0.15,20,20,20,20,20
+No-RAG,1.1,1.3,,0.25476721441859035,5.302013384999737,125.9,41.6,0.0,0.5,0.5,20,20,20,0,20
+RRF-RAG,1.95,1.95,1.95,0.5354922420133659,7.56216527000006,421.0,59.25,0.0,0.15,0.15,20,20,20,20,20

@@ -1,0 +1,28 @@
+{
+  "query_id": "medishield_17",
+  "doc_id": "PB_f82c1895a8af22f06c29",
+  "query_type": "medishield",
+  "query": "What is the maximum claim limit per policy year under Medishield in Singapore?",
+  "reference_answer": "$200,000",
+  "corpus_query_index": 311,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nPolicy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.\n\n[Document 2]\nIf you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.\n\n[Document 3]\nThe maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject\n\n[Document 4]\nThe Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\n\n[Document 5]\nDental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+  "retrieved_doc_ids": [
+    "PB_92b9ca8b9a7a3195d282",
+    "PB_b8fa647c38cb9cfface8",
+    "PB_55387403dc004065b043",
+    "PB_a5a49f4a8cf45baa57c5",
+    "PB_bc3e58093a0f6c39111b"
+  ],
+  "trimmed_doc_ids": [
+    "PB_55387403dc004065b043"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "9037aabbe253fa2bb7ab0215f384984bbc7bf08886cf5d43fe7f118a1d67c537",
+  "answer": "[Document 1] does not provide the specific maximum claim limit per policy year under Medishield. No direct claim limit information is given in the provided documents.",
+  "input_tokens": 594,
+  "output_tokens": 34,
+  "seconds": 4.55408560000069,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

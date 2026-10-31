@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_12",
+  "doc_id": "PB_1bd233e28127cfee0c86",
+  "query_type": "BTT",
+  "query": "What should drivers do if the traffic lights turn red while they are in the yellow box junction?",
+  "reference_answer": "Drivers should proceed to complete their turn and clear the junction.",
+  "corpus_query_index": 4,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nThe red paint alerts motorists to the presence of merging vehicles from bus-stops.\n\n[Document 4]\nIt indicates that a motorist can drive on ahead.\n\n[Document 5]\nDrivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+  "retrieved_doc_ids": [
+    "PB_1bd233e28127cfee0c86",
+    "PB_2858faae83bda4331fb6",
+    "PB_445d301435d07072a252",
+    "PB_a6f8d6ad745a1e028eb1",
+    "PB_7f4c71e9895fc3caf31f"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "549497d3e7e150383edef2561ce484d22cb17c6a613b5ff9139ba901af2e1cc9",
+  "answer": "Drivers should proceed to complete their turn and clear the junction. They should also slow down, keep left, and be aware of oncoming traffic. The red light indicates they can drive on ahead. [Document 1]",
+  "input_tokens": 218,
+  "output_tokens": 45,
+  "seconds": 5.892196200002218,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_102",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the deadline for top-ups and directly addresses the eligibility for the previous year's grant, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 1162,
+      "output_tokens": 76,
+      "seconds": 6.040450600004988,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by evidence from Document 1.\"}",
+      "input_tokens": 1202,
+      "output_tokens": 42,
+      "seconds": 3.647004600003129,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

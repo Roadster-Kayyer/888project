@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_15",
+  "doc_id": "PB_abb4a02effa48ce5e10f",
+  "query_type": "ICA_134",
+  "query": "Can I obtain a copy of my travel history?",
+  "reference_answer": "We regret to inform that we are unable to provide travel records of individuals, as information gathered during the immigration clearance process is strictly meant for ICA to carry out its function as an immigration authority.",
+  "corpus_query_index": 209,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.\n\n[Document 2]\nYou can update your arrival information in the SG Arrrival Card e-service via 'Update a Submission', provided the record has not expired. Please note that the arrival information you have submitted for each trip will expire:-i) after the date of the arrival; orii) after you have made your trip, whichever is earlier.If you are using MyICA Mobile App, you can update your arrival information, provided the record has not expired, by navigating to your trip record and select the 'Edit' button to make the changes. You can tap on the 'Submit' button after making the amendments.\n\n[Document 3]\nYou are strongly encouraged to print and bring along your e-Visa to avoid any inconvenience as the airlines and immigration authorities of your country of embarkation are likely to ask for the e-Visa for verification.You can retrieve your valid e-Visa via the 'Enquire Application Status' function at the ICA e-Service with the visa application reference number and applicant's travel document number.\n\n[Document 4]\nYou may travel using your current passport if it has a validity period of at least 6 months and is not damaged. The current passport will be invalidated only upon issuance of the new passport.\n\n[Document 5]\nSingapore citizens who require your passport urgently may approach our service ambassadors at Level 1, ICA Services Centre during our operating hours. Please bring along the following documents:For yourself –• IC;• Current passport (if valid at the point of passport application)• Evidence of urgent travel need (hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).For your child (aged below 16) –• Child's original birth certificate;• IC of the parent who consented to the child's passport application;• Child's current passport (if valid at the point of passport application)• Evidence of urgent travel need(hotel reservations, flight tickets, travel itinerary etc); and• Recent passport-sized photo (taken within 3 months).Your request will be assessed by ICA and the waiting time is expected to be three hours or longer.",
+  "retrieved_doc_ids": [
+    "PB_73d82fe26c9a986d734d",
+    "PB_3cbaa138ec3ecea4e962",
+    "PB_73589fc4535bd159b21d",
+    "PB_0c264676a8242018a9a0",
+    "PB_3b19e2f31a18bd457d3a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "71b355fc6336c4d240cc2d8baac0592244fe7048d3d019bf65c51adea5a18e2f",
+  "answer": "Yes, you can obtain a copy of your travel history through the SG Arrival Card (SGAC) acknowledgment email. This email includes your arrival declarations and can be downloaded as a PDF after submission. [Document 1]",
+  "input_tokens": 708,
+  "output_tokens": 45,
+  "seconds": 5.935973500003456,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

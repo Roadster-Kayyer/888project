@@ -1,0 +1,128 @@
+{
+  "timestamp_auckland": "20261025_021515_426993",
+  "backup": "C:\\Users\\lenovo\\Desktop\\888\\project\\report_backups\\experiment3_repair_20261025_021515_426993",
+  "n_recovered": 6,
+  "records": [
+    {
+      "file": "BTT_34_RRF-RAG.json",
+      "attempt_index": 1,
+      "rule": "existing_complete_object_parser",
+      "previous_error": "Extra data: line 3 column 1 (char 129)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        }
+      ],
+      "original_sha256": "e28a02c66a51dea751ad0774d9e329638802bbeecdf4baf982f9d73469199ff7",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer directly addresses and is supported by Document 1."
+      }
+    },
+    {
+      "file": "BTT_40_RRF-RAG.json",
+      "attempt_index": 1,
+      "rule": "existing_complete_object_parser",
+      "previous_error": "Extra data: line 3 column 1 (char 179)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        }
+      ],
+      "original_sha256": "da19bcb1f027fd2901aeebc0fc5b2b822feddc6b70603bda1b029af34b1963b7",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer correctly identifies the information on car park signboards and is directly supported by Document 1."
+      }
+    },
+    {
+      "file": "ICA_7_Dense-RAG.json",
+      "attempt_index": 0,
+      "rule": "single_object_remove_final_trailing_comma",
+      "previous_error": "Extra data: line 2 column 1 (char 157)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        },
+        {
+          "attempt": 1,
+          "error": "Conflicting complete judge JSON objects."
+        }
+      ],
+      "original_sha256": "48df991a430667422cab53b9aacb61181f2691e9511c5d9f6dd6a031292918ff",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer correctly states the timeframe and process for collecting the certificate, supported by evidence from Documents 1, 2, and 3."
+      }
+    },
+    {
+      "file": "medishield_16_RRF-RAG.json",
+      "attempt_index": 1,
+      "rule": "existing_complete_object_parser",
+      "previous_error": "Extra data: line 3 column 1 (char 148)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        }
+      ],
+      "original_sha256": "1e01c7b6cdfb37947bc40a8459ac39a8ffbc1559ba4085941a38113aa4872092",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer directly addresses the question and is fully supported by Document 1."
+      }
+    },
+    {
+      "file": "medishield_1_BM25-RAG.json",
+      "attempt_index": 1,
+      "rule": "existing_complete_object_parser",
+      "previous_error": "Extra data: line 2 column 1 (char 165)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        }
+      ],
+      "original_sha256": "93770dd7976fbfd5692af775c739706168b8a6e32b4d9b053a32bf31cf69b8e5",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer accurately reflects the information from Document 1 regarding co-insurance calculation."
+      }
+    },
+    {
+      "file": "medishield_25_RRF-RAG.json",
+      "attempt_index": 1,
+      "rule": "existing_complete_object_parser",
+      "previous_error": "Extra data: line 3 column 1 (char 161)",
+      "parser_errors": [
+        {
+          "attempt": 0,
+          "error": "Malformed judge JSON object."
+        }
+      ],
+      "original_sha256": "f425f89ca853a6f83431a1082e170cb18f6d7fa7f9a87d7da3176a1f00984aae",
+      "scores": {
+        "correctness": 2,
+        "relevance": 2,
+        "faithfulness": 2,
+        "reason": "Candidate answer is correct, directly addresses the question, and is fully supported by Document 1."
+      }
+    }
+  ],
+  "all_answers_and_existing_valid_scores_unchanged": true,
+  "remaining_invalid": 0,
+  "formal_researcher_review": "See judge_human_calibration.csv; recovery is not human review."
+}

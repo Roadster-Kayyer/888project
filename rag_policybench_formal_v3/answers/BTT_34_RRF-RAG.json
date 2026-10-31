@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_34",
+  "doc_id": "PB_3de6df26cfd351caa37e",
+  "query_type": "BTT",
+  "query": "What is the designated use for parking lots demarcated in red within Singapore's parking guidelines?",
+  "reference_answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders.",
+  "corpus_query_index": 28,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nParking lots demarcated in red are reserved for Season Parking Ticket Holders.\n\n[Document 2]\nThe car park signboard indicates the different parking schemes, operating hours, and parking rates available.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 4]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.\n\n[Document 5]\nWe recommend that you download and use mobile apps that are specifically designed to take photographs for Singapore passport or identity card applications. These apps usually come with features that will help you take photographs in the required dimensions. Some suggested search-words you can use on the Android Play Store or Apple App Store are 'Singapore Passport’, 'Singapore IC’ and 'Photo’. The photograph will be accepted if it complies with our photo guidelines.",
+  "retrieved_doc_ids": [
+    "PB_3de6df26cfd351caa37e",
+    "PB_776de7439758761e5c43",
+    "PB_716429660f2efd24efb8",
+    "PB_ee80f8d345424676a47b",
+    "PB_02fa9d13bfe8e82b1959"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ffbaec4421b1d1c76d5eddbe2a92ab5afcd437b70c1137a11bf5c0b30ca2ab2e",
+  "answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders [Document 1].",
+  "input_tokens": 386,
+  "output_tokens": 21,
+  "seconds": 432.5086291999978,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

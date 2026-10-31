@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_38",
+  "doc_id": "PB_27712997c102a67af07c",
+  "query_type": "ICA_134",
+  "query": "When will I receive the In-Principle Approval letter If my application is approved?",
+  "reference_answer": "You will receive a notification to download the outcome letter with relevant instructions at ICA e-Service when your application status is 'In-Principle Approval'.",
+  "corpus_query_index": 234,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou will receive a notification to download the outcome letter with relevant instructions at ICA e-Service when your application status is 'In-Principle Approval'.\n\n[Document 2]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 3]\nA holder of an In-Principle Approval (IPA) issued by ICA/MOM will need to submit the arrival information and the health declaration as a foreign visitor via the SG Arrival Card e-Service.\n\n[Document 4]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 5]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.",
+  "retrieved_doc_ids": [
+    "PB_27712997c102a67af07c",
+    "PB_281c77b1cca45bc9951f",
+    "PB_5155cca92728746c93bf",
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_2bc174ceaf15f1ad5e40"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2a92860345c9d4068b0db9e3bb4afb5a6c127e9e81fc8288ab672c0e6ca57962",
+  "answer": "You will receive a notification to download the In-Principle Approval (IPA) letter with instructions at ICA e-Service when your application status is 'In-Principle Approval'. [Document 1]",
+  "input_tokens": 688,
+  "output_tokens": 43,
+  "seconds": 5.778925199992955,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

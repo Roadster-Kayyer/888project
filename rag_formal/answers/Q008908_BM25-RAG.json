@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008908",
+  "doc_id": "720",
+  "query_type": "casual",
+  "query": "How do you get in trouble for putting the same house on the books twice?",
+  "corpus_query_index": 8907,
+  "system": "BM25-RAG",
+  "reference_answer": "Dual Registration of Same Property:\nThe penalty can include imprisonment up to 7 years and/or a fine, under Section 467 of the IPC for forgery of valuable security, and also attract penalties under the Registration Act, 1908.",
+  "context": "[Document 1]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 2]\nDouble Jeopardy:\nDouble jeopardy refers to being tried twice for the same offense. In India, Article 20(2) of the Constitution protects individuals from double jeopardy. If a person is acquitted or convicted of an offense, they cannot be tried again for the same offense.\n\n[Document 3]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 4]\nQ1: Can I get a copy of my FIR? How?\nYes, you can get a copy of your FIR. You can obtain it from the police station where you filed the report, free of cost. You can also get it through the Tamil Nadu Police Department's website or through the RTI (Right to Information) Act.\n\n[Document 5]\nBail Application Processing Time\nThe time taken to process a bail application in Tamil Nadu can vary, but it is typically processed on the same day or within 24 hours.",
+  "retrieved_doc_ids": [
+    "849",
+    "1733",
+    "255",
+    "799",
+    "1027"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "591716197d846e72f4113becce6dde5cba7a540383dec5e4970abe2c2dd0b38c",
+  "answer": "You would get in trouble under double jeopardy laws if you were already tried and convicted for the same offense, even if acquitted. However, the evidence does not directly address putting the same house on the books twice. [Document 2]",
+  "input_tokens": 417,
+  "output_tokens": 48,
+  "seconds": 6.361583500001871,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

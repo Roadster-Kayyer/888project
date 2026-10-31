@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007116",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police station as reporting channels, and mentions the TN Government website and helpline 1064, which aligns with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1 and 5.\",\n}",
+      "input_tokens": 850,
+      "output_tokens": 62,
+      "seconds": 5.110378299999866,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the Vigilance and Anti-Corruption Department (DVAC) and local police station as reporting channels, and mentions the TN Government website and helpline 1064, which aligns with the reference documents.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate's answer includes all substantive factual claims that are supported by the supplied evidence, which are the various ways to report bribery demands by government hospital staff as outlined in the reference documents. There is no evidence suggesting that the answer contains any unsupported or contradicted claims.",
+      "input_tokens": 890,
+      "output_tokens": 159,
+      "seconds": 12.961795499999425,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

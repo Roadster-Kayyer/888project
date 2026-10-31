@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002245",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but is relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but is relevant to the question.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it discusses potential legal approaches to the exploitation of tribal artisans, which is pertinent to the question. However, it does not directly reference the provided reference material, which means it lacks the necessary evidence to be fully faithful to the reference. The correctness score is 1 because the answer is partly correct in addressing the question but omits specific details that would be necessary for a complete understanding. The reason succinctly explains the scores, noting the relevance but the absence of direct evidence. The evidence key is set to null because the",
+      "input_tokens": 438,
+      "output_tokens": 192,
+      "seconds": 14.850616299998364,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

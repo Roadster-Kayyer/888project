@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007484",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the methods used by Tamil Nadu Police for confidentiality, supported by evidence from Documents 1 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the methods used by Tamil Nadu Police for confidentiality, supported by evidence from Documents 1 and 3.\"\n}",
+      "input_tokens": 917,
+      "output_tokens": 74,
+      "seconds": 6.085773599999811,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

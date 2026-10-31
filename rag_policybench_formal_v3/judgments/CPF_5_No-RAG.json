@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_5",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nThe correctness score is 2 because the candidate answer correctly identifies that the Fixed Expense Deduction Amount depends on the mode of transport. However, it does not directly quote or provide specific details from the reference, which is necessary for full correctness. The relevance score is 1 because the candidate answer addresses the question but does not fully utilize the provided reference details. Faithfulness is null because the candidate answer does not contain any substantive factual claims supported by the reference, and there is no evidence provided to back up the claims made. The reason succinctly explains the scores.",
+      "input_tokens": 613,
+      "output_tokens": 190,
+      "seconds": 14.702400699999998,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

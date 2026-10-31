@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_106",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the use of Ordinary Account savings for insurance premiums and acknowledges the $20,000 limit for new investments, consistent with Document 2.\",\n}",
+      "input_tokens": 989,
+      "output_tokens": 192,
+      "seconds": 15.153906400009873,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly addresses the question, and is supported by evidence from Document 2.\"}",
+      "input_tokens": 1029,
+      "output_tokens": 46,
+      "seconds": 3.8612055999983568,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_11",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies dental work as covered due to accidental injuries and accurately describes the payout mechanism relative to the deductible."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies dental work as covered due to accidental injuries and accurately describes the payout mechanism relative to the deductible.\",\n  \"evidence\": \"Document 2, Document 5\"\n}\n\n\nThe reason for the scores is that the candidate answer is directly relevant to the question, correctly identifies the specific condition under which dental work is covered (accidental injuries), and accurately explains the relationship between the claimable amount and the deductible. The evidence provided (Documents 2 and 5) directly supports the factual claims made in the candidate answer.",
+      "input_tokens": 634,
+      "output_tokens": 168,
+      "seconds": 12.73126330001105,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003598",
+  "doc_id": "1646",
+  "query_type": "casual",
+  "query": "So, what changes were made to make it easier to file a complaint?",
+  "corpus_query_index": 3597,
+  "system": "RRF-RAG",
+  "reference_answer": "Tamil Nadu Police Improvements\n\n1. Data Analysis for Predictive Policing: Tamil Nadu Police has improved data analysis by implementing a Crime and Criminal Tracking Network System (CCTNS), which helps in collecting, storing, and analyzing crime data to predict and prevent crimes.\n\n2. Complaints Filing Process: Reforms include introducing online complaint filing systems, such as the \"Citizen Portal\" and \"Lost and Found\" portals, to streamline the process and reduce paperwork.\n\n3. Dealing with Drug Offenses: Tamil Nadu Police has modernized its approach by setting up specialized narcotics cells, increasing awareness programs, and collaborating with other agencies to tackle drug trafficking and abuse effectively.",
+  "context": "[Document 1]\nFiling a Private Complaint:\nTo file a private complaint, approach the court having jurisdiction over the matter. Submit a written complaint, stating the facts and relief sought. The court will then examine the complaint and may issue summons to the accused.\n\n[Document 2]\nFiling a Property Dispute Complaint:\nTo file a property dispute complaint, visit your local police station and provide details of the dispute. You will need to submit a written complaint with supporting documents, such as property deeds and witness statements. The police will then investigate and guide you on the next steps.\n\n[Document 3]\nFiling Complaint about Inflammatory Speeches:\nTo file a complaint about inflammatory speeches, visit the nearest police station and submit a written complaint to the officer in charge. You can also call 100 or 181 to report the incident.\n\n[Document 4]\nWithdrawing a Complaint:\nTo withdraw your complaint, submit a written application to the police station where you filed the FIR. The application should state your intention to withdraw the complaint and sign it. The police will then follow the procedure as per law and guidelines. Note: Withdrawal is subject to certain conditions and may require court approval.\n\n[Document 5]\nFiling a Complaint against a Commercial Tax Officer:\nTo file a complaint, contact the Commercial Tax Department's Vigilance Cell or the Deputy Commissioner of Commercial Taxes. You can also submit a written complaint to the Commissioner of Commercial Taxes, Chennai.",
+  "retrieved_doc_ids": [
+    "1118",
+    "78",
+    "935",
+    "11",
+    "411"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "55bf10fa06fc2afccc057de6fa42509a7ea5a62bc1f75a0e9faeab555b8d401d",
+  "answer": "The process for filing complaints varied based on the type of issue. For private complaints, submit a written statement to the court. For property disputes, visit a police station with supporting documents. For inflammatory speech, go to the nearest police station. Complaints can be withdrawn by submitting an application to the police station. [Document 1-5]",
+  "input_tokens": 420,
+  "output_tokens": 70,
+  "seconds": 8.75175870000021,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_87",
+  "doc_id": "PB_4e4521efc7be0bf0574a",
+  "query_type": "ICA_134",
+  "query": "How do I check the status of my application for extension of stay?",
+  "reference_answer": "Your application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.",
+  "corpus_query_index": 288,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYour application for the extension of your Visit Pass will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.You can check the status of your application online via the 'Enquire Application Status' function in the e-Service by keying in your travel document number and DE number (found in the SG Arrival Card acknowledgement), or your travel document number and expiry date.\n\n[Document 2]\nYou can enquire the details of your REP by clicking the \"Check Application Status\" function in the e-Service.\n\n[Document 3]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.\n\n[Document 4]\nYou can submit the extension of stay form at least 7 days before the expiry of your child’s current Special Pass.You are required to furnish the following documents for the extension of your child's special pass:a) Travel documents of both parents,b) Singapore IC or work passes of both parents;c) Parents' marriage certificate (if any) and child's birth certificate;d) Advisory note; ande) Letter of acknowledgement from the Embassy or High Commission in Singapore indicating you have submitted a travel document application for your child or the travel document for your new-born child.\n\n[Document 5]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.",
+  "retrieved_doc_ids": [
+    "PB_4e4521efc7be0bf0574a",
+    "PB_cb078a82de94eaac8bfe",
+    "PB_c6456fad7242c379cac1",
+    "PB_c4889c17ceec12f1516c",
+    "PB_f69aa5d536523684f1ff"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a6501b99d13cc6e771cd8ad59e3546f41a6594739cba2499eda8b8486389fbb8",
+  "answer": "To check the status of your application for an extension of stay, use the 'Enquire Application Status' function in the e-Service. Enter your travel document number and DE number (from the SG Arrival Card) or your travel document number and expiry date. [Document 1] [Document 2]",
+  "input_tokens": 523,
+  "output_tokens": 63,
+  "seconds": 8.210651999994298,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

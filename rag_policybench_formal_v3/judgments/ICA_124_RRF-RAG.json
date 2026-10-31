@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_124",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the attendance requirement for children aged 15 and above, supported by Document 4, and correctly states automatic citizenship for Singapore-born children, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the attendance requirement for children aged 15 and above, supported by Document 4, and correctly states automatic citizenship for Singapore-born children, supported by Document 1.\"\n}\n\n\nThe candidate answer directly addresses the question by specifying the attendance requirement for children aged 15 and above during the citizenship registration process, which is corroborated by Document 4. It also correctly refers to the automatic citizenship status of Singapore-born children, which is a factual claim supported by Document 1. The answer is relevant as it pertains directly to the question asked, and the faithfulness is high as the answer is based on the evidence provided in the documents. The reason succinctly",
+      "input_tokens": 855,
+      "output_tokens": 192,
+      "seconds": 14.949419700002181,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

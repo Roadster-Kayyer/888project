@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000227",
+  "doc_id": "1038",
+  "query_type": "formal",
+  "query": "What are the necessary papers needed to initiate a civil lawsuit?",
+  "corpus_query_index": 226,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.",
+  "context": "[Document 1]\nDocuments Required for Filing a Civil Case:\nRequired documents include:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Evidence supporting your claim\n- Affidavit (if required)\n- Court fee payment receipt\nPlease consult a lawyer for specific document requirements.\n\n[Document 2]\nFiling for Injunction Order:\nTo file for an injunction order, submit a petition under Order 39 of the Civil Procedure Code, 1908. Attach an affidavit and supporting documents to the petition, stating the grounds for the injunction. The court will then consider your application and pass an order.\n\n[Document 3]\nFiling an Industrial Dispute:\nTo file an industrial dispute, submit a written application to the Labor Commissioner or the Conciliation Officer, stating the nature of the dispute and the relief sought. The application should be signed by the worker or the union representative.\n\n[Document 4]\nFiling a case in the Company Law Board:\nThe Company Law Board has been replaced by the National Company Law Tribunal (NCLT). To file a case, you must:\n* Prepare a petition with required documents and fees\n* File the petition with the NCLT registry\n* Serve notice to the respondent\n\n[Document 5]\nFiling a Case in CBI Court:\nTo file a case in CBI Court, follow these steps:\n1. Lodge a complaint with the Central Bureau of Investigation (CBI).\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet in the CBI Court.",
+  "retrieved_doc_ids": [
+    "1038",
+    "1110",
+    "1094",
+    "1178",
+    "1172"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c41ceecf7a3da1f9f8dfbf3733f513ae1882a6bd656e23c4812f458e4f1a57a3",
+  "answer": "To initiate a civil lawsuit, you need:\n- Proof of identity and address\n- Relevant contracts or agreements\n- Supporting evidence\n- Affidavit (if required)\n- Court fee payment receipt [Document 1]",
+  "input_tokens": 448,
+  "output_tokens": 45,
+  "seconds": 5.861073300000498,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2054.6904296875
+}

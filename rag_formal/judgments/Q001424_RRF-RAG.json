@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001424",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure, supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate's answer is directly relevant to the question, correctly outlining the steps to report illegal tourism in national parks, and it is supported by the provided documents. The evidence directly corresponds to the information requested, and the reason succinctly explains the scores.",
+      "input_tokens": 809,
+      "output_tokens": 138,
+      "seconds": 10.681717300001765,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

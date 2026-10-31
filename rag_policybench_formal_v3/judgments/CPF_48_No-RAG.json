@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_48",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks direct evidence but is relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks direct evidence but is relevant to the question.\",\n  \"evidence\": \"null\"\n}\n\n\nThe correctness score is 1 because the candidate answer is relevant to the question but lacks specific details that directly tie it to the reference facts. The relevance score is 1 as the answer addresses the question of why the refund might have occurred, but it doesn't directly reference the provided reference facts about receiving other inflows. Faithfulness is null because there is no substantive factual claim made that can be directly supported or contradicted by the supplied evidence, which is stated as null. The reason succinctly explains the scores.",
+      "input_tokens": 427,
+      "output_tokens": 180,
+      "seconds": 13.771231799997622,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

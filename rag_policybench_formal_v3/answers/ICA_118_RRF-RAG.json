@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_118",
+  "doc_id": "PB_56ae394ef36d16f6c616",
+  "query_type": "ICA_134",
+  "query": "Does the date of arrival to Singapore in the SG Arrival Card (SGAC) or entry date refers to date of embarkation from last city/port?",
+  "reference_answer": "The \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.",
+  "corpus_query_index": 189,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.\n\n[Document 2]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.\n\n[Document 3]\nYou are expected to provide information that is true, accurate, and complete to the best of your knowledge and belief. If you are a short-term visitor, you must be able to provide a confirmed onward or return ticket (where applicable) to be considered for entry to Singapore. Please refer to ICA's entry requirements for more information. If you are an In-Principle Approval (IPA) letter holder, you may provide an indicative departure date that is 30 days from the arrival date and the same city as the last city/port of embarkation in your SG Arrival Card, if you do not have the information at the point of submission.\n\n[Document 4]\nUpon successful submission of the SG Arrival Card (SGAC), an acknowledgement email, which contains information on your arrival declarations will be sent to the email address provided in your SGAC submission. Foreign visitors will be able to find the Disembarkation/Embarkation (DE) number in the acknowledgement emails.Travellers who had submitted the SGAC at ICA e-Service will be able to download a PDF copy of their declarations after submission.Please be informed that the acknowledgement email would suffice. You can refer to the email spam/junk folder if you are unable to find the acknowledgement email in your email inbox.Upon arrival in Singapore, please show the acknowledgement email on your mobile device or a printout copy to the ICA officers.\n\n[Document 5]\nTravelling to Singapore by BusYou may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'BUS' under Vehicle Number.When the vehicle number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) MyICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" buttonTravelling to Singapore by RailIf you are travelling by rail, you may wish to submit your declaration on the same day of your arrival when you have the vehicle number. Alternatively, you may submit the declaration beforehand and indicate 'TRAIN' under Vehicle Number.When the train number is available, you may update your declaration via:a) the SG Arrival Card e-Service under \"Update a Submission\"; orb) ICA Mobile App: Select the submitted SG Arrival Card record and tap on the \"Edit\" button.Travelling to Singapore by FootIf you are travelling by foot, you may select mode of travel as 'BUS' and indicate 'NA' under Vehicle Number.",
+  "retrieved_doc_ids": [
+    "PB_56ae394ef36d16f6c616",
+    "PB_9b29b1a6d1890e3f7dca",
+    "PB_2bc174ceaf15f1ad5e40",
+    "PB_73d82fe26c9a986d734d",
+    "PB_ebd58cc24fe004fbabd6"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bc05fcb580ceb69b01203294ba5f9c978506c0130c4bedb7a51123b7d318fbb8",
+  "answer": "The date of arrival to Singapore in the SG Arrival Card (SGAC) refers to the expected arrival date or entry date to Singapore. It does not specifically refer to the date of embarkation from the last city/port. [Document 1]",
+  "input_tokens": 791,
+  "output_tokens": 50,
+  "seconds": 6.749575800000457,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

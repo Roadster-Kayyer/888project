@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_92",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the submission deadline for tax relief eligibility and correctly states that tax relief is based on the calendar year of top-up, not submission date."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the submission deadline for tax relief eligibility and correctly states that tax relief is based on the calendar year of top-up, not submission date.\"\n}",
+      "input_tokens": 1504,
+      "output_tokens": 192,
+      "seconds": 14.721561199999996,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

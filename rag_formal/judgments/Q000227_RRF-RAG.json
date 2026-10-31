@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000227",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists necessary documents and consultation with a lawyer, directly addressing the question and supported by evidence from multiple documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists necessary documents and consultation with a lawyer, directly addressing the question and supported by evidence from multiple documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe reason for the scores is that the candidate's answer is correct, directly relevant, and faithful to the evidence provided in the reference documents. The answer includes a list of necessary documents and the importance of consulting a lawyer, which aligns with the information given in the documents. The evidence from Documents 1 through 5 is used to support the factual claims made in the candidate's answer.",
+      "input_tokens": 840,
+      "output_tokens": 185,
+      "seconds": 14.415346099998715,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2639.21240234375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

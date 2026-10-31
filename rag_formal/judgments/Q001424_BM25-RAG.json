@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001424",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 3, which detail the procedure for reporting illegal tourism and provide contact information for relevant authorities."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 3, which detail the procedure for reporting illegal tourism and provide contact information for relevant authorities.\"\n}",
+      "input_tokens": 998,
+      "output_tokens": 192,
+      "seconds": 14.754725200000394,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

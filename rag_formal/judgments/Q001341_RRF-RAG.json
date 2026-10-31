@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001341",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the NDPS Act and its covered offenses, directly addresses the question, and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the NDPS Act and its offenses, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 797,
+      "output_tokens": 66,
+      "seconds": 5.106598800000938,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the NDPS Act and its covered offenses, directly addresses the question, and is supported by evidence from Document 1.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate and directly relevant to the question, and that the evidence provided in the documents supports the claims made in the candidate's answer. The reason given is a concise explanation of the scores.",
+      "input_tokens": 837,
+      "output_tokens": 113,
+      "seconds": 9.031128999999055,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

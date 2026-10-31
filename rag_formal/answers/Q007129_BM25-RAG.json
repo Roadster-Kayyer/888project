@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007129",
+  "doc_id": "40",
+  "query_type": "search",
+  "query": "Legal protections I receive upon being taken into custody?",
+  "corpus_query_index": 7128,
+  "system": "BM25-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nSurrendering in Court:\nTo surrender in court:\n1. Appear before the court with a lawyer, if possible.\n2. Inform the court that you want to surrender.\n3. The court will then take you into custody and proceed with the case.\n\n[Document 2]\nApplying for Legal Custody of Abandoned Children:\nTo apply for legal custody, contact the District Child Welfare Committee (CWC) or the nearest police station. They will guide you through the process. You will need to provide documents and undergo a background check. The CWC will then recommend your application to the Juvenile Justice Board for approval.\n\n[Document 3]\nFree Legal Aid:\nFree legal aid is provided through the Tamil Nadu State Legal Services Authority. You can:\n* Approach the nearest Legal Services Authority\n* Meet the eligibility criteria (income-based)\n* Receive free legal representation and advice\n\n[Document 4]\nPolice Custody vs. Judicial Custody:\nPolice custody: Held by police for interrogation (up to 15 days).\nJudicial custody: Held in jail under court supervision (after 15 days or if police custody ends).\n\n[Document 5]\nLegal Aid in Tamil Nadu:\nTo get legal aid, contact the Tamil Nadu State Legal Services Authority (TLSA) or visit a nearby Legal Services Institution. You can also call the TLSA helpline. Eligible individuals can receive free legal assistance from panel lawyers.",
+  "retrieved_doc_ids": [
+    "1035",
+    "1962",
+    "765",
+    "48",
+    "1824"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "778aba7b1324e3711fa0f9330fd2baac2599fbd4250ec7d69ee2cc151b03d7ae",
+  "answer": "When taken into custody by the police, you are held for up to 15 days. After this, you may be moved to judicial custody under court supervision. Legal aid is available through the Tamil Nadu State Legal Services Authority, which provides free legal representation and advice. [Document 4]",
+  "input_tokens": 410,
+  "output_tokens": 60,
+  "seconds": 7.905416900001001,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

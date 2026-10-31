@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_12",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] The information in the MediShield Life Scheme booklet is correct as of 1 April 2025.\"\n}\n\n\nThe candidate answer is correct, directly relevant, and fully faithful to the evidence provided in Document 1. The reason succinctly explains the scores.",
+      "input_tokens": 660,
+      "output_tokens": 125,
+      "seconds": 10.263129600003595,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

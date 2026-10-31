@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008524",
+  "doc_id": "651",
+  "query_type": "search",
+  "query": "What are the legal repercussions of assaulting someone at school?",
+  "corpus_query_index": 8523,
+  "system": "Dense-RAG",
+  "reference_answer": "Assault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.",
+  "context": "[Document 1]\nAssault in Educational Institutions:\nAssault in educational institutions can lead to imprisonment up to 3 years and/or a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and other relevant laws, including the IPC.\n\n[Document 2]\nAssault with Sexual Intent:\nThe penalty for assault with sexual intent can range from 1-5 years imprisonment under Section 354 of the Indian Penal Code (IPC). Fines may also be imposed.\n\n[Document 3]\nConsequences for Assault with Minor Injuries:\nAssault causing minor injuries can be punished with imprisonment up to 1 year or a fine up to ₹1,000, or both, under Section 323 of the IPC.\n\n[Document 4]\nAssault during Labor Disputes:\nThe penalty for assault during labor disputes can lead to imprisonment up to 3 years and/or a fine, under the Indian Penal Code (IPC) Section 325.\n\n[Document 5]\nAssaulting Persons with Disabilities:\nThe penalty for assaulting persons with disabilities can lead to imprisonment of up to 5 years and a fine, as per the Rights of Persons with Disabilities Act, 2016.",
+  "retrieved_doc_ids": [
+    "651",
+    "688",
+    "645",
+    "679",
+    "655"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d1504fb20e1fd788a2e198169b467705daa3808bc6fa8063dce261064379bf2b",
+  "answer": "Legal repercussions of assaulting someone at school include up to 3 years imprisonment and a fine, under the Tamil Nadu Prohibition of Harassment of Women Act and IPC. Assaults with sexual intent can result in 1-5 years imprisonment and fines. Assaults causing minor injuries can lead to up to 1 year imprisonment or a fine of ₹1,000. Assaults during labor disputes can lead to up to 3 years imprisonment and fines. Assaulting persons with disabilities can lead to up to 5 years imprisonment and a fine. [Document 1]",
+  "input_tokens": 368,
+  "output_tokens": 117,
+  "seconds": 15.103549600000406,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

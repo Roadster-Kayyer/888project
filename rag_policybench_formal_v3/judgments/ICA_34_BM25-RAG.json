@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_34",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes SGAC, its purpose, and the process, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n0,\n\"reason\": \"Candidate answer accurately describes SGAC, its purpose, and the process involving D/E number and acknowledgement email, supported by evidence from Document 1.\"\n}",
+      "input_tokens": 1138,
+      "output_tokens": 192,
+      "seconds": 15.163112500013085,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes SGAC, its purpose, and the process, supported by evidence from all documents.\"}",
+      "input_tokens": 1178,
+      "output_tokens": 48,
+      "seconds": 4.021561499990639,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

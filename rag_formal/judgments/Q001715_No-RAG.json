@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001715",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe correctness score is 1 because the candidate answer does touch upon the process of acquiring a TDS endorsement, which is relevant to the question. However, it fails to directly address the specifics of Tamil Nadu's process as outlined in the reference, which would be necessary for full correctness. The relevance score is 1 because the answer is related to the topic of acquiring a TDS endorsement but does not directly quote or paraphrase the reference's instructions. Faithfulness is null because there is no substantive factual claim in the candidate",
+      "input_tokens": 443,
+      "output_tokens": 192,
+      "seconds": 15.024762900000496,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

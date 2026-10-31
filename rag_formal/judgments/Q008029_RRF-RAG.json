@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008029",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies fines and imprisonment penalties for harassment and unauthorized vending, supported by Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states fines and imprisonment for harassment and unauthorized vending, supported by Document 1 and Document 2.\",\n}",
+      "input_tokens": 820,
+      "output_tokens": 73,
+      "seconds": 5.751646199998504,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies fines and imprisonment penalties for harassment and unauthorized vending, supported by Document 1 and Document 2.\"}\n\n\nNote: The scores are based on the candidate's answer being correct (2 for correctness), directly addressing the question (2 for relevance), and the factual claims being supported by the evidence provided in the documents (2 for faithfulness). The brief explanation succinctly summarizes the reasoning behind the scores.",
+      "input_tokens": 860,
+      "output_tokens": 128,
+      "seconds": 9.896759600000223,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

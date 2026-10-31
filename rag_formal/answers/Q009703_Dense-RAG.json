@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009703",
+  "doc_id": "864",
+  "query_type": "casual",
+  "query": "Can you tell me about the pink police patrol and how to reach them?",
+  "corpus_query_index": 9702,
+  "system": "Dense-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nContacting the Nearest All Women Police Station:\nTo contact the nearest All Women Police Station, you can:\n- Call the Tamil Nadu Police helpline: 100\n- Visit the Tamil Nadu Police website for station locations and contact numbers\n- Ask your local police station for directions to the nearest All Women Police Station\n\n[Document 3]\nFiling a Complaint about Illegal Red/Blue Beacons:\nTo report unauthorized use of red/blue beacons, contact the Tamil Nadu Police Department's helpline (87544 48484) or visit the nearest police station. Provide vehicle details, including number plate and location.\n\n[Document 4]\nAccessing Women Helpline Services:\nTo access the Tamil Nadu Police women helpline services, dial 181 or visit the nearest All-Women Police Station. You can also download the Tamil Nadu Police mobile app for assistance.\n\n[Document 5]\nWomen's Helpline:\nTo find a women's helpline in your city, you can:\n- Call 181 (Tamil Nadu Women's Helpline)\n- Visit the Tamil Nadu Police website\n- Contact your local police station for assistance",
+  "retrieved_doc_ids": [
+    "864",
+    "823",
+    "979",
+    "1010",
+    "275"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "2018b8624adeb3f1a512dc5160473533b4a79b4bfe3aad03660450b800ae0d2d",
+  "answer": "The Pink Police Patrol is a women's safety unit in Tamil Nadu. Contact them at 94981 95555 or use the Tamil Nadu Police Emergency Number 100. For all women police stations, call 100 or visit their website for locations and contact numbers. [Document 1]",
+  "input_tokens": 429,
+  "output_tokens": 69,
+  "seconds": 8.86516969999866,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

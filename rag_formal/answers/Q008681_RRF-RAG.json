@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008681",
+  "doc_id": "680",
+  "query_type": "original",
+  "query": "What punishment can be given for violence during bandhs or strikes?",
+  "corpus_query_index": 8680,
+  "system": "RRF-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 3]\nMob Violence:\nMob violence can lead to punishment under Section 147-149 of the IPC, with imprisonment up to 3 years and/or a fine. In severe cases, it can also lead to charges under Section 307 (attempt to murder) with imprisonment up to 10 years.\n\n[Document 4]\nViolence related to Witch-Hunting:\nViolence related to witch-hunting is punishable under Section 302 (murder) or 304 (culpable homicide) of the IPC. The punishment can range from 7 years to life imprisonment.\n\n[Document 5]\nCaste-Based Violence:\nThe punishment for caste-based violence in Tamil Nadu can range from 6 months to 5 years of imprisonment and a fine, as per the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989.",
+  "retrieved_doc_ids": [
+    "680",
+    "683",
+    "650",
+    "692",
+    "677"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "df044bceaf091443702c09fbdf0612a68664a59d22af927c3565dd083b15cd91",
+  "answer": "For violence during bandhs or strikes, the punishment can be up to 3 years in prison and/or a fine, under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). [Document 1]",
+  "input_tokens": 413,
+  "output_tokens": 54,
+  "seconds": 6.901487899998756,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

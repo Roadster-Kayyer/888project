@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_70",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes differences, eligibility, and limits for each account type, supported by evidence from documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes differences, eligibility, and limits for each account type, supported by evidence from documents.\"\n}",
+      "input_tokens": 2108,
+      "output_tokens": 72,
+      "seconds": 6.15547010001319,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

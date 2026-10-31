@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008026",
+  "doc_id": "562",
+  "query_type": "original",
+  "query": "What punishment can be given for harassing street vendors?",
+  "corpus_query_index": 8025,
+  "system": "BM25-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 2]\nMinor Street Fights:\nMinor street fights in Tamil Nadu can be charged under Section 151 of the IPC (causing disturbance) or Section 160 (affray). The punishment can be imprisonment for up to 1 month or a fine of up to ₹1,000.\n\n[Document 3]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 4]\nHarassing Divorced Women:\nHarassing divorced women can be considered a form of domestic violence or stalking. The punishment can range from imprisonment for up to 3 years, or a fine, or both, under the Protection of Women from Domestic Violence Act, 2005, and Section 354D (Stalking) of the IPC.\n\n[Document 5]\nHarassing Public Transport Staff:\nHarassing public transport staff is an offense under the IPC and the Tamil Nadu Public Transport Corporations Act. The punishment can range from 1 year to 3 years of imprisonment and/or a fine.",
+  "retrieved_doc_ids": [
+    "562",
+    "494",
+    "528",
+    "581",
+    "561"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "83625ed696aa425c01be6cfac758c39a86f85caa453b4e3a7c11aba892b84a17",
+  "answer": "For harassing street vendors, punishment can include up to 3 years in prison and/or a fine of up to ₹5,000 under Tamil Nadu's Street Vendors Rules [Document 1].",
+  "input_tokens": 422,
+  "output_tokens": 42,
+  "seconds": 5.425647599997319,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

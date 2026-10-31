@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007954",
+  "doc_id": "549",
+  "query_type": "search",
+  "query": "What are the repercussions of threatening to kill someone?",
+  "corpus_query_index": 7953,
+  "system": "Dense-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nThreats to Mental Health Patients:\nThreatening mental health patients is a serious offense. Under the Mental Healthcare Act, 2017, it can lead to imprisonment up to 6 months and/or a fine.\n\n[Document 2]\nSuicide Threats:\nMaking suicide threats is a punishable offense. Under Section 506 of the IPC, it can lead to imprisonment up to 7 years and/or a fine.\n\n[Document 3]\nThreatening Witnesses:\nThreatening witnesses is punishable under Section 195A of the IPC. The punishment can be imprisonment up to 7 years, or a fine, or both.\n\n[Document 4]\nThreatening to Damage Property:\nAccording to the Indian Penal Code (IPC), threatening to damage property is punishable under Section 506. The punishment can be imprisonment up to 2 years, or a fine, or both.\n\n[Document 5]\nMaking Bomb Threats:\nMaking bomb threats can be considered a form of criminal intimidation under the IPC Section 506. The punishment can range from 1 to 7 years of imprisonment and a fine. Additionally, it can also be considered a terrorist act under the Unlawful Activities (Prevention) Act, 1967, with punishment ranging from 5 years to life imprisonment.",
+  "retrieved_doc_ids": [
+    "585",
+    "584",
+    "552",
+    "550",
+    "570"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d5d5e293bfe1eb4b8410ec8f8eba68257136cbb487244cf6ec649eb99bc3a1c0",
+  "answer": "The repercussions vary but generally include imprisonment up to 7 years and/or a fine. Threats to mental health patients can lead to up to 6 months in prison. Making suicide threats can result in up to 7 years in prison. Threatening witnesses can lead to up to 7 years. Threatening to damage property can result in up to 2 years. Making bomb threats can lead to 1-7 years in prison and potentially longer under terrorism laws. [Document 1-5]",
+  "input_tokens": 393,
+  "output_tokens": 102,
+  "seconds": 13.351665800000774,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

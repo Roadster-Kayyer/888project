@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001208",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by evidence from Document 1.\",\n}",
+      "input_tokens": 1005,
+      "output_tokens": 192,
+      "seconds": 14.975009599998884,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing accurate contact information and methods for reporting, supported by evidence from Document 1.\"}\n\nNote: The \"faithfulness\" score is set to 2 because the candidate answer includes all substantive factual claims (contact information and methods for reporting illegal mining) that are directly supported by the evidence provided in Document 1. There is no evidence suggesting unsupported or contradicted claims.",
+      "input_tokens": 1045,
+      "output_tokens": 115,
+      "seconds": 8.987509099999443,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

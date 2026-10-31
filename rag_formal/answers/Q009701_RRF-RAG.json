@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009701",
+  "doc_id": "864",
+  "query_type": "original",
+  "query": "What is the pink police patrol and how do I contact them?",
+  "corpus_query_index": 9700,
+  "system": "RRF-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nPolice Patrol Request:\nYes, you can request police patrol in your locality by:\n- Contacting your local police station\n- Calling the police control room (100)\n- Filing a request through the Tamil Nadu Police website or mobile app\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 5]\nContacting Highway Patrol:\nTo contact Highway Patrol units in Tamil Nadu, dial the toll-free number 103 or 108. You can also contact the nearest police station or the Tamil Nadu Police Department's helpline for assistance.",
+  "retrieved_doc_ids": [
+    "864",
+    "276",
+    "253",
+    "255",
+    "1924"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1a821350fbe5c064305ad27e172732847f08f1da75aa81245d9c1dcd0dfaff79",
+  "answer": "The Pink Police Patrol is a women's safety unit in Tamil Nadu. Contact them at 94981 95555 or 100. For regular police patrols, contact your local police station or use 100. [Document 1]",
+  "input_tokens": 416,
+  "output_tokens": 58,
+  "seconds": 7.5005439999986265,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

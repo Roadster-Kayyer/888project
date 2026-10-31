@@ -1,0 +1,31 @@
+{
+  "query_id": "ICA_101",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states that PR status is not required for citizenship application and aligns with Document 1, while also mentioning additional requirements from Document 3 and 5.\",\n}\n\n\nIn the provided candidate answer, the correctness score is 2 because the answer is correct and covers the main reference fact that a Permanent Resident status is not required to apply for Singapore citizenship. The relevance score is 2 because the answer directly addresses the question by stating that PR status is not needed for citizenship application and also hints at other relevant conditions like birth outside Singapore or having a valid REP. The faithfulness score is 2 because the candidate answer is fully supported by the evidence provided in Document 1 and implicitly by Document",
+      "input_tokens": 708,
+      "output_tokens": 192,
+      "seconds": 14.80267210000602,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question and is supported by Document 1.\"}",
+      "input_tokens": 748,
+      "output_tokens": 40,
+      "seconds": 3.3289880999946035,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

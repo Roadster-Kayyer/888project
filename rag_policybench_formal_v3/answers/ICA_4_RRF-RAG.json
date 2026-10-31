@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_4",
+  "doc_id": "PB_552a298a8583e182f7ef",
+  "query_type": "ICA_134",
+  "query": "What is the difference between a Dependant's Pass (DP) and a Long-Term Visit Pass (LTVP)?",
+  "reference_answer": "Dependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.",
+  "corpus_query_index": 236,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nDependant's Pass (DP) is issued to dependants of eligible work pass holders by Ministry of Manpower whilst Long-Term Visit Pass (LTVP) is generally issued to dependants of eligible Singapore citizens/Singapore Permanent Residents by ICA.\n\n[Document 2]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 3]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 4]\nLong-Term Visit Pass (LTVP) renewal applicants who are eligible for the LTVP extension will receive an email notification to inform you on the 3-month extension for your current LTVP. This is an interim arrangement while we process your LTVP renewal application. We will inform you the outcome of your renewal application via email.\n\n[Document 5]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.",
+  "retrieved_doc_ids": [
+    "PB_552a298a8583e182f7ef",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_d36aa50f901554971814",
+    "PB_b57a1848f1c7ce667389",
+    "PB_f07373f2f002f0f7b2ed"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "44c74926495a4e298380c0c7622c02cf86a2fba4c64344c1cc974ff3dc9122ad",
+  "answer": "A Dependant's Pass (DP) is issued by the Ministry of Manpower, while a Long-Term Visit Pass (LTVP) is issued by Immigration & Checkpoints Authority (ICA). DP holders don't need a Student's Pass for non-religious studies, but LTVP holders do. LTVPs were last issued physically; now they're digital. DP holders can use their digital LTVP in Singpass app, whereas LTVP holders under 15 need to report to ICA for a digital replacement. [Document 1]",
+  "input_tokens": 559,
+  "output_tokens": 111,
+  "seconds": 14.509191900011501,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

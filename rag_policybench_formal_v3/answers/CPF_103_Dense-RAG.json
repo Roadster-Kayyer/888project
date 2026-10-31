@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_103",
+  "doc_id": "PB_474d6298f86507ebfa6a",
+  "query_type": "CPF_111",
+  "query": "I have outstanding MediSave payable. Why am I not able to make voluntary top-ups to my CPF accounts or on another person's behalf?",
+  "reference_answer": "As a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).",
+  "corpus_query_index": 61,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).\n\n[Document 2]\nThe application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.\n\n[Document 3]\nYou’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.\n\n[Document 4]\nCash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.\n\n[Document 5]\nThecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply",
+  "retrieved_doc_ids": [
+    "PB_474d6298f86507ebfa6a",
+    "PB_bc2b027060817e0f3bc3",
+    "PB_c4f12e1a849b705fc8a2",
+    "PB_dfb47de04d492b3b972f",
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "trimmed_doc_ids": [
+    "PB_95a5467e7a1008fc8501"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "42bb4d4570b188acd4ad91ad622c8c13c1e125a41b8114e2ffc1b664014600f1",
+  "answer": "You are not able to make voluntary top-ups to your CPF accounts or on another person's behalf if you have outstanding MediSave payable. According to [Document 1], you need to be up-to-date with your MediSave payable to make these transactions. [Document 2] states that processing times vary but typically include checking your CPF account balance after five working days if your payment isn't reflected. [Document 1] also mentions that payments must be made separately from employee CPF contributions. [Document 3] notes that cash top-ups are only allowed for specific reasons, not for regular voluntary contributions. [Document 5] explains that the combined tax relief applies to cash top-ups to both the Retirement Account and MediSave Account, aligning eligibility conditions. [Document 1] further clarifies",
+  "input_tokens": 774,
+  "output_tokens": 160,
+  "seconds": 20.560092300001998,
+  "hit_token_limit": true,
+  "peak_allocated_mb": 2292.9912109375
+}

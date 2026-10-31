@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002128",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects police roles in forest rights and land protection, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects police roles in forest rights and land protection, supported by evidence from all documents.\"\n}\n\n\nThe candidate's answer is correct, directly relevant, and fully supported by the evidence provided in the documents. The answer covers the main points about police handling forest rights violations, protecting tribal land rights, and reporting forest offenses, which are all mentioned in the reference documents. The faithfulness score is 2 because the candidate's answer is substantiated by the evidence from the documents, which detail the specific actions taken by the police in these contexts. The reason succinctly explains the scores, indicating that the answer is accurate, relevant, and evidence-based.",
+      "input_tokens": 872,
+      "output_tokens": 186,
+      "seconds": 14.633606499999587,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_22",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by Document 1, which states that workers in need will continue to qualify for WIS concessions despite earning less than $500 monthly."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by Document 1, which states that workers in need will continue to qualify for WIS concessions despite earning less than $500 monthly.\"\n}",
+      "input_tokens": 1628,
+      "output_tokens": 192,
+      "seconds": 15.014133100004983,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

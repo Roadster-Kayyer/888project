@@ -1,0 +1,31 @@
+{
+  "query_id": "Q009876",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the process for reporting casteist discrimination, citing appropriate documents and authorities, and aligns with the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the process for reporting casteist discrimination, citing relevant documents and providing accurate procedures for reporting to authorities and police, which are supported by the evidence provided.\",\n}",
+      "input_tokens": 890,
+      "output_tokens": 192,
+      "seconds": 14.986650099999679,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the process for reporting casteist discrimination, citing appropriate documents and authorities, and aligns with the evidence provided.\"}",
+      "input_tokens": 930,
+      "output_tokens": 57,
+      "seconds": 4.788229700003285,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

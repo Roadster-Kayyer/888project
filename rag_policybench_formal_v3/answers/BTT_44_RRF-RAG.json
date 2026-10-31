@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_44",
+  "doc_id": "PB_9052a5e8fd06cabd45d4",
+  "query_type": "BTT",
+  "query": "What does the road sign indicating 'Road narrows on one side' signify?",
+  "reference_answer": "It warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.",
+  "corpus_query_index": 39,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIt warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.\n\n[Document 2]\nIt indicates the centre line of a two-way road.\n\n[Document 3]\nGive way to vehicles from the side road entering the main road.\n\n[Document 4]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 5]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+  "retrieved_doc_ids": [
+    "PB_9052a5e8fd06cabd45d4",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_66d3da627b3ea10f22bd",
+    "PB_4479f84c1b73422f7e24",
+    "PB_716429660f2efd24efb8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c2d31ce36be82379d7c0366299d2f24bb782e27c2aa1f63d12d54a7644f118d9",
+  "answer": "The sign signifies that the road ahead will narrow on one side, requiring drivers to be cautious and possibly adjust their lane position. [Document 1]",
+  "input_tokens": 277,
+  "output_tokens": 31,
+  "seconds": 4.0563401999970665,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

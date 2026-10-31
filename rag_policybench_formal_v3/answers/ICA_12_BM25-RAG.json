@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_12",
+  "doc_id": "PB_ee80f8d345424676a47b",
+  "query_type": "ICA_134",
+  "query": "How do I know which designated lanes to use on arrival and is it applicable for all checkpoints?",
+  "reference_answer": "There will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.",
+  "corpus_query_index": 191,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThere will be signages to inform eligible foreign visitors to use the designated lanes for immigration clearance at the respective passenger halls.These designated lanes are currently available at Tuas Checkpoint, Woodlands Checkpoint and Marina Bay Cruise Centre.Travellers of all nationalities, entering via Changi Airport Arrival Terminals are eligible to seek clearance at the automated lanes.\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 3]\nYour agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.\n\n[Document 4]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 5]\nOn sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).",
+  "retrieved_doc_ids": [
+    "PB_ee80f8d345424676a47b",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_f06f7bf4b4cb01868d1c",
+    "PB_8171046f23dbdf9c0430",
+    "PB_463ffaad763bace6d774"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7ca3d2689bb049fc6ab82af1f3eb48f068d2afb987afb51bb770187bc622c37f",
+  "answer": "At Singapore land checkpoints, eligible foreign visitors can use designated lanes for immigration clearance at Tuas, Woodlands, and Marina Bay Cruise Centre. These lanes are available for all nationalities entering via Changi Airport Arrival Terminals. [Document 1] Additionally, travellers can use QR codes instead of passports for faster clearance. [Document 2] However, the availability of these lanes may vary based on the type of pass and passport validity. [Document 1] Always check the latest updates on the MOH and ICA websites for evolving travel and health control measures. [Document 4]",
+  "input_tokens": 856,
+  "output_tokens": 120,
+  "seconds": 16.24818109998887,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

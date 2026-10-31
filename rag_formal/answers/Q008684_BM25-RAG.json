@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008684",
+  "doc_id": "680",
+  "query_type": "search",
+  "query": "What are the legal consequences of violence occurring during strikes?",
+  "corpus_query_index": 8683,
+  "system": "BM25-RAG",
+  "reference_answer": "Violence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).",
+  "context": "[Document 1]\nViolence during Bandhs or Strikes:\nViolence during bandhs or strikes can lead to imprisonment up to 3 years and/or a fine, under the IPC Section 307 (attempt to murder) or Section 325 (grievous hurt).\n\n[Document 2]\nProperty Damage During Disputes:\nLegal consequences can include compensation to the affected party and punishment under the Indian Penal Code (IPC) for criminal trespass and mischief.\n\n[Document 3]\nViolence during Sporting Events:\nCausing violence during sporting events can lead to imprisonment for up to 1 year and/or a fine, as per the Tamil Nadu Public Order Act and the IPC.\n\n[Document 4]\nAssault During Forced Evictions:\nThe legal consequences for assault during forced evictions in Tamil Nadu can lead to imprisonment of up to 7 years and a fine, as per the IPC Section 323 and 325, and may also attract provisions under the Tamil Nadu Prevention of Eviction Act.\n\n[Document 5]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.",
+  "retrieved_doc_ids": [
+    "680",
+    "713",
+    "683",
+    "678",
+    "2033"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "afa85926e8674d6c1ba2ae4a68a09ecd5d4f169fb8d95184aa8530dbcd954636",
+  "answer": "Violence during strikes can result in up to 3 years imprisonment and/or a fine under IPC Sections 307 (attempt to murder) or 325 (grievous hurt). Property damage can lead to compensation and fines under IPC. Violence in other contexts like sporting events and forced evictions carry different penalties. [Document 1]",
+  "input_tokens": 375,
+  "output_tokens": 73,
+  "seconds": 9.596384500000568,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

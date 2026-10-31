@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_35",
+  "doc_id": "PB_043f86bad043c042932a",
+  "query_type": "BTT",
+  "query": "What is a topic discussed when learning the basic theory of driving in Singapore?",
+  "reference_answer": "Basic theory of driving.",
+  "corpus_query_index": 29,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 3]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 4]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.\n\n[Document 5]\nThe \"Date of Arrival to Singapore\" in the SG Arrival Card refers to the expected arrival date or entry date to Singapore.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_5b5856d1886897cce5a3",
+    "PB_8d18fc446288ee1e6348",
+    "PB_b8d04a1b8133012c6cf8",
+    "PB_56ae394ef36d16f6c616"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b8336f8171bcdffa6a2bf77826348efc84e77b91afbeb3e028b1d30afc7f6691",
+  "answer": "A topic discussed is Basic theory of driving. [Document 1] mentions it directly.",
+  "input_tokens": 311,
+  "output_tokens": 19,
+  "seconds": 283.19168920000084,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

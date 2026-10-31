@@ -1,0 +1,31 @@
+{
+  "retrieval_legal": {
+    "documents": 2090,
+    "queries": 10450,
+    "all_rankings_valid_permutations": true
+  },
+  "retrieval_policybench": {
+    "documents": 331,
+    "queries": 331,
+    "all_rankings_valid_permutations": true
+  },
+  "formal_legal": {
+    "n_queries": 400,
+    "n_answers": 1600,
+    "n_valid_judgments": 1600,
+    "n_reviewed_correctness": 80
+  },
+  "formal_policybench": {
+    "n_queries": 327,
+    "n_answers": 1308,
+    "n_valid_judgments": 1308,
+    "n_reviewed_correctness": 80
+  },
+  "notebooks_executed_without_errors": [
+    "Legal_FAQ_Retrieval_Experiment.ipynb",
+    "Experiment_1_Retrieval_Supplement.ipynb",
+    "Experiment_2_RAG_Generation_Evaluation.ipynb",
+    "Experiment_3_PolicyBench_Validation.ipynb"
+  ],
+  "scope": "Computational integrity only. Researcher judgment, source verification and thesis claims remain subject to review."
+}

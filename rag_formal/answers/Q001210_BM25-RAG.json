@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001210",
+  "doc_id": "1215",
+  "query_type": "hard",
+  "query": "What's the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves?",
+  "corpus_query_index": 1209,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Illegal Mining:\nTo report illegal mining in forest areas of Tamil Nadu, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit the nearest forest range office. You can also report anonymously through the department's website or mobile app.",
+  "context": "[Document 1]\nReporting Illegal Mining:\nTo report illegal mining in forest areas of Tamil Nadu, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit the nearest forest range office. You can also report anonymously through the department's website or mobile app.\n\n[Document 2]\nReporting Illegal Sand Mining to PWD:\nTo report illegal sand mining, contact the Tamil Nadu PWD or the District Collector's office. You can also call the toll-free helpline or submit a complaint online through the Tamil Nadu Government's portal. Provide location details and any evidence of illegal mining.\n\n[Document 3]\nIllegal Mining:\nPunishment for illegal mining in Tamil Nadu can include imprisonment up to 5 years and a fine up to ₹5 lakhs under the Tamil Nadu Minerals Concession Rules.\n\n[Document 4]\nProcedure for Quarry or Mining Accidents:\nIn case of a quarry or mining accident:\n1. Police receive information and rush to the site.\n2. They secure the area and provide first aid.\n3. Experts from mining departments and rescue teams are called in.\n4. Investigation into the cause of the accident is conducted.\n\n[Document 5]\nPolice Help during Natural Disasters:\nDuring natural disasters in remote areas, call the Tamil Nadu Police helpline (100) or the National Disaster Response Force (NDRF) helpline. Provide your location and details of the emergency. Police and disaster response teams will respond promptly to provide assistance. You can also contact local authorities, such as the District Collector's office, for help.",
+  "retrieved_doc_ids": [
+    "1215",
+    "1290",
+    "703",
+    "1562",
+    "1398"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a0ccd179b28b3bbbb5de96845085e7aefb7cea7805453f0eb6de04763abebde4",
+  "answer": "To report unlicensed mining in Tamil Nadu's natural reserves, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit their nearest office. Alternatively, report anonymously through their website or mobile app. [Document 1] Punishment includes up to 5 years in prison and a fine of ₹5 lakhs. For quarry or mining accidents, police secure the area, experts investigate, and first aid is provided. [Document 4]",
+  "input_tokens": 449,
+  "output_tokens": 104,
+  "seconds": 13.643337199999223,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

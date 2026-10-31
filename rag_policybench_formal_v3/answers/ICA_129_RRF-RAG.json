@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_129",
+  "doc_id": "PB_3579b1ce15984a462107",
+  "query_type": "ICA_134",
+  "query": "How can I appeal if my Singapore Permanent Residence (PR) application is rejected or unsuccessful?",
+  "reference_answer": "You may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.",
+  "corpus_query_index": 201,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 4]\nYou may consider submitting a fresh application for permanent residence online if there are changes to your circumstances.\n\n[Document 5]\nIf you have submitted your application on or after 26 June 2024, you may log in to the ICA e-Service with your reference number to check the status of your Singapore Citizenship, Permanent Residence or Long-Term Visit Pass application.You will be redirected to the Case Summary page where you can check your status enquiry.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_16464034b8fc8059eece",
+    "PB_3579b1ce15984a462107",
+    "PB_c6456fad7242c379cac1"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "672c118ffb8839123cbc50a138930e2490dbb1fa760ea0b97ebb3b4d7430b5c3",
+  "answer": "To appeal a rejected PR application, you can submit a fresh application online using your reference number. Check the ICA e-Service for your application status. [Document 4] & [Document 5]",
+  "input_tokens": 332,
+  "output_tokens": 43,
+  "seconds": 5.54797120000876,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

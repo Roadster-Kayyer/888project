@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000835",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process and includes evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and includes evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nThe candidate answer is directly relevant to the question, correctly outlines the steps to secure a clearance slip, and is supported by the evidence provided in Document 1. The answer is comprehensive and aligns with the reference, thus receiving a high score in all categories.",
+      "input_tokens": 761,
+      "output_tokens": 126,
+      "seconds": 9.729295599998295,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

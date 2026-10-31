@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002128",
+  "doc_id": "1381",
+  "query_type": "casual",
+  "query": "So, what's the deal with the cops when it comes to stopping people from breaking rules in the woods where tribes live?",
+  "corpus_query_index": 2127,
+  "system": "BM25-RAG",
+  "reference_answer": "Forest Rights Violations:\nIn tribal areas, police handle forest rights violations by:\n* Registering complaints from tribal communities\n* Investigating cases of encroachment or exploitation\n* Collaborating with forest departments to resolve issues\n* Ensuring protection of tribal rights under the Forest Rights Act",
+  "context": "[Document 1]\nQ2: What is a Zero FIR and when can I file it?\nA Zero FIR is a report filed at any police station, regardless of the crime location. You can file a Zero FIR if the crime occurred outside the police station's jurisdiction, and the station will then forward it to the relevant station.\n\n[Document 2]\nRights under Protection of Women from Domestic Violence Act:\nWomen have the right to:\n* Live in a shared household without fear of violence\n* Protection from physical, emotional, and economic abuse\n* Access to medical and legal aid\n* Right to file a complaint against the abuser\n\n[Document 3]\nMeeting a Prisoner in Tamil Nadu Jails:\nTo meet a prisoner, obtain a permission letter from the Jail Superintendent or authorities. Provide the prisoner's name, jail name, and your relationship with the prisoner. Follow the jail's visiting hours and rules.\n\n[Document 4]\nThreatening People with Disabilities:\nThreatening people with disabilities can be considered a form of harassment under the Rights of Persons with Disabilities Act, 2016. The punishment can range from 6 months to 5 years of imprisonment and a fine, as per the Act.\n\n[Document 5]\nReporting Bomb Threats:\nIf you receive a bomb threat, stay calm and call the police at 100 or the local police station. Provide as much information as possible, including the time and details of the threat. Follow instructions from the authorities and evacuate the area if instructed to do so.",
+  "retrieved_doc_ids": [
+    "800",
+    "1890",
+    "1157",
+    "569",
+    "933"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "62c76b312dfd1d8b7b8a63b7bea237cbc321cb8468a97b85bcded29bfa94a175",
+  "answer": "In forests where tribes live, police can still issue Zero FIRs for crimes outside their jurisdiction. However, specific tribal laws or protections may apply, which are not detailed here. Police presence is limited, so reporting rules might differ. [Document 1]",
+  "input_tokens": 444,
+  "output_tokens": 52,
+  "seconds": 6.628639299999122,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

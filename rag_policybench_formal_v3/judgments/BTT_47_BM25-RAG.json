@@ -1,0 +1,31 @@
+{
+  "query_id": "BTT_47",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "No information on consequences of non-compliance with prohibitory signs is provided in the documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer does not address the question and lacks relevant information.\",\n}",
+      "input_tokens": 712,
+      "output_tokens": 54,
+      "seconds": 4.318263299996033,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":0,\"relevance\":0,\"faithfulness\":null,\"reason\":\"No information on consequences of non-compliance with prohibitory signs is provided in the documents.\"}",
+      "input_tokens": 752,
+      "output_tokens": 42,
+      "seconds": 3.4000431999884313,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

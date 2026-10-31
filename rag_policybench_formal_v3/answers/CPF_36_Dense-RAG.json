@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_36",
+  "doc_id": "PB_1d9c2ab7fd656dcb2b40",
+  "query_type": "CPF_111",
+  "query": "My child is below 16 years old. How do I transfer his Ordinary Account savings to his Special Account on his behalf?",
+  "reference_answer": "If your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.",
+  "corpus_query_index": 97,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIf your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.\n\n[Document 2]\nCPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.\n\n[Document 3]\nYou can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.\n\n[Document 4]\nYou can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.\n\n[Document 5]\nThe first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+  "retrieved_doc_ids": [
+    "PB_1d9c2ab7fd656dcb2b40",
+    "PB_7056bc0f8ffd2e5c1abc",
+    "PB_aa985d2195d6653bfb7f",
+    "PB_abe00f9d815aa54ee0f5",
+    "PB_b530c3042e7202136bc5"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "09441d6a249dccc04fa02b2617da83f6ac29964a88f0ddcbb71d28b6454d997e",
+  "answer": "To transfer his Ordinary Account savings to his Special Account, you can complete the application on his behalf. [Document 1]",
+  "input_tokens": 620,
+  "output_tokens": 26,
+  "seconds": 3.6856798000080744,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

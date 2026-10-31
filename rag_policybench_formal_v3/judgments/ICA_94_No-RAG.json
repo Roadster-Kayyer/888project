@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_94",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer suggests checking details but lacks specific guidance from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Answer suggests checking details but lacks specific guidance from the reference.\",\n  \"evidence\": null\n}",
+      "input_tokens": 441,
+      "output_tokens": 192,
+      "seconds": 14.601902299997164,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

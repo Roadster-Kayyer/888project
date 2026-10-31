@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007120",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the question with a suggested approach but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the question with a suggested approach but lacks direct evidence from the reference.\",\n  \"evidence\": \"[Document 1] (partially relevant but does not directly address the hospital gift issue)\"\n}",
+      "input_tokens": 786,
+      "output_tokens": 192,
+      "seconds": 14.819973699995899,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

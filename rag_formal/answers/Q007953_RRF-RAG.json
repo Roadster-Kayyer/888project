@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007953",
+  "doc_id": "549",
+  "query_type": "casual",
+  "query": "So what happens if you say someone is going to die?",
+  "corpus_query_index": 7952,
+  "system": "RRF-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nRecording Dying Declarations:\nA dying declaration is recorded by a police officer or a magistrate in the presence of a doctor. The statement is taken from a person who is seriously injured or ill and is likely to die. The declaration is recorded in the person's own words, and their statement is noted down verbatim. The process is done to ensure the statement's authenticity and admissibility in court.\n\n[Document 3]\nAbetment to Suicide Consequences\nThe legal consequences for abetment to suicide in Tamil Nadu is imprisonment for a term of up to 3 years, or a fine, or both. If the person abetted is a minor, the punishment is imprisonment for up to 5 years, or a fine, or both.\n\n[Document 4]\nResponse to Filming/Photographing without Consent:\nIf someone is filming or photographing you without consent, stay calm and:\n* Politely ask them to stop\n* If they refuse, seek help from nearby authorities or police\n* Note down the person's details and report the incident to the police\n\n[Document 5]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "retrieved_doc_ids": [
+    "46",
+    "756",
+    "666",
+    "2008",
+    "40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "10c4935bc6926eb3c92a5124abcb124a5a3e264286fea596c76b7b6875c0bae5",
+  "answer": "If you believe someone is going to die, a dying declaration should be recorded by a police officer or magistrate in the presence of a doctor [Document 2]. This ensures the statement's authenticity and admissibility in court.",
+  "input_tokens": 439,
+  "output_tokens": 46,
+  "seconds": 6.236589300002379,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

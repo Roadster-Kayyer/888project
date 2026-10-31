@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004228",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Answer directly addresses the question with relevant evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Answer directly addresses the question with relevant evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1] and [Document 2]\"\n}\n\n\nThe candidate's answer is correct, relevant, and faithful to the evidence provided in the documents. The answer directly instructs the individual on what to do after their car is towed, which is to contact the nearest Traffic Police station or towing company and to present the necessary documents to retrieve the vehicle. The evidence from Documents 1 and 2 supports these factual claims, making the answer both accurate and substantiated.",
+      "input_tokens": 760,
+      "output_tokens": 166,
+      "seconds": 12.873630900001444,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

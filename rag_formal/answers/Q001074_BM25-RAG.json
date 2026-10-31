@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001074",
+  "doc_id": "1190",
+  "query_type": "search",
+  "query": "What steps should I take to confirm the validity of a legal document issued by a court?",
+  "corpus_query_index": 1073,
+  "system": "BM25-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.\n\n[Document 2]\nCertifying a Document by Court:\nTo get a document certified by court, approach the court where the document is to be used. Submit the original document, and the court will verify and certify it. You may need to pay a fee for this service.\n\n[Document 3]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 4]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.\n\n[Document 5]\nEnforcing Court Orders in Tamil Nadu:\nTo enforce a court order, file an execution petition with the court that issued the order. Provide required documents and pay the prescribed fee. The court will then issue a notice to the respondent, and if they fail to comply, the court can take further action.",
+  "retrieved_doc_ids": [
+    "35",
+    "1193",
+    "253",
+    "106",
+    "1868"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "346c0c07cbb9e63e6549f9a36609de03898c21521f643f64877d0b08466c3632",
+  "answer": "To confirm a court-issued document's validity, approach the court where the document was issued. Submit the original document and pay any fees for verification and certification. [Document 2]",
+  "input_tokens": 443,
+  "output_tokens": 38,
+  "seconds": 4.991725800000495,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

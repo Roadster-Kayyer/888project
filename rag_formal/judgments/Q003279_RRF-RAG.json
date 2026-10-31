@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003279",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the question, providing specific details from the reference that support the role of the Police Academy Museum in preserving police history."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the role of the Police Academy Museum in preserving police history, supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 692,
+      "output_tokens": 73,
+      "seconds": 5.825822299997526,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the question, providing specific details from the reference that support the role of the Police Academy Museum in preserving police history.\"}\n\nNote: The \"faithfulness\" score of 2 is based on the fact that the candidate answer includes specific details from the retrieved evidence (Document 1 and Document 3) that support the factual claims made in the answer about the museum's role in preserving police history. The evidence directly corroborates the claim about showcasing historical artifacts, documents, and equipment, as well as the use of a Police Documentation Center for archiving historical records.",
+      "input_tokens": 732,
+      "output_tokens": 157,
+      "seconds": 12.37529650000215,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

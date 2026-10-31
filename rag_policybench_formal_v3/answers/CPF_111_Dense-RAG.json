@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_111",
+  "doc_id": "PB_bdb09e6bcfb2726f4ea5",
+  "query_type": "CPF_111",
+  "query": "Can I withdraw my discounted Singtel shares when I reach 55 years old?",
+  "reference_answer": "You are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Sell your shares”.",
+  "corpus_query_index": 70,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment\n\n[Document 2]\nYour discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.\n\n[Document 3]\nYou will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.\n\n[Document 4]\nFor financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share\n\n[Document 5]\nYour top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).",
+  "retrieved_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5",
+    "PB_5524a72cc3bbbca92a03",
+    "PB_c8a0224d2eb26ce19db5",
+    "PB_10b7557459105ffc6c3e",
+    "PB_737eb8e9312fbade39a9"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "833570122d2c1d7dd4ca0139037a3c1c18504805678809c9e922de654d930680",
+  "answer": "To withdraw your discounted Singtel shares, you must first set aside the Full Retirement Sum (FRS) in your Retirement Account by age 55. After setting aside the FRS, you can then withdraw your shares. However, you can also sell them, and the proceeds will go into your CPF Ordinary Account. [Document 1]",
+  "input_tokens": 665,
+  "output_tokens": 70,
+  "seconds": 9.40708689999883,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

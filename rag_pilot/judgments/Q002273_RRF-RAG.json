@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002273",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference documents, covering all main points about handling human-animal conflicts and reporting procedures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference documents, covering all main points about handling human-animal conflicts and reporting procedures.\"\n}",
+      "input_tokens": 845,
+      "output_tokens": 192,
+      "seconds": 14.651700000000346,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2667.1162109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_110",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the requirement for MediSave contributions based on NTI exceeding $6,000, but does not address the need for contributions for each licence type."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the requirement for MediSave contributions based on NTI exceeding $6,000, but does not address the need for contributions for each licence type.\"\n}",
+      "input_tokens": 1340,
+      "output_tokens": 79,
+      "seconds": 6.498520799999824,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

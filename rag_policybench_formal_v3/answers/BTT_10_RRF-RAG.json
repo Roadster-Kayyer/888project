@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_10",
+  "doc_id": "PB_4a5e366a1e27905d0545",
+  "query_type": "BTT",
+  "query": "What gear practice should be followed while driving a manual vehicle to prevent dragging the engine?",
+  "reference_answer": "Avoid dragging the engine by using the correct gear.",
+  "corpus_query_index": 2,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nAvoid dragging the engine by using the correct gear.\n\n[Document 2]\nDriving the vehicle in the right gear will increase fuel efficiency and reduce emissions.\n\n[Document 3]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nThe penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.",
+  "retrieved_doc_ids": [
+    "PB_4a5e366a1e27905d0545",
+    "PB_d52d8afcd0f078500080",
+    "PB_619765030c2c1f6e27b8",
+    "PB_89b7e5350f270a309ba9",
+    "PB_111b71b487c94f59fe3c"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7f3d733c706b32d994e8d864b5ab06edfd3abd61961fdd425f077ba3f01f181f",
+  "answer": "While driving a manual vehicle, use the correct gear to prevent dragging the engine. [Document 1] recommends this practice. Using the right gear also improves fuel efficiency and reduces emissions. [Document 2] supports this by mentioning its benefits.",
+  "input_tokens": 238,
+  "output_tokens": 50,
+  "seconds": 6.811056300000928,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2127.861328125
+}

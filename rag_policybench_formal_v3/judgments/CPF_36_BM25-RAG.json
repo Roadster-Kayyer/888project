@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_36",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the necessary steps and documents for the transfer, as evidenced by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing the necessary steps and documents for the transfer, as evidenced by Document 1.\",\n  \"evidence\": \"Document 1 states, 'If your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete this application on his behalf.'\"\n}",
+      "input_tokens": 1170,
+      "output_tokens": 119,
+      "seconds": 9.92081889999099,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

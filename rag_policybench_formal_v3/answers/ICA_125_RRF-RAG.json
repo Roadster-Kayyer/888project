@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_125",
+  "doc_id": "PB_f69aa5d536523684f1ff",
+  "query_type": "ICA_134",
+  "query": "How do I extend my Short-Term Visit Pass (STVP) or stay in Singapore?",
+  "reference_answer": "All short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.",
+  "corpus_query_index": 197,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 2]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 3]\nWith effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China will be exempted from visa requirements for a stay of up to 30 days in Singapore. Holders of PRC ordinary passports are not required to apply for an entry visa before entry into Singapore.If they wish to stay beyond 30 days, they may submit an online application to ICA to extend their short-term visit pass (STVP), after entering Singapore. The application can only be submitted up to 14 days before the STVP expires.Applications for STVP extension are subject to approval and relevant fees may apply. Please refer to ICA website for more information regarding the extension of an STVP.\n\n[Document 4]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 5]\nAll short-term visit pass (STVP) extension applications must be submitted online via the e-Service. Walk-in applications will not be accepted. You are advised to submit your application when your STVP has a remaining validity of 14 days or less. Your application will be processed within five working days (excluding Public Holidays and weekends). Some applications may take longer to process.Do note that all applications will be assessed holistically and are subjected to approval.",
+  "retrieved_doc_ids": [
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_a5deb8741f88193f4891",
+    "PB_b9f29dbf832927f97985",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_f69aa5d536523684f1ff"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fa2dc9e94d47920e3cd71336298dd67bfaeac009c83a61d5ef7300586280bcb3",
+  "answer": "To extend your Short-Term Visit Pass (STVP) or stay in Singapore, you must submit an online application via the e-Service. Ensure all details are correct. Applications are processed within 5 working days. Overstaying is an offense; depart if unable to extend before expiry. [Document 5]",
+  "input_tokens": 657,
+  "output_tokens": 65,
+  "seconds": 8.276396799992654,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

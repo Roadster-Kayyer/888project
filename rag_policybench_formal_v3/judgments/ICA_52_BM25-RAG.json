@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_52",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies required documents and includes the need for an authorization letter, aligning with Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies required documents and includes the need for an authorization letter, aligning with Document 1.\",\n  \"evidence\": \"Document 1 and candidate answer both correctly state the need for specific documents and the authorization letter for the passport extension process.\"\n}\n\n\n(Note: The \"evidence\" key in the JSON object is not typically used in this format. However, for the sake of the task, I've included it to demonstrate how the evidence from Document 1 supports the candidate answer. In a real-world scenario, the evidence would be directly quoted from the document, and the reason would be a concise explanation based on that evidence.)",
+      "input_tokens": 1660,
+      "output_tokens": 180,
+      "seconds": 14.538941399994656,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

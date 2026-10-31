@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_8",
+  "doc_id": "PB_70527c7dfb085e57dd22",
+  "query_type": "BTT",
+  "query": "What is the required action if an accident occurs, regardless of its severity or visible damage?",
+  "reference_answer": "Report the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.",
+  "corpus_query_index": 53,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nIt is permissible only in the event of a breakdown, accident, or emergency.\n\n[Document 2]\nReport the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.\n\n[Document 3]\nIt constitutes an offence.\n\n[Document 4]\nIt is considered an offence.\n\n[Document 5]\nTo allow enough room to stop safely if the vehicle stops abruptly.",
+  "retrieved_doc_ids": [
+    "PB_905df234754f5b501b5d",
+    "PB_70527c7dfb085e57dd22",
+    "PB_d746f0212f8873d30582",
+    "PB_2a793f15196b974cd4da",
+    "PB_89b7e5350f270a309ba9"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "aede76ffd375299e21910b14da426eae3b644ed6ac982d19d6949efbd77b6a9b",
+  "answer": "If an accident occurs, regardless of its severity or visible damage, report it to your insurer within 24 hours or by the next working day. [Document 2] It also constitutes an offence. [Document 3] and [Document 4]",
+  "input_tokens": 230,
+  "output_tokens": 53,
+  "seconds": 6.72662470000796,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

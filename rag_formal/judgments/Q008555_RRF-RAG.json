@@ -1,0 +1,31 @@
+{
+  "query_id": "Q008555",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate answer correctly identifies assault on elderly family members as punishable under a specific act, but lacks details on assault against other family members, partially addressing the question with mixed support from the evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies specific charges for assaulting elderly family members and mentions the relevant Act, but lacks details for other family members, although it correctly states that evidence is not provided for other cases.\n}",
+      "input_tokens": 789,
+      "output_tokens": 192,
+      "seconds": 14.934924000001047,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":1,\"relevance\":2,\"faithfulness\":1,\"reason\":\"Candidate answer correctly identifies assault on elderly family members as punishable under a specific act, but lacks details on assault against other family members, partially addressing the question with mixed support from the evidence.\"}\n\nIn this case:\n- Correctness is scored as 1 because the candidate answer correctly identifies that assaulting an elderly family member is punishable under a specific act (Maintenance and Welfare of Parents and Senior Citizens Act, 2007).\n- Relevance is scored as 2 because the candidate answer directly addresses the question by providing information about the punishment for assaulting an elderly family member.\n- Faithfulness is scored as 1 because the candidate answer provides a factual claim that is supported by the evidence (Document",
+      "input_tokens": 829,
+      "output_tokens": 192,
+      "seconds": 15.015259300002072,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

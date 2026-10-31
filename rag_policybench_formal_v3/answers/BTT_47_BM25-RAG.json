@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_47",
+  "doc_id": "PB_d746f0212f8873d30582",
+  "query_type": "BTT",
+  "query": "What is the consequence of failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations?",
+  "reference_answer": "It constitutes an offence.",
+  "corpus_query_index": 42,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.\n\n[Document 3]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 4]\nYour letter can be addressed to ICA Services Centre. The letter is to be dated no more than three months from the date you apply for Singapore citizenship, stating your occupation, date of employment, basic and gross salary per month.\n\n[Document 5]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_af1247343974a8960a93",
+    "PB_7929dbd00d14667dbd16",
+    "PB_459d0a3b9e1ad4c022cb",
+    "PB_9b29b1a6d1890e3f7dca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "c4ec00bc3511658700d4692ea0fdf870171e7bb1360c5c05bcb81717be05b398",
+  "answer": "The provided documents do not contain information about the consequences of failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations. [Document 1]",
+  "input_tokens": 428,
+  "output_tokens": 32,
+  "seconds": 4.149895099995774,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2145.61279296875
+}

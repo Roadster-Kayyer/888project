@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_52",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it addresses the change in income declaration process, which is directly related to the question. However, the answer does not cite specific evidence from the provided reference, which is necessary for a full score in faithfulness. Therefore, the correctness is scored as 2 because the answer is correct in its general understanding, but it lacks the specificity required to fully support the claim, which is why the relevance is scored as 1. The reason succinctly explains the scores, noting the lack of specific evidence.",
+      "input_tokens": 688,
+      "output_tokens": 175,
+      "seconds": 13.411400400000275,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

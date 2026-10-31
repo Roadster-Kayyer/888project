@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002957",
+  "doc_id": "1530",
+  "query_type": "formal",
+  "query": "How can an emergency response be effectively conducted during riots or civil unrest?",
+  "corpus_query_index": 2956,
+  "system": "Dense-RAG",
+  "reference_answer": "Emergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property",
+  "context": "[Document 1]\nEmergency Response to Riots or Civil Unrest:\nThe procedure for emergency response to riots or civil unrest in Tamil Nadu involves:\n* Deployment of riot control police units\n* Use of non-lethal crowd control measures\n* Restoration of law and order\n* Protection of life and property\n\n[Document 2]\nEmergency Response to Prison Riots or Escapes:\nIn case of a prison riot or escape, the Tamil Nadu Police follows a standard operating procedure. This includes:\n* Alerting nearby police stations and deploying riot control teams\n* Coordinating with prison authorities to contain the situation\n* Ensuring public safety and preventing escapees from fleeing\n\n[Document 3]\nEmergency Response to Communal Violence:\nThe Tamil Nadu Police handles communal violence through:\n* Rapid deployment of personnel to affected areas\n* Establishing communication with community leaders to calm tensions\n* Implementing curfews and other measures to maintain law and order\n\n[Document 4]\nEmergency Response Protocols\n\n1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.\n\n2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.\n\n3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.\n\n[Document 5]\nEmergency Response Protocols\n\n1. Critical Infrastructure Threats: Tamil Nadu Police follows the National Disaster Management Guidelines. In case of a threat, call 100 or the local police station. The police will assess the situation and deploy specialized teams (e.g., SWAT, bomb disposal) as needed.\n\n2. Temple Stampede: In case of a temple stampede, call 100. Tamil Nadu Police will respond with crowd control measures, first aid, and evacuation procedures. The police work with temple authorities to prevent such incidents.\n\n3. Dam Breach: For a dam breach, call 100 or the local police station. Tamil Nadu Police will alert nearby areas, evacuate people, and work with the Water Resources Department to mitigate the situation.",
+  "retrieved_doc_ids": [
+    "1530",
+    "1534",
+    "1545",
+    "1552",
+    "1553"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5b80f7045c819235ecdabedd2a2b1fdaebac9efd7eb1d84f15f59968721001c3",
+  "answer": "Emergency responses involve deploying riot control police, using non-lethal measures, restoring law and order, and protecting lives and property. [Document 1] Additionally, specific protocols are tailored to different types of unrest, like prison escapes or temple stampedes, emphasizing rapid deployment, coordination, and community engagement. [Document 2-5]",
+  "input_tokens": 629,
+  "output_tokens": 68,
+  "seconds": 8.799341699999786,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

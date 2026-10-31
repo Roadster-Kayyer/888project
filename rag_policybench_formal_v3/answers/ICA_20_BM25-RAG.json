@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_20",
+  "doc_id": "PB_2b9abc3bd3c87651113d",
+  "query_type": "ICA_134",
+  "query": "How do I download/ retrieve Form 5 or Form 5A?",
+  "reference_answer": "Form 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.",
+  "corpus_query_index": 215,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nForm 5 or Form 5A refers to the Entry Permit issued to a successful PR applicant upon the completion of PR formalities. You may retrieve your Entry Permit details in ‘MyICA’, under ‘MyTransaction – Entry Permit’ with Singpass login.\n\n[Document 2]\nCash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.\n\n[Document 3]\nSuch cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.\n\n[Document 4]\nThe year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:\n\n[Document 5]\nPlease contact us via the enquiry form for assistance.",
+  "retrieved_doc_ids": [
+    "PB_2b9abc3bd3c87651113d",
+    "PB_bc0f9bb0658c9b927d99",
+    "PB_28af97b74168a5b5beb0",
+    "PB_c1b27ec78f7a49b7fed4",
+    "PB_f51f66ccea224b52929b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ad1ca025a06ed4acc0cbeeaca92e333bef1661df40f66d57fffd0ea4a0626dec",
+  "answer": "To download/ retrieve Form 5 or Form 5A, log into MyICA using Singpass and go to 'MyTransaction – Entry Permit'. [Document 1]",
+  "input_tokens": 579,
+  "output_tokens": 36,
+  "seconds": 4.951208500002394,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

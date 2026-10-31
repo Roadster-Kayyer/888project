@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007225",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the procedure for complaints against DRDA officers, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the procedure for DRDA complaints, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1]\n}\n\n\nDocument 1 directly and correctly outlines the procedure for addressing issues with a DRDA representative, which includes contacting the District Collector or the concerned department's headquarters, filing an online complaint through the Tamil Nadu Government's grievance portal, or visiting the nearest police station. The evidence provided is directly relevant to the question and is fully supported by the information given in the reference. The candidate's answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 794,
+      "output_tokens": 180,
+      "seconds": 13.85681000000477,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the procedure for complaints against DRDA officers, supported by evidence from Document 1.\"}",
+      "input_tokens": 834,
+      "output_tokens": 50,
+      "seconds": 4.10606579999876,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

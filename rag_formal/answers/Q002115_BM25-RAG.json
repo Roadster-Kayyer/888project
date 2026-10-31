@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002115",
+  "doc_id": "1379",
+  "query_type": "hard",
+  "query": "How can the Tamil Nadu Police systemally integrate with the leaders managing rural areas?",
+  "corpus_query_index": 2114,
+  "system": "BM25-RAG",
+  "reference_answer": "Coordination with Village Administrative Officers\nTamil Nadu Police coordinates with village administrative officers (VAOs) through regular meetings and joint patrols. VAOs provide information on local issues, and police officers share security concerns, ensuring a collaborative approach to maintaining law and order.",
+  "context": "[Document 1]\nHandling Illegal Brewing in Rural Areas:\nThe Tamil Nadu police conduct regular raids and patrols to detect and prevent illegal brewing in rural areas. Citizens can report suspicious activities to the local police station or call the toll-free number 1091. The police will investigate and take action against those involved in illegal brewing.\n\n[Document 2]\nEmergency Contact Number (Rural Areas)\nThe contact number for reporting police emergencies in rural areas is 100.\n\n[Document 3]\nSuperstition-Based Violence:\nIn cases of superstition-based violence in tribal areas, police take swift action to prevent harm and investigate incidents. The police work with local authorities and tribal leaders to raise awareness and prevent such incidents. Victims can report incidents to the nearest police station or call the Tamil Nadu Police helpline.\n\n[Document 4]\nEmergency Response in Urban and Rural Areas:\nIn Tamil Nadu, emergency response differs between urban and rural areas due to varying resource availability. Urban areas have more police stations, personnel, and equipment, enabling faster response times. Rural areas have fewer resources, but police use mobile patrols and community outreach to compensate.\n\n[Document 5]\nLaw and Order during Rural Elections:\nThe Tamil Nadu Police manages law and order during rural elections by:\n* Deploying additional personnel in sensitive areas\n* Conducting regular patrols and checks\n* Setting up polling station security\n* Implementing strict vigilance to prevent electoral malpractices",
+  "retrieved_doc_ids": [
+    "1385",
+    "339",
+    "1397",
+    "1519",
+    "1387"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "62a640dbf2e2544e0931cf2295eb56e1ace5a3a17d75899532b1fcf36fa932de",
+  "answer": "The Tamil Nadu Police integrates with rural leaders through regular raids and patrols to combat illegal brewing [Doc. 1], using a toll-free number for reports. For superstition-based violence, they collaborate with local authorities and tribal leaders [Doc. 3]. In rural elections, they deploy additional personnel and conduct patrols to maintain law and order [Doc. 5]. [Doc. 4] highlights that while urban areas have more resources, rural areas use mobile patrols and community outreach. Emergency response numbers like 100 and 1091 are provided for both urban and rural areas [Docs. 2 & 4].",
+  "input_tokens": 413,
+  "output_tokens": 129,
+  "seconds": 16.20739549999962,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

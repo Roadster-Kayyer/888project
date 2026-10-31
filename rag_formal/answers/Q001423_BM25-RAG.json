@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001423",
+  "doc_id": "1254",
+  "query_type": "casual",
+  "query": "So how do I tell on people who are being naughty in the woods?",
+  "corpus_query_index": 1422,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Illegal Tourism Activities in Forest Areas:\nContact the Tamil Nadu Forest Department or local police station to report illegal tourism activities. Provide details of the activity, location, and any evidence. You can also call the forest department's helpline or submit a complaint online through the official website.",
+  "context": "[Document 1]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 2]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 5]\n1. Who heads the Tamil Nadu Police force?\nThe Director General of Police (DGP) heads the Tamil Nadu Police force.\n\n2. What is the State Police Complaints Authority?\nThe State Police Complaints Authority is a body that investigates complaints against police personnel in Tamil Nadu.\n\n3. What is the difference between bail and anticipatory bail?\nBail is granted after arrest, while anticipatory bail is granted before arrest, to prevent unnecessary detention.\n\n4. How do I apply for regular bail in Tamil Nadu?\nTo apply for regular bail, you must file a bail petition through a lawyer at the court where your case is pending, providing sureties and fulfilling other court requirements.",
+  "retrieved_doc_ids": [
+    "107",
+    "255",
+    "849",
+    "1432",
+    "1021"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "4661dba7b6c8abccdab4869f0e6a47272c295cee090ef93b36704c5d8d7fe4e5",
+  "answer": "You can't directly tell if someone is being naughty in the woods. However, Child Welfare Police Officers investigate child abuse and exploitation. For missing persons, go to a police station, provide details, and file an FIR. To find if someone has been arrested, visit a police station or check their website. [Document 1]",
+  "input_tokens": 503,
+  "output_tokens": 67,
+  "seconds": 8.904878400000598,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

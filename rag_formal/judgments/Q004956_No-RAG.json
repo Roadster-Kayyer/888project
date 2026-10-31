@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004956",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant and correct but lacks specific evidence; however, it correctly suggests contacting local resources."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is relevant and correct but lacks specific evidence; however, it correctly suggests contacting local resources.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The \"evidence\" key in the JSON object refers to the document or source that would ideally contain the specific guidance and steps for approaching domestic violence protection officers in Tamil Nadu. Since the actual document is not provided in the text, \"Document 1\" is used as a placeholder. In a real scenario, the evidence would need to be a concrete reference to support the answer fully.",
+      "input_tokens": 446,
+      "output_tokens": 160,
+      "seconds": 12.196687999999995,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

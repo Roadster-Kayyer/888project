@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_49",
+  "doc_id": "PB_492ee6967a595605ddf6",
+  "query_type": "BTT",
+  "query": "What must a driver do before moving off to ensure safety and comply with regulations?",
+  "reference_answer": "Fasten the seat belt and look in the mirrors.",
+  "corpus_query_index": 44,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.\n\n[Document 2]\nYou must ensure that the correct information is submitted at the point of your visa application via the e-Service. Amendment of information is not allowed after successful submission of the visa application to ensure data integrity.You can disregard the outcome of the previous application submitted and proceed to submit a new visa application with the correct details.Please note that the processing fee of S$30/- collected at the time of submission is non-refundable.Lastly, please quote the reference number of the previous application and indicate the reasons for the resubmission on your new application under the 'Additional Information to support this SAVE application/Remarks' field in SAVE and check the application details carefully before submission to avoid any unnecessary delays.\n\n[Document 3]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 4]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 5]\nIC holders are required to report a change of address within 28 days of moving to the new address.",
+  "retrieved_doc_ids": [
+    "PB_4bd71ffc7b87577275da",
+    "PB_6cdb1150c49584cda270",
+    "PB_cfbeecc8e8bd16153256",
+    "PB_7929dbd00d14667dbd16",
+    "PB_3c57126fedeef060902b"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "148d1c981a783fc903b1e32ed8e6ef467436aeedd6c4a78ecd171c2fe337b6af",
+  "answer": "Before moving off, a driver must ensure they are in the correct lane and can see the road ahead [Document 3].",
+  "input_tokens": 535,
+  "output_tokens": 26,
+  "seconds": 3.6467559000011533,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001344",
+  "doc_id": "124",
+  "query_type": "search",
+  "query": "Can you tell me about the NDPS Act and the crimes it tackles?",
+  "corpus_query_index": 1343,
+  "system": "BM25-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 3]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 4]\nFiling a Complaint about Counterfeit Currency:\nTo file a complaint, visit the nearest police station and provide details about the counterfeit currency, including where you received it. Fill out a complaint form and submit it to the officer in charge. You can also contact the Tamil Nadu Police's toll-free number for assistance.\n\n[Document 5]\nDrug Seizures:\nDrug seizures are handled by the Tamil Nadu Police according to the Narcotic Drugs and Psychotropic Substances (NDPS) Act, 1985. Seized drugs are documented, weighed, and stored in a secure facility. A seizure report is prepared, and samples are sent for forensic analysis.",
+  "retrieved_doc_ids": [
+    "124",
+    "57",
+    "131",
+    "186",
+    "129"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b97c263ee2e4b8728cb303a7fec3b9e5b3db466a554b7c584c996c032795bdfd",
+  "answer": "The NDPS Act tackles crimes related to drug abuse, trafficking, and possession. It includes offenses like possession, sale, purchase, and manufacturing of banned substances. Cannabis cultivation cases are handled by the Tamil Nadu Police under this act. [Document 1]",
+  "input_tokens": 414,
+  "output_tokens": 52,
+  "seconds": 6.86047569999937,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

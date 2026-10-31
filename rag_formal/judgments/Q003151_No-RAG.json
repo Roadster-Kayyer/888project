@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003151",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly describes the role of the State Crime Records Bureau and is directly relevant to the reference, with evidence implicitly supported by the reference's description of their functions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the role of the State Crime Records Bureau and is directly relevant to the reference, with evidence implicitly supported by the reference's description of their functions.\",\n  \"evidence\": \"The reference states the Bureau collects, analyzes, and maintains crime data, and aids in investigations by providing intelligence and support to police units, which is reflected in the candidate's answer.\"\n}",
+      "input_tokens": 392,
+      "output_tokens": 125,
+      "seconds": 9.582944500001759,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_15",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the documents as unrelated to travel history but does not directly address the main reference facts about the specific types of documents and their purposes."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the documents as unrelated to travel history but does not directly address the main reference facts about the specific types of documents and their purposes.\"\n}",
+      "input_tokens": 1359,
+      "output_tokens": 74,
+      "seconds": 5.927440699990257,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

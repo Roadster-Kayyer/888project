@@ -1,0 +1,23 @@
+{
+  "query_id": "Q010346",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks specific details about the Tamil Nadu Police Department's helpline or the Vigilance Department, which are crucial for the process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks specific details about the Tamil Nadu Police Department's helpline or the Vigilance Department, which are crucial for the process.\",\n  \"evidence\": null\n}\n\n\nThe candidate answer is relevant as it suggests contacting the vehicle's supervisor or local police, which is part of the correct process. However, it does not mention the specific Tamil Nadu Police Department's helpline or the Vigilance Department, nor does it include the required details such as vehicle number plate, location, and time of incident, which are essential for a complete response. The faithfulness score is null because there is no substantive factual claim in the candidate'",
+      "input_tokens": 407,
+      "output_tokens": 192,
+      "seconds": 14.98366750000423,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

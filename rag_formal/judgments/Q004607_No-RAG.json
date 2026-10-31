@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004607",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly outlines the process but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer correctly outlines the process but lacks specific evidence from the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nIn the candidate answer, the process of challenging a traffic ticket is correctly described, aligning with the reference's instructions. The answer is relevant as it directly addresses the question by mentioning the appeal to the Traffic Police Station and the District Judicial Magistrate. However, the faithfulness score is not a full 2 because the answer does not directly cite the evidence from the reference, which would have strengthened the claim. The reason succinctly explains the scores, noting the correctness and relevance but the lack of direct evidence for full faithfulness.",
+      "input_tokens": 436,
+      "output_tokens": 190,
+      "seconds": 14.734763699998439,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005951",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the verification process for domestic workers, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the verification process for domestic workers, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 757,
+      "output_tokens": 192,
+      "seconds": 15.683332099997642,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the verification process for domestic workers, supported by evidence from Documents 1 and 2.\"}\n\nNote: The scores are based on the provided candidate answer and the evidence from the documents. The correctness score is 2 because the answer is correct and covers the main reference facts. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 because all substantive factual claims in the candidate answer are supported by the evidence provided in Documents 1 and 2. The reason is a concise explanation of the scores.",
+      "input_tokens": 797,
+      "output_tokens": 149,
+      "seconds": 11.59382689999984,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

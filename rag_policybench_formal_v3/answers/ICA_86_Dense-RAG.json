@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_86",
+  "doc_id": "PB_bc945ef27bfe4a4e76b0",
+  "query_type": "ICA_134",
+  "query": "Do I have to cancel my Dependant's pass before Student's Pass is issued?",
+  "reference_answer": "Upon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.",
+  "corpus_query_index": 287,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nUpon issuance of a Student's pass, your Dependant's Pass will be automatically cancelled.\n\n[Document 2]\nIf you hold a valid Long-Term Visit Pass (LTVP), Dependant's Pass (DP) or Immigration Exemption Order (IEO), you are not required to obtain a Student's Pass to pursue full-time, non-religious related studies in Singapore. You may enrol in any full-time, non-religious course within the duration of your existing pass.If you hold a valid LTVP or DP and wish to study in an approved religious school/madrasah, you will still need to obtain a Student’s Pass. Holders of a valid IEO are exempted from this requirement.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nThe Short-Term Visit Pass (STVP) will automatically expire after the last day of validity or when the traveller departs Singapore. There is no need to cancel the STVP if a traveller wishes to depart Singapore before the expiry.\n\n[Document 5]\nYou do not need to withdraw or void the SGAC submission if you are cancelling your trip.If you are planning for a new trip to Singapore, you are required to submit a new SG Arrival Card.If you are using MyICA mobile app, you can delete your record by selecting the record that you wish to delete in 'Group Submission'. Please note that the 'delete' function in the mobile application is meant for travellers to clear their records:i) after their trip is completed orii) before the submission of their trip informationRecords that are deleted would not result in the retraction of records that have been submitted to ICA.",
+  "retrieved_doc_ids": [
+    "PB_bc945ef27bfe4a4e76b0",
+    "PB_a6030c6c9eb84a58b3ba",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_efc8a8e9bd021e1f3ab7",
+    "PB_ffb44a115e698c779310"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8103f4a97ed2d4c628c790b38c2abca344772b62ea20ca1667e6c2837ef12855",
+  "answer": "Yes, according to [Document 1], once you receive a Student's pass, your Dependant's pass will be automatically cancelled.",
+  "input_tokens": 594,
+  "output_tokens": 28,
+  "seconds": 3.6804321999952663,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

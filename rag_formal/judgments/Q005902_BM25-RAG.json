@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005902",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": 1,
+    "reason": "Candidate partially addresses the reporting procedure but lacks specific steps for malfunctioning signals; modern surveillance systems are mentioned but not directly tied to the reporting process."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate partially addresses the reporting procedure but lacks specific steps for malfunctioning signals; modern surveillance systems are mentioned but not directly tied to the reporting process.\",\n  \"evidence\": \"[Document 1, Document 5]\"\n}",
+      "input_tokens": 845,
+      "output_tokens": 192,
+      "seconds": 14.924306400000205,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

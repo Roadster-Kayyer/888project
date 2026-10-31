@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002773",
+  "doc_id": "1498",
+  "query_type": "casual",
+  "query": "So, how do they find new ministers in the police force?",
+  "corpus_query_index": 2772,
+  "system": "Dense-RAG",
+  "reference_answer": "Recruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.",
+  "context": "[Document 1]\nRecruitment for Ministerial Staff:\nThe recruitment process for ministerial staff in the Tamil Nadu Police Department involves:\n* Written examination\n* Skill test (if required)\n* Interview\n* Verification of documents and medical fitness.\n\n[Document 2]\nTamil Nadu Special Police Commando Force Recruitment:\nRecruitment is through a rigorous process, including physical tests, written exams, and interviews. Candidates must meet age, education, and physical standards. Apply through the Tamil Nadu Police Department's website during recruitment notifications.\n\n[Document 3]\nJoining Community Policing Initiatives:\nTo join community policing initiatives, you can contact your local police station or visit the Tamil Nadu Police Department's website to learn about available programs. You can also look for initiatives like the Friends of Police movement or Police Boys and Girls Clubs in your area.\n\n[Document 4]\nRecruitment for Tamil Nadu Police Medical Staff:\nThe recruitment process for Tamil Nadu Police medical staff involves a written exam and interview. Candidates must have the required medical qualifications and experience. The selection process is based on merit and reservation rules. You can check the official Tamil Nadu Police website for notifications and apply online.\n\n[Document 5]\n3. Police Recruitment Wing Role:\nThe Police Recruitment Wing attracts candidates by advertising job vacancies, conducting recruitment drives, and overseeing the selection process to ensure a fair and transparent hiring process for police positions in Tamil Nadu.",
+  "retrieved_doc_ids": [
+    "1498",
+    "1479",
+    "241",
+    "1503",
+    "1602"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "72165c8f4438fa05606b2a23d8442ab0d1583467a20fe9855a54e1aa8f293e31",
+  "answer": "New ministers in the police force are recruited through a comprehensive process in Tamil Nadu Police Department, which includes written examinations, skill tests, interviews, and verification of documents and medical fitness. [Document 1] Recruitment also involves physical tests and meeting age, education, and physical standards for some roles. [Document 2] Police Recruitment Wing advertises job vacancies and oversees the selection process. [Document 5]",
+  "input_tokens": 401,
+  "output_tokens": 83,
+  "seconds": 10.387402800000928,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

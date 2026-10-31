@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_30",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 3, which discuss investment options and timeframes for action post-evaluation."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 3, which discuss investment options and timeframes for action post-evaluation.\",\n  \"evidence\": \"[Document 1], [Document 3]\"\n}",
+      "input_tokens": 1011,
+      "output_tokens": 192,
+      "seconds": 14.574331899988465,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

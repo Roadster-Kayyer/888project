@@ -1,0 +1,31 @@
+{
+  "query_id": "Q004015",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses societal recourse against law enforcement negligence with evidence from Documents 1 and 2, which are factually supported."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies recourse for medical negligence and police misconduct, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 766,
+      "output_tokens": 72,
+      "seconds": 5.680885199999466,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses societal recourse against law enforcement negligence with evidence from Documents 1 and 2, which are factually supported.\"}",
+      "input_tokens": 806,
+      "output_tokens": 57,
+      "seconds": 4.635433100000228,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

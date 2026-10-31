@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_19",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific details on the percentage for seniors 76+."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific details on the percentage for seniors 76+.\",\n  \"evidence\": \"[Document 2, Document 4, Document 5]\"\n}",
+      "input_tokens": 959,
+      "output_tokens": 192,
+      "seconds": 14.827794199998607,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

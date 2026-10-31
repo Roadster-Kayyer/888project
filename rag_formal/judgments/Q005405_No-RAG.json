@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005405",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference about the legal process in Tamil Nadu."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference about the legal process in Tamil Nadu.\",\n  \"answer_explanation\": \"The answer addresses the question but does not directly reference the adoption process outlined in the reference.\"\n}",
+      "input_tokens": 408,
+      "output_tokens": 93,
+      "seconds": 7.396421099998406,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

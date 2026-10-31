@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_21",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1, which states that trailer fees depend on agreements and not all funds charge them."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1, which states that trailer fees depend on agreements and not all funds charge them.\",\n  \"evidence\": \"[Document 1]Trailer fees is subjected to the business agreements between product providers and their distributors (including financial advisors). Some funds may not have trailer fees payable to distributors.\"\n}",
+      "input_tokens": 992,
+      "output_tokens": 128,
+      "seconds": 10.001019700008328,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

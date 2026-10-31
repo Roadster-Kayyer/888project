@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_13",
+  "doc_id": "PB_5f9fbfa5f7209cde8f34",
+  "query_type": "CPF_111",
+  "query": "Will I still be considered opted-in if I stop doing platform work for a period of time or change platform operator after opting-in?",
+  "reference_answer": "Yes, your opt-in status is permanent after opting in and applies to all platform operators you work with.",
+  "corpus_query_index": 72,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.\n\n[Document 2]\nThe Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.\n\n[Document 3]\nYes, your opt-in status is permanent after opting in and applies to all platform operators you work with.\n\n[Document 4]\nOpting in is a concession given to help you increase your CPF contributions. By doing so, you will receive higher overall income, considering the contributions from platform operators. Staying committed to the CPF contributions will also ensure that your CPF savings will accumulate interest over time, thereby building up your housing and retirement adequacy in the long run.Allowing opt-outs will not help build up your housing and retirement adequacy in the long run. It is also not practical for platform operators to track the status of workers and apply the different rates of CPF contributions if workers opt in and out multiple times. This may incur additional business costs for platform operators and make implementation more complicated overall.As there is no deadline to opt in, you can carefully consider your decision based on your personal circumstances, before opting in to increase your CPF contributions.\n\n[Document 5]\nIn the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gr",
+  "retrieved_doc_ids": [
+    "PB_78fc5f010e94bc79c15a",
+    "PB_9deeca336ae5c6e38cd1",
+    "PB_5f9fbfa5f7209cde8f34",
+    "PB_81b9779fe183d60a2ff6",
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bd1ee881d60bea761ac7"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b8ea9c13437977d25d2315880a22b858db7a66fe5a201815238d95e745501029",
+  "answer": "Your opt-in status remains permanent regardless of changing platforms or stopping work for a while. It applies to all platform operators you work with. [Document 3]",
+  "input_tokens": 884,
+  "output_tokens": 33,
+  "seconds": 4.703643999993801,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2292.9912109375
+}

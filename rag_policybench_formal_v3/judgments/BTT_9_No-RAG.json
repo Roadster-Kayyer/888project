@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_9",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the increased stopping distance on wet roads due to reduced friction, aligning with the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the increased stopping distance on wet roads due to reduced friction, aligning with the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nThe provided candidate answer is directly relevant to the question, correctly addressing the increased stopping distance on wet roads due to reduced friction, which is consistent with the reference information. The answer is also faithful as it is supported by the evidence from Document 1, which is presumably the retrieved evidence mentioned. The reason succinctly explains the scores, indicating that the candidate answer is correct, relevant, and faithful to the evidence provided.",
+      "input_tokens": 365,
+      "output_tokens": 166,
+      "seconds": 12.7962841999979,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

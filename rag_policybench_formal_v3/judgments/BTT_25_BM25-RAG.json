@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_25",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Warning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given, explaining why the candidate answer received a high score in correctness, relevance, and faithfulness. The evidence provided is directly from the retrieved evidence, which supports the factual claims made in the candidate answer.",
+      "input_tokens": 604,
+      "output_tokens": 181,
+      "seconds": 14.01330560000497,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_25",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Answer partially addresses the question but lacks specific evidence from the reference.\",\n  \"candidate_answer\": \"Registered CPF investors vote through CPF accounts; check company's specific procedures.\"\n}\n\n\nThe candidate answer is relevant as it correctly suggests that registered CPF investors vote through their CPF accounts, which aligns with the reference's indication that voting is done through CPF Agent Banks. However, it does not directly quote or paraphrase the specific instructions or procedures mentioned in the reference, such as the need to check the company's announcements for attendance details or the pre-registration deadlines. Therefore, the correctness score is 1 because it is partly correct but omits",
+      "input_tokens": 695,
+      "output_tokens": 192,
+      "seconds": 14.941326400003163,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

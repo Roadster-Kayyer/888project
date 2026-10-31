@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009702",
+  "doc_id": "864",
+  "query_type": "formal",
+  "query": "How can one access the pink police patrol service?",
+  "corpus_query_index": 9701,
+  "system": "Dense-RAG",
+  "reference_answer": "Pink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)",
+  "context": "[Document 1]\nPink Police Patrol:\nThe Pink Police Patrol is a special unit for women's safety in Tamil Nadu. To contact them, call:\n- 94981 95555 (Pink Police Patrol Helpline)\n- 100 (Tamil Nadu Police Emergency Number)\n\n[Document 2]\nAccessing Women Helpline Services:\nTo access the Tamil Nadu Police women helpline services, dial 181 or visit the nearest All-Women Police Station. You can also download the Tamil Nadu Police mobile app for assistance.\n\n[Document 3]\nAccessing Tamil Nadu Police Public Service Portal:\nYou can access the Tamil Nadu Police public service portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or through the Tamil Nadu Police mobile app.\n\n[Document 4]\nContacting the Nearest All Women Police Station:\nTo contact the nearest All Women Police Station, you can:\n- Call the Tamil Nadu Police helpline: 100\n- Visit the Tamil Nadu Police website for station locations and contact numbers\n- Ask your local police station for directions to the nearest All Women Police Station\n\n[Document 5]\nDigital Kiosks in Police Stations:\nDigital kiosks in police stations are self-service machines where you can submit service requests, such as reporting a lost item or applying for a certificate. Simply select the required service, fill in the details, and submit your request.",
+  "retrieved_doc_ids": [
+    "864",
+    "1010",
+    "309",
+    "823",
+    "1343"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "9bc2b68298c6e85adbfdba9dc0c926b5a2967dea242174d53c99a3a79d334709",
+  "answer": "To access the Pink Police Patrol service, call 94981 95555 or use the Tamil Nadu Police Emergency Number 100. For digital assistance, visit the Tamil Nadu Police public service portal at [www.tnpolice.gov.in](http://www.tnpolice.gov.in) or use their mobile app. [Document 1] [Document 3]",
+  "input_tokens": 414,
+  "output_tokens": 83,
+  "seconds": 10.546826800000417,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

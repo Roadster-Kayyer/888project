@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008027",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies specific legal penalties for unauthorized street vending, unauthorized street performances, and violating a bandh, directly referencing the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies specific legal penalties for unauthorized street vending, unauthorized street performances, and violating a bandh, directly referencing the provided documents.\"\n}\n\n\nIn the context of the provided reference and evidence, the candidate's answer is accurate, directly relevant to the question, and fully supported by the evidence from the documents. The answer correctly cites the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules for unauthorized street vending, the Tamil Nadu City Police Act for unauthorized street performances, and the Tamil Nadu Prevention of Disturbances Act, 2008",
+      "input_tokens": 840,
+      "output_tokens": 192,
+      "seconds": 15.086344900002587,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

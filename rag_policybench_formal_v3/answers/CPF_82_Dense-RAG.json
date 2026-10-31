@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_82",
+  "doc_id": "PB_e29140d6b3a201be99ba",
+  "query_type": "CPF_111",
+  "query": "If I participate in the Drive and Save (DAS) Scheme, will my Taxi Driver Vocational Licence (TDVL) be automatically renewed?",
+  "reference_answer": "No, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+  "corpus_query_index": 148,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 2]\nMediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.\n\n[Document 3]\nAny cancellation of PR must be done in accordance with the provisions of the Immigration Act (Chapter 133) or the Regulations thereunder. While your PR may be sponsored by your spouse, your renewal of REP will be assessed on your own merits if you are divorced or under-going divorce.\n\n[Document 4]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 5]\nThe Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+  "retrieved_doc_ids": [
+    "PB_e29140d6b3a201be99ba",
+    "PB_dc08990660488c2ed4e8",
+    "PB_7929dbd00d14667dbd16",
+    "PB_c843ce7aefae882d4bbe",
+    "PB_4bd71ffc7b87577275da"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d59a590cbca88742ee4642a75bd2f1619d2ef63882e95602cc27515c81cddf2c",
+  "answer": "No, participation in the Drive and Save (DAS) Scheme does not automatically renew your Taxi Driver Vocational Licence (TDVL). TDVLs need to be renewed through MediSave contributions or other methods, as stated in [Document 1].",
+  "input_tokens": 731,
+  "output_tokens": 51,
+  "seconds": 6.843452300003264,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007955",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer partially addresses the question by comparing death threats to religious conversion threats, but lacks direct reference to death threats in the provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question by comparing death threats to religious conversion threats, but lacks direct reference to death threats in the provided documents.\",\n  \"evidence\": \"Document 2 mentions penalties for threatening religious conversion, which includes imprisonment and fines, but does not directly address death threats.\"\n}\n\n\nNote: The \"faithfulness\" score is 1 because the candidate's answer contains a substantive factual claim that is supported by the evidence in Document 2, even though it does not directly address death threats. The evidence (Document 2) is used to infer the nature of penalties for serious offenses, which is relevant to the question about fines or",
+      "input_tokens": 790,
+      "output_tokens": 192,
+      "seconds": 15.074461700001848,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_40",
+  "system": "RRF-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies information on parking schemes, hours, and rates from Document 1 and accurately states that signboards do not relate to road safety or immigration from Documents 2-5.\",\n  \"evidence\": \"[Document 1]\n\n[Document 2]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.\n\n[Document 3]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center,",
+      "input_tokens": 636,
+      "output_tokens": 192,
+      "seconds": 14.989468400002806,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the information on car park signboards and is directly supported by Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by the evidence provided in Document 1.\"}\n\n{\"correctness\":2,\"re",
+      "input_tokens": 676,
+      "output_tokens": 192,
+      "seconds": 15.12805300000764,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": "Extra data: line 3 column 1 (char 179)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

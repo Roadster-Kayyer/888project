@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001210",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer lacks specific evidence from the reference but is relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer lacks specific evidence from the reference but is relevant to the question.\",\n  \"evidence\": \"null\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves. However, it does not directly quote or paraphrase the specific information from the provided reference, which would be necessary for a higher score in correctness and faithfulness. The reason for the given scores is that the candidate's answer is relevant but lacks the specific evidence required to fully support the factual claims, hence the faithfulness score is null.",
+      "input_tokens": 444,
+      "output_tokens": 179,
+      "seconds": 14.002020400002948,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

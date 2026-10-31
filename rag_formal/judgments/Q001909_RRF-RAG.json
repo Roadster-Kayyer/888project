@@ -1,0 +1,31 @@
+{
+  "query_id": "Q001909",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, correctly states the use of digital forensics by the Tamil Nadu Police, and is supported by evidence from all provided documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively describes the use of digital forensics by the Tamil Nadu Police, supported by evidence from all documents.\",\n}",
+      "input_tokens": 793,
+      "output_tokens": 73,
+      "seconds": 5.877285999999003,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, correctly states the use of digital forensics by the Tamil Nadu Police, and is supported by evidence from all provided documents.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is accurate, relevant, and fully supported by the evidence provided in the documents. The \"correctness\" score of 2 indicates that the answer is correct and covers the main reference facts. The \"relevance\" score of 2 indicates that the answer directly addresses the question. The \"faithfulness\" score of 2 indicates that all substantive factual claims in the candidate's answer are supported by the evidence provided in the documents. The \"reason\" is a brief explanation of the scores.",
+      "input_tokens": 833,
+      "output_tokens": 180,
+      "seconds": 14.250840799999423,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2785.2265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

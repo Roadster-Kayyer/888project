@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000006",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly states the method to file an FIR online in Tamil Nadu and is supported by the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the method to file an FIR online in Tamil Nadu and is supported by the reference.\",\n  \"evidence\": \"Document 1\"\n}\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to the evidence provided in the original document, which is not present in this hypothetical example. In the absence of actual evidence, the faithfulness score is based on the assumption that the candidate's answer would be supported by such evidence if it were available.)",
+      "input_tokens": 390,
+      "output_tokens": 152,
+      "seconds": 12.57698949999758,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2588.04833984375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

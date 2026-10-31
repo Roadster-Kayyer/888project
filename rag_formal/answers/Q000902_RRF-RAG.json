@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000902",
+  "doc_id": "116",
+  "query_type": "formal",
+  "query": "At what age is an individual considered criminally responsible in Indian law?",
+  "corpus_query_index": 901,
+  "system": "RRF-RAG",
+  "reference_answer": "Age of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.",
+  "context": "[Document 1]\nAge of Criminal Responsibility:\nIn India, the age of criminal responsibility is 18 years for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. Children below 7 years are not considered criminally liable.\n\n[Document 2]\nAge Determination in Juvenile Cases:\nIn Tamil Nadu, age determination is done through a medical examination by a qualified doctor. The court may also consider other evidence, such as school records or birth certificates. The age determination is crucial to decide whether the child should be treated as a juvenile or an adult under the law.\n\n[Document 3]\nCrimes Committed by Foreign Nationals:\nThe Tamil Nadu Police handles crimes committed by foreign nationals in accordance with Indian law. The process involves:\n* Registration of a case\n* Investigation\n* Coordination with the foreign national's embassy or consulate\n* Prosecution under Indian law\n\n[Document 4]\nLegal Provisions for Self-Defense:\nIn Tamil Nadu, the right to self-defense is governed by the Indian Penal Code (IPC), Section 96-106. An individual has the right to defend themselves against imminent harm, using reasonable force. The use of force must be proportionate to the threat, and the intention must be to protect oneself, not to cause harm.\n\n[Document 5]\nAssault using Chemical Substances:\nUnder Tamil Nadu law, assault using chemical substances is punishable under Section 326 of the Indian Penal Code (IPC). The penalty can range from 10 years to life imprisonment.",
+  "retrieved_doc_ids": [
+    "116",
+    "119",
+    "1769",
+    "1718",
+    "691"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "30bb0a1c3fa1216ad4aef15603805919274c416152385006765acfdc60925a3c",
+  "answer": "In Indian law, an individual is considered criminally responsible at 18 years old for adults and 16-18 years for heinous crimes under the Juvenile Justice Act. [Document 1]",
+  "input_tokens": 439,
+  "output_tokens": 44,
+  "seconds": 5.625882299998921,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

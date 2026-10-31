@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_57",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2.\",\n  \"evidence\": \"Document 1 states 'WIS is based on your net trade income earned in the work year and does not include previous year's losses.' Document 2 confirms that WIS payments are based on the income earned in the work year, not previous years.\"\n}",
+      "input_tokens": 1379,
+      "output_tokens": 192,
+      "seconds": 14.915298599997186,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

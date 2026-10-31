@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002663",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly covers career advancement through promotions, exams, and training, and highlights experience and performance as key factors, supported by Document 1. It also correctly advises on proper addressing of ranks and mentions the need for experience and education for specialized roles, consistent with Documents 2, 3, and 4. Document 5 is not directly quoted but is implicitly included in the advice for joining after military service."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly covers career advancement through promotions, exams, and training, and highlights experience and performance as key factors, supported by Document 1. It also correctly advises on proper addressing of ranks and mentions the need for experience and education for specialized roles, consistent with Documents 2, 3, and 4. Document 5 is not directly quoted but is implicitly included in the advice for joining after military service.\",\n  \"evidence\": \"Documents 1, 2, 3, and 4 provide the necessary evidence to support the candidate's answer, with Document 5's information being implicitly referenced.\"\n}",
+      "input_tokens": 838,
+      "output_tokens": 192,
+      "seconds": 14.681376299999101,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

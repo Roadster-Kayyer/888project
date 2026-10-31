@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005320",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Steps for challenging a false police complaint are correctly outlined and evidence from Document 2 supports the procedure."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Steps for challenging a false police complaint are correctly outlined and evidence from Document 2 supports the procedure.\",\n  \"evidence\": \"[Document 2]\"\n}",
+      "input_tokens": 1040,
+      "output_tokens": 192,
+      "seconds": 14.938537500001985,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

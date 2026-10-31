@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006234",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and completely reflects the functions of the Social Justice and Human Rights Wing as described in the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the functions of the Social Justice and Human Rights Wing as described in the evidence documents, with direct support from Document 1.\",\n}",
+      "input_tokens": 768,
+      "output_tokens": 73,
+      "seconds": 5.855659000000742,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and completely reflects the functions of the Social Justice and Human Rights Wing as described in the reference documents.\"}\n\nNote: The scores are based on the assumption that the candidate's answer is factually correct, directly addresses the question, and is fully supported by the evidence provided in the reference documents. Since the evidence directly supports the factual claims made in the candidate's answer, the faithfulness score is 2. The candidate's answer is relevant and correct, hence the scores for correctness and relevance are also 2. The reason is a concise explanation of the scores.",
+      "input_tokens": 808,
+      "output_tokens": 150,
+      "seconds": 11.681454999998095,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

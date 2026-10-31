@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007840",
+  "doc_id": "528",
+  "query_type": "hard",
+  "query": "How do local authorities usually handle street performers who aren't officially licensed?",
+  "corpus_query_index": 7839,
+  "system": "Dense-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nPermission for Processions or Rallies:\nTo get permission, submit an application to the local police station or commissioner's office, providing details of the event, route, and expected participants. The application will be reviewed, and permission will be granted if it does not disrupt public order or traffic.\n\n[Document 3]\nHandling Foreigners Violating Local Customs:\nThe Tamil Nadu Police handles cases of foreigners violating local customs by:\n* Educating them on local laws and customs\n* Issuing warnings or fines, depending on the offense\n* Involving embassies or consulates, if necessary, to resolve the issue\n\n[Document 4]\nReporting Unauthorized Processions or Gatherings:\nTo report unauthorized processions or gatherings, dial 100 or contact your local police station. Provide details about the location, time, and number of people involved. You can also submit a complaint online through the Tamil Nadu Police Department's website.\n\n[Document 5]\nThreatening Cultural Performers:\nThreatening cultural performers can be considered a form of harassment or intimidation. Under the Tamil Nadu Police guidelines, such acts can be booked under Section 506 of the IPC, which carries a punishment of up to 7 years of imprisonment.",
+  "retrieved_doc_ids": [
+    "528",
+    "165",
+    "1791",
+    "969",
+    "592"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "4fa75c18f4b478d5e25e9bf8cc7c1694c9c50e3ce8eaec9208db0fb09257a919",
+  "answer": "Local authorities handle unauthorized street performers by fining them up to ₹1,000 under the Tamil Nadu City Police Act [Document 1]. They may also be arrested for causing public nuisance. For official events, they need to apply for permission [Document 2]. If foreigners violate local customs, they are educated and may face warnings or fines [Document 3]. Unauthorized gatherings can be reported with details [Document 4]. Threatening performers can lead to legal action under Section 506 of the IPC [Document 5]. [Document 1]",
+  "input_tokens": 429,
+  "output_tokens": 115,
+  "seconds": 14.532468400000653,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

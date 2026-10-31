@@ -1,0 +1,31 @@
+{
+  "query_id": "Q002242",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question, is relevant, and is supported by evidence from Document 1 and Document 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes law enforcement strategies, directly addresses the question, and is supported by evidence from Document 1 and Document 3.\",\n}",
+      "input_tokens": 881,
+      "output_tokens": 72,
+      "seconds": 5.913549999997485,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer directly addresses the question, is relevant, and is supported by evidence from Document 1 and Document 3.\"}\n**Note:** The scores provided in the JSON object are based on the candidate answer's alignment with the reference information. The correctness score of 2 indicates that the answer is correct and covers the main reference facts. The relevance score of 2 shows that the answer directly addresses the question. The faithfulness score of 2 indicates that all substantive factual claims in the candidate answer are supported by the supplied evidence. The reason is a concise explanation of the scores.",
+      "input_tokens": 921,
+      "output_tokens": 148,
+      "seconds": 11.62532629999987,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

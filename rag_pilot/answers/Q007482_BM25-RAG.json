@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007482",
+  "doc_id": "464",
+  "query_type": "formal",
+  "query": "What measures does the Tamil Nadu Police implement to safeguard the anonymity of sexual harassment victims?",
+  "corpus_query_index": 7481,
+  "system": "BM25-RAG",
+  "reference_answer": "Protecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.",
+  "context": "[Document 1]\nReporting Sexual Harassment:\nTo report sexual harassment, visit your local police station or call the All-Women Police Station (AWPS) at 100. You can also file a complaint online through the Tamil Nadu Police website.\n\n[Document 2]\nHarassment based on Sexual Orientation:\nUnder the Tamil Nadu Police guidelines, harassment based on sexual orientation can be considered a form of sexual harassment. The punishment can range from 1 to 3 years of imprisonment and a fine, as per the Indian Penal Code (IPC) Section 354A.\n\n[Document 3]\nProtecting Identity of Sexual Harassment Complainants:\nTamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. Complainants can also request to remain anonymous. The police follow the Supreme Court's guidelines on protecting victims' identities and ensure their safety and security throughout the investigation process.\n\n[Document 4]\nWorkplace Harassment:\nThe legal consequences for workplace harassment in Tamil Nadu can include imprisonment of up to 3 years and a fine, as per the Tamil Nadu Prohibition of Harassment of Women Act, 1998, and the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.\n\n[Document 5]\nSupport for Acid Attack Victims:\nThe Tamil Nadu Police provides support to women victims of acid attacks. Victims can contact the All-Women Police Stations or the 181 Helpline for assistance. The government also provides financial aid and medical help through the Tamil Nadu Victim Compensation Scheme.",
+  "retrieved_doc_ids": [
+    "827",
+    "568",
+    "464",
+    "548",
+    "471"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "7724f2969a5c83f83bb16a648ea20c5dfbebc091fa79ee9114354c306607ea53",
+  "answer": "Tamil Nadu Police protects complainants' identities by maintaining confidentiality and using coded names in records. They follow Supreme Court guidelines and ensure safety and security during investigations. [Document 3]",
+  "input_tokens": 457,
+  "output_tokens": 38,
+  "seconds": 4.8763402000004135,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2133.796875
+}

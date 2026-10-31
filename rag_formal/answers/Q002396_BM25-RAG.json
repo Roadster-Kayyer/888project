@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002396",
+  "doc_id": "143",
+  "query_type": "original",
+  "query": "What evidence should I preserve for reporting social media harassment?",
+  "corpus_query_index": 2395,
+  "system": "BM25-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 2]\nSocial Media Monitoring:\nThe Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.\n\n[Document 3]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 4]\nSafety Precautions on Social Media:\nTo stay safe on social media, women should:\n* Set privacy settings to limit who can see their posts\n* Avoid sharing personal contact information\n* Be cautious when accepting friend requests\n* Report inappropriate comments or messages to the platform\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "143",
+    "1327",
+    "1196",
+    "1999",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "30d208db7fac60f722f5b385341a27a0bb3c3c3f2bd811e69cfe2e405eb9f8b0",
+  "answer": "For reporting social media harassment, preserve screenshots, URLs, and messages [Document 1]. Provide these along with emails, chat logs, and digital communications [Document 1]. Visit a police station or use an online portal to file a complaint [Document 3]. Set privacy settings, avoid sharing personal info, and report inappropriate content [Document 4]. [Document 1] provides specific steps for preserving evidence.",
+  "input_tokens": 414,
+  "output_tokens": 84,
+  "seconds": 10.595666899998832,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_9",
+  "doc_id": "PB_fdd274ee47983db43f69",
+  "query_type": "ICA_134",
+  "query": "Will e-Services that do not require Singpass login still be available?",
+  "reference_answer": "e-Services that do not require Singpass will continue to be available on the ICA website.",
+  "corpus_query_index": 291,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\ne-Services that do not require Singpass will continue to be available on the ICA website.\n\n[Document 2]\nApplicants with valid Singpass account can submit your applications for REP facilities using ICA e-Service while overseas.If you do not have a Singpass account, you can submit your application through our Singapore Missions overseas. Please note that overseas application must be submitted at least two months before the expiry of the current REP.\n\n[Document 3]\nIf you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.\n\n[Document 4]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.\n\n[Document 5]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.",
+  "retrieved_doc_ids": [
+    "PB_fdd274ee47983db43f69",
+    "PB_4263bcdcbe5d7206c780",
+    "PB_92313e7a80bef01e6c14",
+    "PB_cb5d04a689bc8ce22058",
+    "PB_f07373f2f002f0f7b2ed"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ee1ca000bf0d6185699663a936a2c82412db8961259b356805a2a56c36c3e692",
+  "answer": "e-Services that do not require Singpass login will still be available on the ICA website [Document 1]. However, for services requiring Singpass, applicants must have a valid Singpass account or use other methods like overseas missions or contacting the Singpass Helpdesk [Document 2-4].",
+  "input_tokens": 474,
+  "output_tokens": 62,
+  "seconds": 8.017774399995687,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

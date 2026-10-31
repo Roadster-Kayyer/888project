@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_86",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer acknowledges the variability of PCTS amounts but lacks specific evidence to support exact figures."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer acknowledges the variability of PCTS amounts but lacks specific evidence to support exact figures.\",\n  \"evidence\": null\n}",
+      "input_tokens": 555,
+      "output_tokens": 70,
+      "seconds": 5.495571099992958,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

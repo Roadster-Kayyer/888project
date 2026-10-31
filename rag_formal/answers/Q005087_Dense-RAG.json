@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005087",
+  "doc_id": "1914",
+  "query_type": "formal",
+  "query": "In which cases does the Cyber Crime Wing of Tamil Nadu Police engage?",
+  "corpus_query_index": 5086,
+  "system": "Dense-RAG",
+  "reference_answer": "Cyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.",
+  "context": "[Document 1]\nCyber Crime Wing Cases:\nThe Cyber Crime Wing of Tamil Nadu Police handles cases related to online crimes, including hacking, phishing, online harassment, and cyber frauds.\n\n[Document 2]\nCyber Crime Wing Role:\nThe Cyber Crime Wing in Tamil Nadu investigates and prevents cyber crimes, such as hacking, online fraud, and identity theft. They also provide technical assistance to other police units.\n\n[Document 3]\nTamil Nadu Police Cyber Crime Wing:\nThe Cyber Crime Wing handles cases related to online crimes, such as hacking, phishing, cyber stalking, and online fraud. They investigate and prosecute crimes committed using computers and the internet.\n\n[Document 4]\nTamil Nadu Police Engagement with Tech Professionals:\nThe Tamil Nadu Police engages with tech professionals through the Cyber Crime Cell and the Tamil Nadu Police's Cyberdome initiative. This collaboration helps to enhance cybersecurity, prevent cybercrimes, and promote awareness about online safety.\n\n[Document 5]\nFiling a Cyber Crime Complaint:\nTo file a complaint with the Cyber Crime Wing in Tamil Nadu, visit the nearest cyber crime police station or submit a complaint online through the Tamil Nadu Police website. Provide detailed information about the incident, including evidence and supporting documents.",
+  "retrieved_doc_ids": [
+    "1914",
+    "153",
+    "1564",
+    "1705",
+    "1915"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "f3da59a8f2c88bed78109bda754ffda898d726a66d5c614f9e1ac4007799c853",
+  "answer": "The Cyber Crime Wing of Tamil Nadu Police engages in cases of online crimes like hacking, phishing, cyber fraud, cyber stalking, and online harassment [Document 1, Document 3]. They handle investigations and prosecutions related to computer and internet-based crimes [Document 2, Document 3]. Additionally, they collaborate with tech professionals for enhanced cybersecurity [Document 4]. Complaints can be filed at cyber crime police stations or online [Document 5].",
+  "input_tokens": 367,
+  "output_tokens": 91,
+  "seconds": 11.790609499999846,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

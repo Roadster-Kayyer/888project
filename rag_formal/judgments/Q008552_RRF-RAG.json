@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008552",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states penalties for domestic violence, assault with sexual intent, and violence during strikes, supported by evidence from all documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states penalties for domestic violence, assault with sexual intent, and violence during strikes, supported by evidence from all documents.\",\n  \"evidence\": \"[Document 1], [Document 2], [Document 3], [Document 4], [Document 5]\"\n}\n\n\nThe reason is succinct and captures the essence of the evaluation: the candidate's answer is correct, relevant, and fully supported by the evidence provided in the documents.",
+      "input_tokens": 811,
+      "output_tokens": 141,
+      "seconds": 10.872000300005311,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

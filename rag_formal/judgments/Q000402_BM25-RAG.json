@@ -1,0 +1,23 @@
+{
+  "query_id": "Q000402",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the reference, covering all main facts about Child Welfare Police Officers' roles and functions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the reference, covering all main facts about Child Welfare Police Officers' roles and functions.\"\n}",
+      "input_tokens": 1114,
+      "output_tokens": 68,
+      "seconds": 5.604241500001081,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

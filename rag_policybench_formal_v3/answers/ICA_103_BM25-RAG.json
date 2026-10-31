@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_103",
+  "doc_id": "PB_d36aa50f901554971814",
+  "query_type": "ICA_134",
+  "query": "Can I request for a Long-Term Visit Pass (LTVP) physical card after 27 Feb 2023?",
+  "reference_answer": "ICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.",
+  "corpus_query_index": 173,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nICA had ceased the issuance of Long-Term Visit Pass (LTVP) physical cards from 27 Feb 2023. LTVP will henceforth be issued in digital format only.\n\n[Document 2]\nWith effect from 27 Feb 2023, ICA has ceased the issuance of Long-Term Visit Pass (LTVP) physical cards.For replacement of LTVP due to loss/damage, there is no need to report to ICA as no physical LTVP card will be issued for the replacement.You may use the digital LTVP in your Singpass app for verification of your status.Only pass holders who are unable to apply for Singpass (e.g. LTVP holders under 15 years old), may report to ICA Services Centre to seek a digital replacement of their lost/damaged LTVP card.\n\n[Document 3]\nUpon course completion, students will have to cancel their Student's Pass (STP) and surrender any physical STP card that was issued to them for cancellation to ICA. Upon cancellation of their STP, they may be granted a short-term visit pass to stay in Singapore (up to 89 days).If you are studying in an Institute of Higher Learning (IHL) and wish to have a longer period of stay to look for jobs upon completion of your course, you may apply for a one-year (non-renewable) long term visit pass (LTVP).You may refer to LTVP for Graduate from IHL Seeking Employment in Singapore for more details.\n\n[Document 4]\nA Singapore citizen - Non-resident couple is encouraged to submit a PMLA before getting married. The PMLA provides greater clarity on whether your intended non-resident spouse may qualify for long-term stay in Singapore. Failing to complete a PMLA may lead to a longer processing time when you and your foreign spouse submit a Long-Term Visit Pass (LTVP) application after marriage.You may refer to Pre-Marriage LTVP Assessment for more information.\n\n[Document 5]\nThe updating of new passport number is not required after the submission of the Pre-Marriage LTVP Assessment (PMLA). However, please take note to update your new passport number in the online application form during your Long-Term Visit Pass (LTVP) application.",
+  "retrieved_doc_ids": [
+    "PB_d36aa50f901554971814",
+    "PB_f07373f2f002f0f7b2ed",
+    "PB_a36ef45981ef41b0b21c",
+    "PB_492d1cc19d42b1bac512",
+    "PB_e0f7b3c7aacb50023519"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "941f87832dca501567aa1229d9f52f99bde2cade3614eb793906626ffa82464a",
+  "answer": "No physical LTVP cards will be issued after 27 Feb 2023; they will be issued digitally only. [Document 1]",
+  "input_tokens": 608,
+  "output_tokens": 32,
+  "seconds": 4.351437800010899,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "medishield_8",
+  "doc_id": "PB_b9aebe55fbad5f72dcba",
+  "query_type": "medishield",
+  "query": "For Mr. A's 1st hospitalisation in the policy year 1 Apr 2026 – 31 Mar 2027, what is the claimable amount and does it exceed the deductible?",
+  "reference_answer": "The claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+  "corpus_query_index": 329,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 2]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 3]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 4]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 5]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+  "retrieved_doc_ids": [
+    "PB_d600f5b60cee68821fae",
+    "PB_ee588d3fa5445377e2bc",
+    "PB_43972d7faa0ccf029be3",
+    "PB_b136e24f78206e70b3ee",
+    "PB_b9aebe55fbad5f72dcba"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1ea3a03fdd32e077c2bc0f970066e009379e5dfd9f423b44b60a87ae2b475b23",
+  "answer": "The claimable amount is $1,000. It does not exceed the deductible of $2,000, so there is no payout from MediShield Life. [Document 5]",
+  "input_tokens": 506,
+  "output_tokens": 42,
+  "seconds": 5.4813398999976926,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

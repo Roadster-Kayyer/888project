@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_74",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states AV and its determination, relevant to the question, and supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states AV and its determination, relevant to the question, and supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] The Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. The AV is based on the address in your NRIC.\"\n}",
+      "input_tokens": 1094,
+      "output_tokens": 192,
+      "seconds": 14.912355799999204,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

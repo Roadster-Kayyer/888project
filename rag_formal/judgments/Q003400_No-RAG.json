@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003400",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Answer partially addresses the question but omits vehicle registration, insurance, and fitness certificates."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Answer partially addresses the question but omits vehicle registration, insurance, and fitness certificates.\",\n  \"evidence\": \"Retrieved evidence is null, but the candidate answer is consistent with the reference information about needing a valid driving license and vehicle registration certificate.\"\n}",
+      "input_tokens": 390,
+      "output_tokens": 96,
+      "seconds": 7.451150400000188,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_36",
+  "doc_id": "PB_e57446a6e3d763a70f04",
+  "query_type": "BTT",
+  "query": "Which category of traffic signs must be followed without exception?",
+  "reference_answer": "Mandatory signs are compulsory signs.",
+  "corpus_query_index": 30,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 2]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 3]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 4]\nMandatory signs are compulsory signs.\n\n[Document 5]\nThe validity of the ABTC is five years or up to the validity of the passport, whichever is shorter. However, if your Singapore passport number has changed, you need to apply for a new ABTC under the category of 'replacement due to change of particulars'. You should submit an application only after you have collected your new passport.",
+  "retrieved_doc_ids": [
+    "PB_716429660f2efd24efb8",
+    "PB_786ca90f3ae19fb193e3",
+    "PB_2858faae83bda4331fb6",
+    "PB_e57446a6e3d763a70f04",
+    "PB_f8ef7d9186905c0df18a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "765939f5fd6fb222af8d318f896ae467bcb7ebf6141562da7edd724209a4e7e8",
+  "answer": "Mandatory signs must be followed without exception [Document 4].",
+  "input_tokens": 297,
+  "output_tokens": 14,
+  "seconds": 177.51388139999472,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

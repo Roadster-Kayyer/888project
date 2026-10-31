@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_52",
+  "doc_id": "PB_786ca90f3ae19fb193e3",
+  "query_type": "BTT",
+  "query": "What is indicated by merging arrows drawn on the road in Singapore's Basic Theory Test?",
+  "reference_answer": "Merging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.",
+  "corpus_query_index": 48,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nMerging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 5]\nSG Arrival Card,  also known as SGAC is the electronic version of the paper Disembarkation/Embarkation (D/E) card that every foreign visitor must present for immigration clearance. A D/E number is provided to foreign visitors after SGAC submission.The submission of the SG Arrival Card is one of the basic entry requirements to visit Singapore. The use of the SG Arrival Card e-Service is free of charge. Please also note that the SG Arrival Card is not a visa.",
+  "retrieved_doc_ids": [
+    "PB_786ca90f3ae19fb193e3",
+    "PB_043f86bad043c042932a",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_716429660f2efd24efb8",
+    "PB_9b29b1a6d1890e3f7dca"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "630abf05ab211be89caeaa5ae8036e15cc5e20b2c44a24a3dbf8f47dec1cd9fe",
+  "answer": "Merging arrows on the road in Singapore's Basic Theory Test indicate that two traffic lanes are merging into one, giving motorists advance warning of this situation. [Document 1]",
+  "input_tokens": 331,
+  "output_tokens": 36,
+  "seconds": 4.799681400007103,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

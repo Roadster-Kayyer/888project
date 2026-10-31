@@ -1,0 +1,31 @@
+{
+  "query_id": "CPF_14",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies property types and income factors relevant to WIS eligibility, supported by documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies property types and total income as factors for WIS eligibility, supported by Document 1 and Document 3.\",\n}",
+      "input_tokens": 740,
+      "output_tokens": 71,
+      "seconds": 5.7087039000034565,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies property types and income factors relevant to WIS eligibility, supported by documents.\"}",
+      "input_tokens": 780,
+      "output_tokens": 48,
+      "seconds": 4.16097909999371,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

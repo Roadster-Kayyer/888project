@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001547",
+  "doc_id": "1277",
+  "query_type": "formal",
+  "query": "What steps are required to submit a proposal for road widening to the Public Works Department in Tamil Nadu?",
+  "corpus_query_index": 1546,
+  "system": "Dense-RAG",
+  "reference_answer": "Applying for Road Widening Proposals:\nTo apply, submit a proposal to the concerned PWD Divisional Office, along with required documents such as land ownership records and a detailed project report. The proposal will be reviewed and processed according to PWD guidelines.",
+  "context": "[Document 1]\nConstruction near Highways:\nTo obtain permission for construction near highways in Tamil Nadu, contact the Tamil Nadu Highways Department. Submit an application with required documents, including a building plan and NOC from local authorities. The department will review and issue permission if the construction complies with regulations.\n\n[Document 2]\nBuilding Plan Approval:\nTo obtain building plan approval from PWD in Tamil Nadu, submit your building plan to the nearest PWD office or local authority. Ensure compliance with Tamil Nadu PWD building regulations and pay the required fees. The application will be reviewed, and approval will be granted if the plan meets the regulations.\n\n[Document 3]\nForest Land Diversion in Tamil Nadu:\nTo apply for forest land diversion, submit a proposal to the Tamil Nadu Forest Department. The application should include details of the proposed project, land requirements, and environmental impact assessment. The department will review and process the application as per the Forest Conservation Act, 1980, and relevant state guidelines.\n\n[Document 4]\nObtaining Permission for Road Construction:\nTo obtain permission for road construction through forests, apply to the Tamil Nadu Forest Department with required documents, including environmental impact assessment and clearance certificates. The application will be reviewed and approved by the Forest Department and other relevant authorities.\n\n[Document 5]\nReporting Traffic Signal Issues to PWD:\nTo report traffic signal issues, contact the Tamil Nadu Public Works Department (PWD) through their helpline or website. You can also submit a complaint at the nearest PWD office or through the Tamil Nadu Government's online complaint portal.",
+  "retrieved_doc_ids": [
+    "1279",
+    "1275",
+    "1201",
+    "1226",
+    "1288"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "8ab3517e6ab1c8ff6f1f1358d258694d6f5287d0c0a7658a6757ff85309f7f6b",
+  "answer": "To submit a proposal for road widening in Tamil Nadu, follow these steps:\n1. Contact the Public Works Department (PWD).\n2. Submit an application with a building plan and NOC from local authorities.\n3. Pay required fees and ensure the plan complies with PWD regulations.\n[Document 1]",
+  "input_tokens": 446,
+  "output_tokens": 63,
+  "seconds": 7.9268190000002505,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

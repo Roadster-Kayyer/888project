@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_122",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the use of MyICA mobile app to delete trip records, aligning with evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the use of MyICA mobile app to delete trip records, aligning with evidence from Document 2.\",\n  \"evidence\": \"[Document 2] - Deleting records in the mobile app clears your records without retracting them.\"\n}",
+      "input_tokens": 1213,
+      "output_tokens": 192,
+      "seconds": 15.029137700010324,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

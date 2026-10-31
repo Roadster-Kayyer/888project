@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_30",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer does not match the reference sequence and lacks supporting evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer does not match the reference sequence and lacks supporting evidence.\",\n  \"evidence\": null\n}\n\n\nIn this case, the correctness score is 0 because the candidate's answer does not accurately reflect the sequence mentioned in the reference. The relevance score is 0 because the candidate's answer does not directly address the question about the sequence to look at a junction. Faithfulness is null due to the absence of evidence that supports the candidate's answer, and the reason succinctly explains the scores.",
+      "input_tokens": 355,
+      "output_tokens": 154,
+      "seconds": 11.836166699999012,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2818.0791015625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

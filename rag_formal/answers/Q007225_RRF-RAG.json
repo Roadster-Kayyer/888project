@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007225",
+  "doc_id": "417",
+  "query_type": "hard",
+  "query": "What's the procedure for addressing issues with a DRDA representative?",
+  "corpus_query_index": 7224,
+  "system": "RRF-RAG",
+  "reference_answer": "Complaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.",
+  "context": "[Document 1]\nComplaint against DRDA Officer:\nTo complain against a DRDA officer, contact the District Collector or the concerned department's headquarters. You can also file a complaint online through the Tamil Nadu Government's grievance portal or visit the nearest police station.\n\n[Document 2]\nComplaint against a District Supply Officer:\nFile a complaint with the District Collector's office or the Department of Civil Supplies and Consumer Protection. You can also contact the Vigilance Cell or the State Consumer Helpline.\n\n[Document 3]\nReporting Water Supply Issues:\nTo report water supply issues, contact your local PWD water supply office or the Tamil Nadu PWD helpline. Provide details of the issue, such as location and nature of the problem. You can also submit a complaint online through the Tamil Nadu Government's grievance portal.\n\n[Document 4]\nRecording Evidence of Witnesses Abroad:\nThe procedure involves:\n1. Court issues a Letter of Request (LOR) to the foreign country.\n2. LOR is sent through the Ministry of Home Affairs and the Ministry of External Affairs.\n3. Foreign country's court or authority records the witness's statement.\n\n[Document 5]\nFiling an Industrial Dispute:\nTo file an industrial dispute, submit a written application to the Labor Commissioner or the Conciliation Officer, stating the nature of the dispute and the relief sought. The application should be signed by the worker or the union representative.",
+  "retrieved_doc_ids": [
+    "417",
+    "406",
+    "1278",
+    "788",
+    "1094"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "b1b8f86d37e6cf18aa8cd744fcd9b76e6761600c480171bf12e3838833d386c7",
+  "answer": "For complaints against DRDA officers, contact the District Collector or the concerned department's headquarters. Alternatively, file a complaint online or visit a police station [Document 1]. For other issues, refer to specific documents for detailed procedures. [Document 1-5] provide varying procedures based on the type of issue.",
+  "input_tokens": 408,
+  "output_tokens": 64,
+  "seconds": 8.478927800000747,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_90",
+  "doc_id": "PB_3c57126fedeef060902b",
+  "query_type": "ICA_134",
+  "query": "When do I need to report a change of address on my IC?",
+  "reference_answer": "IC holders are required to report a change of address within 28 days of moving to the new address.",
+  "corpus_query_index": 292,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nIC holders are required to report a change of address within 28 days of moving to the new address.\n\n[Document 2]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 3]\nYou can submit a report on the misuse of your address.\n\n[Document 4]\nYou can report change in passport particulars via the e-Service. The LTVP holder will be required to upload an image of the new passport biodata page at the e-Service.You can refer to ICA website on Change of Passport Particulars or Residential Address for LTVP holders for further information.\n\n[Document 5]\nYou need to collect your IC in person. Please only register/replace your IC if you are planning to return to Singapore within the next six months.",
+  "retrieved_doc_ids": [
+    "PB_3c57126fedeef060902b",
+    "PB_aa5916ddd19af121154f",
+    "PB_9a8bc39406bbc966061a",
+    "PB_93b665013679b839e21c",
+    "PB_28ec022d3591816d8720"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "64a87e190cec64133f26779b1615006dbbeaa276c07e7f1bc1c5682cea0d82eb",
+  "answer": "IC holders must report a change of address within 28 days of moving to the new address [Document 1]. After reporting, you receive a unique PIN and a sticker to affix to your IC [Documents 2 & 4]. This ensures the updated address is visible and verified [Document 2].",
+  "input_tokens": 387,
+  "output_tokens": 64,
+  "seconds": 8.087113200002932,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

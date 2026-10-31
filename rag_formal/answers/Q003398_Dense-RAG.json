@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003398",
+  "doc_id": "161",
+  "query_type": "casual",
+  "query": "Need what to bring if I'm driving in Tamil Nadu?",
+  "corpus_query_index": 3397,
+  "system": "Dense-RAG",
+  "reference_answer": "Documents to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)",
+  "context": "[Document 1]\nDocuments to Carry While Driving:\nWhile driving in Tamil Nadu, carry:\n* Valid driving license\n* Vehicle registration certificate\n* Insurance certificate\n* Pollution under control certificate\n* Vehicle fitness certificate (if applicable)\n\n[Document 2]\nObtaining International Driving Permits:\nTo obtain an international driving permit through Tamil Nadu RTO, submit an application with required documents, including a valid driving license, passport, and proof of address. Visit the RTO website for the application form and procedures. The permit is usually issued within a few days.\n\n[Document 3]\nFine for Not Carrying Driving License:\nIn Tamil Nadu, the fine for not carrying a driving license is ₹1,000 for the first offense and ₹2,000 for subsequent offenses, as per the Motor Vehicles Act. Always carry your driving license while driving to avoid penalties.\n\n[Document 4]\nCommercial Vehicle Permits:\nTo obtain permits for commercial vehicles in Tamil Nadu:\n1. Register your vehicle at the RTO office.\n2. Obtain a fitness certificate.\n3. Apply for a permit using Form 45 or 46.\n4. Pay the required fees.\n5. Renew permits as required.\n\n[Document 5]\nOversized Vehicle Permits:\nTo obtain special permits for oversized vehicles in Tamil Nadu, contact the Tamil Nadu State Transport Authority or the Regional Transport Office (RTO) in your area. Submit an application with required documents, including vehicle details and route permits.",
+  "retrieved_doc_ids": [
+    "161",
+    "2058",
+    "870",
+    "2055",
+    "2059"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "8a410921c66213905c5ec6e5a30cbbb561ec459d87ee170c0a9eed5ebbc3456b",
+  "answer": "While driving in Tamil Nadu, bring:\n- Valid driving license\n- Vehicle registration certificate\n- Insurance certificate\n- Pollution under control certificate\n- Vehicle fitness certificate (if applicable) [Document 1]",
+  "input_tokens": 422,
+  "output_tokens": 42,
+  "seconds": 5.580284200001188,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

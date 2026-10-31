@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007127",
+  "doc_id": "40",
+  "query_type": "formal",
+  "query": "Under what circumstances do I have legal rights during an arrest?",
+  "corpus_query_index": 7126,
+  "system": "RRF-RAG",
+  "reference_answer": "Rights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "context": "[Document 1]\nLegal Rights during Police Investigations:\nDuring police investigations in India, citizens have the right to remain silent, consult a lawyer, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation.\n\n[Document 2]\nRights of an Accused:\nDuring police interrogation, an accused has the right to:\n- Remain silent\n- Consult a lawyer\n- Be informed of the grounds of arrest\n- Be produced before a magistrate within 24 hours\n\n[Document 3]\nCitizen Rights During Investigations:\nCitizens have the right to remain silent, seek legal counsel, and be informed of the grounds of arrest. They are also entitled to a fair and impartial investigation, with protection against torture, cruel, or inhuman treatment.\n\n[Document 4]\nRights if Arrested:\nIf arrested, you have the right to:\n- Know the reason for arrest\n- Contact a family member or lawyer\n- Remain silent\n- Request medical attention if needed\n\n[Document 5]\nRights if Arrested:\nIf arrested, you have the right to:\n* Know the reason for arrest\n* Contact a family member or lawyer\n* Remain silent\n* Request medical attention, if needed",
+  "retrieved_doc_ids": [
+    "2033",
+    "1848",
+    "1418",
+    "284",
+    "40"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "434f2bb261cf15d146c7ccc214a1e0175babe089cf34165399313046c16f4320",
+  "answer": "During an arrest, you have the right to know the reason for your arrest, request medical attention if needed, contact a family member or lawyer, remain silent, and be informed of the grounds of arrest. You also have the right to a fair and impartial investigation. [Document 4]",
+  "input_tokens": 366,
+  "output_tokens": 59,
+  "seconds": 7.754746300000988,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

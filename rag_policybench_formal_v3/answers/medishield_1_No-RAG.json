@@ -1,0 +1,20 @@
+{
+  "query_id": "medishield_1",
+  "doc_id": "PB_ee588d3fa5445377e2bc",
+  "query_type": "medishield",
+  "query": "How much is the co-insurance for the first $5,000 claimable amount if the deductible is $2,000?",
+  "reference_answer": "The co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.",
+  "corpus_query_index": 303,
+  "system": "No-RAG",
+  "context": "",
+  "retrieved_doc_ids": [],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": null,
+  "prompt_sha256": "c1e16112f75f381a96176d70319d944b7e46eae5354e02cf4669151fc2d6fb3c",
+  "answer": "Without the document, I can't provide the exact co-insurance rate. However, typically, after a $2,000 deductible, the insurance company might apply a co-insurance percentage to the remaining $5,000 claimable amount. The specific rate would be in the policy documents. [Document N]",
+  "input_tokens": 141,
+  "output_tokens": 67,
+  "seconds": 8.462933999995585,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

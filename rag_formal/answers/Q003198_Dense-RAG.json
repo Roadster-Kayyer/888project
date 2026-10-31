@@ -1,0 +1,26 @@
+{
+  "query_id": "Q003198",
+  "doc_id": "1574",
+  "query_type": "casual",
+  "query": "So, what's the Police Radio Branch's job in keeping everyone connected?",
+  "corpus_query_index": 3197,
+  "system": "Dense-RAG",
+  "reference_answer": "Police Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.",
+  "context": "[Document 1]\nPolice Radio Branch:\nThe Police Radio Branch plays a crucial role in communication systems by providing real-time connectivity between police units, enabling swift response to emergencies and effective coordination of operations.\n\n[Document 2]\nPolice Radio Branch:\nThe Police Radio Branch in Tamil Nadu is responsible for:\n- Maintaining communication networks\n- Coordinating police operations through wireless communication\n- Providing technical support for police radio systems\n\n[Document 3]\n2. Police Wireless Monitoring Organization:\nThe Police Wireless Monitoring Organization monitors and regulates wireless communications to prevent misuse and maintain law and order. It tracks and intercepts suspicious messages to aid in investigations.\n\n[Document 4]\nCommunity Radio Program:\nThe Community Radio program shares police information by broadcasting crime prevention tips, missing person alerts, and public safety announcements. It also airs awareness programs on various social issues.\n\n[Document 5]\nPolice Central Workshop:\nThe Police Central Workshop maintains equipment by repairing, servicing, and upgrading police vehicles, communication devices, and other equipment. They ensure that all equipment is in good working condition to support police operations and public safety.",
+  "retrieved_doc_ids": [
+    "1574",
+    "1938",
+    "1592",
+    "1675",
+    "1599"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1f63a8aea785ae11afcbd18eb6613974c942e0cfdb5ad118e5de4c2c143c7f22",
+  "answer": "The Police Radio Branch ensures real-time connectivity among police units for swift responses and coordinated operations [Document 1][Document 2]. It maintains communication networks, coordinates police activities, and provides tech support [Document 2]. Additionally, it monitors and regulates wireless communications to prevent misuse and maintain law and order [Document 3]. It also broadcasts important information to the community [Document 4] and maintains police equipment [Document 5].",
+  "input_tokens": 340,
+  "output_tokens": 88,
+  "seconds": 11.240490899999713,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

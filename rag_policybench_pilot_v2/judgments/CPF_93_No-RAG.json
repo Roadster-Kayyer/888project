@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_93",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states that total income, including overtime and bonuses, is used to assess WIS eligibility."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states that total income, including overtime and bonuses, is used to assess WIS eligibility.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, \"Document 1\" would be a specific reference to an actual document that provides the evidence supporting the candidate's answer. Since the instruction specifies that evidence should be used for faithfulness and evidence is marked as null, this entry is a placeholder indicating that such evidence would be present in a complete response.)",
+      "input_tokens": 438,
+      "output_tokens": 164,
+      "seconds": 12.326362699997844,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2683.49658203125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

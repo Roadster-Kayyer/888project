@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007838",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "Answer discusses Child Welfare Police Officers, not unauthorized street performers."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"Answer discusses Child Welfare Police Officers, not unauthorized street performers.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 786,
+      "output_tokens": 70,
+      "seconds": 5.798089299998537,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

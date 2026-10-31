@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_85",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it discusses the potential consequences of incorrect information submission, which is related to the reference's emphasis on the importance of accurate details. However, it does not directly quote or paraphrase the reference, which is necessary for a higher faithfulness score. The reason for the given scores is the lack of direct evidence from the provided reference text, which is required for full faithfulness.",
+      "input_tokens": 442,
+      "output_tokens": 153,
+      "seconds": 11.547955200003344,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

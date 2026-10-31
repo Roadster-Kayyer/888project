@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001075",
+  "doc_id": "1190",
+  "query_type": "hard",
+  "query": "How can I ensure a court's decision is genuine?",
+  "corpus_query_index": 1074,
+  "system": "Dense-RAG",
+  "reference_answer": "Checking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.",
+  "context": "[Document 1]\nChecking Authenticity of a Court Order:\nTo verify a court order, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. You can also check the order's seal, signature, and stamp to ensure it is genuine.\n\n[Document 2]\nVerification of Judicial Documents:\nFor verification, contact the issuing court or the Tamil Nadu State Judicial Department. Provide the document details, and they will confirm its authenticity. You can also check the document's seal, signature, and stamp to ensure it is genuine.\n\n[Document 3]\nObtaining Certified Copies of Court Documents:\nTo obtain certified copies, \n1. Visit the concerned court\n2. Fill the application form\n3. Pay the required fee\n4. Collect the certified copy after verification\n\n[Document 4]\nVerifying Authenticity of Legal Notices:\nTo verify the authenticity of legal notices in Tamil Nadu, check for the official seal and signature of the issuing authority. You can also contact the concerned police station or court to confirm the notice.\n\n[Document 5]\nObtaining Certified Copies of Court Documents:\nTo obtain certified copies, visit the court where the case was heard. Fill out the required application form, pay the prescribed fee, and submit it to the court staff. The court will verify the documents and provide certified copies.",
+  "retrieved_doc_ids": [
+    "1190",
+    "1191",
+    "1831",
+    "2032",
+    "775"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ae14b190c2207e99a5d26d4e402c670adee6bd45aba6b8439337f61f1c0feada",
+  "answer": "To ensure a court's decision is genuine, visit the official website of the Tamil Nadu judiciary or contact the concerned court directly. Check for the official seal, signature, and stamp to verify its authenticity [Document 1].",
+  "input_tokens": 387,
+  "output_tokens": 45,
+  "seconds": 6.011909500000911,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

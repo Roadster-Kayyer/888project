@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000242",
+  "doc_id": "1040",
+  "query_type": "formal",
+  "query": "What steps are necessary to initiate a criminal case filing process?",
+  "corpus_query_index": 241,
+  "system": "RRF-RAG",
+  "reference_answer": "Filing a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.",
+  "context": "[Document 1]\nFiling a Case in a Criminal Court:\nTo file a case in a criminal court, you must:\n1. File a complaint with the police.\n2. The police will investigate and file a chargesheet.\n3. The court will then take up the case.\n\n[Document 2]\nFiling a case in Juvenile Justice Board:\nTo file a case in the Juvenile Justice Board, contact the local police station or a lawyer. They will guide you through the process, which typically involves filing a complaint and providing required documents. The Board will then review the case and take necessary actions.\n\n[Document 3]\nFiling for Compensation:\nTo file for compensation in a criminal case, the victim can:\n1. Apply to the court trying the case.\n2. Submit a petition with required documents.\n3. The court will consider the application and pass an order.\n\n[Document 4]\nFiling for Discharge:\nTo file for discharge in a criminal case, you can file a discharge petition under Section 239 of the CrPC, stating that there is not enough evidence to proceed with the trial. The court will then review the evidence and decide whether to discharge you from the case.\n\n[Document 5]\nFiling a Case in CBI Court:\nTo file a case in CBI Court, follow these steps:\n1. Lodge a complaint with the Central Bureau of Investigation (CBI).\n2. Provide details of the alleged crime.\n3. Submit supporting documents and evidence.\n4. The CBI will investigate and file a chargesheet in the CBI Court.",
+  "retrieved_doc_ids": [
+    "1040",
+    "1166",
+    "752",
+    "1116",
+    "1172"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "37bd815a648149cb2a8b21772fb3efcc82e52f4699d5fd4346c183b87b757627",
+  "answer": "To initiate a criminal case filing process, follow these general steps:\n1. File a complaint with the police [Doc 1, 5].\n2. The police investigates and files a chargesheet [Doc 1, 5].\n3. The court takes up the case [Doc 1].\nFor Juvenile cases, contact the local police station or lawyer [Doc 2].\nFor compensation, apply to the court and submit a petition [Doc 3].\nFor discharge, file a discharge petition under Section 239 of the CrPC [Doc 4].",
+  "input_tokens": 441,
+  "output_tokens": 116,
+  "seconds": 14.945186699999795,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2113.44189453125
+}

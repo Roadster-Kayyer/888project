@@ -1,0 +1,26 @@
+{
+  "query_id": "Q004608",
+  "doc_id": "1828",
+  "query_type": "casual",
+  "query": "So how do I fight a speeding ticket in TN?",
+  "corpus_query_index": 4607,
+  "system": "BM25-RAG",
+  "reference_answer": "Contesting a Traffic Challan:\nTo contest a traffic challan in Tamil Nadu:\n1. Check the challan details\n2. Visit the Tamil Nadu Police website or the issuing police station\n3. Submit a written appeal within the specified time frame (usually 15 days)",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nPhishing Email:\nIf you receive a phishing email, do not respond or click on any links. Report it to the Cyber Crime Cell at 1930 or [cybercrime@tn.gov.in](mailto:cybercrime@tn.gov.in). Delete the email and keep your personal information secure.\n\n[Document 3]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.\n\n[Document 4]\nPolice Oath of Office in Tamil Nadu:\nThe police oath of office in Tamil Nadu is as follows: \"I, [name], do swear in the name of God that I will bear true faith and allegiance to the Constitution of India and uphold the law.\"\n\n[Document 5]\nQuestion 3: What should I do if I witness police brutality?\nIf you witness police brutality, stay safe and document the incident if possible. Report it to a senior police officer or the Tamil Nadu Police Complaint Authority. You can also file a complaint online or at the nearest police station.",
+  "retrieved_doc_ids": [
+    "255",
+    "252",
+    "849",
+    "1432",
+    "35"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "d6718e4134118cdb56c525c0040d6b2711cefb66dca339630a5548815005fb9c",
+  "answer": "To fight a speeding ticket in TN, go to the nearest police station, provide details, file a First Information Report (FIR), and get a copy for reference [Document 1].",
+  "input_tokens": 424,
+  "output_tokens": 39,
+  "seconds": 5.086664099999325,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

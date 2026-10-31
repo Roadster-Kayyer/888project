@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_46",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer is correct, directly addresses the question, and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer is correct, directly addresses the question, and is supported by Document 1.\",\n  \"evidence\": \"[Document 1] - Directly states that no appointment is required for oath-taking and provides the method to obtain a queue ticket.\"\n}",
+      "input_tokens": 920,
+      "output_tokens": 192,
+      "seconds": 15.218070999995689,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

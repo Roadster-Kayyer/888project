@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_17",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the self-employed status based on commission income and refers to the relevant documents supporting this classification."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the self-employed status based on commission income and refers to the relevant documents supporting this classification.\",\n  \"evidence\": \"Document 1 and Document 2 directly support the claim that as a partner receiving commission, the individual is considered a self-employed person (SEP).\"\n}",
+      "input_tokens": 1131,
+      "output_tokens": 192,
+      "seconds": 15.028693000000203,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002771",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate's answer partially addresses the question but lacks specific details about the process mentioned in the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate's answer partially addresses the question but lacks specific details about the process mentioned in the reference.\",\n  \"evidence\": null\n}\n\nIn this case, the candidate's answer is relevant as it pertains to the recruitment process for ministerial staff in police departments. However, it does not directly address the specific steps outlined in the reference, which include a written examination, a skill test (if required), an interview, and verification of documents and medical fitness. The faithfulness score is null because there is no substantive factual claim made that can be evaluated against the supplied evidence, which is absent. The reason succinctly explains the scores.",
+      "input_tokens": 391,
+      "output_tokens": 183,
+      "seconds": 13.839584100001957,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

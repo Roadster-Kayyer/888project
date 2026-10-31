@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_81",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the evidence provided."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the evidence provided.\",\n  \"evidence\": \"Document 1\"\n}\n\n\nNote: The evidence is marked as \"Document 1\" as a placeholder since the actual evidence is not provided. In a real scenario, the evidence would be a specific reference to the document that supports the candidate's answer.",
+      "input_tokens": 363,
+      "output_tokens": 116,
+      "seconds": 8.892058600002201,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

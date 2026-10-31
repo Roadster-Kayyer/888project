@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002398",
+  "doc_id": "143",
+  "query_type": "casual",
+  "query": "How can I keep proof to show I'm being harassed on social media?",
+  "corpus_query_index": 2397,
+  "system": "BM25-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nQuestion 3: How do I report a missing person?\nTo report a missing person:\n* Go to the nearest police station\n* Provide details of the missing person\n* File a First Information Report (FIR) with the police\n* Get a copy of the FIR for reference\n\n[Document 2]\nSafety Precautions on Social Media:\nTo stay safe on social media, women should:\n* Set privacy settings to limit who can see their posts\n* Avoid sharing personal contact information\n* Be cautious when accepting friend requests\n* Report inappropriate comments or messages to the platform\n\n[Document 3]\nEthical Guidelines for Police Social Media Use:\nThe Tamil Nadu Police follows guidelines to maintain transparency and professionalism on social media. These include:\n* Verifying information before posting\n* Avoiding sensitive or personal information\n* Respecting citizen privacy and dignity\n* Following Tamil Nadu Government's social media policy\n\n[Document 4]\nSocial Media Monitoring:\nThe Tamil Nadu Police uses social media monitoring to track and prevent crimes such as cyberbullying, online harassment, and spreading of misinformation. They monitor social media platforms to identify potential threats and take proactive measures to prevent crimes.\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "255",
+    "1999",
+    "1462",
+    "1327",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "bb4ba008b62f1a4c211d435e326f93319a64678f13c388fff08381ad21dd3f2c",
+  "answer": "To keep proof of harassment, set privacy settings, avoid sharing personal info, and report inappropriate comments/messages to the platform [Document 2]. For official records, get a copy of the FIR after filing a report at the police station [Document 1]. [Document 3] and [Document 4] provide guidelines and actions for staying safe and reporting harassment.",
+  "input_tokens": 418,
+  "output_tokens": 74,
+  "seconds": 9.397338499999023,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

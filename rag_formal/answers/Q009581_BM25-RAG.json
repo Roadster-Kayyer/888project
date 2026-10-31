@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009581",
+  "doc_id": "842",
+  "query_type": "original",
+  "query": "What is the process for servant verification?",
+  "corpus_query_index": 9580,
+  "system": "BM25-RAG",
+  "reference_answer": "Servant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.",
+  "context": "[Document 1]\nServant Verification:\nFor servant verification, submit an application to the local police station with servant's ID proof, address, and employment details. The police will conduct a background check and provide a verification report.\n\n[Document 2]\nPolice Verification for Passport:\nThe process involves:\n1. Application submission to the Regional Passport Office.\n2. Police verification is initiated by the Passport Office.\n3. Local police station verifies the applicant's details.\n4. Report is submitted to the Passport Office.\n\n[Document 3]\nQuestion 2: What is a police verification and when is it required?\nPolice verification is a background check. It's required for passport applications, job interviews, and other sensitive positions, to verify an individual's character and antecedents.\n\n[Document 4]\nDelayed Police Verification:\nIf your police verification is delayed, contact the concerned police station where you applied. Provide your application reference number and ask about the status. You can also visit the Tamil Nadu Police website for updates on the verification process.\n\n[Document 5]\nPassport Verification Procedure:\nThe police verification process for passports involves:\n1. Application submission\n2. Field verification by local police\n3. Report submission to passport office\nVerification is done to confirm applicant's identity and address.",
+  "retrieved_doc_ids": [
+    "842",
+    "787",
+    "34",
+    "219",
+    "201"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e5975d56ff0dc8316ce247b7870f92a3d984c52216ae898e59a1d0c6e59366f3",
+  "answer": "The process for servant verification involves submitting an application to the local police station with ID proof, address, and employment details. The police conduct a background check and provide a verification report. [Document 1]",
+  "input_tokens": 371,
+  "output_tokens": 42,
+  "seconds": 5.8883537000001525,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

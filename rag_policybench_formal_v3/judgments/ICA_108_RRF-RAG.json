@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_108",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question using evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question using evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1, 2]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately describes the process of checking a Singapore Permanent Resident's status by verifying the validity of their Re-Entry Permit (REP) and using Singpass to transfer its validity to a new passport. The answer is relevant (2) because it directly addresses the question and provides a clear method for verifying PR status. The faithfulness (2) is confirmed by the evidence provided in Documents 1 and 2, which support the factual claims made in the candidate answer",
+      "input_tokens": 756,
+      "output_tokens": 192,
+      "seconds": 14.822250700002769,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

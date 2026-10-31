@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002272",
+  "doc_id": "1407",
+  "query_type": "formal",
+  "query": "What measures does the Tamil Nadu Police implement to resolve conflicts between humans and animals in forest areas?",
+  "corpus_query_index": 2271,
+  "system": "Dense-RAG",
+  "reference_answer": "Human-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed",
+  "context": "[Document 1]\nHuman-Animal Conflict:\nTamil Nadu Police addresses human-animal conflict in forest borders by:\n* Collaborating with forest department officials\n* Responding to distress calls\n* Ensuring public safety and animal welfare\n* Providing support for relocation or compensation when needed\n\n[Document 2]\nReporting Man-Animal Conflicts in Tamil Nadu\nTo report man-animal conflicts, call the Tamil Nadu Forest Department's helpline (14417) or contact your local forest range office. Provide details of the incident, and a team will be dispatched to assist.\n\n[Document 3]\nCoordination with Forest Department:\nThe Tamil Nadu Police coordinates with the Forest Department in tribal areas through regular meetings and joint patrols. This collaboration helps to prevent encroachment, poaching, and other forest-related crimes, ensuring the protection of tribal rights and the conservation of forests.\n\n[Document 4]\nRural Land Disputes:\nThe Tamil Nadu Police plays a supportive role in resolving rural land disputes. They assist in maintaining law and order, and provide security during revenue department proceedings. However, the primary resolution of land disputes lies with the Revenue Department.\n\n[Document 5]\nTamil Nadu Police and NGOs:\nTamil Nadu Police collaborates with NGOs on social issues by:\n* Partnering on awareness campaigns\n* Supporting community outreach programs\n* Referring victims to NGO services for support and counseling",
+  "retrieved_doc_ids": [
+    "1407",
+    "1209",
+    "1413",
+    "1366",
+    "1701"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a30f841303038ad6281edb260fc7c6adf7b2df9b5d0094812ba93a3d2fa83e7e",
+  "answer": "The Tamil Nadu Police addresses human-animal conflict by collaborating with the forest department, responding to distress calls, ensuring public and animal safety, and providing support for relocations or compensation. [Document 1] Additionally, they coordinate with the Forest Department in tribal areas and collaborate with NGOs on social issues. [Document 5] [Document 3]",
+  "input_tokens": 410,
+  "output_tokens": 71,
+  "seconds": 8.690125400000397,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2062.5498046875
+}

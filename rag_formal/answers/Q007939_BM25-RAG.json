@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007939",
+  "doc_id": "546",
+  "query_type": "search",
+  "query": "What are the consequences of sending threatening text messages?",
+  "corpus_query_index": 7938,
+  "system": "BM25-RAG",
+  "reference_answer": "Threatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.",
+  "context": "[Document 1]\nThreatening Text Messages:\nSending threatening text messages can result in imprisonment up to 3 years and/or a fine, under Section 506 of the IPC and the Information Technology Act, 2000.\n\n[Document 2]\nThreatening Calls/Messages:\nIf you receive threatening calls or messages:\n1. Save the messages or call records as evidence.\n2. Visit your local police station and file a complaint.\n3. Provide the evidence to the police for further action.\n\n[Document 3]\nThreatening Senior Citizens:\nThreatening senior citizens is a punishable offense. The legal consequences can include imprisonment for up to 3 years and a fine, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007.\n\n[Document 4]\n3. Who are Child Welfare Police Officers and what do they do?\nChild Welfare Police Officers are specially trained police officers who handle cases related to children. They are responsible for ensuring the safety and well-being of children, investigating cases of child abuse and exploitation, and providing support and counseling to child victims.\n\n[Document 5]\nDealing with Harassment Calls/ Messages:\nIf being harassed by phone calls or messages, report to:\n* Tamil Nadu Police Cyber Cell: 1930 (toll-free)\n* Local police station\n* Block the caller's number\n* Save evidence (messages, call logs)",
+  "retrieved_doc_ids": [
+    "546",
+    "876",
+    "575",
+    "107",
+    "1896"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "05cda59f2f3bfcc84ca1041d8c69add350d3e9fb53fd39b54f3ce8b301d97d07",
+  "answer": "Sending threatening text messages can lead to imprisonment up to 3 years and/or a fine, under IPC and IT Act, 2000 [Document 1]. For threatening senior citizens, it can also result in up to 3 years in prison and a fine [Document 3]. Additionally, harassment can be reported and evidence saved, and blocked [Document 5]. [Document 2] provides steps for filing complaints.",
+  "input_tokens": 406,
+  "output_tokens": 88,
+  "seconds": 11.304899099999602,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

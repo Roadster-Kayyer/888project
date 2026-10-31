@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008854",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks direct evidence from the reference.\",\n  \"explanation\": \"The answer correctly addresses the process of dispute resolution but does not provide specific evidence from the reference about legal consequences or the Hindu Succession Act, 1956.\"\n}",
+      "input_tokens": 402,
+      "output_tokens": 98,
+      "seconds": 7.488837099999728,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2794.69970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

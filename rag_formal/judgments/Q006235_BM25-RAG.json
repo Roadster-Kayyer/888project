@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006235",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing as described in the reference documents, with direct evidence supporting the factual claims."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing as described in the reference documents, with direct evidence from Document 1.\",\n}",
+      "input_tokens": 753,
+      "output_tokens": 75,
+      "seconds": 6.173516799994104,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately reflects the responsibilities of the Social Justice and Human Rights Wing as described in the reference documents, with direct evidence supporting the factual claims.\"}\n\nIn the provided candidate answer, the responsibilities of the Social Justice and Human Rights Wing are correctly summarized, including the promotion and protection of human rights, investigation of violations, and implementation of social justice initiatives. The evidence from Document 1 directly supports these factual claims, demonstrating the wing's role in upholding human rights and dignity within the police department. Therefore, the scores for correctness, relevance, and faithfulness are all 2, indicating a fully correct, directly relevant, and fully supported answer.",
+      "input_tokens": 793,
+      "output_tokens": 173,
+      "seconds": 13.413943300001847,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

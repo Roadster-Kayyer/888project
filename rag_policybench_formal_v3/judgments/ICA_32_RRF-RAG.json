@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_32",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the procedure for registering a child born overseas, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the procedure for registering a child born overseas, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] ICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born. You may refer to ICA website for more information on citizenship application for your child.\"\n}",
+      "input_tokens": 866,
+      "output_tokens": 139,
+      "seconds": 10.886731299993698,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

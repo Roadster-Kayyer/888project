@@ -1,0 +1,31 @@
+{
+  "query_id": "Q006444",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing relevant steps and mentioning necessary details like police station, written complaint, and FIR, supported by evidence from Document 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process of filing a domestic violence complaint, directly referencing the correct helpline number and steps, supported by evidence from Document 2.\",\n}",
+      "input_tokens": 857,
+      "output_tokens": 77,
+      "seconds": 6.147294800000964,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing relevant steps and mentioning necessary details like police station, written complaint, and FIR, supported by evidence from Document 2.\"}",
+      "input_tokens": 897,
+      "output_tokens": 62,
+      "seconds": 4.928669300003094,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

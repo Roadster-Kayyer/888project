@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_94",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2, which provide the steps for changing or deleting a recurring cash top-up and the eligibility requirements for the Matched Retirement Savings Scheme."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1 and Document 2, which provide the steps for changing or deleting a recurring cash top-up and the eligibility requirements for the Matched Retirement Savings Scheme.\"\n}",
+      "input_tokens": 1142,
+      "output_tokens": 96,
+      "seconds": 7.43111659999704,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

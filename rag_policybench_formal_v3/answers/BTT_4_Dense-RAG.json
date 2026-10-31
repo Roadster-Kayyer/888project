@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_4",
+  "doc_id": "PB_716429660f2efd24efb8",
+  "query_type": "BTT",
+  "query": "What key road safety measures are implemented in school zones to enhance safety?",
+  "reference_answer": "Key road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+  "corpus_query_index": 34,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nKey road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.\n\n[Document 2]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.\n\n[Document 3]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 4]\nWarning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.\n\n[Document 5]\nNon-scheduled buses, such as school and factory buses, are permitted to use bus lanes during restricted hours.",
+  "retrieved_doc_ids": [
+    "PB_716429660f2efd24efb8",
+    "PB_619765030c2c1f6e27b8",
+    "PB_2858faae83bda4331fb6",
+    "PB_4479f84c1b73422f7e24",
+    "PB_277c0b6ab5b094bffdee"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "3bcfd36066527c45035abcb16ecaed69d4b4a4167b13951fef7305fe8478b7fa",
+  "answer": "In school zones, key road safety measures include prominent signs, traffic calming measures like road humps, pedestrian crossings, and parking restrictions. They also have slow-down and beware signs for various road conditions. [Document 1]",
+  "input_tokens": 284,
+  "output_tokens": 46,
+  "seconds": 452.2852156000008,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2243.55322265625
+}

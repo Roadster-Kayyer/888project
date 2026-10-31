@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003741",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately describes the functions of the Women Safety Committee and is supported by the retrieved evidence documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately describes the functions of the Women Safety Committee and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Women Safety Committee:\nThe Women Safety Committee is a Tamil Nadu Police initiative to ensure women's safety. It functions by:\\n* Addressing women's complaints and grievances\\n* Providing counseling and support\\n* Conducting awareness programs on women's rights and safety\"\n}",
+      "input_tokens": 935,
+      "output_tokens": 148,
+      "seconds": 11.625806300002296,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately describes the functions of the Women Safety Committee and is supported by the retrieved evidence documents.\"}",
+      "input_tokens": 975,
+      "output_tokens": 47,
+      "seconds": 4.063224099998479,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

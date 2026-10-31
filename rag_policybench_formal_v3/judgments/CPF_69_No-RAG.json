@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_69",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate suggests checking PR card for the year, but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate suggests checking PR card for the year, but lacks direct evidence from the reference.\",\n  \"answer\": \"To determine the year of your Singapore Permanent Resident (PR) status for CPF contributions, check your PR card. It lists the year you were granted PR status. [Document 1] provides this information if available.\"\n}",
+      "input_tokens": 516,
+      "output_tokens": 112,
+      "seconds": 8.698884199999156,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3137.83544921875
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

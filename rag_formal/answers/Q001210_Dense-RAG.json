@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001210",
+  "doc_id": "1215",
+  "query_type": "hard",
+  "query": "What's the procedure for reporting unlicensed mining in Tamil Nadu's natural reserves?",
+  "corpus_query_index": 1209,
+  "system": "Dense-RAG",
+  "reference_answer": "Reporting Illegal Mining:\nTo report illegal mining in forest areas of Tamil Nadu, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit the nearest forest range office. You can also report anonymously through the department's website or mobile app.",
+  "context": "[Document 1]\nReporting Illegal Mining:\nTo report illegal mining in forest areas of Tamil Nadu, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit the nearest forest range office. You can also report anonymously through the department's website or mobile app.\n\n[Document 2]\nReporting Illegal Mining\nTo report illegal mining in tribal hills, citizens can contact the local police station or the Tamil Nadu Police toll-free number (1091). They can also file a complaint with the District Collector or the Forest Department, providing details of the location and suspected illegal activity.\n\n[Document 3]\nIllegal Mining:\nPunishment for illegal mining in Tamil Nadu can include imprisonment up to 5 years and a fine up to ₹5 lakhs under the Tamil Nadu Minerals Concession Rules.\n\n[Document 4]\nReporting Illegal Sand Mining to PWD:\nTo report illegal sand mining, contact the Tamil Nadu PWD or the District Collector's office. You can also call the toll-free helpline or submit a complaint online through the Tamil Nadu Government's portal. Provide location details and any evidence of illegal mining.\n\n[Document 5]\nReporting Illegal Diversion of Forest Land:\nTo report illegal diversion of forest land in Tamil Nadu, contact the Tamil Nadu Forest Department or local police station. You can also file a complaint on the Tamil Nadu Government's online grievance portal or call the Forest Department's helpline.",
+  "retrieved_doc_ids": [
+    "1215",
+    "1380",
+    "703",
+    "1290",
+    "1225"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fa9f5f2e8456a656c637b3b61cfe697023f45874ca4ab145960b58ca99e74ca4",
+  "answer": "To report unlicensed mining in Tamil Nadu's natural reserves, contact the Tamil Nadu Forest Department's toll-free number (1800-425-3355) or visit their website/mobile app. Alternatively, report to the nearest forest range office, local police station, or District Collector. [Document 1]",
+  "input_tokens": 419,
+  "output_tokens": 68,
+  "seconds": 8.868253100001311,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

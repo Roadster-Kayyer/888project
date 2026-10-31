@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002661",
+  "doc_id": "1478",
+  "query_type": "original",
+  "query": "What are the career advancement opportunities after joining as a constable?",
+  "corpus_query_index": 2660,
+  "system": "BM25-RAG",
+  "reference_answer": "Career Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.",
+  "context": "[Document 1]\nCareer Advancement Opportunities:\nAfter joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. Experience and performance are key factors in career growth.\n\n[Document 2]\nBenefits of Joining Tamil Nadu Police:\nJoining Tamil Nadu Police offers benefits like competitive salary, job security, and opportunities for growth. It also provides a chance to serve the community and uphold law and order in the state.\n\n[Document 3]\nApplying for Specialized Units:\nTo apply for specialized units like the Cyber Crime division, you must first join the Tamil Nadu Police as a constable or sub-inspector. After gaining experience, you can apply for specialized units through internal postings or departmental exams. Check the official Tamil Nadu Police website for vacancies and eligibility criteria.\n\n[Document 4]\nJoining Tamil Nadu Police after Military Service:\nTo join the Tamil Nadu Police after serving in the military, you can apply for the Ex-Servicemen quota. You must meet the eligibility criteria, including age and educational qualifications. You can check the official Tamil Nadu Police website for notifications and apply online.\n\n[Document 5]\nJoining as a Legal Advisor:\nTo join as a legal advisor, you must be a law graduate and apply through the Tamil Nadu Public Service Commission (TNPSC) or the Tamil Nadu Police Department's recruitment portal. You will need to meet the eligibility criteria and clear the selection process.",
+  "retrieved_doc_ids": [
+    "1478",
+    "1486",
+    "1473",
+    "1501",
+    "1493"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6f731015d9f4f8ca6ae420cb4304a2220c350cc1a5918b30f10475e658cd8b5f",
+  "answer": "After joining as a constable, you can advance to Head Constable, Sub-Inspector, Inspector, and higher ranks through promotions, exams, and training. [Document 1]",
+  "input_tokens": 421,
+  "output_tokens": 38,
+  "seconds": 4.936225100000229,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

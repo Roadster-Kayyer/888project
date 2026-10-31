@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005957",
+  "doc_id": "2070",
+  "query_type": "formal",
+  "query": "What methods are available to check if a vehicle is stolen in Tamil Nadu?",
+  "corpus_query_index": 5956,
+  "system": "RRF-RAG",
+  "reference_answer": "Verifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.",
+  "context": "[Document 1]\nVerifying a Vehicle's Status:\nTo verify if a vehicle is stolen, check the vehicle's registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or the local RTO to verify the vehicle's details. You can also use online services like the VAHAN portal to check the vehicle's history.\n\n[Document 2]\nOnline Platform for Stolen Vehicle Status:\nThe online platform for checking stolen vehicle status is the Tamil Nadu Police website, where citizens can check the status of stolen vehicles using the vehicle's registration number.\n\n[Document 3]\nChecking if a Lost Vehicle has been Found:\nTo check if your lost vehicle has been found, visit the Tamil Nadu Police website or contact the police station where you filed the complaint. Provide your complaint number and vehicle details to inquire about the status. You can also call the Tamil Nadu Police Helpline at 100 for assistance.\n\n[Document 4]\nStolen Property Recovery Status:\nTo check the status of stolen property recovery, visit the Tamil Nadu Police website (www.tnpolice.gov.in) and look for the \"Stolen Property\" or \"Missing Persons/Property\" section. You can also contact your local police station for assistance.\n\n[Document 5]\nChecking Used Vehicle for Pending Cases:\nTo check if a used vehicle has pending cases, visit the Tamil Nadu Police website or the State Transport Department portal. You can also check the vehicle's history using the Vehicle Registration Number (VRN) or Chassis Number at the Regional Transport Office (RTO).",
+  "retrieved_doc_ids": [
+    "2070",
+    "1362",
+    "867",
+    "349",
+    "2056"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "e3dded5f927a75272c5ffd3abe60d223dfd2aaa59c2b01c730a7ba361b7a5bee",
+  "answer": "To check if a vehicle is stolen in Tamil Nadu, verify the registration certificate and engine/chassis number. Contact the Tamil Nadu Transport Department or local RTO, or use online services like the VAHAN portal. [Document 1] Additionally, check the Tamil Nadu Police website for stolen vehicle status using the vehicle's registration number. [Document 2]",
+  "input_tokens": 435,
+  "output_tokens": 73,
+  "seconds": 9.436225600000398,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

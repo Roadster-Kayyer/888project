@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_90",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the self-employed status and the requirement to contribute to CPF, supported by Document 1 and Document 4."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the self-employed status and the requirement to contribute to CPF, supported by Document 1 and Document 4.\"\n}",
+      "input_tokens": 1245,
+      "output_tokens": 73,
+      "seconds": 5.863979699992342,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

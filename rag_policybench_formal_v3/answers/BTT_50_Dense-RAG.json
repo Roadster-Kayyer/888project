@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_50",
+  "doc_id": "PB_01b63f26bd4e5c682e57",
+  "query_type": "BTT",
+  "query": "How many steps are involved in the specified process for overtaking another vehicle safely according to Singapore's Basic Theory Test?",
+  "reference_answer": "12 steps",
+  "corpus_query_index": 46,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nBasic theory of driving.\n\n[Document 2]\nIf your application is unsuccessful, you may submit a new application via the e-Service, citing the reasons for the request. Please ensure that all details provided in your application are accurate (e.g. DE number, Name, etc).Overstaying is an immigration offence. Please make the necessary arrangements to depart Singapore if you are unable to extend your stay before the expiry of your short-term visit pass (STVP).\n\n[Document 3]\nThe minimum age requirement to qualify for a driving licence in Singapore is 18 years old.\n\n[Document 4]\nThe QR code can only be used for immigration clearance at Singapore land checkpoints via car, motorcycle, lorry and bus.Travellers are reminded to bring their passports when travelling overseas, as it remains the official travel document for identification during overseas travel.\n\n[Document 5]\nTravellers arriving and departing via Singapore land checkpoints by car, motorcycle, lorry or bus can use QR codes in lieu of passports for faster and more convenient immigration clearance.This means that instead of using their passports at the immigration lanes, they will only need to scan a single QR code which they generate prior to arriving at the checkpoint.",
+  "retrieved_doc_ids": [
+    "PB_043f86bad043c042932a",
+    "PB_a5deb8741f88193f4891",
+    "PB_5b5856d1886897cce5a3",
+    "PB_8d18fc446288ee1e6348",
+    "PB_b8d04a1b8133012c6cf8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "aa5affb433305bb028f3ab9396835b84d4d82314b707a6ec959fb211506fe467",
+  "answer": "According to Document 1, the process involves several steps but the specific overtaking process is not detailed. For safe overtaking, the driver should maintain a safe distance, signal intentions clearly, and overtake smoothly without causing disruption. [Document 1]",
+  "input_tokens": 378,
+  "output_tokens": 52,
+  "seconds": 6.787212099996395,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_10",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process and is supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and is supported by Document 1.\",\n  \"evidence\": \"[Document 1]\"\n}\n\n\nIn the candidate answer, the process of printing the receipt after payment is correctly described and directly corresponds to the information provided in Document 1. The relevance score is 2 because the answer directly addresses the question. The faithfulness score is 2 as the candidate's answer is fully supported by the evidence in Document 1. The reason succinctly explains the scores.",
+      "input_tokens": 811,
+      "output_tokens": 147,
+      "seconds": 11.505997700005537,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

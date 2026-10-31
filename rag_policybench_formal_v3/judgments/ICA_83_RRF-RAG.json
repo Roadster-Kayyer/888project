@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_83",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly outlines the process for urgent travel without a valid passport, including the required documents and the expected waiting time, supported by Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly outlines the process for urgent travel without a valid passport, including the required documents and the expected waiting time, supported by Document 1.\"\n}",
+      "input_tokens": 1491,
+      "output_tokens": 75,
+      "seconds": 6.107009999992442,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

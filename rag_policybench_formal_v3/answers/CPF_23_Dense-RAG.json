@@ -1,0 +1,26 @@
+{
+  "query_id": "CPF_23",
+  "doc_id": "PB_183b9bc3c7d1d8eee2cf",
+  "query_type": "CPF_111",
+  "query": "If I do not intend to renew my licence, do I need to settle my outstanding MediSave payable?",
+  "reference_answer": "You’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.",
+  "corpus_query_index": 83,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nYou’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.\n\n[Document 2]\nThe MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.\n\n[Document 3]\nNo, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.\n\n[Document 4]\nCAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.\n\n[Document 5]\nAs a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).",
+  "retrieved_doc_ids": [
+    "PB_183b9bc3c7d1d8eee2cf",
+    "PB_b136e24f78206e70b3ee",
+    "PB_e29140d6b3a201be99ba",
+    "PB_43972d7faa0ccf029be3",
+    "PB_474d6298f86507ebfa6a"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "06c41572dee4c709b2288bf8915135e2b3aecfee459d0f6328d57c9e3c630ea7",
+  "answer": "Yes, you need to settle your outstanding MediSave payable even if you don't intend to renew your licence. It's based on your annual net trade income (NTI) and not related to the number of licences. [Document 1]",
+  "input_tokens": 618,
+  "output_tokens": 50,
+  "seconds": 6.633086500005447,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2294.53173828125
+}

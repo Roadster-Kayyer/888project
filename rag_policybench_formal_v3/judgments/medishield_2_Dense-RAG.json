@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_2",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] The Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.\"\n}\n\n\nNote: The reason is concise and directly relates to the scores given. The evidence provided is a direct quote from the retrieved evidence that supports the candidate's answer, which is why the faithfulness score is 2. The correctness and relevance scores are both 2 because the candidate's answer is correct and directly addresses the question.",
+      "input_tokens": 590,
+      "output_tokens": 182,
+      "seconds": 14.189896800002316,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

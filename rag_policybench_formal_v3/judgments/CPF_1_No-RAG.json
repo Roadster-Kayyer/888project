@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_1",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question but lacks direct evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer partially addresses the question but lacks direct evidence from the reference.\",\n  \"evidence\": null\n}\n\n\nIn the reference, it is stated that the 3-year track record is generally applied at the fund level, but for indexed funds or ETFs, the focus is on the fund management company's systems and processes. The candidate answer shifts the focus to the fund management companies but does not directly quote or paraphrase the reference, hence the lack of direct evidence.",
+      "input_tokens": 482,
+      "output_tokens": 144,
+      "seconds": 11.20095250000304,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

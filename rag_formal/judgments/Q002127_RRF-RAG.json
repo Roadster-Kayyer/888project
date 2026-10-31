@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002127",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Documents 1 and 2.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}\n\n\nThe candidate answer is correct (2) as it accurately reflects the measures taken by law enforcement agencies to address forest rights infringements in indigenous communities, as described in the reference documents. The relevance score is 2 because the answer directly addresses the question by mentioning specific actions taken by law enforcement, such as registering complaints and collaborating with forest departments. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Documents 1 and 2,",
+      "input_tokens": 805,
+      "output_tokens": 192,
+      "seconds": 14.803908400001092,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

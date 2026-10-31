@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_6",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer directly addresses the question and is supported by the reference, which states a 12-month period free of offences is required."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by the reference, which states a 12-month period free of offences is required.\",\n  \"evidence\": \"Document 1\"\n}\n\n\n(Note: In a real-world scenario, the \"Document 1\" would be a specific reference to an actual document that contains the evidence. Since this is a hypothetical example, I've used a placeholder text. In practice, the evidence would need to be a real document or a citation that directly supports the claim made in the candidate answer.)",
+      "input_tokens": 352,
+      "output_tokens": 159,
+      "seconds": 12.442049400007818,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

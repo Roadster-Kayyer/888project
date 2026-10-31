@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_45",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] - The lost card becomes invalid once you have applied for a replacement IC. You should use your new IC and invalidate your lost card by cutting it up. If you have not applied for the IC replacement, please submit to ICA the front and back images of your recovered IC.\"\n}",
+      "input_tokens": 722,
+      "output_tokens": 127,
+      "seconds": 9.853840700001456,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007837",
+  "doc_id": "528",
+  "query_type": "formal",
+  "query": "What sanctions might authorities impose on individuals or groups engaging in unauthorized street performances?",
+  "corpus_query_index": 7836,
+  "system": "RRF-RAG",
+  "reference_answer": "Punishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.",
+  "context": "[Document 1]\nPunishment for Unauthorized Street Performances\nUnauthorized street performances can result in a fine of up to ₹1,000 under the Tamil Nadu City Police Act. In some cases, performers may also be arrested for causing public nuisance.\n\n[Document 2]\nUnauthorized Street Vending:\nUnauthorized street vending can result in a fine of up to ₹500 and/or seizure of goods, as per the Tamil Nadu Municipal Laws. Repeat offenders may face higher penalties.\n\n[Document 3]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 4]\nUnauthorized Selling of Lottery Tickets:\nThe penalty for unauthorized selling of lottery tickets in Tamil Nadu can lead to imprisonment up to 2 years and/or a fine up to ₹5,000.\n\n[Document 5]\nReporting Unauthorized NGO Activities:\nTo report unauthorized NGO activities, contact the Tamil Nadu Registrar of Societies or the local police station. You can also file a complaint with the NGO's governing body or the District Collector's office.",
+  "retrieved_doc_ids": [
+    "528",
+    "507",
+    "562",
+    "541",
+    "965"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6bd4dbb27c9d2e39d96d31e63f8e8b8e1a25a094673ddb356f4eb4d50c7e3545",
+  "answer": "Authorities might impose fines up to ₹1,000 for unauthorized street performances under the Tamil Nadu City Police Act. Additionally, there could be arrests for causing public nuisance. For street vending, fines up to ₹500 and seizure of goods are possible, with repeat offenders facing higher penalties. Unauthorized selling of lottery tickets can lead to up to 2 years in prison and a fine of ₹5,000. Harassment of street vendors can result in up to 3 years in prison and a fine of ₹5,000. [Document 1-5]",
+  "input_tokens": 370,
+  "output_tokens": 121,
+  "seconds": 15.746432100000675,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

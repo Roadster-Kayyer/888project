@@ -1,0 +1,31 @@
+{
+  "query_id": "Q007391",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning police action, consistent with evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the question, providing specific helpline numbers and actions taken by the police, supported by Document 1.\",\n}",
+      "input_tokens": 834,
+      "output_tokens": 192,
+      "seconds": 15.083130799997889,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly and directly addresses the question, providing the correct helpline numbers and mentioning police action, consistent with evidence from Document 1.\"}\n**Note:** The scores are based on the assumption that the candidate's answer is accurate and reflects the information provided in the reference documents. The reason given is a concise summary of the evaluation.",
+      "input_tokens": 874,
+      "output_tokens": 98,
+      "seconds": 7.703751599998213,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "ICA_93",
+  "doc_id": "PB_281c77b1cca45bc9951f",
+  "query_type": "ICA_134",
+  "query": "What should I do after my Singapore Permanent Residence (PR) application is approved?",
+  "reference_answer": "Once your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.",
+  "corpus_query_index": 295,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nSingapore Permanent Residents (PR) are eligible to apply for Singapore citizenship two years after being granted Singapore PR status.\n\n[Document 2]\nYou can sponsor your parent(s) for Singapore Permanent Residence (PR) only if you are a Singapore citizen.\n\n[Document 3]\nOnce your PR application is approved, ICA will issue you with an In-Principle Approval (IPA) letter containing administrative details/conditions.Singapore PR applicants and sponsor who have received the PR IPA letter must be present in person at ICA ICA Services Centre to complete Singapore PR formalities.Please ensure that all requirements as stated in the IPA letter are duly completed and the relevant documents/ forms are submitted on the appointment day for ICA to process the formalities accordingly.\n\n[Document 4]\nThere is no provision to reinstate the PR status of those who have renounced their status voluntarily. If you are Interested to become a Singapore PR again, you may submit a fresh application to us for consideration if you meet the prevailing application criteria for PR.\n\n[Document 5]\nYou may enter as a Singapore Permanent Resident (PR) if your Re-Entry Permit (REP) is still valid. You would need to use your Singpass to access the ICA e-Service and transfer the remaining validity of your valid REP from the old to the new passport. Otherwise, you may be inconvenienced each time you travel in and out of Singapore.",
+  "retrieved_doc_ids": [
+    "PB_d98d322f2936df748ef1",
+    "PB_9bcc03600abfbc3227e6",
+    "PB_281c77b1cca45bc9951f",
+    "PB_16464034b8fc8059eece",
+    "PB_cb5d04a689bc8ce22058"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "fffe2d33a98f07b7aa8ba070a0fff3db044e1df7a198c5c8daf212cc4377c0cc",
+  "answer": "After your PR application is approved, you'll receive an IPA letter. You must visit ICA in person to complete formalities. Ensure all requirements in the IPA letter are met and submit necessary documents. [Document 3]",
+  "input_tokens": 414,
+  "output_tokens": 46,
+  "seconds": 5.950028499995824,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

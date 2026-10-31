@@ -1,0 +1,23 @@
+{
+  "query_id": "Q008700",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the IPC sections for minor street fights and outlines the punishment, directly addressing the question and supported by Document 1. It also mentions the police-public sports meet's purpose, indirectly related to spectator behavior, and advises on witnessing police brutality, which is relevant but not directly tied to the question. The answer omits specific repercussions for spectators at games beyond minor fights, but the evidence provided is sufficient for the given information."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the IPC sections for minor street fights and outlines the punishment, directly addressing the question and supported by Document 1. It also mentions the police-public sports meet's purpose, indirectly related to spectator behavior, and advises on witnessing police brutality, which is relevant but not directly tied to the question. The answer omits specific repercussions for spectators at games beyond minor fights, but the evidence provided is sufficient for the given information.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 976,
+      "output_tokens": 192,
+      "seconds": 14.624190599999565,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

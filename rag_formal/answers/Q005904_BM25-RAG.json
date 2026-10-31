@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005904",
+  "doc_id": "2060",
+  "query_type": "search",
+  "query": "Can you guide me on how to notify authorities about faulty traffic signals in TN cities?",
+  "corpus_query_index": 5903,
+  "system": "BM25-RAG",
+  "reference_answer": "Reporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.",
+  "context": "[Document 1]\nTraffic Violations and Penalties:\nIn Tamil Nadu, common traffic violations include speeding, jumping signals, and not wearing helmets. Penalties range from ₹100 to ₹10,000, depending on the offense. For specific penalties, visit the Tamil Nadu Police website or refer to the Motor Vehicles Act, 1988.\n\n[Document 2]\nTraffic Enforcement Wing Contact:\nTo contact the Traffic Enforcement Wing in Tamil Nadu cities, you can dial the traffic helpline number 103 or visit the official website of the Tamil Nadu Police Department to find the contact details of your local traffic police station.\n\n[Document 3]\nReporting Traffic Signal Malfunctions:\nTo report traffic signal malfunctions in Tamil Nadu cities, call the police control room (100) or contact the local traffic police station. You can also use the Tamil Nadu Police Department's mobile app or website to report the issue.\n\n[Document 4]\nPolice Control Room Services:\nThe Police Control Room in Tamil Nadu cities provides:\n* Emergency response to distress calls (100)\n* Assistance in reporting crimes and accidents\n* Information on traffic and weather conditions\n* Coordination with other emergency services\n\n[Document 5]\nDigital Traffic Management System:\nThe digital traffic management system in major Tamil Nadu cities is called \"Intelligent Traffic Management System\" (ITMS). It uses CCTV cameras, sensors, and software to monitor and manage traffic flow, reducing congestion and improving safety.",
+  "retrieved_doc_ids": [
+    "164",
+    "1935",
+    "2060",
+    "1949",
+    "1348"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "6e3725cdfcb033e83325bb78d9c32dd98747b4634ad866cbd09b35fa6582f355",
+  "answer": "To report faulty traffic signals in TN cities, call the police control room (100) or contact the local traffic police station. Alternatively, use the Tamil Nadu Police Department's mobile app or website to report the issue. [Document 3]",
+  "input_tokens": 424,
+  "output_tokens": 51,
+  "seconds": 6.285175600000002,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

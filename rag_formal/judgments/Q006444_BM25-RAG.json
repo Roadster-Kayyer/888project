@@ -1,0 +1,23 @@
+{
+  "query_id": "Q006444",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly describes the process and includes evidence from Documents 2 and 3."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly describes the process and includes evidence from Documents 2 and 3.\",\n  \"evidence\": \"[Document 2], [Document 3]\"\n}\n\n\nThe candidate answer directly addresses the question by outlining the steps to file a domestic violence complaint, which includes visiting the nearest police station and providing details of the incident. The answer is relevant as it directly correlates with the information provided in the reference documents, which detail the process of filing a complaint at a police station and receiving a copy of the FIR. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Documents 2 and 3, which are directly related to the question and",
+      "input_tokens": 796,
+      "output_tokens": 192,
+      "seconds": 14.931825300001947,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

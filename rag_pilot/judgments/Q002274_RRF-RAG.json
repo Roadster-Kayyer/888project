@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002274",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately reflects the strategies outlined in the reference documents and is directly relevant to the question."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately reflects the strategies outlined in the reference documents and is directly relevant to the question.\",\n  \"evidence\": \"[Document 3]\"\n}\n\n\nThe candidate's answer is correct, as it directly addresses the strategies used by the Tamil Nadu Police to manage wildlife-human disputes, which are explicitly mentioned in Document 3. The answer is relevant because it directly responds to the question about the police's strategies. The faithfulness score is 2 because the candidate's answer is fully supported by the evidence provided in Document 3, which lists the specific strategies used by the police. The reason succinctly explains the scores, indicating that the candidate's answer is",
+      "input_tokens": 830,
+      "output_tokens": 192,
+      "seconds": 14.817028499999651,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2673.9970703125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

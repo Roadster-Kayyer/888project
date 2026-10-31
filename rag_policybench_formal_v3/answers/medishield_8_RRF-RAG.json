@@ -1,0 +1,28 @@
+{
+  "query_id": "medishield_8",
+  "doc_id": "PB_b9aebe55fbad5f72dcba",
+  "query_type": "medishield",
+  "query": "For Mr. A's 1st hospitalisation in the policy year 1 Apr 2026 – 31 Mar 2027, what is the claimable amount and does it exceed the deductible?",
+  "reference_answer": "The claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+  "corpus_query_index": 329,
+  "system": "RRF-RAG",
+  "context": "[Document 1]\nThe co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.\n\n[Document 2]\nThe claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.\n\n[Document 3]\nThe deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.\n\n[Document 4]\nFind out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups\n\n[Document 5]\nTo help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.",
+  "retrieved_doc_ids": [
+    "PB_ee588d3fa5445377e2bc",
+    "PB_b9aebe55fbad5f72dcba",
+    "PB_d600f5b60cee68821fae",
+    "PB_cc60baad4cbf9560588b",
+    "PB_c0fec916295a83585eb1"
+  ],
+  "trimmed_doc_ids": [
+    "PB_cc60baad4cbf9560588b"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "bf2feb8be59e27f176ccc4a0400d1625b352523b40b8f48668a728e94f53f66a",
+  "answer": "Based on Document 2, the claimable amount is $1,000, which is less than the deductible of $2,000. Therefore, there is no payout from MediShield Life. [Document 2]",
+  "input_tokens": 627,
+  "output_tokens": 49,
+  "seconds": 6.304738599996199,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2365.2490234375
+}

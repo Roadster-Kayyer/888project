@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008030",
+  "doc_id": "562",
+  "query_type": "hard",
+  "query": "What sanctions could street peddlers expect if they're constantly bothered?",
+  "corpus_query_index": 8029,
+  "system": "BM25-RAG",
+  "reference_answer": "Harassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.",
+  "context": "[Document 1]\nArrest without Warrant:\nPolice can arrest without a warrant in certain situations, such as:\n* If they witness a crime\n* If you're suspected of a serious offense\n* If you're a threat to public safety\nNote: The police must follow Tamil Nadu Police guidelines and the Code of Criminal Procedure, 1973.\n\n[Document 2]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 3]\nMedical Examination after Arrest:\nYou have the right to a medical examination by a doctor of your choice or a government doctor. If you're injured, you can request medical attention. The police must provide you with medical care if you're unwell or injured.\n\n[Document 4]\nHarassment of Street Vendors:\nPunishment can include imprisonment up to 3 years and/or a fine up to ₹5,000 under the Tamil Nadu Street Vendors (Protection of Livelihood and Regulation of Street Vending) Rules.\n\n[Document 5]\n2. What is the procedure for recording a child victim's statement?\nA child victim's statement should be recorded by a trained officer, preferably a woman, in a child-friendly environment. The statement should be recorded in the presence of a parent, guardian, or a social worker, and should be video-recorded to prevent re-victimization.",
+  "retrieved_doc_ids": [
+    "41",
+    "46",
+    "51",
+    "562",
+    "106"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "22fdde9c48fc09236f30df875cc8d6ee711b0d8fd0b5a12abc8497571077322d",
+  "answer": "Street peddlers could face arrests without warrants for being bothersome, especially if they witness crimes or pose a threat. They might also be fined up to ₹5,000 or imprisoned for up to 3 years. [Document 4]",
+  "input_tokens": 432,
+  "output_tokens": 52,
+  "seconds": 6.798271800002112,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

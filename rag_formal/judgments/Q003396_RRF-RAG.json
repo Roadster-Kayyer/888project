@@ -1,0 +1,23 @@
+{
+  "query_id": "Q003396",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists all required documents and references relevant documents to support the claim."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists all required documents and references relevant documents to support the claim.\",\n  \"evidence\": \"[Document 1], [Document 2]\"\n}",
+      "input_tokens": 834,
+      "output_tokens": 74,
+      "seconds": 5.964744600001723,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

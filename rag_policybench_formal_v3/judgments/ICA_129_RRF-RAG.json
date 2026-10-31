@@ -1,0 +1,23 @@
+{
+  "query_id": "ICA_129",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the process of appealing a rejected PR application and is supported by Document 4 and Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the process of appealing a rejected PR application and is supported by Document 4 and Document 5.\",\n  \"evidence\": \"[Document 4], [Document 5]\"\n}\n\n\nThe candidate answer directly addresses the question and is relevant to the reference provided. The answer is correct as it suggests submitting a fresh application online, which is in line with the advice given in Document 4. The evidence provided (Documents 4 and 5) supports the factual claims made in the candidate answer, confirming the process for checking the status of an application and the possibility of reapplying. The reason succinctly explains the scores, indicating that the answer is both correct and relevant, with evidence directly supporting the",
+      "input_tokens": 622,
+      "output_tokens": 192,
+      "seconds": 14.356810800003586,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

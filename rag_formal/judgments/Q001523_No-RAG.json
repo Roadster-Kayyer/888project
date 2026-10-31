@@ -1,0 +1,23 @@
+{
+  "query_id": "Q001523",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific details on how to report, missing the reference's instructions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific details on how to report, missing the reference's instructions.\",\n  \"evidence\": null\n}\n\n\nIn the given scenario, the candidate's answer is relevant as it correctly identifies the need to contact the PWD to report a canal breach. However, it does not fully address the question as it omits the specific instructions on how to report the breach, which are detailed in the reference. The reference provides multiple methods of reporting, including contacting the nearest office, calling the helpline, reporting online, and the necessity of providing details of the breach, location, and contact information. Since the evidence provided in the reference is not present in the candidate's answer, the",
+      "input_tokens": 388,
+      "output_tokens": 192,
+      "seconds": 14.60138740000184,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2773.6572265625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

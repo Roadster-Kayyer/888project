@@ -1,0 +1,23 @@
+{
+  "query_id": "Q002775",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer directly addresses the question and is supported by evidence from Document 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer directly addresses the question and is supported by evidence from Document 5.\",\n  \"evidence\": \"Document 5 states: 'The Tamil Nadu Police uses modern methods for recruitment and selection, including online application and examination systems, psychometric testing, and assessment centers.'\"\n}",
+      "input_tokens": 753,
+      "output_tokens": 192,
+      "seconds": 14.73321550000037,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "BTT_51",
+  "doc_id": "PB_cfbeecc8e8bd16153256",
+  "query_type": "BTT",
+  "query": "Under what circumstances must a driver refrain from crossing the center line of the road?",
+  "reference_answer": "A driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+  "corpus_query_index": 47,
+  "system": "Dense-RAG",
+  "context": "[Document 1]\nA driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).\n\n[Document 2]\nSlow down, keep left, and beware of oncoming traffic.\n\n[Document 3]\nIt indicates the centre line of a two-way road.\n\n[Document 4]\nTo allow enough room to stop safely if the vehicle stops abruptly.\n\n[Document 5]\nThe road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+  "retrieved_doc_ids": [
+    "PB_cfbeecc8e8bd16153256",
+    "PB_2858faae83bda4331fb6",
+    "PB_57b4cb852a1cc98f4ad5",
+    "PB_89b7e5350f270a309ba9",
+    "PB_619765030c2c1f6e27b8"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "aa17668bb3ba774ebd95db06250db87e18ee664c657e3b55993c53f71b38b477",
+  "answer": "A driver must refrain from crossing the center line at bends, near the crest of a rise, or anywhere else where they can't clearly see the road ahead [Document 1].",
+  "input_tokens": 238,
+  "output_tokens": 37,
+  "seconds": 4.798484099999769,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.314453125
+}

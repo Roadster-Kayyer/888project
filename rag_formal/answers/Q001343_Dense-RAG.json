@@ -1,0 +1,26 @@
+{
+  "query_id": "Q001343",
+  "doc_id": "124",
+  "query_type": "casual",
+  "query": "So, what's the NDPS Act all about, and what bad stuff does it stop?",
+  "corpus_query_index": 1342,
+  "system": "Dense-RAG",
+  "reference_answer": "NDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.",
+  "context": "[Document 1]\nNDPS Act:\nThe NDPS (Narcotic Drugs and Psychotropic Substances) Act is a law that covers offenses related to drug abuse, trafficking, and possession. It includes offenses such as possession, sale, purchase, and manufacture of banned substances.\n\n[Document 2]\nPrevention of Corruption Act:\nThe Prevention of Corruption Act, 1988, applies to police officials in Tamil Nadu. It prohibits bribery, corruption, and misuse of power by public servants, including police officers.\n\n[Document 3]\nCannabis Cultivation:\nThe Tamil Nadu Police handles cannabis cultivation cases under the NDPS Act. If cultivation is suspected, a team will conduct a raid, seize the plants, and arrest those involved. Cases are then investigated and prosecuted according to the law.\n\n[Document 4]\nPOCSO Act:\nThe POCSO (Protection of Children from Sexual Offences) Act is a law that protects children from sexual abuse. Tamil Nadu Police handles POCSO cases through specialized units and follows procedures to ensure the safety and well-being of the child victim. Cases are investigated and prosecuted in a child-friendly manner.\n\n[Document 5]\nReporting Corruption in PDS Shops:\nReport corruption in PDS shops to the District Supply Officer or the Vigilance Committee. You can also call the toll-free helpline 1967 or file a complaint online on the Tamil Nadu government website.",
+  "retrieved_doc_ids": [
+    "124",
+    "1739",
+    "131",
+    "101",
+    "442"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "beb182705d5189b2afaef6155c9f15da97f2af5e890ac01c5810e198140080fa",
+  "answer": "The NDPS Act stops drug abuse, trafficking, and possession. It also prevents corruption among police officials. For example, it handles cannabis cultivation cases, ensuring safety and justice for victims. [Document 1]",
+  "input_tokens": 415,
+  "output_tokens": 43,
+  "seconds": 5.685192700000698,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2116.8173828125
+}

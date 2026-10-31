@@ -1,0 +1,28 @@
+{
+  "query_id": "BTT_30",
+  "doc_id": "PB_b6b1e9a33645d01dc138",
+  "query_type": "BTT",
+  "query": "What is the recommended sequence to look at a junction according to the Basic Theory Test?",
+  "reference_answer": "Look right, then left, then right again.",
+  "corpus_query_index": 24,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nDrivers should proceed to complete their turn and clear the junction.\n\n[Document 2]\nBasic theory of driving.\n\n[Document 3]\nThe address on the application is your registered address with ICA.Should you wish to update your address, you can do so via the following steps:1. Report the new address via ICA e-Service2. Receive a unique PIN by mail at the new address.3. Enter the PIN via the same e-Service as a way to verify the new address.4. Receive a sticker bearing the new address by mail.5. Affix the sticker to the back of the IC according to the instructions provided.*Note: For LTVP holders, no stickers would be provided.\n\n[Document 4]\nNew funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.\n\n[Document 5]\nYou are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment",
+  "retrieved_doc_ids": [
+    "PB_1bd233e28127cfee0c86",
+    "PB_043f86bad043c042932a",
+    "PB_aa5916ddd19af121154f",
+    "PB_08b75e19b1641a8a3c64",
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "trimmed_doc_ids": [
+    "PB_bdb09e6bcfb2726f4ea5"
+  ],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "76ef892c939c90a958b0a77b89d35d0d338ea26c027fa65938f262bb3da52625",
+  "answer": "According to the Basic Theory Test, drivers should proceed to complete their turn and clear the junction. [Document 1]",
+  "input_tokens": 667,
+  "output_tokens": 25,
+  "seconds": 11.013976400005049,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2211.12158203125
+}

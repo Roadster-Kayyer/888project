@@ -1,0 +1,23 @@
+{
+  "query_id": "Q009876",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer is relevant but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer is relevant but lacks specific evidence from the reference.\",\n  \"evidence\": \"The provided reference does not contain the specific evidence that local human rights organizations or government bodies are involved, which is mentioned in the candidate answer.\"\n}\n\n\nIn this evaluation, the candidate's answer is relevant as it pertains to the process of reporting casteist discrimination, which aligns with the reference's suggestion to report to authorities. However, the answer does not directly cite the specific authorities mentioned in the reference (police station, District Social Welfare Officer, Tamil Nadu State Commission for SC/ST), which is why the faithfulness score is null due to the absence of direct evidence from the supplied reference",
+      "input_tokens": 405,
+      "output_tokens": 192,
+      "seconds": 14.75132300000405,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

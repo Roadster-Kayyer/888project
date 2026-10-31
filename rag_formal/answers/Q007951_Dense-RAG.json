@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007951",
+  "doc_id": "549",
+  "query_type": "original",
+  "query": "What is the penalty for making death threats?",
+  "corpus_query_index": 7950,
+  "system": "Dense-RAG",
+  "reference_answer": "Making Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.",
+  "context": "[Document 1]\nMaking Death Threats:\nThe penalty for making death threats in Tamil Nadu can range from 2 to 7 years of imprisonment and a fine, as per Section 506 of the Indian Penal Code.\n\n[Document 2]\nSuicide Threats:\nMaking suicide threats is a punishable offense. Under Section 506 of the IPC, it can lead to imprisonment up to 7 years and/or a fine.\n\n[Document 3]\nThreatening Witnesses:\nThreatening witnesses is punishable under Section 195A of the IPC. The punishment can be imprisonment up to 7 years, or a fine, or both.\n\n[Document 4]\nMaking Bomb Threats:\nMaking bomb threats can be considered a form of criminal intimidation under the IPC Section 506. The punishment can range from 1 to 7 years of imprisonment and a fine. Additionally, it can also be considered a terrorist act under the Unlawful Activities (Prevention) Act, 1967, with punishment ranging from 5 years to life imprisonment.\n\n[Document 5]\nThreatening Journalists:\nThreatening journalists can attract 2-7 years imprisonment and/or fine, under IPC sections and the Journalists' Protection Act (if applicable).",
+  "retrieved_doc_ids": [
+    "549",
+    "584",
+    "552",
+    "570",
+    "567"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "1fb63e70ee100122d7b66a88741594a9f05a298ebea703a7d3bfe6e656870324",
+  "answer": "The penalty for making death threats ranges from 2 to 7 years of imprisonment and a fine, according to Section 506 of the Indian Penal Code [Document 1].",
+  "input_tokens": 377,
+  "output_tokens": 38,
+  "seconds": 4.923331399997551,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

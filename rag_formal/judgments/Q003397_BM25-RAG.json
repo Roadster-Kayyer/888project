@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003397",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly lists all required documents for driving in Tamil Nadu and mentions updating official documents, supported by Documents 1, 2, and 5."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly lists all required documents for driving in Tamil Nadu and mentions updating official documents, supported by Documents 1 and 2.\",\n}",
+      "input_tokens": 835,
+      "output_tokens": 72,
+      "seconds": 5.687482299999829,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly lists all required documents for driving in Tamil Nadu and mentions updating official documents, supported by Documents 1, 2, and 5.\"}",
+      "input_tokens": 875,
+      "output_tokens": 59,
+      "seconds": 4.969196499998361,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

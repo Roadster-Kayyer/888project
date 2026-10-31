@@ -1,0 +1,26 @@
+{
+  "query_id": "Q000904",
+  "system": "BM25-RAG",
+  "status": "invalid",
+  "scores": null,
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the minimum age for criminal liability in India as per Document 1, with direct reference and factual support.\",\n}",
+      "input_tokens": 765,
+      "output_tokens": 192,
+      "seconds": 14.872619400000985,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2750.51123046875
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly states the minimum age for criminal liability in India as per Document 1, directly addressing the question and supported by the evidence provided.\"}\nor\n{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer is correct, directly relevant, and fully supported by Document 1.\"}\n\n(Note: The \"reason\" field is a brief explanation, and the exact wording can be adjusted based on the specific details of the candidate's answer and the evidence provided. The scores are consistent with the candidate's answer being correct, relevant, and faithful to the evidence.)",
+      "input_tokens": 805,
+      "output_tokens": 160,
+      "seconds": 12.446009400002367,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2750.51123046875
+    }
+  ],
+  "error": "Extra data: line 2 column 1 (char 234)",
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

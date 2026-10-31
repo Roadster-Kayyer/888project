@@ -1,0 +1,26 @@
+{
+  "query_id": "Q009458",
+  "doc_id": "82",
+  "query_type": "casual",
+  "query": "So what crimes do the All Women Police Stations take care of?",
+  "corpus_query_index": 9457,
+  "system": "BM25-RAG",
+  "reference_answer": "Cases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.",
+  "context": "[Document 1]\nCases handled by All Women Police Stations:\nThese stations handle cases related to women and children, including domestic violence, harassment, abuse, and other crimes against women.\n\n[Document 2]\nMen approaching All Women Police Stations:\nYes, men can approach All Women Police Stations with complaints related to crimes against women, such as reporting a crime against a female family member or friend. However, for other general complaints, men are advised to approach regular police stations.\n\n[Document 3]\nFunctions of All Women Police Stations in Tamil Nadu:\nAll Women Police Stations in Tamil Nadu provide a safe and supportive environment for women to report crimes. Their functions include:\n* Registering complaints related to domestic violence, harassment, and other women-specific crimes\n* Providing counseling and support services\n* Investigating and handling cases related to women's safety\n\n[Document 4]\nRole of All Women Police Stations (AWPS):\nAll Women Police Stations (AWPS) in Tamil Nadu are dedicated to handling crimes against women and children. They provide a safe and supportive environment for victims to report crimes, such as domestic violence, harassment, and abuse. AWPS are staffed by female police officers and provide counseling, medical, and legal support to victims.\n\n[Document 5]\nSpecial Cells for Women and Children:\nThe Tamil Nadu Police has special cells for women and children, including:\n- All Women Police Stations\n- Mahila Desk (Women's Help Desk) at local police stations\n- Child Help Desks",
+  "retrieved_doc_ids": [
+    "82",
+    "83",
+    "1880",
+    "80",
+    "824"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "ecd3d32d2cd6423f9494357458dbb13b55cc1cadb8faa6d4df285474c76173ff",
+  "answer": "All Women Police Stations handle cases related to domestic violence, harassment, abuse, and other crimes against women. [Document 1] Additionally, they accept complaints from men about crimes against women. [Document 2]",
+  "input_tokens": 421,
+  "output_tokens": 44,
+  "seconds": 5.723196900002222,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q005085",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly identifies the jurisdiction and methods of the Economic Offences Wing in Tamil Nadu, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly identifies the jurisdiction and methods of the Economic Offences Wing, supported by evidence from Documents 1 and 2.\",\n}",
+      "input_tokens": 791,
+      "output_tokens": 72,
+      "seconds": 5.720497700000124,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer correctly identifies the jurisdiction and methods of the Economic Offences Wing in Tamil Nadu, supported by evidence from Documents 1 and 2.\"}\n**Note:** The scores provided in the JSON object are based on the information given in the candidate answer and the retrieved evidence. The candidate answer is deemed correct (2) as it accurately reflects the jurisdiction and methods of the Economic Offences Wing as described in the reference documents. The relevance score is 2 because the answer directly addresses the question about the duties of the Economic Offences Wing. The faithfulness score is 2 as the candidate's answer is fully supported by the evidence provided in the documents, which detail the jurisdiction and methods of the Economic Offences Wing. The reason is a concise explanation",
+      "input_tokens": 831,
+      "output_tokens": 192,
+      "seconds": 14.843984099999943,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

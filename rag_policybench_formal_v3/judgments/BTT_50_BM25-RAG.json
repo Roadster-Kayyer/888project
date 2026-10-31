@@ -1,0 +1,23 @@
+{
+  "query_id": "BTT_50",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 1,
+    "reason": "Candidate answer partially addresses the question and is supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 1,\n  \"reason\": \"Candidate answer partially addresses the question and is supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] To allow enough room to stop safely if the vehicle stops abruptly.\"\n}\n\n(Note: The correctness score is 1 because the candidate answer mentions a step but omits the number of steps, which is a significant omission. The faithfulness score is 1 because the candidate's answer is based on the evidence provided in Document 1, but it does not fully elaborate on the process as the reference suggests there are 12 steps.)",
+      "input_tokens": 897,
+      "output_tokens": 162,
+      "seconds": 12.746156399996835,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2842.537109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

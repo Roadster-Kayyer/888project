@@ -1,0 +1,26 @@
+{
+  "query_id": "Q006486",
+  "doc_id": "285",
+  "query_type": "original",
+  "query": "How do I report online fraud?",
+  "corpus_query_index": 6485,
+  "system": "RRF-RAG",
+  "reference_answer": "Reporting Online Fraud:\nTo report online fraud, visit the nearest police station or:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents",
+  "context": "[Document 1]\nReporting Online Fraud:\nTo report online fraud, visit the nearest police station or:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents\n\n[Document 2]\nReporting Online Financial Fraud:\nReport online financial fraud to the Cyber Crime Police Station or local police station. You can also file a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in) or call the helpline (1930).\n\n[Document 3]\nOnline Banking Fraud:\nIf you're a victim of online banking fraud, immediately contact your bank's customer care and report the incident. Then, file a complaint at the nearest cybercrime police station or visit the Tamil Nadu Police's cybercrime website for online reporting.\n\n[Document 4]\nReporting Online Fraud:\nTo report online fraud in Tamil Nadu:\n1. Visit the Tamil Nadu Police website (tnpolice.gov.in).\n2. Click on \"Cyber Crime\" and fill the complaint form.\n3. Alternatively, visit your local cyber crime cell or police station.\n\n[Document 5]\nFiling a Case for Online Fraud:\nTo file a case for online fraud, visit your local police station's cybercrime cell. Provide details of the fraud, including transaction records and communication with the fraudster. The police will guide you through the process and help you file a complaint.",
+  "retrieved_doc_ids": [
+    "285",
+    "142",
+    "193",
+    "875",
+    "1194"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d01b3733b3cf6f24bd1646dc8e8dbdf57f24d8a24ea3463a3fe1464438ce6aa3",
+  "answer": "To report online fraud, visit the nearest police station or use the following methods:\n- File a complaint on the Tamil Nadu Police website\n- Call the Cyber Crime Helpline (1930)\n- Provide transaction details and supporting documents [Document 1]  \n- Report to the Cyber Crime Police Station or local police station [Document 2]\n- Visit the National Cyber Crime Reporting Portal (cybercrime.gov.in) or call the helpline (1930) [Document 2]\n- Contact your bank’s customer care and then file a complaint at the nearest cybercrime police station or visit their website [Document 3]\n- Visit your local cyber crime cell or police station [Document 4]\n- Visit your local police station's cybercrime cell and provide details of the fraud",
+  "input_tokens": 402,
+  "output_tokens": 160,
+  "seconds": 20.603292699999656,
+  "hit_token_limit": true,
+  "peak_allocated_mb": 2194.54541015625
+}

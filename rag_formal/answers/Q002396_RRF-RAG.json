@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002396",
+  "doc_id": "143",
+  "query_type": "original",
+  "query": "What evidence should I preserve for reporting social media harassment?",
+  "corpus_query_index": 2395,
+  "system": "RRF-RAG",
+  "reference_answer": "Preserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.",
+  "context": "[Document 1]\nPreserving Evidence for Social Media Harassment:\nPreserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and any other relevant digital communication. Do not delete or alter any evidence before reporting the incident to the police.\n\n[Document 2]\nFiling a Harassment Case through Social Media:\nTo file a harassment case, visit the nearest police station's cybercrime cell and provide evidence of the harassment, such as screenshots and messages. You can also file a complaint online through the National Cyber Crime Reporting Portal or the Tamil Nadu Police Department's website.\n\n[Document 3]\nSafety Precautions on Social Media:\nTo stay safe on social media, women should:\n* Set privacy settings to limit who can see their posts\n* Avoid sharing personal contact information\n* Be cautious when accepting friend requests\n* Report inappropriate comments or messages to the platform\n\n[Document 4]\nReporting Social Media Misuse:\nTo report social media misuse, contact the Cyber Crime Cell or visit the nearest police station. Provide details of the incident, including screenshots and URLs. You can also file a complaint online through the National Cyber Crime Reporting Portal.\n\n[Document 5]\nPreserving Evidence:\nBefore reporting a crime, preserve any relevant evidence, such as:\n- Screenshots of online transactions or messages\n- Emails or chat logs\n- Bank statements or transaction records\n- Any other relevant documents or records",
+  "retrieved_doc_ids": [
+    "143",
+    "1196",
+    "1999",
+    "924",
+    "61"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "d4e427bcd4ce02305068858e442ed68d0c2359ca35330d019262fe125f41b54e",
+  "answer": "Preserve screenshots, URLs, and messages as evidence. Save emails, chat logs, and other digital communications. [Document 1] Additionally, report the incident to the police and provide them with screenshots, messages, and other relevant digital evidence. [Document 1, Document 2]",
+  "input_tokens": 405,
+  "output_tokens": 59,
+  "seconds": 7.674420599998484,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "Q003198",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately and directly addresses the question, supported by evidence from Documents 1 and 2."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer accurately and comprehensively describes the role of the Police Radio Branch, supported by evidence from Document 1 and Document 2.\",\n}",
+      "input_tokens": 720,
+      "output_tokens": 71,
+      "seconds": 5.564973000000464,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately and directly addresses the question, supported by evidence from Documents 1 and 2.\"}",
+      "input_tokens": 760,
+      "output_tokens": 47,
+      "seconds": 3.687557100001868,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2865.38818359375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

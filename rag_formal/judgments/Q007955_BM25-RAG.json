@@ -1,0 +1,23 @@
+{
+  "query_id": "Q007955",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": 0,
+    "reason": "Candidate partially addresses the question but lacks specific information on fines or jail time for making death threats."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 0,\n  \"reason\": \"Candidate partially addresses the question but lacks specific information on fines or jail time for making death threats.\",\n  \"evidence\": \"[Document 1]\"\n}",
+      "input_tokens": 760,
+      "output_tokens": 192,
+      "seconds": 15.181623299999046,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_4",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states tax relief is for immediate family members and aligns with the reference documents on tax relief conditions."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states tax relief is for immediate family members and aligns with the reference documents on tax relief conditions.\"\n}",
+      "input_tokens": 1424,
+      "output_tokens": 192,
+      "seconds": 15.084776100004092,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3106.2109375
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_27",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 0,
+    "relevance": 0,
+    "faithfulness": null,
+    "reason": "The candidate's answer inaccurately states that unused CPF transfers and cash top-ups will be forfeited, which contradicts the reference that they will be paid to the recipient's beneficiaries or the recipient themselves."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 0,\n  \"relevance\": 0,\n  \"faithfulness\": null,\n  \"reason\": \"The candidate's answer inaccurately states that unused CPF transfers and cash top-ups will be forfeited, which contradicts the reference that they will be paid to the recipient's beneficiaries or the recipient themselves.\",\n  \"faithfulness_evidence\": \"No evidence provided to support the claim made in the candidate's answer.\"\n}",
+      "input_tokens": 453,
+      "output_tokens": 120,
+      "seconds": 9.441860399994766,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,28 @@
+{
+  "query_id": "CPF_89",
+  "doc_id": "PB_c843ce7aefae882d4bbe",
+  "query_type": "CPF_111",
+  "query": "I have income from different types of employment (e.g. employee, self-employed person, platform worker) during the work year. When will I receive my Workfare Income Supplement (WIS) for the work year?",
+  "reference_answer": "You will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.",
+  "corpus_query_index": 155,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nYou will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.\n\n[Document 2]\nWorkfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.\n\n[Document 3]\nThe Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File\n\n[Document 4]\nAll types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.\n\n[Document 5]\nBasic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+  "retrieved_doc_ids": [
+    "PB_c843ce7aefae882d4bbe",
+    "PB_e2328e4bd80a947d76a0",
+    "PB_18ed14021ef1cf64ad15",
+    "PB_51abc1b31808d773e226",
+    "PB_af1247343974a8960a93"
+  ],
+  "trimmed_doc_ids": [
+    "PB_18ed14021ef1cf64ad15"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "50ae8a5528d513569f6287675929fd74a05430527d95e69894f538010c141821",
+  "answer": "You will receive monthly WIS based on your employee and/or platform worker income. For self-employed workers, you'll get additional WIS if your total income (including net trade income) qualifies. WIS is paid once a year for the preceding year. It's calculated based on net trade income and declared through IRAS. First payment for SEPs is on 30 April of the following year [Document 1]. Payments are credited by end of month via PayNow or on the first week of the following month via GovCash [Document 1]. First payment for SEPs is on 30 April WY+1 [Document 1].",
+  "input_tokens": 733,
+  "output_tokens": 133,
+  "seconds": 17.457512700013467,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

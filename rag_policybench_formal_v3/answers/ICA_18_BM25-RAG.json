@@ -1,0 +1,28 @@
+{
+  "query_id": "ICA_18",
+  "doc_id": "PB_018edecf2d72972f45b3",
+  "query_type": "ICA_134",
+  "query": "What should I select if my passport is issued at an overseas mission instead of a Country/Place?",
+  "reference_answer": "If your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.",
+  "corpus_query_index": 212,
+  "system": "BM25-RAG",
+  "context": "[Document 1]\nIf your passport is issued at the overseas mission, the location of the overseas mission will be the country/place of issue in the visa application.\n\n[Document 2]\nPlease submit your Singapore passport application online. Log in to our e-Services and select the Singapore Overseas Mission closest to you for the collection venue.Alternatively, please proceed to the nearest Singapore Overseas Mission to apply in person.\n\n[Document 3]\nYou will need to provide original documents and official translations (for documents in languages other than English) for your application for immigration facilities. ICA accepts:Translations provided by the embassy of the country/place that issued the documentTranslations produced by a notary public in Singapore or the country/place that issued the documentPrivately created translations attested by the embassy of the country/place that issued the document, or notarised by a notary public in Singapore or the country/place that issued the document. ICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application.\n\n[Document 4]\nGenerally, as long as long-term passes (i.e. Student's Pass, Long Term Visit Pass, Work Permit, Employment Pass and Dependant’s Pass, etc.) are valid, the pass holders are able to use their current valid passport upon seeking arrival and departure immigration clearance at the Singapore checkpoints.However, they are advised to be mindful of the immigration requirements of any country they wish to depart, visit or place of return when travelling on a passport that is less than six months valid before embarking on their journey. Where applicable, they should also check with the airline to ensure that they are allowed to board the plane as airlines have the prerogative to issue boarding passes to their passengers.As Singapore’s border measures and entry requirements will evolve as the global situation changes, please visit the MOH website and ICA website for the latest updates on travel and health control measures.It is important for a long-term pass holder to renew his/her foreign passport if it is expiring. Ensuring that a passport remains valid will allow ICA to determine his/her foreign citizenship.For all matters relating to foreign passport, please approach the respective Embassy/Consulate/Overseas Mission in Singapore.Once a new passport is\n\n[Document 5]\nICA does not register birth of a child who is born overseas. You should register the child's birth and obtain the birth certificate from the foreign authorities in the country/place where the child was born.You may refer to ICA website for more information on citizenship application for your child.",
+  "retrieved_doc_ids": [
+    "PB_018edecf2d72972f45b3",
+    "PB_cf24a4bb229a845e92d4",
+    "PB_28996cba71bdbe7d5436",
+    "PB_8171046f23dbdf9c0430",
+    "PB_c8c1a5bc0d89d0bfed72"
+  ],
+  "trimmed_doc_ids": [
+    "PB_8171046f23dbdf9c0430"
+  ],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5f5c5c72d6e3c54660ad3ef6eed117f85d6e032d55f325c40125a7b13480fabe",
+  "answer": "If your passport is issued at an overseas mission, select the Singapore Overseas Mission closest to you for the collection venue. [Document 2]",
+  "input_tokens": 659,
+  "output_tokens": 30,
+  "seconds": 4.107861000011326,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2362.185546875
+}

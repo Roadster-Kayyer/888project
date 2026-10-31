@@ -1,0 +1,26 @@
+{
+  "query_id": "Q007360",
+  "doc_id": "441",
+  "query_type": "hard",
+  "query": "How do I flag a problem with a government college tutor or headmaster?",
+  "corpus_query_index": 7359,
+  "system": "RRF-RAG",
+  "reference_answer": "Complaint against a Government College Professor or Principal:\nTo complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.",
+  "context": "[Document 1]\nComplaint against a Government College Professor or Principal:\nTo complain, contact the college administration or the Director of Collegiate Education, Tamil Nadu. You can also file a complaint with the Vigilance and Anti-Corruption Department.\n\n[Document 2]\nFiling a Case in the Education Tribunal:\nTo file a case, contact the Tamil Nadu Educational Tribunal or the respective university/college. Submit a petition with required documents, including proof of admission and grievance. Pay the prescribed fee and follow the tribunal's procedure.\n\n[Document 3]\nReporting Misconduct by a Government School Teacher:\nTo report misconduct, contact the school principal or the District Education Officer. You can also file a complaint with the Tamil Nadu School Education Department through their official website or visit the nearest Block Education Office.\n\n[Document 4]\nQuestion 1: What should I do if police refuse to help me?\nIf police refuse to help, you can:\n* Ask to speak to a senior officer\n* File a complaint with the Superintendent of Police or Commissioner of Police\n* Contact the Tamil Nadu Police Complaint Authority\n\n[Document 5]\nComplaint against Employment Exchange Official:\nFile a complaint with the District Employment Officer or the Commissioner of Employment and Training. You can also contact the local police station or submit a grievance through the Tamil Nadu Government's online portal.",
+  "retrieved_doc_ids": [
+    "441",
+    "1188",
+    "396",
+    "253",
+    "430"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "5dac516b780c8d74c99ad6fec5047238be0a160f4f0b83aeefeedb93ac542698",
+  "answer": "For a government college tutor or headmaster, contact the college administration or the Director of Collegiate Education, Tamil Nadu. Alternatively, file a complaint with the Vigilance and Anti-Corruption Department [Document 1]. For a headmaster, report misconduct to the school principal or the District Education Officer, and file a complaint with the Tamil Nadu School Education Department [Document 3]. If police refuse to help, ask to speak to a senior officer or file a complaint with the appropriate authority [Document 4].",
+  "input_tokens": 394,
+  "output_tokens": 105,
+  "seconds": 13.711071200001243,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

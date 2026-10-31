@@ -1,0 +1,23 @@
+{
+  "query_id": "Q004735",
+  "system": "BM25-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly and directly addresses the process, supported by evidence from Document 1."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly and directly addresses the process, supported by evidence from Document 1.\",\n  \"evidence\": \"[Document 1] Filing a Writ Petition in Madras High Court:\\nTo file a writ petition, approach the Madras High Court with a petition prepared by a lawyer. The petition should state the grounds for the writ and the relief sought. Submit the petition to the Registry, pay the required fee, and wait for the court to list the case for hearing.\"\n}",
+      "input_tokens": 885,
+      "output_tokens": 147,
+      "seconds": 11.49493650000295,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

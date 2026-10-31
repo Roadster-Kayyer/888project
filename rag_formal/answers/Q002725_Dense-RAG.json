@@ -1,0 +1,26 @@
+{
+  "query_id": "Q002725",
+  "doc_id": "1489",
+  "query_type": "hard",
+  "query": "What prerequisites are needed to apply for a Tamil Nadu Police dog handler position?",
+  "corpus_query_index": 2724,
+  "system": "Dense-RAG",
+  "reference_answer": "Tamil Nadu Police Dog Handler Positions:\nTo apply, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website for notifications. Meet the eligibility criteria, fill out the online application, and appear for the written exam and physical tests.",
+  "context": "[Document 1]\nTamil Nadu Police Dog Handler Positions:\nTo apply, visit the Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) website for notifications. Meet the eligibility criteria, fill out the online application, and appear for the written exam and physical tests.\n\n[Document 2]\nDog Squad Role:\nThe Dog Squad in Tamil Nadu Police assists in crime detection, tracking, and search operations. Trained dogs help locate missing persons, detect narcotics, and track suspects.\n\n[Document 3]\nEducational Qualifications for Police Ranks:\nThe required educational qualifications for police ranks in Tamil Nadu are:\n- Constable: 10th standard pass\n- Sub-Inspector: Bachelor's degree\n- Inspector: Bachelor's degree\n\n[Document 4]\nEligibility Criteria for Police Constable in Tamil Nadu:\nTo be eligible, candidates must:\n* Be Indian citizens\n* Be between 18-24 years old\n* Have passed 10th standard (for some posts) or higher secondary (for others)\n* Meet physical standards set by the Tamil Nadu Police Department\n* Pass the recruitment exam and interview\n\n[Document 5]\nJoining Tamil Nadu Police:\nTo join the Tamil Nadu Police force, you must:\n1. Meet the eligibility criteria (age, education, physical standards)\n2. Apply online for the recruitment exam\n3. Clear the written exam, physical test, and interview\n4. Undergo training at a police academy",
+  "retrieved_doc_ids": [
+    "1489",
+    "1920",
+    "1468",
+    "1464",
+    "987"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "a8e59ee39753465bb796e6f49764e28d261361422af2f3ef543dd4194589dbe5",
+  "answer": "To apply for a Tamil Nadu Police dog handler position, candidates need to meet the eligibility criteria, have an educational qualification of at least 10th standard, be between 18-24 years old, and pass the recruitment exam and interview. [Document 4]",
+  "input_tokens": 420,
+  "output_tokens": 57,
+  "seconds": 7.342321599999195,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

@@ -1,0 +1,23 @@
+{
+  "query_id": "Q005958",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": null,
+    "reason": "Candidate answer correctly addresses the question and suggests a method for verification, though it lacks direct evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate answer correctly addresses the question and suggests a method for verification, though it lacks direct evidence.\",\n  \"evidence\": \"The candidate answer correctly suggests using a trusted vehicle registration database or service, which aligns with the reference's advice to contact the Tamil Nadu Transport Department or use online services like the VAHAN portal. However, the evidence provided in the reference is not directly quoted in the candidate answer.\"\n}",
+      "input_tokens": 429,
+      "output_tokens": 131,
+      "seconds": 10.041780099993048,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 2885.1728515625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

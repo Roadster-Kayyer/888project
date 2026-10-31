@@ -1,0 +1,23 @@
+{
+  "query_id": "medishield_19",
+  "system": "Dense-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer correctly states the percentage from Document 4, directly addressing the question and supported by evidence."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the percentage from Document 4, directly addressing the question and supported by evidence.\",\n  \"evidence\": \"[Document 4] 67%\"\n}\n\n\nNote: The reason is kept concise as instructed, and the evidence is directly quoted from the retrieved documents to support the faithfulness score. The correctness and relevance scores are given a 2 because the candidate's answer is correct, directly addresses the question, and is fully supported by the evidence provided.",
+      "input_tokens": 815,
+      "output_tokens": 145,
+      "seconds": 11.316583199994056,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

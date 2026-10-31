@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_110",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate answer partially addresses the question and correctly states that contributions depend on employment status, but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer partially addresses the question and correctly states that contributions depend on employment status, but lacks specific evidence from the reference.\",\n  \"evidence\": \"The reference states that MediSave contributions depend on NTI and employment status, not the number of licenses.\"\n}",
+      "input_tokens": 450,
+      "output_tokens": 98,
+      "seconds": 7.515729200007627,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3047.8759765625
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,31 @@
+{
+  "query_id": "medishield_24",
+  "system": "RRF-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 2,
+    "relevance": 2,
+    "faithfulness": 2,
+    "reason": "Candidate answer accurately states the subsidy range and correctly identifies that household income does not influence the subsidies but that the Annual Value of residences does, consistent with the reference documents."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 2,\n  \"relevance\": 2,\n  \"faithfulness\": 2,\n  \"reason\": \"Candidate answer correctly states the subsidy range and correctly identifies the influence of Annual Value on eligibility, supported by Document 1 and Document 5.\",\n}",
+      "input_tokens": 786,
+      "output_tokens": 192,
+      "seconds": 14.803864399989834,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    },
+    {
+      "answer": "{\"correctness\":2,\"relevance\":2,\"faithfulness\":2,\"reason\":\"Candidate answer accurately states the subsidy range and correctly identifies that household income does not influence the subsidies but that the Annual Value of residences does, consistent with the reference documents.\"}\n\n\n(Note: The \"faithfulness\" score is set to 2 because the candidate's answer is supported by the evidence provided in Document 1, which directly states the percentage range of the subsidies and the fact that they are not influenced by household income but are affected by the Annual Value of residences. Document 5 also supports the claim about the Annual Value affecting eligibility, reinforcing the candidate's answer.)",
+      "input_tokens": 826,
+      "output_tokens": 163,
+      "seconds": 12.535839599993778,
+      "hit_token_limit": false,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}

@@ -1,0 +1,26 @@
+{
+  "query_id": "Q008553",
+  "doc_id": "657",
+  "query_type": "casual",
+  "query": "How do you get in trouble for hitting someone at home?",
+  "corpus_query_index": 8552,
+  "system": "RRF-RAG",
+  "reference_answer": "Domestic Violence:\nDomestic violence can lead to imprisonment of up to 3 years and/or a fine, under the Protection of Women from Domestic Violence Act, 2005.",
+  "context": "[Document 1]\nWhat to Do if Someone is Arrested\nIf someone you know is arrested, contact a lawyer and inform their family. You can also visit the police station where they were taken to gather information about the arrest and the charges filed.\n\n[Document 2]\nFiling Complaints about Child Care Home Violations:\nTo file a complaint about child care home violations, contact the Tamil Nadu State Child Protection Society or the local District Child Protection Unit. You can also call the Childline helpline (1098) or file a complaint with the local police station.\n\n[Document 3]\nPolice entering home without permission:\nNo, police cannot enter your home without permission, except in emergency situations or with a search warrant. You have the right to refuse entry, but you must ask to see the warrant.\n\n[Document 4]\nProtecting Your Home from Burglary:\nTo protect your home, install security systems like CCTV cameras and alarms. Keep doors and windows locked, and consider investing in a safe for valuables. Also, inform your neighbors when you're away from home.\n\n[Document 5]\n3. How do I find out if someone has been arrested?\nYou can visit the local police station and inquire about the person's arrest status. You can also check the police department's website or contact the station house officer (SHO) for information.",
+  "retrieved_doc_ids": [
+    "46",
+    "963",
+    "272",
+    "290",
+    "849"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": false,
+  "prompt_sha256": "1f7762b34a6fae7a8413b8aadf3e58efaca1a5baba8bbc44b34b2de5afe379de",
+  "answer": "Hitting someone at home can lead to an arrest, which requires contacting a lawyer and informing their family. Police can enter homes only in emergencies or with a warrant, so refusing entry is a right. [Document 1]",
+  "input_tokens": 396,
+  "output_tokens": 46,
+  "seconds": 6.02668089999861,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

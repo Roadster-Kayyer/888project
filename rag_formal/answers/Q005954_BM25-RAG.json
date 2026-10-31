@@ -1,0 +1,26 @@
+{
+  "query_id": "Q005954",
+  "doc_id": "207",
+  "query_type": "search",
+  "query": "Can you tell me about the verification method for domestic helpers?",
+  "corpus_query_index": 5953,
+  "system": "BM25-RAG",
+  "reference_answer": "Verification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.",
+  "context": "[Document 1]\nVerification of Domestic Workers:\nTo verify a domestic worker, submit an application to the local police station with required documents, including the worker's ID proof, address proof, and a declaration form. The police will conduct a background check and issue a verification report.\n\n[Document 2]\nPolice Verification for Domestic Workers:\nEmployers can apply for police verification through the local police station, providing worker's ID proof, address, and employment details. The police will conduct a background check and issue a verification report.\n\n[Document 3]\nDelayed Police Verification:\nIf your police verification is delayed, contact the concerned police station where you applied. Provide your application reference number and ask about the status. You can also visit the Tamil Nadu Police website for updates on the verification process.\n\n[Document 4]\n1. Can police force me to sign any document?\nNo, the police cannot force you to sign any document. You have the right to read and understand the contents before signing.\n\n[Document 5]\nReporting Domestic Violence:\nTo report domestic violence, call the Tamil Nadu Police helpline (1091) or visit your local police station. You can also contact the National Domestic Violence Helpline (181) for support.",
+  "retrieved_doc_ids": [
+    "207",
+    "2087",
+    "219",
+    "57",
+    "70"
+  ],
+  "trimmed_doc_ids": [],
+  "strict_gold_in_top5": true,
+  "prompt_sha256": "c7deb070a1b247f9c4c446efcecd34adea9d7ed57b4c95320a0b52ee73c9148d",
+  "answer": "Domestic workers must submit an application to the local police station with ID proof, address proof, and a declaration form. [Document 1] The police conduct a background check and issue a verification report. [Document 1, Document 2] Verification can be delayed, in which case you can check the status or visit the website. [Document 3] Police do not force signatures; workers can review documents before signing. [Document 4]",
+  "input_tokens": 368,
+  "output_tokens": 92,
+  "seconds": 11.536840599999778,
+  "hit_token_limit": false,
+  "peak_allocated_mb": 2194.54541015625
+}

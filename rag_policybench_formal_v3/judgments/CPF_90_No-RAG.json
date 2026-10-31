@@ -1,0 +1,23 @@
+{
+  "query_id": "CPF_90",
+  "system": "No-RAG",
+  "status": "ok",
+  "scores": {
+    "correctness": 1,
+    "relevance": 1,
+    "faithfulness": null,
+    "reason": "Candidate partially addresses the question but lacks specific evidence from the reference."
+  },
+  "attempts": [
+    {
+      "answer": "{\n  \"correctness\": 1,\n  \"relevance\": 1,\n  \"faithfulness\": null,\n  \"reason\": \"Candidate partially addresses the question but lacks specific evidence from the reference.\",\n  \"evidence\": \"null\"\n}\n\n\nThe candidate answer is relevant as it directly addresses the status of a Board Member/Director as self-employed and the need to contribute to CPF based on employment status. However, it does not directly cite the provided reference, which is necessary for a full assessment of faithfulness. The correctness score is 1 because the candidate correctly identifies the general self-employment status but omits the specific guidance from the reference about the differences in treatment between employees and self-employed persons. Faithfulness is marked as null due to the lack of direct evidence from the provided reference.",
+      "input_tokens": 508,
+      "output_tokens": 192,
+      "seconds": 14.771036199992523,
+      "hit_token_limit": true,
+      "peak_allocated_mb": 3241.56689453125
+    }
+  ],
+  "error": null,
+  "assessment": "provisional independent local LLM judge; human calibration required"
+}
