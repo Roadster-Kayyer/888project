@@ -1,11 +1,4 @@
-<!--
- * @Author: 计都 3038199036@qq.com
- * @Date: 2026-10-30 01:25:39
- * @LastEditors: 计都 3038199036@qq.com
- * @LastEditTime: 2026-11-01 01:10:37
- * @FilePath: \undefinedc:\Users\lenovo\Desktop\888\project\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
+
 # Experiment setup
 
 ## Environment
@@ -22,7 +15,6 @@
 ## Device
 
 - Windows laptop; RTX 3060 Laptop GPU with **6 GiB VRAM**; about 16 GB RAM.
-- Model cache: `D:\CodexModels\LegalFAQ\hub`.
 
 ## Approximate time
 
